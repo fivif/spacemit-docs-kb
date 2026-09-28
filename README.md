@@ -19,7 +19,7 @@
 ├── README.md
 ├── zh/                      中文文档 805 篇（保持官方目录结构）
 ├── en/                      英文文档 690 篇
-├── _assets/                 文档引用图片（按官方资源仓库镜像）
+├── _assets/                 图片本地副本（已 .gitignore；正文改用 CDN 直链，离线时可切换回本地）
 ├── _meta/
 │   ├── manifest.json        每篇元数据：标题/来源/更新时间/字数/章节锚点/sha256
 │   ├── searchindex.jsonl    轻量检索索引（一行一篇，可直接喂检索）
@@ -71,8 +71,14 @@ updated: "2026-08-27 14:43:33"
 ### 更新
 
 ```bash
-# 全量重新抓取（会覆盖本地改动）
+# 全量重新抓取，图片落到本地 _assets/（离线可用）
 python _tools/crawl_spacemit_docs.py --out . --langs zh,en --workers 16
+
+# 全量重新抓取，图片引用直接指向官方 CDN（轻量）
+python _tools/crawl_spacemit_docs.py --out . --remote-images
+
+# 把已有的本地图片引用批量还原为 CDN 直链
+python _tools/to_remote_images.py --kb . --apply
 
 # 只补失败图片并就地改写 Markdown 引用
 python _tools/refetch_missing.py --kb . --apply
