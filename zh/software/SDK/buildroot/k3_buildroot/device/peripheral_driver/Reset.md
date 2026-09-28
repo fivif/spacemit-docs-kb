@@ -20,7 +20,7 @@ Reset 系统负责给 SoC 内部各个模块提供复位控制功能，让模块
 
 Linux 提供了一个复位管理框架 Reset Controller Framework，为设备驱动提供统一的复位操作接口，使设备驱动不必关心复位硬件实现的具体细节。
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/RESET.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/RESET.png)
 
 Reset Controller Framework 包括以下核心组成部分：
 

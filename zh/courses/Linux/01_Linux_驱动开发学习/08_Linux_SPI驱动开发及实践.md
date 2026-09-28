@@ -16,7 +16,7 @@ SPI（Serial Peripheral Interface）是一种常用的高速全双工同步串�
 <center>
     <img style="width: 300px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/08_linux_spi_9.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/08_linux_spi_9.png">
     <br>
 </center>
 
@@ -38,7 +38,7 @@ SPI（Serial Peripheral Interface）是一种常用的高速全双工同步串�
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/08_linux_spi_0.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/08_linux_spi_0.png">
     <br>
 </center>
 
@@ -652,7 +652,7 @@ make dtbs
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/00_linux_env_6.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/00_linux_env_6.png">
     <br>
 </center>
 
@@ -666,7 +666,7 @@ ifconfig
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/00_linux_env_2.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/00_linux_env_2.png">
     <br>
 </center>
 
@@ -684,7 +684,7 @@ sudo scp arch/riscv/boot/dts/spacemit/k1-x_MUSE-Pi-Pro.dtb bianbu@10.0.91.67:/ho
 <center>
     <img style="width: 800px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/00_linux_env_7.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/00_linux_env_7.png">
     <br>
 </center>
 
@@ -710,7 +710,7 @@ ls /proc/device-tree/soc/spi@d401c000
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/08_linux_spi_1.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/08_linux_spi_1.png">
     <br>
 </center>
 
@@ -744,7 +744,7 @@ vim Makefile
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/08_linux_spi_2.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/08_linux_spi_2.png">
     <br>
 </center>
 
@@ -756,7 +756,7 @@ make
 <center>
     <img style="width: 500px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/08_linux_spi_6.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/08_linux_spi_6.png">
     <br>
 </center>
 
@@ -765,7 +765,7 @@ make
 <center>
     <img style="width: 500px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/08_linux_spi_7.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/08_linux_spi_7.png">
     <br>
 </center>
 
@@ -783,7 +783,7 @@ scp -r ~/08_spi_test/ bianbu@10.0.91.67:/home/bianbu
 <center>
     <img style="width: 500px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/08_linux_spi_8.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/08_linux_spi_8.png">
     <br>
 </center>
 
@@ -800,7 +800,7 @@ sudo insmod spi_drv.ko
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/08_linux_spi_5.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/08_linux_spi_5.png">
     <br>
 </center>
 
@@ -824,7 +824,7 @@ sudo ./spi_test /dev/spi_oled
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/08_linux_spi_3.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/08_linux_spi_3.png">
     <br>
 </center>
 
@@ -834,6 +834,6 @@ sudo ./spi_test /dev/spi_oled
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/08_linux_spi_4.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/08_linux_spi_4.png">
     <br>
 </center>

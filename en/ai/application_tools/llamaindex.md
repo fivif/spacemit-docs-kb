@@ -40,7 +40,7 @@ rustc --version
 
 If the following output appears, the Rust installation has completed successfully:
 
-![Rust installation output](../../../_assets/docs-ai/static/rust-install.png)
+![Rust installation output](https://cdn-resource.spacemit.com/ai/docs-ai/en/static/rust-install.png)
 
 ### 1.2 Install LlamaIndex
 

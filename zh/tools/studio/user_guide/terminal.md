@@ -12,13 +12,13 @@ updated: "2026-07-27 13:59:20"
 
 > 注：设备需已经连接
 
-![](../../../../_assets/docs-tool/studio/static/terminal_00.png)
+![](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/terminal_00.png)
 
 ## 文件管理
 
 左侧的文件管理面板提供设备文件系统浏览能力。
 
-![](../../../../_assets/docs-tool/studio/static/terminal_03.png)
+![](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/terminal_03.png)
 
 ### 工具栏
 
@@ -49,15 +49,15 @@ updated: "2026-07-27 13:59:20"
 - **+**：新建终端标签
 
 - **SSH**：通过 SSH 连接设备，打开远程终端。点击后弹出配置窗口，填写 SSH 端口、用户名和密码后即可连接
-  ![设置SSH参数](../../../../_assets/docs-tool/studio/static/terminal_01.png)
+  ![设置SSH参数](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/terminal_01.png)
 
 - **ADB**：通过 ADB 协议连接设备，打开调试 shell。
 
 - **打开串口**：打开串口终端，用于查看启动日志和底层调试。点击后弹出配置窗口，选择串口设备并设置波特率等参数后连接
-  ![设置串口参数](../../../../_assets/docs-tool/studio/static/systool_serial_01.png)
+  ![设置串口参数](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/systool_serial_01.png)
 
 - **左右分屏**：水平分割终端区域，在左右两侧创建独立的终端面板
-  ![终端分屏示例](../../../../_assets/docs-tool/studio/static/terminal_02.png)
+  ![终端分屏示例](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/terminal_02.png)
 - **上下分屏**：垂直分割终端区域，在上下两部分创建独立的终端面板
 
   > **分屏限制：** 单个方向最多支持 5 个分屏，全局最多支持 16 个终端面板。

@@ -16,7 +16,7 @@ K3 SDK integrates IGH EtherCAT 1.6.8 master protocol stack and customized real-t
 
 ### Feature Overview
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/EtherCAT.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/EtherCAT.png)
 
 The architecture of the EtherCAT Master is shown in the figure above and consists of four main components:
 

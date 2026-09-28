@@ -17,7 +17,7 @@ updated: "2026-04-02 18:36:32"
 - 硬件平台：对于每款待测器件（LPDDR4x SDRAM、eMMC5.1 FLASH），至少需配置 10 台 K1 DEB1 硬件平台作为验证平台。
 - 散热要求：所有测试平台统一配备如下图所示的指定型号散热片。
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/k1_deb1_00.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/k1_deb1_00.png" alt="" width="600">
 
 ### 1.2 测试环境
 
@@ -50,7 +50,7 @@ updated: "2026-04-02 18:36:32"
 
 - 接口定义：K1 DEB1 硬件平台的接口定义如图所示。
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/k1_deb1_01.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/k1_deb1_01.png" alt="" width="600">
 
 - 供电要求：
   - PD 3.0 电源或 12V DC-IN
@@ -59,7 +59,7 @@ updated: "2026-04-02 18:36:32"
   - 使用 3.3V 串口连接 K1 DEB1 的 UART0
   - 用于命令输入及日志监控
 - 串口配置：
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/serial_config.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/serial_config.png" alt="" width="600">
 
 ### 2.3 镜像获取
 
@@ -67,11 +67,11 @@ updated: "2026-04-02 18:36:32"
 
 2. 选择版本：选择最新的发布日期的版本。
 
-   <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/bianbu_image_00.png" alt="" width="600">
+   <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/bianbu_image_00.png" alt="" width="600">
 
 3. 下载包：点击下载其中一个桌面版本的安装包（即 GNOME 或者 LXQt），建议下载 `.zip` 的安装包。
 
-   <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/bianbu_image_01.png" alt="" width="600">
+   <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/bianbu_image_01.png" alt="" width="600">
 
 ### 2.4 DDR RANK参数配置
 
@@ -85,17 +85,17 @@ updated: "2026-04-02 18:36:32"
 1. 点击 “量产工具”。
 2. 在 "写号工具" 里点击 "配置自定义字段"。
 
-   <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/titan_00.png" alt="" width="600">
+   <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/titan_00.png" alt="" width="600">
 
 3. 找到 ddr_cs_num。
 4. 确认此项为 “启用” （注意：其他的选项如图显示 “禁用”）。
 5. 点击 "保存"。
 
-   <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/titan_01.png" alt="" width="600">
+   <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/titan_01.png" alt="" width="600">
 
 6. 勾选 ddr_cs_num 如下图。
 
-   <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/titan_02.png" alt="" width="600">
+   <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/titan_02.png" alt="" width="600">
 
 ### 2.5 镜像烧录
 

@@ -16,7 +16,7 @@ updated: "2026-06-22 18:34:36"
 
 **硬件连接示意：**
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.4_Sensor_System/images/imu1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.2_ROS2_API/6.2.4_Sensor_System/images/imu1.png)
 
 **查看设备节点：**
 
@@ -82,6 +82,6 @@ export QT_QPA_PLATFORM=xcb # Humble版本使用
 ros2 launch rdk_visualization display_imu.launch.py
 ```
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.4_Sensor_System/images/imu2.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.2_ROS2_API/6.2.4_Sensor_System/images/imu2.png)
 
 晃动 imu，红色小方块的位姿也会随之变化

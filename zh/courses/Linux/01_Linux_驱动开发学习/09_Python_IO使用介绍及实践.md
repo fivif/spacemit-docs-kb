@@ -64,7 +64,7 @@ Successfully installed colorzero-2.0 gpiozero-2.0.5 lgpio-0.2.2.0 pyserial-3.5 s
 <center>
     <img style="width: 600px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/00_linux_env_1.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/00_linux_env_1.png">
     <br>
 </center>
 
@@ -73,7 +73,7 @@ GPIO编号：
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/09_io_1.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/09_io_1.png">
     <br>
 </center>
 
@@ -92,7 +92,7 @@ pinout
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/09_io_2.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/09_io_2.png">
     <br>
 </center>
 
@@ -105,7 +105,7 @@ pinout
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/01_led_2.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/01_led_2.png">
     <br>
 </center>
 
@@ -148,7 +148,7 @@ ifconfig
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/00_linux_env_2.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/00_linux_env_2.png">
     <br>
 </center>
 
@@ -177,7 +177,7 @@ python led.py
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/09_io_3.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/09_io_3.png">
     <br>
 </center>
 
@@ -209,7 +209,7 @@ python pwm.py
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/09_io_4.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/09_io_4.png">
     <br>
 </center>
 
@@ -221,7 +221,7 @@ python pwm.py
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/09_io_5.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/09_io_5.png">
     <br>
 </center>
 
@@ -248,7 +248,7 @@ python input.py
 <center>
     <img style="width: 450px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/09_io_6.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/09_io_6.png">
     <br>
 </center>
 

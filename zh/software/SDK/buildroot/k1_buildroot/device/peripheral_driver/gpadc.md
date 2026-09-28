@@ -16,7 +16,7 @@ IIO 是 Linux 内核中的一个子系统，专门用于处理工业控制、测
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/gpadc.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/gpadc.png)  
 
 1. **IIO Core**：提供驱动程序和用户空间之间的接口，负责设备枚举、注册和管理。  
 2. **IIO 设备驱动程序**：用于控制和读取特定 IIO 设备的代码。  

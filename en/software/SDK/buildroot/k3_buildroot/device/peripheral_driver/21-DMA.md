@@ -18,7 +18,7 @@ This module covers the DMA controller (that is, the DMA master), which is mainly
 
 ### Functionality
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/dma.JPEG)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/dma.JPEG)
 
 By combining the DMA framework with the K3 platform DMA controller driver, the following transfer directions are supported:
 

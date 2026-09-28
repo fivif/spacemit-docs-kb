@@ -319,7 +319,7 @@ jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --notebook-dir=~/
 
 你可以看到如下输出
 
-![](../../../../../_assets/docs-bianbu/development/static/jupyter2.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/jupyter2.png)
 
 将这一段复制并保存到你的记事本 
 
@@ -331,7 +331,7 @@ http://127.0.0.1:8888/lab?token=1e41eaf84a91a47b00d1c0c2ed3a43632c3999f79d36803c
 
 新建一个终端，使用 `ip addr` 命令查看板子 IP 地址
 
-![](../../../../../_assets/docs-bianbu/development/static/ipaddr1.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/ipaddr1.png)
 
 在本示例中，`10.0.91.183` 即为板子的 IP 地址，在你的场景中，这可能是如 `192.168.x.x` 的值
 
@@ -345,7 +345,7 @@ http://10.0.91.183:8888/lab?token=1e41eaf84a91a47b00d1c0c2ed3a43632c3999f79d3680
 
 打开你的 x86 主机上的浏览器，在地址栏粘贴刚刚得到的 <http://10.0.91.183:8888/lab?token=1e41eaf84a91a47b00d1c0c2ed3a43632c3999f79d36803c> 你将看到如下界面：
 
-![](../../../../../_assets/docs-bianbu/development/static/jupyter3.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/jupyter3.png)
 
 现在你可以使用 Notebook 来交互式执行和调试代码，也可以打开 Terminal，Terminal 默认激活了虚拟环境，因此你可以 `pip` 安装想要的包，随后刷新环境以使用它。
 
@@ -355,19 +355,19 @@ http://10.0.91.183:8888/lab?token=1e41eaf84a91a47b00d1c0c2ed3a43632c3999f79d3680
 
 1. 使用 VSCode 打开一个空白文件夹，新建一个 `demo.ipynb` 文件，如下：
 
-   ![](../../../../../_assets/docs-bianbu/development/static/vscode1.png)
+   ![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/vscode1.png)
 
 2. 点击 **选择内核**，选择 **现有 Jupyter 服务器** 粘贴我们刚才保存的链接，如下
 
-   ![](../../../../../_assets/docs-bianbu/development/static/vscode-remote2.png)
+   ![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/vscode-remote2.png)
 
 3. 按下 **Enter 键**，出现：
 
-   ![](../../../../../_assets/docs-bianbu/development/static/vscode-remote3.png)
+   ![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/vscode-remote3.png)
 
 4. 再次按下 **Enter 键**
 
-   ![](../../../../../_assets/docs-bianbu/development/static/vscode-remote4.png)
+   ![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/vscode-remote4.png)
 
 5. 鼠标点击 Python 3 (ipykernel) 即可
 
@@ -375,7 +375,7 @@ http://10.0.91.183:8888/lab?token=1e41eaf84a91a47b00d1c0c2ed3a43632c3999f79d3680
 
 你可以运行一些示例代码来检查一切是否正常工作
 
-![](../../../../../_assets/docs-bianbu/development/static/vscode-remote5.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/vscode-remote5.png)
 
 当你在虚拟环境中安装了新的包时，点击重启就可以刷新环境。
 
@@ -398,27 +398,27 @@ http://10.0.91.183:8888/lab?token=1e41eaf84a91a47b00d1c0c2ed3a43632c3999f79d3680
 
 #### MUSE Pi
 
-![alt text](../../../../../_assets/docs-bianbu/development/static/MUSE-Pi-GPIO.png)
+![alt text](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/MUSE-Pi-GPIO.png)
 
 #### BPI-F3
 
-![alt text](../../../../../_assets/docs-bianbu/development/static/BPI-F3-GPIO.png)
+![alt text](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/BPI-F3-GPIO.png)
 
 #### MUSE BOOK
 
-![alt text](../../../../../_assets/docs-bianbu/development/static/MUSE-Book-GPIO.png)
+![alt text](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/MUSE-Book-GPIO.png)
 
 #### MUSE Card
 
-![alt text](../../../../../_assets/docs-bianbu/development/static/MUSE-Card-GPIO.png)
+![alt text](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/MUSE-Card-GPIO.png)
 
 #### MUSE Pi Pro
 
-![](../../../../../_assets/docs-bianbu/development/static/MUSE-Pi-Pro-GPIO.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/MUSE-Pi-Pro-GPIO.png)
 
 #### RV4B
 
-![](../../../../../_assets/docs-bianbu/development/static/RV4B-GPIO.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/RV4B-GPIO.png)
 
 输入表示引脚可以识别电平变化，常用于 gpiozero 读取按钮状态
 

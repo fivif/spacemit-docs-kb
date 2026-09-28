@@ -20,7 +20,7 @@ AI Robot 致力于推广 RISC-V 架构在机器人领域的应用，加速构建
 
 AI Robot 机器人解决方案集成大语言模型能力，实现自然语言交互与多任务智能编排，广泛适配无人机、清洁机器人、四足机器人、机械臂、AI 智能玩具等多类型智能终端的落地应用。
 
-![](../../../../../_assets/docs-ros/k1/images/bianbu_ros_framework.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/images/bianbu_ros_framework.jpg)
 
 系统方面，AI Robot 方案基于 ROS2_LXQT 机器人操作系统，面向 AI 机器人领域提供完整系统参考。ROS2_LXQT 以进迭时空自研操作系统 Bianbu OS 为内核底座，以 ROS2 为运行核心，集成深度优化的机器人中间件和 SDK，涵盖多媒体中间件 MediaEngine、RVV优化库 RVV-Opt Libs 和开发套件 RDK。
 

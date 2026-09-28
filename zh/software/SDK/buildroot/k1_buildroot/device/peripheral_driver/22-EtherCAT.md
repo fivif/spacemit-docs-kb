@@ -16,7 +16,7 @@ IGH EtherCAT 主站是一个用于高性能实时通信的内核模块，支持�
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/EtherCAT.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/EtherCAT.png)  
 
 EtherCAT主站架构如上图所示，由四个部分构成：  
 - **应用层：** 用户应用程序，负责实现工业控制逻辑，通过接口与 EtherCAT 主站驱动交互。  

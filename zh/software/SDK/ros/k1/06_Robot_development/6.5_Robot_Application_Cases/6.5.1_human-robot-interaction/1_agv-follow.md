@@ -27,23 +27,23 @@ updated: "2026-06-22 18:35:20"
 
 ## 硬件连接图
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.1_human-robot-interaction/images/agv1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.1_human-robot-interaction/images/agv1.png)
 
 激光雷达在本案例中未使用。
 
 **俯视图**
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.1_human-robot-interaction/images/agv2.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.1_human-robot-interaction/images/agv2.png)
 
 供电使用底板单片机的5V供电输出，见：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.1_human-robot-interaction/images/uJghXh9kQb.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.1_human-robot-interaction/images/uJghXh9kQb.png)
 
 
 
 ## 案例框架和控制流程
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/agv-follow-framework.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/agv-follow-framework.png)
 
 上图展示了 AGV 小车跟随案例在 ROS2 系统中的整体框架与流程控制，主要由以下四个节点组成：
 

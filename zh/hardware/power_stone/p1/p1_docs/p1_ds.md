@@ -75,13 +75,13 @@ SpacemiT® Power Stone™ P1 是一款多通道电源管理芯片（PMIC），�
 
 ## 2. 模块框图
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/CVgqbZypMo36kHx5vpEcOhPAnMg.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/CVgqbZypMo36kHx5vpEcOhPAnMg.png)
 
 ## 3. 引脚封装图
 
 P1 引脚封装图如下。
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/LF0fbF5vZoXL6Mx8XdAcTghIncS.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/LF0fbF5vZoXL6Mx8XdAcTghIncS.png)
 
 P1 引脚类型定义如下表所示。
 
@@ -542,11 +542,11 @@ PWRKY 引脚内部上拉至 VSYS 电压，具备以下多功能性：
 
 PWRKY 按键开机模式相关事件触发示意图如下图所示
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/YA21bY2dBoZiMmx6lAhc69klnNc.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/YA21bY2dBoZiMmx6lAhc69klnNc.png)
 
 PWRKY 按键关机模式相关事件触发示意图如下图所示
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/ZpJkbaNCmorgpVxLrEScWBmznNf.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/ZpJkbaNCmorgpVxLrEScWBmznNf.png)
 
 #### 6.1.2 INT 引脚
 
@@ -719,7 +719,7 @@ OUT_32K 引脚可输出内部慢时钟或晶振时钟，通过 RTC_CTRL[3]（表
 
 系统工作模式总共有 5 种：RESET 模式，RTC 模式，关机模式，开机模式和睡眠模式，会根据不同的事件进行模式切换，下图为模式切换状态图。对应的切换事件主要有：开机事件、关机事件、复位事件、睡眠事件、唤醒事件。
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/VZFIbb6v7oKNUhx7IwZcN8PTnig.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/VZFIbb6v7oKNUhx7IwZcN8PTnig.png)
 
 #### 6.2.1 复位模式
 
@@ -882,7 +882,7 @@ PMIC 电源轨（除了 AONLDO）的开机、关机、睡眠、唤醒流程都�
 - 最大支持 23 个 SLOT ID（6 个 EXT_EN + 6 个 BUCK + 11 个 LDO）
 - 典型应用示例：DLDO1/DLDO4 绑定至特定 PWRCTRL（见下图 序列控制器时序控制示意图）
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/B0DdbO3J4o7ua5xe5c9cd4JQnNh.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/B0DdbO3J4o7ua5xe5c9cd4JQnNh.png)
 
 下表罗列各模式和流程下电源轨状态和输出电压表
 
@@ -939,7 +939,7 @@ PMIC 的开机阈值除了通过 MTP 配置外，硬件本身也会根据情况�
 
    - 可通过置位表 7-127 SYS_CFG2[6]禁用阈值调整
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/GNJUbF6SzooXCLxab3oc585PnAP.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/GNJUbF6SzooXCLxab3oc585PnAP.png)
 
 #### 6.4.2 开机流程
 
@@ -988,7 +988,7 @@ SLOT 机制与电源轨控制
 
 下图为开机流程时序图
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/T5TCbdx84oCR2rxAATncgOzonje.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/T5TCbdx84oCR2rxAATncgOzonje.png)
 
 #### 6.4.3 关机事件类型
 
@@ -1045,7 +1045,7 @@ PMIC 支持以下关机触发条件：
 
 关机流程时序图如下图所示
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/DvpJbqt17o1b6wxx4qIcpjiCn3e.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/DvpJbqt17o1b6wxx4qIcpjiCn3e.png)
 
 #### 6.4.5 睡眠事件
 
@@ -1115,12 +1115,12 @@ PMIC 支持以下关机触发条件：
    - 进入 RESET 模式
      当 PWRKY 按键配置为长按 12 秒复位且发生按键长按事件时，PMIC 将复位所有逻辑并进入 RESET 模式（如下图图复位流程所示）。
 
-   ![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/Kn0rb2ftHoLXCix6icrcFvAQnQe.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/Kn0rb2ftHoLXCix6icrcFvAQnQe.png)
 
    - 进入 MTP READ2 模式
    对于其他复位事件，PMIC 将退出关机模式并进入 MTP READ2 模式（如下图冷复位流程所示）。
 
-   ![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/TT2rbFovKoUyN3xeGYhcEcH4nsh.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/TT2rbFovKoUyN3xeGYhcEcH4nsh.png)
 
 2. 复位源屏蔽行为
    在复位源触发进入关机模式的 SD_RST_TIME 期间，所有开机源将被屏蔽，即开机源无效。
@@ -1317,7 +1317,7 @@ PMIC 内部集成了 12 位 ADC，其功能如下：
 
 ADC 模块工作示意图如下：
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/ASrNbFEj9o2VABx3wLhc9ptmnMG.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/ASrNbFEj9o2VABx3wLhc9ptmnMG.png)
 
 ADC 测量通道
 
@@ -1363,7 +1363,7 @@ ADC 测量通道
 
 > 注意：转换过程中不可随意更改配置（如通道选择、采样频率、ADC_AUTO 等），否则无法保证转换结果正确性；若转换过程中软件清零 ADC_GO，将中断当前转换，结果不保存，通道扫描将从头开始。
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/EaBCbpxDKoe0YFx1T5wcebDXnad.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/EaBCbpxDKoe0YFx1T5wcebDXnad.png)
 
 #### 6.13.3 自动模式
 
@@ -1386,7 +1386,7 @@ ADC 测量通道
 
 在配置完对应的通道使能后，每完成一次转换，ADC 内部通道选择自动切换到下一次使能的通道，完成一轮扫描后，切换到最开始使能的通道，如下图 ADC 自动扫描示意图所示。
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/SVmFbhfUEoKnR1xVm5Zcy3LQnQu.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/SVmFbhfUEoKnR1xVm5Zcy3LQnQu.png)
 
 当需要切换扫描顺序或从头开始扫描，有两种方法：
 
@@ -1406,7 +1406,7 @@ ADC 测量通道
 
 下图为 ADC 结果滤波示意图
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/P1kvbSkWNof1hLx61SocDgBNn5d.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/P1kvbSkWNof1hLx61SocDgBNn5d.png)
 
 ### 6.14 RTC 模块
 
@@ -2876,10 +2876,10 @@ TICK 的产生是周期性的，触发后可配置成 1s 或 1min（表 7-33 RTC
 
 ## 8. 封装信息
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/YNjYbwpqRoi8CGxVRm2clLZQnRN.png)
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/QleTbkKomo7UoSxLulfcTeOtnAY.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/YNjYbwpqRoi8CGxVRm2clLZQnRN.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/QleTbkKomo7UoSxLulfcTeOtnAY.png)
 
 ## 9. Tray 盘
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/IQgfbtLlToY6CExeW0ncN709nK4.png)
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/EvxzbOvUgoYLonxfLBFcbGYOnlf.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/IQgfbtLlToY6CExeW0ncN709nK4.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/EvxzbOvUgoYLonxfLBFcbGYOnlf.png)

@@ -26,17 +26,17 @@ updated: "2026-06-22 18:34:19"
 
 ## 传感器连接示意
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/usb_camera_python.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/usb_camera_python.jpg)
 
 ## 查找设备号
 
 1. 输入： `ls /dev/video*`，输出如下：
 
-   ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t1.png)
+   ![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t1.png)
 
 2. 拔掉相机，再次输入 `ls /dev/video*`
 
-   ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t2.png)
+   ![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t2.png)
 
    可以确认设备号为 `/dev/video20` 和 `/dev/video21` ，对于一般 USB 相机，使用数值较小的设备号即可，本示例中为 `/dev/video20`
 
@@ -46,17 +46,17 @@ updated: "2026-06-22 18:34:19"
 
    出现如下输出：
 
-   ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t3.png)
+   ![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t3.png)
 
 2. 使用 `v4l2-ctl -d /dev/video20 --all` 查看 `/dev/video20` 的详细信息
 
    输出带有 Format Video Capture 字段一般是用于视频帧捕获的节点
 
-   ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t5.jpg)
+   ![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t5.jpg)
 
 3. 使用 `v4l2-ctl -d /dev/video21 --all` 查看 `/dev/video21` 的详细信息
 
-   ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t6.png)
+   ![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t6.png)
 
    出现：**UVC Payload Header Metadata 捕获接口** —— 即 **视频元数据捕获接口**，它不用于视频图像帧本身
 

@@ -53,13 +53,13 @@ updated: "2026-09-11 11:49:34"
 
 ### 系统架构图
 
-![多路视频分析系统架构图](../../../../_assets/docs-ai/solutions/static/multi_stream_vision/system-architecture.png)
+![多路视频分析系统架构图](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/multi_stream_vision/system-architecture.png)
 
 系统以 `PipelineManager` 为中心管理多个通道实例。每个通道共享 K3 的 VPU、GPU、AI 计算资源和 DDR 缓冲区，但拥有独立的视频处理状态；界面层通过 Qt 信号与槽接收视频帧、分析结果和性能统计。
 
 ### 工作流程
 
-![多路视频分析工作流程图](../../../../_assets/docs-ai/solutions/static/multi_stream_vision/workflow.png)
+![多路视频分析工作流程图](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/multi_stream_vision/workflow.png)
 
 > **图例**：实线表示当前仓库已实现的数据通路；虚线表示尚未支持的网络视频流接入路径。网络流接入完成后，同样进入 MPP/VPU 进行硬件解码。
 
@@ -173,7 +173,7 @@ yolo-demo
 - **检测数**：当前帧保留的检测目标数量
 - **延迟（ms）**：当前帧在解码队列、前处理、推理和后处理各阶段的累计耗时
 
-![](../../../../_assets/docs-ai/solutions/static/multi_stream_vision/mul-stream-video.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/multi_stream_vision/mul-stream-video.png)
 
 > 💡 **提示**：统计值会随模型、视频内容、通道数、显示模式、系统负载和散热状态变化，截图中的数据仅表示当次实机运行状态。
 
@@ -216,7 +216,7 @@ sudo ./scripts/download_models.sh /usr/share/yolo-demo
 
 取消勾选 **启用视频显示** 后，应用将隐藏视频网格，仅显示控制面板和运行统计。推理流水线会继续运行，但不再构造显示帧或上传 OpenGL 纹理，可减少 GPU 和 DDR 带宽占用。
 
-![](../../../../_assets/docs-ai/solutions/static/multi_stream_vision/mul-stream-stats.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/multi_stream_vision/mul-stream-stats.png)
 
 需要恢复视频时，再次勾选 **启用视频显示**。
 

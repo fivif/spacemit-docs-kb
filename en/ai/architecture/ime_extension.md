@@ -135,7 +135,7 @@ the input matrices `A`, `B`, and the output matrix `C` are all stored in the RIS
   > - `LMUL = 1` only
   > - `W` is implicitly determined by instruction semantics
 
-  ![Figure 1: Matrix tile geometry and parameter relationships](../../../_assets/docs-ai/architecture/images/ime_extension_png/fig0vlen256.png)
+  ![Figure 1: Matrix tile geometry and parameter relationships](https://cdn-resource.spacemit.com/ai/docs-ai/en/architecture/images/ime_extension_png/fig0vlen256.png)
 
   **Figure 1.** Matrix tile geometry and element ordering under the configuration:
   32-element vector register, `λ = 2`, `W = 4`, `VLEN = 256`, `LMUL = 1`.
@@ -180,7 +180,7 @@ the input matrices `A`, `B`, and the output matrix `C` are all stored in the RIS
   - Tile `A` and tile `C` are stored in row-major order
   - Tile `B` is stored in column-major order
 
-  ![Figure 2: Matrix tile layout under LMUL scaling](../../../_assets/docs-ai/architecture/images/ime_extension_png/fig1ime-tile-lmul_2_4.png)
+  ![Figure 2: Matrix tile layout under LMUL scaling](https://cdn-resource.spacemit.com/ai/docs-ai/en/architecture/images/ime_extension_png/fig1ime-tile-lmul_2_4.png)
 
   **Figure 2.** Matrix tile layout under `LMUL = 2` (left) and `LMUL = 4` (right).
   Blue arrows indicate contiguous elements that belong to the same tile when accessed in linear vector order.
@@ -481,7 +481,7 @@ For matrix computation instructions:
 The layouts of `vs1`, `vs2`, and `vd` are illustrated in Figure 3.
 Tile `A` and tile `C` follow row-major ordering, while tile `B` follows column-major ordering.
 
-![Figure 3: 2D matrix tile layout in vector registers.](../../../_assets/docs-ai/architecture/images/ime_extension_png/fig2tilelayout.png)
+![Figure 3: 2D matrix tile layout in vector registers.](https://cdn-resource.spacemit.com/ai/docs-ai/en/architecture/images/ime_extension_png/fig2tilelayout.png)
 **Figure 3.** Example layout of 2D matrix tiles in `vs1`, `vs2`, and `vd` under
 `VLEN = 256`, `W = 4`, and `λ = 2`.
 
@@ -612,7 +612,7 @@ $$
 
 The geometric relationship of the matrix multiplication is illustrated in Figure 4, where the left side represents matrix `A` and the right side represents matrix `B`.
 
-![Figure 4: Matrix computation for the smt.vmadot base path](../../../_assets/docs-ai/architecture/images/ime_extension_png/fig3vmadot.png)
+![Figure 4: Matrix computation for the smt.vmadot base path](https://cdn-resource.spacemit.com/ai/docs-ai/en/architecture/images/ime_extension_png/fig3vmadot.png)
 **Figure 4.** Matrix computation for `smt.vmadot` under
 `VLEN = 1024`, `λ = 4`, `W = 4`, and `LMUL = 1`.
 The left side shows the `A` tile, and the right side shows the `B` tile.
@@ -758,7 +758,7 @@ Its computation is identical to the base Int8 matrix multiplication, except that
 
 Figure 5 illustrates the window movement for `slide = 1 / 2 / 3`, as well as how elements are assembled when the window spans across `vs1` and `vs1+1`.
 
-![Figure 5: Integer sliding-window matrix multiplication (slide = 1)](../../../_assets/docs-ai/architecture/images/ime_extension_png/fig4vmadotslide.png)
+![Figure 5: Integer sliding-window matrix multiplication (slide = 1)](https://cdn-resource.spacemit.com/ai/docs-ai/en/architecture/images/ime_extension_png/fig4vmadotslide.png)
 **Figure 5.** Sliding-window data access and computation for `smt.vmadot1` (i.e., `slide = 1`) under
 `VLEN = 1024`, `λ = 4`, `W = 4`, and `LMUL = 1`.
 
@@ -918,7 +918,7 @@ In this path, for every group of four source elements from operand `A`, two vali
 
 **Figure 6** illustrates the 4:2 structured sparsity reconstruction process, showing how two valid elements are selected from each group of four candidates based on the mask.
 
-![Figure 6: 4:2 structured sparsity reconstruction and smt.vmadot.sp computation.](../../../_assets/docs-ai/architecture/images/ime_extension_png/fig5vmadotsp.png)
+![Figure 6: 4:2 structured sparsity reconstruction and smt.vmadot.sp computation.](https://cdn-resource.spacemit.com/ai/docs-ai/en/architecture/images/ime_extension_png/fig5vmadotsp.png)
 **Figure 6.** Sparse reconstruction and multiply-accumulate flow for
 `smt.vmadot.sp v16, v2, v8, v0, i8` under
 `VLEN = 1024`, `λ = 4`, `W = 4`, and `LMUL = 1`.
@@ -1183,7 +1183,7 @@ This instruction set defines a mixed-precision computation path for block quanti
 
 Figure 7 illustrates the computation flow of this path.
 
-![Figure 7: Block-quantized integer matrix multiplication (smt.vmadot.hp) illustration](../../../_assets/docs-ai/architecture/images/ime_extension_png/fig6vmadothp.png)
+![Figure 7: Block-quantized integer matrix multiplication (smt.vmadot.hp) illustration](https://cdn-resource.spacemit.com/ai/docs-ai/en/architecture/images/ime_extension_png/fig6vmadothp.png)
 **Figure 7.** Computation flow of `smt.vmadot.hp v16, v2, v8, v0, i8` under VLEN=1024, λ=8, W=2, LMUL=1.
 
 ### 5.4.2 Instruction Variants
@@ -1392,7 +1392,7 @@ $$
 
 **Figure 8** illustrates the computation flow of this path.
 
-![Figure 8: smt.vfwmadot floating-point matrix multiplication.](../../../_assets/docs-ai/architecture/images/ime_extension_png/fig7fwmadot.png)
+![Figure 8: smt.vfwmadot floating-point matrix multiplication.](https://cdn-resource.spacemit.com/ai/docs-ai/en/architecture/images/ime_extension_png/fig7fwmadot.png)
 **Figure 8.** Computation flow of `smt.vfwmadot v16, v2, v8` under VLEN=1024, λ=8, W=2, LMUL=1.
 
 ### 6.1.2 Instruction Variants
@@ -1544,7 +1544,7 @@ int main()
 
 `smt.vfwmadot1`, `smt.vfwmadot2`, and `smt.vfwmadot3` have the same computation type as `smt.vfwmadot`, but introduce a fixed sliding-window offset on the operand `A` during load.
 
-![Figure 9: illustrates the sliding-window computation of `smt.vfwmadot1`](../../../_assets/docs-ai/architecture/images/ime_extension_png/fig8fwmadotslide.png)
+![Figure 9: illustrates the sliding-window computation of `smt.vfwmadot1`](https://cdn-resource.spacemit.com/ai/docs-ai/en/architecture/images/ime_extension_png/fig8fwmadotslide.png)
 **Figure 9** illustrates the sliding-window computation of `smt.vfwmadot1` under `VLEN=1024`, `λ=8`, `W=2`, `LMUL=1`.
 
 ### 6.2.2 Instruction Variants
@@ -1746,7 +1746,7 @@ These instructions are functionally similar to those defined in the community `Z
 
 The behavior of `pack` and `unpack` instructions is illustrated in Figure 10.
 
-![Figure 10: the interleaving and de-interleaving behavior of `pack` and `unpack` instructions.](../../../_assets/docs-ai/architecture/images/ime_extension_png/fig9packunpack.jpg)
+![Figure 10: the interleaving and de-interleaving behavior of `pack` and `unpack` instructions.](https://cdn-resource.spacemit.com/ai/docs-ai/en/architecture/images/ime_extension_png/fig9packunpack.jpg)
 **Figure 10** shows the interleaving and de-interleaving behavior of `pack` and `unpack` instructions.
 
 ## 7.2 Instruction Summary
@@ -1851,7 +1851,7 @@ for (p = 0; p < (VLEN * LMUL / pack_len); p++) {
 
 ### 7.3.1 Usage Example
 
-![Figure 11: Data layout transformation example of the vpack instruction.](../../../_assets/docs-ai/architecture/images/ime_extension_png/fig10packexample.jpg)
+![Figure 11: Data layout transformation example of the vpack instruction.](https://cdn-resource.spacemit.com/ai/docs-ai/en/architecture/images/ime_extension_png/fig10packexample.jpg)
 **Figure 11**. The `vpack` instruction sequence shown below rearranges the input data into the illustrated layout.
 
 ```

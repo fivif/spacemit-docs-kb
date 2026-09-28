@@ -22,7 +22,7 @@ updated: "2026-08-24 09:53:20"
 
 如果还没有账号，请按照以下步骤注册。当前平台支持以下注册方式：
 
-<img src="../../../_assets/docs-tool/studio/static/register.png" alt="手机号注册" width="400">
+<img src="https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/register.png" alt="手机号注册" width="400">
 
 - 手机号注册（目前仅支持中国国内手机号）
 - 邮箱注册
@@ -33,7 +33,7 @@ updated: "2026-08-24 09:53:20"
 ### 登录方式
 
 您可以使用以下方式登录：
-<img src="../../../_assets/docs-tool/studio/static/login.png" alt="登录界面" width="400">
+<img src="https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/login.png" alt="登录界面" width="400">
 
 - 短信登录（手机验证码）
 - 密码登录
@@ -47,21 +47,21 @@ updated: "2026-08-24 09:53:20"
 
 首次启动 SpacemiT Studio 时，如果尚未安装驱动，首页将显示 **服务未启动** 提示：
 
-![首页 - 无驱动无设备](../../../_assets/docs-tool/studio/static/initial.png)
+![首页 - 无驱动无设备](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/initial.png)
 
 同时，驱动安装引导窗口会自动弹出。若该窗口未自动弹出，可点击 **服务未启动** 提示手动打开。驱动安装引导提供以下操作方式：
 
-<img src="../../../_assets/docs-tool/studio/static/driver_00.png" alt="驱动安装引导" width="400">
+<img src="https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/driver_00.png" alt="驱动安装引导" width="400">
 
 - **启动驱动**：若驱动已安装但未运行，点击此项可直接启动驱动服务
 
 - **下载并安装驱动**：若尚未安装驱动，点击此项下载并安装对应平台的驱动包
   - 点击 **下载** 可直接下载 SpacemiT Studio Windows 驱动
   - 若是安装 macOS/Linux 驱动，推荐直接拷贝命令执行即可
-    <img src="../../../_assets/docs-tool/studio/static/driver_01.png" alt="驱动下载引导" width="400">
+    <img src="https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/driver_01.png" alt="驱动下载引导" width="400">
 
   - 如需手动下载驱动安装包，点击 **前往下载中心**
-    ![驱动下载链接](../../../_assets/docs-tool/studio/static/driver.png)
+    ![驱动下载链接](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/driver.png)
 
     | 平台 | 下载 |
     | --- | --- |
@@ -71,11 +71,11 @@ updated: "2026-08-24 09:53:20"
 
 驱动安装成功后，提示将消失，首页状态恢复为可连接设备的正常状态。
 
-![首页 - 驱动已安装](../../../_assets/docs-tool/studio/static/initial_00.png)
+![首页 - 驱动已安装](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/initial_00.png)
 
 ## 界面导航
 
-![图标](../../../_assets/docs-tool/studio/static/icons.png)
+![图标](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/icons.png)
 
 ### 左侧导航栏（Sidebar）
 
@@ -125,7 +125,7 @@ updated: "2026-08-24 09:53:20"
 
 > 如果提交失败，请检查网络状况后重试。
 
-<img src="../../../_assets/docs-tool/studio/static/feedback.png" alt="意见反馈" width="400">
+<img src="https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/feedback.png" alt="意见反馈" width="400">
 
 ## 连接设备
 
@@ -138,7 +138,7 @@ SpacemiT Studio 支持以下开发板连接方式：
 
 连接成功后，设备将出现在顶部工具栏的设备下拉列表中，首页也会同步显示其详细信息：
 
-![首页 - 设备已连接](../../../_assets/docs-tool/studio/static/initial_01.png)
+![首页 - 设备已连接](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/initial_01.png)
 
 ## 下一步
 

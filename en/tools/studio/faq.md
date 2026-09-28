@@ -16,15 +16,15 @@ Click the message, then select **Download & install driver** in the driver insta
 
 **Q: Why does "Service not started" still appear after installing the driver?**
 
-![SpacemiT Studio displays the Service not started message](../../../_assets/docs-tool/studio/static/driver_faq_00.png)
+![SpacemiT Studio displays the Service not started message](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/driver_faq_00.png)
 
 In Chrome, this issue occurs when the **"Apps on device"** permission is disabled. Enable the permission as follows:
 
 1. Click the **site information icon** to the left of the address bar
-   ![Chrome site information menu with Apps on device disabled](../../../_assets/docs-tool/studio/static/driver_faq_01.png)
+   ![Chrome site information menu with Apps on device disabled](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/driver_faq_01.png)
 2. In the pop-up menu, find the **"Apps on device"** permission item
 3. Toggle the switch to **enabled** (blue)
-   ![Chrome site information menu with Apps on device enabled](../../../_assets/docs-tool/studio/static/driver_faq_02.png)
+   ![Chrome site information menu with Apps on device enabled](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/driver_faq_02.png)
 4. Refresh the page to reconnect Studio to the device-side application
 
 If the permission item is not displayed, click **Site settings** to open the detailed permissions page.

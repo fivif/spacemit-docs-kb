@@ -16,7 +16,7 @@ The Audio module includes 2 I2S interfaces and 1 HDMI audio interface.
 
 ### Functional Description
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/AUDIO.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/AUDIO.png)
 
 The ALSA audio framework can be divided into several layers:
 

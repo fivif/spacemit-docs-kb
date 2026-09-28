@@ -34,7 +34,7 @@ sudo apt install openwebui
 ## 使用
 
 右键点击 openwebui 桌面图标，点击允许运行，即可使用。
-![](../../../_assets/docs-ai/static/openwebui.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/static/openwebui.png)
 
 具体的使用指南，请参考 [OpenWebUI 使用指南](https://forum.spacemit.com/t/topic/185)
 

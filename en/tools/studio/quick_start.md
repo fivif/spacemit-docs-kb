@@ -22,7 +22,7 @@ Open **[SpacemiT Studio](https://studio.spacemit.com/)** in a web browser.
 
 If you do not have an account, you can register with either of the following methods:
 
-<img src="../../../_assets/docs-tool/studio/static/register.png" alt="Registration" width="400">
+<img src="https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/register.png" alt="Registration" width="400">
 
 - Register with a mobile number (currently supports only mobile numbers registered in mainland China)
 - Register with an email address
@@ -33,7 +33,7 @@ After registration, go to the Login page.
 ### Login Methods
 
 You can log in using the following methods:
-<img src="../../../_assets/docs-tool/studio/static/login.png" alt="Login screen" width="400">
+<img src="https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/login.png" alt="Login screen" width="400">
 
 - SMS verification code
 - Password
@@ -47,20 +47,20 @@ You can log in using the following methods:
 
 When you first start SpacemiT Studio, if the driver is not installed, the home page displays a **Service not started** message and the driver installation wizard opens automatically:
 
-![Home page with no driver or device](../../../_assets/docs-tool/studio/static/initial.png)
+![Home page with no driver or device](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/initial.png)
 
 If the wizard does not open automatically, click the **Service not started** message to open it manually. The wizard provides the following options:
 
-<img src="../../../_assets/docs-tool/studio/static/driver_00.png" alt="Driver installation wizard" width="400">
+<img src="https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/driver_00.png" alt="Driver installation wizard" width="400">
 
 - **Launch Driver**: Starts the driver service if the driver is installed but not running.
 - **Download & install driver**: Downloads and installs the driver package for the current platform if the driver is not installed.
   - Click **Download** to download the SpacemiT Studio Windows driver.
   - For macOS/Linux driver installation, copy and run the displayed command.
-    <img src="../../../_assets/docs-tool/studio/static/driver_01.png" alt="Driver download wizard" width="400">
+    <img src="https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/driver_01.png" alt="Driver download wizard" width="400">
 
   - To download a driver package manually, click **Go to Download Center**.
-    ![Driver download links](../../../_assets/docs-tool/studio/static/driver.png)
+    ![Driver download links](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/driver.png)
 
     | Platform | Download |
     | --- | --- |
@@ -70,11 +70,11 @@ If the wizard does not open automatically, click the **Service not started** mes
 
 After the driver is installed successfully, the message disappears and the home page returns to its normal state, ready to connect a device.
 
-![Home page with driver installed](../../../_assets/docs-tool/studio/static/initial_00.png)
+![Home page with driver installed](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/initial_00.png)
 
 ## Interface Navigation
 
-![Navigation and toolbar icons](../../../_assets/docs-tool/studio/static/icons.png)
+![Navigation and toolbar icons](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/icons.png)
 
 ### Left Navigation Bar (Sidebar)
 
@@ -124,7 +124,7 @@ After submission, the page displays a **Submitted Successfully** message.
 
 > If submission fails, check your network connection and try again.
 
-<img src="../../../_assets/docs-tool/studio/static/feedback.png" alt="Feedback dialog" width="400">
+<img src="https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/feedback.png" alt="Feedback dialog" width="400">
 
 ## Connect a Device
 
@@ -137,7 +137,7 @@ SpacemiT Studio supports the following development board connection methods:
 
 After a connection is established, the device appears in the device drop-down list on the top toolbar, and the home page displays its details:
 
-![Home page with a connected device](../../../_assets/docs-tool/studio/static/initial_01.png)
+![Home page with a connected device](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/initial_01.png)
 
 ## Next Steps
 

@@ -52,7 +52,7 @@ The K3 SoC integrates five PCIe ports — PCIeA, PCIeB, PCIeC, PCIeD, and PCIeE 
 
 ## 14.1.3 Block Diagram
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/k3_pcie.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/k3_pcie.png" alt="" width="600">
 
 | Feature/Function | Port A | Port B/C | Port D/E |
 | --- | --- | --- | --- |
@@ -109,7 +109,7 @@ The K3 SoC integrates five PCIe ports — PCIeA, PCIeB, PCIeC, PCIeD, and PCIeE 
 
 ## 14.1.4 PHY Configuration Block Diagram
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/k3_phy.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/k3_phy.png" alt="" width="800">
 
 ### 14.1.4.1 PHY Architecture
 

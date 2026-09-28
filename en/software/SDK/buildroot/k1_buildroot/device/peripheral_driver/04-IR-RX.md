@@ -16,7 +16,7 @@ The Infrared Receiver (IR-RX) module captures and processes IR signals from remo
 
 ### Functional Description
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/ir.jpg)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/ir.jpg)
 On the K1 platform, an external infrared receiver (demodulator) receives the demodulated electrical signal, which is then decoded and reported as events within the driver and the kernel IR framework.
 
 ### Source Code Structure

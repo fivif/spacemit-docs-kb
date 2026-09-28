@@ -38,7 +38,7 @@ updated: "2026-08-10 09:38:50"
 
 K3 系列 SOC 常见的固件布局有以下三种。以下是布局特点：
 
-![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/image_structure.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/image_structure.png)
 
 1. **eMMC/SD卡/UFS**
     - 通过GPT table来索引各个分区。
@@ -429,7 +429,7 @@ K3 平台支持卡启动，并且在启动时会**优先尝试从 SD 卡启动**
 2. 打开电脑端的 **TitanFlash 刷机工具**（安装方式请参考 [TitanFlash 安装](../../../../../tools/user_guide/flasher_user_guide.md)）。
 3. 点击顶部菜单栏中的 **研发工具 → 卡启动**。
 4. 点击对应的 **选择SD卡** 和 **选择刷机包**。
-![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/flash_tool_1.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/flash_tool_1.png)
 5. 点击 **执行**，开始烧写镜像。
 6. 烧写成功后，将 TF 卡插入设备，上电后设备即可实现卡启动。
 
@@ -444,7 +444,7 @@ K3 平台支持卡量产烧录。通过 **TitanFlash 工具** 可将 SD 卡制�
 1. 将 TF 卡插入读卡器，并接入电脑 USB 接口。
 2. 打开 TitanFlash 工具，点击 **量产工具 → 制作量产卡**。
 3. 选择需要烧录的刷机包，点击 **执行** 开始制作。
-![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/flash_tool_2.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/flash_tool_2.png)
 4. 制作完成后，将 SD 卡插入设备。
 5. 上电后设备会自动进入卡烧录流程，并将镜像写入目标存储介质。
 6. 烧录完成后，**务必拔出 SD 卡**，以避免再次上电重复烧录。
@@ -491,7 +491,7 @@ K3 平台支持卡量产烧录。通过 **TitanFlash 工具** 可将 SD 卡制�
 **brom -> fsbl -> opensbi -> uboot -> kernel**
 其中，`bootinfo` 提供 fsbl 所在偏移、大小等信息。
 
-![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/boot_proc.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/boot_proc.png)
 
 根据硬件的 **Boot Pin Select 配置**，系统会从 SD 卡、eMMC、NOR、NAND、UFS 等介质中加载下一级启动镜像。
 **不同的启动介质，整体启动流程与上图一致。**
@@ -758,7 +758,7 @@ static struct k3_nor_boot_target k3_nor_boot_prio[] = {
 
 1. **SPL 基本功能开启**
    执行 `make uboot_menuconfig`，选择 `SPL configuration options`
-    ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_6.png)
+    ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/spl-config_6.png)
 
 2. **启用以下选项：**
 
@@ -770,7 +770,7 @@ static struct k3_nor_boot_target k3_nor_boot_prio[] = {
    - `Support loading from mtd device`
    - 设置 `Partition name to use to load U-Boot from`，该值需与分区表中的实际名称一致。
 
-    ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_7.png)
+    ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/spl-config_7.png)
 
 3. **启用 BLK 设备支持**（如 SSD/eMMC）
    进入 `Device Drivers -> Fastboot support`，勾选：
@@ -778,7 +778,7 @@ static struct k3_nor_boot_target k3_nor_boot_prio[] = {
    - `Support blk device`
    - SSD 对应 NVMe，eMMC 对应 MMC
 
-    ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_8.png)
+    ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/spl-config_8.png)
 
 4. **启用 MTD 环境变量（env）支持**
 
@@ -788,9 +788,9 @@ static struct k3_nor_boot_target k3_nor_boot_prio[] = {
    - 启用 SPI env 加载
    - 设置 env 的偏移地址，需与分区表一致（例如：`0xA0000`）
 
-    ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_9.png)
+    ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/spl-config_9.png)
 
-    ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_10.png)
+    ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/spl-config_10.png)
 
 5. **适配 SPI Flash 驱动（根据硬件）**
    若默认未包含目标芯片的驱动：
@@ -799,7 +799,7 @@ static struct k3_nor_boot_target k3_nor_boot_prio[] = {
    - 进入 `Device Drivers -> MTD Support -> SPI Flash Support`
    - 根据硬件的 SPI Flash 厂商，勾选选择对应的驱动程序
 
-   ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_11.png)
+   ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/spl-config_11.png)
 
    如驱动列表中没有你的 Flash 型号，可以在代码上手动直接添加。`flash_name` 可以自定义，一般为硬件 FLASH 名称，`0x1f4501` 为该 FLASH 的 jedecid，其他参数可以根据该硬件的 FLASH 添加。
 
@@ -818,14 +818,14 @@ const struct flash_info spi_nor_ids[] = {
 
   SPL 通过 MTD 分区名直接获取 `esos` 和 `uboot` 分区，加载 FIT 镜像。分区名由 env 变量 `extra_esos_partition`（默认 `esos`）和 `extra_uboot_partition`（默认 `uboot`）控制。若 env 未设置，SPL 会自动尝试名为 `esos` 和 `uboot` 的 MTD 分区。
 
-  ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_12.png)
+  ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/spl-config_12.png)
 
 - **绝对偏移方式**
 
   通过 env 变量 `esos_offset` 和 `uboot_offset` 指定字节偏移（默认值见 `include/configs/k3.h`）。
 
   开启以下配置，输入存储介质的绝对偏移地址。
-  ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_13.png)
+  ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/spl-config_13.png)
 
 ###### NAND 启动
 
@@ -865,7 +865,7 @@ SPL DTS 配置如下
 1. **配置 SPL 编译选项**
    - 执行 `make uboot_menuconfig`，进入 `SPL configuration options`，启用以下选项：
 
-     ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_14.png)
+     ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/spl-config_14.png)
 
      - `Support MTD drivers`
      - `Support SPI DM drivers in SPL`
@@ -877,7 +877,7 @@ SPL DTS 配置如下
 
    - K3 的 NAND 加载由 `board_load_extra_fits()` 统一处理，分区名通过 env 变量 `extra_esos_partition` 和 `extra_uboot_partition` 控制，无需额外配置 second partition。
 
-     ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_15.png)
+     ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/spl-config_15.png)
 
 2. **配置 env 支持**
    对于 MTD 设备，需要开启 `env`，以确保 SPL 启动后能从 `env` 获取 MTD 分区信息
@@ -1087,7 +1087,7 @@ bootcmd=run autoboot; echo "run autoboot"
 
 启动验签流程如下图所示：
 
-![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/secure_boot.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/secure_boot.png)
 
 签名过程描述：
 
@@ -1267,7 +1267,7 @@ U-Boot 的主要功能有以下几点：
   make ARCH=riscv menuconfig
   ```
 
-  ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_0.png)
+  ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_0.png)
 
   通过键盘 "Y"/"N" 以 开启/关闭 相关的功能配置。保存后会更新到 U-Boot 根目录的 `.config` 文件。
 
@@ -1485,9 +1485,9 @@ Starting kernel ...
 
 2. **进入 Environment 配置**
    在 `make menuconfig` 菜单中，选择 **Environment** 选项，进入环境变量配置界面。
-   ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_1.png)
+   ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_1.png)
 
-   ![atl text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_2.png)
+   ![atl text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_2.png)
 
    **支持的存储介质**：
    目前支持的存储介质包括：
@@ -1529,7 +1529,7 @@ eMMC 和 SD 卡都使用 MMC 驱动，设备编号分别为：
    - **进入 MMC Host controller Support**
    在 `make menuconfig` 菜单中，选择 **Device Drivers** -> **MMC Host controller Support**，开启以下配置：
 
-      ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_3.png)
+      ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_3.png)
 
 2. **dts 配置**
 在 U-Boot 的设备树配置中，需要为 eMMC 和 SD 卡配置设备树节点。
@@ -1625,9 +1625,9 @@ NVMe 驱动主要用于调试 SSD 硬盘。以下内容将介绍如何配置和�
    **进入 Device Drivers**
    在 `make menuconfig` 菜单中，进入 **Device Drivers**，开启以下配置：
 
-   ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_4.png)
+   ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_4.png)
 
-   ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_5.png)
+   ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_5.png)
 
 2. **dts 配置**
 在 U-Boot 的设备树配置中，需要为 NVMe 驱动配置设备树节点。
@@ -1774,9 +1774,9 @@ Blk device 0: Metadata capabilities:
    **开启网络相关配置**
    在 `make menuconfig` 菜单中，进入 **Device Drivers**，开启以下配置：
 
-   ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_6.png)
+   ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_6.png)
 
-   ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_7.png)
+   ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_7.png)
 
 2. **dts 配置**
 在 U-Boot 的设备树配置中，需要为以太网接口配置设备树节点。
@@ -1881,9 +1881,9 @@ SPI（Serial Peripheral Interface）是一种常用的串行通信协议，用�
    **进入 Device Drivers**
    在 `make menuconfig` 菜单中，进入 **Device Drivers**，开启以下配置：
 
-   ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_8.png)
+   ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_8.png)
 
-   ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_9.png)
+   ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_9.png)
 
 2. **dts 配置**
    在 U-Boot 的设备树配置中，需要为 SPI 接口配置设备树节点。
@@ -1970,7 +1970,7 @@ NAND 驱动基于 SPI 接口实现，因此需要先开启 SPI 驱动功能。�
    **进入 Device Drivers -> MTD Support**
    在 `make menuconfig` 菜单中，进入 **Device Drivers** -> **MTD Support**，开启以下配置：
 
-   ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_10.png)
+   ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_10.png)
 
    若需要新增一个 NAND Flash，可以根据已支持的厂商驱动，添加该 NAND Flash 的 JEDEC ID。
 
@@ -2115,9 +2115,9 @@ NOR 驱动基于 SPI 接口实现，因此需要先开启 SPI 驱动功能。以
    **进入 Device Drivers -> MTD Support -> SPI Flash Support**
    在 `make menuconfig` 菜单中，进入 **Device Drivers** -> **MTD Support** -> **SPI Flash Support**，开启以下配置：
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_11.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_11.png)
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_12.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_12.png)
 
 **添加一个新的  SPI NOR Flash**
 
@@ -2272,15 +2272,15 @@ ret = spi_flash_read(flash, offset, len, buf);
    **进入 Device Drivers -> Graphics support**
    在 `make uboot_menuconfig` 菜单中，进入 **Device Drivers** -> **Graphics support**，开启以下配置(默认情况下已开启)。
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_13.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_13.png)
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_14.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_14.png)
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_15.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_15.png)
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_16.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_16.png)
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_17.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_17.png)
 
 2. **dts 配置**
 
@@ -2317,7 +2317,7 @@ ret = spi_flash_read(flash, offset, len, buf);
 
      在 `make menuconfig` 菜单中，进入 **Device Drivers** -> **Graphics support**，开启以下选项：
 
-     ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_18.png)
+     ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_18.png)
 
 2. **env 配置**
 
@@ -2400,11 +2400,11 @@ UBOOT_LOGO_FILE="$DEVICE_DIR/bianbu.bmp"
    - **进入 Command line interface -> Boot commands**
    在 `make menuconfig` 菜单中，进入 **Command line interface** -> **Boot commands**，开启以下配置：
 
-     ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_19.png)
+     ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_19.png)
 
    - **进入 Boot options -> Autoboot options**
    再进入 **Boot options** -> **Autoboot options**，开启以下选项：
-     ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_20.png)
+     ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_20.png)
 
 2. **env 配置**
 在 `buildroot-ext/board/spacemit/k3/env_k3.txt` 文件中，需要添加 `bootdelay` 和 `bootmenu_delay` 环境变量。
@@ -2447,14 +2447,14 @@ bootmenu_5="Autoboot"=run autoboot
 - **进入 Device Drivers -> Fastboot support**
    在 `make menuconfig` 菜单中，进入 **Device Drivers** -> **Fastboot support**，开启以下编译配置：
 
-     ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_21.png)
+     ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_21.png)
 
 - **开启 USB 支持**
    Fastboot 依赖 USB 驱动，需要开启 USB 的配置 **USB support**：
 
-     ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_22.png)
+     ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_22.png)
 
-     ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_23.png)
+     ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_23.png)
 
 #### 进入 Fastboot 模式
 
@@ -2686,7 +2686,7 @@ make PLATFORM=generic PLATFORM_DEFCONFIG=k3_deb1_defconfig menuconfig
 ```
 
 示例配置：
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_24.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_menuconfig_24.png)
 
 ## FAQ
 
@@ -2696,14 +2696,14 @@ make PLATFORM=generic PLATFORM_DEFCONFIG=k3_deb1_defconfig menuconfig
 
 - **检查 USB 连接**
    确保 USB 线已接入电脑，且串口打印正常, 如下所示：
-   ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/flash_tool_3.png)
+   ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/flash_tool_3.png)
 
 如果串口打印显示设备已连接，但 TitanFlash 仍然无法检测到设备，请检查以下内容：
 
 - **检查设备管理器**
   在 Windows 设备管理器中，检查是否存在 ADB 设备。如果没有，则需要安装相应的驱动程序。
 
-![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/flash_tool_4.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/flash_tool_4.png)
 
 - **参考安装指南**
   如果设备管理器中没有显示 ADB 设备，请参考 **电脑环境安装章节** 中的 Fastboot 环境安装部分。
@@ -2747,7 +2747,7 @@ FSBL的位置、长度信息在bootinfo中指定，如需更改 FSBL 信息，�
 
 对于mtd设备，还需通过menuconfig，更新MTDPARTS_DEFAULT配置(CONFIG_MTDPARTS_DEFAULT).
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_MTDPARTS_DEFAULT.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/static/uboot_MTDPARTS_DEFAULT.png)
 
 ### 如何设置隐藏分区
 

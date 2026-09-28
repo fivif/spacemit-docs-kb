@@ -33,7 +33,7 @@ updated: "2026-07-09 15:03:17"
 
 ### System Architecture Diagram
 
-![System architecture diagram](../../../../_assets/docs-ai/solutions/static/ainas-arch.png)
+![System architecture diagram](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ainas-arch.png)
 
 ## Development Environment
 
@@ -983,7 +983,7 @@ OpenMediaVault (OMV) is an open-source NAS system based on Debian Linux, develop
 
 OpenMediaVault ported based on the Bianbu system:
 
-![OpenMediaVault ported based on the Bianbu system](../../../../_assets/docs-ai/solutions/static/ainas-openmediavault.png)
+![OpenMediaVault ported based on the Bianbu system](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ainas-openmediavault.png)
 
 ### CasaOS
 
@@ -995,7 +995,7 @@ CasaOS is an open-source personal cloud system developed by IceWhale Technology,
 
 CasaOS ported based on the Bianbu system:
 
-![CasaOS ported based on the Bianbu system](../../../../_assets/docs-ai/solutions/static/ainas-casaos.png)
+![CasaOS ported based on the Bianbu system](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ainas-casaos.png)
 
 ## Technical Support
 

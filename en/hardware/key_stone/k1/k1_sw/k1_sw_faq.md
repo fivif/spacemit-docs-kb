@@ -356,7 +356,7 @@ By default, the K1 SDK loads U-Boot and OpenSBI separately. However, developers 
      - Disable the second partition setting in the U-Boot configuration. Ensure the option **"Second partition to use to load U-Boot from"** is unchecked, as shown in the figure below.
      - Rename the partition to `opensbi-uboot`, then recompile U-Boot. Ensure all related references are updated accordingly.
      - **Note.** If you customize the partition name, all instances of opensbi-uboot (including the red text below) must also be updated to match.
-       <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_sw/static/KSQjbqPrLooavXxxQxxcWwO7nnh.png" alt="" width="600">
+       <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_sw/static/KSQjbqPrLooavXxxQxxcWwO7nnh.png" alt="" width="600">
 
    - **Step 2: Create itb file**  
   Create the `uboot-opensbi.its` file to define the load parameters for U-Boot, OpenSBI, and the device tree (DTS) as follows:
@@ -894,7 +894,7 @@ TBD
 
    - **Step 1:** Understand the LED Control Register (LCR)  
      As shown in the reference diagram, the LCR register is located at extended page 0xd04, address 0x10. It contains multiple bits that control the status of different LEDs, such as the activation state and link indication for LED0, LED1, and LED2.
-     <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_sw/static/Df0lbeUoGoogRyxFTmncvtdunHb.png" alt="" width="600">
+     <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_sw/static/Df0lbeUoGoogRyxFTmncvtdunHb.png" alt="" width="600">
 
    - **Step 2:** Modify the Driver Code  
      Example:
@@ -1766,7 +1766,7 @@ TBD
    - **Step 3:** Select the **SSH** tab in **Session** settings
    - **Step 4:** Uncheck the **Compression** option under **Advanced SSH settings**
    - **Step 5:** Click **OK** to save the settings
-     <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_sw/static/HCcvbmamPo6TNpxyo3WcthWHnng.jpg" alt="" width="800">
+     <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_sw/static/HCcvbmamPo6TNpxyo3WcthWHnng.jpg" alt="" width="800">
 
 2. **Failed to SSH in as root User**  
   For security reasons, SSH disables direct root login by default. You can enable root remote login by modifying the configuration file and changing the value of `PermitRootLogin` to `yes`:

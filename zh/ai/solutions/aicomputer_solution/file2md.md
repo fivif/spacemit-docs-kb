@@ -49,7 +49,7 @@ File2MD 的界面采用 Web 技术实现，但日常使用方式与桌面应用�
 
 ### 系统架构图
 
-![File2MD 系统架构](../../../../_assets/docs-ai/solutions/static/file2md-framework.png)
+![File2MD 系统架构](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/file2md-framework.png)
 
 ### 处理流程
 
@@ -76,7 +76,7 @@ sudo apt install file2md
 
 打开系统应用菜单，在搜索框中输入 **file2md**，然后点击搜索结果中的 **File2MD** 图标。应用窗口打开后会自动连接本机服务并检查模型状态。
 
-![在系统菜单中搜索并启动 File2MD](../../../../_assets/docs-ai/solutions/static/file2md-launch.png)
+![在系统菜单中搜索并启动 File2MD](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/file2md-launch.png)
 
 ### 2. 添加文件或网页
 
@@ -87,7 +87,7 @@ sudo apt install file2md
 
 添加的内容会显示在“文件队列”中。确认队列无误后，点击下方的 **开始转换**，任务才会进入解析流程。
 
-![添加本地文件或网页并开始转换](../../../../_assets/docs-ai/solutions/static/file2md-input.png)
+![添加本地文件或网页并开始转换](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/file2md-input.png)
 
 URL 转换需要设备能够访问目标网站；本地文档转换本身不依赖外部网络。
 
@@ -114,7 +114,7 @@ URL 转换需要设备能够访问目标网站；本地文档转换本身不依�
 
 这些选项可以按任务调整，再开始转换。
 
-![转换阶段、识别开关与 EP 推理线程](../../../../_assets/docs-ai/solutions/static/file2md-options.png)
+![转换阶段、识别开关与 EP 推理线程](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/file2md-options.png)
 
 ## 支持的输入格式
 
@@ -140,13 +140,13 @@ URL 转换需要设备能够访问目标网站；本地文档转换本身不依�
 - **复制 Markdown**：右下角的该按钮会把完整 Markdown 放入剪贴板，便于粘贴到其他编辑器。
 - **下载结果包 `.zip`**：右下角的绿色按钮用于下载结果包，其中包含 `.md` 文件；任务产生图片资源时还会包含 `images/` 目录。
 
-![历史任务、推理耗时与结果下载](../../../../_assets/docs-ai/solutions/static/file2md-result.png)
+![历史任务、推理耗时与结果下载](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/file2md-result.png)
 
 ## 使用内置示例
 
 页面下方提供内置示例，无需准备或上传自己的文件即可体验 File2MD。示例覆盖网页内容、公式识别、表格与图片处理以及文档结构保留等典型场景。点击示例卡片可以查看对应效果；点击示例区域右上角的 **查看全部** 可以浏览全部内置示例。
 
-![File2MD 内置示例与查看全部入口](../../../../_assets/docs-ai/solutions/static/file2md-examples.png)
+![File2MD 内置示例与查看全部入口](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/file2md-examples.png)
 
 ## 运行目录
 

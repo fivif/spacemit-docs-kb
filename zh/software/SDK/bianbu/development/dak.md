@@ -94,11 +94,11 @@ gpg -a --export 9F9C52A13E434AB3DC45693A42D4AEAF977345E3
 
 点击 [https://developer.spacemit.com/auth/#/user/userInfo](https://developer.spacemit.com/auth/#/user/userInfo)，按照图示步骤添加GPG公钥
 
-![图片1：GPG 公钥导入示例](../../../../../_assets/docs-bianbu/development/static/gpg_1.png)
+![图片1：GPG 公钥导入示例](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/gpg_1.png)
 
 注意粘贴内容包含开头的BEGIN和结尾的END行
 
-![图片2：GPG 公钥导入示例](../../../../../_assets/docs-bianbu/development/static/gpg_2.png)
+![图片2：GPG 公钥导入示例](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/gpg_2.png)
 
 ## 准备源码包和deb包
 

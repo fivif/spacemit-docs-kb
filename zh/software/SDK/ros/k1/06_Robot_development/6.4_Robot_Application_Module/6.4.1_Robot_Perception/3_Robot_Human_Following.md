@@ -62,7 +62,7 @@ ros2 launch turtlebot3_gazebo empty_world.launch.py
 
 成功启动后，仿真环境如下图所示：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/follow_person_sim.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/follow_person_sim.jpg)
 
 ### 启动人体跟随
 
@@ -72,7 +72,7 @@ ros2 launch turtlebot3_gazebo empty_world.launch.py
 
 **硬件连接**
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/follow_hardware_usb.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/follow_hardware_usb.jpg)
 
 设备号可以如下查看：
 
@@ -231,6 +231,6 @@ bianbu@bianbu:~$ ros2 launch rdk_visualization websocket_cpp.launch.py image_top
 
 ## 实际小车人体跟随
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/follow_object.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/follow_object.jpg)
 
 在实际的小车中，相机需要具有一定的仰角，这样识别的效果较好。

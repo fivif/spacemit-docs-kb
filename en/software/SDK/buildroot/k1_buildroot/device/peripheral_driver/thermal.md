@@ -16,7 +16,7 @@ Thermal refers to a driver framework for temperature control mechanisms. The Lin
 
 ### Function Description
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/thermal.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/thermal.png)
 
 1. **thermal_cooling_device**
 

@@ -14,7 +14,7 @@ Hardware Documentation：(https://item.jd.com/10052180610725.html)、（https://
 
 **Hardware Connection Diagram：**
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.4_Sensor_System/images/imu1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.2_ROS2_API/6.2.4_Sensor_System/images/imu1.png)
 
 **View Device Nodes：**
 
@@ -79,6 +79,6 @@ export QT_QPA_PLATFORM=xcb# Using the Humble Version
 ros2 launch rdk_visualization display_imu.launch.py
 ```
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.4_Sensor_System/images/imu2.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.2_ROS2_API/6.2.4_Sensor_System/images/imu2.png)
 
 Shake the IMU, and the pose of the small red cube will change accordingly.

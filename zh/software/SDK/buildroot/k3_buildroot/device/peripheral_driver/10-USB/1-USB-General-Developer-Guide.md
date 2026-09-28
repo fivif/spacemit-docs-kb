@@ -37,7 +37,7 @@ updated: "2026-08-10 09:43:29"
 
 K3 共有 5 个 USB 控制器，分别为：
 
-![K3 USB子系统Block Diagram](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/k3-usb.png)
+![K3 USB子系统Block Diagram](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/k3-usb.png)
 
 - USB2.0 Host（设备树节点 `usb2_host`）
 - USB3.0 DRD PortA（设备树节点 `usb3_porta`）- 烧录口
@@ -52,7 +52,7 @@ K3 共有 5 个 USB 控制器，分别为：
 
 #### USB Host
 
-![](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/USB-host.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/USB-host.png)
 
 Linux USB Host 角色驱动框架可以分为以下几个层次：
 
@@ -62,7 +62,7 @@ Linux USB Host 角色驱动框架可以分为以下几个层次：
 
 #### USB Device
 
-![](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/USB-device.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/USB-device.png)
 
 Linux USB Device 角色驱动框架可以分为以下几个层次：
 
@@ -771,7 +771,7 @@ K3 平台 USB 控制器与原理图 PIN 网络对应关系如下：
 
 优先查看 Block Diagram 或接口总览页，确认每个 USB 控制器最终连接到的外设或连接器。
 
-![图片：DEB1 Block Diagram](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/deb1-block-diagram.png)
+![图片：DEB1 Block Diagram](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/deb1-block-diagram.png)
 
 从 Block Diagram 去顺时针看，可以看出 DEB1 的 USB 接口配置：
 
@@ -819,15 +819,15 @@ K3 平台 USB 控制器与原理图 PIN 网络对应关系如下：
 ###### 3.1 以K3 DEB1/Pico-ITX USB3.0 DRD PortA 控制器为例
 
 在原理图中检索 `USB20_A_DRD_USB_P` 或 `USB30_A_DRD`。
-![图片：PortA 原理图](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/PortA原理图.png)
+![图片：PortA 原理图](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/PortA%E5%8E%9F%E7%90%86%E5%9B%BE.png)
 
 发现芯片引脚经过了重命名，检索重命名后的网络 `USB_DRD_TX1P` 找到 FUSB301 的连接页面。
-![图片：FUSB301 连接图](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/FUSB301连接图.png)
+![图片：FUSB301 连接图](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/FUSB301%E8%BF%9E%E6%8E%A5%E5%9B%BE.png)
 
 关注：
 - FUSB301 挂载在 I2C1 总线上，需配置这些 Pin 为 I2C 功能。
 - `USB30_DRD_DIR` PIN 需配置对应的 pinctrl 及电压域（如 `power-source = <1800>`）。
-![图片：Pinctrl 配置图](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/Pinctrl_配置图.png)
+![图片：Pinctrl 配置图](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/Pinctrl_%E9%85%8D%E7%BD%AE%E5%9B%BE.png)
 
 对应的 Linux 内核 DTS 配置示例：
 
@@ -874,13 +874,13 @@ K3 平台 USB 控制器与原理图 PIN 网络对应关系如下：
 ###### 3.2 以K3 DEB1/Pico-ITX USB2.0 Host 控制器为例
 
 在原理图中检索 `USB20_HOST_M/P` 确认连接了 FE1.1S HUB。
-![图片：FE1.1S HUB 原理图](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/FE1.1S_HUB_原理图.png)
+![图片：FE1.1S HUB 原理图](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/FE1.1S_HUB_%E5%8E%9F%E7%90%86%E5%9B%BE.png)
 
 分析 HUB 的控制逻辑：
 - VDD 和 RST 由 `AUX_VCC3V3` 提供。
 - Type-A 插槽的 VBUS 由限流开关（如 GS7615STDK）提供，其 EN 使能 PIN 是 `EC_SW_USB2_PWREN1`。
 - 检索 `EC_SW_USB2_PWREN1` 发现对应 EC 芯片的 `GPD0` GPIO。EC firmware 需要在开机后把对应 GPIO 拉高。
-![图片：VBUS 控制图](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/VBUS_控制图.png)
+![图片：VBUS 控制图](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/VBUS_%E6%8E%A7%E5%88%B6%E5%9B%BE.png)
 
 如果该 GPIO 由 SoC 的主控控制，则在 DTS 中增加一个 `regulator-fixed` 节点：
 
@@ -901,11 +901,11 @@ hub_vbus: regulator-hub-vbus-5v {
 ###### 3.3 以K3 DEB1/Pico-ITX USB3.0 Host PortB 控制器为例
 
 PortB 连接到 M.2 Key B 插槽，用于 4G 模组。检索 `USB20_B_USB_` 查看插槽。
-![图片：M.2 插槽原理图](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/M.2_插槽原理图_.png)
+![图片：M.2 插槽原理图](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/M.2_%E6%8F%92%E6%A7%BD%E5%8E%9F%E7%90%86%E5%9B%BE_.png)
 查阅 [M.2 Key B 规范](1-USB-General-Developer-Guide.md#附录-cPCI-Express-插槽中的-USB-常见-sideband-pin)，需要关注 `CPU_W_DISABLE#1`, `WWAN_Reset#_1V8`, `Module_Turn_ON_1V8` 等 PIN。
 通过原理图中的 GPIO Assignment 或直接追溯信号，确认 GPIO 编号为 `GPIO 18` 和 `GPIO 19`。
-![图片：GPIO 分配图](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/GPIO_分配图.png)
-![图片：GPIO 源头图](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/GPIO源头图.png)
+![图片：GPIO 分配图](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/GPIO_%E5%88%86%E9%85%8D%E5%9B%BE.png)
+![图片：GPIO 源头图](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/GPIO%E6%BA%90%E5%A4%B4%E5%9B%BE.png)
 
 这些 GPIO 的电压域是 1.8V。为了让 4G 模组开机正常工作，需主动拉高这两个 GPIO。在 Linux 内核 DTS 中新增 `rfkill-gpio` 节点：
 

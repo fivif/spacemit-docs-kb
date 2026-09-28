@@ -59,4 +59,4 @@ The P1S requires a minimal number of external components, and is available in a 
 
 ## Block Diagram
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/G8rTbP4A8oDQ2rxA4X5czogpnmc.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/G8rTbP4A8oDQ2rxA4X5czogpnmc.png)

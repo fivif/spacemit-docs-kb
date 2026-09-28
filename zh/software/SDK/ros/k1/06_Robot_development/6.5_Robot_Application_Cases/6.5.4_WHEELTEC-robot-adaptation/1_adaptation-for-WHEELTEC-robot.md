@@ -29,9 +29,9 @@ K1 开发板将 RISC-V 八核处理器、存储硬盘、通用接口部件和扩
 
 信号：K1 开发板与各传感器的信号连接全部通过USB接口进行，包括运动底盘、激光雷达、相机。
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/SpaceMit_K1_1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/SpaceMit_K1_1.png)
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/SpaceMit_K1_2.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/SpaceMit_K1_2.png)
 
 轮趣 ROS 小车中的各个传感器均与K1开发板连接，具体适配方法在下文各个传感器的小节中介绍。
 
@@ -41,7 +41,7 @@ K1 开发板将 RISC-V 八核处理器、存储硬盘、通用接口部件和扩
 
 轮趣教育版ROS差速小车的运动底盘为STM32的驱控一体控制板。
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_controller.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_controller.png)
 
 供电：起源于电池，主要通过T头线或其它分流线输出到其它部件。
 
@@ -104,7 +104,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 供电&&信号：通过USB接口与K1开发板连接。
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_lidar.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_lidar.png)
 
 **适配方法**
 
@@ -155,7 +155,7 @@ ros2 run rviz2 rviz2
 ```
 修改Fixed Frame 为laser，点击add -> by topic -> /scan ，点击ok。观察激光雷达数据如下所示：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_lidar_rviz.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_lidar_rviz.png)
 
 ### 相机
 
@@ -165,7 +165,7 @@ ros2 run rviz2 rviz2
 
 供电&&信号：通过USB接口与K1开发板连接。
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_camera.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_camera.png)
 
 **适配方法**
 
@@ -197,4 +197,4 @@ ros2 topic echo /image_raw
 ```shell
 ros2 run rqt_image_view rqt_image_view
 ```
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_camera_rviz.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_camera_rviz.png)

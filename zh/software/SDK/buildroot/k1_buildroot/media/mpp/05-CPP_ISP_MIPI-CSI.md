@@ -74,7 +74,7 @@ sensor –> VI_DEV -> ISP_FW –> VI_CHN -> DDR -> CPP
 5. **退出流程**：建议先停止 VI，再停止 Sensor，最后依次执行 CPP、ISP、VI 的反初始化，并释放所有 buffer。
 
 **ISP online 整体流程图**
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/media/mpp/static/OEBwb8QzxoIrKBxEcoqcsywknFe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/media/mpp/static/OEBwb8QzxoIrKBxEcoqcsywknFe.png)
 
 **Buffer 轮转：**
 
@@ -98,7 +98,7 @@ DDR -> VI_DEV -> ISP_FW –> VI_CHN -> DDR -> CPP
 
 **Offline Capture Mode 流程图：**
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/media/mpp/static/PEhLbGTjconnrpx2ZvBcBkUenoh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/media/mpp/static/PEhLbGTjconnrpx2ZvBcBkUenoh.png)
 
 ## 3 测试程序使用说明
 

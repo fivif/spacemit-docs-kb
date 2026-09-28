@@ -16,7 +16,7 @@ SDHC (Secure Digital High Capacity) is the controller for multimedia cards (MMC)
 
 ### Functional Description
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/MMC.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/MMC.png)
 
 The MMC subsystem comprises three layers:  
 - **MMC Host**: This is the MMC controller driver layer, responsible for initializing the MMC controller and handling low-level data transmission and reception operations, directly controlling the underlying registers.

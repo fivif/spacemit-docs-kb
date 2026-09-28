@@ -11,7 +11,7 @@ updated: "2026-05-28 16:40:09"
 
 ## Software Stack Architecture
 
-![AI Software Stack](../../../_assets/docs-ai/compute_stack/images/ai_compute_stack.png)
+![AI Software Stack](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/ai_compute_stack.png)
 
 ## Multi-Level Delivery
 

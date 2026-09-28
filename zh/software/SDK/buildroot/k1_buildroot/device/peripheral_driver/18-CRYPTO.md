@@ -16,7 +16,7 @@ crypto-engine 通过硬件实现加密算法，用于对明文数据进行加密
 
 ### 功能介绍  
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/openssl.jpg)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/openssl.jpg)
 
 K1 的 crypto-engine（简称 CE）通过硬件实现了 AES 加密算法，支持 ECB、CBC、XTS 等加密模式。
 

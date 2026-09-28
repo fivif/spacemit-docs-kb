@@ -17,7 +17,7 @@ Currently, the K1 QSPI only supports master mode.
 
 ### Feature Overview
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/linux_spi.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/linux_spi.png)  
 
 The Linux SPI driver framework is divided into three parts: **SPI core**, **SPI controller driver**, and **SPI device driver**.
 **SPI core** mainly performs the following functions:

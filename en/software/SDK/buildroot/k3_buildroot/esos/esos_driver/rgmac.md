@@ -23,7 +23,7 @@ This document focuses only on the RGMAC module implemented with the RT-Thread GM
 
 ### Functional Architecture
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/esos/esos_driver/static/rgmac.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/esos/esos_driver/static/rgmac.png)
 
 - **Application layer:** Provides application-facing services.
 - **Protocol stack layer:** Implements network protocols and provides system call interfaces for the application layer. The current secondary-core system supports EtherCAT only.

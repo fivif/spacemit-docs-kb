@@ -368,7 +368,7 @@ The source code structure of MPP and its brief description are as follows (the s
 
 ## 2. MPP Framework Structure Diagram
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/media/mpp/static/IjzAbsjbyoMgXkx1Cq5cUMNLnYe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/media/mpp/static/IjzAbsjbyoMgXkx1Cq5cUMNLnYe.png)
 
 From the perspective of framework structure, it is mainly divided into 2 layers as follows.
 
@@ -394,11 +394,11 @@ From the perspective of functionality, it is divided into：
 
 ### 3.1 Decoding Process
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/media/mpp/static/JI81bbaDyo42MaxuLJUcFGtynkP.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/media/mpp/static/JI81bbaDyo42MaxuLJUcFGtynkP.png)
 
 ### 3.2 Encoding Process
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/media/mpp/static/OeWFbJXHDo1o4px5ftTcniJynve.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/media/mpp/static/OeWFbJXHDo1o4px5ftTcniJynve.png)
 
 ## 4. Data Structures
 

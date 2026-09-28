@@ -39,7 +39,7 @@ The main functions of EGL include:
 In the cooperation between OpenGL ES and EGL, the rendering process is the core of the entire graphics rendering system.
 The diagram below shows the basic OpenGL ES rendering process.
 
-![Mesa3D](../../../../../../_assets/docs-buildroot/k3_buildroot/graphics/static/opengles_process_en.png)
+![Mesa3D](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/graphics/static/opengles_process_en.png)
 
 The rendering process typically involves five main steps:
 
@@ -228,7 +228,7 @@ The demo directory structure is as follows:
 
 4. Runtime effect
    After successful execution, the rendered output is shown below:
-   ![gpu-cubeTextureDemo](../../../../../../_assets/docs-buildroot/k3_buildroot/graphics/static/gpu-cubeTextureDemo.gif)
+   ![gpu-cubeTextureDemo](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/graphics/static/gpu-cubeTextureDemo.gif)
 
 ### Adding a demo
 

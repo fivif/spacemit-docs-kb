@@ -39,7 +39,7 @@ As shown below, the DDR driver loads configuration parameters in the following p
 2. If no valid EEPROM data is found, read from **DTS**
 3. If neither is configured, fall back to **default parameters in the code**
 
-<img src="../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/ddr_config_00.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/ddr_config_00.png" alt="" width="400">
 
 After modifying any parameters, the firmware image must be rebuilt and reflashed to the device for the changes to take effect.
 
@@ -59,7 +59,7 @@ The DDR type can be written to the on-board EEPROM using either of the following
    - Connect the device to the PC via USB
    - Use the **TitanFlasher** to write the DDR type, as shown below
 
-   <img src="../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/ddr_type00.png" alt="" width="400">
+   <img src="https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/ddr_type00.png" alt="" width="400">
 
 2. **Programming via U-Boot Command Line**
 
@@ -90,7 +90,7 @@ The K1 platform supports **single-CS** and **dual-CS** DDR configurations.
 
    Use the TitanFlasher programming function to write the CS number into EEPROM.
 
-   <img src="../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/ddr_cs00.png" alt="" width="400">
+   <img src="https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/ddr_cs00.png" alt="" width="400">
 
 2. **Programming via U-Boot Command Line**
 
@@ -132,7 +132,7 @@ Supported data rates vary by DDR type:
 
    Use the TitanFlasher programming tool to write the DDR data rate to EEPROM.
 
-   <img src="../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/ddr_rate00.png" alt="" width="400">
+   <img src="https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/ddr_rate00.png" alt="" width="400">
 
 2. **Programming via U-Boot Command Line**
 
@@ -200,7 +200,7 @@ TX ODT (`tx_odt`) can be adjusted to better match different DDR devices.
 
    Write the TX ODT value to EEPROM using TitanFlasher.
 
-   <img src="../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/ddr_odt00.png" alt="" width="400">
+   <img src="https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/ddr_odt00.png" alt="" width="400">
 
 2. **Programming via U-Boot Command Line**
     **Prerequisite:**
@@ -250,13 +250,13 @@ The corresponding registers are configured per CS:
 
 Each frequency point must be configured.
 
-<img src="../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/ddr_reg00.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/ddr_reg00.png" alt="" width="700">
 
 It will be programmed by the controller into the DDR mode register.
 
 For LPDDR4, the value is programmed into DDR MR3 `OP[5:3]`, as shown below.
 
-<img src="../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/ddr_reg01.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/ddr_reg01.png" alt="" width="700">
 
 ### 3.2 RX ODT
 
@@ -291,11 +291,11 @@ index 751623a0e1..d5c5a2cfc0 100644
 
 PHY-side `rx_odt` configuration with the register mapping:
 
-<img src="../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/ddr_reg02.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/ddr_reg02.png" alt="" width="700">
 
 DDR device-side `rx_soc_odt` configuration with the register mapping:
 
-<img src="../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/ddr_reg03.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/ddr_reg03.png" alt="" width="700">
 
 ### 3.3 TX VREF
 
@@ -306,7 +306,7 @@ During boot, TX training adjusts TX VREF to the center of the valid sampling win
 
 **Recommendation:** Do not modify this parameter unless necessary. Use the default value.
 
-<img src="../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/ddr_reg04.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/ddr_reg04.png" alt="" width="700">
 
 ### 3.4 RX VREF
 
@@ -323,7 +323,7 @@ vref = 0.3 * vddq
 
 **Recommendation:** Use the default value unless specific tuning is required.
 
-<img src="../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/ddr_reg05.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/ddr_reg05.png" alt="" width="700">
 
 ### 3.5 TX DRIVE
 
@@ -332,14 +332,14 @@ It is configured by setting the PHY register parameters for pull-high drive (`tx
 
 Refer to the figure below for the corresponding register descriptions.
 
-<img src="../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/ddr_reg06.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/ddr_reg06.png" alt="" width="700">
 
 ### 3.6 RX DRIVE
 
 RX DRIVE controls the output drive strength of DQS/DQ signals on the DDR device side.
 Refer to the figure below for the corresponding register descriptions.
 
-<img src="../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/ddr_reg07.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/ddr_reg07.png" alt="" width="700">
 
 ### 3.7 WDQS
 

@@ -16,7 +16,7 @@ UART 是一种通用串行数据总线，用于异步通信。该总线双向通
 
 ### 功能介绍  
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/uart.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/uart.png)
 内核通过UART实现控制台，同时某些外设如蓝牙可通过UART与主控进行通信。
 K1平台支持 **9路** uart设备可根据需要配置开启UART后连接外设使用
 

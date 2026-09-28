@@ -18,7 +18,7 @@ The K3 platform requires an **external BT module** to provide Bluetooth function
 
 The BT software stack used on the K3 platform is `BlueZ`. The software framework based on `BlueZ` can be divided into the following layers from top to bottom:
 
-![Bluetooth software stack](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/bt.png)
+![Bluetooth software stack](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/bt.png)
 
 1. **Bluetooth Application Layer**
    Implements application logic and interacts with the protocol stack through the `DBus` interface.

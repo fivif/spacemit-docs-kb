@@ -17,7 +17,7 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 
 ### 2.1 资源概览
 
-![MUSE Pi Pro Board](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_board.png)
+![MUSE Pi Pro Board](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_board.png)
 
 > **备注**：主板外观可能因为硬件版本不同而有细微的差别
 
@@ -37,7 +37,7 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 | **复位按键 RST** | - 短按：电源复位，系统强制重启 |
 | **固件烧录 FDL** | - 按住：插入电源或电源复位，进入烧录模式 |
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_buttons.jpg)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_buttons.jpg)
 
 ### 2.3 接口说明
 
@@ -49,7 +49,7 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 
 > **注意**：烧录时，USB线缆须为数据通讯线缆，仅支持充电USB线缆无法烧录，为了系统升级过程稳定，请确保USB有10W及以上的供电功率
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_typec.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_typec.png)
 
 #### 存储扩展接口 M.2-M key
 
@@ -58,7 +58,7 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 
 > **注意**：不可热插拔SSD，移除或安装请在下电状态下进行。
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_m2m.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_m2m.png)
 
 #### 显示接口 HDMI
 
@@ -74,14 +74,14 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 
 > **注意**：不可热插拔MIPI设备，移除或安装请在下电状态下进行。
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_display.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_display.png)
 
 #### 摄像输入接 CAMERA0
 
 - 类型：22pin，0.5mm间距软排线连接器；
 - 摄像模组兼容列表，详见 [K1关键物料AVL](https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm)。
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_cam0.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_cam0.png)
 
 > 注：有关 MIPI 摄像头的连接方法及常见问题，请参阅 [MIPI 相机使用及常见问题](../../../software/SDK/bianbu/user_guide/LXQt/Camera_FAQ.md)。
 
@@ -90,7 +90,7 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 - 类型：15pin，1mm间距软排线连接器；
 - 摄像模组兼容列表，详见[K1 关键物料AVL](https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm)。
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_cam1.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_cam1.png)
 
 #### 音频耳机接口 AUDIO
 
@@ -124,7 +124,7 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 
 > **注意**：不可热插拔miniPCIe设备，移除或安装请在下电状态下进行。
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_pcie.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_pcie.png)
 
 #### 通用输入输出接口 GPIO
 
@@ -134,7 +134,7 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 - GPIO 接口使用方法，详见文档 **[GPIO](../../../software/SDK/buildroot/k1_buildroot/device/peripheral_driver/02-GPIO.md)**
 - 为方便用户扩展外设，我们定义了扩展IO功能：**[MUSE Pi/MUSE Pi Pro 扩展 IO定义](../../../software/SDK/bianbu/user_guide/LXQt/MUSEPi_and_MUSEPiPro_expansion_IO_pinout.md)**
 - GPIO电平域为3.3V，支持多功能复用，引脚定义和资源如下图；
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_gpio.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_gpio.png)
 
 ### 2.4 产品规格
 
@@ -160,7 +160,7 @@ K1 MUSE Pi Pro 单板计算机将 RISC-V 八核处理器、存储硬盘、通用
 
 ### 2.5 逻辑框图
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_block.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_block.png)
 
 ## 3. 快速上手
 
@@ -174,7 +174,7 @@ MUSE Pi Pro是单板计算机形态产品，您需要连接必要的外设来使
 - 一个键盘
 - 一个鼠标
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_start.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_start.png)
 
 ### 3.2 开始启动
 
@@ -188,7 +188,7 @@ MUSE Pi Pro 支持 UEFI 启动和配置，您可以在上电开机后选择启�
 
 您在 MUSE Pi Pro 上电开机 3s 内，按下"F2"按键，将进入 UEFI 设置界面。
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_uefi1.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_uefi1.png)
 
 #### UEFI 配置指引：
 
@@ -197,17 +197,17 @@ MUSE Pi Pro 支持 UEFI 启动和配置，您可以在上电开机后选择启�
 - **启动管理 Boot Manager**  
    在Boot Manager Menu通过<↑>和<↓>按键，选择EMMC存储、SSD硬盘、USB硬盘、SD卡进行启动，或选择进入命令行界面UEFI shell；
 
-   ![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_boot0.png)
+   ![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_boot0.png)
 
 - **启动维护 Boot Maintenance Manager**  
    在Boot Maintenance Manager菜单，进入boot options，选择Change Boot Order，对启动介质优先级进行设置，按<+>和<->调整启动优先级；<Enter>后选择Commit Change and Exit提交优先级设置并退出，返回主菜单，按<F10>保存设置；
 
-   ![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_boot1.png)
+   ![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_boot1.png)
 
 - **交互命令行 UEFI Interactive Shell**  
    支持UEFI Interactive Shell V2.2版本，当您第一次进入 UEFI Interactive Shell时，它将打印您的计算机检测到的所有存储设备，一旦您按下除 <Esc> 以外的任意键或等待 5 秒，EFI Shell 就应该准备好执行命令，输入`help`显示支持的指令及相关帮助信息。
 
-   ![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_uefi2.jpg)
+   ![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_uefi2.jpg)
 
 **进迭时空开源UEFI源码仓库**：  
   - [edk2](https://gitee.com/bianbu-linux/edk2)
@@ -223,39 +223,39 @@ MUSE Pi Pro 支持 UEFI 启动和配置，您可以在上电开机后选择启�
 
    此页面帮助您配置系统的语言，默认显示 English 和中文，如需更多语言，可点击下方三个点，弹出更多选项
 
-   ![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/bianbu_desk0.png)
+   ![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/bianbu_desk0.png)
 
 2. 输入法
 
    此页面帮助您配置系统的键盘布局和输入法
 
-   ![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/bianbu_desk1.png)
+   ![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/bianbu_desk1.png)
 
 3. 无线上网
    此页面帮助您连接到 WiFi 网络，从列表中选择您的网络并进行连接；如暂未有合适 WiFi 网络，可在左上角选择跳过该设置
 
-   ![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/bianbu_desk2.png)
+   ![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/bianbu_desk2.png)
 
 4. 位置服务  
    页面可选择是否打开位置服务，如打开位置服务可便捷您的使用体验，但相应的可能会带来位置隐私泄露的风险
 
-   ![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/bianbu_desk3.png)
+   ![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/bianbu_desk3.png)
 
 5. 时区
    此页面帮助配置您所在时区信息，联网状态下系统能够自动同步相应时区时间，可以搜索城市来添加设置
 
-   ![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/bianbu_desk4.png)
+   ![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/bianbu_desk4.png)
 
 6. 设置您的用户名和密码
    该页面帮助您设置用户名和密码，请牢记您的密码
 
-   ![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/bianbu_desk5.png)  
-   ![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/bianbu_desk6.png)
+   ![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/bianbu_desk5.png)  
+   ![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/bianbu_desk6.png)
 
 7. 配置完成
    配置完成，点击 “开始使用 Bianbu” 吧，后可进入桌面
 
-   ![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/bianbu_desk7.png)
+   ![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/bianbu_desk7.png)
 
 ## 4. 安装调试指引
 
@@ -277,7 +277,7 @@ MUSE Pi Pro 支持 UEFI 启动和配置，您可以在上电开机后选择启�
 
 > **备注**：进迭时空官方刷机工具使用手册请访问链接：[刷机工具使用手册](../../../tools/user_guide/flasher_user_guide.md)
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_button2.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_button2.png)
 
 ### 4.2 串口调试
 
@@ -285,18 +285,18 @@ MUSE Pi Pro 支持 UEFI 启动和配置，您可以在上电开机后选择启�
 
 上位机经 USB 转 TTL 设备与 MUSE Pi Pro主板接口的 TX、RX、GND 正常连接。接口信号如图：
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_debug.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_debug.png)
 
 #### Windows系统调试:
 
 以 “MobaXterm” 为例:  
 首先，请正确连接硬件串口，并确认在设备管理器的端口中有 COM 口的显示，如图:
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/debug1.jpg)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/debug1.jpg)
 
 打开 “MobaXterm” 软件，选择 “Sessions”——“New Session”，在弹出的对话框中，选择 “Serial”，"Serial port" 选择上图中识别到的对应 COM 口，“Speed” 速率选择 “115200”，最后点击 “OK”，即可进入打印页面
 
-![](../../../../_assets/docs-product/k1_muse_pi_pro/static/FPsyb2sIMoIdMtxUFHvcysLinq9.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/FPsyb2sIMoIdMtxUFHvcysLinq9.png)
 
 ## 5. 注意事项
 
@@ -312,7 +312,7 @@ MUSE Pi Pro适用于家居、办公室或工业环境，开始操作前，请先
 
 **结构尺寸图**：
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_dimen.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_dimen.png)
 
 ## 7. 附录——接口线序
 
@@ -320,7 +320,7 @@ MUSE Pi Pro适用于家居、办公室或工业环境，开始操作前，请先
 
 MUSE Pi Pro上配备了1路 4lanes MIPI CSI FPC 22p接口与1路 2lanes MIPI CSI FPC 15p接口。
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_mipi.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_mipi.png)
 
 **15pin高速连接器接口线序如下**：
 
@@ -342,7 +342,7 @@ MUSE Pi Pro上配备了1路 4lanes MIPI CSI FPC 22p接口与1路 2lanes MIPI CSI
 | 14 | CAM_I2C1_SDA_3V3 |
 | 15 | CSI_VCC33 |
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_mipi1.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_mipi1.png)
 
 **22pin高速连接器接口线序如下**：
 
@@ -375,7 +375,7 @@ MUSE Pi Pro上配备了1路 4lanes MIPI CSI FPC 22p接口与1路 2lanes MIPI CSI
 
 MUSE Pi Pro上配备了1路 2lanes MIPI DSI FPC 15p接口。
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_mipi2.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_mipi2.png)
 
 **MIPI DSI FPC 15pin高速连接器接口线序如下**：
 
@@ -401,7 +401,7 @@ MUSE Pi Pro上配备了1路 2lanes MIPI DSI FPC 15p接口。
 
 开发板支持40pin双排插针，线序如下：
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_pins.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_pins.png)
 
 | pin | 信号名称 | 信号名称 | pin |
 |-----|----------|----------|-----|
@@ -430,7 +430,7 @@ MUSE Pi Pro上配备了1路 2lanes MIPI DSI FPC 15p接口。
 
 支持40pin双排插针pin6、8、10调试X60，主控端线序从上到下GND，RX，TX。
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_connect.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_connect.png)
 
 ### 7.5 JTAG 调试接口
 
@@ -443,7 +443,7 @@ MUSE Pi Pro上配备了1路 2lanes MIPI DSI FPC 15p接口。
 | 13    | GPIO_72_3V3     | PRI_TCK      |
 | 15    | GPIO_73_3V3     | PRI_TDO      |
 
-![图片](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_jtag.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi_pro/static/pi_pro_jtag.png)
 
 ## 8. 常见问题解答（FAQ）
 

@@ -99,7 +99,7 @@ The K3 series chips are mainly used in AI consumer hardware, such as AI smart ho
 
 ### 1.3 Block Diagram
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_block_diagram.png" alt="K3 Block Diagram" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_block_diagram.png" alt="K3 Block Diagram" width="800">
 
 ## 2. Specifications
 
@@ -137,7 +137,7 @@ Designed for both performance and robustness, the X100 core provides comprehensi
 
 **Block Diagram**  
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/x100_block_diagram.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/x100_block_diagram.png" alt="" width="600">
 
 #### 2.1.2 SpacemiT® A100™ AI Core
 
@@ -174,7 +174,7 @@ In addition to advanced AI acceleration, the A100 fully supports general-purpose
 
 **Block Diagram**  
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/a100_block_diagram.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/a100_block_diagram.png" alt="" width="400">
 
 #### 2.1.3 RT24 RISC-V Core
 
@@ -189,7 +189,7 @@ The RT24 serves as the system management core within the K3 SoC. It is based on 
 
 **Block Diagram**  
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/rt24_block_diagram.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/rt24_block_diagram.png" alt="" width="600">
 
 #### 2.1.4 Debug
 
@@ -198,7 +198,7 @@ The debugging interface serves as the channel for software to interact with the 
 
 **Block Diagram**  
 The micro-architecture of the debugging interface is depicted below.
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/debug_block_diagram.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/debug_block_diagram.png" alt="" width="600">
 
 As illustrated, the debugging system consists of  
 
@@ -237,7 +237,7 @@ Key features include:
 - Extended compression capabilities such as virtual address compression to further enhance trace efficiency  
 
 **Block Diagram**
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/trace_block_diagram.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/trace_block_diagram.png" alt="" width="600">
 
 ### 2.2 Memory & Storage
 
@@ -367,7 +367,7 @@ The MIPI Camera IN interface integrates four MIPI-CSI2 v1.1 controllers, each eq
   - Virtual-channel interleaving  
 
 **Block Diagram**
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/mipi_block_diagram.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/mipi_block_diagram.png" alt="" width="800">
 
 #### 2.3.2 GPU
 
@@ -671,7 +671,7 @@ The Display Controller is a hardware module that transfers display data from the
   - BGR888, RGB888, ABGR1555, RGBA5551, BGR565/RGB565  
   - XYUV_444_P1_8, XYUV_444_P1_10, YVYU_422_P1_8, VYUY_422_P1_8  
   - YUV_420_P2_8, YUV_420_P3_8  
-   <img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/disp_input_addr.png" alt="" width="800">
+   <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/disp_input_addr.png" alt="" width="800">
 - Output Formats:  
   - RGB888, RGB565, RGB666  
 - Panel & Mode Support:  
@@ -919,7 +919,7 @@ The K3 SoC integrates multiple USB interfaces to support high-speed connectivity
 
 **Block Diagram**
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/usb_block_diagram.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/usb_block_diagram.png" alt="" width="800">
 
 #### 2.7.3 Ethernet GMAC
 
@@ -1070,7 +1070,7 @@ The I²C bus interface resides on the peripheral bus and supports:
 
 The architecture of the I²C bus interface is depicted below.  
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/i2c_block_diagram.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/i2c_block_diagram.png" alt="" width="600">
 
 #### 2.7.8 IR-RX Interface
 
@@ -1136,7 +1136,7 @@ eSPI is based on the electrical characteristics of the SPI bus while redefining 
 
 **Block Diagram**  
 The architecture of the eSPI controller is depicted below.
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/espi_block_diagram.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/espi_block_diagram.png" alt="" width="800">
 
 ### 2.8 Security Subsystem
 
@@ -1230,7 +1230,7 @@ The DMA controller supports various data transfer types in DMA Flow-Through Mode
 
 **Block Diagram**  
 The architecture of the DMA controller is depicted below.
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/dma_block_diagram.png" alt="" width="500">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/dma_block_diagram.png" alt="" width="500">
 
 #### 2.9.2 HDMA
 
@@ -1317,7 +1317,7 @@ The Mailbox provides an inter-processor communication mechanism that allows on-c
 
 **Block Diagram**  
 The architecture of the Mailbox is depicted below.
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/mailbox_block_diagram.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/mailbox_block_diagram.png" alt="" width="800">
 
 #### 2.9.8 Spinlock
 
@@ -1456,28 +1456,28 @@ The related package outline drawing (POD) is depicted in the following section.
 
 ### 3.2 Package Outline Drawing (POD)
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/package1.png" alt="" width="500">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/package1.png" alt="" width="500">
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/package2.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/package2.png" alt="" width="800">
 
 ### 3.3 Part Number
 
 The figure below shows the K3 part number structure and field definitions.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_partno.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_partno.png" alt="" width="800">
 
 ## 4. Pinout
 
 ### 4.1 Pinout Diagram & Description
 
 The overall pinout diagram of K3 is depicted below.
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_pinmap.png" alt="" width="900">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_pinmap.png" alt="" width="900">
 
 Let’s consider the division into the quadrants, in order to conveniently provide the pinout description of K3 in the following subsections.
 
 #### 4.1.1 (A~Y, 1~20)
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_pinmap_a-y_1-20.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_pinmap_a-y_1-20.png" alt="" width="800">
 
 | Pin Number | Pin Name | Pin Number | Pin Name |
 | --- | --- | --- | --- |
@@ -1682,7 +1682,7 @@ Let’s consider the division into the quadrants, in order to conveniently provi
 
 #### 4.1.2 (A~Y, 21~40)
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_pinmap_a-y_21-40.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_pinmap_a-y_21-40.png" alt="" width="800">
 
 | Pin Number | Pin Name | Pin Number | Pin Name |
 | --- | --- | --- | --- |
@@ -1882,7 +1882,7 @@ Let’s consider the division into the quadrants, in order to conveniently provi
 
 #### 4.1.3 (AA~AY, 1~20)
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_pinmap_aa-ay_1-20.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_pinmap_aa-ay_1-20.png" alt="" width="800">
 
 | Pin Number | Pin Name | Pin Number | Pin Name |
 | --- | --- | --- | --- |
@@ -2089,7 +2089,7 @@ Let’s consider the division into the quadrants, in order to conveniently provi
 
 #### 4.1.4 (AA~AY, 21~40)
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_pinmap_aa-ay_21-40.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_pinmap_aa-ay_21-40.png" alt="" width="800">
 
 | Pin Number | Pin Name | Pin Number | Pin Name |
 | --- | --- | --- | --- |

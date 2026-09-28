@@ -25,7 +25,7 @@ The GPADC (General Purpose ADC) discussed in this section is an analog-to-digita
 
 ### Function Description
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/gpadc.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/gpadc.png)  
 
 1. **IIO Core**: Provides the interface between the driver and user space, responsible for device enumeration, registration, and management.
 2. **IIO Device Driver**: Code for controlling and reading specific IIO devices.

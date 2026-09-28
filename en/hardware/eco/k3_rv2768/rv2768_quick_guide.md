@@ -31,23 +31,23 @@ The Cluster Server RV2768 is a RISC-V-based cluster server in a 2U, 19-inch rack
 
 **Front Panel Layout**
 
-![Image](../../../../_assets/docs-product/k3_rv2768/static/front.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/front.png)
 
 **Front Panel Indicators and Buttons**
 
 |Indicators|Name|Description|
 |---|---|---|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/pwr.png)|Power Button|- When AC power is connected and the server is in Standby mode, press briefly to power on the server. The Node Management OS, switching system, and all compute nodes enter the operating state.<br>- When the server is powered on, press and hold the button for 6 seconds to force the Node Management OS, switching system, and all compute nodes to power off and return to Standby mode.|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/pwr_led.png)|Power LED|- Off: Server is not powered. <br>- Blinking Amber: The BMC management system is starting. During this period, the Power button is locked and cannot be operated. BMC startup typically completes within approximately one minute, after which the LED changes to solid amber. <br>- Solid Amber: Server is in Standby mode. <br>- Solid Green: Server is powered on and operating normally.|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/health_led.png)|Health Status LED|Normal: Off <br>Abnormal: <br>- Blinking Red (1 Hz): Major alarm. <br>- Blinking Red (5 Hz): Critical alarm.|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/uid_led.png)|UID LED|- Off: The server is not being identified. <br>- Blinking Blue (for 255 seconds): The server is being identified. <br>- Solid Blue: The server has been identified.|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/act_led.png)|High-Speed Network Port LED (ACT)|LINK/SPEED indicates link status and link speed: <br>- Solid Green: Link established at the highest supported speed. <br>- Solid Amber: Link established below the highest supported speed. <br>- Off: No link established. <br>ACT indicates network activity: <br>- Off: No data transmission. <br>- Blinking Green: Data is being transmitted. The blink rate increases with network activity.|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/spd_led.png)|High-Speed Network Port LED (SPD)|Same as above|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/bmc_led.png)|BMC Management Port LED|Same as above|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/pwr.png)|Power Button|- When AC power is connected and the server is in Standby mode, press briefly to power on the server. The Node Management OS, switching system, and all compute nodes enter the operating state.<br>- When the server is powered on, press and hold the button for 6 seconds to force the Node Management OS, switching system, and all compute nodes to power off and return to Standby mode.|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/pwr_led.png)|Power LED|- Off: Server is not powered. <br>- Blinking Amber: The BMC management system is starting. During this period, the Power button is locked and cannot be operated. BMC startup typically completes within approximately one minute, after which the LED changes to solid amber. <br>- Solid Amber: Server is in Standby mode. <br>- Solid Green: Server is powered on and operating normally.|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/health_led.png)|Health Status LED|Normal: Off <br>Abnormal: <br>- Blinking Red (1 Hz): Major alarm. <br>- Blinking Red (5 Hz): Critical alarm.|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/uid_led.png)|UID LED|- Off: The server is not being identified. <br>- Blinking Blue (for 255 seconds): The server is being identified. <br>- Solid Blue: The server has been identified.|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/act_led.png)|High-Speed Network Port LED (ACT)|LINK/SPEED indicates link status and link speed: <br>- Solid Green: Link established at the highest supported speed. <br>- Solid Amber: Link established below the highest supported speed. <br>- Off: No link established. <br>ACT indicates network activity: <br>- Off: No data transmission. <br>- Blinking Green: Data is being transmitted. The blink rate increases with network activity.|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/spd_led.png)|High-Speed Network Port LED (SPD)|Same as above|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/bmc_led.png)|BMC Management Port LED|Same as above|
 
 **Front Panel Connectors**
 
-![Image](../../../../_assets/docs-product/k3_rv2768/static/front_connectors.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/front_connectors.png)
 
 |No.|Connector|No.|Connector|
 |---|---|---|---|
@@ -67,7 +67,7 @@ The Cluster Server RV2768 is a RISC-V-based cluster server in a 2U, 19-inch rack
 
 **Rear Panel Layout and Connectors**
 
-![Image](../../../../_assets/docs-product/k3_rv2768/static/rear.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/rear.png)
 
 |No.|Module|No.|Module|
 |---|---|---|---|
@@ -83,7 +83,7 @@ The Cluster Server RV2768 is a RISC-V-based cluster server in a 2U, 19-inch rack
 
 ## Required Tools
 
-![Image](../../../../_assets/docs-product/k3_rv2768/static/tools.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/tools.png)
 
 ## Installation
 

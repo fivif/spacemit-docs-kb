@@ -134,7 +134,7 @@ npm start
 
 If you see the following window, it means the setup was successful:
 
-![electron-quick-start](../../../../../_assets/docs-bianbu/development/static/electron-quick-start.png)
+![electron-quick-start](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/electron-quick-start.png)
 
 ## Electron-builder user guide
 

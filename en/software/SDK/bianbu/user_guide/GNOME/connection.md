@@ -20,7 +20,7 @@ After plugging in the Ethernet cable, the system will attempt to obtain an IP ad
 2. Navigate to the **Network** menu.
 3. Locate the connected wired interface and click the **Settings** button.
 4. A dialog will appear showing the IP address.
-![Wired](../../../../../../_assets/docs-bianbu/static/wired00_en.png)
+![Wired](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/static/wired00_en.png)
 
 ### Method 2: Use Terminal Command
 
@@ -33,14 +33,14 @@ After plugging in the Ethernet cable, the system will attempt to obtain an IP ad
    ```
 
 3. Look for the `inet` field in the output; the corresponding value is the IPv4 address.
-   ![ifconfig](../../../../../../_assets/docs-bianbu/static/ifconfig.png)
+   ![ifconfig](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/static/ifconfig.png)
 
 ## Connecting to a Wireless Network
 
 1. Open **Settings**.
 2. Go to the **Wi-Fi** menu.
 3. Select the network you wish to connect to.
-![WiFi](../../../../../../_assets/docs-bianbu/static/wifi00_en.png)
+![WiFi](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/static/wifi00_en.png)
 4. If the network is password-protected, enter the password when prompted and click **Connect**.
 5. The network icon will change as the computer connects to the network.
 6. If the connection is successful, the icon will show a dot with arc-like lines. More lines indicate a stronger connection, while fewer suggest weaker and potentially unstable connectivity.

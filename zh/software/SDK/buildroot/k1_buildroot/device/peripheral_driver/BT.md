@@ -18,7 +18,7 @@ K1 平台主要通过外部 BT (Bluetooth) 模块（UART/USB 接口）实现无�
 
 BT 框架图可以分为以下几个层次：
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/bt.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/bt.png)
 
 ### 源码结构介绍
 

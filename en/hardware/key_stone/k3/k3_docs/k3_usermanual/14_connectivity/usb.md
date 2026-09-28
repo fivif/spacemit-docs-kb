@@ -47,7 +47,7 @@ The K3 SoC integrates multiple USB interfaces to support high-speed connectivity
 
 ## 14.2.3 Block Diagram
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/k3_usb.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/k3_usb.png" alt="" width="800">
 
 ## 14.2.4 Sideband IO for USB
 

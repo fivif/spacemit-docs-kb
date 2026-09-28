@@ -10,7 +10,7 @@ updated: "2026-07-30 11:31:24"
 
 Click the ⚙️ icon to open the Settings page, where the appearance, cache, AI models, and Remote Device Sharing for SpacemiT Studio can be configured.
 
-![Settings page](../../../../_assets/docs-tool/studio/static/setting_00.png)
+![Settings page](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/setting_00.png)
 
 ## Appearance
 
@@ -26,7 +26,7 @@ Click the ⚙️ icon to open the Settings page, where the appearance, cache, AI
 ## AI Settings
 
 - **Add Model**: Click **+ Add Model**, fill in the following information, then click **OK**:
-  ![Add model dialog](../../../../_assets/docs-tool/studio/static/setting_02.png)
+  ![Add model dialog](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/setting_02.png)
   - **Name**: A custom display name for the model.
   - **Provider**: The model service provider (such as OpenAI or ByteDance).
   - **API Key**: The key used for authentication.
@@ -37,7 +37,7 @@ Click the ⚙️ icon to open the Settings page, where the appearance, cache, AI
 
 The Remote Device Sharing feature allows users to remotely access SpacemiT Studio on other computers.
 
-![Remote Device Sharing settings](../../../../_assets/docs-tool/studio/static/setting_01.png)
+![Remote Device Sharing settings](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/setting_01.png)
 
 - **Disabled (default)**: Access local devices only
 - **Enabled**: When enabled, allows remote access to Studio and connected devices on other computers under the same account

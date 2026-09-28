@@ -13,7 +13,7 @@ updated: "2026-05-28 16:39:31"
 
 To accelerate AI workloads, many chip vendors have introduced dedicated processor architectures such as GPGPUs, NPUs, and TPUs. When running scheduling logic and application code, these accelerators usually rely on a host CPU to work together, as shown below. As a result, systems often need complex heterogeneous scheduling mechanisms to handle data movement and synchronization between the CPU and the accelerator (XPU).
 
-![architect](../../../_assets/docs-ai/architecture/images/architect.webp)
+![architect](https://cdn-resource.spacemit.com/ai/docs-ai/en/architecture/images/architect.webp)
 
 To make AI computing more general-purpose and easier to use, SpacemiT builds on its in-house CPU core design and takes a different approach. Based on standard RISC-V cores, Tensor Cores are integrated directly into the CPU. The RISC-V instruction set is used as a unified software–hardware interface to drive Scalar, Vector, and Matrix AI computing.
 

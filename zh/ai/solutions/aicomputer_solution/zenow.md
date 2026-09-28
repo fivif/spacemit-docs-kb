@@ -51,7 +51,7 @@ updated: "2026-07-04 11:26:27"
 
 ### 系统架构图
 
-![](../../../../_assets/docs-ai/solutions/static/zenow_26.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_26.png)
 
 
 ### 工作流程
@@ -74,7 +74,7 @@ sudo apt install zenow
 
 点击左下角菜单，搜索 **zenow** 或 **知了**，点击启动。
 
-![](../../../../_assets/docs-ai/solutions/static/zenow_1.jpg)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_1.jpg)
 
 > 💡 **小贴士**：右键应用图标选择”添加到桌面”并信任，方便下次快速启动。
 
@@ -86,11 +86,11 @@ sudo apt install zenow
 2. 在模型列表中选择需要的模型
 3. 点击模型名称开始下载
 
-![](../../../../_assets/docs-ai/solutions/static/zenow_2.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_2.png)
 
 支持同时下载多个模型：
 
-![](../../../../_assets/docs-ai/solutions/static/zenow_3.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_3.png)
 
 ### 3. 启动模型
 
@@ -100,7 +100,7 @@ sudo apt install zenow
 - **黄灯**：模型启动中
 - **绿灯**：模型已就绪
 
-![](../../../../_assets/docs-ai/solutions/static/zenow_4.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_4.png)
 
 > ⚠️ **重要提示**：为使用完整的知识库功能，建议至少下载并启动以下三类模型各一个：
 > - **LLM 模型**：用于对话生成
@@ -117,11 +117,11 @@ sudo apt install zenow
 2. 确认 LLM 模型状态为绿灯
 3. 在输入框输入问题，按回车或点击发送按钮
 
-![](../../../../_assets/docs-ai/solutions/static/zenow_13.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_13.png)
 
 应用会自动创建对话会话，支持多轮连续对话，保持上下文记忆。
 
-![](../../../../_assets/docs-ai/solutions/static/zenow_19.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_19.png)
 
 
 ### 知识库管理
@@ -129,7 +129,7 @@ sudo apt install zenow
 #### 预置知识库
 
 1. 知识库默认预置了spacemit知识库，可以用于询问知识库内有的东西的相关问题，如k3的算力
-![](../../../../_assets/docs-ai/solutions/static/zenow_27.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_27.png)
 
 
 #### 创建知识库
@@ -139,7 +139,7 @@ sudo apt install zenow
 2. 点击**新建知识库**按钮
 3. 填写知识库名称和简介
 4. 可选择自定义头像
-![](../../../../_assets/docs-ai/solutions/static/zenow_20.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_20.png)
 
 #### 导入文档
 
@@ -149,11 +149,11 @@ sudo apt install zenow
 4. 等待文档处理完成
 5. 如果文档未向量完离开该页面，会有弹窗，此时点击继续向量化耐心等待向量化完成
 
-![](../../../../_assets/docs-ai/solutions/static/zenow_5.png)
-![](../../../../_assets/docs-ai/solutions/static/zenow_7.png)
-![](../../../../_assets/docs-ai/solutions/static/zenow_8.png)
-![](../../../../_assets/docs-ai/solutions/static/zenow_11.png)
-![](../../../../_assets/docs-ai/solutions/static/zenow_12.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_5.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_7.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_8.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_11.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_12.png)
 
 
 
@@ -163,14 +163,14 @@ sudo apt install zenow
 2. 在输入框中，输入@，接着在选择栏中选择要使用的知识库
 3. 输入问题，并按回车，AI 将基于知识库内容回答
 
-![](../../../../_assets/docs-ai/solutions/static/zenow_14.png)
-![](../../../../_assets/docs-ai/solutions/static/zenow_15.png)
-![](../../../../_assets/docs-ai/solutions/static/zenow_16.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_14.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_15.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_16.png)
 
 ## 高级设置
 
 ### 对话参数
-![](../../../../_assets/docs-ai/solutions/static/zenow_24.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_24.png)
 
 在设置页面可以调整 LLM 模型的生成参数：
 
@@ -185,7 +185,7 @@ sudo apt install zenow
 
 ### RAG 参数
 
-![](../../../../_assets/docs-ai/solutions/static/zenow_25.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/zenow_25.png)
 
 知识库问答使用两阶段检索 + 加权融合策略，可调整以下参数：
 

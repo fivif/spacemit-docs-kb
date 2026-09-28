@@ -17,7 +17,7 @@ This document defines the compatibility verification methods and standard operat
 - Hardware : For each device under test (LPDDR4x SDRAM, eMMC5.1 Flash), at least 10 K1 DEB1 should be configured as verification platforms.
 - Cooling requirements: All test platforms should use the specified heatsink model shown below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/k1_deb1_00.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_hw/static/k1_deb1_00.png" alt="" width="600">
 
 ### 1.2 Test Environment
 
@@ -53,7 +53,7 @@ Industrial-grade device test environment
 
 - Interface definition: The interface layout of the K1 DEB1 is shown below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/k1_deb1_01.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_hw/static/k1_deb1_01.png" alt="" width="600">
 
 - Power requirements:
   - PD 3.0 power supply or 12V DC-IN
@@ -62,7 +62,7 @@ Industrial-grade device test environment
   - Connect K1 DEB1 UART0 via 3.3V serial port
   - Used for command input and log monitoring
 - Serial port settings:
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/serial_config.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_hw/static/serial_config.png" alt="" width="600">
 
 ### 2.3 Image Acquisition
 
@@ -70,11 +70,11 @@ Industrial-grade device test environment
 
 2. Version: Select the latest release version.
 
-   <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/bianbu_image_00.png" alt="" width="600">
+   <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_hw/static/bianbu_image_00.png" alt="" width="600">
 
 3. Package download: Click to download one of the desktop versions (GNOME or LXQt), preferably the `.zip` package.
 
-   <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/bianbu_image_01.png" alt="" width="600">
+   <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_hw/static/bianbu_image_01.png" alt="" width="600">
 
 ### 2.4 DDR RANK Configuration
 
@@ -88,17 +88,17 @@ Flasher tool configuration for DDR CS num:
 1. Click "Factory Tools".
 2. In "Key Programing", click "Custom fields".
 
-   <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/titan_00.png" alt="" width="600">
+   <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_hw/static/titan_00.png" alt="" width="600">
 
 3. Locate ddr_cs_num.
 4. Make sure it is "Enabled" (other options may show "Disabled" as pictured).
 5. Click "Save".
 
-   <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/titan_01.png" alt="" width="600">
+   <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_hw/static/titan_01.png" alt="" width="600">
 
 6. Check ddr_cs_num as shown below.
 
-   <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/titan_02.png" alt="" width="600">
+   <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_hw/static/titan_02.png" alt="" width="600">
 
 ### 2.5 Image Flashing
 

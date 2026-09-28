@@ -22,10 +22,10 @@ M1 芯片是进迭时空 K1 芯片的高性能版本。M1 芯片集成了八核�
 三、搭载38Wh电池，支持至多8h+的续航时间使用  
 四、既是Book也是Pi，专属MUSE开发者接口，与外界互连到芯片级输入输出引脚，含I2C/UART/PWM/JTAG/GPIO等信号  
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book.png)
 
 **参考方案框图**：  
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_block.jpg)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_block.jpg)
 
 ## 产品规格
 
@@ -45,7 +45,7 @@ M1 芯片是进迭时空 K1 芯片的高性能版本。M1 芯片集成了八核�
 | **供电系统** | 内置38Wh容量7.6V智能电池，支持PD3.0快充，产品配带65W适配器 |
 
 **接口示意**：  
-![](../../../../_assets/docs-product/k1_muse_book/static/book_interface.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_interface.jpg)
 
 ## 硬件优势
 
@@ -54,19 +54,19 @@ M1 芯片是进迭时空 K1 芯片的高性能版本。M1 芯片集成了八核�
 专为开发者设计的笔电外置接口，接口采用2.54mm 规格排母，引出芯片 UART/PWM/GPIO/JTAG 等信号，使开发者无需拆机使用常规杜邦线即可与主控连接通信，并可支持DIY各种外设传感器。  
 配合“Fastboot”和“Reset”按钮，即可完成便捷刷机和开发。
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_fb.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_fb.png)
 
 ### 自定义键盘：
 
 - 键盘表面特殊喷油处理，敲击手工更细腻顺滑  
 - F1、F2快捷键为复制粘贴键，一键实现复制（Ctrl+C）粘贴（Ctrl+V）  
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_f1f2.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_f1f2.png)
 
 - F11为自定义编程快捷键，可在设置的键盘里灵活配置快捷功能或脚本  
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_f11.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_f11.png)
 
 - 更适合开发者的键盘布局，方便开发者更好的移动和查看代码  
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_keys.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_keys.png)
 
 ### 触摸板：
 
@@ -118,7 +118,7 @@ MUSE Book采用USB-PD3.0协议Type-C接口供电/充电。为达到最佳性能�
 
 当电源适配器正常插入整机，电池正在充电状态时，侧边的充电灯会绿色闪烁；当电池充满时，侧边的充电灯会绿色常亮。
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_power.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_power.png)
 
 #### 键盘＆鼠标
 
@@ -132,7 +132,7 @@ MUSE Book除支持内置屏幕的显示外，还支持扩展屏幕。可通过�
 同时，如显示器的Type-C接口还支持反向充电，能够实现一线连（一根Type-C线同时进行屏幕扩展显示和充电）  
 扩屏后有以下四种状态可供您选择（按F8快捷键可以便捷切换）：镜像（复制）、拼接（扩展）、仅显示内置显示屏、仅显示外部显示屏。
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_screen.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_screen.png)
 
 #### 音频
 
@@ -140,7 +140,7 @@ MUSE Book通过内置麦克风和喇叭即可进行音频输入和输出，除�
 Type-C接口支持音视频同时传输。  
 您可以通过声卡设置，切换内置声卡（ES8326）或HDMI声卡。
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_audio.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_audio.png)
 
 #### 网络连接
 
@@ -152,12 +152,12 @@ MUSE Book不支持有线RJ45网口，但您仍可以通过USB转RJ45网口直接
 打开您的LCD屏幕面板：  
 直接翻开显示屏（如图），调整转轴的角度以获得最合适的视觉效果。
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_lcd.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_lcd.png)
 
 电源按钮①长按一秒后，笔记本电脑开机运行，蓝色电源指示灯亮起，在此之前请确保计算机已连接电源适配器或电池电量足够。  
 当您在进入系统之后，关闭盖子，系统自动触发休眠模式，减少运行功耗；此时打开盖子，电源按钮①按压一秒即可唤醒系统。
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_boot.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_boot.png)
 
 **常用按键快捷功能（默认Fn lock 状态）**
 
@@ -183,44 +183,44 @@ MUSE Book不支持有线RJ45网口，但您仍可以通过USB转RJ45网口直接
 
 此页面帮助您配置系统的语言，默认显示English和中文，如需更多语言，可点击下方三个点，弹出更多选项。
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_lang.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_lang.png)
 
 #### 输入法
 
 此页面帮助您配置系统的键盘布局和输入法
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_keyinput.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_keyinput.png)
 
 #### 无线上网
 
 此页面帮助您连接到WiFi网络，从列表中选择您的网络并进行连接；如暂未有合适WiFi网络，可在左上角选择跳过该设置
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_wifi.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_wifi.png)
 
 #### 位置服务
 
 此页面可选择是否打开位置服务，如打开位置服务可便捷您的使用体验，但相应的可能会带来位置隐私泄露的风险
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_location.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_location.png)
 
 #### 时区
 
 此页面帮助配置您所在时区信息，联网状态下系统能够自动同步相应时区时间，可以搜索城市来添加设置
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_time.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_time.png)
 
 #### 设置您的用户名和密码
 
 该页面帮助您设置用户名和密码，请牢记您的密码
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_user1.png)  
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_user2.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_user1.png)  
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_user2.png)
 
 #### 配置完成
 
 配置完成，点击“开始使用Bianbu”吧，后可进入桌面
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_done.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_done.png)
 
 ## 刷入固件
 
@@ -233,8 +233,8 @@ MUSE Book不支持有线RJ45网口，但您仍可以通过USB转RJ45网口直接
 
 然后通过MUSE Book的Type-C接口（此处必须选用③号OTG接口）与（PC）上位机进行USB连接，通过进迭时空官方刷机工具Titan或者fastboot命令即可进行刷机操作。
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_ports.jpg) 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_connect.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_ports.jpg) 
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_connect.png)
 
 ### 固件下载和安装
 
@@ -256,19 +256,19 @@ Bianbu是进迭时空针对RISC-V架构的处理器做了深度优化的操作�
 
 上位机经USB转TTL设备与MUSE Book拓展接口第2（TX）、3（RX）、4（GND）正常连接。拓展接口信号如图：
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/book_fb.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/book_fb.png)
 
 ### Windows 调试：
 
 以“MobaXterm”为例：  
 首先，请正确连接硬件串口，并确认在设备管理器的端口中有COM口的显示，如图：
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/mox1.jpg)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/mox1.jpg)
 
 打开“MobaXterm”软件，选择“Sessions”——“New Session”，在弹出的对话框中，选择“Serial”，"Serial port"选择上图中识别到的对应COM口，“Speed”波特率选择“115200”，最后点击“OK”，即可进入打印页面
 
-![图片](../../../../_assets/docs-product/k1_muse_book/static/mox2.jpg)  
-![图片](../../../../_assets/docs-product/k1_muse_book/static/mox3.jpg)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/mox2.jpg)  
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_book/static/mox3.jpg)
 
 ## 蓝牙使用建议
 

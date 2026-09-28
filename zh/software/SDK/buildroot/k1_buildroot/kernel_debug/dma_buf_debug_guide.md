@@ -15,7 +15,7 @@ DMA-BUF  是 Linux 内核为解决一个核心问题而设计的基础设施：�
 
 以 drm_gem 举例，DMA-BUF 整体结构如下：
 
-![DMA-BUF 架构示意图](../../../../../../_assets/docs-buildroot/k1_buildroot/kernel_debug/static/dma_buf_arch.png)
+![DMA-BUF 架构示意图](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/kernel_debug/static/dma_buf_arch.png)
 
 ## 核心机制
 
@@ -95,7 +95,7 @@ V2D 接收一个 dma-buf，并将其“附加（attach）”到自己的设备�
 
 ### 交互逻辑
 
-![DMA-BUF 交互流程图](../../../../../../_assets/docs-buildroot/k1_buildroot/kernel_debug/static/dma_buf_interaction.png)
+![DMA-BUF 交互流程图](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/kernel_debug/static/dma_buf_interaction.png)
 
 dma-buf 的核心是通过一个文件描述符（fd）在不同驱动间实现“零拷贝”内存共享。
 

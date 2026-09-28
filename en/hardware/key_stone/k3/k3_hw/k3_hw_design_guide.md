@@ -42,14 +42,14 @@ This document is intended for the following roles:
 - The external ZQ resistor for LPDDR5/4x must be a **120 Ω ±1% precision resistor connected to GND**.
   The circuit design must strictly follow the reference design, including power decoupling capacitors.
   
-  ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/ddr_00.png)
+  ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/ddr_00.png)
 
 - PowerOK
   - PWROK is a PHY input signal from the always-on VDD2H power domain, used to indicate that all PHY power supplies and clocks are stable.
   - When IO retention is supported, BP_PWROK must be externally controlled and asserted low in advance before power-down, in accordance with the JEDEC specification.
   - If IO retention is not required, BP_PWROK can be pulled high through the VDD2H_TIEHI output pin.
   - The reference design uses a MOSFET-based circuit with a reserved pull-up resistor to VDD2.
-    ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/ddr_pwrok.png)
+    ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/ddr_pwrok.png)
 
 - LPDDR IO Map
   
@@ -228,7 +228,7 @@ This document is intended for the following roles:
 
 - If the reset signal is shared with other reset sources, isolation must be implemented using a NAND gate or diode to prevent interference between sources.
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/reset.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/reset.png)
 
 #### 1.1.3 JTAG Interface
 
@@ -236,7 +236,7 @@ This document is intended for the following roles:
 
 - TDI, TMS, TCK, TDO, as well as Power and GND, should be connected to the J-Link debugger. The signal voltage level must match the debugger supply voltage. The TRSTn signal can be either connected to the J-Link debugger or pulled up to the Power rail.
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/jtag.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/jtag.png)
 
 #### 1.1.4 Power Management (PMIC) Circuit Design
 
@@ -251,13 +251,13 @@ This document is intended for the following roles:
 
 - The following diagrams show the power solution for the **LPDDR5 version**:
 
-  ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/pmic_00.png)
-  ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/pmic_01.png)
+  ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/pmic_00.png)
+  ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/pmic_01.png)
 
 - The following diagrams show the power solution for the **LPDDR4x version**:
 
-  ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/pmic_02.png)
-  ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/pmic_03.png)
+  ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/pmic_02.png)
+  ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/pmic_03.png)
 
 > Note: The PMIC (P1) peripheral circuitry must strictly follow the reference design provided by SpacemiT.
 > Related design files are included in the hardware package of the release.
@@ -314,7 +314,7 @@ The 32.768 kHz clock is used as an external RTC clock input. Since the PMIC alre
 
 The load capacitors should be selected according to the crystal oscillator datasheet. The recommended value is 12 pF.
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/time.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/time.png)
 
 > Note: The selected capacitors must match the crystal load capacitance. NPO dielectric is recommended. A 4-pin SMD crystal is preferred, with two GND pins well tied to board ground to improve the ESD robustness of the system clock.
 
@@ -325,14 +325,14 @@ The load capacitors should be selected according to the crystal oscillator datas
 - Both 1.8 V and 3.3 V Flash devices are supported. The interface voltage level should follow the VCC1833_QSPI power domain configuration. For level selection details, see [1.1.5 Hardware Initialization and System Configuration Circuit](k3_hw_design_guide.md#115-hardware-initialization-and-system-configuration-circuit).
 - Dual CS is supported.
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/flash.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/flash.png)
 
 #### 1.1.8 eMMC
 
 - Complies with the 8-bit eMMC 5.1 specification.
 - It is recommended to reserve external pull-up / pull-down options for the eMMC Data and DS signals, and leave them as NC in production.
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/emmc.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/emmc.png)
 
 #### 1.1.9 UFS
 
@@ -340,15 +340,15 @@ The load capacitors should be selected according to the crystal oscillator datas
 - The reference design is compatible with a 1.2 V UFS design.
   If 1.2 V UFS is not required, the corresponding circuitry does not need to be reserved.
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/ufs.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/ufs.png)
 
 ### 1.2 Power Design Recommendations
 
 #### 1.2.1 Chip Power Topology
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/top_00.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/top_00.png)
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/top_01.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/top_01.png)
 
 #### 1.2.2 Chip Power Input Description
 
@@ -374,7 +374,7 @@ The load capacitors should be selected according to the crystal oscillator datas
 
 #### 1.2.3 Power-On Sequence
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/poweron.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/poweron.png)
 
 #### 1.2.4 Power-Off Sequence
 
@@ -473,7 +473,7 @@ K3 supports the following CSI input configurations:
 - 4-lane + 4-lane + 4-lane, or
 - 4-lane + 4-lane + 2-lane + 2-lane
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/mipi.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/mipi.png)
 
 - MIPI CSI0 differential data is sampled using the MIPI_CSI0_CLK differential clock.
 - MIPI CSI1 differential data is sampled using the MIPI_CSI1_CLK differential clock.
@@ -531,7 +531,7 @@ Among them:
 - USB20_A_DRD_USB_M is used as the chip download interface.
 - The K3 PCIe interfaces are multiplexed with USB 3.0 combo interfaces. The multiplexing relationship is shown below:
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/pher.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/pher.png)
 
 - The PCIe sideband signal names for the controllers are listed below. Among them, PCIeA/B support hot-plug, while PCIeC/D support partial hot-plug functionality.
 
@@ -551,7 +551,7 @@ Among them:
 
 - The mapping relationship between PCIe/USB controllers and PCIe/USB PHY interfaces is shown below:
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/phy.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/phy.png)
 
 - PCIe controller A supports EP mode with up to 8 lanes. Its usage is as follows:
   - The 8 lanes are composed of 6 PHYs: x2 + x2 + x1 + x1 + x1 + x1
@@ -598,7 +598,7 @@ The K3 chip supports 4 GMAC controllers, providing RMII, RGMII, and MII interfac
 - GMAC2 and GMAC3 support RGMII and RMII.
 - The chip can provide a 25 MHz clock to the GMAC PHY.
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/gmac.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/gmac.png)
 
 #### 1.4.6 CAN Interface
 
@@ -637,19 +637,19 @@ In the 10-layer design:
 For DDR routing, control single-ended impedance to 45 Ω and differential impedance to 85 Ω.
 For other signals, control single-ended impedance to 50 Ω and differential impedance to 90 Ω.
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/stack.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/stack.png)
 
 K3 CPU fanout design:
 
 - The first two rows of balls can be fanned out on the top layer.
 - For traces fanned out from the second row on the top layer, a neck-down width of 3 mil can be used, then restored to the normal trace width after leaving the CPU breakout area.
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/fanout_00.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/fanout_00.png)
 
 If signals are used in both the first and second rings, then starting from the third row, routing must switch layers and fan out through inner layers.
 Arrange vias in the CPU area uniformly, preserve large continuous regions for ground and power planes. As shown below, after copper is poured on the ground plane, multiple channels remain connected to the external ground, which benefits SI/PI performance and heat dissipation.
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/gnd.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/gnd.png)
 
 ### 2.2 General Routing Guidelines
 
@@ -665,13 +665,13 @@ Arrange vias in the CPU area uniformly, preserve large continuous regions for gr
 - Inter-pair skew is the delay difference between different differential pairs.
 - Signal spacing refers to air gap.
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/routing.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/routing.png)
 
 Recommendations for high-speed signal routing:
 
 1. When changing layers for high-speed signals, add a nearby GND stitching via next to the signal via to maintain return-path continuity.
 
-  ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/gnd_00.png)
+  ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/gnd_00.png)
 
 2. SMT pads can reduce impedance. To minimize the impact of impedance discontinuities, it is recommended to clear one reference-plane layer directly beneath the SMT pad, sized to match the pad.
    Common SMT components include:
@@ -680,7 +680,7 @@ Recommendations for high-speed signal routing:
    - Common-mode chokes
    - Connectors
 
-   ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/gnd_01.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/gnd_01.png)
 
 3. Avoid fiberglass weave effect.
 
@@ -703,7 +703,7 @@ Recommendations for high-speed signal routing:
    The following methods are recommended to mitigate its impact.
    - **Method 1:** Adjust the routing angle by introducing a ~10° skew to the trace direction, or rotate the PCB panel by 10° during fabrication, ensuring that traces are not routed parallel to the glass fiber weave.
 
-    ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/routing_00.png)
+    ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/routing_00.png)
 
    - **Method 2:** Use ZigZag routing.
      In the figure below, W should be at least 3 times the fiberglass weave pitch. Recommended values:
@@ -711,7 +711,7 @@ Recommendations for high-speed signal routing:
       - θ = 10°
       - L = 340 mil
 
-    ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/routing_01.png)
+    ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/routing_01.png)
 
 4. Minimize layer changes during routing. If a layer change is necessary:
 
@@ -730,13 +730,13 @@ Recommendations for high-speed signal routing:
    - D2 = 15 mil, anti-pad size from top layer to bottom layer
    - D3 = 30 mil, center-to-center spacing between the signal via and the return GND via
 
-    ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/dog_bone.png)
+    ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/dog_bone.png)
 
 6. It is recommended to keep P/N length matching within a differential pair to ≤ 5 mil.
 
    If serpentine tuning is needed for P/N length compensation, the serpentine geometry must be carefully controlled to meet the requirements shown below, so as to minimize the impact of impedance discontinuities.
 
-   ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/routing_01.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/routing_01.png)
 
 ### 2.3 Power and Decoupling Capacitor Design
 
@@ -756,37 +756,37 @@ Recommendations for high-speed signal routing:
    - follow the reference design
    - do not remove power vias or GND vias
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/decup_00.png)
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/decup_01.png)
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/decup_02.png)
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/decup_03.png)
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/decup_04.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/decup_00.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/decup_01.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/decup_02.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/decup_03.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/decup_04.png)
 
 ### 2.4 P1 Power Layout Design
 
 1. Add an evenly distributed array of GND vias on the center thermal pad:
 
-   ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/p1_layout_00.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/p1_layout_00.png)
 
 2. Route the input copper for BUCK3 / BUCK4 / BUCK5 / BUCK6 separately.
    Do not merge their Vin copper pours.
 
    BUCK1 / BUCK2 may share a merged copper pour. Use three vias per pin.
 
-   ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/p1_layout_01.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/p1_layout_01.png)
 
 3. Route the FB trace on an inner layer when changing layers.
    Avoid long parallel routing with the SW node on the same layer.
 
-   ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/p1_layout_02.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/p1_layout_02.png)
 
 4. Place decoupling capacitors close to the main chip, and ensure the power trace width matches the reference design
 
-   ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/p1_layout_03.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/p1_layout_03.png)
 
 5. Apply copper pour on the SW node, and keep the path short, and ensure other signals are kept away from SW nodes
 
-   ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/p1_layout_04.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/p1_layout_04.png)
 
 ### 2.5 Minimal System Design
 
@@ -821,23 +821,23 @@ If designing independently, follow the guidelines below and complete simulation 
    Follow the reference template strictly. Do not arbitrarily remove GND vias. 
    The template pin GND via design is shown below:
 
-    ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/gnd_02.png)
+    ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/gnd_02.png)
 
 2. Crosstalk from the trace itself affects signal delay. When routing for length matching, it is recommended that S ≥ 3W.
 
-    ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/routing_03.png)
+    ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/routing_03.png)
 
 3. In the DDR chip area, it is recommended to have one GND via per pin. Add additional GND vias wherever space permits.
   
 4. Adjust via positions to optimize plane splits and improve return paths.
 
-    ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/gnd_03.png)
+    ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/gnd_03.png)
 
 5. Each capacitor pad should have at least one via. For 0603/0805 package capacitors:
    - Use two vias per pad
    - Place vias close to the pin location to reduce loop inductance
 
-    ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/capacitor.png)
+    ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/capacitor.png)
 
 6. For DDR module power supplies with FB (feedback) lines:
    - The FB line feedback point should be close to the far-end power supply point of the MCU and DDR ball

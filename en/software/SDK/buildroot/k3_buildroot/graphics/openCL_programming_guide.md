@@ -20,7 +20,7 @@ OpenCL consists of two main parts:
 1. **Kernel Language**: A C99-derived language used to write functions (kernels) that execute on OpenCL devices.
 2. **Platform API**: Interfaces for defining and controlling the compute platform.
 
-![opencl](../../../../../../_assets/docs-buildroot/k3_buildroot/graphics/static/how_it_works.jpg)
+![opencl](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/graphics/static/how_it_works.jpg)
 
 As shown in the figure, the OpenCL framework contains two critical API layers:
 
@@ -50,7 +50,7 @@ As shown in the figure, the OpenCL framework contains two critical API layers:
 
 The figure below illustrates the flow of executing an OpenCL kernel:
 
-![opencl](../../../../../../_assets/docs-buildroot/k3_buildroot/graphics/static/executing_programs.jpg)
+![opencl](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/graphics/static/executing_programs.jpg)
 
 The complete steps for executing an OpenCL program are as follows:
 

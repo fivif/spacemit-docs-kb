@@ -14,10 +14,10 @@ updated: "2026-03-31 17:42:37"
 ## 产品简介
 
 MUSE Box 是针对开发者设计的RISC-V迷你主机，主板采用标准的MINI-ITX尺寸设计，集成丰富的扩展接口和插针，无风扇设计，搭配进迭时空M1芯片。M1芯片是进迭时空K1芯片的高性能版本。M1芯片集成了八个进迭时空RISC-V X60核，提供50KDMIPS算力和融合2TOPS AI算力，可实现与所有主流AI生态的快速对接；支持4K H.265/H.264/VP9/VP8等编解码格式；支持3D图像引擎，OpenCL 3.0/OpenGLES 3.2/Vulkan 1.3。  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/box.PNG)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/box.PNG)
 
 **产品逻辑框图**：  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/box_block.JPEG)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/box_block.JPEG)
 
 ## 产品规格
 
@@ -78,8 +78,8 @@ Chromium
 主板支持4Pin ATX DC IN  
 
 **接口示意**：  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/box_port1.JPEG)  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/box_port2.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/box_port1.JPEG)  
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/box_port2.png)
 
 # 硬件优势
 
@@ -117,17 +117,17 @@ MUSE Box是单主机形态产品，您需要连接必要的外设来使用它。
 
 MUSE Box采用12V DC IN接口供电，您需使用包装随附电源适配器来进行供电。  
 将电源适配器尾端和DC IN接口相连接。  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/dcin.jpg)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/dcin.jpg)
 
 #### 键盘＆鼠标：
 
 您可以使用MUSE Box上的任一USB端口连接有线键盘/鼠标或USB接收器，以及通过蓝牙的方式连接键鼠。  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/keyboard_mouse.jpg)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/keyboard_mouse.jpg)
 
 #### 显示器：
 
 MUSE Box需要通过外置显示器将画面显示出来。MUSE Box支持HDMI视频接口，因此您可以连接带有HDMI视频接口的显示器。  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/box_display.PNG)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/box_display.PNG)
 
 #### 音频：
 
@@ -140,14 +140,14 @@ MUSE Box可以通过HDMI信号在显示器上进行音频的输出。
 
 MUSE Box支持有线RJ45网口，您可以通过RJ45网口直接与网线连接，如连接单根网线，两个网口可任选其一。  
 MUSE Box支持无线WiFi和蓝牙的连接，请在使用前，取出包装随附的两根天线并安装在对应的天线孔。  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/box_wirelss.PNG)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/box_wirelss.PNG)
 
 ## 开始启动
 
 提前连接您的所需要的外设，并按下启动按钮：  
 将设备通过视频连接线连接到HDMI显示器，同时连接上键盘和鼠标。  
 最后连接上电源线，并通电即可开机。（首次通电即开机，若软件关机后，需短按蓝色灯左侧的电源按钮1S即可开机）计算机运行后，蓝色的电源指示灯会亮起。  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/box_display.PNG)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/box_display.PNG)
 
 ## 首次启动时配置您的 MUSE Box
 
@@ -155,44 +155,44 @@ MUSE Box支持无线WiFi和蓝牙的连接，请在使用前，取出包装随�
 
 **系统语言**：  
 此页面帮助您配置系统的语言，默认显示English和中文，如需更多语言，可点击下方三个点，弹出更多选项。  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/lang.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/lang.png)
 
 **输入法**：  
 此页面帮助您配置系统的键盘布局和输入法  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/keyinput.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/keyinput.png)
 
 **无线上网**：  
 此页面帮助您连接到WiFi网络，从列表中选择您的网络并进行连接；如暂未有合适WiFi网络，可在左上角选择跳过该设置  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/wifi.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/wifi.png)
 
 **位置服务**：  
 此页面可选择是否打开位置服务，如打开位置服务可便捷您的使用体验，但相应的可能会带来位置隐私泄露的风险  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/location.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/location.png)
 
 **时区**：  
 此页面帮助配置您所在时区信息，联网状态下系统能够自动同步相应时区时间，可以搜索城市来添加设置  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/time.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/time.png)
 
 **设置您的用户名和密码**：  
 该页面帮助您设置用户名和密码，请牢记您的密码  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/setuser01.png)  
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/setuser01.png)  
 
-![图片](../../../../_assets/docs-product/k1_muse_box/static/setuser02.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/setuser02.png)
 
 **配置完成**  
 配置完成，点击“开始使用Bianbu”吧，后可进入桌面  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/done.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/done.png)
 
 ## 刷入固件
 
 ### 进入刷机模式
 
 旋转并解锁机身后面的两颗螺丝后，往后推盖子即可将上盖打开并看见和使用主板。  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/box_back.png)  
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/box_back.png)  
 按住主板内的Fastboot（烧录）按钮，并按住reset按钮重启，即可进入刷机模式。  
 此时通过MUSE Box的Type-A（位于机身后端USB2.0接口的下口为OTG口），与上位机进行USB连接，通过进迭时空官方刷机工具Titan或者fastboot命令即可进行刷机操作  
 注意：请使用USB数据线刷机  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/box_otg.jpg)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/box_otg.jpg)
 
 ### 固件下载和安装
 
@@ -213,14 +213,14 @@ Bianbu是进迭时空针对RISC-V架构的处理器做了深度优化的操作�
 ### 接口连接：
 
 上位机经USB转TTL设备与MUSE Box主板接口的TX、RX、GND正常连接。接口信号如图：  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/box_txrx.jpg)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/box_txrx.jpg)
 
 ### Windows调试：
 
 以“MobaXterm”为例：  
 首先，请正确连接硬件串口，并确认在设备管理器的端口中有COM口的显示，如图：  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/debug.jpg)  
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/debug.jpg)  
 
 打开“MobaXterm”软件，选择“Sessions”——“New Session”，在弹出的对话框中，选择“Serial”，"Serial port"选择上图中识别到的对应COM口，“Speed”速率选择“115200”，最后点击“OK”，即可进入打印页面  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/MobaXterm01.jpg)  
-![图片](../../../../_assets/docs-product/k1_muse_box/static/MobaXterm01.jpg)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/MobaXterm01.jpg)  
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_box/static/MobaXterm01.jpg)

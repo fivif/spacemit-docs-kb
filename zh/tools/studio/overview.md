@@ -15,7 +15,7 @@ updated: "2026-08-24 09:53:18"
 ## 界面概览
 
 主界面包含导航栏、工具栏、设备区域和 AI 工作区，开发者可在同一窗口中完成设备连接、系统管理和调试操作。
-![](../../../_assets/docs-tool/studio/static/home.png)
+![](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/home.png)
 
 ## 适用场景
 

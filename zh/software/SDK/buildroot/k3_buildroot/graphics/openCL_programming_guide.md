@@ -20,7 +20,7 @@ OpenCL 主要包含以下两个部分：
 1. **内核编程语言**：基于 C99 的语言，用于编写在 OpenCL 设备上运行的函数（Kernels）
 2. **平台API**：用于定义和控制计算平台的接口
 
-![opencl](../../../../../../_assets/docs-buildroot/k3_buildroot/graphics/static/how_it_works.jpg)
+![opencl](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/graphics/static/how_it_works.jpg)
 
 如图所示，OpenCL框架包含两个关键API层：
 
@@ -50,7 +50,7 @@ OpenCL 主要包含以下两个部分：
 
 下图展示了执行OpenCL Kernel的流程：
 
-![opencl](../../../../../../_assets/docs-buildroot/k3_buildroot/graphics/static/executing_programs.jpg)
+![opencl](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/graphics/static/executing_programs.jpg)
 
 执行 OpenCL 程序的完整步骤如下：
 

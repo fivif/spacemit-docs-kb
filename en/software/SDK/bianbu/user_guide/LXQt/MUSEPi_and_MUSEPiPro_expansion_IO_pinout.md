@@ -16,10 +16,10 @@ Starting from **Bianbu Star V2.1.5**, these expansion I/O interfaces are **pre-i
 
 The **MUSE Pi Pro** features a **40-pin expansion header**.  
 The functional pin definitions are shown below:
-![MUSE Pi Pro](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/musepipro_pin.png)
+![MUSE Pi Pro](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/musepipro_pin.png)
 
 ## MUSE Pi
 
 The **MUSE Pi** provides a **26-pin expansion header**.  
 The functional pin definitions are shown below:
-![MUSE Pi](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/musepi_pin.png)
+![MUSE Pi](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/musepi_pin.png)

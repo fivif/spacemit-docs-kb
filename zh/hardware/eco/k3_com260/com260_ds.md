@@ -76,7 +76,7 @@ K3-CoM260 提供了丰富的接口，涵盖 MIPI-DSI、MIPI-CSI、DP 1.2、SDIO 
 
 下图展示了**订货型号**的命名规则，该规则由以下几个部分组成。
 
-![](../../../../_assets/docs-product/k3_com260/static/com260_model.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/com260_model.png)
 
 下表提供了具体的订货型号（Part Number）、主控型号以及对应的 DDR 容量信息。
 
@@ -90,7 +90,7 @@ K3-CoM260 提供了丰富的接口，涵盖 MIPI-DSI、MIPI-CSI、DP 1.2、SDIO 
 
 K3-CoM260 模块框图如下图所示。
 
-![](../../../../_assets/docs-product/k3_com260/static/com260_bd.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/com260_bd.png)
 
 注：有关各模块的详细技术参数，请参考相应的 [K3 数据手册（Datasheet）](../../key_stone/k3/k3_docs/k3_ds.md)。
 
@@ -286,7 +286,7 @@ K3-CoM260 模块框图如下图所示。
 
 下图展示了 K3-CoM260 模块的实物图。
 
-![](../../../../_assets/docs-product/k3_com260/static/com260_real01.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/com260_real01.png)
 
 ### 3.2 引脚封装
 

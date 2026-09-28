@@ -97,12 +97,12 @@ K1 是一款高性能、超低功耗的 SOC，集成了 8 核 RISC-V CPU 内核�
 
 **框图**
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/Hs4Sbm1KOoe6cRx2J4DcJS9Dngf.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/Hs4Sbm1KOoe6cRx2J4DcJS9Dngf.png)
 
 ### K1 MUSE Pi 参考方案框图
    3.1 参考方案框图
    K1 MUSE Pi 系统采用 K1 的芯片，P1 PMIC+ 外挂 DCDC 的供电方案；DRAM 采用 LPDDR4X、eMMC5.1；包括 2xPCIe2.0 2lane M.2 KEY M、USB2.0 TYPEA、USB3.0 TYPEA、WIFI/BT、TF Card、HDMI TX、MIPI DSI、MIPI CSI、TYPEC、2xRJ45 等外设接口，集成了一个稳定的可量产化的方案。参考方案框图如下：
-   ![](../../../../_assets/docs-product/k1_muse_pi/static/PDgvb49SsoQV1HxPi8zcF25Jn5f.jpg)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/PDgvb49SsoQV1HxPi8zcF25Jn5f.jpg)
 
 ### 功能概述
 
@@ -208,16 +208,16 @@ K1 MUSE Pi 包含的功能如下：
 
 ### 实物图
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/UU0LbjG4JoIH2oxR6plcpVKanLr.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/UU0LbjG4JoIH2oxR6plcpVKanLr.png)
 
 ### 电源框图
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/DgJcbZGhDo4FQTxbAOFcP2oGnqb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/DgJcbZGhDo4FQTxbAOFcP2oGnqb.png)
 
 ### Boot Download Sel&JTAG Sel
 
 SEC2 JTAG 配置电路：K1 SEC2 JTAG 与 MMC1（TF CARD）接口复用，当 JTAG_SEL 拉高，MMC1_CMD 拉低，即可配置为 SEC2 JTAG 调试 X60 CPU
-![](../../../../_assets/docs-product/k1_muse_pi/static/SbuCbsWobovVuexwSK2c55j9nKb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/SbuCbsWobovVuexwSK2c55j9nKb.png)
 
 <table>
 <tbody>
@@ -249,7 +249,7 @@ SEC2 JTAG 配置电路：K1 SEC2 JTAG 与 MMC1（TF CARD）接口复用，当 JT
 </table>
 
 Boot Download Sel 配置电路：K1 支持配置 strap pin 选择启动介质。通过拨码开关即可配置，下表为设备启动介质与拨码开关的匹配关系。
-![](../../../../_assets/docs-product/k1_muse_pi/static/I21ub38Y1ozWMpxcrE0c3E0qnUG.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/I21ub38Y1ozWMpxcrE0c3E0qnUG.png)
 
 <table>
 <tbody>
@@ -274,16 +274,16 @@ Boot Download Sel 配置电路：K1 支持配置 strap pin 选择启动介质。
 </tbody>
 </table>
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/VNaNbxVTcoSC5lx5EHQc5dj6n5e.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/VNaNbxVTcoSC5lx5EHQc5dj6n5e.png)
 需要注意的是，当设备插入了写入固件的 TF Card，无论拨码开关在何种配置下，设备都会从 TF Card 启动。
 当使用拨码开关配置了设备启动路径，刷机时固件会默认刷到该种启动路径下。例如，当拨码开关配置从 SPI NOR 启动时，刷机时固件默认会刷到 SPI NOR 和 SSD，其中需要注意的是，SSD 需要配置在 M.2 一号槽位。
-![](../../../../_assets/docs-product/k1_muse_pi/static/UqEKb1cV5o12upxaUNqcscPOnDd.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/UqEKb1cV5o12upxaUNqcscPOnDd.jpg)
 
 ### I2C 地址
 
 开发板预留丰富的外围接口，用户调试 I2C 外设会涉及到 I2C 通道复用情况，下图为现有的开发板器件对应的 I2C 地址和上拉电源，避免地址冲突和电平不匹配。
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/AqcrbA605oR6h3xaK53cLbDinzN.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/AqcrbA605oR6h3xaK53cLbDinzN.png)
 
 ## 模块简述
 
@@ -291,7 +291,7 @@ Boot Download Sel 配置电路：K1 支持配置 strap pin 选择启动介质。
 
 MUSE Pi 仅提供一种电源输入方式：Type-C 输入，需使用支持 PD3.0 的适配器，输入电压默认调节为 12V。通过前端降压变换器（buck）电源后，得到电源 VCC5V0\_SYS 与 VCC4V0，分别给外挂 DCDC 和 PMIC 供电，输出不同电压供系统使用。M.2 座 3.3V 供电电流较大，由适配器输入电源通过前端降压变换器（buck）输出得到。
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/ZCKnbt81go9wZPx87iucVS42nTI.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/ZCKnbt81go9wZPx87iucVS42nTI.png)
 
 ### 存储器
 
@@ -303,19 +303,19 @@ DDR：开发板 DDR 使用一片 4GB LPDDR4X
 
 EEPROM：开发板支持 EEPROM 存储板卡信息
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/EiwZbgt2GoMZucxbSQDc8VkGnfE.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/EiwZbgt2GoMZucxbSQDc8VkGnfE.png)
 
 ### 按键输入
 
 MUSE Pi 支持电源开关按键、烧录按键和复位按键
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/J4l2btpWIoLdrrxDgCyc5F9gnTc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/J4l2btpWIoLdrrxDgCyc5F9gnTc.png)
 
 ### MIPI CSI 高速连接器
 
 MUSE Pi 不固定支持某一摄像头模组，高速连接器包含两组 4lane 信号，可根据高速连接器对应线序自行设计小板来匹配特定模组，实现 4lane+4lane 或 4lane+2lane+2lane 的摄像头组合
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/Inq7b3oXeox6HfxlHOOcqshwn3g.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/Inq7b3oXeox6HfxlHOOcqshwn3g.png)
 
 60pin 高速连接器接口线序如下：
 
@@ -514,7 +514,7 @@ MUSE Pi 不固定支持某一摄像头模组，高速连接器包含两组 4lane
 
 开发板支持 1080P 屏（JL-M101N013-P12WU-M402632），屏座接口型号为 FH35C-31S-0.3SHW(50)
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/PHNWbm0A7ofQaBxJgeIcC6TwnRd.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/PHNWbm0A7ofQaBxJgeIcC6TwnRd.png)
 
 屏接口顺序
 
@@ -631,37 +631,37 @@ MUSE Pi 不固定支持某一摄像头模组，高速连接器包含两组 4lane
 </tbody>
 </table>
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/OOucbXhbQoFVuLxdLdncYDJBnWe.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/OOucbXhbQoFVuLxdLdncYDJBnWe.png)
 
 ### Type-C 连接器
 
 开发板 Type-C 连接器，支持 USB2.0 DEVICE，内置调压芯片支持 PD3.0 协议调压到 12V 给 MUSE Pi 供电
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/M6awbbwv8o1WkZxzO4pc9kgOnwh.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/M6awbbwv8o1WkZxzO4pc9kgOnwh.png)
 
 ### HDMI 输出接口
 
 开发板支持一路 HDMI 标准 A 输出接口，最大支持 HDMI1.4，最大可支持 1080p 60fps 视频输出
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/Ix06beoV0oTRxUx4rOncNF8Jn4T.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/Ix06beoV0oTRxUx4rOncNF8Jn4T.png)
 
 ### USB 接口
 
 开发板提供一个 USB2.0 接口和一个 USB3.0 接口，方便开发者接入 USB 设备
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/DxyKbIRC7oUqjQxlot7c500mnWf.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/DxyKbIRC7oUqjQxlot7c500mnWf.png)
 
 ### RJ45 接口
 
 开发板支持 2 个 RJ45 千兆网接口
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/YP1Eb994son3axxSgn3cbE82n4c.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/YP1Eb994son3axxSgn3cbE82n4c.png)
 
 ### wifi/BT 模组
 
 开发板支持 wifi/BT 模组，支持无线上网和蓝牙功能
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/MgUDbMudYoZ3zDxzz7ac3uTnnJf.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/MgUDbMudYoZ3zDxzz7ac3uTnnJf.png)
 
 ### 26pin 接口
 
@@ -758,7 +758,7 @@ PS: **粗体**为当前默认功能，若要使用其他功能需要自行配置
 </tbody>
 </table>
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/OTq5bmXsKoL0yvxeFEecRjO9nAl.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/OTq5bmXsKoL0yvxeFEecRjO9nAl.png)
 
 ### JTAG 调试接口
 
@@ -794,31 +794,31 @@ PS: **粗体**为当前默认功能，若要使用其他功能需要自行配置
 </tbody>
 </table>
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/K58IbYfwPofrL3xxCMHcTElSnOb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/K58IbYfwPofrL3xxCMHcTElSnOb.png)
 
 ### UART 调试接口
 
 开发板设计 3pin 单排插针，支持 UART0（GPIO68-TX，GPIO69-RX）调试接口，主控端线序从左到右 TX，RX，GND
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/QapBb4Grzo6MSBxMeG0cytWwnjf.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/QapBb4Grzo6MSBxMeG0cytWwnjf.png)
 
 ### 音频接口
 
 开发板预留 2 个 speaker 接口，支持 3.5mm 耳机座
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/IGZdb9qjCojDYmx58EBczsM2nGc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/IGZdb9qjCojDYmx58EBczsM2nGc.png)
 
 ### TF 卡接口（无弹片）
 
 开发板支持 TF 卡，方便开发者接入 TF 卡设备。同时支持 debug 扩展卡，用于 UART0 或 JTAG 调试
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/OysebDRv2oC1i8xYLHQc5IiGnSe.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/OysebDRv2oC1i8xYLHQc5IiGnSe.png)
 
 ### M.2 KEY M 接口
 
 开发板支持 M.2KEYM 接口，方便开发者接入 SSD 以及其他 M.2KEYM 设备，同时支持连接 JMB582 扩展卡转 SATA
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/NM1ObtE7Po2BPyxKq6RcfNOZncc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/NM1ObtE7Po2BPyxKq6RcfNOZncc.png)
 
 ## 初次设置
 
@@ -830,13 +830,13 @@ MUSE Pi 是开发板形态产品，因此您需要连接必要的外设来使用
 
 MUSE Pi 采用 USB-PD3.0 协议 Type-C 接口供电/充电，您可以使用任何提供正确电源模式的通过相关质量认证的 Type-C 电源适配器，建议电源适配器最大功率不低于 30W。
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/TKpAbIk80oOdqKx2hWbcEUjynvd.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/TKpAbIk80oOdqKx2hWbcEUjynvd.jpg)
 
 **键盘＆鼠标：**
 
 您可以使用 MUSE Pi 上的任一 USB-A 端口连接有线键盘/鼠标或 USB 接收器，以及通过蓝牙的方式连接键鼠。
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/GcuAbV3Veoff4JxnF9jcXNLSnyb.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/GcuAbV3Veoff4JxnF9jcXNLSnyb.jpg)
 
 **显示器：**
 
@@ -844,7 +844,7 @@ MUSE Pi 需要通过外置显示器将画面显示出来。MUSE Pi 支持 HDMI �
 
 请注意，若要通过 MIPI DSI 视频接口输出画面，请在开机前就将 MIPI DSI 视频线连接好显示器和 MUSE Pi，MUSE Pi 的 MIPI DSI 视频接口不支持热插拔。
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/MJUObpLssoPZM0xcmdZcX92Inve.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/MJUObpLssoPZM0xcmdZcX92Inve.jpg)
 
 **音频：**
 
@@ -854,7 +854,7 @@ MUSE Pi 可以通过 HDMI 信号在显示器上进行音频的输出。
 
 您可以通过声卡设置，切换音频孔声卡（ES8326）或 HDMI 声卡。
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/C7MWbYgtVoA7Rnx323WcgH7qntg.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/C7MWbYgtVoA7Rnx323WcgH7qntg.jpg)
 
 **网络连接：**
 
@@ -862,7 +862,7 @@ MUSE Pi 支持有线 RJ45 网口，您可以通过 RJ45 网口直接与网线连
 
 MUSE Pi 支持无线 WiFi 和蓝牙的连接，如需增强信号，可以安装天线。
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/Fphyb7cg0oICmbx6jAvcWtL7nVe.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/Fphyb7cg0oICmbx6jAvcWtL7nVe.jpg)
 
 ### 开始启动
 
@@ -872,7 +872,7 @@ MUSE Pi 支持无线 WiFi 和蓝牙的连接，如需增强信号，可以安装
 
 最后连接上电源线，并通电即可开机。（首次通电即开机，若软件关机后，需短按电源按钮 1S 即可开机），开发板运行后，红色的电源指示灯会亮起。
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/ZA9gbmazLoHDyYxE9UKcdGo1nle.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/ZA9gbmazLoHDyYxE9UKcdGo1nle.jpg)
 
 ### 首次启动时配置
 
@@ -882,45 +882,45 @@ MUSE Pi 支持无线 WiFi 和蓝牙的连接，如需增强信号，可以安装
 
 此页面帮助您配置系统的语言，默认显示 English 和中文，如需更多语言，可点击下方三个点，弹出更多选项。
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/EHycbxUnCo6t7MxkYjucK6fFnRb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/EHycbxUnCo6t7MxkYjucK6fFnRb.png)
 
 **输入法：**
 
 此页面帮助您配置系统的键盘布局和输入法
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/AMvNbbdRBoaxtzxUiRJcTydnnSh.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/AMvNbbdRBoaxtzxUiRJcTydnnSh.png)
 
 **无线上网：**
 
 此页面帮助您连接到 WiFi 网络，从列表中选择您的网络并进行连接；如暂未有合适 WiFi 网络，可在左上角选择跳过该设置
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/VRxkbkGnjo25KexMtbjc8qFMnJb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/VRxkbkGnjo25KexMtbjc8qFMnJb.png)
 
 **位置服务：**
 
 此页面可选择是否打开位置服务，如打开位置服务可便捷您的使用体验，但相应的可能会带来位置隐私泄露的风险
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/FMLxbzlVlo2HYixvSD9cGPmLn3i.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/FMLxbzlVlo2HYixvSD9cGPmLn3i.png)
 
 **时区：**
 
 此页面帮助配置您所在时区信息，联网状态下系统能够自动同步相应时区时间，可以搜索城市来添加设置
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/EoDibot8HoJJcQx6YebctOdhnae.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/EoDibot8HoJJcQx6YebctOdhnae.png)
 
 **设置您的用户名和密码：**
 
 该页面帮助您设置用户名和密码，请牢记您的密码
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/RJHvb3W74oc1a4xnoahcZovinte.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/RJHvb3W74oc1a4xnoahcZovinte.png)
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/UwiNbhcmfonYzdxBwYfc38hcnxg.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/UwiNbhcmfonYzdxBwYfc38hcnxg.png)
 
 **配置完成**
 
 配置完成，点击“开始使用 Bianbu”吧，后可进入桌面
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/ANTIbhchEoc246xlJAoculU8nuc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/ANTIbhchEoc246xlJAoculU8nuc.png)
 
 ## 刷入固件
 
@@ -948,9 +948,9 @@ MUSE Pi 支持无线 WiFi 和蓝牙的连接，如需增强信号，可以安装
 
 **注意：**请使用 USB 数据线刷机
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/CrVUbq9c0oABJ6xKFUZct510nqh.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/CrVUbq9c0oABJ6xKFUZct510nqh.png)
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/IOK1bGhMWoJshdx0zKocr6psnsg.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/IOK1bGhMWoJshdx0zKocr6psnsg.png)
 
 ### 固件下载和安装
 
@@ -976,7 +976,7 @@ Bianbu 是进迭时空针对 RISC-V 架构的处理器做了深度优化的操�
 
 上位机经 USB 转 TTL 设备与 MUSE Pi 主板接口的 TX、RX、GND 正常连接。接口信号如图：
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/IFdZbWTHgok9OGxDCe9cONGAntb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/IFdZbWTHgok9OGxDCe9cONGAntb.png)
 
 ### Windows 调试：
 
@@ -984,13 +984,13 @@ Bianbu 是进迭时空针对 RISC-V 架构的处理器做了深度优化的操�
 
 首先，请正确连接硬件串口，并确认在设备管理器的端口中有 COM 口的显示，如图：
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/RK7wbPdAQo9jK5x3lf4c5Xgon1f.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/RK7wbPdAQo9jK5x3lf4c5Xgon1f.png)
 
 打开“MobaXterm”软件，选择“Sessions”——“New Session”，在弹出的对话框中，选择“Serial”，"Serial port"选择上图中识别到的对应 COM 口，**“Speed”速率选择“115200”**，最后点击“OK”，即可进入打印页面
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/LUQlb4oNIoZFuBxeDxVcBBVHnJe.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/LUQlb4oNIoZFuBxeDxVcBBVHnJe.png)
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/RZ7pbCq29ockQaxrUhdcFJyonsc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/RZ7pbCq29ockQaxrUhdcFJyonsc.png)
 
 ## 注意事项
 

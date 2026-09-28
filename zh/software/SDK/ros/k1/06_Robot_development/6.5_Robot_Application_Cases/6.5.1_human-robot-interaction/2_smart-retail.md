@@ -112,7 +112,7 @@ ollama create qwen2.5-0.5b-elephant-fc -f qwen2.5-0.5b-elephant-fc.modelfile
 
 部署完成之后，执行 `ollama list` 命令查看服务，如图所示：
 
-![image-20250428153224566](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/smart-retail-ollama-status.png)
+![image-20250428153224566](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/smart-retail-ollama-status.png)
 
 5）模型部署完成之后，删掉模型存储目录以节省空间
 

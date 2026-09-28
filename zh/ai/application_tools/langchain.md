@@ -37,7 +37,7 @@ rustc --version
 ```
 
 有如下打印说明安装成功：
-![](../../../_assets/docs-ai/static/rust-install.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/static/rust-install.png)
 
 ### 1.2. 安装langchain
 
@@ -54,4 +54,4 @@ source langchain_venv/bin/activate
 python -c "import langchain; print(langchain.__version__)"
 ```
 
-![](../../../_assets/docs-ai/static/langchain-demo.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/static/langchain-demo.png)

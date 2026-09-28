@@ -18,7 +18,7 @@ PCIe0 shares PHY hardware with the USB3 controller and cannot be used concurrent
 
 ### Features
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/linux_pcie.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/linux_pcie.png)
 
 The Linux PCIe subsystem framework consists of three main components: PCIe core, PCIe controller driver, and PCIe device driver.
 The primary functions of each component are as follows: 

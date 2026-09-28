@@ -21,7 +21,7 @@ TTS（Text-To-Speech，文本转语音）是一种将输入的文字自动转换
 
 ### 硬件连接
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/tts1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/tts1.png)
 
 这里使用的是轮趣科技的 USB 声卡 + 扬声器来验证 TTS 生成的音频，也可以使用其他 USB 扬声器设备。
 
@@ -57,7 +57,7 @@ audioscan
 
 输出示例：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/tts2.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/tts2.png)
 
 - 输出设备中 USB Audio Device 为 USB 声卡接口，提供标准双通道（立体声）播放能力，支持 44.1kHz 与 48kHz 两种常用采样率。
 - 注意：在更换 USB 接口或重新插拔设备后，请重新运行设备扫描以确认编号是否发生变化。
@@ -148,7 +148,7 @@ target_sample_rate:=48000
 
 终端打印部分示例：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/tts3.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/tts3.png)
 
 ### 调用服务
 

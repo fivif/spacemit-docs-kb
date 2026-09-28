@@ -119,7 +119,7 @@ If no special conditions apply, it is recommended to follow the steps below to b
 
 ## Camera Subsystem Hardware Block Diagram
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/FpucbLemHoe37vxj8jIcaTeBn6O.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/FpucbLemHoe37vxj8jIcaTeBn6O.png)
 
 Description of Core Functional Modules:
 
@@ -167,7 +167,7 @@ The SpacemiT camera driver is implemented based on the Linux kernel V4L2 framewo
 
 The relationships among the various modules within the Camera subsystem are shown in the diagram below:
 
-![Camera Subsystem Software Architecture](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/XbxNb2iVrot5nuxcYyicYn0onff.png)
+![Camera Subsystem Software Architecture](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/XbxNb2iVrot5nuxcYyicYn0onff.png)
 
 From a software call perspective, the architecture is divided into the following three layers from top to bottom:
 
@@ -1039,7 +1039,7 @@ In this case, ISP uses firmware0, CPP uses pipeline0, and VI work mode uses dev0
 
 The data flow is shown below:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/U9PjbtCmUotSFwx864JcMYTSnGh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/U9PjbtCmUotSFwx864JcMYTSnGh.png)
 
 When configuring each module, pay attention to filling in the input and output information. The table below shows the details:
 
@@ -1066,7 +1066,7 @@ Regarding buffer handling in this case, the following callbacks need special att
 
 This case implements the dual pipeline online processing function. On top of the pipeline0 from single_pipeline_online_test, it adds processing for **pipeline1**. The data flow is shown below:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/WvclbhdZSo3pKrxS7nIcHEuhnHU.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/WvclbhdZSo3pKrxS7nIcHEuhnHU.png)
 
 Except that the sensor data comes from two different physical devices, the software processing for both pipelines is exactly the same. That is, Sensor, ISP, VI, and CPP are all configured in duplicate according to the pipeline.
 
@@ -1084,7 +1084,7 @@ For the second pipeline:
 
 In this case, ISP pipeline0 operates in online mode, while ISP pipeline1 operates in offline mode. The rawdump result from ISP pipeline0 serves as the input data for ISP pipeline1. After executing the `ASR_ISP_TriggerRawCapture` operation, the capture function is realized. The data flow is shown below:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/EYdLb1Au4oZbFHxH8qzcYyWcnUf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/EYdLb1Au4oZbFHxH8qzcYyWcnUf.png)
 
 Compared to the previous two cases, note that the pipeline1 workflow is slightly different.
 

@@ -65,7 +65,7 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
 成功启动后，仿真环境如下图所示：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_gazebo.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_gazebo.jpg)
 
 PC 端打开另一个终端，输入以下命令启动 rviz 可视化运行。
 
@@ -77,7 +77,7 @@ rviz2
 
 按照下图所示顺序，依次点击add、选择map、修改话题格式为/map：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_rviz.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_rviz.jpg)
 
 机器人仿真环境启动完毕后，在 SpacemiT 板子上根据需求选择任一 SLAM 算法进行建图，三种 SLAM 算法的启动方式如下。
 
@@ -137,7 +137,7 @@ ros2 launch rdk_localization slam_cartographer_sim.launch.py
 
 使用以上任一算法启动 SLAM 建图，观察 PC 端 rviz 窗口，可以看到已经有了初始地图：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_slam1.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_slam1.jpg)
 
 PC 端打开一个新终端，运行键盘控制节点
 
@@ -147,11 +147,11 @@ source /opt/ros/humble/setup.bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/teleop_twist_keboard.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/teleop_twist_keboard.jpg)
 
 使用```u i o j k l m , . ```控制小车运动，在 rviz 中可以观察到建图效果：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_slam2.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_slam2.jpg)
 
 ## 实车建图
 本小节基于搭载了 SpacemiT RISC-V 系列板子的实车机器人进行 SLAM 建图，并通过 PC 端 rviz 可视化建图效果。
@@ -204,7 +204,7 @@ source ~/ros2_demo_ws/install/setup.bash
 ros2 launch rdk_visualization display_slam.launch.py
 ```
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/slam_rviz.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/slam_rviz.jpg)
 
 #### 保存地图
 

@@ -56,7 +56,7 @@ Known issues:
 
 Remote development mode:
 
-![architecture ssh](../../../../../_assets/docs-bianbu/development/static/architecture-ssh.png)
+![architecture ssh](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/architecture-ssh.png)
 
 ### Visual Studio Code Remote - SSH
 
@@ -87,7 +87,7 @@ info  Session server listening on ~/.local/share/code-server/code-server-ipc.soc
 
 Open a browser on any computer or tablet and visit `http://IP:PORT` to open remote folders and files.
 
-![code-server](../../../../../_assets/docs-bianbu/development/static/code-server.png)
+![code-server](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/code-server.png)
 
 Known issues:
 

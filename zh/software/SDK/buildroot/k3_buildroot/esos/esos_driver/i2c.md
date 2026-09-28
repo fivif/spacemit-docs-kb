@@ -16,7 +16,7 @@ K3 I2C 模块符合 I2C 总线规范。在 K3 平台该模块由 RCPU 访问，�
 
 ### 功能介绍
 
-![I2C 驱动框架](../../../../../../../_assets/docs-buildroot/k3_buildroot/esos/esos_driver/i2c-arch.drawio.png)
+![I2C 驱动框架](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/esos/esos_driver/i2c-arch.drawio.png)
 
 - **应用层：** 面向用户提供 I2C 设备访问服务。
 - **RT-Thread I2C 框架层：** 提供统一的 `rt_i2c_transfer` 接口，屏蔽底层硬件差异。

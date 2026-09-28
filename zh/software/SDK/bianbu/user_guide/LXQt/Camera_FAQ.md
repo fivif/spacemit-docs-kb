@@ -18,7 +18,7 @@ updated: "2026-07-27 15:53:12"
 
 将 MIPI 摄像头模组接入开发板对应的 MIPI CSI 接口（板上一般提供多个 CSI 插槽，具体位置和排线方向请对照开发板丝印和用户手册确认）。同时用一根 HDMI 线把开发板和显示器连接起来，用于后续查看采集到的画面( IMX219 为图片白色排线连接方式，OV5647 为图片铜色排线（红色箭头）连接方式)。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ51.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ51.png)
 
 > 排线插拔、方向核对等注意事项，请参见下文"常见问题"中关于排线接反、排线弯折的说明。
 
@@ -166,7 +166,7 @@ index:0,dma_fd:12 width:1920,height:1080,size:3110400
 
 跑起来之后，摄像头采集到的画面会实时显示在连接的显示器上。
 
-![摄像头图片](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ52.png)
+![摄像头图片](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ52.png)
 
 > 如果日志里出现 `SDL_Error: wayland not available`、`VO_Init ... ret = -400` 这类报错，说明画面没能正常显示出来，通常和执行环境有关（比如通过 SSH 远程终端而非本地桌面终端运行），具体原因和解决方法请见下文常见问题。
 
@@ -178,7 +178,7 @@ index:0,dma_fd:12 width:1920,height:1080,size:3110400
 
 如下图，直接打开该文件查看时内容显示为空：
 
-![json文件内容为空](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ46.png)
+![json文件内容为空](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ46.png)
 
 **原因**
 
@@ -198,7 +198,7 @@ sudo vim /root/svivi_cam1.json
 
 如下图，复制文档指令依次执行后编译失败：
 
-![v4l2_test_spacemit编译报错](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ47.png)
+![v4l2_test_spacemit编译报错](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ47.png)
 
 **原因**
 
@@ -219,17 +219,17 @@ cd v4l2_test_spacemit
 
 如下图：
 
-![采图命令报错](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ49.png)
+![采图命令报错](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ49.png)
 
 **原因**
 
 生成的 json 配置文件中，字段结尾缺少英文逗号 `,` 分隔，例如：
 
-![json文件缺少逗号](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ50.png)
+![json文件缺少逗号](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ50.png)
 
 正确写法应为：
 
-![json文件正确格式](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ48.png)
+![json文件正确格式](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ48.png)
 
 ```json
 "use_v4l": 1,

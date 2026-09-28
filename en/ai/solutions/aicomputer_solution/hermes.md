@@ -35,7 +35,7 @@ sudo apt install hermes-agent
 ```
 
 After installation, you can run the `hermes` command directly without any additional environment configuration.
-![Hermes Agent interface](../../../../_assets/docs-ai/solutions/static/hermes/hermes-agent.png)
+![Hermes Agent interface](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/hermes/hermes-agent.png)
 
 ### Option 2: Source Installation (For Developers)
 

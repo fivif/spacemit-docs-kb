@@ -18,7 +18,7 @@ updated: "2026-03-17 15:19:01"
 ### Functional Description  
 
 The system sleep/wakeup architecture is shown below:  
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/device/static/standby.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/static/standby.png)  
 
 The sleep/wakeup process involves four layers:  
 

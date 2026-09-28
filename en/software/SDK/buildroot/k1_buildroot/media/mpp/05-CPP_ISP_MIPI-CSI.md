@@ -74,7 +74,7 @@ During code development, please first configure the Sensor, VI, ISP, and CPP mod
 5. **Exit Process**: It is recommended to stop VI first, then stop the Sensor, and finally deinitialize CPP, ISP, and VI in sequence, followed by releasing all buffers. 
 
 **ISP online flow**
-![ISP online flow](../../../../../../../_assets/docs-buildroot/k1_buildroot/media/mpp/static/OEBwb8QzxoIrKBxEcoqcsywknFe.png)
+![ISP online flow](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/media/mpp/static/OEBwb8QzxoIrKBxEcoqcsywknFe.png)
 
 **Buffer Rotation:**
 
@@ -98,7 +98,7 @@ Other processes are basically consistent with the Online mode.
 
 **Offline Capture Mode Flow：**
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/media/mpp/static/PEhLbGTjconnrpx2ZvBcBkUenoh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/media/mpp/static/PEhLbGTjconnrpx2ZvBcBkUenoh.png)
 
 ## 3 Test Program Usage Instruction
 

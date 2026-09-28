@@ -50,7 +50,7 @@ Zenow is built on the following technologies:
 
 ### System Architecture Diagram
 
-![System architecture diagram](../../../../_assets/docs-ai/solutions/static/zenow_26.png)
+![System architecture diagram](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_26.png)
 
 ### Data Flow
 
@@ -72,7 +72,7 @@ sudo apt install zenow
 
 Open the application menu from the bottom-left corner, search for **zenow**, and click to launch.
 
-<img src="../../../../_assets/docs-ai/solutions/static/zenow_1_en.jpg" alt="" width="300">
+<img src="https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_1_en.jpg" alt="" width="300">
 
 > 💡 **Tip**: Right-click the application icon and select **Add to Desktop**, then mark it as trusted for quick access in future sessions.
 
@@ -84,11 +84,11 @@ On first launch, AI models must be downloaded before use:
 2. Locate the desired model in the model list.
 3. Click the model name to begin downloading.
 
-![](../../../../_assets/docs-ai/solutions/static/zenow_2_en.jpg)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_2_en.jpg)
 
 You can download multiple models simultaneously:
 
-![](../../../../_assets/docs-ai/solutions/static/zenow_3_en.jpg)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_3_en.jpg)
 
 ### 3. Start a Model
 
@@ -100,7 +100,7 @@ Once a model has downloaded, click its name again to start it. Model status is i
 | 🟡 Yellow | Starting |
 | 🟢 Green  | Running      |
 
-![](../../../../_assets/docs-ai/solutions/static/zenow_4_en.jpg)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_4_en.jpg)
 
 > ⚠️ **Important**: To use the full knowledge base feature, download and start at least one model of each type:
 > - **LLM model** — Generates conversational responses
@@ -118,11 +118,11 @@ Once a model has downloaded, click its name again to start it. Model status is i
 3. Enter a question in the input dialog box 
 4. Press Enter, or click the send button.
 
-![](../../../../_assets/docs-ai/solutions/static/zenow_13_en.jpg)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_13_en.jpg)
 
 The application automatically creates a conversation session and supports multi-turn dialogue with persistent context memory.
 
-![](../../../../_assets/docs-ai/solutions/static/zenow_19_en.jpg)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_19_en.jpg)
 
 ### Knowledge Base Management
 
@@ -130,7 +130,7 @@ The application automatically creates a conversation session and supports multi-
 
 A SpacemiT knowledge base is included by default and can be used to query topics covered within it, such as the K3's computing performance.
 
-![Pre-loaded knowledge base](../../../../_assets/docs-ai/solutions/static/zenow_27_en.png)
+![Pre-loaded knowledge base](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_27_en.png)
 
 #### Create a Knowledge Base
 
@@ -139,36 +139,36 @@ A SpacemiT knowledge base is included by default and can be used to query topics
 3. Enter a name and description for the knowledge base.
 4. Optionally, select a custom avatar.
 
-![Create knowledge base](../../../../_assets/docs-ai/solutions/static/zenow_20_en.jpg)
+![Create knowledge base](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_20_en.jpg)
 
 #### Import Documents
 
 1. Open a knowledge base.
-   ![](../../../../_assets/docs-ai/solutions/static/zenow_5_en.jpg)
+   ![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_5_en.jpg)
 2. Click the **Add Material** button.
-   ![](../../../../_assets/docs-ai/solutions/static/zenow_7_en.jpg)
+   ![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_7_en.jpg)
 3. Select the files or folder to upload (hold **Ctrl** to select multiple files).
-   ![](../../../../_assets/docs-ai/solutions/static/zenow_8_en.jpg)
+   ![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_8_en.jpg)
 4. Wait for document processing to complete.
-   ![](../../../../_assets/docs-ai/solutions/static/zenow_11_en.jpg)
+   ![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_11_en.jpg)
 5. If the page is navigated away from before vectorization finishes, a prompt will appear — click **Continue Vectorization** and wait for the process to complete.
-   ![](../../../../_assets/docs-ai/solutions/static/zenow_12_en.jpg)
+   ![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_12_en.jpg)
 
 #### Chat with a Knowledge Base
 
 1. Start a new conversation or select an existing session.
 2. In the input dialogue box, type **@** and select the target knowledge base.
-   ![](../../../../_assets/docs-ai/solutions/static/zenow_14_en.jpg)
+   ![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_14_en.jpg)
 3. Enter a question and press Enter. 
-   ![](../../../../_assets/docs-ai/solutions/static/zenow_15_en.jpg)
+   ![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_15_en.jpg)
    The AI will respond based on the knowledge base content.
-   ![](../../../../_assets/docs-ai/solutions/static/zenow_16_en.jpg)
+   ![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_16_en.jpg)
 
 ## Advanced Settings
 
 ### Parameters
 
-![Chat parameters](../../../../_assets/docs-ai/solutions/static/zenow_24_en.png)
+![Chat parameters](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_24_en.png)
 
 The following LLM parameters can be configured on the Settings page:
 
@@ -183,7 +183,7 @@ The following LLM parameters can be configured on the Settings page:
 
 ### RAG Parameters
 
-![RAG parameters](../../../../_assets/docs-ai/solutions/static/zenow_25_en.png)
+![RAG parameters](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/zenow_25_en.png)
 
 Knowledge base Q&A uses a two-stage retrieval and weighted fusion strategy. The following parameters can be configured:
 

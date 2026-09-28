@@ -51,7 +51,7 @@ claude --version
 
 If a version number is returned, Claude Code has been installed successfully.
 
-![Claude Code version](../../../../_assets/docs-ai/solutions/static/claude-version.png)
+![Claude Code version](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/claude-version.png)
 
 **Note:** On K1, install nvm and switch to the required Node.js version before using Claude Code.
 
@@ -92,15 +92,15 @@ claude
 
 The startup screen appears below.
 
-![Claude Code startup interface](../../../../_assets/docs-ai/solutions/static/claude-use.png)
+![Claude Code startup interface](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/claude-use.png)
 
 Example greeting using the `Say Hello` prompt:
 
-![Claude Code hello example](../../../../_assets/docs-ai/solutions/static/claude-hello.png)
+![Claude Code hello example](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/claude-hello.png)
 
 Use `/model` to switch models.
 
-![Claude Code model selection](../../../../_assets/docs-ai/solutions/static/claude-model.png)
+![Claude Code model selection](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/claude-model.png)
 
 During an interactive session, Claude Code can help with:
 
@@ -123,23 +123,23 @@ This example demonstrates Claude Code generating and debugging an ONNX Runtime i
 
    Claude Code starts analyzing the request and generating the program.
 
-   ![Claude Code demo request](../../../../_assets/docs-ai/solutions/static/claude-demo1.png)
+   ![Claude Code demo request](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/claude-demo1.png)
 
 - Claude Code completes the implementation and provides the execution steps.
 
-   ![Claude Code generated steps](../../../../_assets/docs-ai/solutions/static/claude-demo2.png)
+   ![Claude Code generated steps](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/claude-demo2.png)
 
 - Run the program. If an exception occurs, Claude Code analyzes the error and applies a fix.
 
-   ![Claude Code debugging exception](../../../../_assets/docs-ai/solutions/static/claude-demo3.png)
+   ![Claude Code debugging exception](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/claude-demo3.png)
 
 - After the fix, the program runs successfully.
 
-   ![Claude Code fixed program](../../../../_assets/docs-ai/solutions/static/claude-demo4.png)
+   ![Claude Code fixed program](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/claude-demo4.png)
 
 - The program can also be executed manually and produces the expected result.
 
-   ![Claude Code manual execution result](../../../../_assets/docs-ai/solutions/static/claude-demo5.png)
+   ![Claude Code manual execution result](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/claude-demo5.png)
 
 ## 5. Connecting to On-Device AI: Basic Trial
 
@@ -177,12 +177,12 @@ Start Claude Code with the local model and run a simple greeting test.
 claude --model qwen2.5:0.5b
 ```
 
-![Claude Code with llama-server](../../../../_assets/docs-ai/solutions/static/claude-llama1.png)
+![Claude Code with llama-server](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/claude-llama1.png)
 
 The initial greeting may take longer because the model prefill can exceed 17,000 tokens.
 
-![Claude Code long prefill example](../../../../_assets/docs-ai/solutions/static/claude-llama2.png)
+![Claude Code long prefill example](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/claude-llama2.png)
 
 Subsequent algorithm-generation tasks are noticeably faster, but output quality may still be constrained by the compact local model.
 
-![Claude Code local algorithm example](../../../../_assets/docs-ai/solutions/static/claude-llama3.png)
+![Claude Code local algorithm example](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/claude-llama3.png)

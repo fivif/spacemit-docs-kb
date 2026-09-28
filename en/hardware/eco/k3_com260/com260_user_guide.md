@@ -71,7 +71,7 @@ K3 is a new-generation high-performance RISC-V AI CPU launched by SpacemiT, with
 
 ### 3.2 K3 Chip Block Diagram
 
-![K3 chip block diagram](../../../../_assets/docs-product/k3_com260/static/k3-com260_block_diagram.png)
+![K3 chip block diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/k3-com260_block_diagram.png)
 
 ### 3.3 K3 CoM260 Reference Solution Block Diagram
 
@@ -91,7 +91,7 @@ The K3 CoM260 system solution has the following features:
 The overall solution is stable, reliable, and suitable for mass production.
 
 The reference solution block diagram is shown below:
-![K3 CoM260 reference solution block diagram](../../../../_assets/docs-product/k3_com260/static/com260_solution00.png)
+![K3 CoM260 reference solution block diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/com260_solution00.png)
 
 #### 3.3.2 Functional Overview
 
@@ -138,24 +138,24 @@ The K3 CoM260 Development Kit provides the following features:
 
 ### 4.1 Product Appearance
 
-![K3 CoM260 development kit photo](../../../../_assets/docs-product/k3_com260/static/com260-kit_00.png)
+![K3 CoM260 development kit photo](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/com260-kit_00.png)
 
 ### 4.2 Power Block Diagram
 
-![Power block diagram 1](../../../../_assets/docs-product/k3_com260/static/power00.png)  
-![Power block diagram 2](../../../../_assets/docs-product/k3_com260/static/power01.png)
+![Power block diagram 1](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/power00.png)  
+![Power block diagram 2](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/power01.png)
 
 ### 4.3 Boot Download Sel & JTAG Sel
 
 Boot Download Sel and JTAG Sel diagram is shown as below.
 
-![Boot Download Sel and JTAG Sel diagram](../../../../_assets/docs-product/k3_com260/static/debug.png)
+![Boot Download Sel and JTAG Sel diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/debug.png)
 
 ### 4.4 I2C Addresses
 
 K3 CoM260 provides abundant peripheral interfaces. When debugging I2C peripherals, I2C channel multiplexing may be involved. The figure below shows the I2C addresses and pull-up power configuration of the K3 CoM260 Development Kit to avoid address conflicts and voltage-level mismatches.
 
-![I2C address and pull-up power diagram](../../../../_assets/docs-product/k3_com260/static/i2c.png)
+![I2C address and pull-up power diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/i2c.png)
 
 ## 5. Module Description
 
@@ -176,7 +176,7 @@ The K3 CoM260 module integrates the following four types of memory:
 
 The K3 CoM260 Development Kit provides multifunction button interfaces, including the power, reset, and download buttons.
 
-![Button interface diagram](../../../../_assets/docs-product/k3_com260/static/Input_keys.png)
+![Button interface diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/Input_keys.png)
 
 | Pin | Signal Name | Function |
 | --- | --- | --- |
@@ -201,7 +201,7 @@ By default,
 - CAM0 supports 2 lanes
 - CAM1 supports 2+2 lanes or 4 lanes
 
-![MIPI CSI high-speed connector diagram](../../../../_assets/docs-product/k3_com260/static/MIPI_CSI.png)
+![MIPI CSI high-speed connector diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/MIPI_CSI.png)
 
 **The 22 Pin high-speed connector pinout is as follows:**
 
@@ -263,7 +263,7 @@ By default,
 
 K3 CoM260 supports the Raspberry Pi 4.3-inch capacitive touch display.
 
-![MIPI DSI display connector diagram](../../../../_assets/docs-product/k3_com260/static/MIPI_DSI.png)
+![MIPI DSI display connector diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/MIPI_DSI.png)
 
 **The display connector pinout is as follows:**
 
@@ -289,37 +289,37 @@ K3 CoM260 supports the Raspberry Pi 4.3-inch capacitive touch display.
 
 The Type-C connector on the K3 CoM260 Development Kit supports OTG mode only and does not support power input.
 
-![Type-C connector diagram](../../../../_assets/docs-product/k3_com260/static/Type-C.png)
+![Type-C connector diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/Type-C.png)
 
 ### 5.7 DP Output Interface
 
 The K3 CoM260 Development Kit provides one DP Type-A output interface, supporting up to DP 1.2 and video output up to 3840 × 2160 @ 60fps.
 
-![DP output interface diagram](../../../../_assets/docs-product/k3_com260/static/DP.png)
+![DP output interface diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/DP.png)
 
 ### 5.8 USB Interfaces
 
 The K3 CoM260 Development Kit provides four USB 3.0 Type-A interfaces for connecting various USB peripherals.
 
-![USB interface diagram](../../../../_assets/docs-product/k3_com260/static/USB.png)
+![USB interface diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/USB.png)
 
 ### 5.9 RJ45 Interface
 
 The K3 CoM260 Development Kit provides one RJ45 Gigabit Ethernet port.
 
-![RJ45 interface diagram](../../../../_assets/docs-product/k3_com260/static/RJ45.png)
+![RJ45 interface diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/RJ45.png)
 
 ### 5.10 Wi-Fi/Bluetooth Module
 
 The K3 CoM260 Development Kit supports an M.2 2230 E-Key module for wireless networking and Bluetooth connectivity.
 
-![Wi-Fi/Bluetooth module diagram](../../../../_assets/docs-product/k3_com260/static/BT.png)
+![Wi-Fi/Bluetooth module diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/BT.png)
 
 ### 5.11 40 Pin Header
 
 The K3 CoM260 Development Kit provides a 40 Pin dual-row header. The pinout is shown below:
 
-![40 Pin header pinout](../../../../_assets/docs-product/k3_com260/static/40Pin.png)
+![40 Pin header pinout](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/40Pin.png)
 
 > Note: The IO function can be configured as needed.
 
@@ -356,13 +356,13 @@ K3 CoM260 supports TF cards for storage expansion. It also supports a Debug expa
 
 The K3 CoM260 Development Kit provides two M.2 M-Key interfaces, supporting 2280 (the longer SSD shown in the figure) and 2230 (the shorter SSD shown in the figure) NVMe SSD form factors, as well as other M.2 M-Key devices.
 
-![M.2 M-Key interface diagram](../../../../_assets/docs-product/k3_com260/static/M2_M-Key.png)
+![M.2 M-Key interface diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/M2_M-Key.png)
 
 ### 5.14 CAN FD Interface
 
 The K3 CoM260 Development Kit integrates an on-board CAN transceiver and can be directly connected to CAN devices.
 
-![CAN FD interface diagram](../../../../_assets/docs-product/k3_com260/static/can_fd.png)
+![CAN FD interface diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/can_fd.png)
 
 ## 6. Initial Setup
 
@@ -430,7 +430,7 @@ Before entering flashing mode, prepare two push buttons: one for shorting FC_REC
    4. Use a Type-C data cable to connect the Type-C port on the development board to the host computer.
    5. Use the SpacemiT Titan flashing tool or run the `fastboot` command to flash the firmware.
 
-![Button connection diagram for entering flashing mode](../../../../_assets/docs-product/k3_com260/static/Input_keys.png)
+![Button connection diagram for entering flashing mode](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/Input_keys.png)
 
 For the flashing procedure, refer to the [Flashing Tool User Guide](../../../tools/user_guide/flasher_user_guide.md).
 
@@ -446,7 +446,7 @@ Click [K3 Bianbu](https://spacemit.com/community/resources-download/Images%20Col
 
 Connect the host PC to the TX, RX, and GND pins of the 12 Pin interface on the K3-CoM260 carrier board through a USB-to-TTL adapter. The interface signals are shown below:
 
-![Serial interface connection diagram](../../../../_assets/docs-product/k3_com260/static/Input_keys.png)
+![Serial interface connection diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/Input_keys.png)
 
 ### 8.2 Debugging on Windows
 
@@ -454,11 +454,11 @@ MobaXterm is used as an example below:
 
 First, connect the serial hardware correctly, and then confirm under **Ports** in Windows Device Manager that the corresponding COM port can be recognized, as shown below.
 
-![Windows Device Manager COM port recognition](../../../../_assets/docs-product/k3_com260/static/port.png)
+![Windows Device Manager COM port recognition](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/port.png)
 
 1. Open MobaXterm, then select **Sessions → New Session**.  
 
-   ![MobaXterm new serial session](../../../../_assets/docs-product/k3_com260/static/mobaxterm.png)
+   ![MobaXterm new serial session](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/mobaxterm.png)
 
 2. In the dialog box that appears, select **Serial**.  
 3. In the **Serial port** drop-down list, select the recognized COM port.  

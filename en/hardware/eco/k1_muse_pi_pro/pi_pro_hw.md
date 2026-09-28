@@ -17,7 +17,7 @@ Please click the following links to collect the related hardware reference docum
 
 - MUSE Pi Pro reference description
    - **TOP view**
-   <img src="../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_reftop.png" alt="" width="800">
+   <img src="https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/pi_pro_reftop.png" alt="" width="800">
 
    - **BOTTOM view**
-   <img src="../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_refbottom.png" alt="" width="800">
+   <img src="https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/pi_pro_refbottom.png" alt="" width="800">

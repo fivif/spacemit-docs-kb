@@ -30,7 +30,7 @@ Linux 中，支持 两种 USB 角色：
 
 #### USB Host
 
-![](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB-host.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/USB-host.png)
 
 USB Host 角色驱动框架图可以分为以下几个层次：
 
@@ -40,7 +40,7 @@ USB Host 角色驱动框架图可以分为以下几个层次：
 
 #### USB Device
 
-![](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB-device.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/USB-device.png)
 
 USB Device 角色驱动框架图可以分为以下几个层次：
 
@@ -206,7 +206,7 @@ fio -name=DevTx -rw=read -bs=512k -size=5G -numjobs=1 -iodepth=32 -group_reporti
 
 ### USB2.0 OTG 控制器硬件原理图介绍
 
-![usb0 hardware PCB](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB/usb0-hw.png)
+![usb0 hardware PCB](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/USB/usb0-hw.png)
 
 USB2.0 OTG 控制器在 PCB 原理图中，对应 PIN 脚网络名命名为 USB0_DP， USB0_DN。
 
@@ -214,7 +214,7 @@ USB2.0 OTG 控制器在 PCB 原理图中，对应 PIN 脚网络名命名为 USB0
 
 ### USB2.0 Host Only 控制器硬件原理图介绍
 
-![usb1 hardware PCB](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB/usb1-hw.png)
+![usb1 hardware PCB](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/USB/usb1-hw.png)
 
 USB2.0 Host Only 控制器在 PCB 原理图中，对应 PIN 脚网络名命名为 USB1_DP， USB1_DN，普通方案通常作为标准 USB-A 母头接口。
 
@@ -224,11 +224,11 @@ USB2.0 Host Only 控制器在 PCB 原理图中，对应 PIN 脚网络名命名�
 我们找到了 VBUS 限流开关的输入是 USB2_PWREN 网络名，进行全局检索（原理图文档的 GPIO ASSIGNMENT 页也会包含 GPIO 网络名映射，但是他不一定是准确的，我们还是以实际原理图连线为准），将会找到对应的一个 GPIO123 ，
 如图这里是 GPIO，稍后我们将会使用这个信息进行方案的 DTS 配置。
 
-![usb1 vbus gpio](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB/usb1-vbus-gpio.png)
+![usb1 vbus gpio](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/USB/usb1-vbus-gpio.png)
 
 ### USB3.0 DRD 控制器硬件原理图介绍
 
-![usb3 hardware PCB](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB/usb3-hw.png)
+![usb3 hardware PCB](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/USB/usb3-hw.png)
 
 USB3.0 DRD 控制器在 PCB 原理图中，由于 USB3.0 是双总线架构。因此实际有更多的 PIN 脚，对应 PIN 脚网络名命名为 USB2_DP， USB2_DN； USB3_TXN， USB3_TXP， USB3_RXN， USB3_RXP（或命名为 USB3_SSTXN， USB3_SSTXP， USB3_SSRXN， USB3_SSRXP 或命名为 USB3_SSTX-， USB3_SSTX+， USB3_SSRX-， USB3_SSRX+）普通方案通常作为标准 USB-A 母头接口，模式采用 Host Only 模式，或者供开发者评估功能的非标准支持手动切换 Device 和 Host 的 Dual Role 模式（ USB-A 口做 Device 模式为非标准行为）。
 
@@ -238,7 +238,7 @@ USB3.0 DRD 控制器在 PCB 原理图中，由于 USB3.0 是双总线架构。�
 我们找到了 VBUS 限流开关的输入是 USB3_PWREN 网络名，进行全局检索（原理图文档的 GPIO ASSIGNMENT 页也会包含 GPIO 网络名映射，但是他不一定是准确的，我们还是以实际原理图连线为准），将会找到对应的一个 GPIO79 ，
 如图这里是 GPIO，稍后我们将会使用这个信息进行方案的 DTS 配置。
 
-![usb3 vbus gpio](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB/usb3-vbus-gpio.png)
+![usb3 vbus gpio](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/USB/usb3-vbus-gpio.png)
 
 USB3.0 DRD 控制器做 Host 模式时，有的方案还会外部放置一个板载 HUB 芯片，对于这种芯片，通常是通过 GPIO 来进行上电使能，具体需要参考相关 HUB 芯片的说明书进行配置，对于顺序操作 GPIO 的实现均可使用下文将介绍的 `spacemit_onboard_hub` 驱动进行配置，请阅读相关章节内容。
 

@@ -16,7 +16,7 @@ This document describes the SPI features and usage on the secondary core (RT-Thr
 
 ### Functional Architecture
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/esos/esos_driver/static/rspi.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/esos/esos_driver/static/rspi.png)
 
 The RT-Thread SPI driver framework is part of the I/O device management framework. From top to bottom, it is divided into three layers:
 

@@ -16,7 +16,7 @@ Clock 是系统中的时钟控制器模块，负责时钟的管理与分发。
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/CLOCK.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/CLOCK.png)
 
 Linux为了做好时钟管理，提供了一个时钟管理框架 Common Clock Framework（以下简称CCF），为设备驱动提供统一的操作接口，使设备驱动不必关心时钟硬件实现的具体细节。  
 CCF 框架包括以下核心组成部分：

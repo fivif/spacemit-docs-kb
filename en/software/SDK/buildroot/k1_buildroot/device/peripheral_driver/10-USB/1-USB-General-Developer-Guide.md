@@ -26,7 +26,7 @@ In Linux, two USB roles are supported:
 
 #### USB Host
 
-![](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB-host.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/USB-host.png)
 
 The USB Host role driver framework can be divided into the following layers:
 
@@ -36,7 +36,7 @@ The USB Host role driver framework can be divided into the following layers:
 
 #### USB Device
 
-![](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB-device.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/USB-device.png)
 
 The USB Device role driver framework can be divided into the following layers:
 

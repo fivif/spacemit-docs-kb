@@ -16,7 +16,7 @@ GPIO is the **controller for the GPIO module**
 
 ### Functional Description
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/linux_gpio.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/linux_gpio.png)  
 
 The Linux GPIO subsystem driver framework mainly consists of three parts:
 

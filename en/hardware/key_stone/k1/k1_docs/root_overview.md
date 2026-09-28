@@ -109,4 +109,4 @@ The CPU delivers stable and reliable computing power from -40°C to 85°C, compl
 
 ## Block Diagram
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/k1_blockdiagram.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/k1_blockdiagram.png)

@@ -16,21 +16,21 @@ updated: "2026-05-13 10:02:20"
 
 1. 开机进入登录界面，如下图
 
-   ![](../../../../_assets/docs-bianbu/static/tmps6urhcyi.PNG)
+   ![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/static/tmps6urhcyi.PNG)
 
 2. 按下键盘 **Ctrl + Alt + F3** 组合键（注意要先 lock Fn），进入 tty3 终端，如下图
 
-   ![](../../../../_assets/docs-bianbu/static/tmpw7385ih6.PNG)
+   ![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/static/tmpw7385ih6.PNG)
 
 3. 输入用户名 `root` 和密码，默认密码是 `bianbu` ，如下图
 
-   ![](../../../../_assets/docs-bianbu/static/tmphgeanjg5.PNG)
+   ![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/static/tmphgeanjg5.PNG)
 
 4. 运行 `export LANG=en_US.UTF-8`，临时修改终端语言，避免乱码
 
 5. 运行 `passwd 用户名` 修改该用户密码，例如用户`bianbu`，如下图
 
-   ![](../../../../_assets/docs-bianbu/static/tmpst8dy3yi.PNG)
+   ![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/static/tmpst8dy3yi.PNG)
 
 6. 按下键盘 **Ctrl + Alt + F1** 组合键，切回登录界面，使用新密码登录即可。
 

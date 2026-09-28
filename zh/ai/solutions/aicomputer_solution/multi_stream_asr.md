@@ -69,13 +69,13 @@ updated: "2026-09-11 11:49:32"
 
 ### 系统架构图
 
-![多路语音识别系统架构图](../../../../_assets/docs-ai/solutions/static/multi_stream_asr/system-architecture.png)
+![多路语音识别系统架构图](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/multi_stream_asr/system-architecture.png)
 
 系统由「1 个主控进程 + N 个 lane 子进程 + 1 个共享 `llama-server` 进程」组成。主控只负责模型装载、生命周期协调、事件汇总与 WebSocket 广播；音频读取、Zipformer 在线识别、Qwen 离线请求和结果落盘全部留在各自 lane 内，因此主控处理控制事件的快慢不会反向阻塞每路 100 ms 的音频生产。
 
 ### 工作流程
 
-![多路语音识别工作流程图](../../../../_assets/docs-ai/solutions/static/multi_stream_asr/workflow.png)
+![多路语音识别工作流程图](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/multi_stream_asr/workflow.png)
 
 每一路音频按以下顺序流转：
 
@@ -271,7 +271,7 @@ DEB 与源码方式使用同一套 Web 界面和操作流程。DEB 已自动准�
 
 点击「开始识别」后，每路开始读取音频、输出 partial，并在每句结束时提交离线转写、返回 final。
 
-![Web 识别界面](../../../../_assets/docs-ai/solutions/static/multi_stream_asr/web-ui.png)
+![Web 识别界面](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/multi_stream_asr/web-ui.png)
 
 ### 6. 查看结果与停止 / 卸载
 
@@ -280,7 +280,7 @@ DEB 与源码方式使用同一套 Web 界面和操作流程。DEB 已自动准�
 - 点击「停止识别」结束本次运行
 - 点击「卸载模型」释放模型与共享服务
 
-![识别结果展示](../../../../_assets/docs-ai/solutions/static/multi_stream_asr/web-result.png)
+![识别结果展示](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/multi_stream_asr/web-result.png)
 
 ## 命令行使用
 

@@ -16,7 +16,7 @@ Regulator（电源调节器）子系统主要用于控制能够输出电压和�
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/regulator.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/regulator.png)  
 
 1. **regulator consumer：** 有调节器供电的设备，他们消耗调节器提供的电力
 2. **regulator framework：** 提供标准的内核接口，控制系统的voltage/current regulators，并提供相应的开关、电压/电流设置的机制

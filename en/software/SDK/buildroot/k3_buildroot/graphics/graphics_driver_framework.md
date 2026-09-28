@@ -11,7 +11,7 @@ updated: "2026-06-08 10:19:59"
 
 ## Overall Framework
 
-![linux Graphic Framework](../../../../../../_assets/docs-buildroot/k3_buildroot/graphics/static/linuxGraphicsFramework_en.png)
+![linux Graphic Framework](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/graphics/static/linuxGraphicsFramework_en.png)
 
 ## Driver Solutions
 

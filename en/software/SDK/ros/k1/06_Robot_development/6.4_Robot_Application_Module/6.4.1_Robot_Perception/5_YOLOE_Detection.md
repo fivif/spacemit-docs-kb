@@ -59,11 +59,11 @@ text_prompt:="A person wearing off-white clothes"
 
 The output result will be saved in `yoloe_result.jpg` in the current directory, as shown in the following figure:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe1.png)
 
 The terminal prints:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe2.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe2.png)
 
 ### Web Visualization for Inference Results
 
@@ -94,7 +94,7 @@ Enter `http://<IP>:8080` in your browser to view real-time inference image resul
 
 You can also specify the port number by appending the `port:=xxxx` parameter to avoid a port conflict.
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe3.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe3.png)
 
 ### Results Subscription
 
@@ -166,7 +166,7 @@ ros2 launch rdk_perception yoloe_service.launch.py
 
 The terminal prints:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe4.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe4.png)
 
 ### Client Code
 
@@ -239,7 +239,7 @@ python3 yoloe_client.py
 
 The terminal prints:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe5.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe5.png)
 
 The visualization result file is saved as `yoloe_service_result.jpg`.
 

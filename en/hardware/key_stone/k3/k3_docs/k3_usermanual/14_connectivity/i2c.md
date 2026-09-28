@@ -69,7 +69,7 @@ The key I2C terminology is tabled below.
 
 The architecture of I2C bus interface is depicted below.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/k3_i2c_bd.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/k3_i2c_bd.png" alt="" width="600">
 
 The I2C unit is a peripheral device that resides on the peripheral bus, and it interacts with the CPU through an interrupt mechanism or software polling:
 
@@ -209,7 +209,7 @@ The I2C bus specification defines a Start transaction used at the beginning of a
 
 The relationship between the SDA and SCL lines for Start and Stop is depicted below.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/k3_i2c_start_stop.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/k3_i2c_start_stop.png" alt="" width="800">
 
 The I2C unit uses the ICR[START] and ICR[STOP] bits to:
 
@@ -228,7 +228,7 @@ The definitions of the START and STOP bits in the ICR are tabled below.
 
 The Start and Stop Conditions of I2C are depicted below.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/k3_i2c_start_stop1.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/k3_i2c_start_stop1.png" alt="" width="400">
 
 #### Start Condition
 
@@ -407,7 +407,7 @@ A detailed explanation of how the I2C master addresses a slave device, different
     - Transmit First Byte: The I2C transmits the first byte on the bus
     - Acknowledge (ACK): The addressed slave responds with a positive-acknowledge (ACK) pulse
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/k3_master_slave.png" alt="" width="300">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/k3_master_slave.png" alt="" width="300">
 
 ##### Transaction Types
 
@@ -453,7 +453,7 @@ A detailed explanation of how the I2C master addresses a slave device, different
 
 Every I2C byte transfer must be accompanied by an acknowledge (ACK) pulse that the receiver (master or slave) generates. The transmitter must release the SDA line for the receiver to transmit the acknowledge pulse. The acknowledge pulse on the I2C bus is depicted below.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/k3_i2c_ack.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/k3_i2c_ack.png" alt="" width="600">
 
 #### Master-Transmit Mode
 
@@ -544,7 +544,7 @@ Clock Synchronization Mechanism (as depicted below):
 
 Arbitration on the SDA (Serial Data Line) can extend over a significant duration, as it begins with the transmission of the address and R/nW bits and continues through the data bits. Below is depicted the arbitration procedure for two masters, although more than two masters may participate if connected to the bus.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/i2c_sda_scl.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/i2c_sda_scl.png" alt="" width="800">
 
 ##### Address & R/nW Checking
 
@@ -628,7 +628,7 @@ HS-mode is entered when a master running in F/S-mode sends and detects the follo
 
 During this sequence, clock sync and arbitration have completed in Fast-mode and only one winning master remains. The master then switches to HS-mode and begins a bus transaction by issuing a repeated Start condition. Additional high speed data transfers can be linked by separating them with repeated start conditions. HS-mode ends when a Stop condition is sent. This sequence is depicted below.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/i2c_Data_Transfer_HS_mode.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/i2c_Data_Transfer_HS_mode.png" alt="" width="800">
 
 To use the I2C unit in HS-mode as either a master or a slave, set the ICR[MODE] bits as follows:
 
@@ -897,7 +897,7 @@ Before each of the I2C modules has been initialized, set the clock:
 9. If the RX FIFO becomes half full during this sequence, RX FIFO Half Full Interrupt is generated (If enabled)
 10. Read the RX FIFO data and then write 1 to the ISR[RXF] bit to clear the RX FIFO Half Full interrupt
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/i2c_PIO_mode.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/i2c_PIO_mode.png" alt="" width="400">
 
 #### FIFO mode: Write/Read n Bytes as a Master in DMA mode
 
@@ -920,7 +920,7 @@ Before each of the I2C modules has been initialized, set the clock:
 
 Transmit and Receive FIFOs are depicted below.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/i2c_FIFO.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/i2c_FIFO.png" alt="" width="600">
 
 Each control word (CTRL) is 4 bit length:
 
@@ -940,7 +940,7 @@ Each entry in the Tx FIFO has a control word concatenated with Address/Data byte
 5. I2C sends out the last 3 bytes, and when it sees that STOP has been sent out, it sets the ISR[TX_DONE] bit and generates an interrupt.
 6. The core then cleans up the control and status registers (example: Clear ICR[STOP] bit, clear ISR[TX_DONE] bit) and starts the next transaction (set ICR[TX_BEGIN] bit).
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/i2c_Case_1.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/i2c_Case_1.png" alt="" width="600">
 
 ##### Programming Model for Case 2
 
@@ -952,7 +952,7 @@ Each entry in the Tx FIFO has a control word concatenated with Address/Data byte
 6. I2C now starts the Write transaction by sending out the Address followed by the 2 Write bytes.
 7. Once the Write transaction is done, ICR[TX_BEGIN] is automatically cleared and ISR[TX_DONE] bit is set, which generates an interrupt to the core.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/i2c_Case_2.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/i2c_Case_2.png" alt="" width="800">
 
 ### 14.7.3.17 Slave Operations
 

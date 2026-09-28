@@ -16,7 +16,7 @@ The Crypto-Engine implements hardware encryption algorithms to encrypt plaintext
 
 ### Functional Description
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/openssl.jpg)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/openssl.jpg)
 The K1 Crypto-Engine (also known as CE) implements hardware-based (ECB/CBC/XTS-) AES encryption algorithms.
 
 ### Source Code Structure

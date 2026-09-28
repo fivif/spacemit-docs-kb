@@ -19,7 +19,7 @@ If the watchdog is not fed within the timeout period (for example, when the syst
 
 ## Functional Description
 
-![wdt](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/WDT.png)
+![wdt](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/WDT.png)
 
 The Linux kernel registers the watchdog driver with the **WDT framework** and the **User Space** through the WDT framework interfaces, and creates the device node `/dev/watchdog0`.
 

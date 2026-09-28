@@ -180,7 +180,7 @@ SpacemiT Key Stone® K1 is a high-performance and ultra-low-power SoC that integ
 ### 1.4 Block Diagram
 
 The architecture of K1 is depicted below.  
-![K1 Block Diagram](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/k1_blockdiagram.png)
+![K1 Block Diagram](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/k1_blockdiagram.png)
 
 ## 2. Specifications
 
@@ -279,7 +279,7 @@ In order to meet the current and future computational demand, X60™ incorporate
 
 The micro-architecture of X60™ is depicted below.
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/X60.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/X60.png)
 
 #### Interrupt Controller
 
@@ -308,7 +308,7 @@ The debugging interface serves as the channel for software to interact with the 
 
 The micro-architecture of the debugging interface is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/debugging_interface.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/debugging_interface.png" alt="" width="600">
 
 As can be seen, the debugging system consists of
 
@@ -378,7 +378,7 @@ The DDR controller is also designed to support AMBA AXI4 bus protocols. It is fu
 
 The architecture of the DDR controller interface is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/DDR_controller.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/DDR_controller.png" alt="" width="600">
 
 #### Quad-SPI
 
@@ -690,11 +690,11 @@ The GPU core has an AXI 128bits bus for accessing SOC's DDR memory with a core f
 
 The micro-architecture of the V2D subsystem is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/V2D_subsystem.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/V2D_subsystem.png" alt="" width="600">
 
 Instead, the typical V2D work scenario is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/V2D_work_scenario.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/V2D_work_scenario.png" alt="" width="400">
 
 ##### Functions
 
@@ -705,7 +705,7 @@ The process of fetching a 16×16 block of data from a source frame (src frame) a
 - **AFBC**: fetch rect left, top, width, height 4 align
 - **Non-AFBC**: fetch rect left, top, width, height 1 align
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/Fetch_Data.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/Fetch_Data.png" alt="" width="400">
 
 The code for fetching data for displaying is listed below, and the details of the specific variables and registers involved are tabled immediately after.
 
@@ -847,7 +847,7 @@ if LayerX_solid_enable = 1
 
 Support for 0°, 90°, 180°, 270° rotation (performed clockwise) as well as mirror and flip option, as depicted below (example).
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/Rotation.png" alt="" width="200">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/Rotation.png" alt="" width="200">
 
 The code for rotating, mirroring and flipping graphical content is listed below, and the details of the specific variables and registers involved are tabled immediately after.
 
@@ -1417,7 +1417,7 @@ The Display Controller is a hardware block that is used to transfer display data
   - BGR888, RGB888, ABGR1555, RGBA5551, BGR565/RGB565
   - XYUV_444_P1_8, XYUV_444_P1_10, YVYU_422_P1_8, VYUY_422_P1_8
   - YUV_420_P2_8, YUV_420_P3_8
-    ![](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/input_formats.png)
+    ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/input_formats.png)
 - Support for the following **output formats**:
 
   - RGB888, RGB565, RGB666
@@ -1426,7 +1426,7 @@ The Display Controller is a hardware block that is used to transfer display data
 
 The micro-architecture of the display subsystem is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/display_subsystem.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/display_subsystem.png" alt="" width="600">
 
 #### HDMI Interface
 
@@ -1448,7 +1448,7 @@ The micro-architecture of the display subsystem is depicted below.
 
 The architecture of the HDMI interface is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/HDMI_interface.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/HDMI_interface.png" alt="" width="600">
 
 #### MIPI DSI Interface
 
@@ -1499,23 +1499,23 @@ As example, below are depicted the transfers modes for some color formats, highl
 
 **[Packet transfer mode for RGB565]**
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/packet_transfer_mode_RGB565.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/packet_transfer_mode_RGB565.png" alt="" width="700">
 
 **[Packet transfer mode for RGB666]**
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/packet_transfer_mode_RGB666.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/packet_transfer_mode_RGB666.png" alt="" width="700">
 
 **[Packet transfer mode for RGB888]**
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/packet_transfer_mode_RGB888.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/packet_transfer_mode_RGB888.png" alt="" width="700">
 
 **[Unpacked transfer mode for RGB666]**
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/unpacked_transfer_mode_RGB666.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/unpacked_transfer_mode_RGB666.png" alt="" width="700">
 
 **[Unpacked transfer mode for RGB888]**
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/unpacked_transfer_mode_RGB888.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/unpacked_transfer_mode_RGB888.png" alt="" width="700">
 
 ##### Features
 
@@ -1559,7 +1559,7 @@ As example, below are depicted the transfers modes for some color formats, highl
 
 The architecture of the SPI LCD Display Interface is depicted below.
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/SPI_LCD_Display_Interface.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/SPI_LCD_Display_Interface.png)
 
 It is clearly understandable how the display data are efficiently processed, then converted into SPI-compatible signals, then transmitted to the connected LCD display.
 
@@ -1575,7 +1575,7 @@ An example of layers and their respective alpha values is depicted below, where
 - **L1**: Middle layer, alpha value **a1**
 - **L2**: Top layer, alpha value **a2**
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/blending_function.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/blending_function.png" alt="" width="400">
 
 The following blending modes are supported:
 
@@ -1684,7 +1684,7 @@ L' = L1 + L0 × a1/256;
 
 The process of the Dither function is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/Dither_function.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/Dither_function.png" alt="" width="600">
 
 The Dither function can be enabled/disabled by software.
 
@@ -1716,7 +1716,7 @@ To apply the image capture function, the following parameters should be configur
 
 The process of the image capture function is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/image_capture.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/image_capture.png" alt="" width="800">
 
 ### 2.6 Audio Subsystem
 
@@ -1780,7 +1780,7 @@ All ports support Gen2 with a data transfer speed of 5GT/s per lane. However, on
 
 The architecture of the PCIe Dual-Mode port set is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/PCIe_Dual-Mode_port.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/PCIe_Dual-Mode_port.png" alt="" width="700">
 
 As can be seen, there are
 
@@ -1922,7 +1922,7 @@ The architecture of the USB port set is depicted below, where
 - **USB#1 Port =** USB2.0 Host-Only Port
 - **USB#2 Port =** USB3.0 Port with a USB2.0 DRD interface
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/USB_port.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/USB_port.png" alt="" width="700">
 
 #### Ethernet GMAC
 
@@ -1947,7 +1947,7 @@ The GMAC IP core can operate at 10 Mbps, 100 Mbps (Fast Ethernet) or 1000 Mbps (
 
 The micro-architecture of Ethernet GMAC unit is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/Ethernet_GMAC.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/Ethernet_GMAC.png" alt="" width="600">
 
 #### SDIO Interface
 
@@ -2123,7 +2123,7 @@ The I2C bus interface is a peripheral device residing on the peripheral bus that
 
 The architecture of the I2C bus interface is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/I2C_bus_interface.png" alt="" width="500">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/I2C_bus_interface.png" alt="" width="500">
 
 #### IR-RX Interface
 
@@ -2147,7 +2147,7 @@ For detailed information about specific slave implementations, please refer to t
 
 The architecture of the One-Wire Bus Master Interface is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/One-Wire_Bus_Master_Interface.png" alt="" width="500">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/One-Wire_Bus_Master_Interface.png" alt="" width="500">
 
 #### I2S Interface
 
@@ -2247,7 +2247,7 @@ The DMA controller can manage different data transfer types in DMA Flow-Through 
 
 The architecture of the DMA controller is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/DMA_controller.png" alt="" width="500">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/DMA_controller.png" alt="" width="500">
 
 #### Timer
 
@@ -2294,7 +2294,7 @@ TSEN can be used by software to monitor the on-die temperature to let take all n
 
 The architecture of the Temperature Sensor Module is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/Temperature_Sensor.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/Temperature_Sensor.png" alt="" width="400">
 
 #### PWM
 
@@ -2333,7 +2333,7 @@ The Mailbox is designed to deliver messages or signals between SoC and MCU subsy
 
 The architecture of the Mailbox is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/Mailbox.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/Mailbox.png" alt="" width="600">
 
 #### GPIO
 
@@ -2398,11 +2398,11 @@ K1 comes with the following clocks:
 
 The detailed clock tree structure is depicted below, where is highlighted how the clock signals are generated, managed and distributed across the system to support various modules and functions.
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/clock_tree.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/clock_tree.png)
 
 Instead, the high-level architecture of the clock system is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/clock_system.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/clock_system.png" alt="" width="600">
 
 VCXO_OUT is driven with the OSC frequency if either of the following occurs:
 
@@ -2532,17 +2532,17 @@ The related package outline drawing (POD) are depicted in the following sections
 
 ### 3.2 FCCSP Type
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/POD_1.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/POD_1.png)
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/POD_2.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/POD_2.png)
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/fccsp00.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/fccsp00.png" alt="" width="600">
 
 ### 3.3 FCBGA Type
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/POD_3.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/POD_3.png)
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/fcbga00.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/fcbga00.png" alt="" width="600">
 
 ## 4. Pinout
 
@@ -2550,7 +2550,7 @@ The related package outline drawing (POD) are depicted in the following sections
 
 The overall pinout diagram of K1 is depicted below.
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/K1_pinout.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/K1_pinout.png)
 
 > **Note.** Meaning of the different colors:
 >
@@ -2580,7 +2580,7 @@ in order to provide conveniently the pinout description of K1 in the following s
 
 #### (A~N, 1~13)
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/K1_pinout_1.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/K1_pinout_1.png)
 
 > **Note.** Definition of symbols used for pin type:
 >
@@ -2765,7 +2765,7 @@ in order to provide conveniently the pinout description of K1 in the following s
 
 #### (A~N, 14~26)
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/K1_pinout_2.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/K1_pinout_2.png)
 
 > **Note.** Definition of symbols used for pin type:
 >
@@ -2951,7 +2951,7 @@ in order to provide conveniently the pinout description of K1 in the following s
 
 #### (P~AF, 1~13)
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/K1_pinout_3.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/K1_pinout_3.png)
 
 > **Note.** Definition of symbols used for pin type:
 >
@@ -3137,7 +3137,7 @@ in order to provide conveniently the pinout description of K1 in the following s
 
 #### (P~AF, 14~26)
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/K1_pinout_4.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/K1_pinout_4.png)
 
 > **Note.** Definition of symbols used for pin type:
 >
@@ -3453,7 +3453,7 @@ The assigned signals are organized by their functions (e.g. power supply, clock,
 
 All functions that are assigned to a pin as its primary functions are tabled below.
 
-![Pin Function](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/pin_func_en.png)
+![Pin Function](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/pin_func_en.png)
 
 ### 4.5 Power Supply Pins
 
@@ -3702,7 +3702,7 @@ Instead, the input thresholds of Schmitt Trigger Mode of I/O PADs are tabled bel
 
 ### 5.1 Pin AC/DC Operating Conditions
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/pin_ac_dc_en.png" alt="" width="500">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/pin_ac_dc_en.png" alt="" width="500">
 
 ### 5.2 Absolute Max Ratings
 
@@ -3820,7 +3820,7 @@ Instead, the input thresholds of Schmitt Trigger Mode of I/O PADs are tabled bel
 
 The order of the involved pins with state change during the power on sequence is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/power_on.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/power_on.png" alt="" width="600">
 
 #### Power Off Sequence
 
@@ -3828,7 +3828,7 @@ The order of the involved pins with state change during the power on sequence is
 
 The order of the involved pins with state change during the power off sequence is depicted below.
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/power_off.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k1/k1_docs/static/power_off.png" alt="" width="600">
 
 ### 5.5 Power Consumption
 

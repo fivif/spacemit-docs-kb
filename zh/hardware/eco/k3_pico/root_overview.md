@@ -65,7 +65,7 @@ K3 Pico-ITX 为 2.5" Pico-ITX plus 尺寸，满足各行业紧凑型场景应用
 
 ## 框图
 
-![](../../../../_assets/docs-product/static/k3_pico_bd.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/static/k3_pico_bd.png)
 
 ## 可选配部件
 

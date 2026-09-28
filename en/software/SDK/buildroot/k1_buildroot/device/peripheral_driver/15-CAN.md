@@ -16,7 +16,7 @@ CAN (Controller Area Network) is a serial communication protocol designed for re
 
 ### Function Description
 
-![cat](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/can.png)
+![cat](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/can.png)
 
 The CAN controller supports message transmission and reception compliant with CAN 2.0 and CAN FD protocols, handling standard data frames, remote frames, and extended data frames, etc. The CAN driver registers as a network device through the network device interface. In the user layer, CAN driver calls can be made to achieve message transmission and reception using specified network tools or interfaces.
 
@@ -172,7 +172,7 @@ The K1 platform can be connected to a CAN transceiver for testing. The other end
 
 - Connecting CAN Devices to MUSE Pi
 
-  ![alt text](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/can_image_1.png)
+  ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/can_image_1.png)
 
   The pin directions are indicated by the green arrows from top to bottom as shown in the figure above, which are as follows:
   1. rcan tx: gpio47, pin 8 of the 26-pin interface
@@ -182,7 +182,7 @@ The K1 platform can be connected to a CAN transceiver for testing. The other end
 
 - Install CAN software on the PC and connect a PC CAN device (you can connect two CAN peripherals for mutual transmission and reception). In this example, we use PEAK's PCAN, which can be found on the [PEAK official website](https://www.peak-system.com). The wiring for rcan is shown in the figure below, and the wiring for can0 is similar.
 
-  ![alt text](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/can_image_2.jpg)
+  ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/can_image_2.jpg)
 
 - Check if the CAN device is loaded successfully.
 

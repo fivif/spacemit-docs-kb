@@ -24,7 +24,7 @@ updated: "2026-02-12 10:31:41"
 
 获取账号之后，为了您的信息安全，请及时点击右上角个人中心“修改密码”。
 
-<img src="../../../_assets/docs-service/static/password00.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-service/zh/static/password00.png" alt="" width="400">
 
 ### 获得NDA认证
 
@@ -35,7 +35,7 @@ updated: "2026-02-12 10:31:41"
 ### 添加企业成员
 
 企业管理员账号可操作添加本企业成员账号。
-![](../../../_assets/docs-service/static/account00.png)
+![](https://cdn-resource.spacemit.com/userguide/docs-service/zh/static/account00.png)
 
 ## 项目立项
 
@@ -45,34 +45,34 @@ updated: "2026-02-12 10:31:41"
 - 技术支持案：进迭时空为贵司提供技术支持的项目
 - 联合开发案：贵司与进迭时空合作开发的项目
 
-![](../../../_assets/docs-service/static/project00.png)
+![](https://cdn-resource.spacemit.com/userguide/docs-service/zh/static/project00.png)
 
 ### 查看立项进度
 
 提交申请后，您可点击进入项目详情查看审核进度。
-![](../../../_assets/docs-service/static/project01.png)
+![](https://cdn-resource.spacemit.com/userguide/docs-service/zh/static/project01.png)
 
 ### 添加企业进项目组
 
 客户发起立项之后，系统会自动将客户企业添加进入项目组。可在点击进入项目，在详情页点击“企业”查看。
 如贵企业未被自动添加进项目组，请联系与您对接的进迭时空业务负责人。
-![](../../../_assets/docs-service/static/project02.png)
+![](https://cdn-resource.spacemit.com/userguide/docs-service/zh/static/project02.png)
 
 ### 添加项目组成员
 
 您可在项目详情页点击“成员”，添加属于本企业的项目组成员。
-![](../../../_assets/docs-service/static/project03.png)
+![](https://cdn-resource.spacemit.com/userguide/docs-service/zh/static/project03.png)
 
 ### 查看项目详情
 
 项目 -> 项目列表：可查看项目信息、里程碑，以及计划、缺陷、需求、风险、成员、企业等详细信息。
-![](../../../_assets/docs-service/static/project04.png)
+![](https://cdn-resource.spacemit.com/userguide/docs-service/zh/static/project04.png)
 
 ## 工单提交
 
 已成功立项的项目，可在项目详情-缺陷、需求等模块提交工单。
 工单提交后，由FAE评估指派给工程师，支持问题流转。
-![](../../../_assets/docs-service/static/ticket00.png)
+![](https://cdn-resource.spacemit.com/userguide/docs-service/zh/static/ticket00.png)
 
 ## 技术服务
 
@@ -82,7 +82,7 @@ updated: "2026-02-12 10:31:41"
 - 技术支持案：进迭时空为贵司提供技术支持的项目
 - 联合开发案：贵司与进迭时空合作开发的项目
 
-![](../../../_assets/docs-service/static/account00.png)
+![](https://cdn-resource.spacemit.com/userguide/docs-service/zh/static/account00.png)
 
 提交申请后，您可点击进入项目详情查看审核进度。
 立项成功后，您可在项目中添加企业、添加项目组成员、提交工单。详见文内 [项目立项](partner_project_hub.md#项目立项)、[工单提交](partner_project_hub.md#工单提交)。

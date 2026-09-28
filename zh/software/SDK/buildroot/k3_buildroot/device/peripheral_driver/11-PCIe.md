@@ -20,7 +20,7 @@ K3 平台提供 5 个 PCIe 控制器（Port A ~ Port E），配备 6 个独立 P
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/linux_pcie.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/linux_pcie.png)
 
 Linux PCIe 子系统框架由三部分组成：
 

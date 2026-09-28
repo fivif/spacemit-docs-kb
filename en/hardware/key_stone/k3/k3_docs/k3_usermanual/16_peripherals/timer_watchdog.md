@@ -55,7 +55,7 @@ The K3 includes:
 
 The architecture of the timer unit is shown below.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/timer.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/timer.png" alt="" width="600">
 
 #### Watchdog Timer
 

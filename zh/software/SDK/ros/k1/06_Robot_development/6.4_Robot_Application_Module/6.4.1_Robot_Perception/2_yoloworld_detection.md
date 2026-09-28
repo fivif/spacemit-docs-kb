@@ -63,7 +63,7 @@ ros2 launch rdk_perception yoloworld_infer_img.launch.py \
 
 输出结果将保存在当前目录的 `yoloworld_result.jpg` 中，如图所示。
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloworld_result.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloworld_result.jpg)
 
 终端打印如下
 
@@ -114,7 +114,7 @@ Please visit in your browser: http://<IP>:8080
 
 还可以通过追加 port:=xxxx 参数来指定端口号，以避免端口冲突
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloworld_web.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloworld_web.jpg)
 
 ### 结果订阅
 
@@ -209,7 +209,7 @@ Please visit in your browser: http://<IP>:8080
 
 还可以通过追加 port:=xxxx 参数来指定端口号，以避免端口冲突
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloworld2.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloworld2.jpg)
 
 **无可视化（仅数据输出）**
 

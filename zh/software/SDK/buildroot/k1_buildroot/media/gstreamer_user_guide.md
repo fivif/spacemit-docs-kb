@@ -21,7 +21,7 @@ Gstreamer 可以通过创建一系列的元件(element)，并把它们连接起�
 
 Gstreamer 框架如下图所示：
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/media/static/Jk4JbKgVlonB2txkiBHctjycnXf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/media/static/Jk4JbKgVlonB2txkiBHctjycnXf.png)
 
 ### Gstreamer 源码分布结构
 
@@ -760,7 +760,7 @@ $ dot 0.00.00.170999259-gst-launch.PAUSED_PLAYING.dot -Tpng -o play.png
 
 生成的 `play.png` 如下（结果会根据安装的插件不同而不同）：
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/media/static/Ney4bGKADoSCj3xVK9EcSoCvnWt.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/media/static/Ney4bGKADoSCj3xVK9EcSoCvnWt.png)
 
 **注意：** 在自定义应用中，仅设置 `GST_DEBUG_DUMP_DOT_DIR` 环境变量是不够的。若要生成 `.dot` 文件，必须在代码中主动调用 `GST_DEBUG_BIN_TO_DOT_FILE()` 或 `GST_DEBUG_BIN_TO_DOT_FILE_WITH_TS()` 函数，才能输出 Pipeline 的结构信息。
 

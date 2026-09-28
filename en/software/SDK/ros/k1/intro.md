@@ -20,7 +20,7 @@ Bianbu Robot aims to promote the adoption of RISC-V architecture in robotics, ac
 
 The Bianbu Robot solution integrates large language model (LLM) capabilities for natural language interaction and intelligent multi-task orchestration. It supports a wide range of intelligent terminal applications, including drones, cleaning robots, quadrupeds, robotic arms, and AI-powered consumer robotics.
 
-![](../../../../../_assets/docs-ros/k1/images/bianbu_ros_framework_en.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/images/bianbu_ros_framework_en.png)
 
 At the system level, the Bianbu Robot solution is based on the Bianbu ROS robot operating system and provides a complete reference platform for AI robotics. Bianbu ROS is built on the proprietary Bianbu OS, integrates deeply optimized robotic middleware and SDKs, and includes the multimedia middleware JDK, high-performance computing libraries (HPC Libs), and the BRDK development kit.
 

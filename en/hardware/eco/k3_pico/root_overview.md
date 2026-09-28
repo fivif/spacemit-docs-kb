@@ -67,7 +67,7 @@ With rich I/O expandability and an industrial-grade architecture, the K3 Pico-IT
 
 ## Block Diagram
 
-![](../../../../_assets/docs-product/static/k3_pico_bd.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/static/k3_pico_bd.png)
 
 ## Optional Components
 

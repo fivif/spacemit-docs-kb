@@ -63,11 +63,11 @@ text_prompt:="A person wearing off-white clothes"
 
 输出结果将保存在当前目录的 `yoloe_result.jpg` 中，如图所示。
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe1.png)
 
 终端打印如下
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe2.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe2.png)
 
 ### Web 可视化推理结果
 
@@ -99,7 +99,7 @@ Please visit in your browser: http://<IP>:8080
 
 还可以通过追加 port:=xxxx 参数来指定端口号，以避免端口冲突
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe3.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe3.png)
 
 ### 结果订阅
 
@@ -173,7 +173,7 @@ ros2 launch rdk_perception yoloe_service.launch.py
 
 终端打印：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe4.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe4.png)
 
 ### 客户端代码
 
@@ -246,7 +246,7 @@ python3 yoloe_client.py
 
 终端打印：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe5.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe5.png)
 
 结果可视化文件保存在 yoloe_service_result.jpg
 

@@ -18,7 +18,7 @@ K3 平台需要外接**外部 WiFi 模组**实现 WiFi 功能，支持 SDIO / PC
 
 WiFi 在 Linux 里主要有以下几层：
 
-![WiFi 软件架构](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/wlan.png)
+![WiFi 软件架构](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/wlan.png)
 
 1. **cfg80211 / mac80211 / nl80211**
    提供 Linux 无线协议栈与用户态控制接口；

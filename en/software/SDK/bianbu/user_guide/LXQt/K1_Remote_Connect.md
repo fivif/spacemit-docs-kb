@@ -28,7 +28,7 @@ The overall process consists of three stages:
 
 Connect the host machine to the MUSE Pi Pro board's GND, TX, and RX pins using a USB-to-TTL adapter, as shown below:
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote1.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote1.png)
 
 **Step 1:** Identify the serial device:
 
@@ -36,7 +36,7 @@ Connect the host machine to the MUSE Pi Pro board's GND, TX, and RX pins using a
 ls /dev/ttyUSB* 2>/dev/null || ls /dev/ttyACM*
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote2.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote2.png)
 
 In this example, the device is `/dev/ttyUSB0`.
 
@@ -53,17 +53,17 @@ sudo apt install minicom
 sudo minicom -D /dev/ttyUSB0 -b 115200
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote3.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote3.png)
 
 ### Ubuntu System Login
 
 **Step 1:** Press the board's reset button and wait for the system to load to the following screen (if the system is already initialized, skip this step).
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote4.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote4.png)
 
 **Step 2:** Press Enter to proceed to the login screen.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote5.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote5.png)
 
 **Step 3:** At the prompt, enter the username `root` and press Enter.
 
@@ -87,7 +87,7 @@ hostname -I
 
 The output will display `<remote_ip>`:
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote6.jpeg)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote6.jpeg)
 
 <a id="ubuntu-wifi-scene2"></a>
 
@@ -105,7 +105,7 @@ Note the network interface name shown in the screenshot (e.g., `wlan0`), as it w
 
 > **Note**: The actual network interface name may not be `wlan0`. Use the name displayed on your system.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote7.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote7.png)
 
 **Step 2:** Run the following command:
 
@@ -136,7 +136,7 @@ wpa_cli -i wlan0 enable_network 0
 /sbin/dhcpcd wlan0
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote8.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote8.png)
 
 **Step 6:** Verify the IP address:
 
@@ -146,7 +146,7 @@ hostname -I
 
 The output will display `<remote_ip>`:
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote9.jpeg)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote9.jpeg)
 
 #### Stage 2: Remote Desktop Connection for Initial Setup
 
@@ -172,7 +172,7 @@ Relogin=false
 EOF
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote10.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote10.png)
 
 **Step 2:** Back up the environment configuration script:
 
@@ -194,7 +194,7 @@ ps aux | grep labwc | grep -v grep
 
 The process ID is shown in the highlighted position in the screenshot below. Use the value displayed on your system.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote11.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote11.png)
 
 **Step 5:** Kill the `labwc` process, replacing `<PID>` with the actual process ID:
 
@@ -202,7 +202,7 @@ The process ID is shown in the highlighted position in the screenshot below. Use
 kill <PID>
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote12.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote12.png)
 
 **Step 6:** Restart the SDDM display manager:
 
@@ -210,7 +210,7 @@ kill <PID>
 systemctl restart sddm
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote13.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote13.png)
 
 **Step 7:** Wait 5 seconds, then run the following commands in sequence:
 
@@ -231,7 +231,7 @@ export QT_QPA_PLATFORM=wayland
 export QT_WAYLAND_SHELL_INTEGRATION=xdg-shell
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote14.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote14.png)
 
 **Step 8:** Start WayVNC:
 
@@ -239,7 +239,7 @@ export QT_WAYLAND_SHELL_INTEGRATION=xdg-shell
 XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0.0.0 5900
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote15.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote15.png)
 
 > **Note**: The host machine and the board must be on the same local network (e.g., connected to the same Wi-Fi network or router) when using any VNC client.
 
@@ -254,7 +254,7 @@ sudo apt update
 sudo apt install remmina remmina-plugin-rdp remmina-plugin-vnc remmina-plugin-secret
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote16.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote16.png)
 
 **Step 10:** Launch Remmina:
 
@@ -262,7 +262,7 @@ sudo apt install remmina remmina-plugin-rdp remmina-plugin-vnc remmina-plugin-se
 remmina
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote17.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote17.png)
 
 In the connection dialog:
 
@@ -270,11 +270,11 @@ In the connection dialog:
 - Enter `<remote_ip>:5900` as the address.
 - Press Enter to connect.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote18.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote18.png)
 
 The Bianbu system initialization wizard will appear.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote19.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote19.png)
 
 When configuring your user account, keep your credentials in a safe place. It is recommended to set both the username and password to `bianbu` for convenience in subsequent steps. After completing the configuration, the system will proceed with initialization, which takes approximately 10 seconds.
 
@@ -295,7 +295,7 @@ Log in by following the [**Ubuntu System Login**](K1_Remote_Connect.md#ubuntu-sy
 su - <your_username>
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote20.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote20.png)
 
 #### Stage 2: Remote Desktop Connection
 
@@ -321,11 +321,11 @@ Relogin=false
 EOF
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote21.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote21.png)
 
 Enter your user password when prompted.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote22.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote22.png)
 
 **Step 2:** Back up the session startup script:
 
@@ -333,7 +333,7 @@ Enter your user password when prompted.
 sudo cp /usr/bin/startlxqtwayland /usr/bin/startlxqtwayland.clean
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote23.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote23.png)
 
 **Step 3:** Set the required environment variables:
 
@@ -341,7 +341,7 @@ sudo cp /usr/bin/startlxqtwayland /usr/bin/startlxqtwayland.clean
 sudo sed -i '1a export LABWC_FALLBACK_OUTPUT="NOOP-fallback"\nexport LABWC_VIRTUAL_OUTPUT_SIZE="1920x1080"' /usr/bin/startlxqtwayland
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote24.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote24.png)
 
 **Step 4:** Restart the SDDM display manager:
 
@@ -351,7 +351,7 @@ systemctl restart sddm
 
 Enter your password when prompted.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote25.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote25.png)
 
 **Step 5:** Wait 5 seconds, then run:
 
@@ -361,7 +361,7 @@ XDG_RUNTIME_DIR=$(dirname "$WAYLAND_SOCKET")
 WAYLAND_DISPLAY=$(basename "$WAYLAND_SOCKET")
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote26.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote26.png)
 
 **Step 6:** Start WayVNC:
 
@@ -369,7 +369,7 @@ WAYLAND_DISPLAY=$(basename "$WAYLAND_SOCKET")
 XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0.0.0 5900
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote27.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote27.png)
 
 > **Note**: The host machine and the board must be on the same local network (e.g., connected to the same Wi-Fi network or router) when using any VNC client.
 
@@ -381,7 +381,7 @@ Open a new terminal on the Ubuntu host machine.
 remmina
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote17.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote17.png)
 
 In the connection dialog:
 
@@ -389,11 +389,11 @@ In the connection dialog:
 - Enter `<remote_ip>:5900` as the address.
 - Press Enter to connect.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote28.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote28.png)
 
 The remote desktop will load and display the board's desktop environment.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote29.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote29.png)
 
 ## Windows 11
 
@@ -407,13 +407,13 @@ Also download either the **RealVNC** or **TigerVNC** client for the VNC connecti
 
 Connect the host machine to the MUSE Pi Pro board's GND, TX, and RX pins using a USB-to-TTL adapter, as shown below:
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote1.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote1.png)
 
 Using MobaXterm:
 
 1. Connect the USB-to-TTL adapter and confirm the COM port is recognized in **Device Manager**:
 
-   ![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote30.jpeg)
+   ![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote30.jpeg)
 
 2. Open **MobaXterm**, click **Sessions** → **New Session**, and select **Serial** as the connection type.
 
@@ -423,7 +423,7 @@ Using MobaXterm:
 
    Click **OK** to open the serial terminal.
 
-   ![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote31.jpeg)
+   ![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote31.jpeg)
 
 > **Note**: It is normal for MobaXterm to display minor character misalignment or overlap when running commands.
 
@@ -433,7 +433,7 @@ Using MobaXterm:
 
 **Step 2:** Press Enter to proceed to the login screen.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote32.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote32.png)
 
 **Step 3:** At the prompt, enter the username `root` and press Enter.
 
@@ -457,7 +457,7 @@ hostname -I
 
 The output will display `<remote_ip>`:
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote33.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote33.png)
 
 <a id="windows-wifi-scene2"></a>
 
@@ -475,7 +475,7 @@ Note the network interface name shown in the screenshot (e.g., `wlan0`), as it w
 
 > **Note**: The actual network interface name may not be `wlan0`. Use the name displayed on your system.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote34.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote34.png)
 
 **Step 2:** Run the following command:
 
@@ -485,7 +485,7 @@ Note the network interface name shown in the screenshot (e.g., `wlan0`), as it w
 wpa_cli -i wlan0 add_network
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote35.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote35.png)
 
 **Step 3:** Configure the Wi-Fi SSID and password.
 
@@ -496,7 +496,7 @@ wpa_cli -i wlan0 set_network 0 ssid "\"WiFi_Name\""
 wpa_cli -i wlan0 set_network 0 psk "\"WiFi_Password\""
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote36.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote36.png)
 
 **Step 4:** Enable the network configuration:
 
@@ -504,7 +504,7 @@ wpa_cli -i wlan0 set_network 0 psk "\"WiFi_Password\""
 wpa_cli -i wlan0 enable_network 0
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote37.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote37.png)
 
 **Step 5:** Wait 5 seconds, then obtain an IP address:
 
@@ -512,7 +512,7 @@ wpa_cli -i wlan0 enable_network 0
 /sbin/dhcpcd wlan0
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote38.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote38.png)
 
 **Step 6:** Verify the IP address:
 
@@ -522,7 +522,7 @@ hostname -I
 
 The output will display `<remote_ip>`:
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote33.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote33.png)
 
 #### Stage 2: Remote Desktop Connection for Initial Setup
 
@@ -548,7 +548,7 @@ Relogin=false
 EOF
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote39.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote39.png)
 
 **Step 2:** Back up the environment configuration script:
 
@@ -556,7 +556,7 @@ EOF
 cp /usr/libexec/start-bianbu-init-env /usr/libexec/start-bianbu-init-env.bak_final
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote40.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote40.png)
 
 **Step 3:** Set the required environment variables:
 
@@ -564,7 +564,7 @@ cp /usr/libexec/start-bianbu-init-env /usr/libexec/start-bianbu-init-env.bak_fin
 sed -i '/export QT_QPA_PLATFORM=wayland/a\export LABWC_FALLBACK_OUTPUT=NOOP-fallback\nexport LABWC_VIRTUAL_OUTPUT_SIZE=1920x1080' /usr/libexec/start-bianbu-init-env
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote41.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote41.png)
 
 **Step 4:** Get the `labwc` process ID:
 
@@ -574,7 +574,7 @@ ps aux | grep labwc | grep -v grep
 
 The process ID is shown in the highlighted position in the screenshot below. Use the value displayed on your system.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote42.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote42.png)
 
 **Step 5:** Kill the `labwc` process, replacing `<PID>` with the actual process ID:
 
@@ -582,7 +582,7 @@ The process ID is shown in the highlighted position in the screenshot below. Use
 kill <PID>
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote43.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote43.png)
 
 **Step 6:** Restart the SDDM display manager:
 
@@ -590,7 +590,7 @@ kill <PID>
 systemctl restart sddm
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote44.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote44.png)
 
 **Step 7:** Wait 5 seconds, then run the following commands in sequence:
 
@@ -614,7 +614,7 @@ export QT_QPA_PLATFORM=wayland
 export QT_WAYLAND_SHELL_INTEGRATION=xdg-shell
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote45.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote45.png)
 
 **Step 8:** Start WayVNC:
 
@@ -622,7 +622,7 @@ export QT_WAYLAND_SHELL_INTEGRATION=xdg-shell
 XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0.0.0 5900
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote46.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote46.png)
 
 **Step 9:** Connect using a VNC client:
 
@@ -634,15 +634,15 @@ XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0
 2. Enter `<remote_ip>` (e.g., `192.168.1.100`) in the address bar.
 3. Press Enter to connect.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote47.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote47.png)
 
 Click the item shown in the highlighted area.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote48.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote48.png)
 
 The Bianbu system initialization wizard will appear.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote49.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote49.png)
 
 **Option B — TigerVNC:**
 
@@ -650,11 +650,11 @@ The Bianbu system initialization wizard will appear.
 2. Enter the board's IP address (e.g., `10.59.240.178`) in the VNC server address field.
 3. Click **Connect**.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote50.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote50.png)
 
 The Bianbu system initialization wizard will appear.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote51.bmp)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote51.bmp)
 
 When configuring your user account, keep your credentials in a safe place. It is recommended to set both the username and password to `bianbu` for convenience in subsequent steps. After completing the configuration, the system will proceed with initialization, which takes approximately 10 seconds.
 
@@ -675,7 +675,7 @@ Log in by following the [**Windows System Login**](K1_Remote_Connect.md#windows-
 su - <your_username>
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote52.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote52.png)
 
 #### Stage 2: Remote Desktop Connection
 
@@ -701,11 +701,11 @@ Relogin=false
 EOF
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote53.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote53.png)
 
 Enter your user password when prompted.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote54.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote54.png)
 
 **Step 2:** Back up the session startup script:
 
@@ -713,7 +713,7 @@ Enter your user password when prompted.
 sudo cp /usr/bin/startlxqtwayland /usr/bin/startlxqtwayland.clean
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote55.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote55.png)
 
 **Step 3:** Set the required environment variables:
 
@@ -721,7 +721,7 @@ sudo cp /usr/bin/startlxqtwayland /usr/bin/startlxqtwayland.clean
 sudo sed -i '1a export LABWC_FALLBACK_OUTPUT="NOOP-fallback"\nexport LABWC_VIRTUAL_OUTPUT_SIZE="1920x1080"' /usr/bin/startlxqtwayland
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote56.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote56.png)
 
 **Step 4:** Restart the SDDM display manager:
 
@@ -729,11 +729,11 @@ sudo sed -i '1a export LABWC_FALLBACK_OUTPUT="NOOP-fallback"\nexport LABWC_VIRTU
 systemctl restart sddm
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote57.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote57.png)
 
 Enter your password when prompted.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote58.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote58.png)
 
 **Step 5:** Run the following commands to locate the Wayland socket:
 
@@ -741,7 +741,7 @@ Enter your password when prompted.
 WAYLAND_SOCKET=$(find /run/user -path "/run/user/0/*" -prune -o -name "wayland-*" -type s -print 2>/dev/null | head -n1)
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote59.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote59.png)
 
 **Step 6:** Set the runtime directory:
 
@@ -749,7 +749,7 @@ WAYLAND_SOCKET=$(find /run/user -path "/run/user/0/*" -prune -o -name "wayland-*
 XDG_RUNTIME_DIR=$(dirname "$WAYLAND_SOCKET")
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote60.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote60.png)
 
 **Step 7:** Set the Wayland display:
 
@@ -757,7 +757,7 @@ XDG_RUNTIME_DIR=$(dirname "$WAYLAND_SOCKET")
 WAYLAND_DISPLAY=$(basename "$WAYLAND_SOCKET")
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote61.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote61.png)
 
 **Step 8:** Start WayVNC:
 
@@ -765,7 +765,7 @@ WAYLAND_DISPLAY=$(basename "$WAYLAND_SOCKET")
 XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0.0.0 5900
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote62.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote62.png)
 
 **Step 9:** Connect using a VNC client:
 
@@ -777,11 +777,11 @@ XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0
 2. Enter `<remote_ip>` (e.g., `192.168.1.100`) in the address bar.
 3. Press Enter to connect.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote47.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote47.png)
 
 The remote desktop will load and display the board's desktop environment.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote63.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote63.png)
 
 **Option B — TigerVNC:**
 
@@ -789,8 +789,8 @@ The remote desktop will load and display the board's desktop environment.
 2. Enter the board's IP address (e.g., `10.59.240.178`) in the VNC server address field.
 3. Click **Connect**.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote50.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote50.png)
 
 The remote desktop will load and display the board's desktop environment.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote64.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/remote64.png)

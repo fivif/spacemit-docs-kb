@@ -10,7 +10,7 @@ updated: "2026-07-30 11:31:59"
 
 开发工具页面提供烧录、系统管理和远程访问三大类工具，覆盖从镜像写入到设备配置、远程访问的常用操作。
 
-![开发工具页面](../../../../../_assets/docs-tool/studio/static/tool_00.png)
+![开发工具页面](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/tool_00.png)
 
 - [烧录工具](flash.md)：
   单机烧录、SD 卡启动、SD 卡量产

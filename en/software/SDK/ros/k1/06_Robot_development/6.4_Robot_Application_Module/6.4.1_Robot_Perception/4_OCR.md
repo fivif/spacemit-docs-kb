@@ -48,11 +48,11 @@ ros2 launch rdk_perception ocr_infer_img.launch.py img_path:=/home/bianbu/test.j
 
 The output result will be saved in the current directory as `ocr_result.jpg`, as shown in the following figure.
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr1.png)
 
 The terminal prints:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr2.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr2.png)
 
 ### Parameter Description
 
@@ -74,7 +74,7 @@ ros2 launch rdk_perception ocr_service.launch.py
 
 The terminal prints:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr3.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr3.png)
 
 ### Client Code
 
@@ -149,6 +149,6 @@ python3 ocr_client.py
 
 The terminal prints:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr4.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr4.png)
 
 The visualized result file is saved in `ocr_result_srv.jpg`.

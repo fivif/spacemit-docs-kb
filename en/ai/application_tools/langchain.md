@@ -39,7 +39,7 @@ rustc --version
 ```
 
 If you see output similar to the following, the installation was successful:
-![Rust installation output](../../../_assets/docs-ai/static/rust-install.png)
+![Rust installation output](https://cdn-resource.spacemit.com/ai/docs-ai/en/static/rust-install.png)
 
 ### 1.2 Install LangChain
 
@@ -56,4 +56,4 @@ source langchain_venv/bin/activate
 python -c "import langchain; print(langchain.__version__)"
 ```
 
-![LangChain demo output](../../../_assets/docs-ai/static/langchain-demo.png)
+![LangChain demo output](https://cdn-resource.spacemit.com/ai/docs-ai/en/static/langchain-demo.png)

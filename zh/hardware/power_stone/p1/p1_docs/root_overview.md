@@ -71,4 +71,4 @@ P1 是一款高性能多通道电源管理芯片（PMIC），旨在为复杂计�
 
 ## 框图
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/CVgqbZypMo36kHx5vpEcOhPAnMg.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/static/CVgqbZypMo36kHx5vpEcOhPAnMg.png)

@@ -18,13 +18,13 @@ updated: "2026-06-22 18:34:55"
 
 本示例使用科大讯飞联名远场麦克风阵列六麦M260C板语音交互模块实现声源定位功能，硬件如下图：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/mic_hard.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/mic_hard.jpg)
 
 输出的角度为 0 ~ 360
 
 ## 硬件连接
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/mic_connect.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/mic_connect.jpg)
 
 ## 设置设备规则
 
@@ -39,7 +39,7 @@ udevadm trigger
 
 输入 `ls /dev/wheeltec_mic -lh` 查看是否成功设置
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/ls_res1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/ls_res1.png)
 
 输出如上表示设置成功。
 
@@ -53,7 +53,7 @@ ros2 launch rdk_sensors ring_mic.launch.py
 
 在任意方向说：**“小微小微”**，节点检测到唤醒词后会输出声源角度，如下图所示：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/mic_print.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/mic_print.png)
 
 **“小微小微”** 为默认唤醒词，可以根据官方硬件文档按需求更改。
 

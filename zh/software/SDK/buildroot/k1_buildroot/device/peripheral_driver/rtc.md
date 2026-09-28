@@ -16,7 +16,7 @@ RTC（Real-Time Clock，实时时钟）主要用于计时、产生闹钟等功�
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/rtc.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/rtc.png)  
 
 
 1. `dev/sysfs/proc` 层：接口层，负责向用户空间提供操作节点及相关接口

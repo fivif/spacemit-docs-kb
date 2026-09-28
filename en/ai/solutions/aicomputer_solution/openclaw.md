@@ -35,7 +35,7 @@ updated: "2026-09-11 11:47:24"
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 ```
 
-![nvm installation output](../../../../_assets/docs-ai/solutions/static/image-1.png)
+![nvm installation output](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/image-1.png)
 
 If `nvm` cannot be found, run the following commands:
 
@@ -52,7 +52,7 @@ If you plan to install from [npmjs.com](https://www.npmjs.com/package), you do n
 
 Download the package here: [npm package](https://archive.spacemit.com/spacemit-ai/openclaw/openclaw-2026.3.8.1.tgz)
 
-![OpenClaw npm package download](../../../../_assets/docs-ai/solutions/static/image.png)
+![OpenClaw npm package download](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/image.png)
 
 ### 3. Install Node.js 22
 
@@ -100,7 +100,7 @@ openclaw onboard
 
 After installation, proceed with the OpenClaw configuration. The following example uses the Kimi model.
 
-![OpenClaw onboarding configuration example](../../../../_assets/docs-ai/solutions/static/image-2.png)
+![OpenClaw onboarding configuration example](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/image-2.png)
 
 After the configuration is complete, the terminal outputs a local access URL containing a token, for example:
 
@@ -112,7 +112,7 @@ Open this link in a browser to access the OpenClaw Web UI.
 
 The token is the value shown in the URL printed by the console after the configuration process completes.
 
-![OpenClaw local access URL with token](../../../../_assets/docs-ai/solutions/static/image-3.png)
+![OpenClaw local access URL with token](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/image-3.png)
 
 ## Build, Install, and Redevelop OpenClaw for Developers
 

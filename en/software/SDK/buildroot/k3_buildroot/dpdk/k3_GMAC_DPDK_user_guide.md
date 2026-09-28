@@ -20,7 +20,7 @@ DPDK is a highly modular, layered user-space data plane development framework. I
 
 The DPDK framework is shown below:
 
-![](../../../../../../_assets/docs-buildroot/k3_buildroot/dpdk/static/DPDK_framework.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/dpdk/static/DPDK_framework.png)
 
 ### DPDK Components
 
@@ -114,7 +114,7 @@ DPDK achieves microsecond-level latency and line-rate forwarding performance thr
 
        **2. No system calls:** The entire packet I/O path requires no blocking system calls such as `recv` or `send`, eliminating kernel context-switch overhead.
 
-![](../../../../../../_assets/docs-buildroot/k3_buildroot/dpdk/static/kernel_vs_dpdk.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/dpdk/static/kernel_vs_dpdk.png)
 
 
 ## Kernel Configuration

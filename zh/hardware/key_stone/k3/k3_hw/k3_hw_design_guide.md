@@ -36,14 +36,14 @@ updated: "2026-07-08 15:38:58"
 - K3 芯片支持 LPDDR5/LPDDR4x，支持 2 个 channel，最大支持 64 bit 数据总线宽度；不支持不同 channel 采用不同容量颗粒配置；
   
 - LPDDR5/4x 的外部电阻（ZQ）通过 120 Ω、精度 ±1% 的电阻接到 GND；电路设计须保持和参考设计一致，包括电源去耦电容；
-  ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/ddr_00.png)
+  ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/ddr_00.png)
 
 - PowerOK
   - PWROK 为来自 VDD2H 常供电域的 PHY 输入信号，用于指示 PHY 的所有电源与时钟已经稳定。
   - 在支持 IO retention 时，BP_PWROK 必须由外部控制，并在掉电前按 JEDEC 规范提前释放（拉低）。
   - 若不需要 IO retention，可将 BP_PWROK 通过 VDD2H_TIEHI 输出端口常高拉接。
   - 下图为参考设计，通过 MOS 管预留上拉电阻接到 VDD2。
-    ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/ddr_pwrok.png)
+    ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/ddr_pwrok.png)
 
 - LPDDR IO Map
   
@@ -219,14 +219,14 @@ updated: "2026-07-08 15:38:58"
 - RESET_IN_N 网络的上拉电源必须和 IO 电源域（即上拉到 VCC18_PMIC）保持一致。
 - 若与其他复位来源复用，需增加与非门或二极管进行隔离。
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/reset.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/reset.png)
 
 #### 1.1.3 JTAG 接口
 
 - 支持 JTAG。
 - TDI、TMS、TCK、TDO 以及 Power、GND 连接 JLink 调试器（信号电平需与 Power 电压匹配），TRSTn 信号连接到 JLink 调试器或上拉到 Power。
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/jtag.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/jtag.png)
 
 #### 1.1.4 电源管理（PMIC）电路设计
 
@@ -234,12 +234,12 @@ updated: "2026-07-08 15:38:58"
 - P1 的 SW1~SW6 默认增加 220 pF 电容。
 - BUCK1/2 的 FB 和 FBGND pin 必须连接到主控的 FB 和 FBGND pin，Layout 上注意远离干扰信号。
 - 下图为 LPDDR5 版本的电源方案：
-  ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/pmic_00.png)
-  ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/pmic_01.png)
+  ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/pmic_00.png)
+  ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/pmic_01.png)
 
 - 下图为 LPDDR4x 版本的电源方案：
-  ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/pmic_02.png)
-  ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/pmic_03.png)
+  ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/pmic_02.png)
+  ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/pmic_03.png)
 
 > 注：P1 周边电路设计必须完全拷贝我司参考设计，相关的设计文件请见发布包中的硬件部分。
 
@@ -291,7 +291,7 @@ updated: "2026-07-08 15:38:58"
 32.768 kHz 时钟由外部 RTC 时钟输入，PMIC 已集成 RTC 时钟功能，因此 32.768 kHz 可由 PMIC 提供；
 负载电容需根据晶体振荡器 Datasheet 选型，推荐值为 12 pF。
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/time.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/time.png)
 
 > 注意：选用的电容需与晶振负载电容匹配，材质建议采用 NPO。建议选用 4 pin 贴片晶振，其中 2 个 GND 管脚与单板地充分连接，以增强系统时钟的抗 ESD 干扰能力。
 
@@ -302,29 +302,29 @@ updated: "2026-07-08 15:38:58"
 - 支持 1.8 V/3.3 V Flash，参考芯片 VCC1833_QSPI 电压域配置电平，电平选择信息见 [1.1.5 硬件初始化系统配置电路](k3_hw_design_guide.md#115-硬件初始化系统配置电路)。
 - 支持双 CS。
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/flash.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/flash.png)
 
 #### 1.1.8 eMMC
 
 - 兼容 8 位 eMMC 5.1 协议规范。
 - eMMC 的 Data 与 DS 外部建议预留上/下拉，生产 NC 处理。
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/emmc.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/emmc.png)
 
 #### 1.1.9 UFS
 
 - 支持 UFS 2.2。
 - 参考设计兼容 1.2 V UFS 设计。如果不需要使用 1.2 V UFS，可以不作预留。
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/ufs.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/ufs.png)
 
 ### 1.2 电源设计建议
 
 #### 1.2.1 芯片总体电源拓扑图
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/top_00.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/top_00.png)
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/top_01.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/top_01.png)
 
 #### 1.2.2 芯片电源输入描述
 
@@ -350,7 +350,7 @@ updated: "2026-07-08 15:38:58"
 
 #### 1.2.3 上电时序
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/poweron.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/poweron.png)
 
 #### 1.2.4 下电时序
 
@@ -426,7 +426,7 @@ K3 芯片 PCIe 和 USB 供电电源噪声要求：
 
 K3 支持 4 lane + 4 lane + 4 lane 输入，或 4 lane + 4 lane + 2 lane + 2 lane 输入。
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/mipi.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/mipi.png)
 
 - MIPI CSI0 差分数据参考 MIPI_CSI0_CLK 差分时钟采样；
 - MIPI_CSI1 差分数据参考 MIPI_CSI1_CLK 差分时钟采样；
@@ -469,7 +469,7 @@ K3 支持 4 个 USB3.0 接口、5 个 USB2.0 接口，其中 3 个 USB3.0 与 PC
 - USB20_A_DRD_USB_M 为芯片下载接口；
 - K3 PCIe 接口与 USB3.0 Combo 复用。复用关系如下：
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/pher.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/pher.png)
 
 - PCIe 的 sideband 信号（控制器）命名如下。其中 PCIeA/B 支持热插拔，PCIeC/D 支持部分热插拔功能。
 
@@ -489,7 +489,7 @@ K3 支持 4 个 USB3.0 接口、5 个 USB2.0 接口，其中 3 个 USB3.0 与 PC
 
 - PCIe/USB 控制器与 PCIe/USB PHY 接口组合关系如下：
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/phy.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/phy.png)
 
 - PCIe controller A 具备 EP 功能，最大支持 8 lane，具体用法如下：
   - 8 lane 由 6 个 PHY 组成，x2、x2、x1、x1、x1、x1。每组 PHY 需要输入一组 clkref 信号，并保持同源，jitter 须满足 spec 要求；
@@ -530,7 +530,7 @@ K3 芯片支持 4 个 GMAC 控制器，可提供 RMII、RGMII、MII 接口连接
 - GMAC2 和 GMAC3 支持 RGMII、RMII；
 - 芯片可提供 25 M 时钟给 PHY GMAC；
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/gmac.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/gmac.png)
 
 #### 1.4.6 CAN 接口
 
@@ -555,16 +555,16 @@ K3 有 10 组 CAN 控制器，其中 5 组在 X100 CPU 域，5 组在 RCPU 域�
 K3 采用 10 层 2 阶叠层设计，下图为参考叠层设计。如果使用其他类型的叠层设计，请根据 PCB 厂商给出的设计重新计算阻抗。
 在 10 层叠层设计中，走线层为 L1/L3/L6/L8/L10，L2/L4/L5/L7/L9 为参考平面；DDR 走线单端控制 45 Ω，差分控制 85 Ω；其他信号线，单端控制 50 Ω，差分控制 90 Ω。
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/stack.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/stack.png)
 
 K3 CPU 扇出设计：
 前两排 ball 可从表层扇出，第二排从表层扇出的线可采用 neck 值为 3 mil 的线宽，出 CPU 区域后恢复正常线宽；
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/fanout_00.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/fanout_00.png)
 
 如果第一、二圈信号都有使用，那么从第三排开始，需换层并从内层扇出。CPU 区域的过孔需整齐排列，为地平面和电源平面留出尽可能大的通道。如下图所示，地层平面铺铜后有多条通道与外部地相连，有利于 SI/PI 和散热。
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/gnd.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/gnd.png)
 
 ### 2.2 通用布线建议
 
@@ -576,17 +576,17 @@ K3 CPU 扇出设计：
 6. 走线长度应包含过孔和封装；
 7. 差分对内时延差是指同一对差分信号的 2 根走线之间的时延差；而差分对间时延差是指不同差分对之间的时延差。信号间距是指空气间距。
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/routing.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/routing.png)
 
 高速信号布线建议：
 
 1. 高速信号换层时，需在换层 VIA 处添加 GND 伴随过孔，以保证回流路径的连续性；
 
-   ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/gnd_00.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/gnd_00.png)
 
 2. 由于表贴器件的焊盘会导致阻抗降低，为减小阻抗突变的影响，建议在表贴焊盘的正下方按焊盘大小挖去一层参考层。常用的表贴器件有：ESD、电容、共模抑制电感、连接器等；
 
-   ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/gnd_01.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/gnd_01.png)
 
 3. 避免玻纤编织效应；
 
@@ -594,11 +594,11 @@ K3 CPU 扇出设计：
 
    - 方式一：改变走线角度，按 10° 斜线走线；或在 PCB 加工时将板材旋转 10°，以保证所有走线都不与玻纤平行。
 
-     ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/routing_00.png)
+     ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/routing_00.png)
 
    - 方式二：使用如下走线（ZigZag），下图中的 W 至少要大于 3 倍的玻纤编织间距。推荐值 W = 60 mil，θ = 10°，L = 340 mil。
 
-     ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/routing_01.png)
+     ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/routing_01.png)
 
 4. 走线时尽量减少换层；需要换层时，考虑 Via Stub，并尽量减小 Via Stub 长度；
 
@@ -610,10 +610,10 @@ K3 CPU 扇出设计：
    - D2 = 15 mil，表层到底层的反焊盘尺寸
    - D3 = 30 mil，信号过孔与回流地过孔的中心间距
 
-     ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/dog_bone.png)
+     ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/dog_bone.png)
 
 6. 差分对 P/N 之间等长建议 <= 5 mil。P/N 之间需要绕线补偿时，绕线尺寸需特别注意，应满足下图所示要求，以降低阻抗突变带来的影响：
-     ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/routing_01.png)
+     ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/routing_01.png)
 
 ### 2.3 电源与滤波电容设计
 
@@ -622,33 +622,33 @@ K3 CPU 扇出设计：
 3. 为了获得更好的 PI 效果，请参考我们的参考电路选用电容，不要删减电容个数；
 4. 过孔排布，请按我们的参考设计，不要删减电源过孔和地过孔。
 
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/decup_00.png)
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/decup_01.png)
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/decup_02.png)
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/decup_03.png)
-![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/decup_04.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/decup_00.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/decup_01.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/decup_02.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/decup_03.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/decup_04.png)
 
 ### 2.4 P1 电源 Layout 设计
 
 1. 中间的散热焊盘均匀地打上地孔阵列：
 
-     ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/p1_layout_00.png)
+     ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/p1_layout_00.png)
 
 2. BUCK3/BUCK4/BUCK5/BUCK6 的 Vin 需要分开，不可合并铺铜；BUCK1/2 可以合并铺铜，每个 pin 三个过孔：
 
-     ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/p1_layout_01.png)
+     ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/p1_layout_01.png)
 
 3. FB 走线换层走内层，不要和 SW 同层太长：
 
-     ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/p1_layout_02.png)
+     ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/p1_layout_02.png)
 
 4. 滤波电容靠近主芯片，且电源走线宽度需和参考设计一致：
 
-     ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/p1_layout_03.png)
+     ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/p1_layout_03.png)
 
 5. SW 铺铜处理，且路径需要短，其他信号远离 SW 信号：
 
-     ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/p1_layout_04.png)
+     ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/p1_layout_04.png)
 
 ### 2.5 最小系统设计
 
@@ -671,21 +671,21 @@ K3 CPU 扇出设计：
 
 1. CPU 端和 DDR 端的 GND 过孔请参考模板设计，不可随意删减 GND 过孔。模板管脚的 GND 过孔设计如下图所示：
 
-    ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/gnd_02.png)
+    ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/gnd_02.png)
 
 2. 绕线自身的串扰会影响信号时延，走线绕等长时建议 S >= 3W。
 
-    ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/routing_03.png)
+    ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/routing_03.png)
 
 3. DDR 颗粒区域建议一个管脚对应一个 GND 过孔；有空间的区域尽可能增加 GND 过孔。
   
 4. 调整过孔位置，优化平面的裂缝，改善回流路径。
 
-    ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/gnd_03.png)
+    ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/gnd_03.png)
 
 5. 每个电容焊盘建议至少对应一个过孔。对于 0603/0805 封装的电容，建议一个焊盘对应两个过孔，且过孔靠近管脚位置，以减少回路电感。
 
-    ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/capacitor.png)
+    ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/capacitor.png)
 
 6. DDR 模块的供电电源，如有 FB 线，FB 线的反馈点应靠近主控和 DDR ball 的远端供电点。中间如有打孔换层，需要做挖空避让。
 

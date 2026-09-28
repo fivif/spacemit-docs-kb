@@ -16,7 +16,7 @@ K3 GMAC 模块基于 Synopsys DesignWare Ethernet QoS 控制器（版本 5.40a�
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/net.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/net.png)
 - **应用层：** 面向用户提供应用服务。
 - **协议栈层：** 实现网络协议，为应用层提供系统调用接口。
 - **网络设备抽象层：** 屏蔽驱动实现细节，为协议栈提供统一接口。

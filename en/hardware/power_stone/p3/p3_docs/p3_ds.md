@@ -55,13 +55,13 @@ P3 is a high-performance four-phase BUCK power management Chip (PMIC) featuring 
 
 ## 2. Blockdiagram
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-1.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-1.png)
 
 ## 3. Pin Package
 
 ### 3.1 Pin Package Diagram
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-2.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-2.png)
 
 ### 3.2 Pin Description
 
@@ -590,7 +590,7 @@ The PH_CFGx pins allow the SoC to control PMIC multi-phase operation through GPI
 
 <a id="mode-switching-diagram"></a>**Figure 5-1 Mode Switching Diagram**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-3.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-3.png)
 
 - The PMIC has four operating modes:
 
@@ -745,7 +745,7 @@ The sequencer can control up to eight SLOT IDs, including four EXT_EN signals an
 
 **Figure 5-2 Sequencer Timing Control Diagram**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-4.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-4.png)
 
 <a id="table-5-16"></a>
 
@@ -788,7 +788,7 @@ System wake-up requires a sufficient and stable VSYS voltage (2.9 V ~ 5.5 V) and
 
 **Figure 5-3 Power-On and Shutdown Threshold Switching Diagram**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-5.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-5.png)
 
 Once the PMIC enters power-on mode, if VSYS does not fall below the shutdown threshold within 16s, the power-on threshold is restored to the default power-on threshold, as shown above. The threshold adjustment process can be disabled by setting PMU_CTRL4[3] in [Table 6-20](p3_ds.md#table-6-20-pmu_ctrl4) to 1.
 
@@ -835,7 +835,7 @@ The power-on sequence starts at SLOT0. The timing of each SLOT can be programmed
 
 **Figure 5-4 Power-On Sequence Timing Diagram**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-6.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-6.png)
 
 #### 5.4.3 Shutdown Events
 
@@ -867,7 +867,7 @@ If an emergency event occurs during the power-off sequence, including VSYS overv
 
 **Figure 5-5 Power-Off Sequence Timing Diagram**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-7.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-7.png)
 
 #### 5.4.5 Sleep Events
 
@@ -949,7 +949,7 @@ Warm reset is triggered by an active event on WARM_RESET (GPIO alternate-functio
 
 **Figure 5-6 Warm-Reset Sequence Timing Diagram**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-8.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-8.png)
 
 <a id="table-5-18"></a>
 
@@ -1073,7 +1073,7 @@ DVS1/DVS0 pin logic is shown in **DVS0/DVS1 Logic** below. When using the DVS fu
 
 **Figure 5-7 DVS0/DVS1 Logic**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-9.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-9.png)
 
 For voltage-scaling speed, [5.5.1 Soft Start](p3_ds.md#551-soft-start) and [5.5.2 Soft Shutdown](p3_ds.md#552-soft-shutdown) describe the soft-start and soft-shutdown cases, respectively. Both use one of four selectable slew rates: 2.5/10/25/50 mV/μs. During soft start, the voltage-scaling speed is controlled by [Table 6-21](p3_ds.md#table-6-21-slew_ctrl0) SLEW_CTRL0[3:2]. During soft shutdown, it is controlled by [Table 6-21](p3_ds.md#table-6-21-slew_ctrl0) SLEW_CTRL0[1:0]. In addition to soft start and soft shutdown, voltage scaling occurs in the following situations:
 
@@ -1158,7 +1158,7 @@ The PMIC integrates four BUCK converters and supports cascading two PMICs in a m
 
     **Figure 5-8 PMIC Cascading Master Output Phase Count and GPIO3 Output Phase Timing**
 
-    ![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-10.png)
+    ![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-10.png)
 
 2. PMIC as the slave. As the cascading slave, the PMIC receives the input synchronization signal from the cascading master through GPIO3 and assigns its internal BUCK channels to the specified phases to operate in parallel with the master. The MTP configuration is as follows:
 
@@ -1174,7 +1174,7 @@ The PMIC integrates four BUCK converters and supports cascading two PMICs in a m
 
     **Figure 5-9 Phase Control of PMIC Cascading Slave BUCKx (4+4)**
 
-    ![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-11.png)
+    ![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-11.png)
 
 #### 5.5.6 VOUT Register Configuration and Voltage Mapping
 
@@ -1317,7 +1317,7 @@ As shown in table below, temperature-related events include temperature warning,
 
 **Figure 5-10 ADC Module Operation**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-12.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-12.png)
 
 The ADC measurement channels are listed below:
 
@@ -1387,7 +1387,7 @@ If the corresponding interrupt is enabled, an interrupt event is generated by pu
 
 **Figure 5-11 ADC Result Filtering Diagram**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-13.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-13.png)
 
 #### 5.7.5 Automatic Mode
 
@@ -1411,13 +1411,13 @@ Automatic-mode configuration procedure:
 
 **Figure 5-12 ADC Automatic-Scan Diagram**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-14.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-14.png)
 
 <a id="figure-5-13"></a>
 
 **Figure 5-13 ADC Automatic-Mode Timing**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-15.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-15.png)
 
 After each channel scan is completed in automatic mode:
 
@@ -1524,13 +1524,13 @@ The SPI communication interface is compatible with SPI Mode 0 and supports a max
 
 **Figure 5-14 SPI Communication Commands**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-16.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-16.png)
 
 <a id="figure-5-15"></a>
 
 **Figure 5-15 SPI Read/Write Timing**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-17.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-17.png)
 
 #### 5.10.2 I2C
 
@@ -1542,13 +1542,13 @@ The PMIC supports single-byte reads, multi-byte reads with consecutive addresses
 
 **Figure 5-16 I2C Communication Commands**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-18.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-18.png)
 
 <a id="figure-5-17"></a>
 
 **Figure 5-17 I2C Read/Write Timing**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-19.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-19.png)
 
 In LS_MODE, the I2C communication interface supports a maximum frequency of 1 MHz, filters glitches shorter than 50 ns, and provides 120 ns of START and STOP margin.
 
@@ -1560,7 +1560,7 @@ The LS_MODE and HS_MODE switching logic uses the I2C_HS_MODE and HS_MASTER_CODE 
 
 **Figure 5-18 I2C HS_MODE and LS_MODE Switching**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-20.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3-ds-20.png)
 
 ### 5.11 Interrupts
 

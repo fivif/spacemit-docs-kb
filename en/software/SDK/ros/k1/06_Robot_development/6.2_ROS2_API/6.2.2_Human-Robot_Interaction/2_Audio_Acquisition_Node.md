@@ -37,7 +37,7 @@ sudo apt install python3-pyaudio python3-scipy libfftw3-dev
 
 - Plug the USB microphone into a USB port on the **MUSE Pi Pro**.
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/mic_connect.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/mic_connect.png)
 
 ## Adding to the Audio Group
 
@@ -84,7 +84,7 @@ arecord -D hw:2,0 --dump-hw-params
 
 **Example output**
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/arecord_out1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/arecord_out1.png)
 
 Interpretation of Parameters
 
@@ -124,7 +124,7 @@ ros2 launch rdk_hri recorder.launch.py device_index:=2 sample_rate:=48000
 
 **Terminal Output：**
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/ros2out1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/ros2out1.png)
 
 This will release audio data streams to the topic of '/audio/law'
 
@@ -132,7 +132,7 @@ This will release audio data streams to the topic of '/audio/law'
 
 `ros2 topic hz /audio/raw`
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/ros2out2.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/ros2out2.png)
 
 Theoretical Publish Rate = sample_rate / frame_size = 48000 / 512 = 93.75
 

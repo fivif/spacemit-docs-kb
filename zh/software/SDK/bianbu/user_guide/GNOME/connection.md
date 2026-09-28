@@ -23,7 +23,7 @@ updated: "2026-02-04 14:24:41"
 3. 找到已连接的有线网卡，点击其 **设置** 按钮；
 4. 弹出对话框即可查看 IP 地址。
 
-![wired](../../../../../../_assets/docs-bianbu/static/wired00.png)
+![wired](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/static/wired00.png)
 
 ### 方法二：终端命令
 
@@ -34,14 +34,14 @@ ifconfig
 ```
 
 在输出内容中查找 `inet` 字段，对应的即为 IPv4 地址。
-![ifconfig](../../../../../../_assets/docs-bianbu/static/ifconfig.png)
+![ifconfig](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/static/ifconfig.png)
 
 ## 连接无线网
 
 1. 打开 **设置**；
 2. 打开 **Wi-Fi** 菜单；
 3. 点击您要用的网络名称；
-![WiFi](../../../../../../_assets/docs-bianbu/static/wifi00.png)
+![WiFi](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/static/wifi00.png)
 4. 如果网络受到密码保护，请在出现提示时输入密码并单击连接；
 5. 当计算机连接到网络过程中，网络图标会发生变化；
 6. 如果连接成功，图标会变成一个圆点加上弧状条纹。条纹越多表示网络连接越强。越少表示连接越弱而且可能不太稳定。

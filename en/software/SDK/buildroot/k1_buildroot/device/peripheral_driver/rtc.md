@@ -16,7 +16,7 @@ RTC (Real-Time Clock) is primarily used for timekeeping, generating alarms, and 
 
 ### Functional Description
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/rtc.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/rtc.png)  
 
 1. `dev/sysfs/proc` Layer: Interface layer responsible for providing operation nodes and related interfaces to user space.
 2. `rtc-core` Layer: Provides a set of APIs for RTC drivers, completing device and driver registration, among other tasks.

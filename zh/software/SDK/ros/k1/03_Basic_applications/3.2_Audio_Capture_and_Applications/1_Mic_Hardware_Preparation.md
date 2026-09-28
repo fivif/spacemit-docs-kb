@@ -41,7 +41,7 @@ portaudio19-dev libsndfile1-dev libcurl4-openssl-dev espeak-ng
 
 - 将 USB 麦克风插入 **MUSE Pi Pro** 的 USB 接口
 
-![](../../../../../../../_assets/docs-ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/images/mic_connect.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/images/mic_connect.png)
 
 ## 添加到音频组
 
@@ -63,7 +63,7 @@ audioscan
 
 示例输出：
 
-![](../../../../../../../_assets/docs-ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/images/audioscan.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/images/audioscan.png)
 
 录音设备为输入设备，请忽略输出设备
 
@@ -80,7 +80,7 @@ arecord -D hw:2,0 --dump-hw-params
 
 **示例输出**
 
-![](../../../../../../../_assets/docs-ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/images/arecord_out1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/images/arecord_out1.png)
 
 意义解释
 

@@ -39,7 +39,7 @@ ls /dev/video*
 ```
 
 Example output:
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/camera_port.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/camera_port.jpg)
 
 ### Install Navigation2
 
@@ -67,7 +67,7 @@ ros2 run rqt_image_view rqt_image_view
 ```
 
 Example output:
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/camera_image_view.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/camera_image_view.jpg)
 
 Once the above setup is complete, you can choose **one of the four person-following solutions** to implement dynamic follow behavior.
 
@@ -117,7 +117,7 @@ Run the following command to start the **yolov6 vision inference node**. This no
   ```
 
 - On your PC, open a browser and visit `http://10.0.90.219:8080` (IP may vary) to view the inference results as example below:
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/camera_infer_view.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/camera_infer_view.jpg)
 
 **Step 2: Launch the Dynamic-Target-Updater Node**
 
@@ -220,7 +220,7 @@ The Nanotrack model requires initialization using the person bounding box detect
   ```
 
 - When the YOLO inference node detects reliable person detection, it will automatically initialize the Nanotrack module. The Nanotrack node is successfully initialized when the following continuous messages appear in its window:
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nanotrack_info.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nanotrack_info.jpg)
 
 - After Nanotrack module initialization, you may terminate the YOLOv6 detection node by pressing **Ctrl+C** in its terminal.
 
@@ -289,7 +289,7 @@ This solution uses **ByteTrack** for tracking. It requires running a YOLO person
 
   The ByteTrack scheme detects and tracks **multiple targets simultaneously**, and assigns a unique ID to each one.
 
-  ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/bytetrack_det.jpg)
+  ![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/bytetrack_det.jpg)
 
   > **Note**: If a person leaves the camera’s field of view and later re-enters, the ID will change.
 
@@ -383,7 +383,7 @@ For every different camera tilt angle you must re-calibrate the camera extrinsic
 
 - The person’s key-points and their corresponding names can be collected in the camera view.
 
-  ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/yolov8pose_det.jpg)
+  ![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/yolov8pose_det.jpg)
 
 **Step 3: Launch the key-point triangulation node for follow-target position**
 
@@ -450,10 +450,10 @@ After starting any of the [AI detection & tracking](4_Dynamic_Object_Following.m
   ```
 
 - As shown below, click **Add** → choose **Marker** under the `/visualization_marker` topic.
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rviz_marker.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rviz_marker.jpg)
 
 - You will now see the detected person in the rviz2 window. The red point represents the calculated follow target position:
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_follow_point1.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_follow_point1.jpg)
 
 - Click **2D Nav Goal** to set any navigation target. Once set, Navigation2 follow mode will start. As the target moves, the robot will continuously follow it automatically:
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_follow_point2.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_follow_point2.jpg)

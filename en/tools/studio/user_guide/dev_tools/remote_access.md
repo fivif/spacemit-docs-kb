@@ -19,18 +19,18 @@ Think of it like this: **Computer A** (the one with your devices) starts a proxy
 ### Step 1: Start the Proxy on Computer A (Host)
 
 1. Open the **Development Tools** page and find the **Remote Access** section
-   ![Remote Device Sharing card](../../../../../_assets/docs-tool/studio/static/remote_gateway.png)
+   ![Remote Device Sharing card](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/remote_gateway.png)
 
 2. Click the **Remote Device Sharing** card to open the settings dialog
-   ![Remote Device Sharing configuration dialog](../../../../../_assets/docs-tool/studio/static/remote_gateway_00.png)
+   ![Remote Device Sharing configuration dialog](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/remote_gateway_00.png)
 
 3. Click **Start Proxy**
 
 4. Wait for the status to change to **Running**
-   ![Proxy running status](../../../../../_assets/docs-tool/studio/static/remote_gateway_01.png)
+   ![Proxy running status](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/remote_gateway_01.png)
 
    The **Remote Device Sharing** card status will also update to **Running**
-   ![Card shows running status](../../../../../_assets/docs-tool/studio/static/remote_gateway_02.png)
+   ![Card shows running status](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/remote_gateway_02.png)
 
    > Computer A is now ready to accept remote connections.
 
@@ -40,7 +40,7 @@ Think of it like this: **Computer A** (the one with your devices) starts a proxy
 2. Log in using the **same account** as Computer A
 3. Click the **Settings** icon (lower-left corner)
 4. Find **Enable remote gateway** and turn it on
-   ![Remote Gateway settings toggle](../../../../../_assets/docs-tool/studio/static/setting_01.png)
+   ![Remote Gateway settings toggle](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/setting_01.png)
 
 5. You're connected! You can now access Studio and devices on Computer A
 

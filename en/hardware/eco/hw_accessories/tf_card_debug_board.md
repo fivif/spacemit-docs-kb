@@ -16,7 +16,7 @@ K1/K3 chips multiplex JTAG and RCPU debug UART functions on the MMC signal pins.
 
 As shown below, the expansion board contains a 20-pin box header for connecting a J-Link debugger, an XH2.54-4P connector for connecting a 3.3V UART serial cable, and several pin headers for different usage scenarios.
 
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/hw_accessories/static/tf_dubug_board.png)
 
 ## Usage Instructions
 
@@ -40,18 +40,18 @@ The box header pin assignment is shown below. The TDI and TMS pin order is rever
 #### JTAG Connection
 
 To use JTAG, configure the J3, J4, and J5 pin headers as shown below.
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k1.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/hw_accessories/static/tf_dubug_board-k1.png)
 
 Connection to the K1 MUSE Pi Pro:
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k1_1.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/hw_accessories/static/tf_dubug_board-k1_1.png)
 
 #### RCPU UART Connection
 
 To use RCPU UART, configure the J3, J4, and J5 pin headers as shown below.
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k1_2.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/hw_accessories/static/tf_dubug_board-k1_2.png)
 
 Connection to the K1 MUSE Pi Pro. The debug serial cable must use 3.3V logic levels.
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k1_3.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/hw_accessories/static/tf_dubug_board-k1_3.png)
 
 ### K3 Series Products
 
@@ -73,18 +73,18 @@ The box header pin assignment is shown below. The TDI and TMS pin order is rever
 #### JTAG Connection
 
 To use JTAG, configure the J3, J4, and J5 pin headers as shown below.
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k3.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/hw_accessories/static/tf_dubug_board-k3.png)
 
 Because the K3 and K1 products use different pin orders, with TDI and TMS swapped, the board cannot be connected directly to a J-Link. Use Dupont wires according to the J-Link pin assignment shown below.
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k3_1.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/hw_accessories/static/tf_dubug_board-k3_1.png)
 
 #### RCPU UART Connection
 
 To use RCPU UART, configure the J3, J4, and J5 pin headers as shown below.
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k3_2.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/hw_accessories/static/tf_dubug_board-k3_2.png)
 
 Connection to the K3-CoM260. The debug serial cable must use 3.3V logic levels.
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k3_3.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/hw_accessories/static/tf_dubug_board-k3_3.png)
 
 ## FAQ
 

@@ -10,7 +10,7 @@ updated: "2026-07-30 11:32:22"
 
 点击 ⚙️ 图标进入设置页面，可管理 SpacemiT Studio 的外观、缓存、AI 模型及远程设备共享等配置。
 
-![](../../../../_assets/docs-tool/studio/static/setting_00.png)
+![](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/setting_00.png)
 
 ## 外观
 
@@ -26,7 +26,7 @@ updated: "2026-07-30 11:32:22"
 ## AI 设置
 
 - **添加模型**：点击 **+ 添加模型**，填写以下信息后点击**确定**：
-  ![](../../../../_assets/docs-tool/studio/static/setting_02.png)
+  ![](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/setting_02.png)
   - **名称**：自定义的模型显示名称。
   - **提供方**：模型服务商（如 OpenAI、字节跳动等）。
   - **API Key**：用于鉴权的密钥。
@@ -37,7 +37,7 @@ updated: "2026-07-30 11:32:22"
 
 远程设备共享功能允许用户远程访问其他电脑上的 SpacemiT Studio。
 
-![远程设备共享设置](../../../../_assets/docs-tool/studio/static/setting_01.png)
+![远程设备共享设置](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/setting_01.png)
 
 - **关闭（默认）**：仅访问本地设备
 - **开启**：启用后可远程访问相同账号下其他电脑上的 Studio 和已连接设备

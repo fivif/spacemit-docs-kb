@@ -33,7 +33,7 @@ esos系统基于rt-thread开发，跑在rcpu上，其功能包含如下两部分
 
 ## RCPU调试串口连接
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-uart.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/esos-uart.png)
 
 ## 编译方式说明
 
@@ -111,7 +111,7 @@ dpkg-buildpackage -uc -us -b
 
 打印如下结果表示编译成功
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-dpkg.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/esos-dpkg.png)
 
 生成的 deb 包在上级目录
 
@@ -126,7 +126,7 @@ dpkg -i ../bianbu-esos_1.0.0_riscv64.deb
 
 重启后，RCPU调试串口新增打印：
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-print.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/esos-print.png)
 
 该打印主程序在：`~/esos/bsp/spacemit/applications/main.c`，可以修改打印的字符串内容验证固件是否替换成功
 
@@ -200,11 +200,11 @@ bash update_esos_from_dir.sh /root/firmware
 
 显示完成表示替换成功，如下图，此时重启开发板即可
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-update.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/esos-update.png)
 
 RCPU调试串口新增打印：
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-print.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/esos-print.png)
 
 该打印主程序在：`~/esos/bsp/spacemit/applications/main.c`，可以修改打印的字符串内容验证固件是否替换成功
 
@@ -292,13 +292,13 @@ cd ~/esos
 
 正常的打印如下：
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-comp.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/esos-comp.png)
 
 编译完成后，参考：交叉编译小节-替换小核固件（K3 上），完成小核固件替换
 
 替换完成后重启开发板，小核串口打印：
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-print-2.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/esos-print-2.png)
 
 
 
@@ -323,7 +323,7 @@ gcc -Wall -Wextra -O2 -o k3_sensor_stream k3_sensor_stream.c
 
 **先在小核终端启动服务，执行 `rpmsg_sensor_stream`**
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-ex1.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/esos-ex1.png)
 
 **大核侧执行：**
 
@@ -336,7 +336,7 @@ sudo ./k3_sensor_stream -n 100 -p 20
 
 终端打印：
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-ex2.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/esos-ex2.png)
 
 
 
@@ -376,7 +376,7 @@ CONFIG_RT_TICK_PER_SECOND=100 修改为 1000
 
 替换成功后，小核串口打印：
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-ex3.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/esos-ex3.png)
 
 ### 执行测试
 
@@ -384,7 +384,7 @@ CONFIG_RT_TICK_PER_SECOND=100 修改为 1000
 
 可以得到：
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-ex4.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/esos-ex4.png)
 
 
 

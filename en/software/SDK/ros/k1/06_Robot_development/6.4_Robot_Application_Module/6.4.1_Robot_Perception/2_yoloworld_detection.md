@@ -64,7 +64,7 @@ ros2 launch br_perception yoloworld_infer_img.launch.py \
 
 The detection results are saved as `yoloworld_result.jpg` in the current directory.
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloworld_result.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloworld_result.jpg)
 
 Terminal output shows detection details:
 
@@ -112,7 +112,7 @@ Please visit in your browser: http://<IP>:8080
 
 Open a browser and visit the URL shown in the terminal (e.g., `http://<IP>:8080`) to view results:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloworld_web.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloworld_web.jpg)
 
 ### Subscribe to Results
 
@@ -207,7 +207,7 @@ Please visit in your browser: http://<IP>:8080
 
 Open a browser and visit the URL shown in the terminal (e.g., `http://<IP>:8080`) to view results.
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloworld2.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloworld2.jpg)
 
 **Data-Only Inference (No Visualization)**
 

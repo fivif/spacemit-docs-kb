@@ -98,13 +98,13 @@ All output voltages as well as power-up and power-down sequencing can be preconf
 
 ## 2. Block Diagram
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/CVgqbZypMo36kHx5vpEcOhPAnMg.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/CVgqbZypMo36kHx5vpEcOhPAnMg.png)
 
 ## 3. Pin Configuration Diagram
 
 The pin configuration of the P1 device is shown below:
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/LF0fbF5vZoXL6Mx8XdAcTghIncS.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/LF0fbF5vZoXL6Mx8XdAcTghIncS.png)
 
 Pin Type Definitions are defined in the table below:
 
@@ -572,10 +572,10 @@ The PWRKY pin is internally pulled up to VSYS and provides multiple functions:
 PWRKY Event Timing Diagrams
 
    - Power-On Mode Events
-   ![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/YA21bY2dBoZiMmx6lAhc69klnNc.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/YA21bY2dBoZiMmx6lAhc69klnNc.png)
 
    - Shutdown Mode Events
-   ![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/ZpJkbaNCmorgpVxLrEScWBmznNf.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/ZpJkbaNCmorgpVxLrEScWBmznNf.png)
 
 
 #### 6.1.2 INT Pin
@@ -746,7 +746,7 @@ The OUT_32K pin provides an output of the internal slow clock or crystal oscilla
 
 The system supports five operating modes: RESET, RTC, Shutdown, Active, and Sleep. Mode transitions are triggered by various events including power-on, power-off, reset, sleep, and wake-up events. The following diagram illustrates the mode transition states:
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/VZFIbb6v7oKNUhx7IwZcN8PTnig.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/VZFIbb6v7oKNUhx7IwZcN8PTnig.png)
 
 #### 6.2.1 Reset Mode
 
@@ -916,7 +916,7 @@ Controller Scale
 - Supports up to 23 SLOT IDs (6 EXT_EN + 6 BUCK + 11 LDO)
 - Example: DLDO1/DLDO4 bound to a specific PWRCTRL (see sequence controller timing diagram below).
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/B0DdbO3J4o7ua5xe5c9cd4JQnNh.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/B0DdbO3J4o7ua5xe5c9cd4JQnNh.png)
 
 Power Rail State & Output by Mode
 
@@ -970,7 +970,7 @@ Dynamic Power-On Threshold Adjustment
 4. Disable Feature
    - Threshold adjustment can be disabled via SYS_CFG2[6] (Table 7-127).
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/GNJUbF6SzooXCLxab3oc585PnAP.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/GNJUbF6SzooXCLxab3oc585PnAP.png)
 
 #### 6.4.2 Power-On Sequence
 
@@ -1017,7 +1017,7 @@ The sequence controller starts from SLOT0, with programmable timing (four levels
    - Rails or EXTx_EN are not enabled; this SLOT performs no action.
    - If rails are bound to PWRCTRL, SLOT timing waits until PWRCTRL is valid before starting.
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/T5TCbdx84oCR2rxAATncgOzonje.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/T5TCbdx84oCR2rxAATncgOzonje.png)
 
 #### 6.4.3 Shutdown Event Types
 
@@ -1070,7 +1070,7 @@ Emergency Event Handling
 
 The shutdown sequence timing diagram is shown below:
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/DvpJbqt17o1b6wxx4qIcpjiCn3e.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/DvpJbqt17o1b6wxx4qIcpjiCn3e.png)
 
 #### 6.4.5 Sleep Events
 
@@ -1153,12 +1153,12 @@ Reset events behave identically in Active Mode and Sleep Mode. All reset sequenc
        - Enter RESET Mode
           - If PWRKY is configured for 12s long-press reset and the key event occurs, the PMIC resets all logic and enters RESET Mode (see Reset Sequence Diagram).
 
-       ![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/Kn0rb2ftHoLXCix6icrcFvAQnQe.png)
+       ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/Kn0rb2ftHoLXCix6icrcFvAQnQe.png)
 
        - Enter MTP READ2 Mode
           - For other reset events, the PMIC exits Shutdown Mode and enters MTP READ2 Mode (see Cold Reset Sequence Diagram).
 
-       ![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/TT2rbFovKoUyN3xeGYhcEcH4nsh.png)
+       ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/TT2rbFovKoUyN3xeGYhcEcH4nsh.png)
 
 2. Reset Source Masking
    - During the SD_RST_TIME period while in Shutdown Mode triggered by a reset source, all power-on sources are masked and remain inactive.
@@ -1362,7 +1362,7 @@ The PMIC integrates a 12-bit ADC with the following features:
 
 The ADC module operation is illustrated below:
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/ASrNbFEj9o2VABx3wLhc9ptmnMG.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/ASrNbFEj9o2VABx3wLhc9ptmnMG.png)
 
 ADC Measurement Channels
 
@@ -1408,7 +1408,7 @@ Behavior when channel 0 is selected:
 
 > Note: Do not modify configuration (e.g., channel selection, sampling frequency, ADC_AUTO) during conversion. Doing so may invalidate conversion results. Clearing ADC_GO during conversion interrupts the current conversion; results are not saved, and channel scanning restarts from the beginning.
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/EaBCbpxDKoe0YFx1T5wcebDXnad.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/EaBCbpxDKoe0YFx1T5wcebDXnad.png)
 
 #### 6.13.3 Automatic Mode
 
@@ -1436,7 +1436,7 @@ Behavior of channel selection:
 
 - After configuring the enabled channels, each completed conversion automatically switches to the next enabled channel. After a full scan cycle, it returns to the first enabled channel, as illustrated in the ADC Automatic Scan Diagram below.
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/SVmFbhfUEoKnR1xVm5Zcy3LQnQu.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/SVmFbhfUEoKnR1xVm5Zcy3LQnQu.png)
 
 To change the scan sequence or restart scanning from the beginning:
 
@@ -1458,7 +1458,7 @@ If the corresponding interrupt is enabled, an interrupt event is generated (INT 
 
 The figure below illustrates ADC result filtering:
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/P1kvbSkWNof1hLx61SocDgBNn5d.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/P1kvbSkWNof1hLx61SocDgBNn5d.png)
 
 ### 6.14 RTC Module
 
@@ -2956,10 +2956,10 @@ The basic attributes of registers are defined in [Table 7-1](p1_ds.md#table-7-1-
 
 ## 8. Package Information
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/YNjYbwpqRoi8CGxVRm2clLZQnRN.png)
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/QleTbkKomo7UoSxLulfcTeOtnAY.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/YNjYbwpqRoi8CGxVRm2clLZQnRN.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/QleTbkKomo7UoSxLulfcTeOtnAY.png)
 
 ## 9. Tray Information
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/IQgfbtLlToY6CExeW0ncN709nK4.png)
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/EvxzbOvUgoYLonxfLBFcbGYOnlf.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/IQgfbtLlToY6CExeW0ncN709nK4.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/EvxzbOvUgoYLonxfLBFcbGYOnlf.png)

@@ -70,4 +70,4 @@ P1 is mainly used for AR/VR, industrial devices, AI robots, and drones.
 
 ## Block Diagram
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/CVgqbZypMo36kHx5vpEcOhPAnMg.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_docs/static/CVgqbZypMo36kHx5vpEcOhPAnMg.png)

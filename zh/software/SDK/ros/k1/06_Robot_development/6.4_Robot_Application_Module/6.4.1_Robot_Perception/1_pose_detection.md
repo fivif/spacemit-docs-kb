@@ -53,7 +53,7 @@ ros2 launch rdk_perception infer_info.launch.py | grep 'pose'
 
 人体关键点定义如下
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/keypoints_def.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/keypoints_def.jpg)
 
 分别对应着：
 
@@ -97,7 +97,7 @@ ros2 launch rdk_perception infer_img.launch.py \
 
 输出结果将保存在当前目录的 `pose_result.jpg` 中，如图所示。
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/pose_result.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/pose_result.jpg)
 
 终端打印如下
 
@@ -165,7 +165,7 @@ Please visit in your browser: http://<IP>:8080
 
 还可以通过追加 port:=xxxx 参数来指定端口号，以避免端口冲突
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/web_pose.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/web_pose.png)
 
 ### 结果订阅
 

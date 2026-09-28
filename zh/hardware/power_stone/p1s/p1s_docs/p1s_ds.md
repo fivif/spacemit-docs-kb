@@ -67,13 +67,13 @@ SpacemiT® Power Stone™ P1S 是一款多通道电源管理芯片（PMIC），�
 
 ## 2. 模块框图
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/KsE9bPooXobhIExifMKcxA2bnXe.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/KsE9bPooXobhIExifMKcxA2bnXe.png)
 
 图 2-1 P1S 模块框图
 
 ## 3. 引脚封装图
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/E0agbV5Bmo8ICSxniX5cbts8n4d.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/E0agbV5Bmo8ICSxniX5cbts8n4d.png)
 
 图 3-1 P1S 封装图
 
@@ -442,11 +442,11 @@ PWRKY 引脚内部上拉到 VSYS 电压，可作为开机源、关机源和复�
    3. 拉低再释放时，若释放时处于短按时间范围内，产生短按事件。若使能中断（**表 7-120**IRQ\_PWRKY\_EN[2]），产生短按中断；
    4. 拉低再释放时，若释放时介于短按和关机时间范围内，产生长按事件。若使能中断（**表 7-120**IRQ\_PWRKY\_EN[3]），产生长按中断；
    5. 短按时间可配置 0.5s/1s/1.5s/2s（**表 7-91**PWR\_KEY\_TIME[5:4]）。
-      ![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/XSaBbMunJo3PNRxc1FEc4cXPn7c.png)
+      ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/XSaBbMunJo3PNRxc1FEc4cXPn7c.png)
 
 图 6-1 PWRKY 按键开机模式相关事件触发示意图
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/GXZwb9pc1oBAiRxGOlXcyB7qned.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/GXZwb9pc1oBAiRxGOlXcyB7qned.png)
 
 图 6-2 PWRKY 按键关机模式相关事件触发示意图
 
@@ -545,7 +545,7 @@ OUT\_32K 引脚可输出内部慢时钟或者晶振时钟，寄存器可配置�
 
 系统工作模式总共有 5 种：RESET 模式，RTC 模式，关机模式，开机模式和睡眠模式，会根据不同的事件进行模式切换，**图 6-3** 为模式切换状态图。对应的切换事件主要有：开机事件、关机事件、复位事件、睡眠事件、唤醒事件。
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/X34bbRzSToalpExS84rcRB51n3e.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/X34bbRzSToalpExS84rcRB51n3e.png)
 
 图 6-3 模式切换示意图
 
@@ -682,7 +682,7 @@ PMIC 电源轨（除了 AONLDO）的开机、关机、睡眠、唤醒流程都�
 
 序列控制器可控制最高 23 个 SLOT ID，包括 6 个 EXT\_EN，6 个 BUCK 和 11 个 LDO，其工作流程如**图 6-4** 所示，其中 DLDO1 和 DLDO4 分别绑定了某一 PWRCTRL。
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/E18FbaNwVou2LBx7tT0cXcOKnfb.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/E18FbaNwVou2LBx7tT0cXcOKnfb.png)
 
 图 6-4 序列控制器时序控制示意图
 
@@ -721,7 +721,7 @@ PMIC 的开机阈值除了通过 MTP 配置外，硬件本身也会根据情况�
 4. 与此同时判断开机阈值是否是最大开机阈值，若是则屏蔽 VSYS 开机事件，否则开机阈值较之前提   高 0.1 V/0.2 V（**表 7-127**SYS\_CFG2[7]），但最高的开机阈值不超过 3.6V。
 5. 若 VSYS 开机事件未被屏蔽，当 VSYS 再次超过新的开机阈值后，PMIC 启动开机流程并进入开机模式，否则等待其它开机事件。
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/YEmpbhnhMobV0oxk5lnc3Vz9nEe.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/YEmpbhnhMobV0oxk5lnc3Vz9nEe.png)
 
 **图 6-5 开机和关机阈值切换示意图**
 
@@ -760,7 +760,7 @@ PMIC 进入开机模式开始，如果 VSYS 电压在 16s 内未低于关机阈�
    1. 电源轨或 EXTx\_EN 使能不打开，即该 SLOT 下无操作。
    2. 若电源轨绑定了 PWRCTRL，SLOT 计时也受 PWRCTRL 控制，即需等到 PWRCTRL 有效后才开始计时。
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/BhYBb7VccoC8UYxGRTGc8mx0nbe.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/BhYBb7VccoC8UYxGRTGc8mx0nbe.png)
 
 图 6-6 开机流程时序图
 
@@ -784,7 +784,7 @@ PMIC 进入开机模式开始，如果 VSYS 电压在 16s 内未低于关机阈�
 
 关机流程过程中如遇紧急事件，包括 VSYS 过压（**表 7-113**PWRKY\_EVNET[5]）和芯片过温（**表 7-109**EVENT2[6]），并且使能相关保护操作（**表 7-120**IRQ\_PWRKY\_EN[7:6]），则立即回到关机模式，所有电源轨和 EXT\_EN 立即关闭或无效。
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/D6XRbjST5o9Nv6xZ0tYcim9Hnbf.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/D6XRbjST5o9Nv6xZ0tYcim9Hnbf.png)
 
 图 6-7 关机流程时序图
 
@@ -846,11 +846,11 @@ PMIC 进入开机模式开始，如果 VSYS 电压在 16s 内未低于关机阈�
 
 前者只有当 PWRKY 按键配置为长按 12s 复位并且发生按键长按事件后才触发的行为，后者则是其余复位事件触发后的行为。复位源触发进入关机模式的 SD\_RST\_TIME 期间，开机源被屏蔽，即开机源无效。
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/Yr3bb18Waoz2d5xsKWJc6xp5nQd.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/Yr3bb18Waoz2d5xsKWJc6xp5nQd.png)
 
 图 6-8 复位流程
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/BJXXbohZDojEVNxD1QlcSczTn2c.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/BJXXbohZDojEVNxD1QlcSczTn2c.png)
 
 图 6-9 冷复位流程
 
@@ -1014,7 +1014,7 @@ PMIC 内部的 SWITCH 有一个下拉电阻控制，当 SWITCH 使能打开时�
 
 #### 6.13.1 通道选择
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/Ncy7blz6PoCRmbx5O8GcDHCtnnf.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/Ncy7blz6PoCRmbx5O8GcDHCtnnf.png)
 
 图 6-10 ADC 模块工作示意图
 
@@ -1061,7 +1061,7 @@ ADC 各测量通道如下：
 
 注意，通道转换过程中不可随意更改配置，如改变通道选择，采样频率和 ADC\_AUTO 等，否则不保证转换结果的正确性；若转换过程中软件清零 ADC\_GO，将会打断当前转换，结果不保存和更新，通道扫描从头开始。
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/D67nb3oMuo9lUqxqEzlcZFesnUb.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/D67nb3oMuo9lUqxqEzlcZFesnUb.png)
 
 图 6-11 ADC 通道 0 扫描示意图
 
@@ -1093,7 +1093,7 @@ ADC 各测量通道如下：
 
 注意，通道转换过程中不可随意更改配置，如改变通道选择，采样频率和 ADC\_AUTO 等，否则不保证转换结果的正确性。
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/GO6ebT1RzotboHxgi6ZcBBcynSg.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/GO6ebT1RzotboHxgi6ZcBBcynSg.png)
 
 图 6-12 ADC 自动扫描示意图
 
@@ -1106,7 +1106,7 @@ ADC 各测量通道如下：
 
 如果使能了对应的中断，会产生一个中断事件（拉低 INT 引脚）直至软件清除该事件或清零中断使能位。
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/EvOHbyf4zoU3IxxW7L9c4u6YnTd.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/EvOHbyf4zoU3IxxW7L9c4u6YnTd.png)
 
 **图 6-13 ADC 结果滤波示意图**
 
@@ -2433,12 +2433,12 @@ TICK 的产生是周期性的，触发后可配置成 1s 或 1min（**表 7-33**
 
 ## 8. 封装信息
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/YLUpbW1gFo7B23xWxqQcIdj6nvf.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/YLUpbW1gFo7B23xWxqQcIdj6nvf.png)
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/GKHQbz9EZojyhKxRrygcDshPn1f.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/GKHQbz9EZojyhKxRrygcDshPn1f.png)
 
 ## 9. Tray 盘
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/DflxbQ9DAo617WxvSIDcosQ8n9g.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/DflxbQ9DAo617WxvSIDcosQ8n9g.png)
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/OqGFb1XMloLgPSxxeIdc5MvDn6f.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/OqGFb1XMloLgPSxxeIdc5MvDn6f.png)

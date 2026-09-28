@@ -13,7 +13,7 @@ This document introduces the K3 multimedia framework and the function of each la
 
 ## Framework Hierarchy Diagram
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/media/mpp/static/K3X-SDK.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/media/mpp/static/K3X-SDK.png)
 
 The multimedia system includes four layers:
 

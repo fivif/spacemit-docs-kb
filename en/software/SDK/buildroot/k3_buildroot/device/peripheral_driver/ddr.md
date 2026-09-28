@@ -91,7 +91,7 @@ This method is suitable for devices that can already boot normally. Changes take
 - then connect the device to the PC via USB
 - Use the part-number programming function in the TitanFlasher toolset to write the DDR part number (`ddr_partnumber`).
 
-![Writing a DDR part number with TitanFlasher](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/ddr_part_number.png)
+![Writing a DDR part number with TitanFlasher](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/ddr_part_number.png)
 
 **Method 2: Programming via U-Boot Command Line**
 

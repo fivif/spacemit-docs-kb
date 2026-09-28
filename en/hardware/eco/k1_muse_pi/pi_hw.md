@@ -16,7 +16,7 @@ Please click the following links to collect the related hardware reference docum
 - **K1 MUSE Pi reference description** 
 
   - **TOP view**
-   <img src="../../../../_assets/docs-product/k1_muse_pi/static/pi_reftop.png" alt="" width="800">
+   <img src="https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/pi_reftop.png" alt="" width="800">
 
   - **BOTTOM view**
-   <img src="../../../../_assets/docs-product/k1_muse_pi/static/pi_refbottom.png" alt="" width="800">
+   <img src="https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/pi_refbottom.png" alt="" width="800">

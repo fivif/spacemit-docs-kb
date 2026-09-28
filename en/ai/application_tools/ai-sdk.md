@@ -19,7 +19,7 @@ SpacemiT AI SDK is an AI application development kit designed for SpacemiT K-ser
 - **Reinforcement Learning (`RL`)**: robotic policy inference capabilities including YAML configuration parsing, observation assembly, ONNX inference, and action mapping.
 - **Unified Service Access (`gateway`)**: a unified HTTP/WS API layer built on top of ASR, TTS, VAD, Vision, LLM, and VLM capabilities, with model management and a web console.
 
-![SpacemiT AI SDK architecture](../../../_assets/docs-ai/static/ai-sdk-arch.png)
+![SpacemiT AI SDK architecture](https://cdn-resource.spacemit.com/ai/docs-ai/en/static/ai-sdk-arch.png)
 
 Each AI SDK component provides a common API layer that abstracts low-level implementation complexity and keeps development focused on higher-level application integration. The SDK currently provides two primary integration models:
 

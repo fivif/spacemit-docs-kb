@@ -17,7 +17,7 @@ SpacemiT 平台的 Display 模块基于 **DRM 框架（Direct Rendering Manager�
 ### 功能介绍
 
 DRM 框架包括 **用户空间** 与 **内核空间** 两个部分。
-![display-drm](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/display-drm.png)
+![display-drm](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/display-drm.png)
 
 #### 用户空间：Libdrm
 
@@ -549,7 +549,7 @@ MIPI DSI 相关 clock配置，包括 MIPI DSI DPU相关clock配置，reset配置
 
 根据 MIPI DSI panel 提供规格书的 timing 信息填写 DPU timing 配置，及 MIPI DSI timing 配置。其中 pixel clock 和 bit clock 通过 timing 参数计算获取。
 
-![display-timing](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/display-timing.png)
+![display-timing](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/display-timing.png)
 
 ##### Display timing 参数说明
 

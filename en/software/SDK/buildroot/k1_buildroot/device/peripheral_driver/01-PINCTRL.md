@@ -16,7 +16,7 @@ PINCTRL is the **controller for the PIN module**.
 
 ### Function Description
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/linux_pinctrl.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/linux_pinctrl.png)  
 
 The Linux pinctrl module consists of two parts: **pinctrl core** and **pin controller driver**.
 

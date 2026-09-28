@@ -8,7 +8,7 @@ updated: "2026-05-28 16:40:34"
 ---
 # Llama.cpp
 
-![Llama.cpp icon](../../../../_assets/docs-ai/compute_stack/images/llama-cpp-icon.png)
+![Llama.cpp icon](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/llama-cpp-icon.png)
 
 > **llama.cpp** is a lightweight large-model inference framework designed primarily for local GGUF/GGML model inference. On the SpacemiT RISC-V platform, the CPU inference path can be optimized through hardware capabilities such as RVV and IME, with optional SMT vision extension integration for multimodal workloads. ([https://github.com/ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp))
 
@@ -100,7 +100,7 @@ Parameters:
 
 Example output:
 
-![llama-bench example output](../../../../_assets/docs-ai/compute_stack/images/llama-bench.png)
+![llama-bench example output](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/llama-bench.png)
 
 #### 2.3.2 llama-cli
 
@@ -117,7 +117,7 @@ Parameters:
 
 Example output:
 
-![llama-cli example output](../../../../_assets/docs-ai/compute_stack/images/llama-cli.png)
+![llama-cli example output](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/llama-cli.png)
 
 #### 2.3.3 llama-server
 
@@ -155,13 +155,13 @@ curl -X POST http://127.0.0.1:8080/v1/chat/completions \
 
 Example output:
 
-![llama-server API example output](../../../../_assets/docs-ai/compute_stack/images/llama-server-api.png)
+![llama-server API example output](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/llama-server-api.png)
 
 ##### Browser Access
 
 Open `http://localhost:8080` in your browser to access the llama server and use llama.cpp directly in the browser.
 
-![llama-server browser interface](../../../../_assets/docs-ai/compute_stack/images/llama-server-chrome.png)
+![llama-server browser interface](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/llama-server-chrome.png)
 
 ### 2.4 Downloading and Running Multimodal Models
 
@@ -183,11 +183,11 @@ The following sections use several of these models as examples.
 
 Download the models above and copy them to the K3 device. Prepare several test images in resolutions such as `224x224`, `384x384`, `512x512`, and `768x768`. Both `.png` and `.jpg` formats are supported.
 
-![Multimodal model folder structure](../../../../_assets/docs-ai/compute_stack/images/vlm-folder-structure.png)
+![Multimodal model folder structure](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/vlm-folder-structure.png)
 
 Extract the model files. Using `Qwen3.5-0.8B` as an example, the extracted contents are as follows:
 
-![Qwen3.5-0.8B extracted folder structure](../../../../_assets/docs-ai/compute_stack/images/qwen35-0.8b-folder-structure.png)
+![Qwen3.5-0.8B extracted folder structure](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/qwen35-0.8b-folder-structure.png)
 
 Directory structure:
 
@@ -238,15 +238,15 @@ Parameters:
 
 Model loading may take some time, especially for larger models. When the following message appears, the `llama-server` service has started successfully.
 
-![Multimodal service ready output](../../../../_assets/docs-ai/compute_stack/images/vlm-ready.png)
+![Multimodal service ready output](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/vlm-ready.png)
 
 Open `127.0.0.1:8080` in the browser to start the conversation:
 
-![Multimodal browser interface](../../../../_assets/docs-ai/compute_stack/images/vlm-chrome.png)
+![Multimodal browser interface](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/vlm-chrome.png)
 
 The llama-server terminal prints performance metrics as shown below:
 
-![Multimodal performance output](../../../../_assets/docs-ai/compute_stack/images/vlm-performance.png)
+![Multimodal performance output](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/vlm-performance.png)
 
 #### 2.4.4 Model Usage (Qwen3-VL-30B-A3B)
 
@@ -275,11 +275,11 @@ Parameters:
 
 Open `127.0.0.1:8080` in the browser to start the conversation:
 
-![Qwen3-VL-30B-A3B browser interface](../../../../_assets/docs-ai/compute_stack/images/vlm-30b-a3b-chrome.png)
+![Qwen3-VL-30B-A3B browser interface](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/vlm-30b-a3b-chrome.png)
 
 The llama-server terminal prints performance metrics as shown below:
 
-![Qwen3-VL-30B-A3B performance output](../../../../_assets/docs-ai/compute_stack/images/vlm-30b-a3b-performance.png)
+![Qwen3-VL-30B-A3B performance output](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/vlm-30b-a3b-performance.png)
 
 ## 3. Parallel Inference (Important)
 
@@ -308,15 +308,15 @@ K3 provides 8 AI cores and supports up to 8-thread inference concurrently, provi
 
 For single inference, simply use `-t 8` to occupy all available resources. During inference, run `spacemit-tcm-smi -h` to inspect resource usage as shown below:
 
-![TCM status with 8 busy AI cores](../../../../_assets/docs-ai/compute_stack/images/tcm-busy-8.png)
+![TCM status with 8 busy AI cores](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/tcm-busy-8.png)
 
 At this point, no additional inference task can be started concurrently. If a second inference task is forced to run, both tasks may fail, as shown below:
 
-![TCM conflict failure example](../../../../_assets/docs-ai/compute_stack/images/tcm-fail.png)
+![TCM conflict failure example](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/tcm-fail.png)
 
 Wait until the current inference completes and all TCM states return to `free`, as shown below, before starting another task.
 
-![TCM status with all AI cores free](../../../../_assets/docs-ai/compute_stack/images/tcm-free-8.png)
+![TCM status with all AI cores free](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/tcm-free-8.png)
 
 Alternatively, you can forcefully stop the running inference or use `spacemit-tcm-smi -c` to clear the TCM state and reset it to `free` before starting a new task.
 
@@ -334,7 +334,7 @@ export SPACEMIT_PERFER_CORE_ID="8,9,10,11" && llama-cli ...
 
 The TCM status then shows four AI cores in use.
 
-![TCM status with 4 busy AI cores](../../../../_assets/docs-ai/compute_stack/images/tcm-busy-4.png)
+![TCM status with 4 busy AI cores](https://cdn-resource.spacemit.com/ai/docs-ai/en/compute_stack/images/tcm-busy-4.png)
 
 In another terminal:
 

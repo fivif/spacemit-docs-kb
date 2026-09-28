@@ -29,7 +29,7 @@ The examples in this guide use Bianbu 4.0.0, so the `k3-br-v1.0.0` tag is used. 
 
 ## RCPU Debug Serial Connection
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-uart.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/esos-uart.png)
 
 ## Build Methods
 
@@ -104,7 +104,7 @@ dpkg-buildpackage -uc -us -b
 
 A successful build produces output similar to the following:
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-dpkg.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/esos-dpkg.png)
 
 The generated deb package is placed in the parent directory.
 
@@ -119,7 +119,7 @@ After installation, reboot the development board.
 
 After rebooting, the RCPU debug serial port will show new output:
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-print.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/esos-print.png)
 
 The main program producing this output is located at `~/esos/bsp/spacemit/applications/main.c`. You can modify the printed string to verify that the firmware was replaced successfully.
 
@@ -189,11 +189,11 @@ bash update_esos_from_dir.sh /root/firmware
 
 When the process completes successfully, as shown below, reboot the development board.
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-update.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/esos-update.png)
 
 After rebooting, the RCPU debug serial port will print new output:
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-print.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/esos-print.png)
 
 This output comes from `~/esos/bsp/spacemit/applications/main.c`. Changing the printed string is a simple way to confirm the firmware was replaced correctly.
 
@@ -278,13 +278,13 @@ cd ~/esos
 
 Normal build output looks like this:
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-comp.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/esos-comp.png)
 
 Once the build finishes, follow [Replacing the Small-Core Firmware (on the K3 Board)](esos-dev-guide.md#replacing-the-small-core-firmware-on-the-k3-board) to flash the new firmware.
 
 After rebooting, the small-core serial port will print:
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-print-2.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/esos-print-2.png)
 
 ### Building the Main-Core Communication Program
 
@@ -305,7 +305,7 @@ The steps below use `rpmsg_sensor_stream` as an example. For other examples, see
 
 **Step 1 — On the small-core terminal, start the service by running `rpmsg_sensor_stream`:**
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-ex1.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/esos-ex1.png)
 
 **Step 2 — On the main core, run:**
 
@@ -319,7 +319,7 @@ sudo ./k3_sensor_stream -n 100 -p 20
 
 Terminal output:
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-ex2.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/esos-ex2.png)
 
 ## Example 1: Performance Test Suite — Build and Usage
 
@@ -355,13 +355,13 @@ Follow the build and firmware replacement steps in the [Cross-Compilation](esos-
 
 After a successful flash, the small-core serial port will print:
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-ex3.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/esos-ex3.png)
 
 ### Running the Tests
 
 For example, running `rtlat_perf` produces:
 
-![](../../../../../_assets/docs-bianbu/development/static/esos-ex4.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/esos-ex4.png)
 
 ## Additional ESOS Resources
 

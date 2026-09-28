@@ -21,7 +21,7 @@ By creating and linking elements, GStreamer builds pipelines that allow data str
 
 GStreamer framework:
 
-![](../../../../../../_assets/docs-buildroot/k3_buildroot/media/static/gstreamer_framework.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/media/static/gstreamer_framework.png)
 
 ### GStreamer Source Code Distribution Structure
 
@@ -698,7 +698,7 @@ $ dot 0.00.00.170999259-gst-launch.PAUSED_PLAYING.dot -Tpng -o play.png
 
 The generated `play.png` is shown below. Results vary depending on the installed plugins:
 
-![](../../../../../../_assets/docs-buildroot/k3_buildroot/media/static/gstreamer_dot.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/media/static/gstreamer_dot.png)
 
 **Note:** In custom applications, setting only the `GST_DEBUG_DUMP_DOT_DIR` environment variable is insufficient. To generate `.dot` files, call `GST_DEBUG_BIN_TO_DOT_FILE()` or `GST_DEBUG_BIN_TO_DOT_FILE_WITH_TS()` in the application code to output pipeline structure information.
 

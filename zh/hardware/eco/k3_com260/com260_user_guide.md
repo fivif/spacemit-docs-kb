@@ -68,7 +68,7 @@ K3 是进迭时空推出的新一代高性能 RISC-V AI CPU 芯片，具有以�
 
 ### 3.2 K3 芯片框图
 
-![K3 芯片框图](../../../../_assets/docs-product/k3_com260/static/k3-com260_block_diagram.png)
+![K3 芯片框图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/k3-com260_block_diagram.png)
 
 ### 3.3 K3 CoM260 参考方案框图
 
@@ -88,7 +88,7 @@ K3 CoM260 系统方案具备以下特性：
 整体方案稳定可靠，具备量产应用能力。
 
 参考方案框图如下：
-![K3 CoM260 参考方案框图](../../../../_assets/docs-product/k3_com260/static/com260_solution00.png)
+![K3 CoM260 参考方案框图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/com260_solution00.png)
 
 #### 3.3.2 功能概述
 
@@ -135,24 +135,24 @@ K3 CoM260 开发套件提供以下功能：
 
 ### 4.1 实物图
 
-![K3 CoM260 开发套件实物图](../../../../_assets/docs-product/k3_com260/static/com260-kit_00.png)
+![K3 CoM260 开发套件实物图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/com260-kit_00.png)
 
 ### 4.2 电源框图
 
-![电源框图 1](../../../../_assets/docs-product/k3_com260/static/power00.png)  
-![电源框图 2](../../../../_assets/docs-product/k3_com260/static/power01.png)
+![电源框图 1](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/power00.png)  
+![电源框图 2](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/power01.png)
 
 ### 4.3 Boot Download Sel & JTAG Sel
 
 Boot Download Sel 与 JTAG Sel 示意图如下。
 
-![Boot Download Sel 与 JTAG Sel 示意图](../../../../_assets/docs-product/k3_com260/static/debug.png)
+![Boot Download Sel 与 JTAG Sel 示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/debug.png)
 
 ### 4.4 I2C 地址
 
 K3 CoM260 预留了丰富的外围接口。在调试 I2C 外设时，可能涉及 I2C 通道复用。下图列出了 K3 CoM260 开发套件对应的 I2C 地址及上拉电源配置，以避免地址冲突和电平不匹配。
 
-![I2C 地址与上拉电源示意图](../../../../_assets/docs-product/k3_com260/static/i2c.png)
+![I2C 地址与上拉电源示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/i2c.png)
 
 ## 5. 模块简述
 
@@ -173,7 +173,7 @@ K3 CoM260 模组集成了以下 4 类存储器：
 
 K3 CoM260 开发套件提供多功能按键接口，包括电源按键、复位按键和下载按键。
 
-![按键接口示意图](../../../../_assets/docs-product/k3_com260/static/Input_keys.png)
+![按键接口示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/Input_keys.png)
 
 | Pin | 信号名称         | Function             |
 |-----|------------------|----------------------|
@@ -199,7 +199,7 @@ K3-CoM260 不限定支持特定型号的摄像头模组。其高速连接器提�
 - CAM0 支持 2 lanes
 - CAM1 支持 2+2 lanes 或 4 lanes
 
-![MIPI CSI 高速连接器示意图](../../../../_assets/docs-product/k3_com260/static/MIPI_CSI.png)
+![MIPI CSI 高速连接器示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/MIPI_CSI.png)
 
 **22 Pin 高速连接器接口线序如下：**
 
@@ -261,7 +261,7 @@ K3-CoM260 不限定支持特定型号的摄像头模组。其高速连接器提�
 
 K3 CoM260 支持树莓派 4.3 英寸电容触摸显示屏。
 
-![MIPI DSI 屏连接器示意图](../../../../_assets/docs-product/k3_com260/static/MIPI_DSI.png)
+![MIPI DSI 屏连接器示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/MIPI_DSI.png)
 
 **屏接口线序如下：**
 
@@ -287,37 +287,37 @@ K3 CoM260 支持树莓派 4.3 英寸电容触摸显示屏。
 
 K3 CoM260 开发套件的 Type-C 连接器仅支持 OTG 模式，不支持对内供电。
 
-![Type-C 连接器示意图](../../../../_assets/docs-product/k3_com260/static/Type-C.png)
+![Type-C 连接器示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/Type-C.png)
 
 ### 5.7 DP 输出接口
 
 K3 CoM260 开发套件支持 1 路 DP Type-A 输出接口，最高支持 DP 1.2，最大支持 3840 × 2160 @ 60fps 视频输出。
 
-![DP 输出接口示意图](../../../../_assets/docs-product/k3_com260/static/DP.png)
+![DP 输出接口示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/DP.png)
 
 ### 5.8 USB 接口
 
 K3 CoM260 开发套件提供 4 路 USB 3.0 Type-A 接口，便于连接各类 USB 外设。
 
-![USB 接口示意图](../../../../_assets/docs-product/k3_com260/static/USB.png)
+![USB 接口示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/USB.png)
 
 ### 5.9 RJ45 接口
 
 K3 CoM260 开发套件支持 1 个 RJ45 千兆网接口。
 
-![RJ45 接口示意图](../../../../_assets/docs-product/k3_com260/static/RJ45.png)
+![RJ45 接口示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/RJ45.png)
 
 ### 5.10 Wi-Fi/BT 模组
 
 K3 CoM260 开发套件支持接入 M.2 2230 E-Key 模组，可实现无线网络和蓝牙功能。
 
-![Wi-Fi/BT 模组示意图](../../../../_assets/docs-product/k3_com260/static/BT.png)
+![Wi-Fi/BT 模组示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/BT.png)
 
 ### 5.11 40 Pin 接口
 
 K3 CoM260 开发套件提供 40 Pin 双排插针接口，线序如下：
 
-![40 Pin 接口线序图](../../../../_assets/docs-product/k3_com260/static/40Pin.png)  
+![40 Pin 接口线序图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/40Pin.png)  
 
 > 注：IO Function 可根据需求自行配置。
 
@@ -348,19 +348,19 @@ K3 CoM260 开发套件提供 40 Pin 双排插针接口，线序如下：
 
 K3 CoM260 支持 TF 卡接入，便于扩展存储设备。同时支持 Debug 扩展卡，用于 JTAG 调试。
 
-![TF-Card 接口示意图](../../../../_assets/docs-product/k3_com260/static/TF-Crad.png)
+![TF-Card 接口示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/TF-Crad.png)
 
 ### 5.13 M.2 M-Key 接口
 
 K3 CoM260 开发套件提供 2 × M.2 M-Key 接口，分别支持 2280（图中较长 SSD）和 2230（图中较短 SSD）规格的 NVMe SSD，便于接入 SSD 及其他 M.2 M-Key 设备。
 
-![M.2 M-Key 接口示意图](../../../../_assets/docs-product/k3_com260/static/M2_M-Key.png)
+![M.2 M-Key 接口示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/M2_M-Key.png)
 
 ### 5.14 CAN FD 接口
 
 K3 CoM260 开发套件板载 CAN 收发器，可直接连接 CAN 设备。
 
-![CAN FD 接口示意图](../../../../_assets/docs-product/k3_com260/static/can_fd.png)
+![CAN FD 接口示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/can_fd.png)
 
 ## 6. 初次设置
 
@@ -428,7 +428,7 @@ K3 CoM260 出厂时预装进迭时空 Bianbu 操作系统。设备首次启动�
    4. 使用 Type-C 数据线连接开发板 Type-C 接口与上位机电脑。
    5. 使用进迭时空刷机工具 Titan 或执行 `fastboot` 命令进行烧录。
 
-![进入刷机模式按键连接示意图](../../../../_assets/docs-product/k3_com260/static/Input_keys.png)
+![进入刷机模式按键连接示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/Input_keys.png)
 
 刷机流程请参考 [刷机工具使用手册](../../../tools/user_guide/flasher_user_guide.md)。
 
@@ -444,18 +444,18 @@ K3 CoM260 出厂时预装进迭时空 Bianbu 操作系统。设备首次启动�
 
 请将上位机通过 USB 转 TTL 设备与 K3-CoM260 载板 12 Pin 接口的 TX、RX、GND 正确连接。接口信号如下图所示：
 
-![串口接口连接示意图](../../../../_assets/docs-product/k3_com260/static/serial.png)
+![串口接口连接示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/serial.png)
 
 ### 8.2 Windows 调试
 
 以下以 MobaXterm 为例说明操作步骤：
 
 请先正确连接硬件串口，并在 Windows 设备管理器的“端口”中确认系统已识别对应的 COM 口（如图所示）。
-![Windows 设备管理器串口识别示意图](../../../../_assets/docs-product/k3_com260/static/port.png)
+![Windows 设备管理器串口识别示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/port.png)
 
 1. 打开 MobaXterm 软件，依次选择 **Sessions → New Session**。  
 
-   ![MobaXterm 新建串口会话示意图](../../../../_assets/docs-product/k3_com260/static/mobaxterm.png)
+   ![MobaXterm 新建串口会话示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_com260/static/mobaxterm.png)
   
 2. 在弹出的对话框中，选择 **Serial**。  
 

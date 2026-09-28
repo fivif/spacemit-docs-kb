@@ -21,7 +21,7 @@ DPDK 是一个高度模块化、层次分明的用户态数据平面开发框架
 
 DPDK 框架如下图所示：
 
-![](../../../../../../_assets/docs-buildroot/k3_buildroot/dpdk/static/DPDK_framework.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/dpdk/static/DPDK_framework.png)
 
 ### DPDK 组件说明
 
@@ -115,7 +115,7 @@ DPDK 能够实现微秒级延迟和线速转发性能。其核心原理可归结
 
   **2. 无系统调用（No System Calls）：** 收发包全流程无需调用 recv / send 等阻塞式系统调用，避免了内核上下文切换开销。
 
-![](../../../../../../_assets/docs-buildroot/k3_buildroot/dpdk/static/kernel_vs_dpdk.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/dpdk/static/kernel_vs_dpdk.png)
 
 
 ## Kernel配置

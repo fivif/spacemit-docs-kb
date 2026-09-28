@@ -17,7 +17,7 @@ The Linux Thermal framework is the standard Linux architecture for temperature m
 
 ### Functionality
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/thermal.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/thermal.png)
 
 1. **thermal_cooling_device**: the driver that applies cooling actions and acts as the execution layer of the thermal-control flow.
 2. **thermal core**: the core thermal framework. It handles driver initialization, maintains the relationships among thermal zones, governors, and cooling devices, and interacts with user space through `sysfs`.

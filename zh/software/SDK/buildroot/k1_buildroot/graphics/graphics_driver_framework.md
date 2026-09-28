@@ -11,7 +11,7 @@ updated: "2026-04-07 19:44:54"
 
 ## 整体框架
 
-![linux图形显示框架](../../../../../../_assets/docs-buildroot/k1_buildroot/graphics/static/linuxGraphicsFramework.png)
+![linux图形显示框架](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/graphics/static/linuxGraphicsFramework.png)
 
 ## 环境配置及依赖
 

@@ -16,7 +16,7 @@ QSPI 是SoC和外设之间的一种串行接口总线（SPI），支持4x模式�
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/linux_spi.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/linux_spi.png)  
 
 Linux spi驱动框架分为三部分: **SPI core**、**SPI控制器驱动** 和 **SPI设备驱动**。  
 **SPI core**主要作用:

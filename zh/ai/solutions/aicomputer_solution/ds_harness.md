@@ -71,7 +71,7 @@ http://127.0.0.1:3080
 
 即可访问 deepseek harness 的 Web UI 界面，配置完 API Key 后快乐玩耍吧 ^_^
 
-![](../../../../_assets/docs-ai/solutions/static/ds_harness_00.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ds_harness_00.png)
 
 > 若您希望将 Deepseek Harness 创建为系统命令以方便后续快速启用，可参照附录章节进行配置。
 

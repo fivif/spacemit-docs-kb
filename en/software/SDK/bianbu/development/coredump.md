@@ -46,7 +46,7 @@ First, [Login SpacemiT Auth Center](https://developer.spacemit.com/auth/login?cl
 
 When a crash occurs, a popup will appear. Fill in the relevant information as prompted and click **Send** to automatically upload the crash report and open the browser to the newly uploaded crash report.
 
-![apport crash popup](../../../../../_assets/docs-bianbu/development/static/apport.png)
+![apport crash popup](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/apport.png)
 
 You can also choose not to send it temporarily and use the following command to redisplay the popup later.
 

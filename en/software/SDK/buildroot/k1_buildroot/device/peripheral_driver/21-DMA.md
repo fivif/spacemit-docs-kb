@@ -16,7 +16,7 @@ DMA Controller Configuration and DMA Slave Usage Guide.
 
 ### Functional Description
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/dma.JPEG)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/dma.JPEG)
 
 Through the Linux DMA framework with K1-specific DMA controller drivers, three types of data transfer directions are implemented: **memory-to-memory**, **memory-to-peripheral**, and **peripheral-to-memory**. Additionally, memory transfer, scatter-gather list transfer, and circular buffer transfer are supported.
 

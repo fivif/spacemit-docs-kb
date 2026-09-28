@@ -17,14 +17,14 @@ Both **Bianbu GNOME Desktop Version** and **Bianbu NAS** support online upgrades
 1. Open the **Software & Updates** application
 
     - If the application cannot be launched, ensure the system is running **version 1.0.15 or above**.
-   ![Software and Updates](../../../../../../_assets/docs-bianbu/static/swupdates_en.jpeg)
+   ![Software and Updates](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/static/swupdates_en.jpeg)
 
 2. **Configure the subscription version:**
 
    - Switch to the **Updates** tab.
    - In the **Subscribed to** drop-down menu, select the target version (e.g., Development versions).
    - Click **Close** to save the changes and exit.
-  ![Subscribe](../../../../../../_assets/docs-bianbu/static/swupdates_en.png)
+  ![Subscribe](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/static/swupdates_en.png)
 
 ## Upgrade Process
 
@@ -74,14 +74,14 @@ Follow the terminal prompts to complete the upgrade. Reboot after the process fi
 
 2. Launch the **Software Updater** application.
 
-   ![Updater](../../../../../../_assets/docs-bianbu/static/updater_en.png)
+   ![Updater](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/static/updater_en.png)
    Alternatively, you can launch Software Updater via **Settings** → **System** → **Software Updates**.
-   ![Updater01](../../../../../../_assets/docs-bianbu/static/updater01_en.png)
+   ![Updater01](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/static/updater01_en.png)
    Wait for update checking to complete.
 
 3. If a new version is detected, click **Upgrade...** to begin.
 
-   ![Update Prompt](../../../../../../_assets/docs-bianbu/static/updater02_en.png)
+   ![Update Prompt](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/static/updater02_en.png)
 
    > To cancel the upgrade, click **OK**.
 

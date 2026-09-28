@@ -16,7 +16,7 @@ Before the advent of `DMA-BUF`, every driver that required shared memory (e.g. g
 
 For example, the `DMA-BUF` architecture in drm_gem is as follows:
 
-![DMA-BUF Architecture](../../../../../../_assets/docs-buildroot/k1_buildroot/kernel_debug/static/dma_buf_arch.png)
+![DMA-BUF Architecture](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/kernel_debug/static/dma_buf_arch.png)
 
 ## 2. Core Mechanism
 

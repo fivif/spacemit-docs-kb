@@ -13,9 +13,9 @@ MUSE Pi/MUSE Pi Pro 主板上都有外扩IO，方便用户扩展外设，比如G
 ## MUSE Pi Pro
 
 MUSE Pi PRO的40 Pin扩展IO功能定义如下：
-![MUSE Pi Pro](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/musepipro_pin.png)
+![MUSE Pi Pro](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/musepipro_pin.png)
 
 ## MUSE Pi
 
 MUSE Pi 的 26 Pin 扩展 IO 功能定义如下：
-![MUSE Pi](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/musepi_pin.png)
+![MUSE Pi](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/musepi_pin.png)

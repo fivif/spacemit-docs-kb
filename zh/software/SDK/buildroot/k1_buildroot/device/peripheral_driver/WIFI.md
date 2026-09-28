@@ -17,7 +17,7 @@ K1 平台主要通过外部 WiFi 模组实现无线连接，支持接口包括�
 
 WiFi 架构分为多个层次，如下图所示：
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/wlan.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/wlan.png)
 
 
 ### 源码结构介绍

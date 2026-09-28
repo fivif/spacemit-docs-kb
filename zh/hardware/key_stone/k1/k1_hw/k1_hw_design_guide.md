@@ -30,7 +30,7 @@ updated: "2026-09-04 10:03:26"
 - 支持 LPDDR4/LPDDR4x;DDR_LP4x_SEL 下拉到地配置为 LPDDR4 模式，上拉到 AVDD18_DDR 配置为 LPDDR4x 模式。
 - LPDDR4/4x 的外部电阻（ZQ）通过 240Ω，精度 ±1% 的电阻接到 GND。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/XZHWbMYUNol3PuxGJWTcMh6Nnnb.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/XZHWbMYUNol3PuxGJWTcMh6Nnnb.jpg)
 
 **注意：**
 
@@ -44,7 +44,7 @@ updated: "2026-09-04 10:03:26"
 - P1 的 PGOOD 信号与 K1 的 RESET_IN_N 信号直接连接，按键复位 K1+P1。
 - 若与其他复位来源复用，需要增加与非门或者二极管隔离。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/L6Drbn4aWoFurexWkvfcNLCynKd.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/L6Drbn4aWoFurexWkvfcNLCynKd.jpg)
 
 #### 1.1.3 JTAG 接口
 
@@ -53,7 +53,7 @@ updated: "2026-09-04 10:03:26"
 - 当使用 Sec2 JTAG 时，JTAG SEL 需要上拉。
 - Sec JTAG 支持 X60 /N308 CPU，通过 MMC1_SD_CMD 控制。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/P1hUbOqj6oygc8xxYtScqTbcnec.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/P1hUbOqj6oygc8xxYtScqTbcnec.jpg)
 
 #### 1.1.4 电源管理(PMIC) 电路设计
 
@@ -61,7 +61,7 @@ updated: "2026-09-04 10:03:26"
 - P1 的 SW1~SW6 默认增加 220pF 电容。
 - BUCK1/2 的 FB 和 FBGND pin 必须连接到主控的 FB 和 FBGND pin，layout 上注意远离干扰信号 。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/P1.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/P1.jpg)
 
 **P1 周边电路设计必须完全拷贝我司参考设计，相关的设计文件请见发布包中的硬件部分**
 
@@ -84,7 +84,7 @@ updated: "2026-09-04 10:03:26"
 
 推荐预留 1M 电阻并联 XIN,XOUT 之间。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/RLBTb8UAyohJMfxjP9ociWWJnrh.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/RLBTb8UAyohJMfxjP9ociWWJnrh.jpg)
 
 **注意：选用的电容需要跟晶振的负载电容匹配，材质建议采用 NPO。建议选用 4pin 贴片晶振，其中 2 个 GND 管脚与单板地充分连接，增强系统时钟抗 ESD 干扰能力。**
 
@@ -95,7 +95,7 @@ updated: "2026-09-04 10:03:26"
 - 支持 1.8V/3.3V Flash，参考芯片 VCC1833_QSPI 电压域配置电平。
 - Quad - SPI 的 4 个 DATE 复用了系统配置功能，在 PCB 设计需要考虑走线 Fly-by 形式，配置信息见**小节 [1.1.5 硬件初始化系统配置电路]**。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/XAfAbsI1Aom0A4x1SR1cXpbEnjg.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/XAfAbsI1Aom0A4x1SR1cXpbEnjg.jpg)
 
 **注意：** Flash Data 外围设计无需专门上拉，内部已经配置。Date 复用了 Boot 相关功能，使用需要根据系统配置做上拉/下拉处理。详见**小节 [1.1.5 硬件初始化系统配置电路]**
 
@@ -106,7 +106,7 @@ updated: "2026-09-04 10:03:26"
 - Emmc 的 Data 与 DS 外部建议预留上/下拉，生产 NC 处理。
 - Layout 注意等长控制。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/JLpAb0XWWoT3J3xUQ1ZcwrtMngd.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/JLpAb0XWWoT3J3xUQ1ZcwrtMngd.jpg)
 
 ### 1.2 电源设计建议
 
@@ -124,7 +124,7 @@ K1 支持 LPDDR4/LPDDR4x，典型电压 1.1V/0.6V。DDR 颗粒的电源要求与
 - 管脚名 VCC1833_GPIO2（GPIO2 组：GPIO75~80）,  VCC1833_GPIO3（GPIO3 组：GPIO47~52）,  VCC1833_MMC1（MMC1_DAT0~3、CMD、CLK）,   VCC1833_QSPI（QSPI_DAT0~3、CLK、CS1），根据外设使用设备选择连接数字 3.3V 或 1.8V 电源。
 - 需要在相关 VCC1833_GPIO2,  VCC1833_GPIO3, VCC1833_MMC1, VCC1833_QSPI 芯片口摆放 0.1uf/1uF 电容，如下图。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/Az7LbCdIaoQh81x1ByHcf40Anuf.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/Az7LbCdIaoQh81x1ByHcf40Anuf.jpg)
 
 **注意：GPIO90 IO 用于配置 QSPI 的默认工作电压，GPIO90 上拉 1.8V 时，VCC1833_QSPI 需工作在 3.3V 电压；GPIO90 下拉 GND 时，VCC1833_QSPI 需工作在 1.8V 电压。**
 
@@ -144,15 +144,15 @@ AVDD18_PLL：设计上必须用磁珠对 1.8V 电源进行隔离。
 
 Core 电源、DDR 电源和 IO 电源有上下电时序的要求由 PMIC P1 控制, 参考最新原理图。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/ALCHbLyAHoJWKvxCjDncuhBon2J.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/ALCHbLyAHoJWKvxCjDncuhBon2J.jpg)
 
 #### 1.2.6 远端反馈动态调压
 
 - K1 的 core 电源必须增加动态调压功能，最终可以实现动态调节 DC-DC 的输出电压。
 - VDD09_CORE_B_FB 从主控 VCC_M1_FB ball 引出，VDD09_CORE_B_FBGND 从主控 VSS_FB 引出。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/ZugrbJ9AToC7h3xoXAecvIGjnVa.jpg)
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/JhUub5J8boHJJNxATRXclCrWn2c.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/ZugrbJ9AToC7h3xoXAecvIGjnVa.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/JhUub5J8boHJJNxATRXclCrWn2c.jpg)
 
 ### 1.3 模拟接口设计建议
 
@@ -210,7 +210,7 @@ Core 电源、DDR 电源和 IO 电源有上下电时序的要求由 PMIC P1 控�
 - HDMI 信号上要有 ESD 保护，ESD 器件靠近 HDMI 连接器放置。ESD 器件寄生电容小于 0.3pF；
 - HDMI_SCL，HDMI_SDA，HDMI_CEC，HDMI_HPD 信号，需要外围电路处理，使用专用 HDMI 芯片或者分立电平转换。电平转换要求：HDMI_SCL，HDMI_SDA 转换为 5V，HDMI_CEC 需要电平转为 3.3V。外接口输入的 HDMI_HPD 需要电平转换成 1.8V 后输入芯片。具体设计如图
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/JLRxbInSAoBjMjxvI6pcW9wBnPu.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/JLRxbInSAoBjMjxvI6pcW9wBnPu.jpg)
 
 详细的原理图设计请参考 K1 原理图设计文件。
 
@@ -222,7 +222,7 @@ Core 电源、DDR 电源和 IO 电源有上下电时序的要求由 PMIC P1 控�
 - USB2.0-0 为 Download 接口。
 - AVDD33_USB ，使用 1 个 3.3R 电阻与系统 3.3V 电源连接，靠近管脚放置 3 个 0.1uF 电容。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/T847b1iYiolnurxSinxcbrjDnvg.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/T847b1iYiolnurxSinxcbrjDnvg.jpg)
 
 - USB2.0 信号上要有 ESD 保护措施，ESD 器件的寄生电容要求小于 1pF，ESD 器件靠近 USB 接口放。
 
@@ -300,7 +300,7 @@ K1 目前使用 6 层叠层，以下为参考叠层设计。如果使用其它�
 
 在 6 层叠层设计中，走线层为 L1/L3/L4/L6，L2/L5 为完整参考平面：
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/WlqIbKooioYfSrx2Ac7cUzrKnwf.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/WlqIbKooioYfSrx2Ac7cUzrKnwf.png)
 
 ### 2.2 通用布线建议
 
@@ -309,21 +309,21 @@ K1 目前使用 6 层叠层，以下为参考叠层设计。如果使用其它�
 3. 走线应有完整且连续的参考平面；
 4. 在 BGA 区域的平面断开处用走线连接，如下图所示;
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/QnCRbOxf5okUxTxkrDzcKCvXnPd.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/QnCRbOxf5okUxTxkrDzcKCvXnPd.png)
 
 5. 尽量减少残桩长度，建议残桩长度为 0；
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/WUJgbwo3HoRyjbxxEMicxpxUneg.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/WUJgbwo3HoRyjbxxEMicxpxUneg.png)
 
 高速信号布线建议：
 
 1. 高速信号换层时，需在换层 VIA 处添加 GND 伴随过孔，以保证回流路径的连续性；
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/H87TbNwt6o3R66xOBw9cUpYynsc.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/H87TbNwt6o3R66xOBw9cUpYynsc.png)
 
 2. 由于表贴器件的焊盘会导致阻抗降低，为减小阻抗突变的影响，建议在表贴焊盘的正下方按焊盘大小挖去一层参考层。常用的表贴器件有：ESD、电容、共模抑制电感、连接器等；
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/LQHQbrOjroTt0Nxcc9EcSRJwn4f.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/LQHQbrOjroTt0Nxcc9EcSRJwn4f.png)
 
 3. 避免玻纤编织效应；
 
@@ -331,11 +331,11 @@ K1 目前使用 6 层叠层，以下为参考叠层设计。如果使用其它�
 
 方式一：改变走线角度，按 10 度 线走线；或 PCB 加工时，将板材旋转 10 度以保证所有走线都不与玻纤平行。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/RHINb1HT4ovh29xhfgechPdSnNg.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/RHINb1HT4ovh29xhfgechPdSnNg.png)
 
 方式二：使用如下走线(ZigZag)，下图中的 W 至少要大于 3 倍的玻纤编织间距。推荐值 W=60mil,θ=10°，L=340mil。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/Jsv8bmUOXowHr9xTMK2co1YQnDe.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/Jsv8bmUOXowHr9xTMK2co1YQnDe.png)
 
 4. 走线时尽量减少换层，需要换层时，考虑 Via Stub，尽量减小 Via Stub 长度；
 5. 差分过孔建议：如果接口的速率=8GT/s，那么这些接口差分对的过孔建议增加 Dog-Bone，根据实际叠层进行仿真优化 Dog-Bone 大小，以下基于 EVB 一阶 HDI 的过孔参考尺寸
@@ -345,11 +345,11 @@ K1 目前使用 6 层叠层，以下为参考叠层设计。如果使用其它�
    - D2 = 15mil 表层到底层的反焊盘尺寸
    - D3 = 30mil 信号过孔与回流地过孔的中心间距
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/K5Qebfo2qoTAgJx3tmscDPgGnXf.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/K5Qebfo2qoTAgJx3tmscDPgGnXf.png)
 
 6. 差分对 P/N 之间等长建议\<=5mil ，等 P/N 之间需要绕线补偿时，绕线尺寸需要特别注意，应满足如下图所示要求，以降低阻抗突变带来的影响：
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/Qq2kba5vSo149txneDBclEKMnkd.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/Qq2kba5vSo149txneDBclEKMnkd.png)
 
 ### 2.3 电源与滤波电容设计
 
@@ -358,31 +358,31 @@ K1 目前使用 6 层叠层，以下为参考叠层设计。如果使用其它�
 3. 为了更好的 PI，建议使用我们的参考电路选用电容，不要删减电容个数；
 4. 过孔排布，请按我们的参考设计，不要删减电源过孔和地过孔。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/XR4zbKfEuojrJVxTQWUcHrU5nPg.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/XR4zbKfEuojrJVxTQWUcHrU5nPg.png)
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/VCcHbHLUDo0rMGxVzy9ctQqWnQf.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/VCcHbHLUDo0rMGxVzy9ctQqWnQf.png)
 
 ### 2.4 P1 电源 Layout 设计
 
 1. 中间的散热焊盘均匀的打上地孔阵列:
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/Pg4IbOPYIoX9VBxJHkYcYkYqnxc.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/Pg4IbOPYIoX9VBxJHkYcYkYqnxc.png)
 
 2. BUCK3/BUCK4/BUCK5/BUCK6 的 Vin 需要分开，不可合并铺铜，BUCK1/2 可以合并铺铜，每个 pin 三个过孔：
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/DbYsbagaxoSuQMx2KP8cFkdunMh.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/DbYsbagaxoSuQMx2KP8cFkdunMh.png)
 
 3. FB 走线换层走内层，不要和 SW 同层太长：
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/A7i3bNlXpotZ9xx96WwcUM89njb.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/A7i3bNlXpotZ9xx96WwcUM89njb.png)
 
 4. 滤波电容靠近主芯片，且走线尽量加粗：
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/D6mCbGz4Vo6RPyxyIBgcFFevnyf.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/D6mCbGz4Vo6RPyxyIBgcFFevnyf.png)
 
 5. SW 铺铜处理，且路径尽量短，其它信号远离 SW 信号：
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/CrzFbMBy9oZol9xvGP2c8aqynJg.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/CrzFbMBy9oZol9xvGP2c8aqynJg.png)
 
 ### 2.5 小系统设计
 
@@ -392,27 +392,27 @@ K1 目前使用 6 层叠层，以下为参考叠层设计。如果使用其它�
 
 1. CPU 最外圈 ball 可以从表层走 5mil 线宽直接扇出，第二排 ball 可用 5mil 线宽从第一排 ball 中间穿出：
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/PR1Cbv7n9o5KRMx8mO6caAgin9c.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/PR1Cbv7n9o5KRMx8mO6caAgin9c.png)
 
 2. CPU 内圈 ball 设计：如果第一、二圈信号都有使用，那么第三圈开始，需要换层到内层，CPU 处过孔需规则放置，给地平面以及电源平面留出尽量大的通道。如下图地层平面铺铜，有多条通道和外面的地连接，有利于 SI/PI 以及散热。
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/VTmsbjlAToxHRGxic8ZcS3yjnSc.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/VTmsbjlAToxHRGxic8ZcS3yjnSc.png)
 
 3. 如下图电源层平面铺铜情况，有规则放置过孔，使各种电源有尽量大的铺铜通道，有效提高电源质量。
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/OIPvbm5dooddZWxMKyZccErOnIb.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/OIPvbm5dooddZWxMKyZccErOnIb.png)
 
 4. CPU 背面参考我司设计，在相应 pin 位置放置电容，有空间的区域，可以尽量多的摆放电容，提高电源 PI。
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/UrMbbAjMSotBZzxjjhVciqqWntf.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/UrMbbAjMSotBZzxjjhVciqqWntf.png)
 
 5. 在 CPU 侧有出线困难的，可适当减小线宽，用 neck 值走线；出 CPU 区域后，需按照正常线宽走线。
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/MaLGbIxYloUVwAxMcK7ckqDTnEd.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/MaLGbIxYloUVwAxMcK7ckqDTnEd.png)
 
 6. 表层的地和电源，用粗短线将它们连接起来，如下图所示。
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/EGIibAEYUo8xNhxXCERcMZaTnl7.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/EGIibAEYUo8xNhxXCERcMZaTnl7.png)
 
 7. Core 电的反馈线，需从电源的最远端拉出，且尽量少换层。
 
@@ -433,22 +433,22 @@ K1 目前使用 6 层叠层，以下为参考叠层设计。如果使用其它�
 
 1. CPU 端和 DDR 端的 GND 过孔请参考模板设计，不可随意删减 GND 过孔。模板管脚 GND 过孔设计如下图：
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/JopHbW8dIoUcywxNv62c2dTmnSh.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/JopHbW8dIoUcywxNv62c2dTmnSh.png)
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/SgEXbHZ4PovjlNxfy9ZccaSJnfg.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/SgEXbHZ4PovjlNxfy9ZccaSJnfg.png)
 
 2. 绕线自身的串扰会影响信号时延，走线绕等长时建议 S\>=3W
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/KbXZbOQnHoe5Jwxj5q6ckZ08n1c.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/KbXZbOQnHoe5Jwxj5q6ckZ08n1c.png)
 
 3. DDR 颗粒区域，一个管脚对应一个 GND 过孔，有空间的区域尽可能增加 GND 过孔
 4. 调整过孔位置，优化平面的裂缝，改善回流路径
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/OALKboFmXo9MkrxQemDcu3WQn5e.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/OALKboFmXo9MkrxQemDcu3WQn5e.png)
 
 5. 每个电容焊盘建议至少一个过孔，对于 0603/0805 封装的电容建议一个焊盘对应两个过孔，且过孔靠近管脚位置，减少回路电感。
 
-   ![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/CH5bbSe7aoeVpHx48Recru9MnJd.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/CH5bbSe7aoeVpHx48Recru9MnJd.png)
 
 #### 2.5.3 EMMC - PCB Layout 推荐设计
 
@@ -480,7 +480,7 @@ SDIO 各走线上勿有残桩（Stub），且必须参考 GND，SDIO 各走线�
 
 WiFi 模组的 SDIO 信号需严格参考硬件设计指南 PCB 设计要求进行 layout。同时 PCBA 回板后，需邮寄 PCBA 到进迭时空原厂进行 WiFi TX Delay 参数适配和测试。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/MgvUbH58IoxNfwxJANtcXLcjnVa.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/MgvUbH58IoxNfwxJANtcXLcjnVa.png)
 
 #### 2.6.3 USB2.0 信号 PCB 设计
 
@@ -517,7 +517,7 @@ PCIE 信号注意挖空焊盘，挖空焊盘后，注意走线不要跨参考，
 | PCIE 与其它信号间距          | ≥ 5 倍 PCIE 线宽         |
 | 换层过孔数量                 | ≤ 2 个                   |
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/BK3nb69szopTO6x79lrcLtBinfe.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/BK3nb69szopTO6x79lrcLtBinfe.png)
 
 #### 2.6.6 HDMI 信号 PCB 设计
 
@@ -530,7 +530,7 @@ PCIE 信号注意挖空焊盘，挖空焊盘后，注意走线不要跨参考，
 | HDMI 与其它信号间距          | ≥ 5 倍 HDMI 线宽         |
 | 换层过孔数量                 | ≤ 2 个                   |
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/FdB7bzCVLo6zFmxZBaGc4Qi1nqf.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/FdB7bzCVLo6zFmxZBaGc4Qi1nqf.png)
 
 #### 2.6.7 MIPI 信号 PCB 设计
 
@@ -544,7 +544,7 @@ PCIE 信号注意挖空焊盘，挖空焊盘后，注意走线不要跨参考，
 | MIPI 与其它信号间距          | ≥ 4 倍 MIPI 线宽（至少 3 倍）                      |
 | 换层过孔数量                 | 建议 ≤ 2 个                                        |
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/QFShbKJhrojACvxfUwicpg6Lnvh.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/QFShbKJhrojACvxfUwicpg6Lnvh.png)
 
 #### 2.6.8 Audio PCB 设计
 
@@ -552,7 +552,7 @@ PCIE 信号注意挖空焊盘，挖空焊盘后，注意走线不要跨参考，
 2. GMS0/GMS1 加粗 10mil 走线；
 3. LOUT/ROUT/GMSO/GMS1 走线包地；
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/FDs4bsJVWozdx9xDHSzcv6Zln4d.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/FDs4bsJVWozdx9xDHSzcv6Zln4d.png)
 
 ## 3. 整机 ESD 设计
 
@@ -568,9 +568,9 @@ PCIE 信号注意挖空焊盘，挖空焊盘后，注意走线不要跨参考，
 
 **FCCSP  17*17**
 回流焊接温度曲线
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/ZncAbqXkbo8xEzxj9Elce6AKnGh.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/ZncAbqXkbo8xEzxj9Elce6AKnGh.png)
 
 **FCBGA  19*19**
 回流焊接温度曲线
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_hw/static/AmzGbwcfCo2flExgq9dcbgzlnLD.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_hw/static/AmzGbwcfCo2flExgq9dcbgzlnLD.png)
 

@@ -22,7 +22,7 @@ On the K3 platform, this module is accessed by the RCPU and uses the RT-Thread D
 
 ### Functional Architecture
 
-![DMA driver framework](../../../../../../../_assets/docs-buildroot/k3_buildroot/esos/esos_driver/static/dma-arch.drawio.png)
+![DMA driver framework](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/esos/esos_driver/static/dma-arch.drawio.png)
 
 - **Application layer / Peripheral driver layer:** Provides DMA transfer services to applications and peripheral drivers.
 - **RT-Thread DMA framework layer:** Provides unified interfaces for channel request, configuration, and transfer operations, while abstracting hardware differences.

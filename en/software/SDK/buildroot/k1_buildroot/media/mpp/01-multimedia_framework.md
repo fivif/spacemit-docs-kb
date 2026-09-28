@@ -14,7 +14,7 @@ By reading this, you will understand the relationships among applications, frame
 
 ## Framework Hierarchy Diagram and Description
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/media/mpp/static/M5mAbw911oDOp2xFEtHc2lNnned.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/media/mpp/static/M5mAbw911oDOp2xFEtHc2lNnned.png)
 
 The multimedia system includes 4 layers. From top to bottom, they are:
 

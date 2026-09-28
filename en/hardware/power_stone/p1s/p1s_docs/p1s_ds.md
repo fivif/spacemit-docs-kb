@@ -63,13 +63,13 @@ Individual output voltages and startup/shutdown sequences can be preset via the 
 
 ## 2. Module block diagram
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/G8rTbP4A8oDQ2rxA4X5czogpnmc.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/G8rTbP4A8oDQ2rxA4X5czogpnmc.png)
 
 Figure 2-1 P1S module block diagram
 
 ## 3. Pin package diagram
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/YuwDbZeDjoNE7uxNNFrc2wFTnSd.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/YuwDbZeDjoNE7uxNNFrc2wFTnSd.png)
 
 Figure 3-1 P1S package diagram
 
@@ -2139,11 +2139,11 @@ The PWRKY pin is internally pulled up to the VSYS voltage and can be used as a p
    3. When pulling down and then releasing, if the release is within the short press time range, a short press event will occur. If interrupt is enabled (Table 7-120 IRQ\_PWRKY\_EN[2]), a short press interrupt is generated；
    4. When pulling down and then releasing, if the release is within the short press and shutdown time range, a long press event will occur. If interrupt is enabled (Table 7-120 IRQ\_PWRKY\_EN[3]), a long press interrupt is generated；
    5. The short press time can be configured as 0.5s/1s/1.5s/2s (Table 7-91 PWR\_KEY\_TIME[5:4]).
-      ![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/GIPpbqdNkoykkExr0BVc4FqDnUc.jpg)
+      ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/GIPpbqdNkoykkExr0BVc4FqDnUc.jpg)
 
 Figure 6-1 Schematic diagram of event triggering related to PWRKY button power-on mode
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/PFOubkvyQoZ6Sax7rgIcnXoXnic.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/PFOubkvyQoZ6Sax7rgIcnXoXnic.jpg)
 
 Figure 6-2 Schematic diagram of event triggering related to PWRKY button shutdown mode
 
@@ -2299,7 +2299,7 @@ The OUT\_32K pin can output the internal slow clock or crystal oscillator clock,
 
 There are a total of 5 system working modes: RESET mode, RTC mode, shutdown mode, power-on mode and sleep mode. The mode will be switched according to different events. Figure 6-3 is the mode switching status diagram. The corresponding switching events mainly include: power-on event, shutdown event, reset event, sleep event, and wake-up event.
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/O2nJbOcE5oRLRLxQTu9ciYV0nFe.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/O2nJbOcE5oRLRLxQTu9ciYV0nFe.jpg)
 
 Figure 6-3 schematic diagram of mode switching
 
@@ -2695,7 +2695,7 @@ SLOT0~SLOT14 of the sequence controller are valid control sequences, and SLOT15 
 
 The sequence controller can control up to 23 SLOT IDs, including 6 EXT\_EN, 6 BUCK and 11 LDOs. The workflow is shown in Figure 6-4, in which DLDO1 and DLDO4 are respectively bound to a certain PWRCTRL.
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/EsJ4bhTGyoa9Qbxx9a0cCQx3nQh.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/EsJ4bhTGyoa9Qbxx9a0cCQx3nQh.png)
 
 Figure 6-4 Sequence controller flow chart
 
@@ -2792,7 +2792,7 @@ In addition to the PMIC power-on threshold configuration through MTP, the hardwa
 3. After entering the power-on mode, if VSYS is less than the shutdown threshold within 16 seconds, the shutdown process will be started and the device will enter the power-off mode.
 4. At the same time, determine whether the power-on threshold is the maximum power-on threshold. If so, block the VSYS power-on event. Otherwise, the power-on threshold is increased by 0.1 V/0.2 V compared with the previous value (**Table 7-127** SYS\_CFG2[7]), but the highest power-on threshold does not exceed 3.6V.。
 5. If the VSYS boot event is not blocked, when VSYS exceeds the new boot threshold again, the PMIC starts the boot process and enters the boot mode, otherwise it waits for other boot events.
-   ![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/WUiPbM5vcoE1ItxmbE2chEk1nOf.jpg)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/WUiPbM5vcoE1ItxmbE2chEk1nOf.jpg)
 
 **Figure 6-5 Schematic diagram of power-on and power-off threshold switching**
 
@@ -2831,7 +2831,7 @@ During the boot process, the sequence controller starts from SLOT0. The timing o
    1. The power rail or EXTx\_EN enable is not turned on, that is, there is no operation under this SLOT.
    2. If the power rail is bound to PWRCTRL, SLOT timing is also controlled by PWRCTRL, that is, you need to wait until PWRCTRL is valid before starting timing.
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/IDx9b8KN0oSoppxj85hcjYv1n8Y.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/IDx9b8KN0oSoppxj85hcjYv1n8Y.png)
 
 Figure 6-6 Boot process timing diagram
 
@@ -2855,7 +2855,7 @@ When walking to a SLOT in reverse order, the power rail bound to the SLOT is tur
 
 If an emergency event occurs during the shutdown process, including VSYS overvoltage (Table 7-113 PWRKY\_EVNET[5]) and chip overtemperature (**Table 7-109 EVENT2[6]), and enable related protection operations (Table 7-120** IRQ\_PWRKY\_EN [7:6]), it immediately returns to shutdown mode and all power rails and EXT\_EN are immediately turned off or inactive.
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/SDS7bai7hoaX4VxZYJgcdYysnSd.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/SDS7bai7hoaX4VxZYJgcdYysnSd.png)
 
 Figure 6-7 Shutdown process timing diagram
 
@@ -2917,11 +2917,11 @@ After entering the shutdown mode through the shutdown process, the PMIC will sta
 
 The former is only triggered when the PWRKY button is configured to be reset by long pressing for 12 seconds and a long press event occurs, while the latter is triggered after other reset events are triggered. During the SD\_RST\_TIME when the reset source triggers the shutdown mode, the power-on source is blocked, that is, the power-on source is invalid.
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/OMdLbOG2RoPC1bxA5UMc0eA1nVh.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/OMdLbOG2RoPC1bxA5UMc0eA1nVh.jpg)
 
 Figure 6-8 Reset process
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/OdcubbBlGoL3RMxg8fDciOgtnRu.jpg)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/OdcubbBlGoL3RMxg8fDciOgtnRu.jpg)
 
 Figure 6-9 Cold reset process
 
@@ -3211,7 +3211,7 @@ Function introduction:
 
 #### 6.13.1 Channel selection
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/X5RubzlidothCnxlwtrck36Lnff.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/X5RubzlidothCnxlwtrck36Lnff.png)
 
 Figure 6-10 ADC module working diagram
 
@@ -3258,7 +3258,7 @@ If channel 0 is selected in manual mode:
 
 Note that during the channel conversion process, you cannot change the configuration at will, such as changing channel selection, sampling frequency, ADC\_AUTO, etc., otherwise the correctness of the conversion results is not guaranteed; if the software clears ADC\_GO during the conversion process, the current conversion will be interrupted and the results will not be saved. and updated, channel scanning starts from scratch.
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/MGGTblHnxokxzgxHNjMclIXHnog.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/MGGTblHnxokxzgxHNjMclIXHnog.png)
 
 Figure 6-11 ADC channel 0 scanning diagram
 
@@ -3290,7 +3290,7 @@ When you need to switch the scanning order or start scanning from the beginning,
 
 Note that during the channel conversion process, you cannot change the configuration at will, such as changing channel selection, sampling frequency, ADC\_AUTO, etc., otherwise the correctness of the conversion results is not guaranteed.
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/A7n9bSkHWox7aWx8vpGc7MnWn6P.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/A7n9bSkHWox7aWx8vpGc7MnWn6P.png)
 
 Figure 6-12 ADC automatic scanning diagram
 
@@ -3303,7 +3303,7 @@ If the thresholds of channels 1~7 are configured:
 
 If the corresponding interrupt is enabled, an interrupt event will be generated (pulling the INT pin low) until the software clears the event or clears the interrupt enable bit.
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/Jwt6bPsugo8AWuxqpVIcOT5Knib.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/Jwt6bPsugo8AWuxqpVIcOT5Knib.png)
 
 **Figure 6-13 ADC result filtering diagram**
 
@@ -9446,12 +9446,12 @@ Table 7-132 MTP\_CTRL
 
 ## 8. Package Information
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/MeuBbXewfoDoWEx9kuqcSLqrnMb.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/MeuBbXewfoDoWEx9kuqcSLqrnMb.png)
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/HpK5biKqlo11zIxsKf9cYFP9n4d.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/HpK5biKqlo11zIxsKf9cYFP9n4d.png)
 
 ## 9. Tray Plate
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/XVyNbfIIhokxmjx3dKGcCxiUnHh.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/XVyNbfIIhokxmjx3dKGcCxiUnHh.png)
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/DwyXbOokQoCUckxbuRRcPuqEnWf.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1s/p1s_docs/static/DwyXbOokQoCUckxbuRRcPuqEnWf.png)

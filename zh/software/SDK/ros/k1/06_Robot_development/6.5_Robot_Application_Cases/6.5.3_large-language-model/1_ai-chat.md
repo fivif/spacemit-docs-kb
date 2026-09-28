@@ -101,7 +101,7 @@ systemctl status ollama
 
 输出应该如下所示：
 
-![image-20250422140656034](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/ai-chat-ollama-status.png)
+![image-20250422140656034](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/ai-chat-ollama-status.png)
 
 若状态为 `inactive`，则使用以下命令启动服务：
 

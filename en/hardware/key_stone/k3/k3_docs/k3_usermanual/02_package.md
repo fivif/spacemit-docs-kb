@@ -20,12 +20,12 @@ The package outline drawing (POD) is shown below.
 
 ## 2.2 Package Outline Drawing (POD)
 
-<img src="../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/package1.png" alt="K3 package outline drawing, view 1" width="500">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/package1.png" alt="K3 package outline drawing, view 1" width="500">
 
-<img src="../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/package2.png" alt="K3 package outline drawing, view 2" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/package2.png" alt="K3 package outline drawing, view 2" width="800">
 
 ## 2.3 Part Number
 
 The figure below shows the K3 part number structure and field definitions.
 
-<img src="../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_partno.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_partno.png" alt="" width="800">

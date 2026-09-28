@@ -132,7 +132,7 @@ npm start
 
 当看到下面界面，表示成功。
 
-![electron-quick-start](../../../../../_assets/docs-bianbu/development/static/electron-quick-start.png)
+![electron-quick-start](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/electron-quick-start.png)
 
 ## electron-builder使用指南
 

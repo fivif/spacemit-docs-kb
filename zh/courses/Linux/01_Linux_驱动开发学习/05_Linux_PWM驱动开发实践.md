@@ -26,7 +26,7 @@ PWM 信号是一种矩形脉冲波，其主要参数包括：
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/05_linux_pwm_7.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/05_linux_pwm_7.png">
     <br>
 </center>
 
@@ -43,7 +43,7 @@ PWM 的优点是控制精度高、能量损耗小、抗干扰能力强，因此�
 <center>
     <img style="width: 350px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/05_linux_pwm.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/05_linux_pwm.png">
     <br>
 </center>
 
@@ -84,7 +84,7 @@ make menuconfig
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/02_Pinctrl_gpio_6.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/02_Pinctrl_gpio_6.png">
     <br>
 </center>
 
@@ -92,7 +92,7 @@ make menuconfig
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/02_Pinctrl_gpio_7.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/02_Pinctrl_gpio_7.png">
     <br>
 </center>
 
@@ -100,7 +100,7 @@ make menuconfig
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/05_linux_pwm_8.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/05_linux_pwm_8.png">
     <br>
 </center>
 
@@ -108,7 +108,7 @@ make menuconfig
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/05_linux_pwm_9.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/05_linux_pwm_9.png">
     <br>
 </center>
 
@@ -279,7 +279,7 @@ PWM 驱动和设备树配置就不需要我们再编写了，MUSE Pi Pro 已经�
 <center>
     <img style="width: 800px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/00_linux_env_1.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/00_linux_env_1.png">
     <br>
 </center>
 
@@ -288,7 +288,7 @@ PWM 驱动和设备树配置就不需要我们再编写了，MUSE Pi Pro 已经�
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/05_linux_pwm_3.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/05_linux_pwm_3.png">
     <br>
 </center>
 
@@ -307,7 +307,7 @@ echo 0 | sudo tee /sys/class/pwm/pwmchip0/export > /dev/null
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/05_linux_pwm_4.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/05_linux_pwm_4.png">
     <br>
 </center>
 
@@ -338,7 +338,7 @@ echo 1 | sudo tee /sys/class/pwm/pwmchip0/pwm0/enable > /dev/null
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/05_linux_pwm_5.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/05_linux_pwm_5.png">
     <br>
 </center>
 
@@ -347,6 +347,6 @@ echo 1 | sudo tee /sys/class/pwm/pwmchip0/pwm0/enable > /dev/null
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/05_linux_pwm_6.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/05_linux_pwm_6.png">
     <br>
 </center>

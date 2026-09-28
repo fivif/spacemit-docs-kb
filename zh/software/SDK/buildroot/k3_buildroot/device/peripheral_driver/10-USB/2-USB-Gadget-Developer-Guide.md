@@ -21,7 +21,7 @@ USB Linux Gadget 功能使得开发板可以作为一个 USB 外设通过 USB �
 
 我们平时把手机通过 USB 连接到 PC 上，可以传输数据、 ADB 调试、共享网络等功能，就是基于 USB Linux Gadget 实现。
 
-![](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-framework.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-framework.png)
 
 USB Device 角色驱动框架自底向上可以分为以下几个层次：  
 
@@ -206,7 +206,7 @@ configfs 中可配置的影响最大带宽的参数有：
 用户也可以根据实际产品需求自己定制 gadget-setup 脚本。
 
 随后接入 PC，打开常用的摄像头软件（如 Windows 下 potplayer,amcap， Linux 下 guvcview），即可看到彩色图案：
-![alt text](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uvc-potplayer.jpg)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uvc-potplayer.jpg)
 
 #### 真实摄像头数据流接入 UVC Gadget
 
@@ -329,7 +329,7 @@ UAC 功能是开发板作为声卡，上层需要 `alsa-utils` 应用程序管�
 
 - UAC1.0 在 Windows 10 ( 本文档采用 21H2) 的设备名称是 AC— Interface
 
-  ![usbg-uac1-wi](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac1-win.png)
+  ![usbg-uac1-wi](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac1-win.png)
 
 - UAC2.0 在 Windows 10 PC 上的音频设备名称是 Source/Sink
 - UAC1.0/UAC2.0 在 Linux PC 上的音频设备名称是 USB Gadget 的 Product String
@@ -348,7 +348,7 @@ UAC 功能是开发板作为声卡，上层需要 `alsa-utils` 应用程序管�
 
 1. 任务栏找到音量图标，右键打开声音设置，先配置播放设备为我们的 UAC Gadget（根据上文的介绍找到对应名称的设备）：
 
-    ![usbg-uac-win-settings](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac-win-settings-out.png)
+    ![usbg-uac-win-settings](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac-win-settings-out.png)
 
 2. 在作为 UAC Gadget 的 K3 开发板命令行执行 `aplay -l` 命令和 `arecord -l` 命令：
 
@@ -443,10 +443,10 @@ Linux 桌面系统各发行版图形界面并不一致，
 
 1. 任务栏找到音量图标，右键打开声音设置，先配置录音设备为我们的 UAC Gadget（根据上文的介绍找到对应名称的设备）：
 
-    ![usbg-uac-win-settings](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac-win-settings-in.png)
+    ![usbg-uac-win-settings](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac-win-settings-in.png)
 
 2. 务必在 1. 的 Windows 设置页面进入 -> 设备属性 -> 更多设备属性 -> 高级 -> 信号增强，取消勾选“启用音频增强”：
-    ![alt text](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac-record-win.png)
+    ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac-record-win.png)
 
 3. 下载一个 wav 音频文件重命名为 test.wav。
 
@@ -608,7 +608,7 @@ gadget-setup.sh mtp
 
 我们以 Windows PC 作为上位机举例， MTP 已经实现了免装驱动，于是在 Windows 设备管理器和资源管理器将能够看到相关的便携设备，默认脚本配置的产品名称为 SpacemiT Technologies：
 
-![mtp](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-mtp.png)
+![mtp](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-mtp.png)
 
 其他 OS（ macOS、 Linux 各发行版）类似。
 
@@ -622,7 +622,7 @@ storage "/var/lib/umtp" "shared folder" "rw"
 
 脚本默认配置了一个共享目录，开发板本机路径是 `/var/lib/umtp`，起名为 `shared folder`（此名字和实际本机路径是独立可配置的，比如相机文件夹可以起名为 DCIM），挂载为可读写，可用容量对应开发板中本机路径的挂载设备容量。
 
-![mtpshared](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-mtp-shared.png)
+![mtpshared](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-mtp-shared.png)
 
 对比 Mass Storage 两方只有一方能独占一个块设备或镜像， MTP 协议非常的方便和灵活：
 当 PC 往该目录读写文件时，会实时在开发板本机观察到更新 , 反之亦然。
@@ -716,7 +716,7 @@ gadget-setup.sh dhcp
 5. 点击共享，然后勾选允许其他网络用户通过此计算机的 Internet 连接来连接。
 6. 在选择家庭网络连接列表中选择为用户的 RNDIS 设备（图中以太网 5 是用户的 USB 开发板 RNDIS 设备 , 以太网 14 是用户的 WIFI/ 有线网）：
 
-    ![share](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-rndis-share.png)
+    ![share](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-rndis-share.png)
 
 7. 点击确定。
 8. 开发板执行 udhcpc -i usb0 获取 Windows 为其分配的 IP 地址。
@@ -825,7 +825,7 @@ gadget-setup.sh hid
    ```
 
 - PC 脚本执行后，实测截图如下 (gadget 端 ):
-   ![hid-gside](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-hid-gside.jpg)
+   ![hid-gside](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-hid-gside.jpg)
 
 ### FFS Demo (FunctionFS)
 
@@ -868,7 +868,7 @@ SpacemiT 基于 kernel 源码的 tools/usb/ffs-aio-example 目录下的 simple d
    ```
 
 4. 将 USB 线连接到 PC 主机，此时会看到一个名为 “ K1 AIO” 的新 USB 设备；在 Windows PC 上，可以通过设备管理器查看到。在 Linux PC 上，可以通过 lsusb 查看到。
-   ![alt text](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-ffs-windows-dm.png)
+   ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-ffs-windows-dm.png)
 
 5. 链接到 Linux 主机上，可使用 tools/usb/ffs-aio-example/ 目录下的 host_app 与该 ffs 批量传输演示 gadget 设备通信。
    具体过程很简单，（ 1 ）修改 host_app 中的 PID VID 匹配 ffs-setup.sh 中的 PID、 VID，然后在 Linux Host PC 上安装 libaio-dev 依赖，然后编译后执行这里省略。

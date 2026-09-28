@@ -16,7 +16,7 @@ updated: "2026-04-16 17:05:49"
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/esos/esos_driver/static/rspi.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/esos/esos_driver/static/rspi.png)
 
 RT-Thread 的 SPI 驱动框架属于 I/O 设备管理框架的一部分，自上而下分为三层：
 

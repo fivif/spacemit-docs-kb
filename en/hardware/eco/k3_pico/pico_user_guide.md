@@ -30,10 +30,10 @@ Welcome to the SpacemiT K3 Pico-ITX single-board computer user guide.
 The K3 Pico-ITX is available in two package options:
 
 - **Single Board Kit**
-  ![](../../../../_assets/docs-product/k3_pico/static/pico_base.png)
+  ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/pico_base.png)
 
 - **Chassis Kit**
-  ![](../../../../_assets/docs-product/k3_pico/static/pico_case.png)
+  ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/pico_case.png)
 
 Before getting started, connect the following required peripherals. Once power is connected, you can power on the board and begin using it:
 
@@ -51,18 +51,18 @@ You can power the K3 Pico-ITX and connect a display in either of the following w
 **Method 1**: Use a monitor that supports 65 W or higher USB Type-C power delivery, and connect the monitor to the board with a full-featured Type-C cable.
 
 - **Method 1 (Single Board Kit)**
-  ![](../../../../_assets/docs-product/k3_pico/static/pico_base_01.png)
+  ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/pico_base_01.png)
 
 - **Method 1 (Chassis Kit)**
-  ![](../../../../_assets/docs-product/k3_pico/static/pico_case_01.png)
+  ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/pico_case_01.png)
 
 **Method 2**: Use a multifunction dock that supports HDMI output, USB, and PD charging. Connect the dock to the board’s full-featured Type-C port to carry both power and display signals.
 
 - **Method 2 (Single Board Kit)**
-  ![](../../../../_assets/docs-product/k3_pico/static/pico_base_02.png)
+  ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/pico_base_02.png)
 
 - **Method 2 (Chassis Kit)**
-  ![](../../../../_assets/docs-product/k3_pico/static/pico_case_02.png)
+  ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/pico_case_02.png)
 
 > **Note:** To ensure stable operation, make sure the board is placed in a well-ventilated environment before powering it on, and use the bundled heatsink.
 
@@ -84,37 +84,37 @@ For operating system installation steps, refer to Part 3 [OS Installation](pico_
 
 Within 3 seconds after powering on the K3 Pico-ITX, press `F2` to enter the UEFI setup screen.
 
-![](../../../../_assets/docs-product/k3_pico/static/uefi_00.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/uefi_00.png)
 
 #### 1.2.2 Boot Manager
 
 In the Boot Manager menu, use the <↑> and <↓> keys to select a boot device such as an NVMe SSD, USB storage device, or UFS. You can also enter the UEFI Shell command-line interface.
 
-![](../../../../_assets/docs-product/k3_pico/static/uefi_01.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/uefi_01.png)
 
 #### 1.2.3 Boot Maintenance Manager
 
 In the Boot Maintenance Manager menu, go to Boot Options and select Change Boot Order to configure boot priority. Use <+> and <-> to adjust the boot order. Press <Enter>, then select Commit Changes and Exit to apply the changes and exit. After returning to the main menu, press <F10> to save the settings.
 
-![](../../../../_assets/docs-product/k3_pico/static/uefi_02.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/uefi_02.png)
 
 #### 1.2.4 UEFI Interactive Shell
 
 UEFI Interactive Shell V2.2 is supported. The first time you enter the UEFI Interactive Shell, the screen displays all currently detected storage devices. Press any key other than <Esc>, or wait 5 seconds, to enter the command-line interface. Enter `help` to view supported commands and related help information.
 
-![](../../../../_assets/docs-product/k3_pico/static/uefi_03.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/uefi_03.png)
 
 #### 1.2.5 GRUB Boot
 
 GRUB boot is supported, allowing multiple operating systems to be installed and selected at startup.
 
-![](../../../../_assets/docs-product/k3_pico/static/grub.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/grub.png)
 
 ## 2. Hardware Description
 
 ### 2.1 Overview
 
-![](../../../../_assets/docs-product/k3_pico/static/keys00.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/keys00.png)
 
 > **Note:** The board appearance may vary slightly depending on the hardware revision.
 
@@ -169,7 +169,7 @@ GRUB boot is supported, allowing multiple operating systems to be installed and 
 
 - In flashing mode, the full-featured Type-C port supports both power input and USB Device functionality. When connected to a host PC via USB Type-C, the board is recognized by the host and can be used for flashing and firmware updates.
 
-![](../../../../_assets/docs-product/k3_pico/static/power00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/power00.png)  
 
 | No. | Description               |
 |-----|---------------------------|
@@ -182,7 +182,7 @@ In flashing mode, this interface can only operate as a USB Device for data trans
 
 > **Note:** The flashing Type-C port cannot supply power to the board. During flashing, power must be provided through another power input. The USB cable must support data transfer; charge-only USB cables cannot be used for flashing.
 
-![](../../../../_assets/docs-product/k3_pico/static/flash00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/flash00.png)  
 
 | No. | Description                     |
 |-----|---------------------------------|
@@ -195,7 +195,7 @@ In flashing mode, this interface can only operate as a USB Device for data trans
 - Supports DP displays at up to 4K @ 60 Hz, with hot-plug support
 - When only a DP display is connected, the DP display is used as the primary display
 
-![](../../../../_assets/docs-product/k3_pico/static/type-c00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/type-c00.png)  
 
 | No. | Description               |
 |-----|---------------------------|
@@ -218,7 +218,7 @@ In flashing mode, this interface can only operate as a USB Device for data trans
 > 2. When used for storage expansion, the M.2 B-Key slot supports PCIe SSD only. SATA SSD is not supported.
 > 3. Hot-plugging is not supported. Power off the board before installation or removal.
 
-![](../../../../_assets/docs-product/k3_pico/static/M2_00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/M2_00.png)  
 
 | No. | Description   |
 |-----|---------------|
@@ -232,7 +232,7 @@ In flashing mode, this interface can only operate as a USB Device for data trans
 - When only an eDP display is connected, the eDP display is used as the primary display
 - When both a DP display and an eDP display are connected, eDP is the default primary display and DP is used as an extended display. You can change the primary display to DP in the operating system
 
-![](../../../../_assets/docs-product/k3_pico/static/edp00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/edp00.png)  
 
 | No. | Description   |
 |-----|---------------|
@@ -242,7 +242,7 @@ In flashing mode, this interface can only operate as a USB Device for data trans
 
 - Type: 1.25 mm latch wire-to-board connector
 
-![](../../../../_assets/docs-product/k3_pico/static/audio00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/audio00.png)  
 
 | No. | Description                      |
 |-----|----------------------------------|
@@ -250,7 +250,7 @@ In flashing mode, this interface can only operate as a USB Device for data trans
 
 - An onboard audio output header is provided and can be connected to a front-panel 3.5 mm headphone jack using an adapter cable
 
-![](../../../../_assets/docs-product/k3_pico/static/audio01_en.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/audio01_en.png)
 
 #### 2.3.7 1G Ethernet Interface
 
@@ -269,7 +269,7 @@ The yellow LED on the Ethernet port is the ACTIVE indicator and shows link activ
 2. Blinking yellow: data is being transmitted; faster blinking indicates higher activity
 3. Off: no link established
 
-![](../../../../_assets/docs-product/k3_pico/static/eth00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/eth00.png)  
 
 | No. | Description                      |
 |-----|-----------------------------------|
@@ -280,9 +280,9 @@ The yellow LED on the Ethernet port is the ACTIVE indicator and shows link activ
 - Type: SFP+ optical port
 - Supports multimode optical modules, DAC cables, and optical-to-electrical transceiver modules, with 10G/1G auto-negotiation
 
-![](../../../../_assets/docs-product/k3_pico/static/10G_eth00.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/10G_eth00.png)
 
-![](../../../../_assets/docs-product/k3_pico/static/10G_eth01.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/10G_eth01.png)
 
 LINK SPEED indicates link state and link speed:
 
@@ -302,7 +302,7 @@ ACTIVE indicates link activity:
 - Plug and play; supports USB 2.0 host mode
 - Supports multiple USB devices such as keyboards and mice at the same time
 
-![](../../../../_assets/docs-product/k3_pico/static/usb2_00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/usb2_00.png)  
 
 | No. | Description                 |
 |-----|-----------------------------|
@@ -320,7 +320,7 @@ ACTIVE indicates link activity:
   - SPI ×1
 - Can be connected directly to an expansion board
 
-![](../../../../_assets/docs-product/k3_pico/static/fpc00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/fpc00.png)  
 
 | No. | Description           |
 |-----|-----------------------|
@@ -331,7 +331,7 @@ ACTIVE indicates link activity:
 
 - Type: onboard PCIe Wi-Fi 6 + BT 5.2 module, compliant with IEEE 802.11a/b/g/n/ac/ax, dual antennas, dual band (2.4 GHz / 5.8 GHz)
 - A Wi-Fi antenna is included with the base package and can be installed at the recommended position shown below
-  ![](../../../../_assets/docs-product/k3_pico/static/wifi.png)  
+  ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/wifi.png)  
 - The Chassis Kit configuration comes with the Wi-Fi antenna pre-connected and ready to use
 
 ### 2.4 Product Specifications
@@ -361,7 +361,7 @@ ACTIVE indicates link activity:
 
 ### 2.5 Block Diagram
 
-![](../../../../_assets/docs-product/k3_pico/static/pico-blockdiagram.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/pico-blockdiagram.png)
 
 ## 3. OS Installation
 
@@ -375,7 +375,7 @@ ACTIVE indicates link activity:
 4. Use the flashing Type-C data cable to connect the DRD Type-C port to the host computer.
 5. Use the official SpacemiT flashing tool **Titan** or the `fastboot` command to perform the flashing process.
 
-![](../../../../_assets/docs-product/k3_pico/static/typec_flash.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/typec_flash.png)
 
 | No. | Description                      |
 |-----|----------------------------------|
@@ -393,7 +393,7 @@ ACTIVE indicates link activity:
 
 > **Note:** For the flashing tool manual, see the [Flashing Tool User Guide](../../../tools/user_guide/flasher_user_guide.md).
 
-![](../../../../_assets/docs-product/k3_pico/static/typec_flash2.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/typec_flash2.png)
 
 | No. | Description                      |
 |-----|----------------------------------|
@@ -411,18 +411,18 @@ Use a **USB-to-TTL** adapter to connect the host PC to the K3 Pico-ITX board hea
 
 Here, Tx and Rx represent the transmit and receive signals of the K3 board, respectively.
 
-![](../../../../_assets/docs-product/k3_pico/static/signal00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/signal00.png)  
 
 #### 3.2.2 Debugging on Windows (Using MobaXterm as an Example)
 
 The following steps use MobaXterm as an example.
 
 First, connect the serial hardware correctly, and confirm in Windows Device Manager under **Ports** that the corresponding COM port has been recognized, as shown below.
-![Windows Device Manager serial port example](../../../../_assets/docs-product/k3_pico/static/port.png)
+![Windows Device Manager serial port example](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/port.png)
 
 1. Open MobaXterm, then select **Sessions → New Session**.
 
-   ![Example of creating a new serial session in MobaXterm](../../../../_assets/docs-product/k3_pico/static/mobaxterm.png)
+   ![Example of creating a new serial session in MobaXterm](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/mobaxterm.png)
 
 2. In the dialog box, select **Serial**.
 
@@ -448,7 +448,7 @@ The K3 Pico-ITX is suitable for home, office, and industrial environments. Befor
 
 The K3 Pico-ITX provides **26 Pin + 36 Pin FPC expansion interfaces**.
 
-![](../../../../_assets/docs-product/k3_pico/static/26p-fpc.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/26p-fpc.png)  
 
 **26 Pin Connector Pinout**: CAN (from RT24) + I2C (from RT24) + UART + PWM + 3.3 V (main power)
 
@@ -481,7 +481,7 @@ The K3 Pico-ITX provides **26 Pin + 36 Pin FPC expansion interfaces**.
 | 25  | R_CAN2_RX | CAN RX |
 | 26  | GND | Ground |
 
-![](../../../../_assets/docs-product/k3_pico/static/36p-fpc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/36p-fpc.png)
 
 **36 Pin Connector Pinout**: GMAC-MII (from RT24) + CAN + SPI + 1.8 V (main power)
 
@@ -530,7 +530,7 @@ Use a **USB-to-TTL** adapter to connect the host PC to the K3 Pico-ITX board hea
 
 Here, Tx and Rx represent the transmit and receive signals of the K3 board, respectively.
 
-![](../../../../_assets/docs-product/k3_pico/static/signal00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/signal00.png)  
 
 > **Note:** The motherboard appearance may vary slightly depending on the hardware revision.
 
@@ -544,7 +544,7 @@ Here, Tx and Rx represent the transmit and receive signals of the K3 board, resp
 | 4 | EC_GPB2/TXD1/CTX0 | Serial TX or GPIO B2 |
 | 5 | EC_GPC0/RXD1/CRX0 | Serial RX or GPIO C0 |
 
-![](../../../../_assets/docs-product/k3_pico/static/ec.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/ec.png)  
 
 ### 5.4 Audio Expansion Interface
 
@@ -557,7 +557,7 @@ Here, Tx and Rx represent the transmit and receive signals of the K3 board, resp
 | 5 | LOUT | Left-channel output |
 | 6 | AUDIO_AGND | Audio analog ground |
 
-![](../../../../_assets/docs-product/k3_pico/static/audio00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/audio00.png)  
 
 ### 5.5 eDP Display Interface
 
@@ -604,4 +604,4 @@ Here, Tx and Rx represent the transmit and receive signals of the K3 board, resp
 | 39 | P12V0_eDP-BL | eDP backlight 12 V power supply |
 | 40 | NC | No signal |
 
-![](../../../../_assets/docs-product/k3_pico/static/eDP.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_pico/static/eDP.png)

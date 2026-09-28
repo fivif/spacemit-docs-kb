@@ -15,7 +15,7 @@ updated: "2026-04-16 21:43:54"
 K3 RGMAC 模块采用 Synopsys DesignWare Ethernet QoS 控制器（版本 5.40a），符合 IEEE 802.3-2015 标准。在 K3 平台该模块既可由 ACPU 访问，基于 Linux GMAC 驱动实现完整的以太网接口功能；也可由 RCPU 访问，基于 RT-Thread GMAC 驱动满足实时通信需求。本文仅针对基于 RT-Thread GMAC 驱动的 RGMAC 模块进行功能和使用方法介绍。
 
 ### 功能介绍
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/esos/esos_driver/static/rgmac.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/esos/esos_driver/static/rgmac.png)
 - **应用层：** 面向用户提供应用服务。
 - **协议栈层：** 实现网络协议，并为应用层提供系统调用接口，当前小核系统仅支持 EtherCAT。
 - **设备驱动层：** 负责实现数据传输和设备管理。

@@ -108,4 +108,4 @@ CPU 在 -40˚C～85˚C 的环境温度下仍能提供稳定可靠的持续算力
 
 ## 框图
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/k1_blockdiagram.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/k1_blockdiagram.png)

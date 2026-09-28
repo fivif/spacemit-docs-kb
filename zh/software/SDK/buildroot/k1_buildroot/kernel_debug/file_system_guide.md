@@ -22,7 +22,7 @@ updated: "2026-03-05 14:51:28"
 - **绿色：** Linux 文件系统  
 - **蓝绿色：** Linux Storage 操作的基本数据结构 BIO  
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/kernel_debug/static/Linux-Storage-Stack.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/kernel_debug/static/Linux-Storage-Stack.png)
 上述图片来源：Thomas-Krenn AG，[来源链接](https://www.thomas-krenn.com/de/wikiDE/images/e/e8/Linux-storage-stack-diagram_v6.9.png)，版权声明：本图仅用于技术说明，版权归原作者所有
 
 ## Linux 回写

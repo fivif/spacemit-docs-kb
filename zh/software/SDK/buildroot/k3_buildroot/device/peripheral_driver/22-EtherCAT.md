@@ -16,7 +16,7 @@ K3 SDK 集成 IGH EtherCAT 1.6.8 主站协议栈和定制化实时网卡驱动�
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/EtherCAT.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/EtherCAT.png)
 
 EtherCAT 通信系统架构如上图所示，由四个部分构成：
 - **应用层：** 用户应用程序，负责实现工业控制逻辑，并通过主站提供的接口与其交互。

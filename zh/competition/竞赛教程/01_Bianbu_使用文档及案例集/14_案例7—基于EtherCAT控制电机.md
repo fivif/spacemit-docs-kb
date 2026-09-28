@@ -11,7 +11,7 @@ updated: "2026-06-08 18:08:07"
 
 ## 1. 硬件连接
 
-![硬件连接](../../../../_assets/docs-events/竞赛教程/01_Bianbu_使用文档及案例集/images/ethercat_motor.jpg)
+![硬件连接](https://cdn-resource.spacemit.com/competition/docs-events/zh/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/images/ethercat_motor.jpg)
 
 如图所示，接入电机电源，网线一端连接电机IN口，另一端插入开发板网口，电源指示灯常亮表示电机正常工作。
 

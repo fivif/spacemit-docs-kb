@@ -107,7 +107,7 @@ source /opt/ros/humble/setup.bash
 ros2 launch nav2_bringup rviz_launch.py
 ```
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_vslam1.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_vslam1.jpg)
 
 4. 打开键盘控制节点，控制小车运动进行视觉建图。
 ```shell
@@ -115,7 +115,7 @@ source /opt/ros/humble/setup.bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_vslam2.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_vslam2.jpg)
 
 ### 运行nav2视觉导航
 
@@ -151,8 +151,8 @@ source /opt/ros/humble/setup.bash
 ros2 launch nav2_bringup rviz_launch.py
 ```
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_nav2_1.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_nav2_1.jpg)
 
 4. 点击Nav2 Goal按钮，下发导航目标，进行视觉导航。
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_nav2_2.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_nav2_2.jpg)

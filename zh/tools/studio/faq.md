@@ -16,15 +16,15 @@ updated: "2026-08-24 09:53:16"
 
 **Q：驱动安装后仍显示"服务未启动"？**
 
-![](../../../_assets/docs-tool/studio/static/driver_faq_00.png)
+![](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/driver_faq_00.png)
 
 在 Chrome 中，如果未启用 **“设备上的应用”** 权限，可能会出现此问题。请按以下步骤启用该权限：
 
 1. 点击浏览器地址栏左侧的 **网站信息图标**
-   ![](../../../_assets/docs-tool/studio/static/driver_faq_01.png)
+   ![](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/driver_faq_01.png)
 2. 在弹出的菜单中找到 **"设备上的应用"** 权限项
 3. 将开关切换为**启用**（蓝色）
-   ![](../../../_assets/docs-tool/studio/static/driver_faq_02.png)
+   ![](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/driver_faq_02.png)
 4. 刷新页面，使 Studio 重新连接设备端应用
 
 如果找不到该权限项，可能需要先点击 **网站设置** 进入详细权限页面。

@@ -18,7 +18,7 @@ Pinctrl（Pin Control）是引脚控制器的简称，负责管理SoC芯片上�
 <center>
     <img style="width: 500px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/pinctrl.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/pinctrl.png">
     <br>
 </center>
 
@@ -61,7 +61,7 @@ make menuconfig
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/02_Pinctrl_gpio_6.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/02_Pinctrl_gpio_6.png">
     <br>
 </center>
 
@@ -70,7 +70,7 @@ make menuconfig
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/02_Pinctrl_gpio_7.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/02_Pinctrl_gpio_7.png">
     <br>
 </center>
 
@@ -79,7 +79,7 @@ make menuconfig
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/02_Pinctrl_gpio_8.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/02_Pinctrl_gpio_8.png">
     <br>
 </center>
 
@@ -88,7 +88,7 @@ make menuconfig
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/02_Pinctrl_gpio_9.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/02_Pinctrl_gpio_9.png">
     <br>
 </center>
 
@@ -178,7 +178,7 @@ GPIO（General Purpose Input/Output）子系统是 Linux 内核中用于管理�
 <center>
     <img style="width: 500px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/02_Pinctrl_gpio_10.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/02_Pinctrl_gpio_10.png">
     <br>
 </center>
 
@@ -280,7 +280,7 @@ make dtbs
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/00_linux_env_6.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/00_linux_env_6.png">
     <br>
 </center>
 
@@ -296,7 +296,7 @@ ifconfig
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/00_linux_env_2.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/00_linux_env_2.png">
     <br>
 </center>
 
@@ -314,7 +314,7 @@ sudo scp arch/riscv/boot/dts/spacemit/k1-x_MUSE-Pi-Pro.dtb bianbu@10.0.91.67:/ho
 <center>
     <img style="width: 800px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/00_linux_env_7.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/00_linux_env_7.png">
     <br>
 </center>
 
@@ -411,7 +411,7 @@ vim Makefile
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/02_Pinctrl_gpio_0.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/02_Pinctrl_gpio_0.png">
     <br>
 </center>
 
@@ -423,7 +423,7 @@ make
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/02_Pinctrl_gpio_1.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/02_Pinctrl_gpio_1.png">
     <br>
 </center>
 
@@ -432,7 +432,7 @@ make
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/02_Pinctrl_gpio_2.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/02_Pinctrl_gpio_2.png">
     <br>
 </center>
 
@@ -449,7 +449,7 @@ scp -r ~/02_pinctrl_gpio_test/ bianbu@10.0.91.67:/home/bianbu
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/02_Pinctrl_gpio_3.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/02_Pinctrl_gpio_3.png">
     <br>
 </center>
 
@@ -477,7 +477,7 @@ sudo ./gpiotest /dev/bianbu_gpio_test0 high # GPIO71 输出高电平
 <center>
     <img style="width: 300px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/02_Pinctrl_gpio_4.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/02_Pinctrl_gpio_4.png">
     <br>
 </center>
 
@@ -486,6 +486,6 @@ sudo ./gpiotest /dev/bianbu_gpio_test0 high # GPIO71 输出高电平
 <center>
     <img style="width: 300px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/02_Pinctrl_gpio_5.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/02_Pinctrl_gpio_5.png">
     <br>
 </center>

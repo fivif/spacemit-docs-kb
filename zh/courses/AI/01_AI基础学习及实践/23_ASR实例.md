@@ -16,7 +16,7 @@ ASR（Automatic Speech Recognition，自动语音识别） 是一种将语音信
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/asr_3.png", height=400>
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/asr_3.png", height=400>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -70,7 +70,7 @@ ASR 技术由于其能够将语音转换为文本的强大能力，已经被广�
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/asr_1.png", height=400>
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/asr_1.png", height=400>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -121,7 +121,7 @@ if os.path.exists(temp_filepath):
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/asr_2.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/asr_2.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;

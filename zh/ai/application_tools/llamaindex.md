@@ -48,7 +48,7 @@ rustc --version
 ```
 
 有如下打印说明安装成功：
-![](../../../_assets/docs-ai/static/rust-install.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/static/rust-install.png)
 
 ### 1.2. 安装langchain
 

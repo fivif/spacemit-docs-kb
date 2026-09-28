@@ -20,24 +20,24 @@ updated: "2026-08-27 15:44:22"
 2. K3 Pico-ITX 如何连接串口和 JTAG 进行调试？
 
     - 串口位置：
-     ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/signal00.png)
+     ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/signal00.png)
 
     - 连接方式：串口线的 TX 接 K3 Pico-ITX 的 RX，RX 接 K3 Pico-ITX 的 TX。
     - 串口调试要求：使用 3.3V 电平串口线。
     - PRI JTAG 调试：
-     ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/pico-jtag-debug.png)
+     ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/pico-jtag-debug.png)
 
 3. K3 CoM260 开发者套件如何连接串口和 JTAG 进行调试？
 
     - 串口位置：
-     ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/com260_Input_keys.png)
+     ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/com260_Input_keys.png)
 
     - 连接方式：串口线的 TX 连接 K3-CoM260 KIT 的 RX，RX 连接 K3-CoM260 KIT 的 TX。
     - 串口调试要求：使用 3.3V 电平的串口线。
     - PRI JTAG 调试：支持通过 TF 卡接口转 JTAG。
       > 注：JTAG 调试器与转接子板的 TMS 和 TDI 需要交叉连接，如下图所示
 
-      ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/com260_debug_00.png)
+      ![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/com260_debug_00.png)
 
 ## 电源系统
 
@@ -229,7 +229,7 @@ updated: "2026-08-27 15:44:22"
 
 10. K3 CoM260 的 214 pin（`FORCE_RECOVERY`）是升级引脚吗？
     是的。将该引脚下拉到 GND 后再上电，即可进入刷机模式。对应下图底板中的该引脚即为下载引脚。
-    ![K3 CoM260 下载引脚示意图](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/com260_Input_keys_01.png)
+    ![K3 CoM260 下载引脚示意图](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/com260_Input_keys_01.png)
 
 11. K3 CoM260 核心板的 MMC2 可以用于 TF 卡固件升级吗？MMC2 可以作为普通 SD 卡存储接口使用吗？
 
@@ -271,7 +271,7 @@ updated: "2026-08-27 15:44:22"
 
     如下图所示，PCIE0 ~ PCIE5 表示 PCIe PHY 顺序，PCIEA ~ PCIEE 表示 PCIe 控制器顺序，GPIO 组复用的边带信号 functions 与控制器顺序对应。
 
-    ![K3 PCIe PHY 与控制器对应关系示意图](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/k3_phy.png)
+    ![K3 PCIe PHY 与控制器对应关系示意图](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_hw/static/k3_phy.png)
 
 ## 可靠性
 

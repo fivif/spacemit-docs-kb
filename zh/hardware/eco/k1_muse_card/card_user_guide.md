@@ -153,13 +153,13 @@ M1 是一款高性能、超低功耗的 SOC，集成了 8 核 RISC-V CPU 内核�
 
 ### M1 芯片框图
 
-![](../../../../_assets/docs-product/k1_muse_card/static/UZOLbwx4ao3II9xW2sHcbScenH2.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/UZOLbwx4ao3II9xW2sHcbScenH2.png)
 
 ### M1 MUSE Card 参考方案框图
 
 #### 参考方案框图
 M1 MUSE Card 系统采用 M1 的芯片，P1 PMIC+ 外挂 DCDC 的供电方案；DRAM 采用 LPDDR4X；有双 M.2 2242 M-KEY、USB2.0 TYPEA、USB3.0 TYPEA、TF Card、HDMI、MIPI DSI、MIPI CSI、TYPEC、RJ45 等外设接口，集成了一个稳定的可量产化的方案。参考方案框图如下：
-![](../../../../_assets/docs-product/k1_muse_card/static/Qz1kbDpYhoyescxR24VcFNTVnBc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/Qz1kbDpYhoyescxR24VcFNTVnBc.png)
 
 #### 功能概述
 
@@ -251,31 +251,31 @@ M1 MUSE Card 包含的功能如下：
 
 ### 实物图
 
-![](../../../../_assets/docs-product/k1_muse_card/static/K8FjbwgGoogYiMx8muHc8rxJn1e.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/K8FjbwgGoogYiMx8muHc8rxJn1e.png)
 
 ### 电源框图
 
-![](../../../../_assets/docs-product/k1_muse_card/static/VGW7btsj5oTOeUxvoTgcu2ROnRG.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/VGW7btsj5oTOeUxvoTgcu2ROnRG.png)
 
 ### Boot Download Sel & JTAG Sel
 
 SEC2 JTAG 配置电路：M1 SEC2 JTAG 与 MMC1（TF CARD）接口复用，当 JTAG\_SEL 拉高，MMC1\_CMD 拉低，即可配置为 SEC2 JTAG 调试 X60 CPU。
-![](../../../../_assets/docs-product/k1_muse_card/static/Yhlmb7VrZoSvVjxEfgrcXoxMnpc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/Yhlmb7VrZoSvVjxEfgrcXoxMnpc.png)
 Boot Download Sel 配置电路：M1 支持配置 strap pin 选择启动介质。strap pin 默认下拉，自行增加上拉电阻：
 MUSE CARD 已配置为 NOR+SSD 启动
-![](../../../../_assets/docs-product/k1_muse_card/static/BRlnbk3NkofCTfx4Issc6F04n5e.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/BRlnbk3NkofCTfx4Issc6F04n5e.png)
 
 **注：**Boot 启动顺序为：默认首先 TF 卡启动 → 未检测到卡 → 根据设置的 strap pin 方式启动
 
 **NOR+SSD 烧录启动时，SSD 必须插入如下图所示 slot**
 
-![](../../../../_assets/docs-product/k1_muse_card/static/NG8mbHObhoL2DFx3YkEc874HnGf.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/NG8mbHObhoL2DFx3YkEc874HnGf.png)
 
 ### I2C 地址
 
 开发板预留丰富的外围接口，用户调试 I2C 外设会涉及到 I2C 通道复用情况，下图为现有的开发板器件对应的 I2C 地址和上拉电源，避免地址冲突和电平不匹配。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/MY3dbrL1oohVnxxQxW4cfN74n1b.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/MY3dbrL1oohVnxxQxW4cfN74n1b.png)
 
 ## 模块简述
 
@@ -283,7 +283,7 @@ MUSE CARD 已配置为 NOR+SSD 启动
 
 MUSE Card 仅提供一种电源输入方式：Type-C 输入，需使用支持 PD3.0 的适配器，输入电压默认调节为 12V。通过前端降压变换器（buck）电源后，得到电源 VCC5V0\_SYS 与 VCC4V0，分别给外挂 DCDC 和 PMIC 供电，输出不同电压供系统使用。M.2 座 3.3V 供电电流较大，由适配器输入电源通过前端降压变换器（buck）输出得到。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/HBL7bZSeCo734HxMIzmcJ7MrnOg.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/HBL7bZSeCo734HxMIzmcJ7MrnOg.png)
 
 ### 存储器
 
@@ -293,17 +293,17 @@ DDR：开发板 DDR 使用一片 8/16GB LPDDR4X。
 
 EEPROM：开发板支持 EEPROM 存储板卡信息。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/HIWqbhJKfo294GxpDnZctHZ1npf.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/HIWqbhJKfo294GxpDnZctHZ1npf.png)
 
 ### 按键输入
 
-![](../../../../_assets/docs-product/k1_muse_card/static/ZTo2bwaocomk6Yx0DvHcBi1SnVd.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/ZTo2bwaocomk6Yx0DvHcBi1SnVd.png)
 
 ### MIPI CSI 高速座子
 
 MUSE Card 不固定支持某一摄像头模组，高速座子包含两组 4lane 信号，可根据高速座子对应线序自行设计小板来匹配特定模组，实现 4lane+4lane 或 4lane+2lane+2lane 的摄像头组合。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/A52vbmplyoOK6DxdOtHc8ALon79.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/A52vbmplyoOK6DxdOtHc8ALon79.png)
 
 60pin 高速座子接口线序如下：
 
@@ -502,7 +502,7 @@ MUSE Card 不固定支持某一摄像头模组，高速座子包含两组 4lane 
 
 开发板支持 1080P 屏（JL-M101N013-P12WU-M402632），屏座接口型号为 FH35C-31S-0.3SHW(50)：
 
-![](../../../../_assets/docs-product/k1_muse_card/static/MBwTbSiIooIxkExujoOcBQhXnbh.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/MBwTbSiIooIxkExujoOcBQhXnbh.png)
 
 屏接口顺序：
 
@@ -619,31 +619,31 @@ MUSE Card 不固定支持某一摄像头模组，高速座子包含两组 4lane 
 </tbody>
 </table>
 
-![](../../../../_assets/docs-product/k1_muse_card/static/KZe9bYtNJo9kHpxC6k7coxpgny5.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/KZe9bYtNJo9kHpxC6k7coxpgny5.png)
 
 ### Type-C 座
 
 开发板 Type-C 座子，支持 USB2.0 DEVICE，内置调压芯片支持 PD3.0 协议调压到 12V 给 MUSE CARD 供电。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/TUWybEm3soHj55xnYzqc2sfAnZd.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/TUWybEm3soHj55xnYzqc2sfAnZd.png)
 
 ### HDMI 输出接口
 
 开发板支持一路 HDMI 标准 A 输出接口，支持 HDMI1.4，最大可支持 1080p 60fps 视频输出。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/PsVLbzNHSowi6nxstxzcap4Xnmb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/PsVLbzNHSowi6nxstxzcap4Xnmb.png)
 
 ### USB 接口
 
 开发板提供一个 USB2.0 接口和一个 USB3.0 接口，方便开发者接入 USB 设备。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/PExybY156oIlQ5xZNWTcyB2Fnjg.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/PExybY156oIlQ5xZNWTcyB2Fnjg.png)
 
 ### RJ45 接口
 
 开发板支持单个 RJ45 千兆网接口。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/L87MbZBsAoaj2ZxU2dGcJpwUntd.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/L87MbZBsAoaj2ZxU2dGcJpwUntd.png)
 
 ### 40pin 接口
 
@@ -782,25 +782,25 @@ PS:** “粗体”**为当前默认功能，若要使用其他功能需要自行
 </tbody>
 </table>
 
-![](../../../../_assets/docs-product/k1_muse_card/static/ViawbMuByoFJd4xoc2WcR8LWnXe.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/ViawbMuByoFJd4xoc2WcR8LWnXe.png)
 
 ### UART 调试接口
 
 开发板设计 3pin 单排插针，支持 UART0（GPIO68-TX，GPIO69-RX）调试接口，主控端线序从左到右 TX、RX、GND。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/A85RbReKOolrQzxPB1acZEdtnae.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/A85RbReKOolrQzxPB1acZEdtnae.png)
 
 ### TF 卡接口（无弹片）
 
 开发板支持 TF 卡，方便开发者接入 TF 卡设备。同时支持 debug 扩展卡，用于 UART0 或 JTAG 调试。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/FHL6boVaOoluyNxLkYacEDp1nOf.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/FHL6boVaOoluyNxLkYacEDp1nOf.png)
 
 ### M.2 KEY M 接口
 
 开发板支持双 M.2 2242 M-KEY 接口，方便开发者接入 SSD 以及其他 M.2 KEY M 设备，同时支持连接 JMB582 扩展卡转 SATA。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/BVcxbXIbToHkiTxn1C8cLdeNnIc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/BVcxbXIbToHkiTxn1C8cLdeNnIc.png)
 
 ## 初次设置
 
@@ -812,13 +812,13 @@ MUSE Card 是开发板形态产品，因此您需要连接必要的外设来使�
 
 MUSE Card 采用 USB-PD3.0 协议 Type-C 接口供电，  您可以使用支持该协议的电源适配器，建议电源适配器输出功率不低于 30W。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/WS8XbVF1koGEnTxlBNQc9gDynmb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/WS8XbVF1koGEnTxlBNQc9gDynmb.png)
 
 **键盘＆鼠标：**
 
 您可以使用 MUSE Card 上的任一 USB-A 端口连接有线键盘/鼠标或 USB 接收器，或者通过蓝牙的方式连接键鼠。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/MCjGb3htEo4K35xLSDmceYtvnIb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/MCjGb3htEo4K35xLSDmceYtvnIb.png)
 
 **显示器：**
 
@@ -826,7 +826,7 @@ MUSE Card 通过外置显示器将画面显示出来。MUSE Card 支持 HDMI 和
 
 请注意，若要通过 MIPI DSI 视频接口输出画面，请在开机前就将 MIPI DSI 视频线连接好显示器和 MUSE Card，MUSE Card 的 MIPI DSI 视频接口不支持热插拔。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/JlcZbbxihomu2gxwkk0cfC27nvc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/JlcZbbxihomu2gxwkk0cfC27nvc.png)
 
 **音频：**
 
@@ -836,7 +836,7 @@ MUSE Card 支持 HDMI 音频，在操作系统设置输出源为 HDMI 后，可�
 
 MUSE Card 支持有线 RJ45 网口，您可以通过 RJ45 网口直接与网线连接。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/EtVlb1YK7oBck0xvXTkcQMJmnvh.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/EtVlb1YK7oBck0xvXTkcQMJmnvh.png)
 
 ### 开始启动
 
@@ -846,7 +846,7 @@ MUSE Card 支持有线 RJ45 网口，您可以通过 RJ45 网口直接与网线�
 
 最后连接上电源线，并通电即可开机。（首次通电即开机，若软件关机后，需短按电源按钮 1S 即可开机），开发板运行后，红色的电源指示灯会亮起。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/HrKTbFhiVo2F6sxsZDVcYLAZn7b.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/HrKTbFhiVo2F6sxsZDVcYLAZn7b.png)
 
 ### 首次启动时配置您的 MUSE Card
 
@@ -856,45 +856,45 @@ MUSE Card 支持有线 RJ45 网口，您可以通过 RJ45 网口直接与网线�
 
 此页面帮助您配置系统的语言，默认显示 English 和中文，如需更多语言，可点击下方三个点，弹出更多选项。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/C62rbTD84oUs0lxSd6wcpdhZnCg.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/C62rbTD84oUs0lxSd6wcpdhZnCg.png)
 
 **输入法：**
 
 此页面帮助您配置系统的键盘布局和输入法。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/H8qUbDL74oXF0KxkkS5c55vNnYb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/H8qUbDL74oXF0KxkkS5c55vNnYb.png)
 
 **无线上网：**
 
 此页面帮助您连接到 WiFi 网络，从列表中选择您的网络并进行连接；如暂未有合适 WiFi 网络，可在左上角选择跳过该设置。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/GebabRy1soHRFExqi7CcL4oRnJc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/GebabRy1soHRFExqi7CcL4oRnJc.png)
 
 **位置服务：**
 
 此页面可选择是否打开位置服务，如打开位置服务可便捷您的使用体验，但相应的可能会带来位置隐私泄露的风险。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/T1dUblRAdoQhLZxhOBRccA1Qnnz.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/T1dUblRAdoQhLZxhOBRccA1Qnnz.png)
 
 **时区：**
 
 此页面帮助配置您所在时区信息，联网状态下系统能够自动同步相应时区时间，可以搜索城市来添加设置。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/Q5PcbGF1AoYf6gxnOVacglTOnFe.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/Q5PcbGF1AoYf6gxnOVacglTOnFe.png)
 
 **设置您的用户名和密码：**
 
 该页面帮助您设置用户名和密码，请牢记您的密码。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/REhUba9TeooKoCxkOpLc9Qfyn6g.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/REhUba9TeooKoCxkOpLc9Qfyn6g.png)
 
-![](../../../../_assets/docs-product/k1_muse_card/static/AfF7bNATFoLIVnxGZJDcYdTYnbf.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/AfF7bNATFoLIVnxGZJDcYdTYnbf.png)
 
 **配置完成**
 
 配置完成，点击“开始使用 Bianbu”吧，后可进入桌面。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/B0TFb596NoR2cHxgsF5c7GCvnog.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/B0TFb596NoR2cHxgsF5c7GCvnog.png)
 
 ## 刷入固件
 
@@ -914,11 +914,11 @@ MUSE Card 支持有线 RJ45 网口，您可以通过 RJ45 网口直接与网线�
 
 （按钮图示详见产品规格中的主板接口示意）
 
-![](../../../../_assets/docs-product/k1_muse_card/static/CagMb8bMIoBVymxV32qcAbsOnVh.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/CagMb8bMIoBVymxV32qcAbsOnVh.png)
 
 此时通过 MUSE Card 的 Type-C 口，与上位机进行 USB 连接，通过进迭时空官方刷机工具 Titan 或者 fastboot 命令即可进行刷机操作。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/VT1gb0Rhaox9NyxkXjEcA6VAnRf.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/VT1gb0Rhaox9NyxkXjEcA6VAnRf.png)
 
 ### 固件下载和安装
 
@@ -948,7 +948,7 @@ Bianbu 是进迭时空针对 RISC-V 架构的处理器做了深度优化的操�
 
 上位机经 USB 转 UART_TTL 设备与 MUSE Card 主板接口的 TX、RX、GND 正常连接。接口信号如图：
 
-![](../../../../_assets/docs-product/k1_muse_card/static/AkuNb4lrWoZSK8x4vvYcrbp0nEc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/AkuNb4lrWoZSK8x4vvYcrbp0nEc.png)
 
 ### Windows 调试：
 
@@ -956,13 +956,13 @@ Bianbu 是进迭时空针对 RISC-V 架构的处理器做了深度优化的操�
 
 首先，请正确连接硬件串口，并确认在设备管理器的端口中有 COM 口的显示，如图：
 
-![](../../../../_assets/docs-product/k1_muse_card/static/CnbxboUC9ouBwKxXQhFcu7BYnhg.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/CnbxboUC9ouBwKxXQhFcu7BYnhg.png)
 
 打开“MobaXterm”软件，选择“Sessions”——“New Session”，在弹出的对话框中，选择“Serial”，"Serial port"选择上图中识别到的对应 COM 口，**“Speed”速率选择“115200”**，最后点击“OK”，即可进入打印页面。
 
-![](../../../../_assets/docs-product/k1_muse_card/static/Fsu8b7VnKoeDrMxR2ajcttT8nbf.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/Fsu8b7VnKoeDrMxR2ajcttT8nbf.png)
 
-![](../../../../_assets/docs-product/k1_muse_card/static/UG38b8Wu7oDr28xKbxbc5n5vnHh.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_card/static/UG38b8Wu7oDr28xKbxbc5n5vnHh.png)
 
 ## 注意事项
 

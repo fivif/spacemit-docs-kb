@@ -26,17 +26,17 @@ Common Testing Tools (during development/debugging):
 
 ## Sensor Connection Diagram
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/usb_camera_python.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/usb_camera_python.jpg)
 
 ## Identifying the Device ID
 
 1. Input： `ls /dev/video*`，The output will appear as follows：
 
-   ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t1.png)
+   ![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t1.png)
 
 2. Remove the camera, then enter `ls /dev/video*`
 
-   ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t2.png)
+   ![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t2.png)
 
    You can now confirm that the device IDs are `/dev/video20` and `/dev/video21`. For standard USB cameras, the device ID with the lower numerical value is typically the correct one to use; in this specific example, it is `/dev/video20`.
 
@@ -46,17 +46,17 @@ Common Testing Tools (during development/debugging):
 
    The following output will appear:：
 
-   ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t3.png)
+   ![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t3.png)
 
 2. Use the command `v4l2-ctl -d /dev/video20 --all` to view detail of `/dev/video20` 
 
    The output containing the "Format Video Capture" field generally indicates the node used for capturing actual video frames.
 
-   ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t5.jpg)
+   ![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t5.jpg)
 
 3. Use the command `v4l2-ctl -d /dev/video21 --all` to view detail of `/dev/video21` 
 
-   ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t6.png)
+   ![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/images/t6.png)
 
    The output displays：**UVC Payload Header Metadata capture interface** —— which corresponds to the **video metadata capture interface**; this interface is not used for capturing the actual video image frames themselves.
 

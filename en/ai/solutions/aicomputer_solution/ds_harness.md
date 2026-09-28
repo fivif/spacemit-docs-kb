@@ -73,7 +73,7 @@ http://127.0.0.1:3080
 
 The DeepSeek Harness web UI opens in the browser. Configure an API key to connect to a model.
 
-![](../../../../_assets/docs-ai/solutions/static/ds_harness_00.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ds_harness_00.png)
 
 > To create a system command for DeepSeek Harness and start it more easily later, follow the configuration in the appendix.
 

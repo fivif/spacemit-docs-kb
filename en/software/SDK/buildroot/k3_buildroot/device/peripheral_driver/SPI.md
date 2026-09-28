@@ -16,7 +16,7 @@ This document describes SPI functionality and usage.
 
 ### Functionality
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/linux_spi.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/linux_spi.png)  
 
 The Linux SPI driver framework consists of three layers: **SPI Core**, **SPI Controller Driver**, and **SPI Device Driver**.
 

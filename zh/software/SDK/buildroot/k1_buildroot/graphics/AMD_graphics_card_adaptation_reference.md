@@ -48,7 +48,7 @@ DRM 是一个用于管理 GPU（图形处理单元）资源的内核模块，提
 
 radeon 驱动结构框图：
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/graphics/static/radeon-driver.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/graphics/static/radeon-driver.png)
 
 ## 配置与修改
 

@@ -52,13 +52,13 @@ updated: "2026-09-11 11:47:21"
 
 ### System Architecture Diagram
 
-![Multi-stream video analysis system architecture](../../../../_assets/docs-ai/solutions/static/multi_stream_vision/system-architecture.png)
+![Multi-stream video analysis system architecture](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/multi_stream_vision/system-architecture.png)
 
 The `PipelineManager` manages multiple channel instances. Each channel processes one video stream and maintains its own processing state while sharing the K3 VPU, GPU, AI compute resources, and DDR buffers. The UI layer receives video frames, analysis results, and performance statistics through Qt signals and slots.
 
 ### Workflow
 
-![Multi-stream video analysis workflow](../../../../_assets/docs-ai/solutions/static/multi_stream_vision/workflow.png)
+![Multi-stream video analysis workflow](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/multi_stream_vision/workflow.png)
 
 > **Legend**: Solid lines represent data paths implemented in the current repository. Dashed lines represent the network video input path, which is not yet supported. Once network stream input is supported, it will also enter MPP/VPU for hardware decoding.
 
@@ -172,7 +172,7 @@ By default, the left side of the interface displays the multi-stream video and d
 - **Detections**: Number of detections retained for the current frame
 - **Latency (ms)**: Total time spent by the current frame in decoding queues, preprocessing, inference, and postprocessing
 
-![](../../../../_assets/docs-ai/solutions/static/multi_stream_vision/mul-stream-video.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/multi_stream_vision/mul-stream-video.png)
 
 > **Tip**: Statistics vary with the model, video content, number of channels, display mode, system load, and thermal state. The values in the screenshot represent only that particular hardware run.
 
@@ -215,7 +215,7 @@ sudo ./scripts/download_models.sh /usr/share/yolo-demo
 
 Clear **Enable Video Display** to hide the video grid and show only the control panel and runtime statistics. The inference pipeline continues to run, but it no longer creates display frames or uploads OpenGL textures. This can reduce GPU and DDR bandwidth usage.
 
-![](../../../../_assets/docs-ai/solutions/static/multi_stream_vision/mul-stream-stats.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/multi_stream_vision/mul-stream-stats.png)
 
 Select **Enable Video Display** again to restore video display.
 

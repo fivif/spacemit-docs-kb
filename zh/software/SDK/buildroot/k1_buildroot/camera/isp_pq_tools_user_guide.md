@@ -49,7 +49,7 @@ updated: "2026-03-05 14:41:42"
 
 ### Tuning Tool 框架
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/ISPtool.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/ISPtool.png)
 
 ### PC 端 tuning tool 安装
 
@@ -58,7 +58,7 @@ updated: "2026-03-05 14:41:42"
 
 解压后包含如下文件：
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/RJ3wbCncao9oW1xqY3Fc3itinQg.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/RJ3wbCncao9oW1xqY3Fc3itinQg.png)
 
 ### 调试环境准备
 
@@ -90,7 +90,7 @@ AsrIspTool 通过 USB 与终端设备连接,通过 ADB 与设备交互。
 
 双击 `AsrIspTool.exe`，启动调试工具，主界面下图所示
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/QyG4bB7vRoxN4pxHi8ecF1WKn2d.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/QyG4bB7vRoxN4pxHi8ecF1WKn2d.png)
 
 - **Menu: 菜单功能区**
   - **Open**: 打开参数文件。
@@ -126,13 +126,13 @@ AsrIspTool 通过 USB 与终端设备连接,通过 ADB 与设备交互。
 
 如果想单次读取所有参数，点击右上角的 **Read** 按钮。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/VfaobKikkom8AmxikFAcFpr5nsc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/VfaobKikkom8AmxikFAcFpr5nsc.png)
 
 **注意：** ADB 连接方式只适用于使用 Android 系统的项目，我们主要使用 TCP 网络连接开发板进行 tunning。
 
 #### 参数类型说明
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/P0oCbyHqao9Yfpxl6wScqVpCn3e.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/P0oCbyHqao9Yfpxl6wScqVpCn3e.png)
 
 - **可调参数**
   - 可勾选参数，例如 `m_bAutoCalculateAEMWindow`。
@@ -159,7 +159,7 @@ AsrIspTool 通过 USB 与终端设备连接,通过 ADB 与设备交互。
 
 #### Register 读写
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/AXhhbCplsoM4IYxa3d6cu3p4nMd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/AXhhbCplsoM4IYxa3d6cu3p4nMd.png)
 
 1. 在菜单功能区点击 **Register** 按钮。
 2. 设置 **Address**（寄存器地址）。
@@ -172,7 +172,7 @@ AsrIspTool 通过 USB 与终端设备连接,通过 ADB 与设备交互。
 
 #### I2C 读写
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/TMzDbydbgoiWlYxX5XocLzHmnVf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/TMzDbydbgoiWlYxX5XocLzHmnVf.png)
 
 1. 在菜单功能区点击 **I2C** 按钮。
 2. 设置 **Device ID**（I2C 设备号）。
@@ -189,11 +189,11 @@ AsrIspTool 通过 USB 与终端设备连接,通过 ADB 与设备交互。
 **批量读写寄存器文件格式**  
 文件格式为 `{Address, Value}`，批量读写寄存器时，点击 **Batch Read** 或 **Batch Write** 导入 `reg_batch.txt`。读取结果会在红色框中显示对应的日志，同时会生成同名 `_read.txt` 文件用于后续查看。
 
-  ![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/BfTFbluLmoBmPYxTWsvceubLnCh.png)
+  ![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/BfTFbluLmoBmPYxTWsvceubLnCh.png)
 
 **批量读写寄存器文件格式示例**
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/YTMBbCIXIoLGK7xgYlic7UDon9b.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/YTMBbCIXIoLGK7xgYlic7UDon9b.png)
 
 #### 保存参数
 
@@ -241,7 +241,7 @@ AsrIspTool 通过 USB 与终端设备连接,通过 ADB 与设备交互。
 #### BLC 定标步骤
 
 BLC 定标界面如下图
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Bv0JbfQfVoCa1NxxevYch701nIb.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/Bv0JbfQfVoCa1NxxevYch701nIb.png)
 
 1. 在 BLC 插件中点击 **Load** 导入 VRF 图。
 2. 选择 **Pipe ID**（非单 pipeline 可选）。
@@ -254,7 +254,7 @@ BLC 定标界面如下图
 - **Calibrated Result panel** 显示 4 个通道，10bits 与 8bits 的值。参数保存到文件中会映射到 12bits。
 - **Channel ID**：表示对应 2 ᵅ[倍 gain 下的 BLC 参数。BLC 可随 Gain 调整，从 1x 倍 gain 到 2048 倍 gain，共 12 个等级（见下图 **Gain-BlackValue 示意图**）。最后一档 **manual** 在 **manual mode** 使能时生效，此时 BLC 不随 gain 调整。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/CPWGbI87NoUWSXxGp0OcvEo1nFF.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/CPWGbI87NoUWSXxGp0OcvEo1nFF.png)
 
 Gain – BlackValue 示意图
 
@@ -275,7 +275,7 @@ BLC 参数位于 **CDigitalGainFirmwareFilter**。
 
 LSC 定标界面如下图
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/HL7wbuzstoOKcyxjSKBce4sJngf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/HL7wbuzstoOKcyxjSKBce4sJngf.png)
 
 1. 在 LSC 插件中点击 **Load** 导入 VRF 图。
 2. 选择 **Pipe ID**（非单 pipeline 可选）。
@@ -299,7 +299,7 @@ LSC 可随 **CT** 或 **CorrelatedCT** 调整（见下图 **CT-LSCProfile 示意
 - **CT** 定义：256 \* AWB_RGain / AWB_BGain（可通过 AWB plugin 中的 CT 信息 / 4 获得）。
 - **CorrelatedCT** 定义：相关色温，光源发出的光与某一色温的黑体辐射光相似的程度。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Cza4bQxuboELiHxu4Q6cu8YNnCb.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/Cza4bQxuboELiHxu4Q6cu8YNnCb.png)
 
 LSC 参数位于 CLSCFirmwareFilter
 
@@ -308,7 +308,7 @@ LSC 参数位于 CLSCFirmwareFilter
 
 **注**：LSC 插值依据可选择 **AWBFilter** 计算结果 **CT**（在 AWB 插件中读取 CT）或 **CCTCalculatorFilter** 计算结果 **CCT**（在 **WbFirmwareFilter** 中读取 **m_nCorrelationCT**）。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/U1RmbqcooohmnEx7d29cVkK6nfH.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/U1RmbqcooohmnEx7d29cVkK6nfH.png)
 
 ### CCM 与 CCT 定标与调试
 
@@ -321,7 +321,7 @@ LSC 参数位于 CLSCFirmwareFilter
 
 CCM 定标界面如下图
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/TH3Rbs3dQoiGwoxi6AMcVmtMn5e.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/TH3Rbs3dQoiGwoxi6AMcVmtMn5e.png)
 
 1. 在 CCM 插件中点击 **Load** 导入 VRF 图，VRF 使用 **Raw preprocessor** 插件补偿 LSC 和 PDF（如存在 PD 像素）。
 2. 在图中框选完整的色卡，保证 24 个 ROI 都落在色块之内。若拍摄图片不正或畸变严重，可点击 **start**，勾选期望单独调整的 ROI，然后手动拖动 ROI。
@@ -335,7 +335,7 @@ CCM 定标界面如下图
 
 CCM 定标界面如下图
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/O8xmbKq8soVjc8xtrebcw7n6nJf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/O8xmbKq8soVjc8xtrebcw7n6nJf.png)
 
 1. 定标步骤与 CCM 定标可同时进行，CCT 只需要 **A** 与 **D65**。
 2. CCM Calibrate **A** 光之后，选择 **profile 2850K**，点击 **UpdateCTMatrix**。
@@ -364,7 +364,7 @@ CCM 定标界面如下图
 
 CCM 可随色温调整（见下图 **CCM-色温控制曲线**）。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Tm8ZbZsTQosPkVxDBVvcNIi5nLg.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/Tm8ZbZsTQosPkVxDBVvcNIi5nLg.png)
 
 CCM 参数位于 **CColorMatrixFirmwareFilter**。
 
@@ -373,7 +373,7 @@ CCM 参数位于 **CColorMatrixFirmwareFilter**。
 
 **注**：CCM 插值依据可选择 **AWBFilter** 计算结果 **CT**（在 AWB 插件中读取 CT）或 **CCTCalculatorFilter** 计算结果 **CCT**（在 **WbFirmwareFilter** 中读取 **m_nCorrelationCT**）。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Wii6bCvr0osUzdxZdn2cSw5vnPd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/Wii6bCvr0osUzdxZdn2cSw5vnPd.png)
 
 ### AWB 定标与调试
 
@@ -385,7 +385,7 @@ AWB 定标无需额外拍图，完成 CCT 定标即可进行。
 
 AWB 定标界面如下图
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/A8FQbARlQotmwGxVRx2cjIeInud.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/A8FQbARlQotmwGxVRx2cjIeInud.png)
 
 1. 打开 AWB 插件。
 2. 点击 **Optimize**，定标参数将自动更新到参数界面
@@ -416,14 +416,14 @@ AWB 定标界面如下图
 
 统计图上可框选区域(默认展示所有区域的落点)，框选之后只会显示框中 block 的落点。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/W42KbmVcZozYu3xCDLKc4Zc9ndf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/W42KbmVcZozYu3xCDLKc4Zc9ndf.png)
 
 ##### ROI 中的白点
 
 点击 **Show ROI**，可以看到不同 ROI 中包含的 block 情况，白色为参与白平衡计算的 block，即落入 ROI 区域的 block。  
 下图可见具体 32X24 个 block 所属 ROI。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/KCGYbdLdLojsnqxafgUc6umTnPd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/KCGYbdLdLojsnqxafgUc6umTnPd.png)
 
 ##### Block 的权重
 
@@ -433,11 +433,11 @@ AWB 定标界面如下图
 
 若设为 100%，画面显示为全黑，表示该 lux 下所有 block 权重为 0。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/TBU2b8qGcobYnpxtTnOcGRidnDe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/TBU2b8qGcobYnpxtTnOcGRidnDe.png)
 
 设置 **Weight Percentage** 为 100%，以热力图形式显示 block 的权重，可以将鼠标拖动到期望了解的 block，热力图右侧会显示对应 block 的权重（**AWB Frameinfo** 也可以看到 debug 信息），下图鼠标选择的是 block[12][2]，权重为 16。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/OnTVbtlSNo69fHxX6yxc4LUHnQe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/OnTVbtlSNo69fHxX6yxc4LUHnQe.png)
 
 ##### 白平衡 gain 的落点
 
@@ -445,7 +445,7 @@ AWB 定标界面如下图
 
 当前白平衡 gain 在色温坐标系中以红色方块呈现。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/NgDNb7QCVolcwox3LTXcX1Iqnvd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/NgDNb7QCVolcwox3LTXcX1Iqnvd.png)
 
 #### AWB 调试说明
 
@@ -510,7 +510,7 @@ AWB 定标界面如下图
 
 Curve 调试界面如下图
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/AGhPb6uK4oyHyMx5nG5cqycZnvd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/AGhPb6uK4oyHyMx5nG5cqycZnvd.png)
 
 1. 打开 Curve 插件。
 2. 选择 **Pipe ID**（非单 pipeline 可选）。
@@ -529,13 +529,13 @@ Curve 调试界面如下图
 
 **注**：当 **m_nCurveSelectOption** 设为 0 时，curve 依据当前 gain 做插值（见下图 **Curve-Gain 控制曲线示意图**）。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/EOSkbycFLoUbzOxDQxgcTQtmnje.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/EOSkbycFLoUbzOxDQxgcTQtmnje.png)
 
 Curve 参数位于 **CCurveFirmwareFilter**。
 
 - Curve 可随 gain 变化，设置合适的 **m_pGainIndex**，以设置不同 gain 下的 curve。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/LqAZbSYKLoAke8xMceLcQ6IjnEe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/LqAZbSYKLoAke8xMceLcQ6IjnEe.png)
 
 ### Noise 定标与调试
 
@@ -549,7 +549,7 @@ Curve 参数位于 **CCurveFirmwareFilter**。
 
 定标界面如下图
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/NA7mbfZEKomduexvZUXcBCm2nYc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/NA7mbfZEKomduexvZUXcBCm2nYc.png)
 
 1. 在 Noise 插件中点击 **Load** 导入 RAW 图，VRF 使用 **Raw preprocessor** 插件补偿 LSC 和 PDF（如存在 PD 像素）。
 2. 在图中框选色卡最下方的 6 个块，保证 6 个 ROI 都落在色块之内。若拍摄图片不正或畸变严重，可点击 **start**，勾选期望单独调整的 ROI，然后手动拖动 ROI。
@@ -576,13 +576,13 @@ Curve 参数位于 **CCurveFirmwareFilter**。
 控制灯光亮度，使得增益尽量接近 1 倍。  
 拍摄马达从有效位置最小值到有效位置最大值的图像（将整个扫描区域均分成 30 段，31 个位置），共 31 张（vrf 文件名命名规范为 **position.vrf**，PD raw files 文件名 **position_L.raw**，**position_R.raw**）。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/WOQWbeBXKoqnQKxvCTjctR3FnNh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/WOQWbeBXKoqnQKxvCTjctR3FnNh.png)
 
 #### PDAF 定标步骤
 
 PDAF 定标界面如下图
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/FDUibp2uAoon7pxxXMRckoYJnEd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/FDUibp2uAoon7pxxXMRckoYJnEd.png)
 
 1. 在 **PDC** 插件中点击 **Load** 选择 VRF 文件夹（若导入的是已抽出 PD 的 raw files，还需填写 raw 的宽高）。
 2. 点击 **Calibrate**，将显示图像分割为 5x5 的块所对应的块的 **position – shift** 图。
@@ -601,7 +601,7 @@ PDC 用于将 PD 像素或 shadow 像素亮度补偿到正常亮度供 PDAF 对�
 
 #### PDC 定标步骤
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/XjGFbPHPvog9dqxMMYzc69Zsnec.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/XjGFbPHPvog9dqxMMYzc69Zsnec.png)
 
 1. 在 PDC 插件中点击 **Analyze**，PDC plugin 判断 setting 中 **m_pPixelMask** 和 **m_pPixelTypeMask** 设置是否合理。如果不合理，需要调整这两个参数。
 2. **Analyze** 分析 setting，合理后，**Load** 按钮有效化。QuadBayer PD 可选择补偿方式（0-1 通道互补或 2-3 通道互补，四通道 PD 点数目相同时，还可选择四通道互补）。
@@ -629,7 +629,7 @@ Raw preprocessor 插件用于 raw 预处理，支持 PD 点矫正，LSC 补偿�
 
 Raw preprocessor 界面如下图
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/VbYvb8uExoZr3oxylbycmzhon88.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/VbYvb8uExoZr3oxylbycmzhon88.png)
 
 1. 在 Raw preprocessor 插件中设置 **input** 和 **output** VRF 文件。
 2. 选择对应的 **pipe** 以及 **LSC channel**。
@@ -645,13 +645,13 @@ General Information 插件用于连接设备实时显示一些 debug 信息。
 
 默认配置了如下图信息供调试工程师参考：
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Ru42bu2NQoRfcSxtqxacrgTDnAJ.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/Ru42bu2NQoRfcSxtqxacrgTDnAJ.png)
 
 #### General Information 拓展
 
 点击 **setting**，出现如下图信息编辑页，可以自由编辑想要关注的信息。一行为一个显示条目，格式说明详见 **Expression Manual**。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/QJerblj9loAfZUxFgquc500pnwc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/QJerblj9loAfZUxFgquc500pnwc.png)
 
 ## ISP Tuning
 
@@ -727,7 +727,7 @@ CDigitalGainFirmwareFilter 模块用于配置数字增益和黑电平。
 | m_pWBCurrentSignature | 白平衡当前模组特征 |  - | 只读 |
 
 BlackValue 示意图如下
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/B2wmbYVkfoTzx3xrE78cEYJknVe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/B2wmbYVkfoTzx3xrE78cEYJknVe.png)
 
 ### CWBGainFirmwareFilter 参数说明
 
@@ -770,7 +770,7 @@ CColorMatrixFirmwareFilter（CCM）模块用于色彩校正。
 | m_pCMC2 | 高色温色彩校正矩阵，由CCM插件定标得到。R'G'B' to RGB ，Q12 精度。 | 定标结果参数 | 可依据色温调用 |
 
 cmc-色温控制曲线如下图
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/LrvNbO5yioeg6Pxa3NLcbyYunJH.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/LrvNbO5yioeg6Pxa3NLcbyYunJH.png)
 
 #### CCM 彩边抑制功能及参数
 
@@ -792,7 +792,7 @@ ColorFringeHueRange[0],[1] 用于选定彩边抑制的 Hue 区间;
 
 HueTransShiftNum 用于设定平滑过渡带：
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/KYwJb2nmYowsqxx4YbbcECYAnee.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/KYwJb2nmYowsqxx4YbbcECYAnee.png)
 
 - **Freq 控制参数**
 
@@ -802,7 +802,7 @@ HueTransShiftNum 用于设定平滑过渡带：
 | m_nHighFreqTransShiftNum  | 高频过渡带偏移系数（示例见 HighFreqTrans-EdgeRatio 曲线）频率落入 [HighFreqThreshold, HighFreqThreshold +(1&lt;&lt;HighFreqTransShiftNum)] 区间做平滑处理 | 是 |  |
 
 HighFreqTrans-EdgeRatio 曲线如下图
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Du34bsO1roaHMuxBUsIcZMQ8nNd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/Du34bsO1roaHMuxBUsIcZMQ8nNd.png)
 
 #### CCM Manual 参数
 
@@ -839,11 +839,11 @@ BPC 强度可随增益与亮度动态调节。
 
 - 增益控制参数为 m_pBpcGainIndex ，0-11 共十二组，16 为 1 倍增益，增益处于两个节点之间时，参数为两个节点参数插值的结果。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/FzClb3bksoSX9OxRcLfcInZpn9e.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/FzClb3bksoSX9OxRcLfcInZpn9e.png)
 
 - 亮度控制参数为 m_pSegG，0-8 共九组，其中第 8 组固定为 255 不可改，对应 VRF 数据像素值（映射到 8 比特），亮度处于两个节点之间时，参数为两个节点参数插值的结果，相邻两档间跨度须保证为 2 的整数幂，建议保持缺省值。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/QjlsbDwzIoHbpTxTl3xc53zvnGc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/QjlsbDwzIoHbpTxTl3xc53zvnGc.png)
 
 - 强度控制参数，可随增益和亮度的变化动态调节。
 
@@ -861,11 +861,11 @@ BPC 强度可随增益与亮度动态调节。
 
 - Row 表示 Lum 档位，与 m_pSegG 一一对应。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/JAlIbd1wAoKOfUxLK7Fc223ontg.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/JAlIbd1wAoKOfUxLK7Fc223ontg.png)
 
 - 参数随 Lum 变化插值说明
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/LNJCbJMKJocZrxxR9SEc7QgtnDc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/LNJCbJMKJocZrxxR9SEc7QgtnDc.png)
 
 【注：上述随 Lum 变化的 Value 包含 Slope, Intercept】
 
@@ -940,10 +940,10 @@ CLSCFirmwareFilter 模块用于镜头阴影矫正。
 | m_pLSCProfile | LSC补偿表，由LSC插件定标得到 | 定标结果参数 | 可依据色温调用 |
 
 LSC-色温控制曲线如下
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/JMPabWdtVomXsJx1sTnc7MnanLe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/JMPabWdtVomXsJx1sTnc7MnanLe.png)
 
 Gain-strength 示意图如下
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/CHr0bp58jojXhaxbF8RcNveJnmh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/CHr0bp58jojXhaxbF8RcNveJnmh.png)
 
 #### 自适应 color shading 参数
 
@@ -1023,10 +1023,10 @@ Column 表示 Gain 的档位
 - Column[0]表示 1 倍 Gain 下对应的值
 - Column[11]表示 2048 倍 Gain 下对应的值
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/GrX6bMFrCoPYUBx1zVUcAh6zn1f.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/GrX6bMFrCoPYUBx1zVUcAh6zn1f.png)
 
 Gain – Sharpen 示意图如下
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/S8vmbd56NoR3DHxROWMcN4YTnKb.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/S8vmbd56NoR3DHxROWMcN4YTnKb.png)
 
 #### Demosic 其他参数
 
@@ -1071,7 +1071,7 @@ RawDenoise 参数可随 gain 动态调节。
 
 m_pL0 - m_pL3 对应不同亮度下的去噪强度，如下图所示
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/QYi8bwTGhohuWixrKjycbeqDniV.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/QYi8bwTGhohuWixrKjycbeqDniV.png)
 
 以 **m_pSigma** 为例：
 
@@ -1080,11 +1080,11 @@ Column 表示 Gain 的档位：
 - Column[0]表示 1 倍 gain 下对应的参数；
 - Column[11]表示 2048 倍 gain 下对应的参数；
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/ReeEbtPUyonDK3xyYSRcdCmInrh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/ReeEbtPUyonDK3xyYSRcdCmInrh.png)
 
 Gain - Denoise_strength 示意图如下
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/JyuGbHVjXoGaCpxkFqtc627Vnwg.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/JyuGbHVjXoGaCpxkFqtc627Vnwg.png)
 
 #### RawDenoise 功能模块及参数
 
@@ -1098,11 +1098,11 @@ Gain - Denoise_strength 示意图如下
 | m_pMaxSpacialDenoiseThreGain | 边缘去噪最大增强门限，最远距离所能达到的最大去噪强度(见下图 Distance – RadialGain 示意图) | 是 |  |
 
 R - CenterPercent 示意图如下
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/MjDzbshXVosldrx6y5hcvU7znie.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/MjDzbshXVosldrx6y5hcvU7znie.png)
 
 Distance - RadialGain 示意图如下
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/EKIfbxmProoJh7x3MfacWYF3n3d.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/EKIfbxmProoJh7x3MfacWYF3n3d.png)
 
 #### RawDenoise debug 参数
 
@@ -1188,7 +1188,7 @@ CPDCFirmwareFilter 模块用于将 PD 像素或 shadow 像素补偿至正常亮�
 | m_nWinHeight | PDC 统计窗高度 |  - | 只读 |
 
 窗口示意图如下
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/YTpPbURsvoGK57xo5H8cz0SPnJe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/YTpPbURsvoGK57xo5H8cz0SPnJe.png)
 
 ### CPDFFirmwareFilter 参数说明
 
@@ -1245,7 +1245,7 @@ CPDAFFirmwareFilter 模块用于相位对焦。
 | m_nErrorShpCoef | shape（相关性拟合曲线形状）调节系数 | 否 |  |
 
 相关性拟合曲线示意图如下
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/KQExbr7SRoZaHxxuMdZc1mYnntf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/KQExbr7SRoZaHxxuMdZc1mYnntf.png)
 
 #### PDAF 动态控制参数
 
@@ -1256,11 +1256,11 @@ CPDAFFirmwareFilter 模块用于相位对焦。
 | m_pSwingThre | 不同 Gain 下的幅度门限，（见下图 SwingThre-gain 控制曲线）当前幅度值低于此门限时，置信度会降低 | 是 | 依据 gain 调整 |
 
 LumThre-Gain 控制曲线如下图
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/UOFrbbfugowiQ0xGIFMcsYpinGg.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/UOFrbbfugowiQ0xGIFMcsYpinGg.png)
 
 SwingThre-Gain 控制曲线如下图
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/O295b9FmhoY1myxB0F5cqU7Zn2f.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/O295b9FmhoY1myxB0F5cqU7Zn2f.png)
 
 #### PDAF 置信度控制参数
 
@@ -1274,7 +1274,7 @@ SwingThre-Gain 控制曲线如下图
 | m_nSearchRange | PD shift 搜索范围，PD 像素密度越大，该值越大。  一般密度 shield pixel 设 0   Dual PD 设 3 | 是 |  |
 
 Error-Confidence 转换曲线 如下图
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/BIBybAjYiogHzmxrC6AcXIFun5c.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/BIBybAjYiogHzmxrC6AcXIFun5c.png)
 
 ### CWbFirmwareFilter 参数说明
 
@@ -1342,7 +1342,7 @@ CRGB2YUVFirmwareFilter 模块用于 RGB 转 YUV。
 | m_nSaturationManual | 手动饱和度系数，Q7 精度 |   | Debug 参数 |
 
 sat_CP-gain 控制曲线如下
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/L1MtbvrsSoBgR6xi8cmcjbGGnVg.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/L1MtbvrsSoBgR6xi8cmcjbGGnVg.png)
 
 ### CSpecialEffectFirmwareFilter 参数说明
 
@@ -1379,7 +1379,7 @@ GainWeight_0-5 共用一组 GainLut，用于针对不同亮度区间设置不同
 | m_nGainLut | GainWeight 分段点，对应实际场景的值为 exposure_time(us)*total_gain(Q8)&gt;&gt;8 |   |   |
 | m_pGainWeight_0 | 特殊效果的强度，（见下图 GainWeight-GainLut 控制曲线）值越大，特殊效果越强 | 是 | 可依据 Gainlut 变化 |
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/GF87b77YCoFNpgxtHGmcTdnxnFb.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/GF87b77YCoFNpgxtHGmcTdnxnFb.png)
 
 #### SE Manual 参数
 
@@ -1418,7 +1418,7 @@ CCurveFirmwareFilter 模块用于伽马曲线。
 | m_pGTMCurve2 | 曲线2 | 是 | 可依据Gain调用 |
 
 Curve-Gain 控制曲线示意图如下
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Urz9bne0HomGpfxKoPIcRSvenUh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/Urz9bne0HomGpfxKoPIcRSvenUh.png)
 
 ### CLTMFirmwareFilter 参数说明
 
@@ -1453,7 +1453,7 @@ CLTMFirmwareFilter 模块用于局部色调映射。
 | m_pDstAlphaIndex | 依据 DstAlphaGainIndex 控制节点调整 LTM 强度：值越大，LTM 强度越大 | 是 |  |
 
 PhicBeta 示意图如下
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/E25Abu0eSoVImrxg46xcwvH1nvZ.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/E25Abu0eSoVImrxg46xcwvH1nvZ.png)
 
 ### CUVDenoiseFirmwareFilter 参数说明
 
@@ -1603,11 +1603,11 @@ CAECFilter（AEC）模块用于自动曝光控制。
 
 Exp_index – luma_weight 示意图如下
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/R0T8bjLECohzvwx6L1Gc7KVcntc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/R0T8bjLECohzvwx6L1Gc7KVcntc.png)
 
 Luma – weight 示意图如下
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/MEjWbGZNDoGc4axZxQrcUjLynEh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/MEjWbGZNDoGc4axZxQrcUjLynEh.png)
 
 #### AE 模式控制
 
@@ -1646,11 +1646,11 @@ Luma – weight 示意图如下
 
 Step – target 示意图如下
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/IvlIb6jdvoK7vQxEem0cjRKGnCb.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/IvlIb6jdvoK7vQxEem0cjRKGnCb.png)
 
 Luma – stpe 示意图如下
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/PJxXbFP5ho4oHcxLxmscehAEnKh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/PJxXbFP5ho4oHcxLxmscehAEnKh.png)
 
 #### 自动动态范围补偿增益计算
 
@@ -1664,7 +1664,7 @@ Luma – stpe 示意图如下
 | m_nMaxDRCGain | 最大 DRC 增益 | 是 |  |
 | m_nMaxDRCGainDark | 最大 DRC Dark 增益  | 是 |  |
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/NBOHbysteo5NtQx9fv9cENVynhe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/NBOHbysteo5NtQx9fv9cENVynhe.png)
 
 PixelNumPercent - DRCGainDark 示意图
 
@@ -1787,7 +1787,7 @@ CAFFilter 模块用于自动对焦控制。
 | m_nMinStepRatioMacro | 同上，最小步长比例 | 用户设置 | 见图2 |
 | m_nMaxSafeStepMacro | 同上，最大安全步长 | 用户设置 | 见图2 |
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/JeuSbzuDfoBgZmxPpjOc5eHBnIc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/JeuSbzuDfoBgZmxPpjOc5eHBnIc.png)
 
 图 1
 
@@ -1796,19 +1796,19 @@ CAFFilter 模块用于自动对焦控制。
 - Graphic 图形演示
 - Output 输出一种情况
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/AMDjblfBJofaQIxIcKHcgVT0nzh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/AMDjblfBJofaQIxIcKHcgVT0nzh.png)
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/FJktbd8yLopteExp8ivcaZW8n8b.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/FJktbd8yLopteExp8ivcaZW8n8b.png)
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/S8F1bZuBYodcpHxzpDIc4iIgnjd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/S8F1bZuBYodcpHxzpDIc4iIgnjd.png)
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/PddBb82jNotOUTxV57ocFYK9n5d.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/PddBb82jNotOUTxV57ocFYK9n5d.png)
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/N0j9bUukVos4qLx3bv5cMzRynAh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/N0j9bUukVos4qLx3bv5cMzRynAh.png)
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/ANqibXzqqoGK0bxDiLeciB5Unxe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/ANqibXzqqoGK0bxDiLeciB5Unxe.png)
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/ARYubf6ZrovCCuxDdu4cDNvpnhb.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/ARYubf6ZrovCCuxDdu4cDNvpnhb.png)
 
 图 2
 
@@ -1824,7 +1824,7 @@ CAFFilter 模块用于自动对焦控制。
 
 - MotorMoveStep 表示实时的步长，它根据当前电机运动方向、当前处于粗步长还是细步长模式改变，是一个变量，符号可为正，可为负，可为较大值，可为较小值
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/CgoZbDxPfoa1Vyxg5pNcFFsJnjb.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/CgoZbDxPfoa1Vyxg5pNcFFsJnjb.png)
 
 图 3
 
@@ -1833,9 +1833,9 @@ CAFFilter 模块用于自动对焦控制。
 - Graphic 图形演示
 - Output 输出一种情况
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/GQT7brkH5oXi1pxLVx5c8YAfnGf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/GQT7brkH5oXi1pxLVx5c8YAfnGf.png)
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/HsXLbF68LoRnc6x1FVZcoxAunKf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/HsXLbF68LoRnc6x1FVZcoxAunKf.png)
 
 #### Focus Value 判定参数
 
@@ -2016,15 +2016,15 @@ CAWBFilter（AWB）模块用于自动白平衡控制。
 | m_pLowCtProtectRatio | 降高色温统计块权重系数，值越小，高色温统计块权重越低，与 baseRatio 共同决定统计块的权重（见下图示 CtThr – ProtectRatio） | 是 | 随 CtThr 变化 |
 | m_nLog2CwtOverA | CWF 与 A 光权重比 | 否 |  |
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/XHjabVAXKoenQbxx9v7cRZl9nyh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/XHjabVAXKoenQbxx9v7cRZl9nyh.png)
 
 CtThr – ProtectRatio 示意图
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Yg4EbdPsCowxyOxyTA2cOY10nKc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/Yg4EbdPsCowxyOxyTA2cOY10nKc.png)
 
 lowCtLightPermillage-ratio 示意图
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/P8bMbljXaom7BGxzAVtcDoTtnPd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/P8bMbljXaom7BGxzAVtcDoTtnPd.png)
 
 dayLightPermillage-ratio 示意图
 
@@ -2106,7 +2106,7 @@ Row 表示不同 layer 的参数：
 
 Layer 越高，对应处理图像越高频的区域。
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/WSVvbAViHo5eKnx7pt1ctXomnMc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/WSVvbAViHo5eKnx7pt1ctXomnMc.png)
 
 #### 2D NR 亮度控制参数
 
@@ -2175,11 +2175,11 @@ Layer 越高，对应处理图像越高频的区域。
 | m_nuv_wp_gain | 过曝点的权重，值越大，过曝点对最终饱和度的影响越大（见 Uv_wp_gain- num_wb 示意图） | 是 | 可随 Gain 变化 |
 | m_nuv_pf_gain | 紫边区间的权重，值越大，紫边区间对最终饱和度的影响越大（见 Uv_pf_gain- hue_pf 示意图） | 是 | 可随 Gain 变化 |
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Z5TSbZah2o6nRpxjmhkcDnOHnQd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/Z5TSbZah2o6nRpxjmhkcDnOHnQd.png)
 
 Uv_pf_gain – hue_pf 示意图
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/JwAnbDkXsogvrrx3FUqcrRV3nOg.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/JwAnbDkXsogvrrx3FUqcrRV3nOg.png)
 
 Uv_wb_gain – num_wp 示意图
 
@@ -2263,7 +2263,7 @@ rear_secondary_cpp_preview_setting.data rear_secondary_cpp_snapshot_setting.data
 
 单击 VRF，启动 VRF viewer，界面如下
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/E4pVbaHrqoZDxcx4uojcke4OnCe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/E4pVbaHrqoZDxcx4uojcke4OnCe.png)
 
 **menu:菜单功能区**
 

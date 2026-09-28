@@ -15,7 +15,7 @@ It provides a unified entry point for RISC-V development, enabling developers to
 ## Interface Overview
 
 The main interface includes the navigation bar, toolbar, device area, and AI workspace, allowing developers to connect devices, manage systems, and perform debugging tasks in a single window.
-![SpacemiT Studio main interface](../../../_assets/docs-tool/studio/static/home.png)
+![SpacemiT Studio main interface](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/home.png)
 
 ## Use Cases
 

@@ -32,21 +32,21 @@ updated: "2026-08-24 08:57:05"
 
 未连接设备时，首页显示空状态
 
-![未连接设备](../../../../_assets/docs-tool/studio/static/device.png)
+![未连接设备](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/device.png)
 
 或者设备离线状态（以前连接过的设备）：
 
-![设备离线](../../../../_assets/docs-tool/studio/static/device_04.png)
+![设备离线](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/device_04.png)
 
 ### 连接成功
 
 设备连接成功后，首页将显示当前设备的详细信息：
 
-![设备已连接](../../../../_assets/docs-tool/studio/static/initial_01.png)
+![设备已连接](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/initial_01.png)
 
 ## 设备操作
 
-![设备操作面板](../../../../_assets/docs-tool/studio/static/device_00.png)
+![设备操作面板](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/device_00.png)
 
 ### 设备信息
 
@@ -69,23 +69,23 @@ updated: "2026-08-24 08:57:05"
 - **[文件](terminal.md#文件管理)**：进入设备文件管理
 - **[串口连接](dev_tools/system_tools.md#串口连接)**：通过串口与设备通信，用于底层调试和日志查看
 - **远程桌面**：通过 VNC/RDP 访问设备图形界面
-  ![](../../../../_assets/docs-tool/studio/static/remote.png) 
+  ![](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/remote.png) 
 - **IDE**：在 Studio 内打开设备的集成开发环境
-  ![IDE](../../../../_assets/docs-tool/studio/static/ide.png)
+  ![IDE](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/ide.png)
 - **进入刷机模式**（仅 ADB 设备）：一键让设备进入刷机模式，无需手动操作硬件按键或执行命令，便于快速进行[固件烧录](dev_tools/flash.md) 
 
 ### 重命名设备
 
 支持对已连接设备自定义命名，便于多设备管理时区分：
 
-![重命名设备](../../../../_assets/docs-tool/studio/static/device_01.png)  
+![重命名设备](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/device_01.png)  
 
 ### 新设备
 
 如需增加新设备，可点击 **+新设备** 按键，在弹出的 **连接您的设备** 窗口中按步骤完成设备连接。
 窗口底部可切换连接方式：Cloud、SSH 或 USB。
 
-![新设备](../../../../_assets/docs-tool/studio/static/device_03.png)  
+![新设备](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/device_03.png)  
 
 新增的设备会显示在 **当前设备** 列表中。
 
@@ -93,7 +93,7 @@ updated: "2026-08-24 08:57:05"
 
 动态页面汇总两类信息：
 
-![动态页面](../../../../_assets/docs-tool/studio/static/device_02.png)  
+![动态页面](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/device_02.png)  
 
 - **操作记录**：当前设备的历史操作日志，包含固件包名称、操作方式、执行时间及成功/失败状态。点击右上角 **查看全部** 可展开完整历史记录
 - **最新动态**：平台推送的更新资讯

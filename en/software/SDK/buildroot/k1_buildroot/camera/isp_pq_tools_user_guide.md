@@ -53,7 +53,7 @@ This document mainly introduces SpacemiT image tuning, including
 
 ### Tuning Tool Architecture
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/ISPtool.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/ISPtool.png)
 
 ### PC-Side Tuning Tool Installation
 
@@ -63,7 +63,7 @@ The tool can be downloaded from the following link: [https://archive.spacemit.co
 After extraction, the following files are included:
 
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/RJ3wbCncao9oW1xqY3Fc3itinQg.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/RJ3wbCncao9oW1xqY3Fc3itinQg.png)
 
 ### Debugging Environment Setup
 
@@ -94,7 +94,7 @@ AsrIspTool connects to the terminal device via USB and communicates with the dev
 
 Double-click `AsrIspTool.exe` to launch the tuning tool. The main interface is shown below:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/QyG4bB7vRoxN4pxHi8ecF1WKn2d.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/QyG4bB7vRoxN4pxHi8ecF1WKn2d.png)
 
 - **Menu: Functional Menu Area**
   - **Open**: Open parameter file.
@@ -131,13 +131,13 @@ To enable periodic refreshing of read-write parameters as well, check the **Auto
 
 To perform a one-time read of all parameters, click the **Read** button in the upper-right corner.
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/VfaobKikkom8AmxikFAcFpr5nsc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/VfaobKikkom8AmxikFAcFpr5nsc.png)
 
 **Note**. The ADB connection method is only applicable for projects using the Android system. We primarily use TCP network connections to tune the development board.
 
 #### Parameter Type Description
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/P0oCbyHqao9Yfpxl6wScqVpCn3e.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/P0oCbyHqao9Yfpxl6wScqVpCn3e.png)
 
 - **Adjustable Parameters**
   - Parameters that can be checked, for example, `m_bAutoCalculateAEMWindow`.
@@ -164,7 +164,7 @@ To perform a one-time read of all parameters, click the **Read** button in the u
 
 #### Register Read/Write
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/AXhhbCplsoM4IYxa3d6cu3p4nMd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/AXhhbCplsoM4IYxa3d6cu3p4nMd.png)
 
 1. Click the **Register** button in the menu area.
 2. Set the **Address** (register address).
@@ -177,7 +177,7 @@ To perform a one-time read of all parameters, click the **Read** button in the u
 
 #### I2C Read/Write
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/TMzDbydbgoiWlYxX5XocLzHmnVf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/TMzDbydbgoiWlYxX5XocLzHmnVf.png)
 
 1. Click the **I2C** button in the menu area.
 2. Set the **Device ID** (I2C device number).
@@ -198,11 +198,11 @@ When performing batch register operations, click **Batch Read** or **Batch Write
 The results will be displayed in the red log area, and a file with the same name ending in `_read.txt` will be generated for later review.
 
 
-  ![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/BfTFbluLmoBmPYxTWsvceubLnCh.png)
+  ![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/BfTFbluLmoBmPYxTWsvceubLnCh.png)
 
 **Example of Batch Register Read/Write File Format**
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/YTMBbCIXIoLGK7xgYlic7UDon9b.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/YTMBbCIXIoLGK7xgYlic7UDon9b.png)
 
 #### Saving Parameters
 
@@ -250,7 +250,7 @@ Capture VRF data in a completely dark environment or with the lens fully covered
 #### BLC Calibration Steps
 
 The BLC calibration interface is shown below:
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Bv0JbfQfVoCa1NxxevYch701nIb.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/Bv0JbfQfVoCa1NxxevYch701nIb.png)
 
 1. In the BLC plugin, click **Load** to import the VRF image.
 2. Select the **Pipe ID** (optional if not a single pipeline).
@@ -263,7 +263,7 @@ The BLC calibration interface is shown below:
 - The **Calibrated Result panel** displays the values of 4 channels in both 10-bit and 8-bit formats. When the parameters are saved to a file, they are mapped to 12-bit values.
 - **Channel ID**: Indicates the BLC parameters corresponding to a specific gain level of 2ᵅ. BLC can be adjusted dynamically with gain, ranging from 1x to 2048x gain, for a total of 12 levels (see the **Gain–BlackValue diagram** below). The final level, **manual**, takes effect only when **manual mode** is enabled; in this mode, BLC does not adjust with gain.
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/CPWGbI87NoUWSXxGp0OcvEo1nFF.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/CPWGbI87NoUWSXxGp0OcvEo1nFF.png)
 
 Gain – BlackValue Diagram
 
@@ -284,7 +284,7 @@ Capture several uniformly illuminated images using a diffuse cover over the lens
 
 The LSC calibration interface is shown below:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/HL7wbuzstoOKcyxjSKBce4sJngf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/HL7wbuzstoOKcyxjSKBce4sJngf.png)
 
 1. In the LSC plugin, click **Load** to import the VRF image.
 2. Select the **Pipe ID** (optional if not a single pipeline).
@@ -310,7 +310,7 @@ LSC can be adjusted according to **CT** or **CorrelatedCT** (see the **CT-LSCPro
 - **CorrelatedCT** Definition: Correlated color temperature, representing how closely the light emitted by a source matches the blackbody radiation at a certain color temperature.
 
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Cza4bQxuboELiHxu4Q6cu8YNnCb.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/Cza4bQxuboELiHxu4Q6cu8YNnCb.png)
 
 LSC parameters are located in CLSCFirmwareFilter.
 
@@ -319,7 +319,7 @@ LSC parameters are located in CLSCFirmwareFilter.
 
 **Note.** LSC interpolation can be based on either the CT result calculated by **AWBFilter** (read **CT** in AWB plugin) or the **CCT** result calculated by **CCTCalculatorFilter** (read **m_nCorrelationCT** in **WbFirmwareFilter**)
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/U1RmbqcooohmnEx7d29cVkK6nfH.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/U1RmbqcooohmnEx7d29cVkK6nfH.png)
 
 ### CCM and CCT Calibration and Tuning
 
@@ -332,7 +332,7 @@ Capture an image of a 24-color chart in a lightbox environment. The color chart 
 
 The CCM calibration interface is shown below:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/TH3Rbs3dQoiGwoxi6AMcVmtMn5e.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/TH3Rbs3dQoiGwoxi6AMcVmtMn5e.png)
 
 1. In the CCM plugin, click **Load** to import the VRF image. The VRF image should be compensated for LSC and PDF (if PD pixels exist) using the Raw **Preprocessor plugin**.
 2. Select the entire color chart in the image by drawing a box, ensuring all 24 ROIs fall within the color patches. If the image is misaligned or heavily distorted, click **Start**, check the ROIs you want to adjust individually, and then manually drag the ROIs.
@@ -346,7 +346,7 @@ The CCM calibration interface is shown below:
 
 The CCM calibration interface is shown below:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/O8xmbKq8soVjc8xtrebcw7n6nJf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/O8xmbKq8soVjc8xtrebcw7n6nJf.png)
 
 1. The CCT calibration can be performed simultaneously with CCM calibration. CCT requires only **A** and 
 **D65** light sources.
@@ -376,7 +376,7 @@ The CCM calibration interface is shown below:
 
 CCM can be adjusted based on color temperature (see the **CCM–Color Temperature Control Curve below**).
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Tm8ZbZsTQosPkVxDBVvcNIi5nLg.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/Tm8ZbZsTQosPkVxDBVvcNIi5nLg.png)
 
 CCM parameters are located in **CColorMatrixFirmwareFilter**.
 
@@ -385,7 +385,7 @@ CCM parameters are located in **CColorMatrixFirmwareFilter**.
 
 **Note**. CCM interpolation can be based on either the CT result calculated by **AWBFilter** (read **CT** in the AWB plugin) or the **CCT** result calculated by **CCTCalculatorFilter** (read **m_nCorrelationCT** in **WbFirmwareFilter**).
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Wii6bCvr0osUzdxZdn2cSw5vnPd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/Wii6bCvr0osUzdxZdn2cSw5vnPd.png)
 
 ### AWB Calibration and Tuning
 
@@ -397,7 +397,7 @@ No additional images are needed for AWB calibration; it can be performed after c
 
 The AWB calibration interface is shown below:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/A8FQbARlQotmwGxVRx2cjIeInud.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/A8FQbARlQotmwGxVRx2cjIeInud.png)
 
 1. Open the AWB plugin.
 2. Click **Optimize**. The calibration parameters will be automatically updated in the parameter interface.
@@ -426,14 +426,14 @@ When connected to the device, open the AWB plugin. The position of each block wi
 
 You can select a region on the statistics chart (by default, points from all regions are displayed). After selection, only the points within the selected blocks will be shown.
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/W42KbmVcZozYu3xCDLKc4Zc9ndf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/W42KbmVcZozYu3xCDLKc4Zc9ndf.png)
 
 ##### White Points within ROI
 
 Click **Show ROI** to view the blocks contained within different ROIs. The white blocks are those participating in the white balance calculation, meaning the blocks that fall inside the ROI area.
 The image below shows the specific affiliation of 32 x 24 blocks to their respective ROIs
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/KCGYbdLdLojsnqxafgUc6umTnPd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/KCGYbdLdLojsnqxafgUc6umTnPd.png)
 
 ##### Block Weight
 
@@ -446,11 +446,11 @@ By adjusting the **Weight Percentage** slider, you can control the ratio between
 
 If set to 100%, the screen may appear completely black, indicating that all blocks have zero weight under the current lux.
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/TBU2b8qGcobYnpxtTnOcGRidnDe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/TBU2b8qGcobYnpxtTnOcGRidnDe.png)
 
 Setting **Weight Percentage** to 100% displays the block weights as a heatmap. You can hover the mouse over any block to see its weight displayed on the right side of the heatmap (debug info is also available in **AWB Frameinfo**).In the image below, the mouse is selecting block[12][2], which has a weight of 16.
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/OnTVbtlSNo69fHxX6yxc4LUHnQe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/OnTVbtlSNo69fHxX6yxc4LUHnQe.png)
 
 ##### White Balance Gain Position
 
@@ -461,7 +461,7 @@ You can zoom in by dragging the mouse from the top-left to the bottom-right, and
 The current white balance gain is shown as a red square in the chromaticity coordinate system.
 
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/NgDNb7QCVolcwox3LTXcX1Iqnvd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/NgDNb7QCVolcwox3LTXcX1Iqnvd.png)
 
 #### AWB Debug Description
 
@@ -528,7 +528,7 @@ The current white balance gain is shown as a red square in the chromaticity coor
 
 The Curve debugging interface is shown below:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/AGhPb6uK4oyHyMx5nG5cqycZnvd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/AGhPb6uK4oyHyMx5nG5cqycZnvd.png)
 
 1. Open the Curve plugin.
 2. Select **Pipe ID** (applicable if not using a single pipeline).
@@ -547,13 +547,13 @@ The Curve debugging interface is shown below:
 
 **Note**. When **m_nCurveSelectOption** is set to 0, the curve is interpolated based on the current gain (see diagram below: **Curve-Gain Control Curve Diagram**).
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/EOSkbycFLoUbzOxDQxgcTQtmnje.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/EOSkbycFLoUbzOxDQxgcTQtmnje.png)
 
 Curve parameters are located in **CCurveFirmwareFilter**.
 
 - The curve can vary with gain. Set appropriate **m_pGainIndex** values to specify different curves for different gains.
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/LqAZbSYKLoAke8xMceLcQ6IjnEe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/LqAZbSYKLoAke8xMceLcQ6IjnEe.png)
 
 ### Noise Calibration and Debugging
 
@@ -568,7 +568,7 @@ Adjust the lighting brightness accordingly, and sequentially capture images of t
 
 The calibration interface is shown in the figure below:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/NA7mbfZEKomduexvZUXcBCm2nYc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/NA7mbfZEKomduexvZUXcBCm2nYc.png)
 
 1. In the Noise plugin, click **Load** to import the RAW image. Use the **Raw Preprocessor** plugin to compensate for LSC and PDF (if there are PD pixels).
 2. In the image, select the bottom 6 color patches on the color chart. Ensure that all 6 ROIs fall entirely within the color blocks. If the image is tilted or has noticeable distortion, click **Start**, check the ROIs you want to manually adjust, and drag them into the correct position.
@@ -597,13 +597,13 @@ Control the lighting brightness so that the gain is as close to 1× as possible.
 Capture images from the motor moving from the minimum to the maximum valid position (divide the entire scan area into 30 segments, resulting in 31 positions), for a total of 31 images.
 (VRF file naming convention: **position.vrf**; PD raw files naming convention: **position_L.raw**, **position_R.raw**).
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/WOQWbeBXKoqnQKxvCTjctR3FnNh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/WOQWbeBXKoqnQKxvCTjctR3FnNh.png)
 
 #### PDAF Calibration Steps
 
 The PDAF calibration interface is shown below:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/FDUibp2uAoon7pxxXMRckoYJnEd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/FDUibp2uAoon7pxxXMRckoYJnEd.png)
 
 1. In the **PDC** plugin, click **Load** to select the folder containing VRF files (if importing already extracted PD raw files, you will also need to input the raw width and height).
 2. Click **Calibrate**, which will display a **position – shift** map corresponding to the image divided into 5x5 blocks.
@@ -622,7 +622,7 @@ In a lightbox environment **D65**, shoot the lightbox wall using frosted glass.
 
 #### PDC Calibration Steps
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/XjGFbPHPvog9dqxMMYzc69Zsnec.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/XjGFbPHPvog9dqxMMYzc69Zsnec.png)
 
 1. In the PDC plugin, click **Analyze**. The plugin will check whether the settings for **m_pPixelMask** and **m_pPixelTypeMask** are reasonable. If not, these two parameters need to be adjusted.
 2. After the **Analyze** process confirms the settings are reasonable, the **Load** button becomes enabled. For QuadBayer PD, you can select the compensation mode (channel 0-1 complementary or channel 2-3 complementary; if the number of PD points in the four channels is equal, four-channel complementary compensation is also available).
@@ -651,7 +651,7 @@ The Raw Preprocessor plugin is used for raw data preprocessing. It supports PD p
 
 The Raw Preprocessor interface is shown below
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/VbYvb8uExoZr3oxylbycmzhon88.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/VbYvb8uExoZr3oxylbycmzhon88.png)
 
 1. Set the **input** and **output** VRF files in the Raw Preprocessor plugin.
 2. Select the corresponding **pipe** and **LSC channel**.
@@ -667,13 +667,13 @@ The General Information plugin is used to connect to the device and display some
 
 By default, the following information is configured for debugging engineers’ reference:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Ru42bu2NQoRfcSxtqxacrgTDnAJ.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/Ru42bu2NQoRfcSxtqxacrgTDnAJ.png)
 
 #### General Information Extension
 
 Click **Setting** to open the information editing page as shown below. You can freely edit the information you want to monitor. Each line represents one display item. For format details, refer to the **Expression Manual**.
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/QJerblj9loAfZUxFgquc500pnwc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/QJerblj9loAfZUxFgquc500pnwc.png)
 
 ## ISP Tuning
 
@@ -749,7 +749,7 @@ The CDigitalGainFirmwareFilter module is used to configure digital gain and blac
 | m_pWBCurrentSignature | White balance current module signature |  - | Read-only |
 
 The BlackValue diagram is as follows:
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/B2wmbYVkfoTzx3xrE78cEYJknVe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/B2wmbYVkfoTzx3xrE78cEYJknVe.png)
 
 ### CWBGainFirmwareFilter Parameter Description
 
@@ -793,7 +793,7 @@ The CColorMatrixFirmwareFilter (CCM) module is used for color correction.
 
 
 cmc-Color Temperature Control Curve (see figure below)  
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/LrvNbO5yioeg6Pxa3NLcbyYunJH.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/LrvNbO5yioeg6Pxa3NLcbyYunJH.png)
 
 #### CCM Color Fringe Suppression Function and Parameters
 
@@ -815,7 +815,7 @@ ColorFringeHueRange[0],[1] is used to define the Hue range for color fringe supp
 
 HueTransShiftNum is used to set the smoothing transition zone:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/KYwJb2nmYowsqxx4YbbcECYAnee.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/KYwJb2nmYowsqxx4YbbcECYAnee.png)
 
 
 - **Freq Control Parameters**
@@ -826,7 +826,7 @@ HueTransShiftNum is used to set the smoothing transition zone:
 | m_nHighFreqTransShiftNum  | High-frequency transition band offset coefficient (see example in HighFreqTrans-EdgeRatio curve). Frequencies falling into the range [HighFreqThreshold, HighFreqThreshold +(1&lt;&lt;HighFreqTransShiftNum)] are smoothed | Yes |  |
 
 HighFreqTrans-EdgeRatio curve shown below  
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Du34bsO1roaHMuxBUsIcZMQ8nNd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/Du34bsO1roaHMuxBUsIcZMQ8nNd.png)
 
 
 #### CCM Manual Parameters
@@ -867,11 +867,11 @@ BPC strength can be dynamically adjusted according to gain and brightness.
 
 - The gain control parameter is m_pBpcGainIndex, with twelve groups from 0 to 11; 16 corresponds to 1x gain. When the gain is between two nodes, the parameter is the interpolation result of the two node parameters.
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/FzClb3bksoSX9OxRcLfcInZpn9e.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/FzClb3bksoSX9OxRcLfcInZpn9e.png)
 
 - The brightness control parameter is m_pSegG, with nine groups from 0 to 8, where the 8th group is fixed at 255 and cannot be changed, corresponding to VRF data pixel value (mapped to 8 bits). When brightness is between two nodes, the parameter is the interpolation result of the two node parameters. The interval between adjacent levels must be a power of 2, it is recommended to keep the default value.
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/QjlsbDwzIoHbpTxTl3xc53zvnGc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/QjlsbDwzIoHbpTxTl3xc53zvnGc.png)
 
 - The strength control parameter can be dynamically adjusted with changes in gain and brightness.
 
@@ -889,11 +889,11 @@ Taking m_pSlopeG as an example:
 
 - Row represents the Lum level, corresponding one-to-one with m_pSegG.
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/JAlIbd1wAoKOfUxLK7Fc223ontg.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/JAlIbd1wAoKOfUxLK7Fc223ontg.png)
 
 - Parameter interpolation with Lum change explanation
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/LNJCbJMKJocZrxxR9SEc7QgtnDc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/LNJCbJMKJocZrxxR9SEc7QgtnDc.png)
 
 **Notes:**
 - The above values changing with Lum include Slope and Intercept
@@ -970,10 +970,10 @@ CLSCFirmwareFilter module is used for lens shading correction.
 | m_pLSCProfile | LSC compensation table, calibrated by LSC plugin | Calibration result parameter | Can be called based on color temperature |
 
 LSC-color temperature control curve below  
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/JMPabWdtVomXsJx1sTnc7MnanLe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/JMPabWdtVomXsJx1sTnc7MnanLe.png)
 
 Gain-strength illustration below  
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/CHr0bp58jojXhaxbF8RcNveJnmh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/CHr0bp58jojXhaxbF8RcNveJnmh.png)
 
 
 #### Adaptive Color Shading Parameters
@@ -1058,10 +1058,10 @@ Column represents the gain level
 - Column[0] corresponds to the value at 1x gain  
 - Column[11] corresponds to the value at 2048x gain
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/GrX6bMFrCoPYUBx1zVUcAh6zn1f.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/GrX6bMFrCoPYUBx1zVUcAh6zn1f.png)
 
 Gain – Sharpen illustrative chart as below  
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/S8vmbd56NoR3DHxROWMcN4YTnKb.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/S8vmbd56NoR3DHxROWMcN4YTnKb.png)
 
 #### Demosaic Other Parameters
 
@@ -1106,7 +1106,7 @@ Gain control nodes N range from 0 to 11, twelve groups in total. The gain at nod
 
 m_pL0 - m_pL3 correspond to denoise strength at different brightness levels, as shown in the figure below:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/QYi8bwTGhohuWixrKjycbeqDniV.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/QYi8bwTGhohuWixrKjycbeqDniV.png)
 
 
 Taking **m_pSigma** as an example:
@@ -1116,11 +1116,11 @@ Column represents the Gain level:
 - Column[0] corresponds to the parameter at 1x gain;
 - Column[11] corresponds to the parameter at 2048x gain;
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/ReeEbtPUyonDK3xyYSRcdCmInrh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/ReeEbtPUyonDK3xyYSRcdCmInrh.png)
 
 Gain - Denoise_strength illustrative chart is shown below
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/JyuGbHVjXoGaCpxkFqtc627Vnwg.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/JyuGbHVjXoGaCpxkFqtc627Vnwg.png)
 
 #### RawDenoise Functional Modules and Parameters
 
@@ -1135,11 +1135,11 @@ Gain - Denoise_strength illustrative chart is shown below
 
 R - CenterPercent illustrative chart below
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/MjDzbshXVosldrx6y5hcvU7znie.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/MjDzbshXVosldrx6y5hcvU7znie.png)
 
 Distance - RadialGain illustrative chart below
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/EKIfbxmProoJh7x3MfacWYF3n3d.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/EKIfbxmProoJh7x3MfacWYF3n3d.png)
 
 
 #### RawDenoise debug Parameters
@@ -1228,7 +1228,7 @@ CPDCFirmwareFilter module is used to compensate PD pixels or shadow pixels to no
 | m_nWinHeight | Height of PDC statistics window |  - | Read-only |
 
 Window diagram shown below:  
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/YTpPbURsvoGK57xo5H8cz0SPnJe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/YTpPbURsvoGK57xo5H8cz0SPnJe.png)
 
 
 ### CPDFFirmwareFilter Parameter Description
@@ -1288,7 +1288,7 @@ CPDAFFirmwareFilter module is used for Phase Detection Auto Focus (PDAF).
   
 Correlation fitting curve illustration:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/KQExbr7SRoZaHxxuMdZc1mYnntf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/KQExbr7SRoZaHxxuMdZc1mYnntf.png)
 
 
 #### PDAF Dynamic Control Parameters
@@ -1301,11 +1301,11 @@ Correlation fitting curve illustration:
 
 LumThre-Gain control curve:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/UOFrbbfugowiQ0xGIFMcsYpinGg.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/UOFrbbfugowiQ0xGIFMcsYpinGg.png)
 
 SwingThre-Gain control curve:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/O295b9FmhoY1myxB0F5cqU7Zn2f.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/O295b9FmhoY1myxB0F5cqU7Zn2f.png)
 
 #### PDAF Confidence Control Parameters
 
@@ -1320,7 +1320,7 @@ SwingThre-Gain control curve:
 
 Error-Confidence conversion curve shown below:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/BIBybAjYiogHzmxrC6AcXIFun5c.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/BIBybAjYiogHzmxrC6AcXIFun5c.png)
 
 ### CWbFirmwareFilter Parameter Description
 
@@ -1391,7 +1391,7 @@ CRGB2YUVFirmwareFilter module is used for RGB to YUV conversion.
 | m_nSaturationManual | Manual saturation coefficient, Q7 precision                                                        |                    | Debug parameter |
 
 sat_CP-gain control curve is shown below:  
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/L1MtbvrsSoBgR6xi8cmcjbGGnVg.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/L1MtbvrsSoBgR6xi8cmcjbGGnVg.png)
 
 
 ### CSpecialEffectFirmwareFilter Parameter Description
@@ -1430,7 +1430,7 @@ GainWeight_0-5 share one GainLut, used to set different intensities for differen
 | m_nGainLut       | GainWeight segment points, corresponding actual scene value = exposure_time(us) * total_gain(Q8) >> 8 |               |                        |
 | m_pGainWeight_0  | Intensity of special effect (see GainWeight-GainLut control curve below). Larger values mean stronger special effect | Yes  | Can vary according to GainLut |
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/GF87b77YCoFNpgxtHGmcTdnxnFb.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/GF87b77YCoFNpgxtHGmcTdnxnFb.png)
 
 #### SE Manual Parameters
 
@@ -1468,7 +1468,7 @@ CCurveFirmwareFilter module is used for gamma curve.
 | m_pGTMCurve2               | Curve 2     | Yes               | Called based on Gain   |
 
 Curve-Gain control curve illustration below:  
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Urz9bne0HomGpfxKoPIcRSvenUh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/Urz9bne0HomGpfxKoPIcRSvenUh.png)
 
 ### CLTMFirmwareFilter Parameter Description
 
@@ -1503,7 +1503,7 @@ CLTMFirmwareFilter module is used for Local Tone Mapping (LTM).
 | m_pDstAlphaIndex        | Controls LTM strength based on DstAlphaGainIndex; larger values mean stronger LTM                                                        | Yes               |               |
 
 PhicBeta diagram below:  
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/E25Abu0eSoVImrxg46xcwvH1nvZ.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/E25Abu0eSoVImrxg46xcwvH1nvZ.png)
 
 ### CUVDenoiseFirmwareFilter Parameter Description
 
@@ -1658,11 +1658,11 @@ CAECFilter (AEC) module is used for Auto Exposure Control.
 
 Exp_index – luma_weight diagram:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/R0T8bjLECohzvwx6L1Gc7KVcntc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/R0T8bjLECohzvwx6L1Gc7KVcntc.png)
 
 Luma – weight diagram:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/MEjWbGZNDoGc4axZxQrcUjLynEh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/MEjWbGZNDoGc4axZxQrcUjLynEh.png)
 
 #### AE Mode Control
 
@@ -1701,11 +1701,11 @@ Luma – weight diagram:
 
 Step–Target Illustration:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/IvlIb6jdvoK7vQxEem0cjRKGnCb.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/IvlIb6jdvoK7vQxEem0cjRKGnCb.png)
 
 Luma–Step Illustration:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/PJxXbFP5ho4oHcxLxmscehAEnKh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/PJxXbFP5ho4oHcxLxmscehAEnKh.png)
 
 
 #### Automatic Dynamic Range Compensation Gain Calculation
@@ -1721,7 +1721,7 @@ Luma–Step Illustration:
 | m_nMaxDRCGainDark         | Maximum DRC gain for dark areas                                                                                                                 | Yes                        |       |
 
 PixelNumPercent–DRCGainDark Illustration:
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/NBOHbysteo5NtQx9fv9cENVynhe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/NBOHbysteo5NtQx9fv9cENVynhe.png)
 
 #### Lux Calibration
 
@@ -1844,7 +1844,7 @@ The CAFFilter module is used for automatic focus control.
 | m_nMinStepRatioMacro | Minimum step ratio in soft landing mode (same as above) | User Setting | See Figure 2 |
 | m_nMaxSafeStepMacro | Maximum safe step in soft landing mode (same as above) | User Setting | See Figure 2 |
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/JeuSbzuDfoBgZmxPpjOc5eHBnIc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/JeuSbzuDfoBgZmxPpjOc5eHBnIc.png)
 
 Figure 1
 
@@ -1853,19 +1853,19 @@ Description per condition group:
 - Graphic: Visual demonstration
 - Output: One output scenario
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/AMDjblfBJofaQIxIcKHcgVT0nzh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/AMDjblfBJofaQIxIcKHcgVT0nzh.png)
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/FJktbd8yLopteExp8ivcaZW8n8b.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/FJktbd8yLopteExp8ivcaZW8n8b.png)
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/S8F1bZuBYodcpHxzpDIc4iIgnjd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/S8F1bZuBYodcpHxzpDIc4iIgnjd.png)
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/PddBb82jNotOUTxV57ocFYK9n5d.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/PddBb82jNotOUTxV57ocFYK9n5d.png)
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/N0j9bUukVos4qLx3bv5cMzRynAh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/N0j9bUukVos4qLx3bv5cMzRynAh.png)
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/ANqibXzqqoGK0bxDiLeciB5Unxe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/ANqibXzqqoGK0bxDiLeciB5Unxe.png)
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/ARYubf6ZrovCCuxDdu4cDNvpnhb.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/ARYubf6ZrovCCuxDdu4cDNvpnhb.png)
 
 Figure 2
 
@@ -1881,7 +1881,7 @@ Figure 2
 
 - MotorMoveStep indicates the real-time step length, changing according to motor movement direction and whether in coarse or fine step mode; it can be positive, negative, large, or small.
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/CgoZbDxPfoa1Vyxg5pNcFFsJnjb.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/CgoZbDxPfoa1Vyxg5pNcFFsJnjb.png)
 
 Figure 3
 
@@ -1890,9 +1890,9 @@ Description per condition group:
 - Graphic: Visual demonstration
 - Output: One output scenario
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/GQT7brkH5oXi1pxLVx5c8YAfnGf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/GQT7brkH5oXi1pxLVx5c8YAfnGf.png)
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/HsXLbF68LoRnc6x1FVZcoxAunKf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/HsXLbF68LoRnc6x1FVZcoxAunKf.png)
 
 
 #### Focus Value (FV) Judgment Parameters
@@ -2085,15 +2085,15 @@ The CAWBFilter (AWB) module is used for automatic white balance control.
 
 **CtThr – ProtectRatio illustration**
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/XHjabVAXKoenQbxx9v7cRZl9nyh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/XHjabVAXKoenQbxx9v7cRZl9nyh.png)
 
 **lowCtLightPermillage-ratio illustration**
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Yg4EbdPsCowxyOxyTA2cOY10nKc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/Yg4EbdPsCowxyOxyTA2cOY10nKc.png)
 
 **dayLightPermillage-ratio illustration**
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/P8bMbljXaom7BGxzAVtcDoTtnPd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/P8bMbljXaom7BGxzAVtcDoTtnPd.png)
 
 
 #### Green Zone Control
@@ -2176,7 +2176,7 @@ Some parameters adjust according to Gain/Layer, for example, **m_pCnrSig_y**:
 
 Higher layers correspond to processing higher frequency regions of the image.
 
-![2D NR Gain/Layer Example](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/WSVvbAViHo5eKnx7pt1ctXomnMc.png)
+![2D NR Gain/Layer Example](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/WSVvbAViHo5eKnx7pt1ctXomnMc.png)
 
 
 #### 2D NR Luminance Control Parameters
@@ -2255,11 +2255,11 @@ The chromatic aberration suppression function is controlled jointly by overexpos
 
 **Uv_pf_gain – hue_pf Diagram**
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/Z5TSbZah2o6nRpxjmhkcDnOHnQd.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/Z5TSbZah2o6nRpxjmhkcDnOHnQd.png)
 
 **Uv_wb_gain – num_wp Diagram**
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/JwAnbDkXsogvrrx3FUqcrRV3nOg.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/JwAnbDkXsogvrrx3FUqcrRV3nOg.png)
 
 ---
 
@@ -2344,7 +2344,7 @@ rear_secondary_cpp_preview_setting.data rear_secondary_cpp_snapshot_setting.data
 
 Click on a VRF file to launch the VRF viewer. The interface is shown below:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/E4pVbaHrqoZDxcx4uojcke4OnCe.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/camera/static/E4pVbaHrqoZDxcx4uojcke4OnCe.png)
 
 **Menu: Functional Area**
 

@@ -29,10 +29,10 @@ updated: "2026-09-17 14:44:23"
 K3 Pico-ITX 提供两款不同的套餐配置：
 
 - **单板套装**
-   ![](../../../../_assets/docs-product/k3_pico/static/pico_base.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/pico_base.png)
 
 - **机箱套装**
-   ![](../../../../_assets/docs-product/k3_pico/static/pico_case.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/pico_case.png)
 
 使用前，请连接以下必要外设。接通电源后即可开机使用：
 
@@ -50,18 +50,18 @@ K3 Pico-ITX 提供两款不同的套餐配置：
 **方式一**：选用具备 65 W 或更大功率 Type-C 反向充电能力的显示器，通过一根全功能 Type-C 线缆连接显示器与单板计算机；
 
 - **方式一（单板套装）**
-   ![](../../../../_assets/docs-product/k3_pico/static/pico_base_01.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/pico_base_01.png)
 
 - **方式一（机箱套装）**
-   ![](../../../../_assets/docs-product/k3_pico/static/pico_case_01.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/pico_case_01.png)
 
 **方式二**：选用支持 HDMI 投屏、USB 和 PD 充电的多功能扩展坞，并将扩展坞接入单板计算机的全功能 Type-C 接口，通过该接口完成电源与显示转接。
 
 - **方式二（单板套装）**
-   ![](../../../../_assets/docs-product/k3_pico/static/pico_base_02.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/pico_base_02.png)
 
 - **方式二（机箱套装）**
-   ![](../../../../_assets/docs-product/k3_pico/static/pico_case_02.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/pico_case_02.png)
 
 > **注意**：为确保单板计算机稳定运行，上电前请确认设备处于通风良好的环境中，并配合原装配套的散热器使用。
 
@@ -81,37 +81,37 @@ K3 Pico-ITX 支持 UEFI 启动和配置，可以选择 NVMe SSD、USB、UFS 作�
 
 在 K3 Pico-ITX 上电开机后 3 s 内，按下 “F2” 键，即可进入 UEFI 设置界面。
 
-![](../../../../_assets/docs-product/k3_pico/static/uefi_00.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/uefi_00.png)
 
 #### 1.2.2 启动管理 Boot Manager
 
 在 Boot Manager Menu 中，通过 <↑> 和 <↓> 键选择 NVMe SSD、USB 硬盘或 UFS 启动，也可选择进入 UEFI Shell 命令行界面。
 
-![](../../../../_assets/docs-product/k3_pico/static/uefi_01.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/uefi_01.png)
 
 #### 1.2.3 启动维护 Boot Maintenance Manager
 
 在 Boot Maintenance Manager 菜单中，进入 Boot Options，选择 Change Boot Order 可设置启动介质优先级。按 <+> 和 <-> 调整启动顺序，按 <Enter> 后选择 Commit Change and Exit 提交设置并退出；返回主菜单后，按 <F10> 保存设置。
 
-![](../../../../_assets/docs-product/k3_pico/static/uefi_02.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/uefi_02.png)
 
 #### 1.2.4 交互命令行 UEFI Interactive Shell
 
 支持 UEFI Interactive Shell V2.2 版本。首次进入 UEFI Interactive Shell 时，界面会打印当前检测到的所有存储设备。按下除 <Esc> 以外的任意键，或等待 5 秒后，即可进入命令行界面。输入 `help` 可查看支持的命令及相关帮助信息。
 
-![](../../../../_assets/docs-product/k3_pico/static/uefi_03.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/uefi_03.png)
 
 #### 1.2.5 GRUB 引导
 
 支持 GRUB 引导，可安装多个操作系统，并在启动时由用户自行选择。
 
-![](../../../../_assets/docs-product/k3_pico/static/grub.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/grub.png)
 
 ## 2. 硬件描述
 
 ### 2.1 资源概览
 
-![](../../../../_assets/docs-product/k3_pico/static/keys00.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/keys00.png)
 
 > **备注**：主板外观可能因硬件版本不同而有细微差别。
 
@@ -163,7 +163,7 @@ K3 Pico-ITX 支持 UEFI 启动和配置，可以选择 NVMe SSD、USB、UFS 作�
   > - 当系统由 Type-C PD 供电时，若接入优先级更高的 ATX 电源，系统将自动重启，并在重启后切换至 ATX 供电。
 - 进入烧录模式时，该接口可同时提供供电和 USB Device 功能。通过 USB Type-C 与上位机连接后，可被扫描和识别，支持烧录升级操作。
 
-![](../../../../_assets/docs-product/k3_pico/static/power00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/power00.png)  
 
 | No. | 接口说明             |
 |-----|-----------------------------------|
@@ -176,7 +176,7 @@ K3 Pico-ITX 支持 UEFI 启动和配置，可以选择 NVMe SSD、USB、UFS 作�
 
 > **注意**：烧录 Type-C 口不可向板内供电，烧录时需通过其他供电口保持供电；烧录时，USB 线缆须为数据通讯线缆，仅支持充电的 USB 线缆无法烧录。
 
-![](../../../../_assets/docs-product/k3_pico/static/flash00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/flash00.png)  
 
 | No. | 接口说明             |
 |-----|---------------------|
@@ -189,7 +189,7 @@ K3 Pico-ITX 支持 UEFI 启动和配置，可以选择 NVMe SSD、USB、UFS 作�
 - DP 显示屏最高支持 4K@60 Hz 分辨率，支持热插拔。
 - 显示接口仅连接 DP 屏幕时，DP 屏幕为主显示屏。
 
-![](../../../../_assets/docs-product/k3_pico/static/type-c00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/type-c00.png)  
 
 | No. | 接口说明             |
 |-----|-----------------------------------|
@@ -212,7 +212,7 @@ K3 Pico-ITX 支持 UEFI 启动和配置，可以选择 NVMe SSD、USB、UFS 作�
 > 2. M.2 B-Key 作为存储扩展接口时仅支持 PCIe SSD，不支持 SATA SSD。
 > 3. 不支持热插拔。安装或拆卸前请先断电。
 
-![](../../../../_assets/docs-product/k3_pico/static/M2_00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/M2_00.png)  
 
 | No. | 接口说明             |
 |-----|-----------------------------------|
@@ -226,7 +226,7 @@ K3 Pico-ITX 支持 UEFI 启动和配置，可以选择 NVMe SSD、USB、UFS 作�
 - 仅连接 eDP 屏幕时，eDP 屏幕默认为主显示屏。
 - 当 DP 屏与 eDP 屏同时连接时，默认主屏幕为 eDP，DP 为副屏扩展；如需将 DP 设置为主屏，可在操作系统内修改。
 
-![](../../../../_assets/docs-product/k3_pico/static/edp00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/edp00.png)  
 
 | No. | 接口说明             |
 |-----|-----------------------------------|
@@ -236,7 +236,7 @@ K3 Pico-ITX 支持 UEFI 启动和配置，可以选择 NVMe SSD、USB、UFS 作�
 
 - 类型：1.25 mm 带扣线对板接口
 
-![](../../../../_assets/docs-product/k3_pico/static/audio00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/audio00.png)  
 
 | No. | 接口说明             |
 |-----|-----------------------------------|
@@ -244,7 +244,7 @@ K3 Pico-ITX 支持 UEFI 启动和配置，可以选择 NVMe SSD、USB、UFS 作�
 
 - 板上预留音频输出接口，可通过转接线连接至前面板并插入 3.5 mm 耳机。
 
-![](../../../../_assets/docs-product/k3_pico/static/audio01.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/audio01.png)
 
 #### 2.3.7 有线以太网接口 1G ETH
 
@@ -263,7 +263,7 @@ K3 Pico-ITX 支持 UEFI 启动和配置，可以选择 NVMe SSD、USB、UFS 作�
 2. ACT 灯黄色闪烁，链路有数据传输，处于活跃状态，越活跃闪烁频次越快；
 3. 链路未建立时，ACT 不点亮，保持熄灭状态；
 
-![](../../../../_assets/docs-product/k3_pico/static/eth00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/eth00.png)  
 
 | No. | 接口说明             |
 |-----|-----------------------------------|
@@ -274,9 +274,9 @@ K3 Pico-ITX 支持 UEFI 启动和配置，可以选择 NVMe SSD、USB、UFS 作�
 - 类型：SFP+ 光口；
 - 支持多模光模块、DAC 线缆和光转电模块，10G/1G 速率自协商；
 
-![](../../../../_assets/docs-product/k3_pico/static/10G_eth00.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/10G_eth00.png)
 
-![](../../../../_assets/docs-product/k3_pico/static/10G_eth01.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/10G_eth01.png)
 
 LINK SPEED 用于指示链路状态和链路速率：
 
@@ -296,7 +296,7 @@ ACTIVE 用于指示链路活跃状态：
 - 即插即用，支持 USB 2.0 Host；
 - 支持同时接入键盘、鼠标等多个 USB 设备。
 
-![](../../../../_assets/docs-product/k3_pico/static/usb2_00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/usb2_00.png)  
 
 | No. | 接口说明             |
 |-----|-----------------------------------|
@@ -314,7 +314,7 @@ ACTIVE 用于指示链路活跃状态：
   - SPI ×1
 - 可直接连接扩展板使用
 
-![](../../../../_assets/docs-product/k3_pico/static/fpc00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/fpc00.png)  
 
 | No. | 接口说明             |
 |-----|-----------------------------------|
@@ -325,7 +325,7 @@ ACTIVE 用于指示链路活跃状态：
 
 - 类型：板载 PCIe Wi-Fi 6 + BT 5.2 模组，符合 IEEE 802.11a/b/g/n/ac/ax 标准，双天线双频段（2.4 GHz/5.8 GHz）。
 - 基础套餐随包装附赠 Wi-Fi 天线，可按下图推荐位置粘贴安装。
-  ![](../../../../_assets/docs-product/k3_pico/static/wifi.png)  
+  ![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/wifi.png)  
 - 机箱套装已完成 Wi-Fi 天线连接与适配，可直接使用 Wi-Fi 功能。
 
 ### 2.4 产品规格
@@ -355,7 +355,7 @@ ACTIVE 用于指示链路活跃状态：
 
 ### 2.5 逻辑框图
 
-![](../../../../_assets/docs-product/k3_pico/static/pico-blockdiagram.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/pico-blockdiagram.png)
 
 ## 3. 安装操作系统
 
@@ -369,7 +369,7 @@ ACTIVE 用于指示链路活跃状态：
 4. 使用烧录用 Type-C 数据线，将 DRD 的 Type-C 接口接到上位机电脑。
 5. 使用进迭时空官方刷机工具 **Titan** 或 `fastboot` 命令即可进行操作。
 
-![](../../../../_assets/docs-product/k3_pico/static/typec_flash.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/typec_flash.png)
 
 | No. | 接口说明             |
 |-----|-----------------------------------|
@@ -387,7 +387,7 @@ ACTIVE 用于指示链路活跃状态：
 
 > **备注**：刷机工具手册请参见 [刷机工具使用手册](../../../tools/user_guide/flasher_user_guide.md)。
 
-![](../../../../_assets/docs-product/k3_pico/static/typec_flash2.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/typec_flash2.png)
 
 | No. | 接口说明             |
 |-----|-----------------------------------|
@@ -404,18 +404,18 @@ ACTIVE 用于指示链路活跃状态：
 上位机通过 **USB 转 TTL** 设备正常连接 K3 Pico-ITX 主板接口的 **TX、RX、GND**。接口信号如下图所示。
 其中，Tx、Rx 分别表示 K3 的发送与接收。
 
-![](../../../../_assets/docs-product/k3_pico/static/signal00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/signal00.png)  
 
 #### 3.2.2 Windows 系统调试（以 MobaXterm 为例）
 
 以下以 MobaXterm 为例说明操作步骤。
 
 请先正确连接硬件串口，并在 Windows 设备管理器的“端口”中确认系统已识别对应的 COM 口（如图所示）。
-![Windows 设备管理器串口识别示意图](../../../../_assets/docs-product/k3_pico/static/port.png)
+![Windows 设备管理器串口识别示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/port.png)
 
 1. 打开 MobaXterm 软件，依次选择 **Sessions → New Session**。  
 
-   ![MobaXterm 新建串口会话示意图](../../../../_assets/docs-product/k3_pico/static/mobaxterm.png)
+   ![MobaXterm 新建串口会话示意图](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/mobaxterm.png)
   
 2. 在弹出的对话框中，选择 **Serial**。  
 
@@ -441,7 +441,7 @@ K3 Pico-ITX 适用于家居、办公室或工业环境，开始操作前，请�
 
 K3 Pico-ITX 配备 **26 Pin + 36 Pin FPC 扩展接口**。
 
-![](../../../../_assets/docs-product/k3_pico/static/26p-fpc.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/26p-fpc.png)  
 
 **26 Pin 连接器接口线序**：CAN（from RT24）+ I2C（from RT24）+ UART + PWM + 3.3 V（主电源）
 
@@ -474,7 +474,7 @@ K3 Pico-ITX 配备 **26 Pin + 36 Pin FPC 扩展接口**。
 | 25       | R_CAN2_RX | CAN RX |
 | 26       | GND | 地 |
 
-![](../../../../_assets/docs-product/k3_pico/static/36p-fpc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/36p-fpc.png)
 
 **36 Pin 连接器接口线序**：GMAC-MII（from RT24）+ CAN + SPI + 1.8 V（主电源）
 
@@ -522,7 +522,7 @@ K3 Pico-ITX 配备 **26 Pin + 36 Pin FPC 扩展接口**。
 上位机通过 **USB 转 TTL** 设备正常连接 K3 Pico-ITX 主板接口的 **TX、RX、GND**。接口信号如下图所示。
 其中，Tx、Rx 分别表示 K3 的发送与接收。
 
-![](../../../../_assets/docs-product/k3_pico/static/signal00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/signal00.png)  
 
 > **备注**：主板外观可能因硬件版本不同而有细微差别。
 
@@ -536,7 +536,7 @@ K3 Pico-ITX 配备 **26 Pin + 36 Pin FPC 扩展接口**。
 | 4        | EC_GPB2/TXD1/CTX0       | 串行发送或输入输出 B2    |
 | 5        | EC_GPC0/RXD1/CRX0       | 串行接收或输入输出 C0    |
 
-![](../../../../_assets/docs-product/k3_pico/static/ec.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/ec.png)  
 
 ### 5.4 音频扩展接口
 
@@ -549,7 +549,7 @@ K3 Pico-ITX 配备 **26 Pin + 36 Pin FPC 扩展接口**。
 | 5        | LOUT          | 左声道输出           |
 | 6        | AUDIO_AGND    | 音频模拟地           |
 
-![](../../../../_assets/docs-product/k3_pico/static/audio00.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/audio00.png)  
 
 
 
@@ -597,4 +597,4 @@ K3 Pico-ITX 配备 **26 Pin + 36 Pin FPC 扩展接口**。
 |39	|P12V0_eDP-BL	|eDP 背光 12V 电源|
 |40	|NC	|无信号|
 
-![](../../../../_assets/docs-product/k3_pico/static/eDP.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_pico/static/eDP.png)

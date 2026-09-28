@@ -27,10 +27,10 @@ In addition to being powered by the **SpacemiT M1** chip, the **K1 MUSE BOOK** o
 4. Functions as both a notebook and a single-board development platform.  
    Includes a **dedicated MUSE developer interface** that exposes **chip-level I/O pins** for external connectivity, supporting interfaces such as **I²C / UART / PWM / JTAG / GPIO**. 
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book.png)
 
 The reference solution block diagram of MUSE Book is depicted below.  
-![](../../../../_assets/docs-product/k1_muse_book/static/book_block.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_block.jpg)
 
 ## Specifications
 
@@ -50,7 +50,7 @@ The reference solution block diagram of MUSE Book is depicted below.
 | Power | Built-in 38Wh 7.6V smart battery with PD3.0 fast charging support, comes with a 65W adapter |
 
 **Interface ports**：  
-![](../../../../_assets/docs-product/k1_muse_book/static/book_interface.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_interface.jpg)
 
 ## Hardware Advantages
 
@@ -59,20 +59,20 @@ The reference solution block diagram of MUSE Book is depicted below.
 Designed specifically for developers, this laptop's external interface uses a 2.54mm pitch connector, allowing access to signals such as I2C, UART, PWM, GPIO, and JTAG, without needing to open the device. Developers can easily connect and communicate with the main control unit using standard DuPont wires, and it supports DIY various peripheral sensors.
 With the "Fastboot" and "Reset" buttons, convenient flashing and development can be completed easily.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_fb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_fb.png)
 
 ### Custom Keyboard
 
 - The keyboard features a special spray oil treatment on the surface, providing a more refined and smooth typing experience.
 - F1 and F2 serve as copy and paste keys, similar to the key combination Ctrl+C and Ctrl+V respectively.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_f1f2.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_f1f2.png)
 
 - F11 serves as a customizable programming shortcut key, allowing users to flexibly configure shortcut functions or scripts in the keyboard settings.  
-![](../../../../_assets/docs-product/k1_muse_book/static/book_f11.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_f11.png)
 
 - The keyboard layout is optimized for developers, facilitating easier navigation and code visibility.  
-![](../../../../_assets/docs-product/k1_muse_book/static/book_keys.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_keys.png)
 
 ### Touchpad
 
@@ -124,7 +124,7 @@ The MUSE Book uses a USB-PD3.0 protocol Type-C interface for power supply/chargi
 
 When the power adapter is properly connected to MUSE Book and the battery is charging, the charging light on the side will blink green. When the battery is fully charged, instead, the charging light will remain solid green.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_power.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_power.png)
 
 #### Keyboard & Mouse
 
@@ -142,7 +142,7 @@ After extending the display, user has the following four modes to choose from (s
 - Show only built-in display
 - Show only external display
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_screen.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_screen.png)
 
 #### Audio
 
@@ -150,7 +150,7 @@ The MUSE Book utilizes its built-in microphone and speakers for audio input and 
 The Type-C port supports simultaneous audio and video transmission.
 User can switch between the built-in sound card (ES8326) and the HDMI sound card through the sound card settings.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_audio.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_audio.png)
 
 #### Network Connection
 
@@ -161,14 +161,14 @@ The MUSE Book doesn't support wired network port RJ45, but user can still connec
 
 Just simply lift the screen and adjust the hinge angle to achieve the best viewing experience with MUSE Book as shown below.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_lcd.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_lcd.png)
 
 Long press the power button ① for one second to turn on MUSE Book 
 The blue power indicator will light on. Please ensure that the MUSE Book is connected to the power adapter or that the battery has sufficient charge before powering on.
 Once entered MUSE Book, closing the lid will automatically trigger sleep mode, reducing power consumption. To wake up MUSE Book, just simply open the lid and press the power button for one second.
 Some useful keyboard shortcuts for the MUSE Book are tabled below.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_boot.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_boot.png)
 
 **Common Key Shortcuts**
 (Default Fn Lock Status)
@@ -195,44 +195,44 @@ The MUSE Book comes with the pre-installed Bianbu desktop operating system, whic
 
 Choose the system language. English and Chinese are displayed by default. If need more language options, just click the three dots below to show them.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_lang.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_lang.png)
 
 #### Input Method
 
 Configure the MUSE Book’s keyboard layout and input method.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_keyinput.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_keyinput.png)
 
 #### Wireless Internet Connection
 
 Select a valid Wi-Fi network from the list and connect it. If there is no suitable Wi-Fi network, skip this setting by clicking on the upper right corner.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_wifi.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_wifi.png)
 
 #### Location Services
 
 Turning on location services can facilitate the usage experience, but it may also bring risks of location privacy leakage. Please be aware and careful!
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_location.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_location.png)
 
 #### Time Zone
 
 Configure user time zone information. While online (i.e. Wi-Fi connected), the system can automatically synchronize the corresponding time zone, then user can search for cities to add settings
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_time.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_time.png)
 
 #### Username & Password Account
 
 Set username and password account.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_user1.png)  
-![](../../../../_assets/docs-product/k1_muse_book/static/book_user2.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_user1.png)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_user2.png)
 
 #### Configuration Completed
 
 When the configuration is completed, click "Start using Bianbu" thus MUSE Book will enter the desktop of Bianbu OS.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_done.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_done.png)
 
 ## Firmware Flashing
 
@@ -251,8 +251,8 @@ You can enter download mode using either of the following methods:
 After entering download mode, connect the device to the host PC via the Type-C port on MUSE Book (you must use the OTG port, Interface ③).
 You may then flash the firmware using the official SpacemiT flashing tool Titan or the fastboot command.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_ports.jpg) 
-![](../../../../_assets/docs-product/k1_muse_book/static/book_connect.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_ports.jpg) 
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book_connect.png)
 
 ### Firmware Download and Installation
 
@@ -273,13 +273,13 @@ For Bianbu firmware installation and upgrade, please visit [Bianbu User Guide](.
 
 To establish a serial debugging connection, connect the host computer to the MUSE Book's expansion interface as shown below.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/book-ports.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/book-ports.jpg)
 
 ### Debugging Under Windows OS
 Let’s take the “MobaXterm” software tool as example.
 Firstly, please connect the hardware serial port correctly and confirm that there is a COM port displayed in the port list of the device manager, as shown below.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/mox1.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/mox1.jpg)
 
 Open the "MobaXterm" software tool then select "Sessions" - "New Session" **(1)** in the screen appearing. In the pop-up dialog box appearing,
 
@@ -290,11 +290,11 @@ Open the "MobaXterm" software tool then select "Sessions" - "New Session" **(1)*
 
 as shown below.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/mox2.jpg)  
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/mox2.jpg)  
 
 Thus the print page will be entered as shown below.
 
-![](../../../../_assets/docs-product/k1_muse_book/static/mox3.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_book/static/mox3.jpg)
 
 ## Bluetooth Usage Recommendations
 

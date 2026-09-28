@@ -102,4 +102,4 @@ The K3 series chips are mainly used in AI consumer hardware, such as AI smart ho
 
 ## Block Diagram
 
-![K3 Block Diagram](../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_block_diagram.png)
+![K3 Block Diagram](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_block_diagram.png)

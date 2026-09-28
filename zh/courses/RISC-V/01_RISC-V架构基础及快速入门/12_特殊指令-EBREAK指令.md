@@ -32,19 +32,19 @@ updated: "2026-08-18 17:37:56"
 - **monitor target riscv set_ebreakm off**：将指定target的dcsr寄存器中的ebreakm位设置为0，即Machine Mode下的ebreak将触发异常而不是进入调试模式。
 
 <div align=center>
-<img src="../../../../_assets/docs-courses/RISC-V/01_RISC-V架构基础及快速入门/images/ebreak/ebreakm.png">
+<img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/images/ebreak/ebreakm.png">
 </div>
 
 - **monitor target riscv set_ebreaks off**：将指定target的dcsr寄存器中的ebreaks位设置为0，即Supervisor Mode下的ebreak将触发异常而不是进入调试模式。
 
 <div align=center>
-<img src="../../../../_assets/docs-courses/RISC-V/01_RISC-V架构基础及快速入门/images/ebreak/ebreaks.png">
+<img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/images/ebreak/ebreaks.png">
 </div>
 
 - **monitor target riscv set_ebreaku off**：将指定target的dcsr寄存器中的ebreaku位设置为0，即User Mode下的ebreak将触发异常而不是进入调试模式。
 
 <div align=center>
-<img src="../../../../_assets/docs-courses/RISC-V/01_RISC-V架构基础及快速入门/images/ebreak/ebreaku.png">
+<img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/images/ebreak/ebreaku.png">
 </div>
 
 这些命令允许开发者在调试过程中灵活地控制ebreak指令的行为，从而根据需要选择进入调试模式或触发异常。

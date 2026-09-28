@@ -18,7 +18,7 @@ updated: "2026-07-16 17:42:57"
 
 上位机通过 USB 转 TTL 设备与 MUSE Pi Pro 开发板的 GND、TX、RX 接口连接。示意图如下：
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote1.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote1.png)
 
 **Step 1：** 执行：
 
@@ -26,7 +26,7 @@ updated: "2026-07-16 17:42:57"
 ls /dev/ttyUSB* 2>/dev/null || ls /dev/ttyACM*
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote2.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote2.png)
 
 本示例中，设备为 `/dev/ttyUSB0`
 
@@ -43,17 +43,17 @@ sudo apt install minicom
 sudo minicom -D /dev/ttyUSB0 -b 115200
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote3.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote3.png)
 
 ### Ubuntu 系统登录操作
 
 **Step 1：** 按下开发板复位键，待系统加载至如下界面（若系统已初始化，跳过此步骤，进入下一步）。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote4.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote4.png)
 
 **Step 2：** 按下回车键，待系统加载至如下界面。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote5.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote5.png)
 
 **Step 3：** 在提示符后输入用户名 `root`，按下回车键。
 
@@ -77,7 +77,7 @@ hostname -I
 
 显示 `<remote_ip>`：
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote6.jpeg)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote6.jpeg)
 
 <a id="ubuntu-wifi-scene2"></a>
 
@@ -95,7 +95,7 @@ ifconfig
 
 > **注意**：实际网卡接口名称可能不是 `wlan0`，请以下文中的实际名称为准。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote7.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote7.png)
 
 **Step 2：** 执行以下指令：
 
@@ -126,7 +126,7 @@ wpa_cli -i wlan0 enable_network 0
 /sbin/dhcpcd wlan0
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote8.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote8.png)
 
 **Step 6：** 执行：
 
@@ -136,7 +136,7 @@ hostname -I
 
 显示 `<remote_ip>`：
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote9.jpeg)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote9.jpeg)
 
 #### 阶段二：通过 WayVNC 远程桌面连接进行初始化
 
@@ -162,7 +162,7 @@ Relogin=false
 EOF
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote10.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote10.png)
 
 **Step 2：** 备份环境配置脚本
 
@@ -184,7 +184,7 @@ ps aux | grep labwc | grep -v grep
 
 获取进程号。（框选位置即为实际进程号位置，以实际显示为准。）
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote11.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote11.png)
 
 **Step 5：** 执行 `kill` 命令并替换为实际进程号：
 
@@ -192,7 +192,7 @@ ps aux | grep labwc | grep -v grep
 kill 实际进程号
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote12.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote12.png)
 
 **Step 6：** 执行：
 
@@ -200,7 +200,7 @@ kill 实际进程号
 systemctl restart sddm
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote13.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote13.png)
 
 **Step 7：** 等待 5 秒后，依次执行：
 
@@ -221,7 +221,7 @@ export QT_QPA_PLATFORM=wayland
 export QT_WAYLAND_SHELL_INTEGRATION=xdg-shell
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote14.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote14.png)
 
 **Step 8：** 启动 wayvnc
 
@@ -229,7 +229,7 @@ export QT_WAYLAND_SHELL_INTEGRATION=xdg-shell
 XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0.0.0 5900
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote15.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote15.png)
 
 > **注意**：使用任何 VNC 客户端连接开发板时，上位机与开发板必须处于同一局域网（例如连接到同一个 Wi-Fi 或路由器）。
 
@@ -244,7 +244,7 @@ sudo apt update
 sudo apt install remmina remmina-plugin-rdp remmina-plugin-vnc remmina-plugin-secret
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote16.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote16.png)
 
 **Step 10：** 启动 Remmina
 
@@ -252,7 +252,7 @@ sudo apt install remmina remmina-plugin-rdp remmina-plugin-vnc remmina-plugin-se
 remmina
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote17.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote17.png)
 
 在连接配置中：
 
@@ -262,11 +262,11 @@ remmina
 
 按下回车进行连接。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote18.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote18.png)
 
 进入 bianbu 系统初始化界面。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote19.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote19.png)
 
 进行用户信息配置时，请妥善保管您的账户。建议将账号和密码均设置为 `bianbu`，以便后续操作。配置完毕后，系统即进入初始化阶段，需等待约 10 秒。
 
@@ -288,7 +288,7 @@ remmina
 su - 实际创建的普通用户名
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote20.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote20.png)
 
 #### 阶段二：通过 WayVNC 远程桌面连接进入桌面
 
@@ -314,11 +314,11 @@ Relogin=false
 EOF
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote21.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote21.png)
 
 输入当前用户密码。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote22.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote22.png)
 
 **Step 2：** 备份环境配置脚本
 
@@ -326,7 +326,7 @@ EOF
 sudo cp /usr/bin/startlxqtwayland /usr/bin/startlxqtwayland.clean
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote23.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote23.png)
 
 **Step 3：** 设置环境变量
 
@@ -334,7 +334,7 @@ sudo cp /usr/bin/startlxqtwayland /usr/bin/startlxqtwayland.clean
 sudo sed -i '1a export LABWC_FALLBACK_OUTPUT="NOOP-fallback"\nexport LABWC_VIRTUAL_OUTPUT_SIZE="1920x1080"' /usr/bin/startlxqtwayland
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote24.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote24.png)
 
 **Step 4：** 执行：
 
@@ -344,7 +344,7 @@ systemctl restart sddm
 
 输入密码。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote25.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote25.png)
 
 **Step 5：** 等待 5 秒后，执行：
 
@@ -354,7 +354,7 @@ XDG_RUNTIME_DIR=$(dirname "$WAYLAND_SOCKET")
 WAYLAND_DISPLAY=$(basename "$WAYLAND_SOCKET")
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote26.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote26.png)
 
 **Step 6：** 启动 wayvnc
 
@@ -362,7 +362,7 @@ WAYLAND_DISPLAY=$(basename "$WAYLAND_SOCKET")
 XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0.0.0 5900
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote27.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote27.png)
 
 > **注意**：使用任何 VNC 客户端连接开发板时，上位机与开发板必须处于同一局域网（例如连接到同一个 Wi-Fi 或路由器）。
 
@@ -376,7 +376,7 @@ XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0
 remmina
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote17.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote17.png)
 
 在连接配置中：
 
@@ -386,11 +386,11 @@ remmina
 
 按下回车进行连接。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote28.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote28.png)
 
 进入桌面。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote29.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote29.png)
 
 ## Windows 11
 
@@ -404,14 +404,14 @@ remmina
 
 上位机通过 USB 转 TTL 设备与 MUSE Pi Pro 开发板的 GND、TX、RX 接口连接。示意图如下：
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote1.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote1.png)
 
 以 MobaXterm 工具为例：
 
 1）正确连接串口，并在 **设备管理器** 中确认识别到对应的 COM
 端口，如下图所示：
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote30.jpeg)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote30.jpeg)
 
 2）打开 **MobaXterm**，依次点击 **"Sessions"** → **"New
 Session"**，选择连接类型为 **Serial**。
@@ -424,7 +424,7 @@ Session"**，选择连接类型为 **Serial**。
 
 点击 **OK** 进入串口终端。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote31.jpeg)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote31.jpeg)
 
 （MobaXterm 在执行指令时出现行错位、文字重叠属于正常现象。）
 
@@ -432,7 +432,7 @@ Session"**，选择连接类型为 **Serial**。
 
 按下开发板复位键触发系统加载流程，待系统加载完毕后，按下回车键，随即呈现如下界面：
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote32.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote32.png)
 
 **Step 1：** 按下开发板复位键，待系统加载完成。
 
@@ -458,7 +458,7 @@ hostname -I
 
 显示 `<remote_ip>`：
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote33.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote33.png)
 
 <a id="windows-wifi-scene2"></a>
 
@@ -476,7 +476,7 @@ ifconfig
 
 > **注意**：实际网卡接口名称可能不是 `wlan0`，请以下文中的实际名称为准。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote34.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote34.png)
 
 **Step 2：** 执行以下指令：
 
@@ -486,7 +486,7 @@ ifconfig
 wpa_cli -i wlan0 add_network
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote35.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote35.png)
 
 **Step 3：** 配置 Wi-Fi 名称和密码。
 
@@ -497,7 +497,7 @@ wpa_cli -i wlan0 set_network 0 ssid "\"WiFi账号\""
 wpa_cli -i wlan0 set_network 0 psk "\"WiFi密码\""
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote36.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote36.png)
 
 **Step 4：** 执行：
 
@@ -505,7 +505,7 @@ wpa_cli -i wlan0 set_network 0 psk "\"WiFi密码\""
 wpa_cli -i wlan0 enable_network 0
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote37.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote37.png)
 
 **Step 5：** 等待 5 秒后执行：
 
@@ -513,7 +513,7 @@ wpa_cli -i wlan0 enable_network 0
 /sbin/dhcpcd wlan0
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote38.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote38.png)
 
 **Step 6：** 执行：
 
@@ -523,7 +523,7 @@ hostname -I
 
 显示 `<remote_ip>`：
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote33.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote33.png)
 
 #### 阶段二：通过 WayVNC 远程桌面连接进行初始化
 
@@ -549,7 +549,7 @@ Relogin=false
 EOF
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote39.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote39.png)
 
 **Step 2：** 备份环境配置脚本
 
@@ -557,7 +557,7 @@ EOF
 cp /usr/libexec/start-bianbu-init-env /usr/libexec/start-bianbu-init-env.bak_final
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote40.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote40.png)
 
 **Step 3：** 设置环境变量
 
@@ -565,7 +565,7 @@ cp /usr/libexec/start-bianbu-init-env /usr/libexec/start-bianbu-init-env.bak_fin
 sed -i '/export QT_QPA_PLATFORM=wayland/a\export LABWC_FALLBACK_OUTPUT=NOOP-fallback\nexport LABWC_VIRTUAL_OUTPUT_SIZE=1920x1080' /usr/libexec/start-bianbu-init-env
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote41.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote41.png)
 
 **Step 4：** 执行：
 
@@ -575,7 +575,7 @@ ps aux | grep labwc | grep -v grep
 
 获取进程号。（框选位置即为实际进程号位置，以实际显示为准。）
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote42.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote42.png)
 
 **Step 5：** 执行 `kill` 命令并替换为实际进程号：
 
@@ -583,7 +583,7 @@ ps aux | grep labwc | grep -v grep
 kill 实际进程号
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote43.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote43.png)
 
 **Step 6：** 执行：
 
@@ -591,7 +591,7 @@ kill 实际进程号
 systemctl restart sddm
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote44.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote44.png)
 
 **Step 7：** 等待 5 秒后，依次执行：
 
@@ -615,7 +615,7 @@ export QT_QPA_PLATFORM=wayland
 export QT_WAYLAND_SHELL_INTEGRATION=xdg-shell
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote45.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote45.png)
 
 **Step 8：** 启动 wayvnc
 
@@ -623,7 +623,7 @@ export QT_WAYLAND_SHELL_INTEGRATION=xdg-shell
 XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0.0.0 5900
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote46.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote46.png)
 
 **Step 9：** 使用 VNC 客户端连接开发板：
 
@@ -637,15 +637,15 @@ XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0
 
 3）回车即可连接至远程桌面界面。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote47.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote47.png)
 
 点击框选内容。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote48.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote48.png)
 
 进入 bianbu 系统初始化界面。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote49.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote49.png)
 
 若下载的是 **TigerVNC**，使用 **TigerVNC** 客户端进行连接：
 
@@ -655,11 +655,11 @@ XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0
 
 3）点击连接即可连接至远程桌面界面。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote50.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote50.png)
 
 进入 bianbu 系统初始化界面。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote51.bmp)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote51.bmp)
 
 进行用户信息配置时，请妥善保管您的账户。建议将账号和密码均设置为 `bianbu`，以便后续操作。配置完毕后，系统即进入初始化阶段，需等待约 10 秒。
 
@@ -680,7 +680,7 @@ XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0
 su - 实际创建的普通用户名
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote52.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote52.png)
 
 #### 阶段二：通过 WayVNC 远程桌面连接进入桌面
 
@@ -706,11 +706,11 @@ Relogin=false
 EOF
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote53.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote53.png)
 
 输入密码并按下回车键。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote54.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote54.png)
 
 **Step 2：** 备份环境配置脚本
 
@@ -718,7 +718,7 @@ EOF
 sudo cp /usr/bin/startlxqtwayland /usr/bin/startlxqtwayland.clean
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote55.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote55.png)
 
 **Step 3：** 设置环境变量
 
@@ -726,7 +726,7 @@ sudo cp /usr/bin/startlxqtwayland /usr/bin/startlxqtwayland.clean
 sudo sed -i '1a export LABWC_FALLBACK_OUTPUT="NOOP-fallback"\nexport LABWC_VIRTUAL_OUTPUT_SIZE="1920x1080"' /usr/bin/startlxqtwayland
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote56.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote56.png)
 
 **Step 4：** 执行：
 
@@ -734,11 +734,11 @@ sudo sed -i '1a export LABWC_FALLBACK_OUTPUT="NOOP-fallback"\nexport LABWC_VIRTU
 systemctl restart sddm
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote57.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote57.png)
 
 输入密码，按下回车键确认。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote58.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote58.png)
 
 **Step 5：** 执行：
 
@@ -746,7 +746,7 @@ systemctl restart sddm
 WAYLAND_SOCKET=$(find /run/user -path "/run/user/0/*" -prune -o -name "wayland-*" -type s -print 2>/dev/null | head -n1)
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote59.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote59.png)
 
 **Step 6：** 执行：
 
@@ -754,7 +754,7 @@ WAYLAND_SOCKET=$(find /run/user -path "/run/user/0/*" -prune -o -name "wayland-*
 XDG_RUNTIME_DIR=$(dirname "$WAYLAND_SOCKET")
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote60.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote60.png)
 
 **Step 7：** 执行：
 
@@ -762,7 +762,7 @@ XDG_RUNTIME_DIR=$(dirname "$WAYLAND_SOCKET")
 WAYLAND_DISPLAY=$(basename "$WAYLAND_SOCKET")
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote61.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote61.png)
 
 **Step 8：** 启动 wayvnc
 
@@ -770,7 +770,7 @@ WAYLAND_DISPLAY=$(basename "$WAYLAND_SOCKET")
 XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0.0.0 5900
 ```
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote62.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote62.png)
 
 **Step 9：** 使用 VNC 客户端连接开发板：
 
@@ -784,11 +784,11 @@ XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0
 
 3）回车即可连接至远程桌面界面。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote47.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote47.png)
 
 进入桌面。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote63.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote63.png)
 
 若下载的是 **TigerVNC**，使用 **TigerVNC** 客户端进行连接：
 
@@ -798,8 +798,8 @@ XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" WAYLAND_DISPLAY="$WAYLAND_DISPLAY" wayvnc 0.0
 
 3）点击连接即可连接至远程桌面界面。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote50.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote50.png)
 
 进入桌面。
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/remote64.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/remote64.png)

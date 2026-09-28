@@ -31,7 +31,7 @@ The Display Controller is a hardware block used to transfer display data from th
 - Supports color saturation/contrast enhancement.
 - Supports dynamic DDR frequency changing with the embedded DFC buffer.
 - Supports the following input formats, as shown in the map below:
-  <img src="../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/k3_disp00.png" alt="" width="800">
+  <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/k3_disp00.png" alt="" width="800">
 - Supports output formats: RGB888/RGB565/RGB666.
 
 ## 12.2 MIPI DSI Interface

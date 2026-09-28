@@ -115,7 +115,7 @@ cam-test /usr/share/camera_json/csi1_camera_auto.json
 
 ## Camera 子系统硬件框图
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/FpucbLemHoe37vxj8jIcaTeBn6O.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/FpucbLemHoe37vxj8jIcaTeBn6O.png)
 
 核心功能模块说明：
 
@@ -163,7 +163,7 @@ SpacemiT camera 驱动基于 Linux 内核 V4L2 框架实现，主要功能包括
 
 在 Camera 子系统中各个模块之间的关系如下图所示：
 
-![Camera 子系统软件架构](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/XbxNb2iVrot5nuxcYyicYn0onff.png)
+![Camera 子系统软件架构](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/XbxNb2iVrot5nuxcYyicYn0onff.png)
 
 从软件调用关系来看，从上到下依次分为以下三层：
 
@@ -1027,7 +1027,7 @@ make[1]: Leaving directory '/home/lizhirong/buildroot-sdk/output/k1'
 
 数据流如下图所示：
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/U9PjbtCmUotSFwx864JcMYTSnGh.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/U9PjbtCmUotSFwx864JcMYTSnGh.png)
 
 在配置各个模块时，要注意填充输入输出信息。如下表所示：
 
@@ -1051,7 +1051,7 @@ make[1]: Leaving directory '/home/lizhirong/buildroot-sdk/output/k1'
 
 该 case 实现双 pipeline 在线处理功能，在 single_pipeline_online_test 的 pipeline0 的基础上，增加了 **pipeline1** 的处理。数据流如下图所示：
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/WvclbhdZSo3pKrxS7nIcHEuhnHU.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/WvclbhdZSo3pKrxS7nIcHEuhnHU.png)
 
 除了 sensor 的数据来源于两个不同的物理设备，在软件上，两条 pipeline 的处理方式完全一样，即 Sensor、ISP、VI、CPP 均按 pipeline 配置双份即可。每条 pipeline 的 buffer 回调处理也跟 single pipeline 时一样。
 
@@ -1069,7 +1069,7 @@ make[1]: Leaving directory '/home/lizhirong/buildroot-sdk/output/k1'
 
 在该 case 中，ISP pipeline0 工作在 online 状态，ISP pipeline1 工作在 offline 状态。ISP pipeline0 rawdump 的结果会作为 ISP pipeline1 的输入数据，执行 `ASR_ISP_TriggerRawCapture` 操作后实现拍照功能。数据流如下图所示：
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/camera/static/EYdLb1Au4oZbFHxH8qzcYyWcnUf.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/camera/static/EYdLb1Au4oZbFHxH8qzcYyWcnUf.png)
 
 相较于前两个 case，需要注意 pipeline1 的流程稍有差别。
 

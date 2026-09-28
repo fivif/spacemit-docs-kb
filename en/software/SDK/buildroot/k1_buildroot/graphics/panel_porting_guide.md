@@ -23,7 +23,7 @@ In the Linux kernel, DRM acts as a subsystem for managing display devices, mainl
 - **Display output control:** Coordination of composition and output of display content.
 - **Multi-display interface support:** Compatibility with multiple interfaces such as HDMI, DSI, eDP.
 
-![display-kms](../../../../../../_assets/docs-buildroot/k1_buildroot/graphics/static/display-kms.jpg)
+![display-kms](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/graphics/static/display-kms.jpg)
 
 ## Uboot Screen Debugging
 

@@ -33,25 +33,25 @@ updated: "2026-08-24 09:53:28"
 
 1. 进入 **开发工具 → 单机烧录**
 
-   ![单机烧录入口](../../../../../_assets/docs-tool/studio/static/flash.png)
+   ![单机烧录入口](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/flash.png)
 
 2. 工具自动检测已连接的设备（设备已进入刷机模式参考[前置条件](flash.md#前置条件)章节）
 
-   ![设备检测](../../../../../_assets/docs-tool/studio/static/flash_0.png)
+   ![设备检测](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/flash_0.png)
 
    若同时连接了多台设备，可通过下拉菜单选择需要烧录的目标设备。
 
-   ![多设备选择](../../../../../_assets/docs-tool/studio/static/flash_1.png)
+   ![多设备选择](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/flash_1.png)
 
 3. 选择并下载目标镜像
 
    点击 **更多镜像**，进入镜像库
 
-   ![更多镜像](../../../../../_assets/docs-tool/studio/static/flash_2.png)
+   ![更多镜像](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/flash_2.png)
 
    在镜像库中选择目标镜像：
 
-   ![镜像库](../../../../../_assets/docs-tool/studio/static/flash_3.png)
+   ![镜像库](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/flash_3.png)
 
    (1) 选择开发板系列（如 K1 或 K3）  
    (2) 选择目标系统（如 Bianbu、Buildroot、ROS2、OpenHarmony）  
@@ -60,49 +60,49 @@ updated: "2026-08-24 09:53:28"
 
    镜像下载中：
 
-   ![下载中](../../../../../_assets/docs-tool/studio/static/flash_3_1.png)
+   ![下载中](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/flash_3_1.png)
 
    下载完成：
 
-   ![下载完成](../../../../../_assets/docs-tool/studio/static/flash_3_2.png)
+   ![下载完成](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/flash_3_2.png)
 
    点击**本地**可查看已下载的本地镜像列表。若需使用电脑中已有的镜像文件,可点击**本地上传**按钮进行上传:
 
-   ![本地镜像管理](../../../../../_assets/docs-tool/studio/static/flash_3_4.png)
+   ![本地镜像管理](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/flash_3_4.png)
 
    返回烧录界面，从下拉列表中选择已下载的镜像：
 
-   ![选择镜像](../../../../../_assets/docs-tool/studio/static/flash_3_3.png)
+   ![选择镜像](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/flash_3_3.png)
 
 4. 点击 **开始刷机**
 
    确认设置后（默认勾选 **完成后重启设备**），点击 **开始刷机**
 
-   ![开始刷机](../../../../../_assets/docs-tool/studio/static/flash_4.png)
+   ![开始刷机](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/flash_4.png)
 
    系统开始烧录，显示烧录进度：
 
-   ![烧录进度](../../../../../_assets/docs-tool/studio/static/flash_7.png)
+   ![烧录进度](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/flash_7.png)
 
 5. 等待烧录完成
 
    烧录成功后，若已勾选 **完成后重启设备**，设备将自动重启并进入系统。
 
-   ![烧录完成](../../../../../_assets/docs-tool/studio/static/flash_8.png)
+   ![烧录完成](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/flash_8.png)
 
    若烧录失败，将显示错误信息：
 
-   ![烧录失败](../../../../../_assets/docs-tool/studio/static/flash_12.png)
+   ![烧录失败](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/flash_12.png)
 
 ### 高级选项：配置分区
 
 若需自定义分区文件，可勾选 **配置分区**：
 
-![配置分区](../../../../../_assets/docs-tool/studio/static/flash_parti_1.png)
+![配置分区](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/flash_parti_1.png)
 
 点击 **编辑文件列表**，进入 **分区文件列表** 进行编辑：
 
-![编辑分区文件列表](../../../../../_assets/docs-tool/studio/static/flash_parti_2.png)
+![编辑分区文件列表](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/flash_parti_2.png)
 
 在分区文件列表中，可以添加、删除或修改分区配置文件。配置完成后，点击 **确定** 返回烧录界面。
 
@@ -119,11 +119,11 @@ updated: "2026-08-24 09:53:28"
 
 1. 进入 **开发工具 → SD 卡启动**
 
-   ![SD 卡启动入口](../../../../../_assets/docs-tool/studio/static/sdcard_0.png)
+   ![SD 卡启动入口](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/sdcard_0.png)
 
 2. 在 **选择设备** 下拉菜单中选择目标 SD 卡
 
-   ![选择 SD 卡设备](../../../../../_assets/docs-tool/studio/static/sdcard_1.png)
+   ![选择 SD 卡设备](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/sdcard_1.png)
 
    > 若列表为空，请确认 SD 卡已插入读卡器，并点击右侧刷新按钮 ⟳ 重新检测。
 
@@ -131,11 +131,11 @@ updated: "2026-08-24 09:53:28"
 
    > **可选：** 选择 **格式化** 可仅对 SD 卡进行格式化，不写入镜像。
    >
-   > ![选择格式化](../../../../../_assets/docs-tool/studio/static/sdcard_format_0.png)
+   > ![选择格式化](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/sdcard_format_0.png)
    >
-   > ![确认格式化](../../../../../_assets/docs-tool/studio/static/sdcard_format_1.png)
+   > ![确认格式化](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/sdcard_format_1.png)
    >
-   > ![格式化完成](../../../../../_assets/docs-tool/studio/static/sdcard_format_2.png)
+   > ![格式化完成](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/sdcard_format_2.png)
 
 4. 选择目标镜像
 
@@ -146,11 +146,11 @@ updated: "2026-08-24 09:53:28"
 
    系统开始制作启动卡：
 
-   ![制卡中](../../../../../_assets/docs-tool/studio/static/sdcard_6.png)
+   ![制卡中](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/sdcard_6.png)
 
    制卡完成：
 
-   ![制卡成功](../../../../../_assets/docs-tool/studio/static/sdcard_7.png)
+   ![制卡成功](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/sdcard_7.png)
 
 6. 写入完成后，将 SD 卡插入设备，上电后即可从 SD 卡启动
 
@@ -168,9 +168,9 @@ updated: "2026-08-24 09:53:28"
 操作步骤与 [SD 卡启动](flash.md#sd-卡启动) 基本一致，区别在于：
 
 - 第 1 步进入 **开发工具 → SD 卡量产**
-  ![SD 卡量产入口](../../../../../_assets/docs-tool/studio/static/sdcard_mass_0.png)
+  ![SD 卡量产入口](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/sdcard_mass_0.png)
 - 第 3 步**选择操作**时选择 **烧录量产卡**
-  ![SD 卡量产](../../../../../_assets/docs-tool/studio/static/sdcard_mass_1.png)
+  ![SD 卡量产](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/sdcard_mass_1.png)
 - 第 6 步完成后，将 SD 卡插入待量产设备，上电后设备自动将系统从 SD 卡烧录至内置存储
 
 ### 量产与启动的区别
@@ -189,13 +189,13 @@ updated: "2026-08-24 09:53:28"
 
 1. 进入 **开发工具 → 写号工具**
 
-   ![写号工具入口](../../../../../_assets/docs-tool/studio/static/key_write_00.png)
+   ![写号工具入口](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/key_write_00.png)
 
 2. 选择目标设备
 
    在 **选择设备** 下拉菜单中选择需要配置的设备。
 
-   ![选择设备](../../../../../_assets/docs-tool/studio/static/key_write_01.png)
+   ![选择设备](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/key_write_01.png)
 
    > 若列表为空，请确认设备已连接并切换至刷机模式，然后点击右侧刷新按钮 ⟳ 重新检测。
 
@@ -203,7 +203,7 @@ updated: "2026-08-24 09:53:28"
 
    如需自定义表格中显示的属性字段，点击 **配置字段** 进入字段配置面板。
 
-   ![配置字段](../../../../../_assets/docs-tool/studio/static/key_write_03.png)
+   ![配置字段](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/key_write_03.png)
 
    在配置面板中可以：
    
@@ -219,7 +219,7 @@ updated: "2026-08-24 09:53:28"
 
    点击 **开始读号**，工具将从设备读取所有配置字段并填充到表格中。
 
-   ![读号](../../../../../_assets/docs-tool/studio/static/key_write_02.png)
+   ![读号](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/key_write_02.png)
 
    读取完成后，表格显示以下五列信息：
 

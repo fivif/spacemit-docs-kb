@@ -16,7 +16,7 @@ The **PWM controller** is an electronic component that adjusts output signals by
 
 ### Function Overview
 
-![pwm](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/pwm.png)
+![pwm](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/pwm.png)
 
 The kernel’s **PWM framework** enables modules to request PWM controllers and manage signal output.
 

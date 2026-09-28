@@ -52,11 +52,11 @@ ros2 launch rdk_perception ocr_infer_img.launch.py img_path:=/home/bianbu/test.j
 
 输出结果将保存在当前目录的 `ocr_result.jpg` 中，如图所示。
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr1.png)
 
 终端打印如下
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr2.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr2.png)
 
 
 
@@ -82,7 +82,7 @@ ros2 launch rdk_perception ocr_service.launch.py
 
 终端打印：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr3.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr3.png)
 
 ### 客户端代码
 
@@ -157,6 +157,6 @@ python3 ocr_client.py
 
 终端打印：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr4.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr4.png)
 
 结果可视化文件保存在 ocr_result_srv.jpg

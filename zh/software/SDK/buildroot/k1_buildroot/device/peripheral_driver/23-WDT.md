@@ -19,7 +19,7 @@ updated: "2026-03-05 14:45:52"
 
 ### 功能说明 
 
-![wdt](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/WDT.png)
+![wdt](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/WDT.png)
 
 内核通过 **WDT 框架接口** 将看门狗驱动注册到 **WDT 框架**和**应用层**，并生成设备节点 `/dev/watchdog0`。  
 

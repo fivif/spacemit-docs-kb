@@ -225,4 +225,4 @@ In addition, multiple standard-agnostic modules share common runtime logic, ensu
 
 ## 11.4 Block Diagram
 
-<img src="../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/k3_video.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/k3_video.png" alt="" width="600">

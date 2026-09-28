@@ -60,7 +60,7 @@ When the device is powered on through the USB Type-C cable:
 2. Briefly press the **RST** (reset) button.
 3. Release the **FDL** button.
 
-![Board example](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ12.png)
+![Board example](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ12.png)
 
 ---
 
@@ -74,7 +74,7 @@ Open Titan and click **Refresh Device** or **Scan Device**.
 
 If a device serial number or "Connected" is displayed, flashing mode has been entered successfully.
 
-![Successful device scan](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ19.png)
+![Successful device scan](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ19.png)
 
 **Linux**
 
@@ -92,7 +92,7 @@ DFU USB download gadget
 
 flashing mode has been entered successfully.
 
-![lsusb example](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ23.png)
+![lsusb example](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ23.png)
 
 > **Windows**
 >
@@ -106,7 +106,7 @@ flashing mode has been entered successfully.
 
 If Titan cannot scan the device:
 
-![Failed scan example](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ22.png)
+![Failed scan example](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ22.png)
 
 Check the following in order:
 
@@ -136,7 +136,7 @@ Download URL:
 
 <https://www.spacemit.com/community/resources-download/Images%20Collects/K1/Bianbu>
 
-![Image download example](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ18.png)
+![Image download example](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ18.png)
 
 ---
 
@@ -150,7 +150,7 @@ The USB connection has been interrupted, typically because:
 - The USB cable was unplugged.
 - The board exited flashing mode.
 
-![Error example](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ30.png)
+![Error example](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ30.png)
 
 **Solution**
 
@@ -167,7 +167,7 @@ The USB connection has been interrupted, typically because:
 
 The USB connection was interrupted right after flashing started.
 
-![Error example](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ32.png)
+![Error example](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ32.png)
 
 **Solution**
 
@@ -184,7 +184,7 @@ The USB connection was interrupted right after flashing started.
 
 Poor USB contact.
 
-![Flashing failure](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ17.png)
+![Flashing failure](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ17.png)
 
 **Solution**
 
@@ -208,7 +208,7 @@ Incorrect example:
 D:\Program Files (x86)\images\firmware.zip
 ```
 
-![Incorrect path](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ9.png)
+![Incorrect path](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ9.png)
 
 **Solution**
 
@@ -216,7 +216,7 @@ Move the image to a directory without spaces or special characters, then select 
 
 Correct example:
 
-![Correct path](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ24.png)
+![Correct path](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ24.png)
 
 ---
 
@@ -235,7 +235,7 @@ Incorrect example:
 
 The actual development board model is **MUSE-Pi-Pro**, but **MUSE-Pi** was selected during ID programming.
 
-![Error example](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ13.png)
+![Error example](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ13.png)
 
 > **Note**
 >
@@ -255,15 +255,15 @@ In Titan, click **Read**.
 
 Titan interface successful read example:
 
-![Successful read](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ42.png)
+![Successful read](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ42.png)
 
 Serial communication interface successful read example:
 
-![Successful read](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ44.png)
+![Successful read](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ44.png)
 
 If reading fails on Linux:
 
-![Failed read](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ41.png)
+![Failed read](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ41.png)
 
 This is usually due to insufficient USB permissions.
 
@@ -287,11 +287,11 @@ If unsure, contact customer support.
 
 Titan interface successful write example:
 
-![Write example](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ40.png)
+![Write example](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ40.png)
 
 Serial communication interface successful write example:
 
-![Write example](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ45.png)
+![Write example](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ45.png)
 
 > **Note**
 >
@@ -324,8 +324,8 @@ Without an antenna connected, the following issues may occur:
 
 The antenna connector is located at the **ANTENNA** marking on the development board.
 
-![Antenna location](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ2.png)
+![Antenna location](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ2.png)
 
-![Antenna location](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ25.png)
+![Antenna location](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ25.png)
 
 If an antenna is not available, use a wired network connection instead.

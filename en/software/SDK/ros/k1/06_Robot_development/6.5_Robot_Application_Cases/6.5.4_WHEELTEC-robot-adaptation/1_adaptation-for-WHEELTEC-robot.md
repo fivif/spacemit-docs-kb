@@ -41,9 +41,9 @@ This example shows how to replace the Raspberry Pi on the Wheeltec robot with th
 - **Power:** Can be supplied via the Type-C port on the motion chassis (STM32) controller (5V) or directly from the battery (12V).
 - **Signals:** All sensor connections (motion chassis, LiDAR, camera) to the K1 board are made via USB interfaces.
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/SpaceMit_K1_1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/SpaceMit_K1_1.png)
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/SpaceMit_K1_2.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/SpaceMit_K1_2.png)
 
 All sensors on the Wheeltec ROS Drive robot connect to the K1 board, with specific integration methods detailed in the sections below.
 
@@ -52,7 +52,7 @@ All sensors on the Wheeltec ROS Drive robot connect to the K1 board, with specif
 **Hardware Specifications**
 The Wheeltec Educational ROS Differential Drive Robot uses an **STM32 all-in-one control board** as its chassis.
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_controller.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_controller.png)
 
 - **Power Supply**: Sourced from the battery, distributed to other components via T-cables or splitter cables.
 - **Signals**: Originate from the K1 board, connected via dedicated cables to control motor and wheel movement.
@@ -133,7 +133,7 @@ The Wheeltec ROS Differential Drive Robot uses a Leishen Intelligent **M10P** Li
 
 - **Power & Signals:** Connected to the K1 board via a USB interface.
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_lidar.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_lidar.png)
 
 **Adaptation Procedure**
 
@@ -204,7 +204,7 @@ The Wheeltec ROS Differential Drive Robot uses a Leishen Intelligent **M10P** Li
 
    - In RViz2, set the **Fixed Frame** to `laser`, click **Add** > **By Topic** > `/scan`, and click **OK**. You should see LiDAR data like this:
 
-     ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_lidar_rviz.png)
+     ![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_lidar_rviz.png)
 
 ### Camera (C70 RGB Camera)
 
@@ -212,7 +212,7 @@ The Wheeltec ROS Differential Drive Robot uses a Leishen Intelligent **M10P** Li
 The Wheeltec robot uses a **C70** monocular RGB camera.
 - **Power & Signals:** Connected to the K1 board via a USB interface.
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_camera.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_camera.png)
 
 **Adaptation Procedure**
 
@@ -255,4 +255,4 @@ The Wheeltec robot uses a **C70** monocular RGB camera.
    ros2 run rqt_image_view rqt_image_view
    ```
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_camera_rviz.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/wheeltec_camera_rviz.png)

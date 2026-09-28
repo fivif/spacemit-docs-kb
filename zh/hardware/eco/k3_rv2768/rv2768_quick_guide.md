@@ -31,23 +31,23 @@ Cluster Server RV2768 为基于 RISC-V 架构的集群服务器，2U 高度 19 �
 
 **外观**
 
-![Image](../../../../_assets/docs-product/k3_rv2768/static/front.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/front.png)
 
 **指示灯和按钮说明**
 
 |标识|含义|说明|
 |---|---|---|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/pwr.png)|电源按钮|- AC电源插上后，在待机（standby）状态，短按按键，正常开机，节点管理操作系统、交换系统和各计算节点进入工作状态；<br>- 上电后开机状态，长按6s可对节点管理操作系统、交换系统和各计算节点进行强制下电，进入待机状态；|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/pwr_led.png)|电源指示灯|- 熄灭：设备未上电。<br>- 黄色闪烁：BMC 管理系统正在启动，此时电源按钮处于锁定状态，不能进行操作。BMC 管理系统大约 1 分钟完成启动，同时电源指示灯转变为黄色常亮。<br>- 黄色常亮：设备待机（Standby）状态。<br>- 绿色常亮：设备正常上电，开机状态。|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/health_led.png)|健康状态指示灯|- 无异常：熄灭<br>- 异常：<br> - 红色闪烁（1Hz）：Major告警<br>    - 红色闪烁（5Hz）：Critical告警|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/uid_led.png)|UID指示灯|- 熄灭：服务器未被定位。<br>- 蓝色闪烁（持续255秒）：服务器被重点定位。<br>- 蓝色常亮：服务器被定位。|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/act_led.png)|高速网络端口状态指示灯 ACT|LINK SPEED 用于指示链接情况和链接速率：<br>- 绿灯常亮时，链路建立且为最高速率状态；<br>- 黄灯常亮时，链路建立但处于非最高速率状态；<br>- 链路未建立时，LINK SPEED 不点亮，保持熄灭状态；<br>ACTIVE 用于指示链路活跃状态：<br>- 链路无数据传输，处于熄灭状态；<br>- 链路有数据传输，处于绿色闪烁状态，越活跃闪烁频次越快；|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/spd_led.png)|高速网络端口状态指示灯 SPD|同上|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/bmc_led.png)|BMC 管理网口状态指示灯|同上|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/pwr.png)|电源按钮|- AC电源插上后，在待机（standby）状态，短按按键，正常开机，节点管理操作系统、交换系统和各计算节点进入工作状态；<br>- 上电后开机状态，长按6s可对节点管理操作系统、交换系统和各计算节点进行强制下电，进入待机状态；|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/pwr_led.png)|电源指示灯|- 熄灭：设备未上电。<br>- 黄色闪烁：BMC 管理系统正在启动，此时电源按钮处于锁定状态，不能进行操作。BMC 管理系统大约 1 分钟完成启动，同时电源指示灯转变为黄色常亮。<br>- 黄色常亮：设备待机（Standby）状态。<br>- 绿色常亮：设备正常上电，开机状态。|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/health_led.png)|健康状态指示灯|- 无异常：熄灭<br>- 异常：<br> - 红色闪烁（1Hz）：Major告警<br>    - 红色闪烁（5Hz）：Critical告警|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/uid_led.png)|UID指示灯|- 熄灭：服务器未被定位。<br>- 蓝色闪烁（持续255秒）：服务器被重点定位。<br>- 蓝色常亮：服务器被定位。|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/act_led.png)|高速网络端口状态指示灯 ACT|LINK SPEED 用于指示链接情况和链接速率：<br>- 绿灯常亮时，链路建立且为最高速率状态；<br>- 黄灯常亮时，链路建立但处于非最高速率状态；<br>- 链路未建立时，LINK SPEED 不点亮，保持熄灭状态；<br>ACTIVE 用于指示链路活跃状态：<br>- 链路无数据传输，处于熄灭状态；<br>- 链路有数据传输，处于绿色闪烁状态，越活跃闪烁频次越快；|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/spd_led.png)|高速网络端口状态指示灯 SPD|同上|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/bmc_led.png)|BMC 管理网口状态指示灯|同上|
 
 **接口位置**
 
-![Image](../../../../_assets/docs-product/k3_rv2768/static/front_connectors.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/front_connectors.png)
 
 |编号|接口|编号|接口|
 |---|---|---|---|
@@ -67,7 +67,7 @@ Cluster Server RV2768 为基于 RISC-V 架构的集群服务器，2U 高度 19 �
 
 **外观和接口**
 
-![Image](../../../../_assets/docs-product/k3_rv2768/static/rear.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/rear.png)
 
 |编号|模块|编号|模块|
 |---|---|---|---|
@@ -83,7 +83,7 @@ Cluster Server RV2768 为基于 RISC-V 架构的集群服务器，2U 高度 19 �
 
 ## 准备工具
 
-![Image](../../../../_assets/docs-product/k3_rv2768/static/tools.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/tools.png)
 
 ## 安装
 

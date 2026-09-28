@@ -49,7 +49,7 @@ The overall DRM structure consists of the following layers:
 
 Structure diagram of the `radeon` driver:
 
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/graphics/static/radeon-driver.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/graphics/static/radeon-driver.png)
 
 ## Configuration and Modifications
 

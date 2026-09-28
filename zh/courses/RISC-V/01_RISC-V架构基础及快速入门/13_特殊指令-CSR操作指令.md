@@ -13,31 +13,31 @@ updated: "2026-08-18 17:37:57"
 
 所有的CSR指令都会对CSR进行读——改——写操作。CSR指令中共有12位（20-31位）用来指示被“读改写”的是哪一个寄存器。
 <div align='center'>
-<img src="../../../../_assets/docs-courses/RISC-V/01_RISC-V架构基础及快速入门/images/csr/csr0.png">
+<img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/images/csr/csr0.png">
 </div>
 <div align='center'>
 表1.1：CSR指令的编码
 </div>
 <div align='center'>
-<img src="../../../../_assets/docs-courses/RISC-V/01_RISC-V架构基础及快速入门/images/csr/csr2.2.png">
+<img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/images/csr/csr2.2.png">
 </div>
 <div align='center'>
 表1.2：当前已分配的RISC-V用户级CSR地址
 </div>
 <div align='center'>
-<img src="../../../../_assets/docs-courses/RISC-V/01_RISC-V架构基础及快速入门/images/csr/csr2.3.png">
+<img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/images/csr/csr2.3.png">
 </div>
 <div align='center'>
 表1.3：当前已分配的RISC-V管理员级CSR地址
 </div>
 <div align='center'>
-<img src="../../../../_assets/docs-courses/RISC-V/01_RISC-V架构基础及快速入门/images/csr/csr3.png">
+<img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/images/csr/csr3.png">
 </div>
 <div align='center'>
 表1.4：当前已分配的RISC-V Hypervisor级CSR地址
 </div>
 <div align='center'>
-<img src="../../../../_assets/docs-courses/RISC-V/01_RISC-V架构基础及快速入门/images/csr/csr4.png">
+<img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/images/csr/csr4.png">
 </div>
 <div align='center'>
 表1.5：当前已分配的RISC-V机器级CSR地址

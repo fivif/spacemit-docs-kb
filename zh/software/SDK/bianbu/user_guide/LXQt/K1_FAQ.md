@@ -60,7 +60,7 @@ updated: "2026-07-27 15:53:24"
 2. 短按 **RST**（复位）按键。
 3. 松开 **FDL** 按键。
 
-![开发板示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ4.png)
+![开发板示例](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ4.png)
 
 ---
 
@@ -74,7 +74,7 @@ updated: "2026-07-27 15:53:24"
 
 若显示设备序列号或"已连接"，说明已成功进入烧录模式。
 
-![扫描设备成功](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ20.png)
+![扫描设备成功](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ20.png)
 
 **Linux**
 
@@ -92,7 +92,7 @@ DFU USB download gadget
 
 说明已成功进入烧录模式。
 
-![lsusb 示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ23.png)
+![lsusb 示例](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ23.png)
 
 > **Windows 用户**
 >
@@ -106,7 +106,7 @@ DFU USB download gadget
 
 若 Titan 扫描不到设备：
 
-![扫描失败示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ21.png)
+![扫描失败示例](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ21.png)
 
 请依次检查：
 
@@ -136,7 +136,7 @@ MUSE Pi Pro 支持两种存储介质：
 
 <https://www.spacemit.com/community/resources-download/Images%20Collects/K1/Bianbu>
 
-![镜像下载示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ6.png)
+![镜像下载示例](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ6.png)
 
 ---
 
@@ -150,7 +150,7 @@ USB 连接已断开，通常由于：
 - USB 被拔出。
 - 开发板退出烧录模式。
 
-![报错示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ29.png)
+![报错示例](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ29.png)
 
 **解决方法**
 
@@ -167,7 +167,7 @@ USB 连接已断开，通常由于：
 
 烧录开始后 USB 连接中断。
 
-![报错示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ31.png)
+![报错示例](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ31.png)
 
 **解决方法**
 
@@ -184,7 +184,7 @@ USB 连接已断开，通常由于：
 
 USB 接触不良。
 
-![烧写失败](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ7.png)
+![烧写失败](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ7.png)
 
 **解决方法**
 
@@ -208,7 +208,7 @@ USB 接触不良。
 D:\Program Files (x86)\images\firmware.zip
 ```
 
-![错误路径](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ9.png)
+![错误路径](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ9.png)
 
 **解决方法**
 
@@ -216,7 +216,7 @@ D:\Program Files (x86)\images\firmware.zip
 
 正确示例：
 
-![正确路径](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ24.png)
+![正确路径](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ24.png)
 
 ---
 
@@ -235,7 +235,7 @@ D:\Program Files (x86)\images\firmware.zip
 
 开发板实际型号为 **MUSE-Pi-Pro**，但写号选择了 **MUSE-Pi**。
 
-![错误示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ8.png)
+![错误示例](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ8.png)
 
 > **注意**
 >
@@ -255,15 +255,15 @@ D:\Program Files (x86)\images\firmware.zip
 
 titan界面读号成功示例：
 
-![读号成功](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ26.png)
+![读号成功](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ26.png)
 
 串口通信界面读号成功示例：
 
-![读号成功](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ44.png)
+![读号成功](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ44.png)
 
 Linux 下若读号失败：
 
-![读号失败](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ27.png)
+![读号失败](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ27.png)
 
 通常由于 USB 权限不足。
 
@@ -287,11 +287,11 @@ sudo ./titantools_for_linux-2.2.0-Rc.AppImage --no-sandbox
 
 titan界面写号成功示例：
 
-![写号示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ40.png)
+![写号示例](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ40.png)
 
 串口通信界面写号成功示例：
 
-![写号示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ45.png)
+![写号示例](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ45.png)
 
 > **注意**
 >
@@ -324,9 +324,9 @@ titan界面写号成功示例：
 
 天线接口位于开发板 **ANTENNA** 标识处。
 
-![天线位置](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ2.png)
+![天线位置](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ2.png)
 
-![天线位置](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ30.png)
+![天线位置](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/FAQ30.png)
 
 如暂无天线，建议优先使用有线网络连接。
 

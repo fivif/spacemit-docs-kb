@@ -33,7 +33,7 @@ GDB 包含在交叉编译工具链中，请参考[《交叉编译工具链使用
 
 ## 3. Trace的操作方式
 
-![Image](../../../_assets/docs-tool/user_guide/static/Trace_Operation_Method.png)
+![Image](https://cdn-resource.spacemit.com/tools/docs-tool/zh/user_guide/static/Trace_Operation_Method.png)
 
 K3系列板基于 [RISC-V N-trace](https://github.com/riscv-non-isa/riscv-nexus-trace) 协议实现 Trace 功能，其组件拓扑结构如上图所示。
 

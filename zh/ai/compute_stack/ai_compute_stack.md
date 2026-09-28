@@ -11,7 +11,7 @@ updated: "2026-06-04 08:40:37"
 
 ## 软件栈框架
 
-![AI软件栈图](../../../_assets/docs-ai/compute_stack/images/ai_compute_stack.png)
+![AI软件栈图](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/ai_compute_stack.png)
 
 ## 多层级交付
 

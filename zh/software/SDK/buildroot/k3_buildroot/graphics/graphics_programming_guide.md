@@ -38,7 +38,7 @@ EGL 的主要功能包括：
 在 OpenGL ES 与 EGL 的协同工作中，渲染流程是整个图形渲染系统的核心。
 下图展示了 OpenGL ES 渲染的基本过程。
 
-![mesa3d](../../../../../../_assets/docs-buildroot/k3_buildroot/graphics/static/opengles_process.png)
+![mesa3d](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/graphics/static/opengles_process.png)
 
 渲染流程主要分为以下 5 个步骤：
 
@@ -228,7 +228,7 @@ Demo 的目录结构如下：
 
 4. 运行效果
    运行成功后，渲染效果如下图所示：
-   ![gpu-cubeTextureDemo](../../../../../../_assets/docs-buildroot/k3_buildroot/graphics/static/gpu-cubeTextureDemo.gif)
+   ![gpu-cubeTextureDemo](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/graphics/static/gpu-cubeTextureDemo.gif)
 
 ### 添加一个 Demo
 

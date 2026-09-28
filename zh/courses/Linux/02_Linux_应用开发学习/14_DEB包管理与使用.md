@@ -159,7 +159,7 @@ dpkg --info python3_3.12.3-0ubuntu1_riscv64.deb
 输出结果如图2.2.1所示：
 
 <figure style="text-align: center;"> <!-- 设置居中 -->
-  <img src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/14-2.2.1-python-info.jpg" 
+  <img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/14-2.2.1-python-info.jpg" 
        style="width: 90%; height: auto;"> <!-- 调整大小 -->
   <figcaption style="margin-top: 10px; color: #555;">图2.2.1 python3包info</figcaption>
 </figure>
@@ -184,7 +184,7 @@ tree python_deb/
 输出结果如图2.2.2所示。
 
 <figure style="text-align: center;"> <!-- 设置居中 -->
-  <img src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/14-2.2.2-python3-dec.jpg" 
+  <img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/14-2.2.2-python3-dec.jpg" 
        style="width: 80%; height: auto;"> <!-- 调整大小 -->
   <figcaption style="margin-top: 10px; color: #555;">图2.2.1 python3包解压目录</figcaption>
 </figure>
@@ -451,7 +451,7 @@ dpkg-deb --build hello-world-package
 执行完毕后，会创建一个名为 `hello-world-package.deb` 的DEB包。如图4.4.1所示。
 
 <figure style="text-align: center;"> <!-- 设置居中 -->
-  <img src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/14-4.4.1-deb.jpg" 
+  <img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/14-4.4.1-deb.jpg" 
        style="width: 90%; height: auto;"> <!-- 调整大小 -->
   <figcaption style="margin-top: 10px; color: #555;">图4.4.1 打包生成deb</figcaption>
 </figure>
@@ -473,7 +473,7 @@ hello-world
 如果安装成功，输出如图4.5.1所示。
 
 <figure style="text-align: center;"> <!-- 设置居中 -->
-  <img src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/14-4.5.1-hello-exec.jpg" 
+  <img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/14-4.5.1-hello-exec.jpg" 
        style="width: 90%; height: auto;"> <!-- 调整大小 -->
   <figcaption style="margin-top: 10px; color: #555;">图4.5.1 安装和验证hello-world包</figcaption>
 </figure>
@@ -490,7 +490,7 @@ sudo dpkg -r hello-world
 如果卸载成功，输出如图4.6.1所示。
 
 <figure style="text-align: center;"> <!-- 设置居中 -->
-  <img src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/14-4.6.1-hello-uninstall.jpg" 
+  <img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/14-4.6.1-hello-uninstall.jpg" 
        style="width: 90%; height: auto;"> <!-- 调整大小 -->
   <figcaption style="margin-top: 10px; color: #555;">图4.6.1 卸载hello-world包</figcaption>
 </figure>

@@ -39,7 +39,7 @@ This section describes flashing- and boot-related configuration and implementati
 
 K3 series SoCs commonly use the following three firmware layouts:
 
-![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/image_structure.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/image_structure.png)
 
 1. **eMMC/SD Card/UFS**
    - Partitions are indexed through a GPT table.
@@ -431,7 +431,7 @@ To create an SD card boot image, use the **TitanFlash tool** or the `dd` command
 2. Open the **TitanFlash** flashing tool on the PC. For installation instructions, refer to [TitanFlash Installation](../../../../../tools/user_guide/flasher_user_guide.md).
 3. Click **Dev Tools → SDCard Boot Disk** in the top menu bar.
 4. Choose the **Boot Card** and select the **flashing package**.
-![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/flash_tool_1.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/flash_tool_1.png)
 5. Click **Start** to start writing the image.
 6. After the write completes successfully, insert the TF card into the device. The device can then boot from the card after power-on.
 
@@ -446,7 +446,7 @@ The K3 platform supports SD card mass-production flashing. You can use the **Tit
 1. Insert the TF card into a card reader and connect it to the PC over USB.
 2. Open the TitanFlash tool and click **Factory Tools → MP SDcard Programming**.
 3. Select the flashing package to be written, then click **Start** to start creation.
-![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/flash_tool_2.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/flash_tool_2.png)
 4. After creation is complete, insert the SD card into the device.
 5. After power-on, the device automatically enters the SD card flashing flow and writes the images to the target storage medium.
 6. After flashing completes, **be sure to remove the SD card** to avoid repeating the flashing process at the next power-on.
@@ -494,7 +494,7 @@ As shown in the diagram below, the boot flow mainly consists of the following st
 
 In this flow, `bootinfo` provides information such as the FSBL offset and size.
 
-![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/boot_proc.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/boot_proc.png)
 
 According to the hardware **Boot Pin Select** configuration, the system loads the next-stage boot image from media such as an SD card, eMMC, NOR, NAND, or UFS.
 **The overall boot flow is the same regardless of the boot medium.**
@@ -762,7 +762,7 @@ Boot configuration steps for SPL loading from NOR:
 
 1. **Enable basic SPL functionality**
   Run `make uboot_menuconfig` and select `SPL configuration options`.
-    ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_6.png)
+    ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/spl-config_6.png)
 
 2. **Enable the following options:**
 
@@ -774,7 +774,7 @@ Boot configuration steps for SPL loading from NOR:
    - `Support loading from mtd device`
    - Set `Partition name to use to load U-Boot from`. This value must match the actual name in the partition table.
 
-    ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_7.png)
+    ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/spl-config_7.png)
 
 3. **Enable BLK device support** (such as SSD/eMMC)
    Go to `Device Drivers -> Fastboot support` and enable:
@@ -782,7 +782,7 @@ Boot configuration steps for SPL loading from NOR:
    - `Support blk device`
    - SSD corresponds to NVMe, and eMMC corresponds to MMC.
 
-    ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_8.png)
+    ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/spl-config_8.png)
 
 4. **Enable MTD environment variable (env) support**
 
@@ -792,9 +792,9 @@ Boot configuration steps for SPL loading from NOR:
   - Enable SPI env loading.
   - Set the env offset address. It must match the partition table, for example `0xA0000`.
 
-    ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_9.png)
+    ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/spl-config_9.png)
 
-    ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_10.png)
+    ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/spl-config_10.png)
 
 5. **Adapt the SPI flash driver according to the hardware**
    If the target flash chip driver is not included by default:
@@ -803,7 +803,7 @@ Boot configuration steps for SPL loading from NOR:
    - Go to `Device Drivers -> MTD Support -> SPI Flash Support`.
    - Select the corresponding driver according to the SPI flash vendor used by the hardware.
 
-   ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_11.png)
+   ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/spl-config_11.png)
 
   If your flash model is not listed, add it manually in the code. `flash_name` can be customized and is usually the hardware flash name. `0x1f4501` is the JEDEC ID of the flash. Other parameters should be added according to the hardware flash specifications.
 
@@ -822,14 +822,14 @@ const struct flash_info spi_nor_ids[] = {
 
   SPL directly obtains the `esos` and `uboot` partitions by MTD partition name and loads the FIT images. The partition names are controlled by the env variables `extra_esos_partition` (default `esos`) and `extra_uboot_partition` (default `uboot`). If the env variables are not set, SPL automatically tries the MTD partitions named `esos` and `uboot`.
 
-  ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_12.png)
+  ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/spl-config_12.png)
 
 - **By absolute offset**
 
   Specify byte offsets through the env variables `esos_offset` and `uboot_offset`. The default values are defined in `include/configs/k3.h`.
 
   Enable the following configuration and enter the absolute offset address of the storage medium.
-  ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_13.png)
+  ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/spl-config_13.png)
 
 ###### NAND Boot
 
@@ -869,7 +869,7 @@ The following describes the configuration steps for **pure NAND boot**.
 1. **Configure SPL build options**
   - Run `make uboot_menuconfig`, go to `SPL configuration options`, and enable the following options:
 
-     ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_14.png)
+     ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/spl-config_14.png)
 
      - `Support MTD drivers`
      - `Support SPI DM drivers in SPL`
@@ -881,7 +881,7 @@ The following describes the configuration steps for **pure NAND boot**.
 
    - NAND loading on K3 is handled uniformly by `board_load_extra_fits()`. Partition names are controlled by the env variables `extra_esos_partition` and `extra_uboot_partition`, so no additional second-partition configuration is required.
 
-     ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/spl-config_15.png)
+     ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/spl-config_15.png)
 
 2. **Configure env support**
   For MTD devices, `env` support must be enabled so that SPL can obtain MTD partition information from `env` after startup.
@@ -1091,7 +1091,7 @@ Secure boot is implemented based on the **FIT image** format. The main flow is a
 
 The secure boot verification flow is shown below:
 
-![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/secure_boot.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/secure_boot.png)
 
 Signature process notes:
 
@@ -1271,7 +1271,7 @@ This section describes how to build U-Boot images from the U-Boot source tree.
   make ARCH=riscv menuconfig
   ```
 
-  ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_0.png)
+  ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_0.png)
 
   Use the `Y` / `N` keys to enable or disable related features. After saving, the configuration is written to the `.config` file in the U-Boot root directory.
 
@@ -1489,9 +1489,9 @@ This section describes how to load the environment variables (`env`) from a spec
 
 2. **Open the Environment configuration**
   In the `make menuconfig` menu, select **Environment** to open the environment-variable configuration page.
-   ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_1.png)
+   ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_1.png)
 
-   ![atl text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_2.png)
+   ![atl text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_2.png)
 
   **Supported storage media:**
   The currently supported storage media include:
@@ -1533,7 +1533,7 @@ Both eMMC and SD cards use the MMC driver. Their device numbers are:
   - **Open MMC Host Controller Support**
   In the `make menuconfig` menu, select **Device Drivers** -> **MMC Host Controller Support**, and enable the following configuration:
 
-      ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_3.png)
+      ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_3.png)
 
 2. **DTS configuration**
 In the U-Boot device tree, configure the device tree nodes for eMMC and the SD card.
@@ -1629,9 +1629,9 @@ The NVMe driver is mainly used for debugging SSD devices. The following sections
   **Open Device Drivers**
   In the `make menuconfig` menu, open **Device Drivers** and enable the following configuration:
 
-   ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_4.png)
+   ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_4.png)
 
-   ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_5.png)
+   ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_5.png)
 
 2. **DTS configuration**
 In the U-Boot device tree, add the device tree nodes required by the NVMe driver.
@@ -1778,9 +1778,9 @@ This section describes how to configure and debug networking in U-Boot, includin
   **Enable networking-related configuration**
   In the `make menuconfig` menu, open **Device Drivers** and enable the following configuration:
 
-   ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_6.png)
+   ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_6.png)
 
-   ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_7.png)
+   ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_7.png)
 
 2. **DTS configuration**
 In the U-Boot device tree, add device tree nodes for the Ethernet interface.
@@ -1885,9 +1885,9 @@ SPI (Serial Peripheral Interface) is a commonly used serial communication protoc
   **Open Device Drivers**
   In the `make menuconfig` menu, open **Device Drivers** and enable the following configuration:
 
-   ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_8.png)
+   ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_8.png)
 
-   ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_9.png)
+   ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_9.png)
 
 2. **DTS configuration**
   In the U-Boot device tree, add device tree nodes for the SPI interface.
@@ -1974,7 +1974,7 @@ The NAND driver is implemented on top of the SPI interface, so SPI driver suppor
   **Open Device Drivers -> MTD Support**
   In the `make menuconfig` menu, open **Device Drivers** -> **MTD Support** and enable the following configuration:
 
-   ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_10.png)
+   ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_10.png)
 
   If you need to add support for a new NAND flash device, you can add its JEDEC ID based on the already supported vendor drivers.
 
@@ -2119,9 +2119,9 @@ The NOR driver is implemented on top of the SPI interface, so SPI driver support
   **Open Device Drivers -> MTD Support -> SPI Flash Support**
   In the `make menuconfig` menu, open **Device Drivers** -> **MTD Support** -> **SPI Flash Support**, and enable the following configuration:
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_11.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_11.png)
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_12.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_12.png)
 
 **Adding a new SPI NOR flash**
 
@@ -2276,15 +2276,15 @@ This subsection describes how to enable the HDMI driver.
   **Open Device Drivers -> Graphics support**
   In the `make uboot_menuconfig` menu, open **Device Drivers** -> **Graphics support** and enable the following configuration. It is enabled by default.
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_13.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_13.png)
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_14.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_14.png)
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_15.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_15.png)
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_16.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_16.png)
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_17.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_17.png)
 
 2. **DTS configuration**
 
@@ -2321,7 +2321,7 @@ This subsection describes how to display the boot logo during the U-Boot startup
 
     In the `make menuconfig` menu, open **Device Drivers** -> **Graphics support** and enable the following options:
 
-     ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_18.png)
+     ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_18.png)
 
 2. **Environment configuration**
 
@@ -2404,11 +2404,11 @@ This subsection describes how to enable the Boot Menu feature in U-Boot.
   - **Open Command line interface -> Boot commands**
   In the `make menuconfig` menu, open **Command line interface** -> **Boot commands** and enable the following configuration:
 
-     ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_19.png)
+     ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_19.png)
 
   - **Open Boot options -> Autoboot options**
   Then open **Boot options** -> **Autoboot options** and enable the following options:
-     ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_20.png)
+     ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_20.png)
 
 2. **Environment configuration**
 Add the `bootdelay` and `bootmenu_delay` environment variables to `buildroot-ext/board/spacemit/k3/env_k3.txt`.
@@ -2451,14 +2451,14 @@ Enable Fastboot support as follows:
 - **Open Device Drivers -> Fastboot support**
   In the `make menuconfig` menu, open **Device Drivers** -> **Fastboot support** and enable the following build configuration:
 
-     ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_21.png)
+     ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_21.png)
 
 - **Enable USB support**
   Fastboot depends on the USB driver, so the **USB support** configuration must be enabled:
 
-     ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_22.png)
+     ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_22.png)
 
-     ![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_23.png)
+     ![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_23.png)
 
 #### Enter Fastboot Mode
 
@@ -2690,7 +2690,7 @@ make PLATFORM=generic PLATFORM_DEFCONFIG=k3_deb1_defconfig menuconfig
 ```
 
 Example configuration:
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_menuconfig_24.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_menuconfig_24.png)
 
 ## FAQ
 
@@ -2700,14 +2700,14 @@ This section summarizes common issues and solutions, along with commonly used de
 
 - **Check the USB connection**
   Make sure the USB cable is connected to the PC and the serial log is normal, as shown below:
-   ![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/flash_tool_3.png)
+   ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/flash_tool_3.png)
 
 If the serial log shows that the device is connected but TitanFlash still cannot detect it, check the following:
 
 - **Check Device Manager**
   In Windows Device Manager, check whether an ADB device is present. If not, install the corresponding driver.
 
-![alt text](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/flash_tool_4.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/flash_tool_4.png)
 
 - **Refer to the installation guide**
   If no ADB device is shown in Device Manager, refer to the Fastboot environment installation section in **Host Environment Installation**.
@@ -2751,7 +2751,7 @@ Based on the boot media, modify the starting address of the FSBL partition in th
 
 For MTD devices, you also need to update the `MTDPARTS_DEFAULT` configuration (`CONFIG_MTDPARTS_DEFAULT`) through `menuconfig`.
 
-![a](../../../../../../_assets/docs-buildroot/k3_buildroot/device/static/uboot_MTDPARTS_DEFAULT.png)
+![a](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/static/uboot_MTDPARTS_DEFAULT.png)
 
 ### How to set hidden partitions
 

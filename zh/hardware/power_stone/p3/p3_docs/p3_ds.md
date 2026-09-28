@@ -55,13 +55,13 @@ P3 是一款高性能四相降压（Buck）电源管理芯片，具有高达 32 
 
 ## 2. 模块框图
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-1.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-1.png)
 
 ## 3. 引脚封装
 
 ### 3.1 引脚封装图
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-2.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-2.png)
 
 ### 3.2 引脚描述
 
@@ -590,7 +590,7 @@ PH_CFGx引脚可用于Soc通过控制GPIO引脚来控制PMIC的多相控制，�
 
 <a id="mode-switching-diagram"></a>**图 5-1 模式切换示意图**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-3.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-3.png)
 
 - PMIC有4种工作模式：
 
@@ -745,7 +745,7 @@ PH_CFGx引脚可用于Soc通过控制GPIO引脚来控制PMIC的多相控制，�
 
 **图 5-2 序列控制器时序控制示意图**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-4.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-4.png)
 
 <a id="table-5-16"></a>
 
@@ -788,7 +788,7 @@ PMIC的开机事件：
 
 **图 5-3 开机和关机阈值切换示意图**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-5.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-5.png)
 
 PMIC进入开机模式开始，如果VSYS电压在16s内未低于关机阈值，此时开机阈值将恢复为默认开机阈值，如上图示。上述调整过程通过寄存器[表 6-20](p3_ds.md#表-6-20-pmu_ctrl4) PMU_CTRL4[3]配置为1进行关闭。
 
@@ -835,7 +835,7 @@ PMIC进入开机模式开始，如果VSYS电压在16s内未低于关机阈值，
 
 **图 5-4 开机流程时序图**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-6.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-6.png)
 
 #### 5.4.3 关机事件
 
@@ -867,7 +867,7 @@ PMIC进入开机模式开始，如果VSYS电压在16s内未低于关机阈值，
 
 **图 5-5 关机流程时序图**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-7.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-7.png)
 
 #### 5.4.5 睡眠事件
 
@@ -949,7 +949,7 @@ PMIC进入开机模式开始，如果VSYS电压在16s内未低于关机阈值，
 
 **图 5-6 热复位流程时序图**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-8.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-8.png)
 
 <a id="table-5-18"></a>
 
@@ -1073,7 +1073,7 @@ DVS1/DVS0的引脚逻辑如下图 **DVS0/DVS1逻辑** 所示，在使用DVS功�
 
 **图 5-7 DVS0/DVS1逻辑**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-9.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-9.png)
 
 关于调压速度，[5.5.1 软启动](p3_ds.md#551-软启动)和[5.5.2 软关闭](p3_ds.md#552-软关闭)分别说明了软启动和软关闭的场景，两者的速度均可在 2.5/10/25/50 mV/μs 中选择。软启动时，调压速度由 [表 6-21](p3_ds.md#表-6-21-slew_ctrl0) SLEW_CTRL0[3:2] 控制；软关闭时，调压速度由 [表 6-21](p3_ds.md#表-6-21-slew_ctrl0) SLEW_CTRL0[1:0] 控制。除软启动和软关闭外，还有以下调压场景：
 
@@ -1158,7 +1158,7 @@ PMIC 集成 4 路 BUCK，支持主从两颗 PMIC 通过 GPIO3 引脚进行级联
 
     **图 5-8 PMIC级联主机输出相数和GPIO3输出相位时序**
 
-    ![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-10.png)
+    ![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-10.png)
 
 2. PMIC做从机。作为级联从机，其工作为通过GPIO3接收来自级联主机的输入同步信号，并将内部BUCK通道分配到指定的相位上，与主机形成并联。MTP配置说明如下：
 
@@ -1174,7 +1174,7 @@ PMIC 集成 4 路 BUCK，支持主从两颗 PMIC 通过 GPIO3 引脚进行级联
 
     **图 5-9 PMIC级联从机BUCKx的相位控制（4+4）**
 
-    ![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-11.png)
+    ![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-11.png)
 
 #### 5.5.6 VOUT 寄存器配置和电压映射
 
@@ -1317,7 +1317,7 @@ VSYS过压，VIO欠压，芯片温度保护分别有单独的使能位：
 
 **图 5-10 ADC模块工作示意图**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-12.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-12.png)
 
 ADC各测量通道如下：
 
@@ -1387,7 +1387,7 @@ ADC各测量通道如下：
 
 **图 5-11 ADC结果滤波示意图**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-13.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-13.png)
 
 #### 5.7.5 自动模式
 
@@ -1411,13 +1411,13 @@ ADC各测量通道如下：
 
 **图 5-12 ADC自动扫描示意图**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-14.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-14.png)
 
 <a id="figure-5-13"></a>
 
 **图 5-13 ADC自动模式时序**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-15.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-15.png)
 
 自动模式下每完成一个通道的扫描：
 
@@ -1524,13 +1524,13 @@ SPI 通信接口兼容 SPI 模式 0，最高支持速率为 30 MHz。支持单�
 
 **图 5-14 SPI通信命令**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-16.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-16.png)
 
 <a id="figure-5-15"></a>
 
 **图 5-15 SPI读写时序**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-17.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-17.png)
 
 #### 5.10.2 I2C
 
@@ -1542,13 +1542,13 @@ I2C从机地址可通过MTP配置：[表 6-41](p3_ds.md#表-6-41-i2c_slv_addr) I
 
 **图 5-16 I2C通信命令**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-18.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-18.png)
 
 <a id="figure-5-17"></a>
 
 **图 5-17 I2C读写时序**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-19.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-19.png)
 
 在 LS_MODE 下，I2C 通信接口最高支持 1 MHz，可滤除 50 ns 毛刺，START 和 STOP 的裕量为 120 ns。
 
@@ -1560,7 +1560,7 @@ LS_MODE和HS_MODE切换逻辑涉及到寄存器I2C_HS_MODE和HS_MASTER_CODE，�
 
 **图 5-18 I2C HS_MODE和LS_MODE切换**
 
-![Image](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3-ds-20.png)
+![Image](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3-ds-20.png)
 
 ### 5.11 中断
 

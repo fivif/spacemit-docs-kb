@@ -16,7 +16,7 @@ updated: "2026-03-05 14:45:29"
 
 ### 功能介绍  
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/ir.jpg) 
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/ir.jpg) 
 
 在 K1 平台中外接红外接收头(解调器)收到解调后的电信号在驱动和内核IR框架中进行解码并上报事件。
 

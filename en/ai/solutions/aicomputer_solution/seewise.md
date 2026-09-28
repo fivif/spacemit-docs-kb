@@ -39,7 +39,7 @@ Seewise uses a client-server architecture with three layers:
 
 ### System Architecture Diagram
 
-![](../../../../_assets/docs-ai/solutions/static/seewise-1.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/seewise-1.png)
 
 ## Installation and Deployment
 
@@ -58,7 +58,7 @@ If dependency issues occur, run the following command:
 sudo apt-get install -f
 ```
 
-![](../../../../_assets/docs-ai/solutions/static/seewise-7.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/seewise-7.png)
 
 After installation, `seewise-2.service` is created and enabled automatically.
 
@@ -70,7 +70,7 @@ After installation, `seewise-2.service` is created and enabled automatically.
 - **Web Access**: After installation, open `http://<board-ip>:8084` in a browser.
 - **Desktop Access**: Open the application menu in the lower-left corner, search for **Seewise**, and click the icon to open the corresponding web page.
 
-![](../../../../_assets/docs-ai/solutions/static/seewise-2.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/seewise-2.png)
 
 ## Model Download and Parameter Configuration
 
@@ -86,7 +86,7 @@ Default model directories:
 
 It is recommended to use the default recommended models.
 
-![](../../../../_assets/docs-ai/solutions/static/seewise-5.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/seewise-5.png)
 
 ### Configure Parameters
 
@@ -96,7 +96,7 @@ The main configurable settings include frame extraction and retrieval parameters
 - **Image Size Settings**: Define the model input image size, which affects both retained detail and inference time. Larger images preserve more detail but require more processing time.
 - **Retrieval Settings**: Control the search strategy, including whether reranking is enabled.
 
-![](../../../../_assets/docs-ai/solutions/static/seewise-6.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/seewise-6.png)
 
 ## Video Upload and RTSP Retrieval Workflow
 
@@ -117,7 +117,7 @@ The main configurable settings include frame extraction and retrieval parameters
 4. Processing progress is pushed to the frontend in real time through WebSocket.
 5. When processing is complete, frame data is written to both the database and the vector index.
 
-![](../../../../_assets/docs-ai/solutions/static/seewise-3.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/seewise-3.png)
 
 ### Search Workflow
 
@@ -128,7 +128,7 @@ The main configurable settings include frame extraction and retrieval parameters
 
 **Note:** Due to current environment limitations, searching is not supported while video processing is still in progress.
 
-![](../../../../_assets/docs-ai/solutions/static/seewise-4.jpg)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/seewise-4.jpg)
 
 The application includes two built-in demo videos and their corresponding keyframe semantics for quickly demonstrating scenarios such as relevance-based search.
 

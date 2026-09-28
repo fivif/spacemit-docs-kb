@@ -16,7 +16,7 @@ The CPUFREQ subsystem dynamically adjusts CPU frequency and voltage while the CP
 
 ### Functionality
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/cpufreq.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/cpufreq.png)
 
 1. **cpufreq core**: the core module of the cpufreq framework. It mainly provides three categories of functionality:
    - abstracts the common control logic for dynamic frequency and voltage scaling

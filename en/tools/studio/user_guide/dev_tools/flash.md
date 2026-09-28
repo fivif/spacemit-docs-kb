@@ -33,25 +33,25 @@ The procedure for entering flashing mode differs by model. Refer to the applicab
 
 1. Go to **Development Tools → DFU Flash**.
 
-   ![DFU Flash entry](../../../../../_assets/docs-tool/studio/static/flash.png)
+   ![DFU Flash entry](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/flash.png)
 
 2. The tool automatically detects connected devices in flashing mode. If the device is not detected, verify that it meets the [prerequisites](flash.md#prerequisites).
 
-   ![Device detection](../../../../../_assets/docs-tool/studio/static/flash_0.png)
+   ![Device detection](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/flash_0.png)
 
    If multiple devices are connected, use the **Select Device** drop-down to choose the target device.
 
-   ![Multiple device selection](../../../../../_assets/docs-tool/studio/static/flash_1.png)
+   ![Multiple device selection](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/flash_1.png)
 
 3. Select and download a system image.
 
    Click **More** to open the image library.
 
-   ![More Images](../../../../../_assets/docs-tool/studio/static/flash_2.png)
+   ![More Images](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/flash_2.png)
 
    In the image library, select the target image:
 
-   ![Image library](../../../../../_assets/docs-tool/studio/static/flash_3.png)
+   ![Image library](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/flash_3.png)
 
    (1) Select the board series (K1 or K3).  
    (2) Select the target OS (Bianbu, Buildroot, ROS2, or OpenHarmony).  
@@ -60,49 +60,49 @@ The procedure for entering flashing mode differs by model. Refer to the applicab
 
    Image download in progress:
 
-   ![Downloading](../../../../../_assets/docs-tool/studio/static/flash_3_1.png)
+   ![Downloading](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/flash_3_1.png)
 
    Image download complete:
 
-   ![Download complete](../../../../../_assets/docs-tool/studio/static/flash_3_2.png)
+   ![Download complete](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/flash_3_2.png)
 
    Click **Local** to view previously downloaded images. To use an image file already on the computer, click **Upload Local Image**:
 
-   ![Local image management](../../../../../_assets/docs-tool/studio/static/flash_3_4.png)
+   ![Local image management](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/flash_3_4.png)
 
    Return to the DFU Flash screen and select the downloaded image from the **Select Image** drop-down:
 
-   ![Select image](../../../../../_assets/docs-tool/studio/static/flash_3_3.png)
+   ![Select image](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/flash_3_3.png)
 
 4. Click **Start Flash**.
 
    Confirm the settings (**Reboot after flashing** is selected by default), then click **Start Flash**.
 
-   ![Start Flashing](../../../../../_assets/docs-tool/studio/static/flash_4.png)
+   ![Start Flashing](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/flash_4.png)
 
    Flashing begins and progress is displayed:
 
-   ![Flashing in progress](../../../../../_assets/docs-tool/studio/static/flash_7.png)
+   ![Flashing in progress](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/flash_7.png)
 
 5. Wait for flashing to complete.
 
    If flashing succeeds and **Reboot after flashing** is selected, the device restarts automatically.
 
-   ![Flashing complete](../../../../../_assets/docs-tool/studio/static/flash_8.png)
+   ![Flashing complete](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/flash_8.png)
 
    If flashing fails, an error message is displayed:
 
-   ![Flashing failed](../../../../../_assets/docs-tool/studio/static/flash_12.png)
+   ![Flashing failed](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/flash_12.png)
 
 ### Advanced Options: Configure Partitions
 
 To use custom partition configuration files, select **Partitions Config**:
 
-![Configure Partitions](../../../../../_assets/docs-tool/studio/static/flash_parti_1.png)
+![Configure Partitions](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/flash_parti_1.png)
 
 Click **Edit Files** to open **Partition Files**:
 
-![Edit Partition File List](../../../../../_assets/docs-tool/studio/static/flash_parti_2.png)
+![Edit Partition File List](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/flash_parti_2.png)
 
 In **Partition Files**, add, remove, or modify partition configuration files. Click **Confirm** to return to the DFU Flash screen.
 
@@ -119,11 +119,11 @@ Writes a system image to an SD card, allowing the device to boot from the card. 
 
 1. Go to **Development Tools → SD Card Boot**.
 
-   ![SD Card Boot entry](../../../../../_assets/docs-tool/studio/static/sdcard_0.png)
+   ![SD Card Boot entry](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/sdcard_0.png)
 
 2. Select the target SD card from the **Select Device** drop-down.
 
-   ![Select SD card](../../../../../_assets/docs-tool/studio/static/sdcard_1.png)
+   ![Select SD card](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/sdcard_1.png)
 
    > If the list is empty, confirm the SD card is inserted and click the refresh button ⟳ to re-detect.
 
@@ -131,11 +131,11 @@ Writes a system image to an SD card, allowing the device to boot from the card. 
 
    > **Optional:** Select **Format SD** to format the SD card only, without writing an image.
    >
-   > ![Select Format](../../../../../_assets/docs-tool/studio/static/sdcard_format_0.png)
+   > ![Select Format](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/sdcard_format_0.png)
    >
-   > ![Confirm Format](../../../../../_assets/docs-tool/studio/static/sdcard_format_1.png)
+   > ![Confirm Format](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/sdcard_format_1.png)
    >
-   > ![Format complete](../../../../../_assets/docs-tool/studio/static/sdcard_format_2.png)
+   > ![Format complete](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/sdcard_format_2.png)
 
 4. Select the target image.
 
@@ -146,11 +146,11 @@ Writes a system image to an SD card, allowing the device to boot from the card. 
 
    Writing the boot card:
 
-   ![Writing in progress](../../../../../_assets/docs-tool/studio/static/sdcard_6.png)
+   ![Writing in progress](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/sdcard_6.png)
 
    Boot card creation complete:
 
-   ![Boot card complete](../../../../../_assets/docs-tool/studio/static/sdcard_7.png)
+   ![Boot card complete](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/sdcard_7.png)
 
 6. After writing is complete, insert the SD card into the device and power on to boot from the SD card.
 
@@ -168,9 +168,9 @@ Creates SD cards for mass production. After a production image is written to an 
 The procedure is the same as [SD Card Boot](flash.md#sd-card-boot), with the following differences:
 
 - In step 1, go to **Development Tools → SD Card Mass Production**.
-  ![SD Card Mass Production entry](../../../../../_assets/docs-tool/studio/static/sdcard_mass_0.png)
+  ![SD Card Mass Production entry](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/sdcard_mass_0.png)
 - In step 3 under **Select Operation**, select **Flash Mass Production Card**.
-  ![SD Card Mass Production](../../../../../_assets/docs-tool/studio/static/sdcard_mass_1.png)
+  ![SD Card Mass Production](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/sdcard_mass_1.png)
 - After step 6, insert the SD card into a target device. On power-up, the device automatically writes the system from the SD card to onboard storage.
 
 ### Comparison: SD Card Boot vs. Mass Production
@@ -189,13 +189,13 @@ Writes factory configuration information, such as serial numbers and MAC address
 
 1. Go to **Development Tools → Key Writing Tool**.
 
-   ![Writing Tool entry](../../../../../_assets/docs-tool/studio/static/key_write_00.png)
+   ![Writing Tool entry](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/key_write_00.png)
 
 2. Select the target device.
 
    In the **Select Device** drop-down list, select the device to configure.
 
-   ![Select Device](../../../../../_assets/docs-tool/studio/static/key_write_01.png)
+   ![Select Device](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/key_write_01.png)
 
    > If the list is empty, confirm that the device is connected and in flashing mode, then click the refresh button ⟳ on the right to scan again.
 
@@ -203,7 +203,7 @@ Writes factory configuration information, such as serial numbers and MAC address
 
    To customize the fields displayed in the table, click **Configure Fields** to open the field configuration panel. In the panel, you can:
 
-   ![Configure Fields](../../../../../_assets/docs-tool/studio/static/key_write_03.png)
+   ![Configure Fields](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/key_write_03.png)
 
    - Use the **Enabled** switch to control whether a field is shown in the table.
    - Click the edit icon **✎** to change a field's description or storage medium.
@@ -217,7 +217,7 @@ Writes factory configuration information, such as serial numbers and MAC address
 
    Click **Start Reading**. The tool reads all configuration fields from the device and fills the table.
 
-   ![Read device configuration](../../../../../_assets/docs-tool/studio/static/key_write_02.png)
+   ![Read device configuration](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/key_write_02.png)
 
    After the read operation completes, the table displays the following columns:
 

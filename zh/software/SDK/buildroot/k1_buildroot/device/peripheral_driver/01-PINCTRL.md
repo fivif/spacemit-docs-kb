@@ -16,7 +16,7 @@ PINCTRL 是 **PIN模块的控制器**。
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/linux_pinctrl.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/linux_pinctrl.png)  
 
 Linux pinctrl模块包括两部分: **pinctrl core** 和 **pin 控制器驱动**。  
 

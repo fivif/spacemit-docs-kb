@@ -16,7 +16,7 @@ UART is a universal serial protocol for asynchronous communication. This bus sup
 
 ### Functional Description
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/uart.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/uart.png)
 
 The kernel uses UART to implement the console, and some peripherals, such as Bluetooth, can communicate with the main controller through UART.
 The K1 platform supports **9 UART devices** that can be configured and enabled as needed to connect peripherals.

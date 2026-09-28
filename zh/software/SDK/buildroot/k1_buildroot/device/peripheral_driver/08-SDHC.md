@@ -16,7 +16,7 @@ SDHC 是多媒体卡（MMC）、安全数字卡（SD）和安全数字输入输�
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/MMC.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/MMC.png)
 
 MMC 框架图可以分为以下几个层次：  
 - **MMC Host：** 这是MMC控制器驱动层，负责初始化 MMC 控制器以及底层的数据收发操作，直接控制底层寄存器。  

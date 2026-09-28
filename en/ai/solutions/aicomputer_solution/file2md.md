@@ -49,7 +49,7 @@ File2MD's interface is built with web technologies but behaves like a regular de
 
 ### System Architecture
 
-![File2MD system architecture](../../../../_assets/docs-ai/solutions/static/file2md_en-framework.png)
+![File2MD system architecture](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/file2md_en-framework.png)
 
 ### Processing Pipeline
 
@@ -76,7 +76,7 @@ sudo apt install file2md
 
 Open the system application menu, type **file2md** in the search box, and click the **File2MD** icon in the results. Once the window opens, it automatically connects to the local service and checks the model status.
 
-![Search and launch File2MD from the system menu](../../../../_assets/docs-ai/solutions/static/file2md_en-launch.png)
+![Search and launch File2MD from the system menu](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/file2md_en-launch.png)
 
 ### 2. Add Files or a Web Page
 
@@ -87,7 +87,7 @@ The left side of the home screen is the input area. There are two ways to create
 
 Added items appear in the file queue. Once the queue looks correct, click **Start Conversion** to begin processing.
 
-![Add local files or a URL and start conversion](../../../../_assets/docs-ai/solutions/static/file2md_en-input.png)
+![Add local files or a URL and start conversion](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/file2md_en-input.png)
 
 URL conversion requires the device to reach the target website; local document conversion does not require an external network connection.
 
@@ -114,7 +114,7 @@ Below the six stages are the parsing options for the current task:
 
 These options can be adjusted per task before starting conversion.
 
-![Conversion stages, recognition toggles, and EP inference threads](../../../../_assets/docs-ai/solutions/static/file2md_en-options.png)
+![Conversion stages, recognition toggles, and EP inference threads](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/file2md_en-options.png)
 
 ## Supported Input Formats
 
@@ -140,13 +140,13 @@ The sections of the result page:
 - **Copy Markdown**: The button in the bottom right copies the full Markdown to the clipboard for pasting into other editors.
 - **Download result package `.zip`**: The green button in the bottom right downloads the result package, which contains the `.md` file and an `images/` directory when the task produced image assets.
 
-![History, inference time, and result download](../../../../_assets/docs-ai/solutions/static/file2md_en-result.png)
+![History, inference time, and result download](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/file2md_en-result.png)
 
 ## Using Built-in Examples
 
 The bottom of the page provides built-in examples so you can try File2MD without preparing or uploading your own files. The examples cover web content, formula recognition, table and image handling, and document structure preservation. Click an example card to see its output; click **View All** in the top right of the examples section to browse all built-in examples.
 
-![File2MD built-in examples and View All entry](../../../../_assets/docs-ai/solutions/static/file2md_en-examples.png)
+![File2MD built-in examples and View All entry](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/file2md_en-examples.png)
 
 ## Runtime Directories
 

@@ -82,7 +82,7 @@ K3 通过 DDR 料号自动匹配颗粒的类型、容量、速率等全部参数
 - 按住设备烧录按键上电，进入烧录模式，通过 USB 连接 PC
 - 使用 TitanFlasher 工具集的写号功能，写入 DDR 料号（`ddr_partnumber`）
 
-![TitanFlasher 写入 DDR 料号](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/ddr_part_number.png)
+![TitanFlasher 写入 DDR 料号](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/ddr_part_number.png)
 
 **方式二：U-Boot 命令行写入**
 

@@ -54,7 +54,7 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
 成功启动后，仿真环境如下图所示：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_gazebo.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_gazebo.jpg)
 
 #### **启动navigation2导航**
 
@@ -84,23 +84,23 @@ source ~/ros2_demo_ws/install/setup.bash
 ros2 launch rdk_visualization display_navigation.launch.py
 rviz2
 ```
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_rviz.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_rviz.jpg)
 
 此时我们只能看到一个空旷的环境地图，是因为还没有设置机器人的初始位置。在 rviz2 中点击 **2D Pose Estimate** 设置机器人的初始位置和方向：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_pose1.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_pose1.jpg)
 
 设置完毕后，可以观察到 rviz 加载出了机器人相关坐标系与代价地图信息：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_pose2.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_pose2.jpg)
 
 通过rviz设置导航目的地，点击 **2D Nav Goal** 设置目标点：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_goal1.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_goal1.jpg)
 
 可以观察到机器人小车导航运行状态如下：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_goal2.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_goal2.jpg)
 
 ## 实车导航
 
@@ -136,15 +136,15 @@ PC 端打开一个新终端，输入以下命令启动 rviz 可视化运行。
 ```shell
 ros2 launch rdk_visualization display_navigation.launch.py
 ```
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_rviz.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_rviz.jpg)
 
 启动文件已配置机器人初始位置为SLAM建图原点，也可以再次点击```2D Pose Estimate```调整机器人位姿
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_set_pose.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_set_pose.jpg)
 
 点击```2D Nav Goal```设置导航目标点，可在PC端rviz2中监控导航状态
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_set_goal.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_set_goal.jpg)
 
 ## 同时 slam + navigation2
 
@@ -154,9 +154,9 @@ ros2 launch rdk_visualization display_navigation.launch.py
 ros2 launch rdk_navigation nav2_for_slam.launch.py
 ```
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/slam_with_nav2.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/slam_with_nav2.jpg)
 
 点击 **2D Nav Goal**，即可在未知环境中进行navigation2导航与SLAM建图。
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/slam_with_nav2_set_goal.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/slam_with_nav2_set_goal.jpg)
 

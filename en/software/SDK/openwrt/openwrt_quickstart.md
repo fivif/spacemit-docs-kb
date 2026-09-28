@@ -158,7 +158,7 @@ HOSTLDLIBS_extract-cert =  -lcrypto -pthread
 
    - Confirm that the latest version tarball has been uploaded to`https://archive.spacemit.com/openwrt/dl/`，such as `linux-6.1-v1.0.15.tar.xz`
 
-   <img src="../../../../_assets/docs-openwrt/static/image.png" alt="" width="800">
+   <img src="https://cdn-resource.spacemit.com/openwrt/docs-openwrt/en/static/image.png" alt="" width="800">
    
 
    - Changing the Version Number in the Makefile

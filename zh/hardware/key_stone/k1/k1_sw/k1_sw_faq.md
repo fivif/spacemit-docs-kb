@@ -342,7 +342,7 @@ updated: "2026-06-01 12:13:14"
      - 在 U-Boot 配置中取消 second 分区设置，确保取消选中 **"Second partition to use to load U-Boot from"**，如下图所示。
      - 将分区名更改为 `opensbi-uboot`，并重新编译 U-Boot，确保所有相关引用同步更新。
      - （**注：** 分区名为 opensbi-uboot，如需自定义，以下红色字体的 opensbi-uboot 也需要同步修改）
-       <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_sw/static/KSQjbqPrLooavXxxQxxcWwO7nnh.png" alt="" width="600">
+       <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_sw/static/KSQjbqPrLooavXxxQxxcWwO7nnh.png" alt="" width="600">
 
    - **步骤 2：创建 itb 文件**  
       创建 `uboot-opensbi.its` 文件，定义 U-Boot、OpenSBI 和设备树（dts）的加载参数，内容如下：
@@ -854,7 +854,7 @@ TBD
 
    - **步骤 1：** 了解 LED 控制寄存器（LCR）
      如下图所示，LCR 寄存器位于扩展页 0xd04，地址 0x10。它包含多个位，用于控制不同 LED 的状态，如 LED0、LED1、LED2 的激活状态和链接指示。
-     <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_sw/static/Df0lbeUoGoogRyxFTmncvtdunHb.png" alt="" width="600">
+     <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_sw/static/Df0lbeUoGoogRyxFTmncvtdunHb.png" alt="" width="600">
    - **步骤 2：** 修改驱动程序
      参考代码修改如下
 
@@ -1689,7 +1689,7 @@ TBD
    - **步骤 3：** 在"Session settings"中，选择"SSH"标签页。
    - **步骤 4：** 取消勾选"Advanced SSH settings"下的"Compression"选项。
    - **步骤 5：** 点击"OK"保存设置。
-     <img src="../../../../../_assets/docs-chip/key_stone/k1/k1_sw/static/HCcvbmamPo6TNpxyo3WcthWHnng.jpg" alt="" width="800">
+     <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_sw/static/HCcvbmamPo6TNpxyo3WcthWHnng.jpg" alt="" width="800">
 
 2. **以 root 账户通过 SSH 登录失败**  
   出于安全考虑，SSH 默认禁止 root 直接登录。可按如下方式修改配置文件，将 `PermitRootLogin` 的值改为 `yes`：

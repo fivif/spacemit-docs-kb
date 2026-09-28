@@ -8,7 +8,7 @@ updated: "2026-06-04 08:40:39"
 ---
 # Llama.cpp
 
-![](../../../../_assets/docs-ai/compute_stack/images/llama-cpp-icon.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/llama-cpp-icon.png)
 
 > **llama.cpp** 是一个轻量级大模型推理框架，核心面向 GGUF/GGML 模型的本地推理场景。在 SpacemiT RISC-V 平台上，可以通过 RVV、IME 等硬件能力对 CPU 推理路径进行优化，并可选集成 SMT 视觉扩展以支持多模态场景。([https://github.com/ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp))
 
@@ -97,7 +97,7 @@ llama-bench -m Qwen3-30B-A3B-Instruct-2507-Q4_0.gguf -t 8 -p 64 -n 64 -mmp 0 -fa
 
 输出结果如下：
 
-![](../../../../_assets/docs-ai/compute_stack/images/llama-bench.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/llama-bench.png)
 
 #### 2.3.2. llama-cli
 
@@ -112,7 +112,7 @@ llama-cli -m Qwen3-30B-A3B-Instruct-2507-Q4_0.gguf -t 8 --no-mmap -c 15360
 - -c: 设置‌上下文长度（context size）
 
 输出结果如下：
-![](../../../../_assets/docs-ai/compute_stack/images/llama-cli.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/llama-cli.png)
 
 #### 2.3.3. llama-server
 
@@ -148,14 +148,14 @@ curl -X POST http://127.0.0.1:8080/v1/chat/completions \
 ```
 
 输出结果如下：
-![](../../../../_assets/docs-ai/compute_stack/images/llama-server-api.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/llama-server-api.png)
 
 
 ##### 浏览器请求
 
 在浏览器中搜索 `http://localhost:8080` 打开 llama 服务器，直接在浏览器中使用 llama.cpp
 
-![](../../../../_assets/docs-ai/compute_stack/images/llama-server-chrome.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/llama-server-chrome.png)
 
 ### 2.4. 多模态模型下载使用
 
@@ -177,11 +177,11 @@ curl -X POST http://127.0.0.1:8080/v1/chat/completions \
 
 下载上面的模型并传递到K3设备中，并准备若干测试图片，图片准备224x224、384x384、512x512、768x768几种分辨率，.png和.jpg格式都可以，如下：
 
-![](../../../../_assets/docs-ai/compute_stack/images/vlm-folder-structure.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/vlm-folder-structure.png)
 
 解压模型，以Qwen3.5-0.8B为例，解压后，内容如下：
 
-![](../../../../_assets/docs-ai/compute_stack/images/qwen35-0.8b-folder-structure.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/qwen35-0.8b-folder-structure.png)
 
 目录结构说明如下：
 - **config.json**: 模型配置文件，下面详细说明
@@ -229,15 +229,15 @@ llama-server -m qwen3_5vl_0.8b-text-q41.gguf --media-backend smt --smt-config-di
 
 这个过程中，有一个加载模型的步骤，比较耗时，模型越大越耗时，有如下打印，说明llama-server服务启动成功
 
-![](../../../../_assets/docs-ai/compute_stack/images/vlm-ready.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/vlm-ready.png)
 
 打开浏览器，输入网址：127.0.0.1：8080，开始对话，如下：
 
-![](../../../../_assets/docs-ai/compute_stack/images/vlm-chrome.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/vlm-chrome.png)
 
 llama-server的终端会打印出性能指标，如下：
 
-![](../../../../_assets/docs-ai/compute_stack/images/vlm-performance.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/vlm-performance.png)
 
 #### 2.4.4. 模型使用（Qwen3-VL-30B-A3B）
 
@@ -265,11 +265,11 @@ llama-server -m qwen3vl-30b-text-q4_1.gguf --media-backend smt --smt-config-dir 
 
 打开浏览器，输入网址：127.0.0.1：8080，开始对话，如下：
 
-![](../../../../_assets/docs-ai/compute_stack/images/vlm-30b-a3b-chrome.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/vlm-30b-a3b-chrome.png)
 
 llama-server的终端会打印出性能指标，如下：
 
-![](../../../../_assets/docs-ai/compute_stack/images/vlm-30b-a3b-performance.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/vlm-30b-a3b-performance.png)
 
 ## 3. 多推理并行（重要）
 
@@ -298,15 +298,15 @@ K3有8个AI核心，最大可同时支持8线程推理，但需要分配好线�
 
 对于单推理，直接 -t 8 占满资源即可，推理过程中，通过spacemit-tcm-smi -h查看推理资源状态如下：
 
-![](../../../../_assets/docs-ai/compute_stack/images/tcm-busy-8.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/tcm-busy-8.png)
 
 这时候无法再同时运行新的推理，如果强行运行新的推理，2个推理都会发生异常，打印如下：
 
-![](../../../../_assets/docs-ai/compute_stack/images/tcm-fail.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/tcm-fail.png)
 
 需要等到该推理完成，tcm状态全部变为free后（如下），才可以运行其他推理。
 
-![](../../../../_assets/docs-ai/compute_stack/images/tcm-free-8.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/tcm-free-8.png)
 
 当然也可以强制关闭该推理或者通过 spacemit-tcm-smi -c 清掉tcm状态，强制将tcm状态置为free，开启新的推理。
 
@@ -322,7 +322,7 @@ export SPACEMIT_PERFER_CORE_ID="8,9,10,11" && llama-cli ...
 
 这是查看tcm状态如下，有4个AI核在工作中。
 
-![](../../../../_assets/docs-ai/compute_stack/images/tcm-busy-4.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/compute_stack/images/tcm-busy-4.png)
 
 另一个终端执行：
 ```bash

@@ -20,7 +20,7 @@ SDHC 是 MMC/SD/SDIO 设备的主机控制器，K3 平台的 SDHC 主要支持�
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/mmc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/mmc.png)
 
 Linux MMC 框架大致分为三层：
 

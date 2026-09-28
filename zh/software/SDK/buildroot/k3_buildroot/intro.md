@@ -12,7 +12,7 @@ updated: "2026-04-30 11:47:33"
 
 ## 系统架构
 
-![](../../../../../_assets/docs-buildroot/k3_buildroot/static/bianbu-linux-arch.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/static/bianbu-linux-arch.png)
 
 ## 主要组件
 

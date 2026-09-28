@@ -77,7 +77,7 @@ The K3-CoM260 provides a rich set of interfaces, including MIPI-DSI, MIPI-CSI, D
 
 The figure below shows the naming convention for the **ordering part number**, which consists of the following sections.
 
-![](../../../../_assets/docs-product/k3_com260/static/com260_model.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/com260_model.png)
 
 The table below lists the specific part numbers, main SoC model, and corresponding DDR capacity.
 
@@ -91,7 +91,7 @@ The table below lists the specific part numbers, main SoC model, and correspondi
 
 The block diagram of the K3-CoM260 is shown below.
 
-![](../../../../_assets/docs-product/k3_com260/static/com260_bd.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/com260_bd.png)
 
 Note: For detailed technical parameters of each module, refer to the corresponding [K3 Datasheet](../../key_stone/k3/k3_docs/k3_ds.md).
 
@@ -287,7 +287,7 @@ The tables below list the main interfaces of the K3-CoM260 and their related cha
 
 The figure below shows the physical view of the K3-CoM260 module.
 
-![](../../../../_assets/docs-product/k3_com260/static/com260_real01.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_com260/static/com260_real01.png)
 
 ### 3.2 Pin Package
 

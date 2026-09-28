@@ -48,7 +48,7 @@ updated: "2026-09-11 11:49:22"
 
 AgentForce 采用前后端分离架构：
 
-![alt text](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-arch.png)
+![alt text](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/agentforce/agentforce-arch.png)
 
 ```
 浏览器（Vue 3 + Vite 前端）
@@ -233,15 +233,15 @@ http://127.0.0.1:8881/#/onboarding
 ```
 
 页面将进入引导式安装向导。
-![AgentForce 安装向导](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-onboarding.png)
+![AgentForce 安装向导](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/agentforce/agentforce-onboarding.png)
 
 ### 第三步：安装 Agent 包
 
 向导会自动检测 Agent 运行环境。如尚未安装，点击 **安装** 按钮，输入 sudo 密码以授权安装 `hermes-agent` 包。
 
 等待安装完成（约 1~3 分钟，页面实时显示安装日志）。
-![安装 Agent 包](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-install-agent.png)
-![安装进度日志](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-install-progress.png)
+![安装 Agent 包](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/agentforce/agentforce-install-agent.png)
+![安装进度日志](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/agentforce/agentforce-install-progress.png)
 
 ### 第四步：配置模型
 
@@ -254,24 +254,24 @@ http://127.0.0.1:8881/#/onboarding
 | Model Name | `MiniMax-M2.7` |
 
 > 填入你自己的 API Key，或者直接留空点击 **下一步**，系统会自动分配默认 API Key 用于 demo 体验。
-![配置模型](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-config-model.png)
+![配置模型](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/agentforce/agentforce-config-model.png)
 
-![配置模型确认](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-config-model2.png)
+![配置模型确认](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/agentforce/agentforce-config-model2.png)
 ### 第五步：选择并定制数字员工
 
 从 7 种预设模板中选择一个角色，也可自定义名称、描述和头像，打造专属数字员工。
-![选择员工模板](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-select-employee.png)
+![选择员工模板](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/agentforce/agentforce-select-employee.png)
 
-![定制数字员工](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-customize-employee.png)
+![定制数字员工](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/agentforce/agentforce-customize-employee.png)
 
 ### 第六步：开始对话
 
 进入对话页面后，即可向数字员工发送任务。Agent 会持续探索解决方案，直到完成任务或遇到需要人工确认的操作。
-![对话界面](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-chat.png)
+![对话界面](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/agentforce/agentforce-chat.png)
 
 **权限管控（审批功能）**：当 Agent 需要执行终端命令等敏感操作时，会弹出审批确认框，可选择"仅此一次允许"、"本次会话允许"或"拒绝"。
 
-![审批确认](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-approval.png)
+![审批确认](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/agentforce/agentforce-approval.png)
 
 > 如遇到流式输出失败的情况，可能是前端存在潜在 bug，请反馈到 issue 区。
 

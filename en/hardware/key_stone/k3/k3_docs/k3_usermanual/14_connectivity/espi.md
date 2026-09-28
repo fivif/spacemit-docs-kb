@@ -129,13 +129,13 @@ Each channel defines dedicated 8-bit opcodes. In addition, common opcodes indepe
 
 eSPI transfers consist of three phases: Command Phase, Turn-around Phase, and Response Phase.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/espi_01.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/espi_01.png" alt="" width="600">
 
 #### Command Phase
 
 In the Command Phase, CMD is an 8-bit opcode that indicates the transfer type (Get/Put) and the associated channel. Each channel defines its own opcodes, as shown below:
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/espi_02.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/espi_02.png" alt="" width="400">
 
 **PR channel**
 
@@ -176,7 +176,7 @@ The Turn-around Phase consists of two clock cycles. After transmitting the last 
 
 If the slave is ready, it returns data in the next cycle; otherwise, WAIT_STATE, DEFER, or ERROR is inserted.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/espi_03.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/espi_03.png" alt="" width="600">
 
 #### Response Phase
 
@@ -185,11 +185,11 @@ The eSPI specification defines the opcodes for response transactions.
 - Normal response: Response Modifier = 2'b00
 - NO_RESPONSE: Response Modifier = 2'b11 (default pull-up)
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/espi_04.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/espi_04.png" alt="" width="600">
 
 When the Response Modifier Enable bit in the Slave device's General Capabilities and Configuration register is set via the SET_CONFIGURATION command, the Response Modifier field in GET_STATUS indicates the completion channel, as shown below:
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/espi_05.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/espi_05.png" alt="" width="600">
 
 **Response Code**
 
@@ -223,7 +223,7 @@ Among the status bits:
 - Avail: indicates that the corresponding Channel request is pending on the Slave side;
 - Free: indicates that the corresponding Channel transfer from the Master can be accepted;
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/espi_06.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/espi_06.png" alt="" width="800">
 
 Status synchronization between the Master and the Slave is performed in the following two ways:
 
@@ -240,7 +240,7 @@ WAIT_STATE is 1 byte of data, corresponding to the following cycle counts:
 - 2x mode: 4 cycles
 - 4x mode: 2 cycles
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/espi_07.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/espi_07.png" alt="" width="800">
 
 #### Posted and Non-Posted Transfers
 
@@ -269,7 +269,7 @@ This section mainly describes HDR and DATA in the Common Phase.
 - Address: field length depends on the Cycle Type
 - Data: length depends on the Cycle Type and Length 
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/espi_08.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/espi_08.png" alt="" width="600">
 
 #### VW channel
 
@@ -280,7 +280,7 @@ The counter field in the packet header is 6 bits and indicates the number of Vir
 Each group’s data field contains an index and data value, where the index identifies the target GPIO or IRQ, and the data represents the associated event. Edge detection is supported, allowing operations on the same interrupt ID with different signal levels within a single VW transaction.
 
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/espi_09.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/espi_09.png" alt="" width="600">
 
 Notes:
 
@@ -292,19 +292,19 @@ Notes:
 
 In the interrupt service routine, the Master-side Controller shall clear the Slave-side interrupt status through the VW Channel, then issue GET_VW to obtain the interrupt status and update the interrupt status.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/espi_10.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/espi_10.png" alt="" width="600">
 
 #### OOB channel
 
 Based on the SMBUS protocol. The packet format is basically the same as that of [PR Channel](espi.md#pr-channel), but all transfers are Posted type.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/espi_11.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/espi_11.png" alt="" width="600">
 
 #### Flash Access channel
 
 Initiated by the Slave side through Alert. The Controller obtains the operation type (Write/Read/Erase) and address through GET_STATUS or GET_FLASH_NP. After the operation is completed, the Controller returns Completion and corresponding data through PUT_FLASH_C.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/espi_12.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/espi_12.png" alt="" width="600">
 
 ## 14.9.4 Register List
 

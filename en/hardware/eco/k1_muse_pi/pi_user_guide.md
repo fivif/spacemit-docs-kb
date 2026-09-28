@@ -53,7 +53,7 @@ SpacemiT Key Stone® K1 is a high-performance and ultra-low-power SoC that integ
 
 **Block Diagram**
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/Hs4Sbm1KOoe6cRx2J4DcJS9Dngf.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/Hs4Sbm1KOoe6cRx2J4DcJS9Dngf.png)
 
 ### K1 MUSE Pi Design
 
@@ -71,7 +71,7 @@ The MUSE Pi system uses the K1 chip, coupled with a P1 PMIC and external DCDC po
 - **2x RJ45**
 
 K1 MUSE Pi integrates a stable, production-ready solution, its design is depicted below.
-   ![](../../../../_assets/docs-product/k1_muse_pi/static/PDgvb49SsoQV1HxPi8zcF25Jn5f.jpg)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/PDgvb49SsoQV1HxPi8zcF25Jn5f.jpg)
 
 ### Functions Overview
 
@@ -193,16 +193,16 @@ MUSE Pi includes the following functionalities:
 
 ### Physical Diagram
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/UU0LbjG4JoIH2oxR6plcpVKanLr.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/UU0LbjG4JoIH2oxR6plcpVKanLr.png)
 
 ### Power Block Diagram
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/DgJcbZGhDo4FQTxbAOFcP2oGnqb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/DgJcbZGhDo4FQTxbAOFcP2oGnqb.png)
 
 ### Boot Download Sel&JTAG Sel
 
 The K1 SEC2 JTAG interface is multiplexed with the MMC1 (TF CARD) interface. When JTAG_SEL is pulled high and MMC1_CMD is pulled low, it can be configured for SEC2 JTAG debugging of the X60™ CPU.
-![](../../../../_assets/docs-product/k1_muse_pi/static/SbuCbsWobovVuexwSK2c55j9nKb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/SbuCbsWobovVuexwSK2c55j9nKb.png)
 
 <table>
 <tbody>
@@ -236,7 +236,7 @@ The K1 SEC2 JTAG interface is multiplexed with the MMC1 (TF CARD) interface. Whe
 **Boot Download Selection Configuration Circuit**
 
 The K1 supports configuring the strap pin to select the boot medium. The strap pin is normally pulled down by default, and can be configured to pull up by turning on the dip switch.
-![](../../../../_assets/docs-product/k1_muse_pi/static/I21ub38Y1ozWMpxcrE0c3E0qnUG.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/I21ub38Y1ozWMpxcrE0c3E0qnUG.png)
 
 <table>
 <tbody>
@@ -261,20 +261,20 @@ The K1 supports configuring the strap pin to select the boot medium. The strap p
 </tbody>
 </table>
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/VNaNbxVTcoSC5lx5EHQc5dj6n5e.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/VNaNbxVTcoSC5lx5EHQc5dj6n5e.png)
 
 It is important to note that when a TF card containing firmware is inserted, the device will always boot from the TF card regardless of the DIP switch configuration.
 
 When the DIP switch is used to configure the device’s boot path, the firmware flashing process will, by default, write the firmware to the corresponding boot device. For example, if the DIP switch is set to boot from SPI NOR, the firmware will be written to both SPI NOR and SSD during flashing.
 Please note that the SSD must be installed in M.2 Slot 1.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/UqEKb1cV5o12upxaUNqcscPOnDd.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/UqEKb1cV5o12upxaUNqcscPOnDd.jpg)
 
 ### I2C Address
 
 MUSE Pi reserves a variety of peripheral interfaces. Users debugging I2C peripherals will encounter I2C channel multiplexing situations. The following diagram shows the I2C addresses of the existing components on MUSE Pi and their pull-up power supply to avoid address conflicts and level mismatches.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/AqcrbA605oR6h3xaK53cLbDinzN.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/AqcrbA605oR6h3xaK53cLbDinzN.png)
 
 ## Module Overview
 
@@ -284,7 +284,7 @@ MUSE Pi comes with only one Type-C connector as power input method, which requir
 
 The default input voltage is adjusted to 12V. After being processed by a front-end buck converter, the system generates VCC5V0_SYS and VCC4V0, which supply power to the external DC-DC converter and PMIC, respectively, providing different voltages for system use. The M.2 slot requires a significant current at 3.3V, which is obtained from the adapter input power through the front-end buck converter.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/ZCKnbt81go9wZPx87iucVS42nTI.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/ZCKnbt81go9wZPx87iucVS42nTI.png)
 
 ### Memory
 
@@ -293,7 +293,7 @@ The default input voltage is adjusted to 12V. After being processed by a front-e
 - Equipped with 4GB LPDDR4X memory
 - Supports EEPROM for storing board card information
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/EiwZbgt2GoMZucxbSQDc8VkGnfE.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/EiwZbgt2GoMZucxbSQDc8VkGnfE.png)
 
 ### Key Input
 
@@ -303,13 +303,13 @@ MUSE Pi comes with
 - A Force Download (FDL) button
 - A Reset (RST) button
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/J4l2btpWIoLdrrxDgCyc5F9gnTc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/J4l2btpWIoLdrrxDgCyc5F9gnTc.png)
 
 ### MIPI CSI High-Speed Connector
 
 MUSE Pi does not specifically support any particular camera module. The high-speed connector includes two sets of 4-lane signals (one set for MCLK and one set for I2C, which may require clarification). Users can design their own small boards according to the pin assignments of the high-speed connector to match specific modules, enabling camera combinations such as 4-lane + 4-lane or 4-lane + 2-lane + 2-lane.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/Inq7b3oXeox6HfxlHOOcqshwn3g.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/Inq7b3oXeox6HfxlHOOcqshwn3g.png)
 
 The pinout for the 60-pin high-speed connector is as follows:
 
@@ -350,7 +350,7 @@ The pinout for the 60-pin high-speed connector is as follows:
 
 MUSE Pi supports a 1080P display (JL-M101N013-P12WU-M402632). The connector model for the display socket is FH35C-31S-0.3SHW(50) as depicted below.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/PHNWbm0A7ofQaBxJgeIcC6TwnRd.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/PHNWbm0A7ofQaBxJgeIcC6TwnRd.png)
 
 The display interface pinout is as follows:
 
@@ -467,37 +467,37 @@ The display interface pinout is as follows:
 </tbody>
 </table>
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/OOucbXhbQoFVuLxdLdncYDJBnWe.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/OOucbXhbQoFVuLxdLdncYDJBnWe.png)
 
 ### Type-C Connector
 
 MUSE Pi has a Type-C connector that supports USB 2.0 Device and complies with the PD 3.0 protocol for voltage regulation up to 12V output.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/M6awbbwv8o1WkZxzO4pc9kgOnwh.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/M6awbbwv8o1WkZxzO4pc9kgOnwh.png)
 
 ### HDMI Output Interface
 
 MUSE Pi supports one HDMI Standard A output interface, with a maximum compatibility of HDMI 1.4. It can support video output up to 1080p at 60fps.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/Ix06beoV0oTRxUx4rOncNF8Jn4T.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/Ix06beoV0oTRxUx4rOncNF8Jn4T.png)
 
 ### USB Interface
 
 MUSE Pi provides one USB 2.0 interface and one USB 3.0 interface, allowing developers to easily connect USB devices.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/DxyKbIRC7oUqjQxlot7c500mnWf.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/DxyKbIRC7oUqjQxlot7c500mnWf.png)
 
 ### RJ45 Interface
 
 MUSE Pi supports two RJ45 Gigabit Ethernet interfaces.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/YP1Eb994son3axxSgn3cbE82n4c.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/YP1Eb994son3axxSgn3cbE82n4c.png)
 
 ### Wi-Fi/BT Module
 
 MUSE Pi supports Wi-Fi/BT module, enabling wireless internet access and Bluetooth functionality.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/MgUDbMudYoZ3zDxzz7ac3uTnnJf.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/MgUDbMudYoZ3zDxzz7ac3uTnnJf.png)
 
 ### 26-Pin Interface
 
@@ -594,7 +594,7 @@ MUSE Pi features a 26-pin dual-row header. The pinout is as follows:
 </tbody>
 </table>
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/OTq5bmXsKoL0yvxeFEecRjO9nAl.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/OTq5bmXsKoL0yvxeFEecRjO9nAl.png)
 
 ### JTAG Interface
 
@@ -630,7 +630,7 @@ MUSE Pi reserves the Primary JTAG debugging channel in the 26-pin interface, wit
 </tbody>
 </table>
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/K58IbYfwPofrL3xxCMHcTElSnOb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/K58IbYfwPofrL3xxCMHcTElSnOb.png)
 
 ### UART Debug Interface
 
@@ -639,25 +639,25 @@ The board adopts a 3-pin single-row header and provides a UART0 debug interface 
 On the main controller side, the pin order from left to right is: **TX, RX, GND**.
 
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/QapBb4Grzo6MSBxMeG0cytWwnjf.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/QapBb4Grzo6MSBxMeG0cytWwnjf.png)
 
 ### Audio Interface
 
 MUSE Pi includes two speaker interfaces, supporting a 3.5mm headphone jack.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/IGZdb9qjCojDYmx58EBczsM2nGc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/IGZdb9qjCojDYmx58EBczsM2nGc.png)
 
 ### TF Card Interface (Non-Spring Loaded)
 
 MUSE Pi supports TF cards, allowing developers to easily connect TF card devices. It also supports debug expansion cards for UART0 or JTAG debugging.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/OysebDRv2oC1i8xYLHQc5IiGnSe.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/OysebDRv2oC1i8xYLHQc5IiGnSe.png)
 
 ### M.2 KEY M Interface
 
 MUSE Pi supports the M.2 KEY M interface, allowing developers to easily connect SSDs and other M.2 KEY M devices. It also supports connecting the JMB582 expansion card to convert to SATA.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/NM1ObtE7Po2BPyxKq6RcfNOZncc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/NM1ObtE7Po2BPyxKq6RcfNOZncc.png)
 
 ## Initial Setup
 
@@ -669,13 +669,13 @@ MUSE Pi is a software development board, so need to connect all necessary periph
 
 MUSE Pi uses a USB-PD 3.0 protocol Type-C interface for power supply/charging. User can use any Type-C power adapter that provides the correct power mode and has relevant quality certifications. It is recommended that the maximum power of the adapter is no less than 30W.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/TKpAbIk80oOdqKx2hWbcEUjynvd.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/TKpAbIk80oOdqKx2hWbcEUjynvd.jpg)
 
 **Keyboard & Mouse**
 
 User can connect a wired keyboard/mouse or a USB receiver to any USB-A port on the MUSE Pi, as well as connect a keyboard and mouse via Bluetooth.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/GcuAbV3Veoff4JxnF9jcXNLSnyb.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/GcuAbV3Veoff4JxnF9jcXNLSnyb.jpg)
 
 **Display**
 
@@ -683,7 +683,7 @@ MUSE Pi requires an external display to output video. It supports both HDMI and 
 
 To be noted, if user wants to output video through the MIPI DSI interface, it is necessary to make sure to connect the MIPI DSI cable to both the display and the MUSE Pi before powering it on, as the MIPI DSI interface does not support hot swapping.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/MJUObpLssoPZM0xcmdZcX92Inve.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/MJUObpLssoPZM0xcmdZcX92Inve.jpg)
 
 **Audio**
 
@@ -693,7 +693,7 @@ In addition, user can connect audio peripherals using the 3.5mm headphone jack l
 
 User can switch between the audio jack (ES8326) and HDMI audio output through the sound card settings.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/C7MWbYgtVoA7Rnx323WcgH7qntg.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/C7MWbYgtVoA7Rnx323WcgH7qntg.jpg)
 
 **Network Connection**
 
@@ -701,7 +701,7 @@ MUSE Pi supports a wired RJ45 Ethernet port, allowing user to connect directly w
 
 MUSE Pi also supports wireless connections via WiFi and Bluetooth. If user need to enhance the signal, it is possible to install an antenna.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/Fphyb7cg0oICmbx6jAvcWtL7nVe.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/Fphyb7cg0oICmbx6jAvcWtL7nVe.jpg)
 
 ### Start Up
 
@@ -712,7 +712,7 @@ User can connect required peripherals in advance and press the start button as f
 - Connect MUSE Pi to the monitor via the video cable, and connect the keyboard and mouse at the same time.
 - Finally, connect the power cord and turn on the power (the first time power on, turn on the device; if the software is shut down, it is necessary to press the power button for 1 second to turn it on). After MUSE Pi is running, the red power indicator will light up.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/ZA9gbmazLoHDyYxE9UKcdGo1nle.jpg)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/ZA9gbmazLoHDyYxE9UKcdGo1nle.jpg)
 
 ### Configurations At The First Boot
 
@@ -723,46 +723,46 @@ MUSE Pi comes with the pre-installed Bianbu desktop operating system, which will
 
 Choose the system language. English and Chinese are displayed by default. If need more language options, just click the three dots below to show them.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/EHycbxUnCo6t7MxkYjucK6fFnRb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/EHycbxUnCo6t7MxkYjucK6fFnRb.png)
 
 **Input Method**
 
 Configure the MUSE Pi's keyboard layout and input method.
 
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/AMvNbbdRBoaxtzxUiRJcTydnnSh.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/AMvNbbdRBoaxtzxUiRJcTydnnSh.png)
 
 **Wireless Internet Connection**
 
 Select a valid Wi-Fi network from the list and connect it. If there is no suitable Wi-Fi network, skip this setting by clicking on the upper right corner.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/VRxkbkGnjo25KexMtbjc8qFMnJb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/VRxkbkGnjo25KexMtbjc8qFMnJb.png)
 
 **Location Services**
 
 Turning on location services can facilitate the usage experience, but it may also bring risks of location privacy leakage. Please be aware and careful!
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/FMLxbzlVlo2HYixvSD9cGPmLn3i.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/FMLxbzlVlo2HYixvSD9cGPmLn3i.png)
 
 **Time Zone**
 
 Configure user time zone information. While online (i.e. Wi-Fi connected), the system can automatically synchronize the corresponding time zone, then user can search for cities to add settings.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/EoDibot8HoJJcQx6YebctOdhnae.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/EoDibot8HoJJcQx6YebctOdhnae.png)
 
 **Username & Password Account**
 
 Set username and password account.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/RJHvb3W74oc1a4xnoahcZovinte.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/RJHvb3W74oc1a4xnoahcZovinte.png)
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/UwiNbhcmfonYzdxBwYfc38hcnxg.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/UwiNbhcmfonYzdxBwYfc38hcnxg.png)
 
 **Configuration Completed**
 
 When the configuration is completed, click "Start using Bianbu" thus MUSE Pi will enter the desktop of Bianbu OS.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/ANTIbhchEoc246xlJAoculU8nuc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/ANTIbhchEoc246xlJAoculU8nuc.png)
 
 ## Firmware Flashing
 
@@ -784,9 +784,9 @@ When the configuration is completed, click "Start using Bianbu" thus MUSE Pi wil
 
 **Note:** Please use a USB data cable when flashing firmware.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/CrVUbq9c0oABJ6xKFUZct510nqh.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/CrVUbq9c0oABJ6xKFUZct510nqh.png)
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/IOK1bGhMWoJshdx0zKocr6psnsg.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/IOK1bGhMWoJshdx0zKocr6psnsg.png)
 
 ### Firmware Download and Installation
 
@@ -806,7 +806,7 @@ For Bianbu OS desktop/NAS firmware download, please visit [https://archive.space
 
 The host computer is normally connected to the TX, RX and GND of the MUSE Pi via the USB to TTL device. The signal interface connector is shown below.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/IFdZbWTHgok9OGxDCe9cONGAntb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/IFdZbWTHgok9OGxDCe9cONGAntb.png)
 
 ### Debugging Under Windows
 
@@ -814,7 +814,7 @@ Let's take the "**MobaXterm**" software tool as example.
 
 Firstly, please connect the hardware serial port correctly and confirm that there is a COM port displayed in the port list of the device manager, as shown below.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/RK7wbPdAQo9jK5x3lf4c5Xgon1f.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/RK7wbPdAQo9jK5x3lf4c5Xgon1f.png)
 
 Open the "MobaXterm" software tool then select "Sessions" - "New Session" **(1)** in the screen appearing. In the pop-up dialog box appearing,
 
@@ -825,11 +825,11 @@ Open the "MobaXterm" software tool then select "Sessions" - "New Session" **(1)*
 
 as shown below.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/LUQlb4oNIoZFuBxeDxVcBBVHnJe.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/LUQlb4oNIoZFuBxeDxVcBBVHnJe.png)
 
 Thus the print page will be entered as shown below.
 
-![](../../../../_assets/docs-product/k1_muse_pi/static/RZ7pbCq29ockQaxrUhdcFJyonsc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi/static/RZ7pbCq29ockQaxrUhdcFJyonsc.png)
 
 ## Cautions 
 

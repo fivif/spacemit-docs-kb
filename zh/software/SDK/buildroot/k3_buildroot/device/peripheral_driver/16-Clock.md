@@ -20,7 +20,7 @@ Clock 系统负责给 SoC 内部各个模块提供工作时钟，并且支持时
 
 Linux 为了做好时钟管理，提供了一个时钟管理框架 Common Clock Framework（以下简称CCF），为设备驱动提供统一的操作接口，使设备驱动不必关心时钟硬件实现的具体细节。
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/CLOCK.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/CLOCK.png)
 
 CCF 框架包括以下核心组成部分：
 

@@ -19,7 +19,7 @@ matirx扩展指令主要用于AI中最重要的计算，矩阵乘法。矩阵乘
 
 C+ = A x B
 
-其中，C为输出矩阵，A和B为输入矩阵。根据输入输出矩阵使用的寄存器不同，***RISC-V***社区把matirx扩展指令分为三个方案 ，如下图所示：![三个指令集对比](../../../_assets/docs-ai/architecture/images/matrix_inst.jpg)
+其中，C为输出矩阵，A和B为输入矩阵。根据输入输出矩阵使用的寄存器不同，***RISC-V***社区把matirx扩展指令分为三个方案 ，如下图所示：![三个指令集对比](https://cdn-resource.spacemit.com/ai/docs-ai/zh/architecture/images/matrix_inst.jpg)
 
 - IME方案，矩阵计算的输入、输出矩阵都使用vector寄存器，详情可以加入[IME subgroup](https://lists.riscv.org/g/tech-integrated-matrix-extension)查看。
 - VME方案，矩阵计算的输入矩阵复用vector寄存器，输出矩阵使用专用扩展寄存器，详情可以加入[VME subgroup](https://lists.riscv.org/g/tech-vme)查看。

@@ -160,13 +160,13 @@ lerobot-teleoperate \
 
 3. **相机确认**
 
-笔者使用了两个 USB 摄像头，其中一个固定在操作台面顶部（top），提供全局视角；另一个则固定在侧面（side），以获取更加细致的操作视角。相机布置第三方视角如下图所示。![image-20260326100056147](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.4_AI_Robotic_Arm/images/camera.png)
+笔者使用了两个 USB 摄像头，其中一个固定在操作台面顶部（top），提供全局视角；另一个则固定在侧面（side），以获取更加细致的操作视角。相机布置第三方视角如下图所示。![image-20260326100056147](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.4_AI_Robotic_Arm/images/camera.png)
 
 摄像头的摆放原则是确保摄像头能够捕捉到任务执行过程中的关键细节，同时避免画面中出现其他无关物体，从而确保数据集的高质量和精度。top 视角和 side 视角分别如下图所示：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.4_AI_Robotic_Arm/images/top.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.4_AI_Robotic_Arm/images/top.png)
 
-![image-20260326102623190](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.4_AI_Robotic_Arm/images/side.png)
+![image-20260326102623190](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.4_AI_Robotic_Arm/images/side.png)
 
 在固定好摄像头视角后，将两个 USB 摄像头连接至开发板，并运行以下命令查看摄像头 ID：
 
@@ -408,7 +408,7 @@ lerobot-record  \
 
 SmolVLA 模型是一个轻量级的视觉-语言-动作（VLA）模型，具有仅 450M 的参数量，能够在消费级 GPU 上高效地进行训练和部署。该模型在视觉-大语言模型（VLM）的基础上，融入了动作专家（Action Expert）模块，能够理解视觉输入（如图像或视频流）以及自然语言指令，并根据这些输入生成机器人动作序列。
 
-![image](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.4_AI_Robotic_Arm/images/smolvla.png)
+![image](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.4_AI_Robotic_Arm/images/smolvla.png)
 
 ### 模型微调（服务器）
 

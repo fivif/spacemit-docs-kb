@@ -20,7 +20,7 @@ where:
 - **A** and **B** are input matrices.
 
 Depending on how input and output operands are mapped to architectural registers, the RISC-V community has proposed three distinct approaches for matrix extensions, as illustrated in the following diagram:
-![Three Instruction Set Proposals](../../../_assets/docs-ai/architecture/images/matrix_inst.jpg)
+![Three Instruction Set Proposals](https://cdn-resource.spacemit.com/ai/docs-ai/en/architecture/images/matrix_inst.jpg)
 
 - **IME (Integrated Matrix Extension)**: Both input and output matrices use standard vector registers. For more details, see the [IME subgroup](https://lists.riscv.org/g/tech-integrated-matrix-extension).
 - **VME (Vector-Matrix Extension)**: Input matrices reuse vector registers, while the output matrix uses dedicated extended registers. For more details, see the [VME subgroup](https://lists.riscv.org/g/tech-vme).

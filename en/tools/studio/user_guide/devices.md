@@ -32,21 +32,21 @@ The following connection methods are supported:
 
 When no device is connected, the home page displays an empty state:
 
-![No device connected](../../../../_assets/docs-tool/studio/static/device.png)
+![No device connected](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/device.png)
 
 Alternatively, a device that was previously connected may be displayed as offline:
 
-![Device offline](../../../../_assets/docs-tool/studio/static/device_04.png)
+![Device offline](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/device_04.png)
 
 ### Successful Connection
 
 After a device is connected successfully, the home page displays detailed information about the current device:
 
-![Device connected](../../../../_assets/docs-tool/studio/static/initial_01.png)
+![Device connected](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/initial_01.png)
 
 ## Device Operations
 
-![Device operations panel](../../../../_assets/docs-tool/studio/static/device_00.png)
+![Device operations panel](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/device_00.png)
 
 ### Device Information
 
@@ -69,23 +69,23 @@ The bottom of the device panel provides shortcut buttons for common operations:
 - **[Files](terminal.md#file-management)**: Opens device file management
 - **[Serial Connection](dev_tools/system_tools.md#serial-connection)**: Communicates with the device over a serial connection for low-level debugging and log viewing
 - **Desktop**: Accesses the device graphical interface through VNC/RDP
-  ![](../../../../_assets/docs-tool/studio/static/remote.png) 
+  ![](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/remote.png) 
 - **IDE**: Opens the device integrated development environment in Studio
-  ![IDE](../../../../_assets/docs-tool/studio/static/ide.png)
+  ![IDE](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/ide.png)
 - **Enter Flash** (ADB devices only): One-click operation to put the device into flash mode without manually pressing hardware buttons or executing commands, enabling quick [firmware flashing](dev_tools/flash.md) 
 
 ### Rename Device
 
 Connected devices can be assigned custom names to distinguish them when managing multiple devices:
 
-![Rename device](../../../../_assets/docs-tool/studio/static/device_01.png)
+![Rename device](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/device_01.png)
 
 ### New Device
 
 To add a device, click **+ New Device** and follow the instructions in the **Connect Your Device** dialog to complete the connection.
 At the bottom of the dialog, select a connection method: Cloud, SSH, or USB.
 
-![New device](../../../../_assets/docs-tool/studio/static/device_03.png)
+![New device](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/device_03.png)
 
 Newly added devices appear in the **Device** list.
 
@@ -93,7 +93,7 @@ Newly added devices appear in the **Device** list.
 
 The Activity page consolidates two types of information:
 
-![Activity page](../../../../_assets/docs-tool/studio/static/device_02.png)
+![Activity page](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/device_02.png)
 
 - **Operation Log**: Historical operation logs for the current device, including package name, operation method, execution time, and success/failure status. Click **View All** in the upper-right corner to expand the complete history.
 - **Latest News**: Platform-provided update information

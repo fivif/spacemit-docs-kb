@@ -52,7 +52,7 @@ The application is built on a full speech pipeline — VAD, ASR, speaker diariza
 
 ### System Architecture Diagram
 
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-1.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-1.png)
 
 ### Workflow Overview
 
@@ -108,7 +108,7 @@ After this completes, the directory will contain a `.dsc` file, the original com
 
 Open the system application menu, search for **yumeet**, and launch it.
 
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-2.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-2.png)
 
 ### 2. Configure AI Services
 
@@ -118,7 +118,7 @@ On first use, confirm that the following services are configured correctly:
 - **Speech Service**: Default model `Qwen3-ASR-0.6B`
 - **Translation Service**: Default model `HY-MT1.5-1.8B`
 
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-3.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-3.png)
 
 ### 3. Configure Storage Paths
 
@@ -127,7 +127,7 @@ Two storage directories can be configured:
 - **Meeting Records Directory**: Stores TXT, PDF, or Markdown files generated through **Download Summary**.
 - **Meeting Audio Directory**: Stores backup audio files saved after a real-time transcription session ends.
 
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-4.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-4.png)
 
 ## Transcription Features
 
@@ -138,9 +138,9 @@ Two storage directories can be configured:
 Live transcription can be started from either of the following entry points:
 
 - Home page entry
-  ![](../../../../_assets/docs-ai/solutions/static/yumeet_en-5.png)
+  ![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-5.png)
 - Meeting page entry
-  ![](../../../../_assets/docs-ai/solutions/static/yumeet_en-6.png)
+  ![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-6.png)
 
 #### 1.2 Meeting Setup
 
@@ -155,7 +155,7 @@ Field descriptions:
 - **Meeting Tags**: Supports both primary and secondary tags; the primary tag is highlighted at the top of the record card.
 - **Participants**: Supports registration of multiple attendees.
 
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-7.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-7.png)
 
 Click **Start Recording** when done.
 
@@ -167,27 +167,27 @@ While recording, the interface displays:
 - A session timer with pause controls
 - A display mode toggle to switch between views
 
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-8.png)
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-9.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-8.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-9.png)
 
 #### 1.4 Generate a Meeting Summary
 
 A summary can be generated in two ways:
 
 1. **During recording** — Click **Start** in **Summary Session** at any time.
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-10.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-10.png)
 
 2. **After recording ends** — Summarization starts automatically when you stop the session.
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-11.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-11.png)
 
 The following images show which services are loaded at each trigger point:
 
 - Clicking **Start Transcription** or **Import Audio** loads the speech and translation services.
-  ![](../../../../_assets/docs-ai/solutions/static/yumeet_en-12.png)
+  ![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-12.png)
 - Clicking **Start** in **Summary** or **Pause → End** loads the LLM service.
-  ![](../../../../_assets/docs-ai/solutions/static/yumeet_en-13.png)
+  ![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-13.png)
 - Clicking **Download Summary** in the **Meeting Minutes** section also invokes the LLM service.
-  ![](../../../../_assets/docs-ai/solutions/static/yumeet_en-14.png)
+  ![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-14.png)
 
 ### 2. Import Audio (Offline Transcription)
 
@@ -198,25 +198,25 @@ Click **Import Audio** to open the file picker.
 #### 2.2 Select a File
 
 Supported audio formats include `wav`, `mp3`, and `m4a`.
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-15.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-15.png)
 
 #### 2.3 Processing
 
 After the file is imported, it enters the offline transcription pipeline.
 
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-16.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-16.png)
 
 > Offline transcription processes the entire file before displaying any output. Intermediate results are not shown during processing.
 
 #### 2.4 Transcription Result
 
 When processing completes, a meeting summary is generated automatically.
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-17.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-17.png)
 
 ### 3. Search Within the Transcript
 
 You can search for keywords within the current meeting session. Matching segments are highlighted.
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-18.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-18.png)
 
 ## Meeting Management
 
@@ -231,23 +231,23 @@ The record list provides the following tools for navigating your meeting history
 - Rename or delete a record
 - Paginate through large record sets
 
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-19.png)
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-20.png)
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-21.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-19.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-20.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-21.png)
 
 ### 2. Detailed Meeting Record
 
 The detail page displays the structured summary generated by the LLM from the meeting transcript.
 
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-22.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-22.png)
 
 - Default collapse behavior:
   - **Original Transcript** is collapsed by default.
   - Other summary sections are expanded by default.
 - The search box at the top of the page supports full-text search with highlighted matches.
 
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-23.png)
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-24.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-23.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-24.png)
 
 ## System and Settings
 
@@ -258,7 +258,7 @@ yumeet manages two categories of local files:
 - Original audio files from real-time transcription meetings
 - Text files exported from detailed meeting records
 
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-25.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-25.png)
 
 Notes:
 
@@ -268,14 +268,14 @@ Notes:
 ### 2. System Status
 
 The **System Status** page shows current resource usage and lets you manually refresh the performance metrics.
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-26.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-26.png)
 
 - **Debug Check**: Available only when developer mode is enabled. Use `Ctrl+Shift+I` to open DevTools alongside it.
 - **Performance Monitoring**: Click the refresh button in the upper-right corner to update the displayed metrics.
 
 ### 3. Other Settings
 
-![](../../../../_assets/docs-ai/solutions/static/yumeet_en-27.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/yumeet_en-27.png)
 
 - **UI Design**: Adjust font scaling and toggle animations.
 - **AI Service Connection**: Adjust ports and service addresses for LLM-SDK, SM-SDK, and the translation service.

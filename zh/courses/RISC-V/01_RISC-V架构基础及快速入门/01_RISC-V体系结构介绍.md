@@ -10,7 +10,7 @@ updated: "2026-08-18 17:37:38"
 # 1. RISC-V介绍
 
 <div align=center>
-<img src="../../../../_assets/docs-courses/RISC-V/01_RISC-V架构基础及快速入门/images/riscv-intro/RISC-V.png" >
+<img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/images/riscv-intro/RISC-V.png" >
 </div>
 
 经过多番查阅，我们发现网络上和各类书籍中对RISC-V的介绍有许多，但当我们看到倪光南院士对RISC-V的描述后，觉得将倪院士的话搬到此处恰到好处：
@@ -120,7 +120,7 @@ K1处理器采用了更先进的，由通用Edge处理器融合2.0TOPs NPU算力
 - 算法执行精度不丢失，算力利用效率优秀。
 
 <div align=center>
-<img src="../../../../_assets/docs-courses/RISC-V/01_RISC-V架构基础及快速入门/images/riscv-intro/X60融合AI算力.png" width="456" height="449">
+<img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/images/riscv-intro/X60%E8%9E%8D%E5%90%88AI%E7%AE%97%E5%8A%9B.png" width="456" height="449">
 <figcaption style="font-size: 24px;">图1：X60融合AI算力框架</figcaption>
 </div>
 
@@ -148,7 +148,7 @@ X100 支持特性如下：
 基于Spacemit X100高性能核，进迭时空V100服务器芯片原型系统成功运行KVM虚拟机及GuestOS，目前此系统可以成功运行OpenEuler操作系统及KVM虚拟机与GuestOS，这为进迭时空的RISC-V服务器CPU软硬件研发奠定了良好的基础。
 
 <div align=center>
-<img src="../../../../_assets/docs-courses/RISC-V/01_RISC-V架构基础及快速入门/images/riscv-intro/X100多核系统.png" width="459" height="344">
+<img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/images/riscv-intro/X100%E5%A4%9A%E6%A0%B8%E7%B3%BB%E7%BB%9F.png" width="459" height="344">
 <figcaption style="font-size: 24px;">图2：X100多核系统框架</figcaption>
 </div>
 

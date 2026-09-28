@@ -15,7 +15,7 @@ updated: "2026-06-10 14:57:14"
 
 整体架构如下图所示。
 
-![](../../../../_assets/docs-events/竞赛教程/02_AI_大模型开发文档及案例集/images/blockdiagram.png)
+![](https://cdn-resource.spacemit.com/competition/docs-events/zh/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/02_AI_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/images/blockdiagram.png)
 
 ## 2. 编译使用
 
@@ -33,7 +33,7 @@ git clone git@github.com:ggml-org/llama.cpp.git
 
 编译完以后，工具和库会被安装到build/installed。其结构如下：
 
-![](../../../../_assets/docs-events/竞赛教程/02_AI_大模型开发文档及案例集/images/structure.png)
+![](https://cdn-resource.spacemit.com/competition/docs-events/zh/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/02_AI_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/images/structure.png)
 
 ### 2.2 关键工具介绍 
 | 功能       | 名字           |
@@ -43,8 +43,8 @@ git clone git@github.com:ggml-org/llama.cpp.git
 
 量化工具使用说明：
 
-![](../../../../_assets/docs-events/竞赛教程/02_AI_大模型开发文档及案例集/images/help.png)
+![](https://cdn-resource.spacemit.com/competition/docs-events/zh/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/02_AI_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/images/help.png)
 
 量化支持类型：
 
-![](../../../../_assets/docs-events/竞赛教程/02_AI_大模型开发文档及案例集/images/types.png)
+![](https://cdn-resource.spacemit.com/competition/docs-events/zh/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/02_AI_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/images/types.png)

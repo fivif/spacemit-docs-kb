@@ -16,21 +16,21 @@ If a regular user forgets their password, it can be reset using the `root` accou
 
 1. Boot into the login screen, as shown below
 
-   ![](../../../../_assets/docs-bianbu/static/tmps6urhcyi.PNG)
+   ![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/static/tmps6urhcyi.PNG)
 
 2. Press **Ctrl + Alt + F3** (make sure to unlock the Fn key first) to switch to the `tty3` terminal, as shown below:
 
-   ![](../../../../_assets/docs-bianbu/static/tmpw7385ih6.PNG)
+   ![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/static/tmpw7385ih6.PNG)
 
 3. Log in with the username `root` and password. The default password is `bianbu`, as shown below:
 
-   ![](../../../../_assets/docs-bianbu/static/tmphgeanjg5.PNG)
+   ![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/static/tmphgeanjg5.PNG)
 
 4. Run `export LANG=en_US.UTF-8` to temporarily switch the terminal language to English and avoid character encoding issues.
 
 5. Run the command `passwd username` to change the user's password, for example, to reset the password for user `bianbu`, as shown below:
 
-   ![](../../../../_assets/docs-bianbu/static/tmpst8dy3yi.PNG)
+   ![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/static/tmpst8dy3yi.PNG)
 
 6. Press **Ctrl + Alt + F1** to return to the login screen. You can now log in with the new password.
 

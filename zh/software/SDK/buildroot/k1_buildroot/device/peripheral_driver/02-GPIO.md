@@ -16,7 +16,7 @@ GPIO是 **管理 GPIO模块的控制器**
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/linux_gpio.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/linux_gpio.png)  
 
 Linux gpio子系统驱动框架主要有三部分组成:  
 

@@ -20,7 +20,7 @@ K1 平台提供 3 个 PCIe 控制器，支持连接多种 PCIe 外设，包括 N
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/linux_pcie.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/linux_pcie.png)
  
 Linux PCIe 子系统框架由三部分组成：
 

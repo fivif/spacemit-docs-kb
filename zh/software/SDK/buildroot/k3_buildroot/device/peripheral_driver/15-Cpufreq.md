@@ -16,7 +16,7 @@ CPUFREQ 子系统负责在 CPU 运行时通过动态调整 CPU 运行频率与�
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/cpufreq.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/cpufreq.png)
 
 1. **cpufreq core：** cpufreq framework 的核心模块，它主要实现三类功能：
     - 抽象调频调压的公共逻辑接口

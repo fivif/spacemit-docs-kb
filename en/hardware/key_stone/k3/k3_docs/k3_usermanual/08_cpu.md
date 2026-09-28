@@ -42,7 +42,7 @@ Designed for both performance and robustness, the X100 core provides comprehensi
 
 ### 8.1.3 Block Diagram
 
-<img src="../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/x100_block_diagram.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/x100_block_diagram.png" alt="" width="600">
 
 ## 8.2 SpacemiT® A100™ AI Core
 
@@ -81,7 +81,7 @@ In addition to advanced AI acceleration, the A100 fully supports general-purpose
 
 ### 8.2.3 Block Diagram
 
-<img src="../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/a100_block_diagram.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/a100_block_diagram.png" alt="" width="400">
 
 ## 8.3 RT24 RISC-V Core
 
@@ -98,7 +98,7 @@ The RT24 serves as the system management core within the K3 SoC. It is based on 
 
 ### 8.3.3 Block Diagram
 
-<img src="../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/rt24_block_diagram.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/rt24_block_diagram.png" alt="" width="600">
 
 ## 8.4 Debug
 
@@ -110,7 +110,7 @@ The debugging interface serves as the channel for software to interact with the 
 
 The micro-architecture of the debugging interface is depicted below.
 
-<img src="../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/debug_block_diagram.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/debug_block_diagram.png" alt="" width="600">
 
 As illustrated, the debugging system consists of:
 
@@ -152,4 +152,4 @@ Key features include:
 
 ### 8.5.3 Block Diagram
 
-<img src="../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/trace_block_diagram.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/trace_block_diagram.png" alt="" width="600">

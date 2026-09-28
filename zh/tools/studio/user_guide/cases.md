@@ -16,12 +16,12 @@ updated: "2026-08-24 09:53:27"
 
 进入 **案例开发** 页面后，可以看到预置的示例卡片（如 **Hello SpacemiT**），每个卡片会标注适用的系统类型（如 C）与设备系列（如 K1）。
 
-![案例列表](../../../../_assets/docs-tool/studio/static/cases.png)
+![案例列表](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/cases.png)
 
 点击案例卡片进入详情页，页面会展示该案例的说明、源码内容、编译命令与运行命令。点击右上角 **推送到设备并打开 IDE**，会将示例源码推送到所选设备的指定目录（如 `/opt/devprojects/hello-spacemit`），并在浏览器中打开设备上已安装的在线 Code Server。
 
-![案例详情](../../../../_assets/docs-tool/studio/static/cases_01.png)
+![案例详情](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/cases_01.png)
 
 推送完成后，会自动打开在线 IDE，可以在文件浏览器中看到已推送的项目文件（如 `hello.c`、`README.md`）。在内置终端中执行编译与运行命令后，即可直接在设备上查看输出结果，无需手动传输代码或额外配置开发环境。
 
-![设备端在线 IDE](../../../../_assets/docs-tool/studio/static/cases_02.png)
+![设备端在线 IDE](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/cases_02.png)

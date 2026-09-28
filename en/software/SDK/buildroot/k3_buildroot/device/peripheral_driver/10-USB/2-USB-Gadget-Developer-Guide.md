@@ -21,7 +21,7 @@ For example, it allows the development board to function as a USB mass storage d
 
 When a mobile phone is connected to a PC through USB for data transfer, ADB debugging, network sharing, and similar functions, these features are typically implemented through the Linux USB Gadget subsystem.
 
-![](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-framework.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-framework.png)
 
 The USB device-role driver stack can be divided into the following layers:
 
@@ -214,7 +214,7 @@ When the development board operates as a USB device, two methods are available f
 The `gadget-setup` script can also be customized according to actual product requirements.
 
 Then connect the device to the PC and open a common camera application, such as PotPlayer or Amcap on Windows, or `guvcview` on Linux. The test pattern should then be displayed.
-![alt text](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uvc-potplayer.jpg)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uvc-potplayer.jpg)
 
 #### Routing a Real Camera Stream to the UVC Gadget Through V4L2
 
@@ -337,7 +337,7 @@ After running the command, connect the board to the PC over USB. The PC should t
 
 - The device name of UAC1.0 on Windows 10 (version 21H2 is used in this document) is AC—Interface.
 
-  ![usbg-uac1-wi](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac1-win.png)
+  ![usbg-uac1-wi](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac1-win.png)
 
 - The device name of UAC2.0 on Windows 10 PC is Source/Sink.
 - On a Linux PC, the audio device name for UAC1.0/UAC2.0 is the Product String of the USB Gadget.
@@ -356,7 +356,7 @@ The following sections describe the two main UAC gadget use cases: playback and 
 
 1. Find the volume icon on the taskbar, right-click it to open **Sound settings**, and set the playback device to the UAC gadget. Use the device name described above to identify it.
 
-    ![usbg-uac-win-settings](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac-win-settings-out.png)
+    ![usbg-uac-win-settings](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac-win-settings-out.png)
 
 2. On the K3 development board acting as a UAC gadget, run `aplay -l` and `arecord -l`:
 
@@ -450,10 +450,10 @@ The graphical interfaces of Linux desktop distributions vary, so this section de
 
 1. Find the volume icon on the taskbar, right-click it to open **Sound settings**, and set the recording device to the UAC gadget. Use the corresponding device name described above.
 
-    ![usbg-uac-win-settings](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac-win-settings-in.png)
+    ![usbg-uac-win-settings](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac-win-settings-in.png)
 
 2. In the Windows settings page from step 1, go to **Device properties -> More device properties -> Advanced -> Signal enhancements** and clear **Enable audio enhancement**.
-    ![alt text](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac-record-win.png)
+    ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-uac-record-win.png)
 
 3. Download a WAV audio file and rename it to `test.wav`.
 
@@ -614,7 +614,7 @@ gadget-setup.sh mtp
 
 This example uses a Windows PC as the host. MTP supports driver-free operation, so the corresponding portable device appears in Windows Device Manager and File Explorer. The product name configured in the default script is `SpacemiT Technologies`:
 
-![mtp](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-mtp.png)
+![mtp](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-mtp.png)
 
 The same general behavior applies to other operating systems, including macOS and Linux distributions.
 
@@ -628,7 +628,7 @@ storage "/var/lib/umtp" "shared folder" "rw"
 
 The script configures a shared directory by default. The local path on the development board is `/var/lib/umtp`, and it appears as `shared folder`. This displayed name is independent of the actual local path and can be changed. For example, a camera directory could be named `DCIM`. The directory is mounted with read/write permissions, and the available capacity corresponds to the capacity of the storage device mounted at that local path on the development board.
 
-![mtpshared](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-mtp-shared.png)
+![mtpshared](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-mtp-shared.png)
 
 Unlike Mass Storage, where only one side can exclusively access a block device or image, MTP is more flexible.
 When the PC reads from or writes to this directory, the changes can be observed immediately on the development board, and vice versa.
@@ -721,7 +721,7 @@ This section describes how to share a Windows PC's internet connection with a de
 5. Open the **Sharing** tab, then select **Allow other network users to connect through this computer's Internet connection**.
 6. In the **Home networking connection** drop-down list, select the RNDIS device. In the example below, `Ethernet 5` is the RNDIS device for the USB development board, and `Ethernet 14` is the Wi‑Fi or Ethernet connection that provides internet access:
 
-    ![share](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-rndis-share.png)
+    ![share](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-rndis-share.png)
 
 7. Click **OK**.
 8. On the development board, run `udhcpc -i usb0` to obtain the IP address assigned by Windows.
@@ -829,7 +829,7 @@ In addition, the simplest I/O test method uses Python together with `cat` or `he
    ```
 
 - After running the PC-side script, the gadget-side output should look similar to the following screenshot:
-   ![hid-gside](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-hid-gside.jpg)
+   ![hid-gside](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-hid-gside.jpg)
 
 ### FFS Demo (FunctionFS)
 
@@ -871,7 +871,7 @@ After cloning the repository to the K3 development board running the Bianbu or U
    ```
 
 4. Connect the USB cable to the PC host. A new USB device named `K1 AIO` appears. On Windows, check it in Device Manager. On Linux, check it with `lsusb`.
-   ![alt text](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-ffs-windows-dm.png)
+   ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/usbg-ffs-windows-dm.png)
 
 5. When connected to a Linux host, `host_app` in the `tools/usb/ffs-aio-example/` directory can be used to communicate with this FFS bulk-transfer demo gadget device.
 The general process is straightforward: 

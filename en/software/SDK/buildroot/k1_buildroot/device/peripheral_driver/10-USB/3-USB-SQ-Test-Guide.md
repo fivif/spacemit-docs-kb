@@ -58,7 +58,7 @@ For detailed information about this script, please refer to the [ USB Gadget Dev
 
 Connect the USB2.0 OTG port of the K1 development board (USB0_DP/USB0_DN in the schematic) to the host with the xHCI Electrical Test Tool installed via a USB cable and test fixture. As shown in the figure, select the device with VID/PID 0x361c/..., choose the TEST_PACKET option under Device Command, and click EXECUTE. The K1 USB2.0 OTG controller will then start transmitting the test waveform.
 
-![alt text](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB/usb2-xett-testpacket.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/USB/usb2-xett-testpacket.png)
 
 ##### K1 Configuration via Linux DebugFS
 
@@ -108,7 +108,7 @@ Connect the USB3.0 DRD port of the K1 development board (USB2_DP/USB2_DN in the 
 As shown in the figure, select the device with VID/PID 0x361c/..., choose the TEST_PACKET option under Device Command, and click EXECUTE.
 The K1 USB3.0 DRD controller will then transmit the test waveform.
 
-![alt text](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB/usb2-xett-testpacket.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/USB/usb2-xett-testpacket.png)
 
 #####  Configuration via Linux DebugFS
 
@@ -165,7 +165,7 @@ If the Test Packet option is executed for a specific port, the corresponding por
 
 The test waveform observed on the oscilloscope is shown in the figure below:
 
-![usbhs-test-packet](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB/usbhs-test-packet.png)
+![usbhs-test-packet](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/USB/usbhs-test-packet.png)
 
 #### K1 USB2.0 OTG Controller Host Mode Test
 
@@ -346,7 +346,7 @@ Take the K1 development board bpi-banana-f3 as an example. A VIA Labs VL817 USB 
 
 First, execute the `lsusb -tv` command：
 
-![alt text](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB/usb-portest-hub.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/USB/usb-portest-hub.png)
 
 As shown in the orange-highlighted area in the figure, we find a 480M Hub device with the product description `VIA Labs, Inc`.
 

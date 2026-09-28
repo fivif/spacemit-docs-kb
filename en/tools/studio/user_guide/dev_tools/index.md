@@ -10,7 +10,7 @@ updated: "2026-07-30 11:31:05"
 
 The Development Tools page provides three categories of tools: Flash Tools, System Tools, and Remote Access. These tools support common operations from image writing to device configuration and remote access.
 
-![Development Tools page](../../../../../_assets/docs-tool/studio/static/tool_00.png)
+![Development Tools page](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/tool_00.png)
 
 - [Flash Tools](flash.md):
   DFU flashing, SD card boot, and SD card mass production

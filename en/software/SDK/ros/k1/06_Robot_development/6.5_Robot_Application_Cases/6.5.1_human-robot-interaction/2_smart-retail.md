@@ -138,7 +138,7 @@ sudo apt install -y \
 
    Expected Output with both models listed, as shown below
 
-   ![image-20250428153224566](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/smart-retail-ollama-status.png)
+   ![image-20250428153224566](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/smart-retail-ollama-status.png)
 
 5. Remove the model storage directory to save space:
 

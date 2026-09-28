@@ -35,7 +35,7 @@ updated: "2026-07-07 09:40:19"
 
 ### 系统架构图
 
-![系统架构图](../../../../_assets/docs-ai/solutions/static/ainas-arch.png)
+![系统架构图](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ainas-arch.png)
 
 ## 开发环境
 
@@ -1003,7 +1003,7 @@ OpenMediaVault（简称 OMV）是一个基于 Debian Linux 的开源网络附加
 [Bianbu OMV开发说明文档](https://gitee.com/bianbu/nas-docs)
 
 基于Bianbu系统移植的openmediavault
-![基于Bianbu系统移植的openmediavault](../../../../_assets/docs-ai/solutions/static/ainas-openmediavault.png)
+![基于Bianbu系统移植的openmediavault](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ainas-openmediavault.png)
 
 ### CasaOS
 
@@ -1015,7 +1015,7 @@ CasaOS 是由国内团队 IceWhale Technology（冰鲸科技） 开发的开源�
 [CasaOS开发说明文档](https://wiki.casaos.io/zh/contribute/development)
 
 基于Bianbu系统移植的CasaOS
-![基于Bianbu系统移植的CasaOS](../../../../_assets/docs-ai/solutions/static/ainas-casaos.png)
+![基于Bianbu系统移植的CasaOS](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ainas-casaos.png)
 
 
 ## 技术支持

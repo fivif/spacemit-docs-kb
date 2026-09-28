@@ -41,7 +41,7 @@ sudo apt install python3-pyaudio python3-scipy libfftw3-dev
 
 - 将 USB 麦克风插入 **MUSE Pi Pro** 的 USB 接口
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/mic_connect.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/mic_connect.png)
 
 ## 添加到音频组
 
@@ -88,7 +88,7 @@ arecord -D hw:2,0 --dump-hw-params
 
 **示例输出**
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/arecord_out1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/arecord_out1.png)
 
 意义解释
 
@@ -130,7 +130,7 @@ ros2 launch rdk_hri recorder.launch.py device_index:=2 sample_rate:=48000
 
 **终端打印如下：**
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/ros2out1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/ros2out1.png)
 
 这将发布音频数据流到 `/audio/raw` 话题
 
@@ -138,7 +138,7 @@ ros2 launch rdk_hri recorder.launch.py device_index:=2 sample_rate:=48000
 
 `ros2 topic hz /audio/raw`
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/ros2out2.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/images/ros2out2.png)
 
 理论发布频率 = sample_rate / frame_size = 48000 / 512 = 93.75
 

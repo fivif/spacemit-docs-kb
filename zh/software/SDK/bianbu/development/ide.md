@@ -56,7 +56,7 @@ sudo tar xf VSCodium-linux-riscv64-1.94.2.24286.tar.gz -C /opt/vscodium
 
 远程开发模式：
 
-![architecture ssh](../../../../../_assets/docs-bianbu/development/static/architecture-ssh.png)
+![architecture ssh](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/architecture-ssh.png)
 
 ### Visual Studio Code Remote - SSH
 
@@ -87,7 +87,7 @@ info  Session server listening on ~/.local/share/code-server/code-server-ipc.soc
 
 在任何电脑、平板上打开浏览器，访问`http://IP:PORT`，即可打开远程的文件夹和文件。
 
-![code-server](../../../../../_assets/docs-bianbu/development/static/code-server.png)
+![code-server](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/code-server.png)
 
 已知问题：
 

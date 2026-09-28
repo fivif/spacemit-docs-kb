@@ -18,7 +18,7 @@ updated: "2026-08-18 17:27:20"
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/00_linux_env.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/00_linux_env.png">
     <br>
 </center>
 
@@ -31,7 +31,7 @@ GPIO 电平域为 3.3V，支持多功能复用，引脚定义和资源如下图�
 <center>
     <img style="width: 800px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/00_linux_env_1.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/00_linux_env_1.png">
     <br>
 </center>
 
@@ -153,7 +153,7 @@ make k1_defconfig
 <center>
     <img style="width: 400px; border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="../../../../_assets/docs-courses/Linux/01_Linux_驱动开发学习/images/00_linux_env_5.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/00_linux_env_5.png">
     <br>
 </center>
 

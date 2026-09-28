@@ -16,11 +16,11 @@ A headless initialization tool that presets system parameters before the device'
 
 1. Go to **Development Tools → System Preconfiguration**.
 
-   ![System Preconfiguration entry](../../../../../_assets/docs-tool/studio/static/systool_preconfig_00.png)
+   ![System Preconfiguration entry](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/systool_preconfig_00.png)
 
 2. Specify the configuration fields to preset:
 
-   ![System Preconfiguration fields](../../../../../_assets/docs-tool/studio/static/systool_preconfig_01.png)
+   ![System Preconfiguration fields](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/systool_preconfig_01.png)
 
    - **Username / Password**: Sets the system login credentials.
    - **Hostname**: A custom device name. If left blank, the hostname is generated automatically.
@@ -45,11 +45,11 @@ Maps a device port to the local machine, enabling access to services running on 
 1. Ensure the device is connected and appears in the **Current Device** panel.
 2. Go to **Development Tools → Port Forward**.
 
-   ![Port Forwarding entry](../../../../../_assets/docs-tool/studio/static/systool_mapping_00.png)
+   ![Port Forwarding entry](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/systool_mapping_00.png)
 
 3. Fill in the forwarding rule in the **New Forward** panel:
 
-   ![New Forward panel](../../../../../_assets/docs-tool/studio/static/systool_mapping_01.png)
+   ![New Forward panel](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/systool_mapping_01.png)
 
     - **Remote Port**: The device port number to forward (for example, 8080).
     - **Local Port**: The local port number to map. If left blank, a port is assigned automatically.
@@ -57,11 +57,11 @@ Maps a device port to the local machine, enabling access to services running on 
 
 4. Click **Create Forward**.
 
-   ![Create Forward](../../../../../_assets/docs-tool/studio/static/systool_mapping_02.png)
+   ![Create Forward](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/systool_mapping_02.png)
 
 5. After the forward is created, it appears in the **Active Forwards** list on the right. Access the device service at `localhost:<local port>`.
 
-   ![Active Forwards list](../../../../../_assets/docs-tool/studio/static/systool_mapping_03.png)
+   ![Active Forwards list](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/systool_mapping_03.png)
 
 ## Serial Connection
 
@@ -79,11 +79,11 @@ Enables command-line interaction and system debugging through a serial connectio
 1. Ensure the device is connected to the computer over a serial connection.
 2. Go to **Development Tools → Serial Connection**.
 
-   ![Serial Connection entry](../../../../../_assets/docs-tool/studio/static/systool_serial_00.png)
+   ![Serial Connection entry](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/systool_serial_00.png)
 
 3. Configure the serial parameters:
 
-   ![Configure serial parameters](../../../../../_assets/docs-tool/studio/static/systool_serial_01.png)
+   ![Configure serial parameters](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/systool_serial_01.png)
 
    - **Serial Port**: Select the serial port corresponding to the device (for example, COM3 or /dev/ttyUSB0).
    - **Baud Rate**: Sets the communication speed. The common value is 115200.

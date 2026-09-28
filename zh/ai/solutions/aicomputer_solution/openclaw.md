@@ -35,7 +35,7 @@ updated: "2026-09-11 11:49:36"
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 ```
 
-![alt text](../../../../_assets/docs-ai/solutions/static/image-1.png)
+![alt text](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/image-1.png)
 
 如果 nvm 找不到，执行以下面的命令：
 
@@ -51,7 +51,7 @@ source ~/.bashrc
 
 点击下载：[npm安装包](https://archive.spacemit.com/spacemit-ai/openclaw/openclaw-2026.3.8.1.tgz)
 
-![alt text](../../../../_assets/docs-ai/solutions/static/image.png)
+![alt text](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/image.png)
 
 ### 3. 安装 nodejs22
 
@@ -95,7 +95,7 @@ openclaw onboard
 ``` 
 
 安装结束后，开始配置 openclaw，以下为使用 Kimi 模型 的配置示例
-![alt text](../../../../_assets/docs-ai/solutions/static/image-2.png)
+![alt text](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/image-2.png)
 
 配置完成后，终端将输出一个带 Token 的本地访问地址，例如：
 
@@ -106,7 +106,7 @@ http://127.0.0.1:18789/#token=7229793a7a0a32ff206ab91230ac991221c84301dc3447e6
 在浏览器中打开该链接即可访问 OpenClaw Web UI
 
 后面token是在配置结束后，控制台显示的那行
-![alt text](../../../../_assets/docs-ai/solutions/static/image-3.png)
+![alt text](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/image-3.png)
 
 ## 开发者用户 构建安装、二次开发 openclaw
 

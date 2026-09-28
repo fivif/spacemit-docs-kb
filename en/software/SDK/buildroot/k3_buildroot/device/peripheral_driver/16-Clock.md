@@ -20,7 +20,7 @@ The clock system provides operating clocks for internal SoC modules and supports
 
 To simplify clock management, Linux provides the Common Clock Framework (CCF). It offers a unified interface to device drivers so that drivers do not need to depend on hardware-specific clock implementation details.
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/CLOCK.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/CLOCK.png)
 
 The CCF includes the following core components:
 

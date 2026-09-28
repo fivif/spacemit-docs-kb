@@ -68,13 +68,13 @@ updated: "2026-09-11 11:47:18"
 
 ### System Architecture Diagram
 
-![Multi-Stream ASR system architecture](../../../../_assets/docs-ai/solutions/static/multi_stream_asr/system-architecture.png)
+![Multi-Stream ASR system architecture](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/multi_stream_asr/system-architecture.png)
 
 The system consists of one controller process, N lane child processes, and one shared `llama-server` process. The controller is responsible only for model loading, lifecycle coordination, event aggregation, and WebSocket broadcasting. Audio reading, online Zipformer recognition, offline Qwen requests, and result persistence all remain within each lane. As a result, the speed at which the controller handles control events does not block the 100 ms audio production cycle in any lane.
 
 ### Workflow
 
-![Multi-Stream ASR workflow](../../../../_assets/docs-ai/solutions/static/multi_stream_asr/workflow.png)
+![Multi-Stream ASR workflow](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/multi_stream_asr/workflow.png)
 
 Audio in each lane moves through the following sequence:
 
@@ -270,7 +270,7 @@ Select **Load Models**. The controller first starts the shared `llama-server` an
 
 After you select **Start Recognition**, each lane begins reading audio and producing `partial` events. At the end of each utterance, it submits the audio for offline transcription and returns a `final` event.
 
-![Multi-Stream ASR Web recognition interface](../../../../_assets/docs-ai/solutions/static/multi_stream_asr/web-ui.png)
+![Multi-Stream ASR Web recognition interface](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/multi_stream_asr/web-ui.png)
 
 ### 6. View Results, Stop, and Unload
 
@@ -279,7 +279,7 @@ The recognition results area displays each lane's `partial` interim text and `fi
 - Select **Stop Recognition** to end the current run
 - Select **Unload Models** to release the models and shared service
 
-![Multi-Stream ASR recognition results](../../../../_assets/docs-ai/solutions/static/multi_stream_asr/web-result.png)
+![Multi-Stream ASR recognition results](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/multi_stream_asr/web-result.png)
 
 ## Command-Line Usage
 

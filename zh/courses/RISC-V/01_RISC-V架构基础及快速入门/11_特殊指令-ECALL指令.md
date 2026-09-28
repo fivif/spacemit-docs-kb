@@ -18,7 +18,7 @@ ecall指令在RISC-V架构中被定义为环境调用指令，主要用于向系
 RISC-V 定义了以下实际处理ecall的调用机制:
 
 <div align=center>
-<img src="../../../../_assets/docs-courses/RISC-V/01_RISC-V架构基础及快速入门/images/ecall/ecall.png">
+<img src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/images/ecall/ecall.png">
 </div>
 
 # 2. **ecall的应用场景**

@@ -16,7 +16,7 @@ The Display module on the SpacemiT platform uses the DRM (Direct Rendering Manag
 
 ### Function Description
 
-![display-drm](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/display-drm.png)
+![display-drm](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/display-drm.png)
 
 #### User Space: Libdrm
 
@@ -471,7 +471,7 @@ For example, using the MIPI DSI panel model `lcd_gx09inx101_mipi`
 
 Fill in the DPU timing configuration and MIPI DSI timing configuration based on the timing information provided in the MIPI DSI panel's specification. The pixel clock and bit clock are calculated from the timing parameters.
 
-![display-timing](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/display-timing.png)
+![display-timing](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/display-timing.png)
 
 ##### Display Timing Parameter Explanation
 

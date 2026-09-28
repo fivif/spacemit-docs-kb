@@ -45,12 +45,12 @@ P3 is a high-performance four-phase buck power management Chip (PMIC) featuring 
 
 ## P3 Four-Phase Independent Output Simplified Circuit Diagram
 
-![](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3_circuit_indep.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3_circuit_indep.png)
 
 ## P3 Four-Phase Parallel Single-Output Simplified Circuit Diagram
 
-![](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3_circuit_para.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3_circuit_para.png)
 
 ## P3 Pin Diagram (Top View)
 
-![](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3_pin.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p3/p3_docs/static/p3_pin.png)

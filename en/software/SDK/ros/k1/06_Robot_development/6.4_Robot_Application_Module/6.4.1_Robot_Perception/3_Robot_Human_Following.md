@@ -57,7 +57,7 @@ ros2 launch turtlebot3_gazebo empty_world.launch.py
 
 After successful launch, the simulation environment will look like this:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/follow_person_sim.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/follow_person_sim.jpg)
 
 ### Launch the Human-Following Algorithm
 
@@ -74,7 +74,7 @@ The robot's following strategy is to select the target closest to the center of 
 
 **Hardware Connection**
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/follow_hardware_usb.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/follow_hardware_usb.jpg)
 
 Check the camera device ID:
 
@@ -209,6 +209,6 @@ rqt_image-view rqt_image-view
 
 ## Human-Following on a Real Robot
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/follow_object.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/follow_object.jpg)
 
 On a real robot, tilt the camera upward slightly for better recognition performance.

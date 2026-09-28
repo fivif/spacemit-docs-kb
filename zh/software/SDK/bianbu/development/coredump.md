@@ -46,7 +46,7 @@ gdb /usr/bin/bash /tmp/crash/CoreDump
 
 崩溃发生时，会有如下弹窗，按照提示填写相关信息，点击**发送**即可自动上传崩溃报告并打开浏览器跳转到刚刚上传的崩溃报告。
 
-![apport崩溃弹窗](../../../../../_assets/docs-bianbu/development/static/apport.png)
+![apport崩溃弹窗](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/development/static/apport.png)
 
 也可暂时选择不发送，后续可使用如下命令重新显示弹窗。
 

@@ -12,7 +12,7 @@ updated: "2026-06-22 18:35:17"
 
 ## 硬件连接
 
-![硬件连接](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.5_Control_Protocol/images/ethercat_motor.jpg)
+![硬件连接](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.5_Control_Protocol/images/ethercat_motor.jpg)
 如图所示，接入电机电源，网线一端连接电机IN口，另一端插入开发板网口，
 电源指示灯常亮表示电机正常工作
 

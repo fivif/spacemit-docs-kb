@@ -16,7 +16,7 @@ The CPUFREQ subsystem is responsible for adjusting the CPU frequency and voltage
 
 ### Functionality Description
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/cpufreq.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/cpufreq.png)
 
 1. cpufreq core is the core module of the cpufreq framework, and it mainly implements three types of functions:
    - Abstracts shared logic for frequency/voltage scaling.

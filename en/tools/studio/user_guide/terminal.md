@@ -12,13 +12,13 @@ The Terminal panel provides an integrated command-line environment for interacti
 
 > Note: A device must be connected.
 
-![](../../../../_assets/docs-tool/studio/static/terminal_00.png)
+![](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/terminal_00.png)
 
 ## File Management
 
 The File Management panel on the left provides access to the device file system.
 
-![](../../../../_assets/docs-tool/studio/static/terminal_03.png)
+![](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/terminal_03.png)
 
 ### Toolbar
 
@@ -49,15 +49,15 @@ The terminal toolbar provides the following actions:
 - **+**: Creates a new terminal tab.
 
 - **SSH**: Connects to the device over SSH and opens a remote terminal. Select this option to open the configuration dialog, then enter the SSH port, username, and password to connect.
-  ![Configure SSH parameters](../../../../_assets/docs-tool/studio/static/terminal_01.png)
+  ![Configure SSH parameters](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/terminal_01.png)
 
 - **ADB**: Connects to the device through the ADB protocol and opens a debugging shell.
 
 - **Open Serial**: Opens a serial terminal for viewing boot logs and performing low-level debugging. Select this option to open the configuration dialog, choose a serial device, configure the baud rate and other parameters, then connect.
-  ![Configure serial parameters](../../../../_assets/docs-tool/studio/static/systool_serial_01.png)
+  ![Configure serial parameters](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/systool_serial_01.png)
 
 - **Split Right**: Splits the terminal area to create a new independent panel to the right of the current terminal.
-  ![Terminal split screen example](../../../../_assets/docs-tool/studio/static/terminal_02.png)
+  ![Terminal split screen example](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/terminal_02.png)
 - **Split Down**: Splits the terminal area to create a new independent panel below the current terminal.
 
   > **Split screen limits:** Maximum of 5 panels in a single direction (horizontal or vertical) and 16 panels total.

@@ -20,23 +20,23 @@ updated: "2026-08-27 15:44:15"
 2. How should the serial port and JTAG be connected for debugging on K3 Pico-ITX?
 
     - Serial port location:
-     ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/signal00.png)
+     ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/signal00.png)
     - Connection method: Connect the TX pin of the serial cable to the RX pin of the K3 Pico-ITX, and connect the RX pin of the serial cable to the TX pin of the K3 Pico-ITX.
     - Serial debugging requirements: A 3.3 V serial cable is required.
     - PRI JTAG debugging:
-     ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/pico-jtag-debug.png)
+     ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/pico-jtag-debug.png)
 
 3. How should the serial port and JTAG be connected for debugging on the K3 CoM260 development kit?
 
     - Serial port location:
-    ![K3 CoM260 serial port location diagram](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/com260_Input_keys.png)
+    ![K3 CoM260 serial port location diagram](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/com260_Input_keys.png)
 
     - Connection method: Connect the TX pin of the serial cable to the RX pin of the K3 CoM260 kit, and connect the RX pin of the serial cable to the TX pin of the K3 CoM260 kit.
     - Serial debugging requirements: A 3.3 V serial cable is required.
     - PRI JTAG Debugging: Supports JTAG debugging through a TF card-to-JTAG adapter.
        > Note: The TMS and TDI signals must be cross-connected between the JTAG debugger and the adapter board, as shown in the figure below.
 
-       ![](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/com260_debug_00.png)
+       ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/com260_debug_00.png)
 
 ## Power System
 
@@ -229,7 +229,7 @@ This section answers common questions about peripherals and interfaces, includin
 10. Is pin 214 (`FORCE_RECOVERY`) on the K3 CoM260 used as an upgrade/recovery pin?
 
     Yes. Pull this pin down to GND and then power on the board to enter firmware download mode. On the baseboard shown below, this is the firmware download pin.
-    ![K3 CoM260 download pin diagram](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/com260_Input_keys_01.png)
+    ![K3 CoM260 download pin diagram](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/com260_Input_keys_01.png)
 
 11. Can MMC2 on the K3 CoM260 core board be used for TF-card firmware upgrade? Can MMC2 be used as a standard SD-card storage interface?
 
@@ -271,7 +271,7 @@ This section answers common questions about peripherals and interfaces, includin
 
     As shown below, `PCIE0` to `PCIE5` indicate the PCIe PHY order, while `PCIEA` to `PCIEE` indicate the PCIe controller order. The multiplexed sideband GPIO functions correspond to the controller order.
 
-    ![K3 PCIe PHY to controller mapping diagram](../../../../../_assets/docs-chip/key_stone/k3/k3_hw/static/k3_phy.png)
+    ![K3 PCIe PHY to controller mapping diagram](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_hw/static/k3_phy.png)
 
 ## Reliability
 

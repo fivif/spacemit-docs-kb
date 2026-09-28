@@ -61,7 +61,7 @@ USB_UDC=cad00000.usb3 gadget-setup.sh hid
 
 将 K3 开发板的 USB3.0 DRD 端口（原理图中的 USB2_DP/USB2_DN）通过 USB 线材和测试治具接入安装有 xHCI Electrical Test Tool 的上位机，如图选择 VID/PID 0x361c/... 的 Device，选择Device Command 发送 TEST_PACKET 选项，点击 EXECUTE 即可让 K3 USB3.0 DRD 控制器发送测试波形。
 
-![alt text](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usb2-xett-testpacket.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/usb2-xett-testpacket.png)
 
 ##### K3 使用 Linux DebugFS 进行配置
 
@@ -123,7 +123,7 @@ K3 共有 5 个 USB 控制器，分别为：
 
 示波器看到的测试波形如下图所示：
 
-![usbhs-test-packet](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbhs-test-packet.png)
+![usbhs-test-packet](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/10-USB/static/usbhs-test-packet.png)
 
 #### 1. 准备工作（仅针对 USB3.0 DRD PortA）
 

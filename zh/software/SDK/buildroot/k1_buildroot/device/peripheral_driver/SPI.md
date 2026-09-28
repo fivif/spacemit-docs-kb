@@ -17,7 +17,7 @@ updated: "2026-03-05 14:45:54"
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/linux_spi.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/linux_spi.png)  
 
 Linux SPI 驱动框架分为三层：**SPI Core**、**SPI 控制器驱动**、**SPI 设备驱动**。
 - **SPI Core** 主要作用：

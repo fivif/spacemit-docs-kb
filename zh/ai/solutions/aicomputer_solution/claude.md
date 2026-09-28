@@ -62,7 +62,7 @@ claude --version
 ```
 
 输出版本号表示安装成功：
-![](../../../../_assets/docs-ai/solutions/static/claude-version.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/claude-version.png)
 
 **注意：对于K1需要安装nvm并切换node.js版本**
 
@@ -102,13 +102,13 @@ claude
 ```
 
 启动界面如下:
-![](../../../../_assets/docs-ai/solutions/static/claude-use.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/claude-use.png)
 
 Say Hello：
-![](../../../../_assets/docs-ai/solutions/static/claude-hello.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/claude-hello.png)
 
 执行/model切换模型：
-![](../../../../_assets/docs-ai/solutions/static/claude-model.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/claude-model.png)
 
 
 在交互式会话中,您可以:
@@ -122,19 +122,19 @@ Say Hello：
 ## 4. 举一个例子
 
 - 输入“帮我写一个程序，调用onnxruntime，下载并使用resnet50模型进行分类，显示分类结果”，Claude开始运行
-![](../../../../_assets/docs-ai/solutions/static/claude-demo1.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/claude-demo1.png)
 
 - Claude完成了编码，并提供了操作步骤：
-![](../../../../_assets/docs-ai/solutions/static/claude-demo2.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/claude-demo2.png)
 
 - 执行“run it”，出现异常，Claude自行修复异常中
-![](../../../../_assets/docs-ai/solutions/static/claude-demo3.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/claude-demo3.png)
 
 - Claude修复完异常后，程序可以正常执行
-![](../../../../_assets/docs-ai/solutions/static/claude-demo4.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/claude-demo4.png)
 
 - 手动执行程序，可正常执行
-![](../../../../_assets/docs-ai/solutions/static/claude-demo5.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/claude-demo5.png)
 
 ## 5. 对接端侧AI(简单尝试，无需关注)
 
@@ -169,11 +169,11 @@ llama-server -m Qwen2.5-0.5B-Instruct-Q4_0.gguf -t 8 --host 127.0.0.1 --port 808
 claude --model qwen2.5:0.5b
 ```
 
-![](../../../../_assets/docs-ai/solutions/static/claude-llama1.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/claude-llama1.png)
 
 hello的耗时特别长，prefill了17000+tokens
 
-![](../../../../_assets/docs-ai/solutions/static/claude-llama2.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/claude-llama2.png)
 
 后面写算法的耗时明显变短，但准确度欠佳
-![](../../../../_assets/docs-ai/solutions/static/claude-llama3.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/claude-llama3.png)

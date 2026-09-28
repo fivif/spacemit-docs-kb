@@ -55,7 +55,7 @@ Seewise 采用客户端-服务器架构，分为三层：
 
 ### 系统架构图
 
-![](../../../../_assets/docs-ai/solutions/static/seewise-1.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/seewise-1.png)
 
 ## 安装与部署
 
@@ -71,7 +71,7 @@ Seewise 采用客户端-服务器架构，分为三层：
   sudo apt-get install -f
   ```
 
-![](../../../../_assets/docs-ai/solutions/static/seewise-7.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/seewise-7.png)
 
 - 安装后会自动创建并启用 `seewise-2.service`
 - 默认根目录：`~/.seewise-2`
@@ -85,7 +85,7 @@ Seewise 采用客户端-服务器架构，分为三层：
 - 桌面访问：
   点击左下角菜单搜索seewise或见智，点击图标跳转到对应网页。如下图
 
-![](../../../../_assets/docs-ai/solutions/static/seewise-2.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/seewise-2.png)
 
 ## 模型下载与参数配置
 
@@ -98,7 +98,7 @@ Seewise 采用客户端-服务器架构，分为三层：
   - Embedding：`~/.seewise-2/models/embedding/`
   - Rerank：`~/.seewise-2/models/rerank/`
 - 建议优先选择推荐模型。
-  ![](../../../../_assets/docs-ai/solutions/static/seewise-5.jpg)
+  ![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/seewise-5.jpg)
 
 ### 参数配置
 
@@ -107,7 +107,7 @@ Seewise 采用客户端-服务器架构，分为三层：
 - 图片大小配置：输入模型的图片大小，决定了保留细节的多少和推理时间，输入越大，推理时间越长
 - 检索参数配置：决定检索策略，是否开启rerank等
 
-![](../../../../_assets/docs-ai/solutions/static/seewise-6.jpg)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/seewise-6.jpg)
 
 ## 视频上传与 RTSP 检索流程
 
@@ -128,7 +128,7 @@ Seewise 采用客户端-服务器架构，分为三层：
 4. 实时通过 WebSocket 向前端推送处理进度
 5. 完成后帧数据写入数据库和向量索引
 
-![](../../../../_assets/docs-ai/solutions/static/seewise-3.jpg)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/seewise-3.jpg)
 
 ### 搜索流程
 
@@ -138,7 +138,7 @@ Seewise 采用客户端-服务器架构，分为三层：
    （注：配合设置页面的检索配置使用）
 4. 需注意的是，当前因环境限制，暂不支持在处理视频时同步进行搜索
 
-![](../../../../_assets/docs-ai/solutions/static/seewise-4.jpg)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/seewise-4.jpg)
 
 应用内置了两个视频及其关键帧语义，用于快速演示相关度搜索等场景。
 

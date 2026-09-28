@@ -37,7 +37,7 @@ updated: "2026-09-11 11:46:59"
 
 AgentForce uses a frontend/backend separation architecture:
 
-![AgentForce Architecture](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-arch.png)
+![AgentForce Architecture](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/agentforce/agentforce-arch.png)
 
 ```text
 Browser (Vue 3 + Vite frontend)
@@ -222,15 +222,15 @@ http://127.0.0.1:8881/#/onboarding
 ```
 
 The guided installation wizard launches automatically.
-![AgentForce Installation Wizard](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-onboarding.png)
+![AgentForce Installation Wizard](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/agentforce/agentforce-onboarding.png)
 
 ### Step 3: Install the Agent Package
 
 The wizard automatically detects the agent runtime environment. If it is not yet installed, click **Install** and enter the sudo password to authorize installation of the `hermes-agent` package.
 
 Wait for the installation to finish. This usually takes approximately 1–3 minutes, and real-time logs are displayed on the page.
-![Install Agent Package](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-install-agent.png)
-![Installation Progress](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-install-progress.png)
+![Install Agent Package](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/agentforce/agentforce-install-agent.png)
+![Installation Progress](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/agentforce/agentforce-install-progress.png)
 
 ### Step 4: Configure the Model
 
@@ -243,24 +243,24 @@ Enter the LLM API credentials. The following demo API key can be used for a quic
 | Model Name | `MiniMax-M2.7` |
 
 > Enter a valid API key, or leave the field empty and click **Next**. The system automatically assigns a default API key for demonstration purposes.
-![Configure Model](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-config-model.png)
+![Configure Model](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/agentforce/agentforce-config-model.png)
 
-![Configure Model Confirmation](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-config-model2.png)
+![Configure Model Confirmation](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/agentforce/agentforce-config-model2.png)
 
 ### Step 5: Select and Customize a Digital Employee
 
 Select one of the seven preset templates, or customize the name, description, and avatar to create a custom digital employee.
-![Select Employee Template](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-select-employee.png)
+![Select Employee Template](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/agentforce/agentforce-select-employee.png)
 
-![Customize Digital Employee](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-customize-employee.png)
+![Customize Digital Employee](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/agentforce/agentforce-customize-employee.png)
 
 ### Step 6: Start Chatting
 
 Once the chat page is opened, tasks can be assigned to the digital employee. The agent continues exploring solutions until the task is completed or human approval is required.
-![Chat Interface](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-chat.png)
+![Chat Interface](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/agentforce/agentforce-chat.png)
 
 **Approval Workflow**: When the agent needs to run a terminal command or perform another sensitive operation, an approval dialog appears. The operation can be allowed once, allowed for the session, or denied.
-![Approval Dialog](../../../../_assets/docs-ai/solutions/static/agentforce/agentforce-approval.png)
+![Approval Dialog](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/agentforce/agentforce-approval.png)
 
 > If streaming output fails, the cause may be a frontend issue. Report it through the issue tracker.
 

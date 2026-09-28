@@ -47,7 +47,7 @@ The DMA controller supports various data transfer types in DMA Flow-Through Mode
 ## 16.1.3 Block Diagram
 
 The architecture of the DMA controller is shown below.
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/dma_block_diagram.png" alt="" width="500">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/dma_block_diagram.png" alt="" width="500">
 
 ## 16.1.4 Functional Description
 
@@ -224,7 +224,7 @@ The descriptor-fetch transfer (\<NODESCFETCH\> field in the DMA Channel Control/
 
 The summary of the operations is depicted below.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/dma_operations.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/dma_operations.png" alt="" width="600">
 
 #### Descriptor Branching
 
@@ -241,7 +241,7 @@ The Descriptor Branching operates in the following manner:
 
 The summary of the operations is depicted below.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/dma_operations_1.png" alt="" width="500">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/dma_operations_1.png" alt="" width="500">
 
 #### No-Descriptor-Fetch Transfer Operation
 
@@ -299,7 +299,7 @@ The typical no-Descriptor-fetch transfer (\<NODESCFETCH\> = 1) operates in the f
 
 The summary of the operations is depicted below.
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/dma_operations_2.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/dma_operations_2.png" alt="" width="600">
 
 ### 16.1.4.3 Transferring Data
 

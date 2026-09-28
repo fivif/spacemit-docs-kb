@@ -17,7 +17,7 @@ The K1 platform implements Wi-Fi via external modules supporting **PCIe**, **SDI
 
 The Wi-Fi architecture is divided into multiple layers, as shown in the figure below:
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/wlan.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/wlan.png)
 
 ### Source Code Structure
 

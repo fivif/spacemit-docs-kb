@@ -47,7 +47,7 @@ chmod +x hello.sh
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-1-2-1-hello.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-1-2-1-hello.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -117,7 +117,7 @@ mkdir $dir_name
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-2-1-1-variable.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-2-1-1-variable.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -152,7 +152,7 @@ PATH=$old_path
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-2-1-2-env-variable.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-2-1-2-env-variable.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -182,7 +182,7 @@ bash param.sh apple banana
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-2-1-3-param.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-2-1-3-param.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -258,7 +258,7 @@ echo ${fruits[@]}
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-2-2-1-array.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-2-2-1-array.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -291,7 +291,7 @@ echo $str3
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-2-3-1-define-str.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-2-3-1-define-str.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -323,7 +323,7 @@ echo $result
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-2-3-2-use-str.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-2-3-2-use-str.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -349,7 +349,7 @@ fi
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-2-3-3-search-str.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-2-3-3-search-str.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -379,7 +379,7 @@ echo "进入了 new_dir 目录"
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-3-1-1-sequential.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-3-1-1-sequential.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -417,7 +417,7 @@ fi
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-3-2-1-numerical.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-3-2-1-numerical.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -441,7 +441,7 @@ fi
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-3-2-2-logical.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-3-2-2-logical.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -495,7 +495,7 @@ esac
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-3-2-3-case.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-3-2-3-case.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -529,7 +529,7 @@ done
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-3-3-1-for-array.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-3-3-1-for-array.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -556,7 +556,7 @@ done
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-3-3-2-for-num.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-3-3-2-for-num.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -589,7 +589,7 @@ echo "1到10的累加和是：$sum"
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-3-3-3-while.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-3-3-3-while.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -624,7 +624,7 @@ echo "1到10的累加和是：$sum"
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-3-3-4-until.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-3-3-4-until.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -674,7 +674,7 @@ say_hello
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-4-2-1-say-hello.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-4-2-1-say-hello.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -698,7 +698,7 @@ sum 5 3
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-4-2-2-sum.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-4-2-2-sum.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -731,7 +731,7 @@ fi
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-4-2-3-check-number.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-4-2-3-check-number.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -778,7 +778,7 @@ echo -e "第一行\n第二行"
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-5-1-1-echo.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-5-1-1-echo.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -806,7 +806,7 @@ awk '{print $1}' data.txt
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-5-2-1-awk-print.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-5-2-1-awk-print.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -824,7 +824,7 @@ awk '{sum+=$2} END {print sum}' data.txt
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-5-2-2-awk-sum.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-5-2-2-awk-sum.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -846,7 +846,7 @@ grep "Bob" data.txt
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-5-3-1-grep-1.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-5-3-1-grep-1.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -862,7 +862,7 @@ grep "^C" data.txt
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-5-3-2-grep-2.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-5-3-2-grep-2.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -880,7 +880,7 @@ grep -i "alice" data.txt
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-5-3-3-grep-3.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-5-3-3-grep-3.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -896,7 +896,7 @@ grep -v "Engineer" data.txt
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-5-3-4-grep-4.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-5-3-4-grep-4.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -917,7 +917,7 @@ sed 's/Engineer/Programmer/' data.txt
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-5-4-1-sed-1.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-5-4-1-sed-1.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -935,7 +935,7 @@ sed '/Bob/d' data.txt
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-5-4-2-sed-2.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-5-4-2-sed-2.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -953,7 +953,7 @@ sed 's/^/Name: /' data.txt
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-5-4-3-sed-3.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-5-4-3-sed-3.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -971,7 +971,7 @@ sed 's/^/Name: /' data.txt
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-5-4-4-sed-4.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-5-4-4-sed-4.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -983,7 +983,7 @@ sed 's/^/Name: /' data.txt
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../../../../_assets/docs-courses/Linux/02_Linux_应用开发学习/images/2-5-4-5-sed-5.png">
+    src="https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/images/2-5-4-5-sed-5.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;

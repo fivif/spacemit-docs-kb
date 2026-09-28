@@ -163,7 +163,7 @@ HOSTLDLIBS_extract-cert =  -lcrypto -pthread
 
    - 确认 gitee 仓库的最新版本的 tar 包已经上传到`https://archive.spacemit.com/openwrt/dl/`，如 `linux-6.1-v1.0.15.tar.xz`
 
-   <img src="../../../../_assets/docs-openwrt/static/image.png" alt="" width="800">
+   <img src="https://cdn-resource.spacemit.com/openwrt/docs-openwrt/zh/static/image.png" alt="" width="800">
 
    - 更改 Makefile 版本号
 

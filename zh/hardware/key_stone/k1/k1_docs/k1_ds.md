@@ -228,7 +228,7 @@ updated: "2026-08-31 14:44:38"
 ### 1.4 架构框图
 
 K1 的系统架构如下图所示。
-![K1 架构框图](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/k1_blockdiagram.png)
+![K1 架构框图](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/k1_blockdiagram.png)
 
 ## 2. 规格参数
 
@@ -320,7 +320,7 @@ X60™ 是一款创新型高能效处理器核，集成了 进迭时空自主研
 
 X60™ 的微架构如下图所示。
 
-![X60™ 微架构](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/X60.png)
+![X60™ 微架构](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/X60.png)
 
 #### 中断控制器
 
@@ -346,7 +346,7 @@ K1 集成了以下两类中断控制器，用于管理两个处理器簇的中�
 
 调试接口的微架构如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/debugging_interface.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/debugging_interface.png" alt="" width="600">
 
 如图所示，调试系统由以下组件构成：
 
@@ -422,7 +422,7 @@ DDR 控制器采用前沿架构设计，通过 重排序缓冲区（Re-ordering 
 
 DDR 控制器接口架构如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/DDR_controller.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/DDR_controller.png" alt="" width="600">
 
 #### Quad-SPI 控制器
 
@@ -740,11 +740,11 @@ GPU 核通过 AXI 128 位总线 访问 SOC 的 DDR 内存，核频率最高可�
 
 V2D 子系统的微架构如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/V2D_subsystem.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/V2D_subsystem.png" alt="" width="600">
 
 典型的 V2D 工作场景如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/V2D_work_scenario.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/V2D_work_scenario.png" alt="" width="400">
 
 ##### 功能
 
@@ -755,7 +755,7 @@ V2D 子系统的微架构如下图所示：
 - AFBC：获取矩形区域的左、上、宽度、高度需为 4 的倍数对齐；
 - 非 AFBC：获取矩形区域的左、上、宽度、高度需为 1 的倍数对齐；
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/Fetch_Data.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/Fetch_Data.png" alt="" width="400">
 
 用于显示的数据获取代码如下所示，具体涉及的变量和寄存器详情紧接在表格后列出。
 
@@ -906,7 +906,7 @@ if LayerX_solid_enable = 1
 
 支持 0°、90°、180°、270°（顺时针方向）的图像旋转，以及 镜像（Mirror） 和 翻转（Flip） 操作，如下图所示（示例）：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/Rotation.png" alt="" width="200">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/Rotation.png" alt="" width="200">
 
 用于执行图形内容旋转、镜像和翻转的代码逻辑如下所示，具体涉及的变量与寄存器定义紧随其后。
 
@@ -1513,7 +1513,7 @@ VPU 支持以下并发工作模式：
   - XYUV_444_P1_8, XYUV_444_P1_10, YVYU_422_P1_8, VYUY_422_P1_8  
   - YUV_420_P2_8, YUV_420_P3_8  
 
-  ![输入格式映射](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/input_formats.png)
+  ![输入格式映射](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/input_formats.png)
 
 - 支持以下 输出格式：
 
@@ -1523,7 +1523,7 @@ VPU 支持以下并发工作模式：
 
 显示子系统的微架构如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/display_subsystem.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/display_subsystem.png" alt="" width="600">
 
 #### HDMI 接口
 
@@ -1545,7 +1545,7 @@ VPU 支持以下并发工作模式：
 
 HDMI 接口的架构如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/HDMI_interface.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/HDMI_interface.png" alt="" width="600">
 
 #### MIPI DSI 接口
 
@@ -1602,23 +1602,23 @@ SPI LCD 显示接口用于：
 
 [RGB565 的打包传输模式]
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/packet_transfer_mode_RGB565.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/packet_transfer_mode_RGB565.png" alt="" width="700">
 
 [RGB666 的打包传输模式]
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/packet_transfer_mode_RGB666.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/packet_transfer_mode_RGB666.png" alt="" width="700">
 
 [RGB888 的打包传输模式]
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/packet_transfer_mode_RGB888.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/packet_transfer_mode_RGB888.png" alt="" width="700">
 
 [RGB666 的非打包传输模式]
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/unpacked_transfer_mode_RGB666.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/unpacked_transfer_mode_RGB666.png" alt="" width="700">
 
 [RGB888 的非打包传输模式]
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/unpacked_transfer_mode_RGB888.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/unpacked_transfer_mode_RGB888.png" alt="" width="700">
 
 ##### 特性
 
@@ -1662,7 +1662,7 @@ SPI LCD 显示接口用于：
 
 SPI LCD 显示接口的架构如下图所示。
 
-![SPI LCD 显示接口架构](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/SPI_LCD_Display_Interface.png)
+![SPI LCD 显示接口架构](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/SPI_LCD_Display_Interface.png)
 
 从图中可以清晰地了解到显示数据是如何被高效处理，然后转换为 SPI 兼容信号，并最终传输到连接的 LCD 显示屏上的。
 
@@ -1678,7 +1678,7 @@ DSI 控制器的混合功能用于结合多个具有不同透明度（alpha 值�
 - L1：中间层，alpha 值为 a1；
 - L2：顶层，alpha 值为 a2；
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/blending_function.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/blending_function.png" alt="" width="400">
 
 支持以下几种混合模式：
 
@@ -1788,7 +1788,7 @@ L' = L1 + L0 × a1/256;
 
 抖动功能的处理流程如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/Dither_function.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/Dither_function.png" alt="" width="600">
 
 该功能可通过软件启用或禁用。
 
@@ -1823,7 +1823,7 @@ Fmark 功能用于控制显示输出的起始时机。具体行为如下：
 
 图像捕获功能的处理流程如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/image_capture.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/image_capture.png" alt="" width="800">
 
 ### 2.6 音频子系统
 
@@ -1890,7 +1890,7 @@ K1 实现了三个 PCIe 双模端口，每个端口均可配置为根联合体�
 
 PCIe 双模端口组的架构如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/PCIe_Dual-Mode_port.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/PCIe_Dual-Mode_port.png" alt="" width="700">
 
 如图所示，包含以下组件：
 
@@ -2028,7 +2028,7 @@ USB 端口组的架构如下图所示，其中：
 - USB#1 端口 = USB 2.0 仅主机端口  
 - USB#2 端口 = 带 USB 2.0 DRD 接口的 USB 3.0 端口
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/USB_port.png" alt="" width="700">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/USB_port.png" alt="" width="700">
 
 #### 以太网 GMAC
 
@@ -2065,7 +2065,7 @@ GMAC IP 核支持以下速率：
 
 以太网 GMAC 单元的微架构如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/Ethernet_GMAC.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/Ethernet_GMAC.png" alt="" width="600">
 
 #### SDIO 接口
 
@@ -2251,7 +2251,7 @@ I2C 总线允许 I2C 单元与其它 I2C 外设及微控制器进行通信。其
 
 I2C 总线接口的架构如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/I2C_bus_interface.png" alt="" width="500">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/I2C_bus_interface.png" alt="" width="500">
 
 #### 红外接收接口（IR-RX Interface）
 
@@ -2284,7 +2284,7 @@ I2C 总线接口的架构如下图所示：
 
 单总线主控接口的架构如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/One-Wire_Bus_Master_Interface.png" alt="" width="500">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/One-Wire_Bus_Master_Interface.png" alt="" width="500">
 
 #### I2S 接口
 
@@ -2388,7 +2388,7 @@ DMA 控制器通过 16 个可配置的 DMA 通道，在 DMA 直通模式（Flow-
 
 DMA 控制器的架构如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/DMA_controller.png" alt="" width="500">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/DMA_controller.png" alt="" width="500">
 
 #### 定时器（Timer）
 
@@ -2435,7 +2435,7 @@ TSEN 具备 报警功能：当芯片温度超过设定的告警阈值时，会�
 
 温度传感器模块的架构如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/Temperature_Sensor.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/Temperature_Sensor.png" alt="" width="400">
 
 #### PWM（脉宽调制）
 
@@ -2473,7 +2473,7 @@ K1 集成了 20 个独立的脉宽调制（PWM）通道，编号为 PWMx（x = 0
 
 邮箱模块的架构如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/Mailbox.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/Mailbox.png" alt="" width="600">
 
 #### GPIO（通用输入/输出）
 
@@ -2542,11 +2542,11 @@ K1 提供以下基础时钟源：
 
 下图展示了详细的 时钟树结构，清晰说明了时钟信号如何在系统内生成、管理并分发至各功能模块：
 
-![时钟树结构](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/clock_tree.png)
+![时钟树结构](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/clock_tree.png)
 
 此外，下图展示了时钟系统的 高层架构：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/clock_system.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/clock_system.png" alt="" width="600">
 
 当满足以下任一条件时，VCXO_OUT 将输出 OSC 频率：
 
@@ -2674,16 +2674,16 @@ K1 提供以下两种封装形式：
 
 ### 3.2 FCCSP 封装
 
-![FCCSP 封装外形图 1](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/POD_1.png)  
-![FCCSP 封装外形图 2](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/POD_2.png)  
+![FCCSP 封装外形图 1](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/POD_1.png)  
+![FCCSP 封装外形图 2](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/POD_2.png)  
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/fccsp00.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/fccsp00.png" alt="" width="600">
 
 ### 3.3 FCBGA 封装
 
-![FCBGA 封装外形图](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/POD_3.png)  
+![FCBGA 封装外形图](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/POD_3.png)  
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/fcbga00.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/fcbga00.png" alt="" width="600">
 
 ## 4 引脚定义（Pinout）
 
@@ -2691,7 +2691,7 @@ K1 提供以下两种封装形式：
 
 K1 的完整引脚分布图如下所示：
 
-![K1 引脚分布图](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/K1_pinout.png)
+![K1 引脚分布图](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/K1_pinout.png)
 
 > 注：图中不同颜色代表以下含义：
 >
@@ -2721,7 +2721,7 @@ K1 的完整引脚分布图如下所示：
 
 #### 象限 1：(A~N, 1~13)
 
-![K1 引脚分布图 - 象限 1](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/K1_pinout_1.png)
+![K1 引脚分布图 - 象限 1](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/K1_pinout_1.png)
 
 > **注**：引脚类型符号定义：
 >
@@ -2906,7 +2906,7 @@ K1 的完整引脚分布图如下所示：
 
 #### 象限 2：(A~N, 14~26)
 
-![K1 引脚分布图 - 象限 2](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/K1_pinout_2.png)
+![K1 引脚分布图 - 象限 2](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/K1_pinout_2.png)
 
 > **注**：引脚类型符号定义：
 >
@@ -3092,7 +3092,7 @@ K1 的完整引脚分布图如下所示：
 
 #### 象限 3：(P~AF, 1~13)
 
-![K1 引脚分布图 - 象限 3](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/K1_pinout_3.png)
+![K1 引脚分布图 - 象限 3](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/K1_pinout_3.png)
 
 > **注**：引脚类型符号定义：
 >
@@ -3278,7 +3278,7 @@ K1 的完整引脚分布图如下所示：
 
 #### 象限 4：(P~AF, 14~26)
 
-![K1 引脚分布图 - 象限 4](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/K1_pinout_4.png)
+![K1 引脚分布图 - 象限 4](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/K1_pinout_4.png)
 
 > **注**：引脚类型符号定义：
 >
@@ -3594,7 +3594,7 @@ K1 的 I/O 引脚支持 Function 0 至 Function 7 共 8 种功能配置。
 
 下表列出了各引脚默认配置下的所有主功能（Function 0）及其可复用的替代功能（Function 1 ~ Function 6）。
 
-![](../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/pin_func_zh.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/pin_func_zh.png)
 
 ### 4.5 电源引脚
 
@@ -3844,7 +3844,7 @@ I/O PAD 的缓冲模式输入阈值如下表所示。
 
 ### 5.1 引脚交流/直流工作条件
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/pin_ac_dc_zh.png" alt="" width="500">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/pin_ac_dc_zh.png" alt="" width="500">
 
 ### 5.2 绝对最大额定值
 
@@ -3962,7 +3962,7 @@ I/O PAD 的缓冲模式输入阈值如下表所示。
 
 下图展示了上电过程中相关引脚的状态变化顺序：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/power_on.png" alt="上电时序图" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/power_on.png" alt="上电时序图" width="600">
 
 #### 断电时序
 
@@ -3970,7 +3970,7 @@ I/O PAD 的缓冲模式输入阈值如下表所示。
 
 下图展示了断电过程中相关引脚的状态变化顺序：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k1/k1_docs/static/power_off.png" alt="断电时序图" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k1/k1_docs/static/power_off.png" alt="断电时序图" width="600">
 
 ### 5.5 功耗特性
 

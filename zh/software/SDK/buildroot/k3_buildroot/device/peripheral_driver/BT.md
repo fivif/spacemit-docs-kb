@@ -18,7 +18,7 @@ K3 平台需要外接**外部 BT 模组**实现 BT 功能，支持 UART / USB / 
 
 K3 平台上使用的 BT 软件栈为 `BlueZ` ，基于 `BlueZ` 的软件框架从上到下可以分为以下几层：
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/bt.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/bt.png)
 
 1. **蓝牙应用层**
    主要实现应用层的相关逻辑，通过 `DBus` 接口与协议栈交互；

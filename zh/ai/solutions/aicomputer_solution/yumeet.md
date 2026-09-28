@@ -53,7 +53,7 @@ updated: "2026-07-04 11:26:25"
 
 ### 系统架构图
 
-![启动应用](../../../../_assets/docs-ai/solutions/static/yumeet-framework.png)
+![启动应用](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-framework.png)
 
 
 ### 工作流程
@@ -110,7 +110,7 @@ apt source yumeet
 
 在系统菜单中搜索 **yumeet** 或 **与会** 并启动。
 
-![启动应用](../../../../_assets/docs-ai/solutions/static/yumeet.png)
+![启动应用](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet.png)
 
 ### 2) 配置 AI 服务
 
@@ -120,7 +120,7 @@ apt source yumeet
 2. **语言服务**：默认 `Qwen3-ASR-0.6B`
 3. **翻译服务**：默认 `HY-MT1.5-1.8B`
 
-![AI服务配置](../../../../_assets/docs-ai/solutions/static/yumeet-1.png)
+![AI服务配置](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-1.png)
 
 ### 3) 配置存储路径
 
@@ -129,7 +129,7 @@ apt source yumeet
 1. **会议记录目录**：用于保存“下载总结”生成的 TXT / PDF / Markdown
 2. **会议音频目录**：用于保存实时转录结束后的会议音频备份
 
-![会议内容存储路径](../../../../_assets/docs-ai/solutions/static/yumeet-2.png)
+![会议内容存储路径](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-2.png)
 
 ## 转录功能
 
@@ -142,8 +142,8 @@ apt source yumeet
 1. 首页入口
 2. 会议页入口
 
-![实时转录入口-首页](../../../../_assets/docs-ai/solutions/static/yumeet-3.png)
-![实时转录入口-会议页](../../../../_assets/docs-ai/solutions/static/yumeet-4.png)
+![实时转录入口-首页](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-3.png)
+![实时转录入口-会议页](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-4.png)
 
 #### 1.2 会议设定
 
@@ -158,7 +158,7 @@ apt source yumeet
 - **会议标签**：支持主标签/副标签，主标签会在记录卡片顶部突出展示
 - **参会人员**：支持多参会人员登记
 
-![会议设定](../../../../_assets/docs-ai/solutions/static/yumeet-5.png)
+![会议设定](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-5.png)
 
 完成后点击“开始录制”。
 
@@ -170,8 +170,8 @@ apt source yumeet
 - 计时与暂停控制
 - 显示内容切换
 
-![转录过程](../../../../_assets/docs-ai/solutions/static/yumeet-6.png)
-![转录显示切换](../../../../_assets/docs-ai/solutions/static/yumeet-7.png)
+![转录过程](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-6.png)
+![转录显示切换](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-7.png)
 
 #### 1.4 生成会议总结
 
@@ -179,11 +179,11 @@ apt source yumeet
 
 1. **录制中手动触发**“生成总结”
 
-![录制中生成总结](../../../../_assets/docs-ai/solutions/static/yumeet-8.png)
+![录制中生成总结](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-8.png)
 
 2. **结束录制后自动触发**总结流程
 
-![结束录制并总结](../../../../_assets/docs-ai/solutions/static/yumeet-9.png)
+![结束录制并总结](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-9.png)
 
 默认服务加载行为：
 
@@ -191,9 +191,9 @@ apt source yumeet
 2. 点击“生成总结”或“暂停→结束”时，会加载大模型服务
 3. 在“详细会议记录”页面点击“下载总结”时，也会调用大模型服务
 
-![默认服务加载-1](../../../../_assets/docs-ai/solutions/static/yumeet-10.png)
-![默认服务加载-2](../../../../_assets/docs-ai/solutions/static/yumeet-11.png)
-![默认服务加载-3](../../../../_assets/docs-ai/solutions/static/yumeet-12.png)
+![默认服务加载-1](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-10.png)
+![默认服务加载-2](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-11.png)
+![默认服务加载-3](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-12.png)
 
 ### 2) 导入音频（离线转录）
 
@@ -205,13 +205,13 @@ apt source yumeet
 
 支持 `wav`、`mp3`、`m4a` 音频格式。
 
-![导入音频文件](../../../../_assets/docs-ai/solutions/static/yumeet-13.png)
+![导入音频文件](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-13.png)
 
 #### 2.3 处理过程
 
 导入成功后进入静态文件转录流程。
 
-![导入处理中](../../../../_assets/docs-ai/solutions/static/yumeet-14.png)
+![导入处理中](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-14.png)
 
 > 当前离线转录在整段处理完成前，不会持续显示中间转录文本。
 
@@ -219,13 +219,13 @@ apt source yumeet
 
 处理结束后会自动执行会议总结。
 
-![离线转录结果](../../../../_assets/docs-ai/solutions/static/yumeet-15.png)
+![离线转录结果](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-15.png)
 
 ### 3) 转录内容搜索
 
 可在当前会议内搜索关键词并高亮命中句段。
 
-![转录内容搜索](../../../../_assets/docs-ai/solutions/static/yumeet-16.png)
+![转录内容搜索](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-16.png)
 
 ## 会议管理
 
@@ -240,24 +240,24 @@ apt source yumeet
 5. 记录重命名与删除
 6. 分页浏览
 
-![会议记录概览](../../../../_assets/docs-ai/solutions/static/yumeet-17.png)
-![会议标签筛选](../../../../_assets/docs-ai/solutions/static/yumeet-18.png)
-![会议记录搜索](../../../../_assets/docs-ai/solutions/static/yumeet-19.png)
-![会议记录操作](../../../../_assets/docs-ai/solutions/static/yumeet-20.png)
+![会议记录概览](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-17.png)
+![会议标签筛选](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-18.png)
+![会议记录搜索](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-19.png)
+![会议记录操作](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-20.png)
 
 ### 2) 详细会议记录
 
 详细页用于查看 LLM 对转录内容的总结结构。
 
-![详细会议记录](../../../../_assets/docs-ai/solutions/static/yumeet-21.png)
+![详细会议记录](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-21.png)
 
 - 折叠项默认行为：
   - “转录原文”默认折叠
   - 其他摘要模块默认展开
 - 页面顶部搜索框支持全文高亮检索
 
-![详细记录折叠](../../../../_assets/docs-ai/solutions/static/yumeet-22.png)
-![详细记录搜索](../../../../_assets/docs-ai/solutions/static/yumeet-23.png)
+![详细记录折叠](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-22.png)
+![详细记录搜索](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-23.png)
 
 ## 系统与设置
 
@@ -268,8 +268,8 @@ apt source yumeet
 1. 实时转录会议的原始音频
 2. 详细会议记录导出的文本文件
 
-![会议存储设置-1](../../../../_assets/docs-ai/solutions/static/yumeet-24.png)
-![会议存储设置-2](../../../../_assets/docs-ai/solutions/static/yumeet-25.png)
+![会议存储设置-1](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-24.png)
+![会议存储设置-2](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-25.png)
 
 说明：
 
@@ -280,15 +280,15 @@ apt source yumeet
 
 可查看系统状态并手动刷新性能监控数据。
 
-![系统状态-1](../../../../_assets/docs-ai/solutions/static/yumeet-26.png)
-![系统状态-2](../../../../_assets/docs-ai/solutions/static/yumeet-27.png)
+![系统状态-1](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-26.png)
+![系统状态-2](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-27.png)
 
 - **Debug 检查**：仅在开发模式开启后可用（可配合 `Ctrl+Shift+I`）
 - **系统性能监控**：通过右上角刷新按钮更新显示
 
 ### 3) 其他设置
 
-![其他设置](../../../../_assets/docs-ai/solutions/static/yumeet-28.png)
+![其他设置](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/yumeet-28.png)
 
 - **UI 设置**：字体缩放、动态效果开关
 - **AI 服务设置**：端口及服务地址调整（LLM-SDK / SM-SDK / 翻译服务）

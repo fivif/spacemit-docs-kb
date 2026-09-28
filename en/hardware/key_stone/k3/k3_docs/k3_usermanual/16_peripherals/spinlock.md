@@ -18,7 +18,7 @@ The spinlock provides the following characteristics:
 
 A typical application diagram of the spinlock is shown below:
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/spinlock.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/spinlock.png" alt="" width="400">
 
 ## 16.7.2 Features
 
@@ -34,7 +34,7 @@ The CPU accesses the spinlock through the APB interface to read and write intern
 
 The functional block diagram of the spinlock is shown below:
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/spinlock01.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/spinlock01.png" alt="" width="400">
 
 - After reset, all spinlock units default to the unlocked state.
 - Before using a spinlock, the CPU should read `SPINLOCK_STATUS_REG` to obtain the status of all spinlock units.
@@ -53,7 +53,7 @@ For a spinlock unit in the locked state:
 
 The state transition diagram is shown below:
 
-<img src="../../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/spinlock02.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/spinlock02.png" alt="" width="400">
 
 ### 16.7.3.1 Operating Modes
 

@@ -32,7 +32,7 @@ updated: "2026-09-11 14:23:44"
 
 访问平台官网后，点击首页 **立刻注册** 进入注册流程。
 
-<img src="../../../_assets/docs-cloud/static/register.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/register.png" alt="" width="600">
 
 当前平台支持以下注册方式：
 
@@ -41,11 +41,11 @@ updated: "2026-09-11 14:23:44"
 
 #### 手机号注册
 
-<img src="../../../_assets/docs-cloud/static/reg_phone.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/reg_phone.png" alt="" width="600">
 
 #### 邮箱注册
 
-<img src="../../../_assets/docs-cloud/static/reg_email.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/reg_email.png" alt="" width="600">
 
 ### 2.2 登录平台
 
@@ -56,24 +56,24 @@ updated: "2026-09-11 14:23:44"
 - 短信登录
 - 密码登录
 
-<img src="../../../_assets/docs-cloud/static/login.png" alt="登录页面" width="600">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/login.png" alt="登录页面" width="600">
 
 登录成功后，系统将进入平台主界面。
 
-<img src="../../../_assets/docs-cloud/static/main.png" alt="平台主界面" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/main.png" alt="平台主界面" width="800">
 
 ## 3. 申请实例
 
 在平台主界面，**我的示例** 里
 
 - 如果没有实例，点击 **申请实例**，即可进入实例创建页面。
-  <img src="../../../_assets/docs-cloud/static/instancex00.png" alt="" width="800">
+  <img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instancex00.png" alt="" width="800">
 
 - 如果已有实例，可点击 **申请新的实例**，即可进入实例创建页面。
-  <img src="../../../_assets/docs-cloud/static/instancex01.png" alt="" width="800">
+  <img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instancex01.png" alt="" width="800">
 
 实例创建页面示例如下。
-<img src="../../../_assets/docs-cloud/static/instance.png" alt="申请实例页面" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance.png" alt="申请实例页面" width="800">
 
 ### 3.1 选择实例类型
 
@@ -88,7 +88,7 @@ updated: "2026-09-11 14:23:44"
 - OpenHarmony
 - openKylin
 
-<img src="../../../_assets/docs-cloud/static/instance_os.png" alt="操作系统镜像列表" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_os.png" alt="操作系统镜像列表" width="800">
 
 #### 3.1.2 基于快应用模板创建
 
@@ -98,23 +98,23 @@ updated: "2026-09-11 14:23:44"
 - Deepseek 大模型
 - 在线 Python 开发环境 JupyterLab
 
-<img src="../../../_assets/docs-cloud/static/instance_app.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_app.png" alt="" width="800">
 
 #### 3.1.3 基于 RISC-V 算力融合集群创建
 
 该类型适用于需要调用 RISC-V 异构算力资源的开发、验证与计算任务。
 
-<img src="../../../_assets/docs-cloud/static/instance_riscv.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_riscv.png" alt="" width="800">
 
 ### 3.2 设置实例名称
 
 输入实例名称，并勾选相关协议后提交申请。
 
-<img src="../../../_assets/docs-cloud/static/instance2.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance2.png" alt="" width="600">
 
 ### 3.3 选择实例使用时长
 
-<img src="../../../_assets/docs-cloud/static/instance_time.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_time.png" alt="" width="400">
 
 - **非会员用户**：可选 48 小时、7 天、1 个月
 - **会员用户**：最长可选 3 个月
@@ -123,50 +123,50 @@ updated: "2026-09-11 14:23:44"
 
 完成配置后，可点击 **开始使用** 完成创建实例
 
-<img src="../../../_assets/docs-cloud/static/instance_start.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_start.png" alt="" width="600">
 
 ## 4. 远程使用实例
 
 实例创建成功后，可在控制台查看当前账号下已开通的实例资源。
 
-<img src="../../../_assets/docs-cloud/static/myinstance.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/myinstance.png" alt="" width="600">
 
 点击实例卡片，可查看实例详情、运行状态及可用功能入口。
 
-<img src="../../../_assets/docs-cloud/static/myinstance2.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/myinstance2.png" alt="" width="600">
 
 ### 4.1 命令行访问
 
 点击 **开始远程**
 
-<img src="../../../_assets/docs-cloud/static/remote_start.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/remote_start.png" alt="" width="400">
 
 进入实例命令行工作台
 
-<img src="../../../_assets/docs-cloud/static/instance_remote.png" alt="远程命令行界面" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_remote.png" alt="远程命令行界面" width="800">
 
 命令行界面支持：
 
 - 多会话管理
 - 分屏操作
 
-<img src="../../../_assets/docs-cloud/static/instance_remote2.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_remote2.png" alt="" width="800">
 
 使用完成后，点击右上角 **退出** 图标返回平台主界面。
 
-<img src="../../../_assets/docs-cloud/static/instance_remote3.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_remote3.png" alt="" width="800">
 
 ### 4.2 串口调试
 
 在工作台点击 **串口调试** 按钮，可进入串口终端界面。
 
-<img src="../../../_assets/docs-cloud/static/instance_serial.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_serial.png" alt="" width="800">
 
 ### 4.3 文件管理与在线编辑
 
 在工作台左上角点击 **文件**，可打开文件树或文件管理视图。
 
-<img src="../../../_assets/docs-cloud/static/instance_file.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_file.png" alt="" width="800">
 
 在文件树中右键目录或文件，可执行以下操作：
 
@@ -176,17 +176,17 @@ updated: "2026-09-11 14:23:44"
 - 新建文件
 - 新建目录
 
-<img src="../../../_assets/docs-cloud/static/instance_file2.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_file2.png" alt="" width="800">
 
-<img src="../../../_assets/docs-cloud/static/instance_file3.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_file3.png" alt="" width="800">
 
 双击文件（如 `.profile`）后，可直接进行在线编辑。
 
-<img src="../../../_assets/docs-cloud/static/instance_file4.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_file4.png" alt="" width="800">
 
 编辑完成后，点击右上角 **保存** 图标以提交修改。
 
-<img src="../../../_assets/docs-cloud/static/instance_file5.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_file5.png" alt="" width="800">
 
 ### 4.4 远程桌面
 
@@ -194,9 +194,9 @@ updated: "2026-09-11 14:23:44"
 
 若该按钮处于禁用状态，请先切换回 Terminal 或串口界面。
 
-<img src="../../../_assets/docs-cloud/static/remote_desk00.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/remote_desk00.png" alt="" width="800">
 
-<img src="../../../_assets/docs-cloud/static/remote_desk01.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/remote_desk01.png" alt="" width="800">
 
 远程桌面支持以下功能：
 
@@ -210,7 +210,7 @@ updated: "2026-09-11 14:23:44"
 - 电源重启
 - 系统重启
 
-<img src="../../../_assets/docs-cloud/static/instance_reboot.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_reboot.png" alt="" width="800">
 
 ### 4.6 实例刷机
 
@@ -220,7 +220,7 @@ updated: "2026-09-11 14:23:44"
 - 关闭刷机面板
 - 在右侧镜像列表中选择目标镜像并点击 **烧写** 图标
 
-<img src="../../../_assets/docs-cloud/static/instance_flash.png" alt="实例刷机界面" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_flash.png" alt="实例刷机界面" width="800">
 
 > 刷机操作通常会影响实例当前环境与数据，建议提前完成重要数据备份。
 
@@ -233,15 +233,15 @@ updated: "2026-09-11 14:23:44"
 - **打开**：启动 Code Server 在线 IDE
 - **关闭**：停止 Code Server
 
-<img src="../../../_assets/docs-cloud/static/code_server.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/code_server.png" alt="" width="800">
 
 #### 安装 Python 插件
 
 在左侧扩展面板中搜索 `python`，安装对应插件后即可使用在线 Python 开发能力。
 
-<img src="../../../_assets/docs-cloud/static/python00.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/python00.png" alt="" width="800">
 
-<img src="../../../_assets/docs-cloud/static/python01.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/python01.png" alt="" width="800">
 
 ### 5.2 JupyterLab
 
@@ -252,7 +252,7 @@ updated: "2026-09-11 14:23:44"
 
 **说明：** JupyterLab 仅在快应用模板中的 JupyterLab 实例可用，其他操作系统镜像和 AI 镜像默认不提供该应用。
 
-<img src="../../../_assets/docs-cloud/static/jupyterlab.png" alt="JupyterLab 应用" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/jupyterlab.png" alt="JupyterLab 应用" width="800">
 
 ### 5.3 通义 Qwen 大模型应用
 
@@ -261,11 +261,11 @@ updated: "2026-09-11 14:23:44"
 - **打开**：进入 Qwen 应用
 - **关闭**：退出 Qwen 应用
 
-<img src="../../../_assets/docs-cloud/static/qwen00.png" alt="Qwen 应用" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/qwen00.png" alt="Qwen 应用" width="800">
 
 也可通过右侧 **AI** 图标快速进入相关能力入口。
 
-<img src="../../../_assets/docs-cloud/static/ai.png" alt="AI 快捷入口" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/ai.png" alt="AI 快捷入口" width="800">
 
 ### 5.4 Deepseek 大模型应用
 
@@ -274,7 +274,7 @@ updated: "2026-09-11 14:23:44"
 - **打开**：进入 Deepseek 应用
 - **关闭**：退出 Deepseek 应用
 
-<img src="../../../_assets/docs-cloud/static/deepseek.png" alt="账户管理入口" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/deepseek.png" alt="账户管理入口" width="800">
 
 同样支持通过右侧 **AI** 图标快速访问。
 
@@ -284,11 +284,11 @@ updated: "2026-09-11 14:23:44"
 
 在系统控制台页面，点击右上角 **用户图标**，进入 **账户管理界面**。
 
-<img src="../../../_assets/docs-cloud/static/user00.png" alt="账户管理界面" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/user00.png" alt="账户管理界面" width="800">
 
 在账户设置页面点击 **“编辑个人信息”**。
 
-<img src="../../../_assets/docs-cloud/static/user01.png" alt="编辑个人信息入口" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/user01.png" alt="编辑个人信息入口" width="800">
 
 当前支持维护以下账户信息：
 
@@ -297,11 +297,11 @@ updated: "2026-09-11 14:23:44"
 - 手机号
 - 邮箱
 
-<img src="../../../_assets/docs-cloud/static/user02.png" alt="个人信息修改页面" width="500">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/user02.png" alt="个人信息修改页面" width="500">
 
 以下示例展示了手机号修改页面：
 
-<img src="../../../_assets/docs-cloud/static/user03.png" alt="修改手机号示例" width="500">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/user03.png" alt="修改手机号示例" width="500">
 
 保存完成后，点击 **返回系统** 即可返回账户管理界面。
 
@@ -309,13 +309,13 @@ updated: "2026-09-11 14:23:44"
 
 在账户管理界面点击左侧 **消息中心** 页签，可统一查看平台消息通知。
 
-<img src="../../../_assets/docs-cloud/static/info.png" alt="消息中心" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/info.png" alt="消息中心" width="800">
 
 ### 6.3 实例共享
 
 在账户管理界面点击左侧 **实例共享** 页签，可将个人实例资源共享给其他用户。
 
-<img src="../../../_assets/docs-cloud/static/instance_share.png" alt="实例共享" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance_share.png" alt="实例共享" width="800">
 
 ### 6.4 API Key 管理
 
@@ -323,13 +323,13 @@ updated: "2026-09-11 14:23:44"
 
 API Key 主要用于远程调用实例提供的 API 接口。
 
-<img src="../../../_assets/docs-cloud/static/apikey.png" alt="API Key 管理" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/apikey.png" alt="API Key 管理" width="800">
 
 ### 6.5 告警信息
 
 在账户管理界面点击左侧 **告警信息** 页签，可查看实例相关告警状态。
 
-<img src="../../../_assets/docs-cloud/static/notices.png" alt="告警信息" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/notices.png" alt="告警信息" width="800">
 
 ## 7. 本地连接实例
 
@@ -356,19 +356,19 @@ API Key 主要用于远程调用实例提供的 API 接口。
 
 在控制台点击目标实例卡片。
 
-<img src="../../../_assets/docs-cloud/static/instance00.png" alt="实例卡片" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/instance00.png" alt="实例卡片" width="800">
 
 点击 **本地连接**，弹出连接信息与操作说明页面。
 
-<img src="../../../_assets/docs-cloud/static/local_connect.png" alt="本地连接说明" width="600">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/local_connect.png" alt="本地连接说明" width="600">
 
 将页面中的配置信息复制至 Stunnel 客户端配置文件，并启动或重新加载 Stunnel 服务。
 
-<img src="../../../_assets/docs-cloud/static/config.png" alt="Stunnel 配置示例" width="600">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/config.png" alt="Stunnel 配置示例" width="600">
 
 Linux 环境下可直接使用对应 Stunnel 配置文件启动服务。
 
-<img src="../../../_assets/docs-cloud/static/linux_stunnel.png" alt="Linux 启动 Stunnel" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/linux_stunnel.png" alt="Linux 启动 Stunnel" width="800">
 
 #### 7.1.3 通过命令行连接
 
@@ -378,11 +378,11 @@ Linux 环境下可直接使用对应 Stunnel 配置文件启动服务。
 ssh -p 2222 root@localhost
 ```
 
-<img src="../../../_assets/docs-cloud/static/cmd.png" alt="SSH 命令行连接" width="600">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/cmd.png" alt="SSH 命令行连接" width="600">
 
 #### 7.1.4 通过 MobaXterm 连接
 
-<img src="../../../_assets/docs-cloud/static/moba00.png" alt="MobaXterm SSH 配置" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/moba00.png" alt="MobaXterm SSH 配置" width="800">
 
 使用 MobaXterm 连接时，需明确指定 SSH 协议版本为 **SSHv2**。
 
@@ -393,15 +393,15 @@ ssh -p 2222 root@localhost
 3. 将 **SSH protocol version** 设置为 **SSHv2**。
 4. 点击 **OK** 完成连接。
 
-<img src="../../../_assets/docs-cloud/static/sshv2.png" alt="设置 SSHv2" width="600">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/sshv2.png" alt="设置 SSHv2" width="600">
 
 #### 7.1.5 获取用户密码
 
-<img src="../../../_assets/docs-cloud/static/password00.png" alt="连接信息页面" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/password00.png" alt="连接信息页面" width="800">
 
 用户密码可在 **连接信息** 页面末尾获取。
 
-<img src="../../../_assets/docs-cloud/static/password01.png" alt="用户密码位置" width="600">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/password01.png" alt="用户密码位置" width="600">
 
 ### 7.2 VNC 直连
 
@@ -418,11 +418,11 @@ VNC 直连与 SSH 直连类似，建立连接前同样需要先完成 Stunnel �
 
 如需输入密码，请参考上一节中 **用户密码** 的说明。
 
-<img src="../../../_assets/docs-cloud/static/vnc.png" alt="VNC 连接配置" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/vnc.png" alt="VNC 连接配置" width="800">
 
 连接成功后界面示例如下：
 
-![](../../../_assets/docs-cloud/static/remote_connected.png)
+![](https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/remote_connected.png)
 
 ## 8. API 调用
 
@@ -435,15 +435,15 @@ VNC 直连与 SSH 直连类似，建立连接前同样需要先完成 Stunnel �
 
 进入实例工作台后，参考 [4.1 命令行访问](cloud_user_guide.md#41-命令行访问)，点击右侧 **“API 调用”** 按钮，打开配置页面。
 
-<img src="../../../_assets/docs-cloud/static/api00.png" alt="API 调用入口" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/api00.png" alt="API 调用入口" width="800">
 
-<img src="../../../_assets/docs-cloud/static/api01.png" alt="API 配置页面" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/api01.png" alt="API 配置页面" width="800">
 
 完成请求头配置后，即可通过页面提供的 URL 调用 Ollama 接口。
 
-<img src="../../../_assets/docs-cloud/static/api02.png" alt="API 请求头配置" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/api02.png" alt="API 请求头配置" width="800">
 
-<img src="../../../_assets/docs-cloud/static/api03.png" alt="API 调用示例" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/api03.png" alt="API 调用示例" width="800">
 
 ### 8.2 自定义接口调用
 
@@ -451,15 +451,15 @@ VNC 直连与 SSH 直连类似，建立连接前同样需要先完成 Stunnel �
 
 例如，可在实例中运行 Python HTTP 服务：
 
-<img src="../../../_assets/docs-cloud/static/python_http.png" alt="Python HTTP 服务示例" width="600">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/python_http.png" alt="Python HTTP 服务示例" width="600">
 
 随后可使用 Postman 发送 GET 或 POST 请求，其中 `deviceId` 为实例设备 ID。
 
-<img src="../../../_assets/docs-cloud/static/postman.png" alt="Postman 调用示例" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/postman.png" alt="Postman 调用示例" width="800">
 
 API Key 可参考 [6.4 API Key 管理](cloud_user_guide.md#64-api-key-管理) 获取。
 
-<img src="../../../_assets/docs-cloud/static/apikey.png" alt="API Key 获取页面" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/apikey.png" alt="API Key 获取页面" width="800">
 
 请求地址格式如下：
 
@@ -467,9 +467,9 @@ API Key 可参考 [6.4 API Key 管理](cloud_user_guide.md#64-api-key-管理) �
 https://gdriscv.com/api/remote/{deviceId}
 ```
 
-<img src="../../../_assets/docs-cloud/static/address00.png" alt="请求地址示例1" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/address00.png" alt="请求地址示例1" width="800">
 
-<img src="../../../_assets/docs-cloud/static/address01.png" alt="请求地址示例2" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/address01.png" alt="请求地址示例2" width="800">
 
 ## 9. 开发示例
 
@@ -515,9 +515,9 @@ void vector_add_rvv(int32_t* vec1, int32_t* vec2, int32_t* result, size_t size) 
 
 在云实例中，可通过 Code Server 编辑代码，并使用 `gcc` 完成编译与运行验证。
 
-<img src="../../../_assets/docs-cloud/static/rvv00.png" alt="RVV 代码编辑" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/rvv00.png" alt="RVV 代码编辑" width="800">
 
-<img src="../../../_assets/docs-cloud/static/rvv01.png" alt="RVV 运行结果" width="600">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/rvv01.png" alt="RVV 运行结果" width="600">
 
 #### 9.1.2 RISC-V AI 指令编程
 
@@ -525,19 +525,19 @@ K1 是一款 8 核 RISC-V AI CPU。在 RISC-V 开源指令集基础上，K1 增�
 
 该芯片支持 RISC-V Vector 1.0 标准，具备 256-bit 向量计算带宽，可为高性能 AI 计算提供较强的 SIMD 并行处理能力。
 
-<img src="../../../_assets/docs-cloud/static/ai-cpu.png" alt="K1 AI CPU" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/ai-cpu.png" alt="K1 AI CPU" width="800">
 
 核心示例代码：
 
-<img src="../../../_assets/docs-cloud/static/demo00.png" alt="AI 指令示例代码" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/demo00.png" alt="AI 指令示例代码" width="800">
 
 通过 Code Server 编辑与编译示例：
 
-<img src="../../../_assets/docs-cloud/static/demo01.png" alt="AI 指令编译示例" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/demo01.png" alt="AI 指令编译示例" width="800">
 
 运行结果：
 
-<img src="../../../_assets/docs-cloud/static/demo03.png" alt="AI 指令运行结果" width="500">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/demo03.png" alt="AI 指令运行结果" width="500">
 
 #### 9.1.3 卷积优化示例
 
@@ -545,15 +545,15 @@ K1 是一款 8 核 RISC-V AI CPU。在 RISC-V 开源指令集基础上，K1 增�
 
 以下为 1×3 卷积优化示例：
 
-<img src="../../../_assets/docs-cloud/static/cnn00.png" alt="卷积核心代码" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/cnn00.png" alt="卷积核心代码" width="800">
 
 在云实例中的编辑界面如下：
 
-<img src="../../../_assets/docs-cloud/static/cnn01.png" alt="卷积示例编辑界面" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/cnn01.png" alt="卷积示例编辑界面" width="800">
 
 运行结果如下：
 
-<img src="../../../_assets/docs-cloud/static/cnn02.png" alt="卷积运行结果" width="500">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/cnn02.png" alt="卷积运行结果" width="500">
 
 ### 9.2 AI 开发示例
 
@@ -593,7 +593,7 @@ pip install -r requirements.txt --index-url https://git.spacemit.com/api/v4/proj
 
 在云实例中打开 Code Server，并编辑相关代码。
 
-<img src="../../../_assets/docs-cloud/static/yolov8_00.png" alt="YOLOv8 编辑界面" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/yolov8_00.png" alt="YOLOv8 编辑界面" width="800">
 
 ##### 步骤 5：运行示例
 
@@ -603,7 +603,7 @@ python test_yolov8_pose.py
 
 运行结果示例：
 
-<img src="../../../_assets/docs-cloud/static/yolov8_01.png" alt="YOLOv8 运行结果" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/yolov8_01.png" alt="YOLOv8 运行结果" width="800">
 
 #### 9.2.2 YOLOv5-face 人脸检测
 
@@ -631,11 +631,11 @@ pip install -r requirements.txt --index-url https://git.spacemit.com/api/v4/proj
 
 在 Code Server 中打开并编辑 `test_yolov5-face.py`。
 
-<img src="../../../_assets/docs-cloud/static/yolov5_00.png" alt="YOLOv5-face 编辑界面" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/yolov5_00.png" alt="YOLOv5-face 编辑界面" width="800">
 
 运行结果示例：
 
-<img src="../../../_assets/docs-cloud/static/yolov5_01.png" alt="YOLOv5-face 运行结果" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/yolov5_01.png" alt="YOLOv5-face 运行结果" width="800">
 
 ### 9.3 OCR 识别示例
 
@@ -675,11 +675,11 @@ pip install -r requirements.txt --index-url https://git.spacemit.com/api/v4/proj
 
 在云实例中通过 Code Server 编辑 `test_ocr.py`。
 
-<img src="../../../_assets/docs-cloud/static/ocr00.png" alt="OCR 编辑界面" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/ocr00.png" alt="OCR 编辑界面" width="800">
 
 运行完成后，可从日志输出中查看识别结果。
 
-<img src="../../../_assets/docs-cloud/static/ocr01.png" alt="OCR 运行结果" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/ocr01.png" alt="OCR 运行结果" width="800">
 
 ### 9.4 OpenHarmony 调试
 
@@ -687,7 +687,7 @@ pip install -r requirements.txt --index-url https://git.spacemit.com/api/v4/proj
 
 申请 OpenHarmony 在线实例后，可通过远程桌面开展应用开发与调试工作。
 
-<img src="../../../_assets/docs-cloud/static/oh00.png" alt="OpenHarmony 远程桌面" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/oh00.png" alt="OpenHarmony 远程桌面" width="800">
 
 #### 9.4.2 查看系统日志（hilog）
 
@@ -697,7 +697,7 @@ pip install -r requirements.txt --index-url https://git.spacemit.com/api/v4/proj
 hilog
 ```
 
-<img src="../../../_assets/docs-cloud/static/oh01.png" alt="hilog 日志查看" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/oh01.png" alt="hilog 日志查看" width="800">
 
 #### 9.4.3 应用文件管理
 
@@ -708,19 +708,19 @@ hilog
 - 删除
 - 查看
 
-<img src="../../../_assets/docs-cloud/static/oh02.png" alt="OpenHarmony 文件工具区" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/oh02.png" alt="OpenHarmony 文件工具区" width="800">
 
 #### 9.4.4 卸载应用
 
 在远程桌面中选中目标应用图标，**鼠标左键长按**，待出现卸载选项后执行卸载操作。
 
-<img src="../../../_assets/docs-cloud/static/oh03.png" alt="OpenHarmony 应用卸载" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/oh03.png" alt="OpenHarmony 应用卸载" width="800">
 
 #### 9.4.5 安装应用
 
 点击工具区中的 **安装** 按钮，选择待安装应用包后即可完成安装。
 
-<img src="../../../_assets/docs-cloud/static/oh04.png" alt="OpenHarmony 应用安装" width="400">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/oh04.png" alt="OpenHarmony 应用安装" width="400">
 
 #### 9.4.6 查看安装日志
 
@@ -732,7 +732,7 @@ hilog | grep bm
 
 若日志中出现 `bm output`，通常表示应用已安装成功。
 
-<img src="../../../_assets/docs-cloud/static/oh05.png" alt="安装日志查看" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/oh05.png" alt="安装日志查看" width="800">
 
 #### 9.4.7 查看应用运行日志
 
@@ -746,7 +746,7 @@ hilog | grep "xxx"
 hilog | grep "VideoPlay"
 ```
 
-<img src="../../../_assets/docs-cloud/static/oh06.png" alt="应用运行日志" width="800">
+<img src="https://cdn-resource.spacemit.com/userguide/docs-cloud/zh/static/oh06.png" alt="应用运行日志" width="800">
 
 #### 9.4.8 后续扩展方向
 

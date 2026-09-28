@@ -16,7 +16,7 @@ K1/K3 芯片在 MMC 信号引脚上复用了 JTAG 与小核（RCPU）调试串�
 
 如下图所示，扩展板包含一个 20-pin 牛角座（用于连接 J-Link 调试器）、一个 XH2.54-4P 连接器（用于连接 3.3V UART 串口线），以及若干排针（用于适配不同的使用场景）。
 
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/hw_accessories/static/tf_dubug_board.png)
 
 ## 使用方法
 
@@ -40,18 +40,18 @@ K1/K3 芯片在 MMC 信号引脚上复用了 JTAG 与小核（RCPU）调试串�
 #### JTAG 连接
 
 当需要使用 JTAG 功能时，请按下图调整 J3、J4、J5 排针的连接方式。
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k1.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/hw_accessories/static/tf_dubug_board-k1.png)
 
 与实际产品 K1 MUSE Pi Pro 的连接场景如下图所示：
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k1_1.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/hw_accessories/static/tf_dubug_board-k1_1.png)
 
 #### 小核（RCPU）串口连接
 
 当需要使用小核（RCPU）串口功能时，请按下图调整 J3、J4、J5 排针的连接方式。
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k1_2.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/hw_accessories/static/tf_dubug_board-k1_2.png)
 
 与实际产品 K1 MUSE Pi Pro 的连接场景如下图所示，注意调试串口线需使用 3.3V 电平。
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k1_3.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/hw_accessories/static/tf_dubug_board-k1_3.png)
 
 ### K3 系列产品
 
@@ -73,18 +73,18 @@ K1/K3 芯片在 MMC 信号引脚上复用了 JTAG 与小核（RCPU）调试串�
 #### JTAG 连接
 
 当需要使用 JTAG 功能时，请按下图调整 J3、J4、J5 排针的连接方式。
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k3.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/hw_accessories/static/tf_dubug_board-k3.png)
 
 需要注意，由于 K3 产品的线序与 K1 不同（TDI 与 TMS 互换），因此无法直接与 J-Link 相连，需按下图对照 J-Link 线序，使用杜邦线进行连接。
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k3_1.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/hw_accessories/static/tf_dubug_board-k3_1.png)
 
 #### 小核串口连接
 
 当需要使用小核（RCPU）串口功能时，请按下图调整 J3、J4、J5 排针的连接方式。
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k3_2.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/hw_accessories/static/tf_dubug_board-k3_2.png)
 
 与实际产品 K3-CoM260 的连接场景如下图所示，注意调试串口线需使用 3.3V 电平。
-![](../../../../_assets/docs-product/hw_accessories/static/tf_dubug_board-k3_3.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/hw_accessories/static/tf_dubug_board-k3_3.png)
 
 ## 常见问题
 

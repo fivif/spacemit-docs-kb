@@ -18,7 +18,7 @@ This document describes the complete workflow for connecting a MIPI camera, such
 
 Connect the MIPI camera module to the corresponding MIPI CSI interface on the development board. The board generally provides multiple CSI slots; confirm the exact location and cable orientation using the board silkscreen and user manual. Connect the board to a display with an HDMI cable to view the captured image. IMX219 uses the white ribbon cable connection shown in the image, whereas OV5647 uses the copper-colored ribbon cable connection indicated by the red arrow.
 
-![](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ51.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ51.png)
 
 > For notes on cable insertion and orientation, see the "reversed cable" and "folded cable" items in the FAQ section below.
 
@@ -166,7 +166,7 @@ index:0,dma_fd:12 width:1920,height:1080,size:3110400
 
 After startup, the captured camera image is displayed in real time on the connected monitor.
 
-![Camera image](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ52.png)
+![Camera image](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ52.png)
 
 > Errors such as `SDL_Error: wayland not available` or `VO_Init ... ret = -400` indicate that the image was not displayed correctly. This is usually related to the execution environment, such as running from an SSH remote terminal instead of the local desktop terminal. See the FAQ section below for the specific cause and solution.
 
@@ -178,7 +178,7 @@ After startup, the captured camera image is displayed in real time on the connec
 
 As shown below, the file appears empty when opened directly:
 
-![json file appears empty](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ46.png)
+![json file appears empty](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ46.png)
 
 **Cause**
 
@@ -198,7 +198,7 @@ sudo vim /root/svivi_cam1.json
 
 As shown below, copying and running the documented commands in order results in a compilation failure:
 
-![v4l2_test_spacemit compilation error](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ47.png)
+![v4l2_test_spacemit compilation error](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ47.png)
 
 **Cause**
 
@@ -219,17 +219,17 @@ cd v4l2_test_spacemit
 
 As shown below:
 
-![Capture command error](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ49.png)
+![Capture command error](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ49.png)
 
 **Cause**
 
 In the generated json configuration file, a field is missing a trailing comma `,`, for example:
 
-![json file missing a comma](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ50.png)
+![json file missing a comma](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ50.png)
 
 The correct format should be:
 
-![json file correct format](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ48.png)
+![json file correct format](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/FAQ48.png)
 
 ```json
 "use_v4l": 1,

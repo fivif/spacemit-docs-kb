@@ -16,7 +16,7 @@ CAN（Controller Area Network，控制器局域网络）是一种用于控制器
 
 ### 功能介绍  
 
-![cat](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/can.png)
+![cat](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/can.png)
 
 CAN 控制器支持 CAN 2.0 和 CAN FD 协议，可实现多种类型的帧传输，包括：
 
@@ -195,7 +195,7 @@ cansend格式：cansend can-dev id#data
 以下将以 MUSE Pi 开发板为例，基于 Buildroot 系统做 demo 演示，DTS 配置请参考 DTS 配置示例章节。
 
 1. MUSE Pi 连接 CAN 设备
-   ![alt text](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/can_image_1.png)
+   ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/can_image_1.png)
    pin脚方向如上图所示，从上往下的绿色箭头，分别为
    - rcan tx (gpio47, 26 pin 接口的 8pin)
    - rcan rx (gpio48, 26 pin 接口的 10pin)
@@ -205,7 +205,7 @@ cansend格式：cansend can-dev id#data
 2. PC 端安装 CAN 软件，以及接入 PC CAN (可以接入两个 CAN 外设相互收发)。本次使用的是 PEAK的 PC CAN 工具 ([PEAK官网链接](https://www.peak-system.com))
 下图所示为 rcan 的接线，can0 的接线类似。
 
-   ![alt text](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/can_image_2.jpg)
+   ![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/can_image_2.jpg)
 
 3. 查看 CAN 设备是否加载成功
 

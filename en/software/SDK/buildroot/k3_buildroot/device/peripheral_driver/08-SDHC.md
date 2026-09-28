@@ -20,7 +20,7 @@ SDHC is the host controller for MMC/SD/SDIO devices. On the K3 platform, SDHC ma
 
 ### Functionality
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/mmc.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/mmc.png)
 
 The Linux MMC framework can be broadly divided into three layers:
 

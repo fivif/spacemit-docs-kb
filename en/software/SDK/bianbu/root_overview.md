@@ -26,7 +26,7 @@ To empower every individual and every industry around the world with our technol
 
 ## System Architecture
 
-![](../../../../_assets/docs-bianbu/static/systemarch.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/static/systemarch.png)
 
 ## Software Components
 

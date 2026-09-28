@@ -41,7 +41,7 @@ portaudio19-dev libsndfile1-dev libcurl4-openssl-dev espeak-ng
 - 将 USB 麦克风插入 **MUSE Pi Pro** 的 USB 接口
 - 可以选用其他可在 linux 下工作的 USB 扬声器
 
-![](../../../../../../../_assets/docs-ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/images/speaker1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/images/speaker1.png)
 
 ## 添加到音频组
 
@@ -63,7 +63,7 @@ audioscan
 
 示例输出：
 
-![](../../../../../../../_assets/docs-ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/images/speaker2.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/images/speaker2.png)
 
 请忽略输入设备
 
@@ -94,7 +94,7 @@ amixer -c 2 sget PCM
 
 终端打印：
 
-![](../../../../../../../_assets/docs-ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/images/speaker3.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/images/speaker3.png)
 
 **设置音量**
 
@@ -104,4 +104,4 @@ amixer -c 2 set PCM "100%"
 
 打印如下：
 
-![](../../../../../../../_assets/docs-ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/images/speaker4.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/images/speaker4.png)

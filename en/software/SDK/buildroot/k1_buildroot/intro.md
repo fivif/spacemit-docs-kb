@@ -12,7 +12,7 @@ The Linux SDK built with Buildroot, adapted for SpacemiT K series chips. It cons
 
 ## System Architecture
 
-![](../../../../../_assets/docs-buildroot/k1_buildroot/static/bianbu-linux-arch.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/static/bianbu-linux-arch.png)
 
 ## Main components
 

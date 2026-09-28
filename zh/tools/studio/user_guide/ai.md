@@ -15,13 +15,13 @@ updated: "2026-08-24 09:53:22"
 
 **SpacemiT AI 助手**是集成于 SpacemiT Studio 中的对话式 AI 开发助手，基于进迭时空文档与预置技能库，支持代码辅助、问题排查与端侧 AI 应用开发。
 
-![](../../../../_assets/docs-tool/studio/static/ai.png)
+![](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/ai.png)
 
 > 注意：安装驱动后才能使用 AI 助手，否则会报错。
 
 ## 顶部工具栏
 
-![](../../../../_assets/docs-tool/studio/static/ai_00.png)
+![](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/ai_00.png)
 
 AI 助手面板顶部工具栏从左到右依次为：
 
@@ -33,7 +33,7 @@ AI 助手面板顶部工具栏从左到右依次为：
 
 ## 技能管理
 
-![](../../../../_assets/docs-tool/studio/static/ai_01.png)
+![](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/ai_01.png)
 
 技能（Skill）是 AI 助手的功能扩展模块，每个技能对应特定的知识库或任务能力。技能管理界面提供以下功能：
 
@@ -43,7 +43,7 @@ AI 助手面板顶部工具栏从左到右依次为：
 
 ### 技能商店
 
-![](../../../../_assets/docs-tool/studio/static/ai_02.png)
+![](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/ai_02.png)
 
 点击**技能商店**后打开可用技能列表，以可安装的技能卡片形式展示。每张卡片显示技能名称、版本、标签、描述及 **添加到本地** 按钮，支持按分类筛选和关键词搜索。
 
@@ -51,7 +51,7 @@ AI 助手面板顶部工具栏从左到右依次为：
 
 ### 新建技能
 
-![](../../../../_assets/docs-tool/studio/static/ai_03.png)
+![](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/ai_03.png)
 
 点击**新建技能**后弹出创建表单，可填写以下信息：
 

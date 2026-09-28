@@ -38,7 +38,7 @@ Wait for the installation to finish.
 
 Right-click the `openwebui` desktop icon and select **Allow Launching** to start using it.
 
-![Open-WebUI desktop icon](../../../_assets/docs-ai/static/openwebui.png)
+![Open-WebUI desktop icon](https://cdn-resource.spacemit.com/ai/docs-ai/en/static/openwebui.png)
 
 For detailed usage instructions, refer to the [OpenWebUI User Guide](https://forum.spacemit.com/t/topic/185).
 

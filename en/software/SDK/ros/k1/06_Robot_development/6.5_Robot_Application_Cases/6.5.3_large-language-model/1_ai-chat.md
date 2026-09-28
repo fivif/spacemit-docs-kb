@@ -104,7 +104,7 @@ sudo apt install -y python3-spacemit-ort spacemit-ollama-toolkit virtualenv wget
      ```
 
    - Expected output:
-  ![image-20250422140656034](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/ai-chat-ollama-status.png)
+  ![image-20250422140656034](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/ai-chat-ollama-status.png)
 
    - If the status is `inactive`, start the service:
 

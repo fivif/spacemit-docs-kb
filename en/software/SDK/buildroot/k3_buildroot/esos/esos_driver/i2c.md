@@ -16,7 +16,7 @@ The K3 I2C module is compliant with the I2C bus specification. On the K3 platfor
 
 ### Architecture
 
-![I2C driver architecture](../../../../../../../_assets/docs-buildroot/k3_buildroot/esos/esos_driver/static/i2c-arch.drawio.png)
+![I2C driver architecture](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/esos/esos_driver/static/i2c-arch.drawio.png)
 
 - **Application layer:** Provides I2C device access services for applications.
 - **RT-Thread I2C framework layer:** Provides the unified `rt_i2c_transfer` interface and abstracts underlying hardware differences.

@@ -18,7 +18,7 @@ The K3 platform requires an **external Wi-Fi module** to provide wireless connec
 
 In Linux, Wi-Fi support is typically organized into the following layers:
 
-![Wi-Fi software architecture](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/wlan.png)
+![Wi-Fi software architecture](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/wlan.png)
 
 1. **cfg80211 / mac80211 / nl80211**  
     Provides the Linux wireless protocol stack and the user-space control interface.

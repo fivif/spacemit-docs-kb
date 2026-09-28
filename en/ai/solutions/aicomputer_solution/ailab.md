@@ -38,7 +38,7 @@ K3 devices also include a built-in AI Lab desktop application for downloading mo
 
 ### System Architecture Diagram
 
-![System architecture](../../../../_assets/docs-ai/solutions/static/ailab-tech.png)
+![System architecture](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-tech.png)
 
 ### Application Stack
 
@@ -102,7 +102,7 @@ curl -s localhost:18790/healthz
 No hardware required. Access the cloud platform directly:
 
 1. Open [spacemit.com](https://www.spacemit.com/), click **Cloud**, select **AI Lab**, and navigate to the SpacemiT AI Lab cloud homepage.
-   ![Cloud entry](../../../../_assets/docs-ai/solutions/static/ailab-inter.png)
+   ![Cloud entry](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-inter.png)
 
 2. Click **Try Now** and wait for the system to allocate a cloud K3 instance (typically under 3 seconds).
 3. Once the instance is ready, the browser is automatically redirected to the Model Center, where models can be run immediately.
@@ -113,7 +113,7 @@ No hardware required. Access the cloud platform directly:
 
 Search for **AI Lab** in the system application menu, then launch it.
 
-![Local entry](../../../../_assets/docs-ai/solutions/static/ailab-start.png)
+![Local entry](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-start.png)
 
 
 ### 3) Interface Overview
@@ -126,7 +126,7 @@ After launch, the Model Center home page is displayed. It includes:
 - **Model card grid**: Shows all available AI models with download and trial status.
 - **Performance dashboard**: Per-model performance metrics on real K3 hardware.
 
-![App home](../../../../_assets/docs-ai/solutions/static/ailab.png)
+![App home](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab.png)
 
 ## Features
 
@@ -136,21 +136,21 @@ After launch, the Model Center home page is displayed. It includes:
 
 On the cloud platform home page, check the number of available instances, then click **Try Now** to obtain a dedicated K3 instance.
 
-![Request instance](../../../../_assets/docs-ai/solutions/static/ailab-1.png)
+![Request instance](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-1.png)
 
 #### 2) Session Time
 
 After entering the Model Center, the top status bar shows the remaining session time (up to 2 hours). A warning appears before the session expires.
 
-![Instance status bar](../../../../_assets/docs-ai/solutions/static/ailab-2.png)
+![Instance status bar](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-2.png)
 
-![Release instance](../../../../_assets/docs-ai/solutions/static/ailab-tip.png)
+![Release instance](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-tip.png)
 
 #### 3) Releasing an Instance
 
 - **Automatic release**: The instance is reclaimed automatically after 2 hours or when the Model Center page is closed.
 
-![Release instance](../../../../_assets/docs-ai/solutions/static/ailab-free.png)
+![Release instance](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-free.png)
 
 > **Privacy notice**: When an instance is released, the application automatically clears all user data generated during the session, including LLM conversation history, uploaded images, recordings, and audio temp files. All data is processed in memory only and is never persisted to disk.
 
@@ -166,7 +166,7 @@ Click the category tabs at the top of the page to filter models:
 - **VLM**: Image understanding, visual question answering.
 - **Speech**: ASR transcription, TTS synthesis, VAD detection.
 
-![Model categories](../../../../_assets/docs-ai/solutions/static/ailab-3.png)
+![Model categories](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-3.png)
 
 #### 2) Model Card Details
 
@@ -182,7 +182,7 @@ Each model card shows:
 - Click **Download Model** on the model card to start the download.
 - All models are stored under `~/.cache/models/`, organized by category.
 
-![Download progress](../../../../_assets/docs-ai/solutions/static/ailab-10.png)
+![Download progress](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-10.png)
 
 ### Vision Models
 
@@ -191,7 +191,7 @@ Each model card shows:
 3. For object detection models, adjust the **Confidence** (default 0.35) and **IoU threshold** (default 0.45) as needed.
 4. After inference, view the annotated result (bounding boxes / keypoints / segmentation masks) and the performance metrics.
 
-![Vision model demo](../../../../_assets/docs-ai/solutions/static/ailab-4.png)
+![Vision model demo](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-4.png)
 
 **Supported vision tasks:**
 
@@ -209,7 +209,7 @@ Each model card shows:
 3. The model streams its response back.
 4. Click the copy button next to any message to copy the response.
 
-![LLM chat interface](../../../../_assets/docs-ai/solutions/static/ailab-5.png)
+![LLM chat interface](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-5.png)
 
 **Supported LLM models:** Qwen2.5, Qwen3, Qwen3.5 series, and more.
 
@@ -229,9 +229,9 @@ A Vision Language Model (VLM) can understand both images and natural language. A
   - A streamed response rendered in Markdown with a typewriter effect
   - Performance metrics, including **Latency, Time to First Token (TTFT), and Tokens/s**
 
-![VLM chat](../../../../_assets/docs-ai/solutions/static/ailab-vlm.png)
+![VLM chat](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-vlm.png)
 
-![VLM chat](../../../../_assets/docs-ai/solutions/static/ailab-vlm-result.png)
+![VLM chat](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-vlm-result.png)
 
 **Supported VLM Models**:
 |Model|Parameters|Size|Description|
@@ -257,7 +257,7 @@ A Vision Language Model (VLM) can understand both images and natural language. A
    - **Live recording**: Click **Start Recording**, speak, then click **Stop Recording**. Transcription runs automatically.
 3. The result panel displays the transcribed text and processing time.
 
-![ASR result](../../../../_assets/docs-ai/solutions/static/ailab-6.png)
+![ASR result](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-6.png)
 
 ### Speech Synthesis (TTS)
 
@@ -266,7 +266,7 @@ A Vision Language Model (VLM) can understand both images and natural language. A
 3. Select Chinese or English input based on the model.
 4. Click **Generate Audio**. Playback starts automatically after synthesis completes.
 
-![TTS interface](../../../../_assets/docs-ai/solutions/static/ailab-7.png)
+![TTS interface](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-7.png)
 
 ### Voice Activity Detection (VAD)
 
@@ -274,7 +274,7 @@ A Vision Language Model (VLM) can understand both images and natural language. A
 2. Record audio or upload an audio file.
 3. Detection results are displayed visually with speech activity segments and time boundaries.
 
-![VAD result](../../../../_assets/docs-ai/solutions/static/ailab-8.png)
+![VAD result](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-8.png)
 
 ### Model Performance Dashboard
 
@@ -291,7 +291,7 @@ View per-model performance metrics for K3 hardware at the bottom of the home pag
 | FPS             | Frames Per Second | Number of image frames processed per second by vision models. Higher is better.                                       |
 | Quantization    | Quantization type | Model compression precision (e.g., Q4_0, Q8_0, INT8, FP16). Lower precision means smaller size and faster speed.      |
 
-![Performance dashboard](../../../../_assets/docs-ai/solutions/static/ailab-9.png)
+![Performance dashboard](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-9.png)
 
 Models can also be downloaded from this view:
 
@@ -315,7 +315,7 @@ LAN sharing is enabled automatically when the app starts.
 1. Note the access URL shown at the top of the interface.
 2. Other devices on the same local network can open that URL in any browser — no installation required.
 
-![LAN sharing](../../../../_assets/docs-ai/solutions/static/ailab-11.png)
+![LAN sharing](https://cdn-resource.spacemit.com/ai/docs-ai/en/solutions/static/ailab-11.png)
 
 ## FAQ
 

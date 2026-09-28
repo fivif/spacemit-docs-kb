@@ -16,7 +16,7 @@ The startup wizard runs automatically on first boot and walks you through the re
 
 ### Step 1: Language Settings
 
-![Language settings page](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/welcome.png)
+![Language settings page](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/welcome.png)
 
 The startup wizard is displayed in **Simplified Chinese** by default. You can change the language on the **Language Settings** page.
 
@@ -25,15 +25,15 @@ Open the **Language List** to see the available options. Currently, the system s
 - **Simplified Chinese**
 - **American English**
 
-![Language list](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/welcome-language.png)
+![Language list](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/welcome-language.png)
 
 After you select a language, the wizard reloads and immediately applies the new language. The selected language will also be used as the system language after setup is complete.
 
-![English interface](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/welcome-English.png)
+![English interface](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/welcome-English.png)
 
 ### Step 2: Location and Time Zone
 
-![Location selection](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/locale.png)
+![Location selection](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/locale.png)
 
 On the **Location Selection** page, choose your region and city.
 
@@ -42,29 +42,29 @@ On the **Location Selection** page, choose your region and city.
 
 The selected location affects regional formats such as **time, numbers, and currency**.
 
-![Location dropdown list](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/locale-select.png)
+![Location dropdown list](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/locale-select.png)
 
 You can select your location in two ways:
 
 - Choose from the **Region List**
 - Click directly on the **Time Zone Map**
 
-![Clicking the time zone map](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/locale-click.png)
+![Clicking the time zone map](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/locale-click.png)
 
 ### Step 3: Keyboard Layout
 
-![Keyboard selection](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/keyboard.png)
+![Keyboard selection](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/keyboard.png)
 
 Select a keyboard layout that matches your physical keyboard.
 
 - By default, the system uses the standard layout for the selected language.
 - If you need a specific variant, expand the keyboard list and choose the appropriate option.
 
-![Keyboard layout selection](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/keyboard-select.png)
+![Keyboard layout selection](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/keyboard-select.png)
 
 ### Step 4: User Account Information
 
-![User information](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/user.png)
+![User information](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/user.png)
 
 On the **User Information** page, enter the following details:
 
@@ -75,7 +75,7 @@ On the **User Information** page, enter the following details:
 
 Please review all information carefully before continuing.
 
-![Completed user information](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/user-filled.png)
+![Completed user information](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/user-filled.png)
 
 **Recommendations:**
 
@@ -84,23 +84,23 @@ Please review all information carefully before continuing.
 
 You can proceed only after all fields pass validation.
 
-![Show password](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/user-showpwd.png)
+![Show password](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/user-showpwd.png)
 
 Use **Show Password** to confirm that your password is entered correctly.
 
 ### Step 5: Apply Configuration
 
-![Confirmation dialog](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/sure.png)
+![Confirmation dialog](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/sure.png)
 
 Before applying the settings, the system displays a confirmation dialog. Once you continue, the configuration process **cannot be interrupted**.
 
-![Applying configuration](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/installing.png)
+![Applying configuration](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/installing.png)
 
 The system writes the configuration and prepares the environment. Do not power off the device during this process.
 
 ## Completing the Setup
 
-![Completed](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/done.png)
+![Completed](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/done.png)
 
 When the setup is finished, select **Restart System**. After reboot, the following settings take effect:
 
@@ -111,13 +111,13 @@ When the setup is finished, select **Restart System**. After reboot, the followi
 
 ## User Sessions
 
-![Login screen](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/login-page.jpg)
+![Login screen](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/login-page.jpg)
 
 After the system restarts, the login screen appears. Log in using the username and password created during setup.
 
 On the first login, the system may take a short time to initialize user-specific settings — this is normal.
 
-![Action buttons](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/action-buttons.jpg)
+![Action buttons](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/action-buttons.jpg)
 
 The login screen provides the following actions:
 
@@ -128,11 +128,11 @@ The login screen provides the following actions:
 
 ### Logging In as a Specific User
 
-![Switch user avatar](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/switch-user-avatar.jpg)
+![Switch user avatar](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/switch-user-avatar.jpg)
 
 If multiple user accounts exist, multiple user avatars are shown. Click an avatar to select a user, then enter the corresponding password.
 
-![Switch user page](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/switch-user-page.jpg)
+![Switch user page](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/switch-user-page.jpg)
 
 You can also log in by manually specifying a username. Select **Switch User**, then enter the username and password on the login page.
 

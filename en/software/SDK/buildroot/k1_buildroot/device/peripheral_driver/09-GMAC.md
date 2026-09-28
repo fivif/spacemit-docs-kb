@@ -16,7 +16,7 @@ The GMAC (Gigabit Media Access Controller) module is a controller that enables G
 
 ### Functional Description
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/net.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/net.png)
 
 - **Application Layer:** Provides application services to users.
 - **Protocol Stack Layer:** Implements network protocols and provides system call interfaces for the application layer.

@@ -62,7 +62,7 @@ USB_UDC=c0900100.udc gadget-setup.sh adb
 将 K1 开发板的 USB2.0 OTG 端口（原理图中的 USB0_DP/USB0_DN）通过 USB 线材和测试治具接入安装有 xHCI Electrical Test Tool 的上位机，如图选择 VID/PID 0x361c/... 的 Device，选择
 Device Command 发送 TEST_PACKET 选项，点击 EXECUTE 即可让 K1 USB2.0 OTG 控制器发送测试波形。
 
-![alt text](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB/usb2-xett-testpacket.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/USB/usb2-xett-testpacket.png)
 
 ##### K1 使用 Linux DebugFS 进行配置
 
@@ -108,7 +108,7 @@ USB_UDC=c0a00000.dwc3 gadget-setup.sh hid
 
 将 K1 开发板的 USB3.0 DRD 端口（原理图中的 USB2_DP/USB2_DN）通过 USB 线材和测试治具接入安装有 xHCI Electrical Test Tool 的上位机，如图选择 VID/PID 0x361c/... 的 Device，选择Device Command 发送 TEST_PACKET 选项，点击 EXECUTE 即可让 K1 USB3.0 DRD 控制器发送测试波形。
 
-![alt text](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB/usb2-xett-testpacket.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/USB/usb2-xett-testpacket.png)
 
 ##### K1 使用 Linux DebugFS 进行配置
 
@@ -164,7 +164,7 @@ Host 模式下，只支持使用应用层工具进行配置，该工具支持所
 
 示波器看到的测试波形如下图所示：
 
-![usbhs-test-packet](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB/usbhs-test-packet.png)
+![usbhs-test-packet](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/USB/usbhs-test-packet.png)
 
 #### K1 USB2.0 OTG 控制器 Host 模式测试
 
@@ -344,7 +344,7 @@ Host 模式下，只支持使用应用层工具进行配置，该工具支持所
 
 首先执行 `lsusb -tv` 命令：
 
-![alt text](../../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/USB/usb-portest-hub.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/USB/usb-portest-hub.png)
 
 如图橙色高亮部分，我们找到一个产品描述是 `VIA Labs, Inc` 的 480M 速率的 Hub 设备。
 

@@ -368,7 +368,7 @@ MPP 的源码结构及简要说明如下（源码结构做了精简）：
 
 ## 2. MPP 框架结构图
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/media/mpp/static/MPP-Framework-v0.3.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/media/mpp/static/MPP-Framework-v0.3.png)
 
 从框架结构上，主要分 2 层，如下：
 
@@ -389,11 +389,11 @@ MPP 的源码结构及简要说明如下（源码结构做了精简）：
 
 ### 3.1 解码流程
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/media/mpp/static/decode.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/media/mpp/static/decode.png)
 
 ### 3.2 编码流程
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/media/mpp/static/encode.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/media/mpp/static/encode.png)
 
 ## 4. 数据结构
 

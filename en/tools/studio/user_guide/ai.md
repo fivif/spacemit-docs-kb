@@ -16,11 +16,11 @@ updated: "2026-07-17 18:34:27"
 
 The **SpacemiT AI Assistant** is a conversational AI development assistant integrated into SpacemiT Studio. Built on SpacemiT documentation and a preset skill library, it supports code assistance, troubleshooting, and edge AI application development.
 
-![SpacemiT AI Assistant panel](../../../../_assets/docs-tool/studio/static/ai.png)
+![SpacemiT AI Assistant panel](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/ai.png)
 
 ## Toolbar
 
-![AI Assistant toolbar](../../../../_assets/docs-tool/studio/static/ai_00.png)
+![AI Assistant toolbar](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/ai_00.png)
 
 The toolbar at the top of the AI Assistant panel provides the following actions, from left to right:
 
@@ -32,7 +32,7 @@ The toolbar at the top of the AI Assistant panel provides the following actions,
 
 ## Skills
 
-![Skills screen](../../../../_assets/docs-tool/studio/static/ai_01.png)
+![Skills screen](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/ai_01.png)
 
 A skill is a functional extension module for the AI Assistant. Each skill corresponds to a specific knowledge base or task capability. The Skills screen shows the following:
 
@@ -48,7 +48,7 @@ Built-in skills include:
 
 ### Skill Store
 
-![Skill Store dialog](../../../../_assets/docs-tool/studio/static/ai_02.png)
+![Skill Store dialog](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/ai_02.png)
 
 Click **Skill Store** to open the list of available skills, displayed as installable skill cards. Each card shows the skill name, version, tags, a description, and an **Add to Local** button. The skill list can be filtered by category and searched by keyword.
 
@@ -56,7 +56,7 @@ Example skills available in the Skill Store include **Flashing Assistant**, **De
 
 ### Create a New Skill
 
-![New Skill dialog](../../../../_assets/docs-tool/studio/static/ai_03.png)
+![New Skill dialog](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/ai_03.png)
 
 Click **New Skill** to open the skill creation form, which includes the following fields:
 

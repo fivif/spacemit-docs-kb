@@ -14,7 +14,7 @@ updated: "2026-06-04 08:40:15"
 
 ## 4.1.1 概述
 为了加速AI计算，芯片企业设计了多种专用处理器架构，如GPGPU、NPU、TPU等。这些专用处理器架构在执行调度代码及应用层代码时，需要主控CPU的配合，如下图所示。因此，通常需要构建复杂的异构调度系统来协调CPU和XPU的额外数据交互和同步。
-![architect](../../../_assets/docs-ai/architecture/images/architect.webp)
+![architect](https://cdn-resource.spacemit.com/ai/docs-ai/zh/architecture/images/architect.webp)
 
 为了保证AI算力的通用性和易用性，进迭时空基于自身CPU核的研发能力，以标准RISC-V核为基础，创新性地在CPU内集成TensorCore，以RISC-V指令集为统一的软硬件接口，驱动Scalar标量算力、Vector向量算力和 Matrix AI算力，支持软件和AI模型同时在RISC-V AI核上运行，并通过程序正常跳转实现软件和AI模型之间的事件和数据交互，进而完成整个AI应用执行。我们把这种以RISC-V指令集为统一的软硬件接口，驱动Scalar标量算力、Vector向量算力和 Matrix AI算力的技术，叫做**同构融合技术**，这种具有AI算力的CPU称为**AI CPU**或者**智算核**。
 

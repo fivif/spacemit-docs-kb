@@ -16,7 +16,7 @@ K3 DMA 支持内存到内存、内存到外设、外设到内存三种传输方�
 
 ### 功能介绍
 
-![DMA 驱动框架](../../../../../../../_assets/docs-buildroot/k3_buildroot/esos/esos_driver/dma-arch.drawio.png)
+![DMA 驱动框架](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/esos/esos_driver/dma-arch.drawio.png)
 
 - **应用层 / 外设驱动层：** 面向用户或外设驱动提供 DMA 传输服务。
 - **RT-Thread DMA 框架层：** 提供统一的通道请求、配置、传输接口，屏蔽底层硬件差异。

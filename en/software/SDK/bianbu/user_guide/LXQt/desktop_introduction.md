@@ -10,7 +10,7 @@ updated: "2026-05-15 09:02:36"
 
 Bianbu LXQt is a lightweight desktop environment built on the **Labwc compositor** and the **Qt framework**. It is designed to combine a clean visual style with intuitive and efficient interaction, delivering a modern desktop experience that remains fast, responsive, and resource-efficient.
 
-![Desktop overview banner](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/desktop-banner.jpg)
+![Desktop overview banner](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/user_guide/LXQt/static/desktop-banner.jpg)
 
 ## Overview
 

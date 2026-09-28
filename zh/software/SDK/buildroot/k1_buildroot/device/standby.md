@@ -16,7 +16,7 @@ updated: "2026-03-05 14:48:22"
 ### 功能介绍
 
 系统休眠唤醒框图如下：
-![](../../../../../../_assets/docs-buildroot/k1_buildroot/device/static/standby.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/static/standby.png)  
 
 系统的休眠唤醒分为四层：  
 

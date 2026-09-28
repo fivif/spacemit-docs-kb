@@ -58,7 +58,7 @@ Successfully installed colorzero-2.0 gpiozero-2.0.5 lgpio-0.2.2.0 pyserial-3.5 s
 
 Muse Pi Pro开发板引脚示意图如下所示：
 
-![](../../../../_assets/docs-events/竞赛教程/01_Bianbu_使用文档及案例集/images/muse-pi-pro-pins.png)
+![](https://cdn-resource.spacemit.com/competition/docs-events/zh/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/images/muse-pi-pro-pins.png)
 
 在编程时，引脚编号请使用GPIO后面的数字。
 
@@ -71,7 +71,7 @@ pinout
 
 输出：
 
-<img src="../../../../_assets/docs-events/竞赛教程/01_Bianbu_使用文档及案例集/images/pinout-show.png" style="zoom:80%;" />
+<img src="https://cdn-resource.spacemit.com/competition/docs-events/zh/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/images/pinout-show.png" style="zoom:80%;" />
 
 ## 3.从Python使用GPIO
 
@@ -79,7 +79,7 @@ pinout
 
 #### 3.1.1 硬件连接
 
-<img src="../../../../_assets/docs-events/竞赛教程/01_Bianbu_使用文档及案例集/images/ledconnect.png" style="zoom: 67%;" />
+<img src="https://cdn-resource.spacemit.com/competition/docs-events/zh/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/images/ledconnect.png" style="zoom: 67%;" />
 
 绿色杜邦线连接到GPIO 70控制引脚。
 
@@ -180,7 +180,7 @@ pause()
 
 #### 3.3.1 硬件连接
 
-<img src="../../../../_assets/docs-events/竞赛教程/01_Bianbu_使用文档及案例集/images/button.png" style="zoom: 50%;" />
+<img src="https://cdn-resource.spacemit.com/competition/docs-events/zh/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/images/button.png" style="zoom: 50%;" />
 
 #### 3.3.2 设备测试
 

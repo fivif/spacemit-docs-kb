@@ -19,7 +19,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 
 ### 2.1 On-Board Resources Overview
 
-![MUSE Pi Pro Board](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_board.png)
+![MUSE Pi Pro Board](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/pi_pro_board.png)
 
 > **Note:** Board appearance may vary slightly between hardware revisions.
 
@@ -39,7 +39,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 | **RST (Reset Button)**      | - **Short press:** System reset (cold reboot)                                                                                   |
 | **FDL (Firmware Download)** | - **Hold while powering on / resetting:** Enter firmware flashing mode                                                          |
 
-![Buttons](../../../../_assets/docs-product/k1_muse_pi_pro/static/JT6LbmgB9ogTOPx2PkjcNhfsnjf.png)
+![Buttons](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/JT6LbmgB9ogTOPx2PkjcNhfsnjf.png)
 
 ### 2.3 Interface Description
 
@@ -54,7 +54,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 > - A USB cable with **data lines** is required. Charge-only cables are not supported for flashing.
 > - To ensure reliable system upgrade, use a USB power source capable of **≥10W**.
 
-![Type-C](../../../../_assets/docs-product/k1_muse_pi_pro/static/XLvWbnBe6oKzrpxa5Uzc9mKnnKg.png)
+![Type-C](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/XLvWbnBe6oKzrpxa5Uzc9mKnnKg.png)
 
 #### M.2 M-Key Storage Expansion
 
@@ -64,7 +64,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 
 > **Important:** Hot-plug is **not supported**. Install or remove SSDs only when power is off.
 
-![M.2](../../../../_assets/docs-product/k1_muse_pi_pro/static/Nm3XbpoC3om51AxAusDcRslOnXG.png)
+![M.2](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/Nm3XbpoC3om51AxAusDcRslOnXG.png)
 
 #### HDMI Display Output
 
@@ -83,7 +83,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 
 > **Important:** Hot-plug for MIPI devices is **not supported**.
 
-![DISPLAY](../../../../_assets/docs-product/k1_muse_pi_pro/static/Lxfobq9KFojMdVxzOQvc6AeTnAi.png)
+![DISPLAY](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/Lxfobq9KFojMdVxzOQvc6AeTnAi.png)
 
 #### Camera Interface CAMERA0
 
@@ -91,7 +91,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 - Compatible camera modules listed in:
   **[K1 AVL](https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm) – Key Component List**
 
-![CAMERA0](../../../../_assets/docs-product/k1_muse_pi_pro/static/LLVibDZlAoUzoZxphA2c9sAdnKf.png)
+![CAMERA0](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/LLVibDZlAoUzoZxphA2c9sAdnKf.png)
 
 > **Note:** For MIPI camera connection instructions and troubleshooting, see [MIPI Camera Usage and FAQ](../../../software/SDK/bianbu/user_guide/LXQt/Camera_FAQ.md).
 
@@ -100,7 +100,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 - Connector: **15-pin, 1.0 mm FFC**
 - Compatible camera modules listed in the **[K1 AVL](https://cdn-resource.spacemit.com/file/%E8%8A%AF%E7%89%87/K1/K1_Key_Parts_AVL-V2.6-20251119.xlsm)**
 
-![CAMERA1](../../../../_assets/docs-product/k1_muse_pi_pro/static/L0jUbUjaCoOXkCxTtIDcK1Oanng.png)
+![CAMERA1](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/L0jUbUjaCoOXkCxTtIDcK1Oanng.png)
 
 #### Audio Interface (AUDIO)
 
@@ -140,7 +140,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 
 > **Important:** Hot-plug is **not supported**.
 
-![miniPCIe](../../../../_assets/docs-product/k1_muse_pi_pro/static/FCjqb2RjPohLX4xvekbcoUsNnMg.png)
+![miniPCIe](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/FCjqb2RjPohLX4xvekbcoUsNnMg.png)
 
 #### GPIO Header
 
@@ -151,7 +151,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 - For more about extended IO definition, visit the document **[MUSE Pi/MUSE Pi Pro Expansion I/O Definitions](../../../software/SDK/bianbu/user_guide/LXQt/MUSEPi_and_MUSEPiPro_expansion_IO_pinout.md)**
 - GPIO voltage domain: **3.3V**, supports multi-function pinmux
 
-![GPIO](../../../../_assets/docs-product/k1_muse_pi_pro/static/CRNsbxdgGodPOsxIdqAcGEyJnqb.png)
+![GPIO](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/CRNsbxdgGodPOsxIdqAcGEyJnqb.png)
 
 ### 2.4 Product Specifications
 
@@ -177,7 +177,7 @@ MUSE Pi Pro comes in a compact 1.8-inch board form factor, designed to deliver e
 
 ### 2.5 Block Diagram
 
-![Block Diagram](../../../../_assets/docs-product/k1_muse_pi_pro/static/QVGAbS5pEou7W9xYwn4cNaKFnsb.png)
+![Block Diagram](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/QVGAbS5pEou7W9xYwn4cNaKFnsb.png)
 
 ## 3. Quick Start
 
@@ -191,7 +191,7 @@ Since MUSE Pi Pro is a single-board computer, some peripherals are needed for wo
 - A keyboard
 - A mouse
 
-![](../../../../_assets/docs-product/k1_muse_pi_pro/static/EpmwbwKeSofjCIxP91pcBHq4nCh.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/EpmwbwKeSofjCIxP91pcBHq4nCh.png)
 
 ### 3.2 Start Up
 
@@ -205,7 +205,7 @@ MUSE Pi Pro supports UEFI boot and configuration. After powering on, the boot me
 
 Within 3 seconds of powering on, press the **F2 key** to enter the UEFI setup interface.
 
-![](../../../../_assets/docs-product/k1_muse_pi_pro/static/UzeVbTmnCowOmExaIswcyc1qnmf.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/UzeVbTmnCowOmExaIswcyc1qnmf.png)
 
 #### UEFI Configuration Guide
 
@@ -221,19 +221,19 @@ The following functions are available:
 
    It is also possible to enter the UEFI shell command line interface.
 
-  ![](../../../../_assets/docs-product/k1_muse_pi_pro/static/DussbQopfo5C9RximKGcgFAenUc.png)
+  ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/DussbQopfo5C9RximKGcgFAenUc.png)
   
 - **Boot Maintenance Manager Menu**
   Enter the Boot Maintenance Manager menu, then select "**Boot Options**," then choose "**Change Boot Order**" to set the boot medium priority. Use **+** and **- keys** to adjust the boot order.
   After pressing the **Enter key**, select "**Commit Changes and Exit**" to apply the changes and exit, returning to the main menu. Press the **F10 key** to save the settings.
-  ![](../../../../_assets/docs-product/k1_muse_pi_pro/static/G983bN6RMonWDXxmz09cksH4nDb.png)
+  ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/G983bN6RMonWDXxmz09cksH4nDb.png)
 
 - **UEFI Interactive Shell**
   MUSE Pi Pro supports UEFI Interactive Shell V2.2.
   Upon first entering the UEFI Interactive Shell, all detected storage devices will be displayed.
   After pressing any key (except **Esc**) or waiting 5 seconds, the EFI Shell will be ready to execute commands.
   Type "**help**" to display the supported commands and related help information.
-  ![](../../../../_assets/docs-product/k1_muse_pi_pro/static/Unf4bd8KIoIzihx4ehKcJr5Gngc.png)
+  ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/Unf4bd8KIoIzihx4ehKcJr5Gngc.png)
 
 Open source **UEFI** firmware repository for **Bianbu Linux**:
  - [edk2](https://gitee.com/bianbu-linux/edk2)
@@ -251,45 +251,45 @@ A configuration wizard will be run upon first startup that includes the followin
 
    Choose the system language. English and Chinese are displayed by default. If need more language options, just click the three dots below to show them.
 
-   ![](../../../../_assets/docs-product/k1_muse_pi_pro/static/JRoobRffJofXQ8x5JxZc3EUpn1g.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/JRoobRffJofXQ8x5JxZc3EUpn1g.png)
 
 2. Input Method
 
    Configure the MUSE Pi Pro’s keyboard layout and input method.
 
-   ![](../../../../_assets/docs-product/k1_muse_pi_pro/static/MoIfbrH7jow5khxznDNcUXdyn5e.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/MoIfbrH7jow5khxznDNcUXdyn5e.png)
 
 3. Wireless Internet Connection
 
    Select a valid Wi-Fi network from the list and connect it. If there is no suitable Wi-Fi network, skip this setting by clicking on the upper right corner.
 
-   ![](../../../../_assets/docs-product/k1_muse_pi_pro/static/JOgPbIWJwoWAHQxluzhcqFkGnSf.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/JOgPbIWJwoWAHQxluzhcqFkGnSf.png)
 
 4. Location Services
 
    Turning on location services can facilitate the usage experience, but it may also bring risks of location privacy leakage. Please be aware and careful!
 
-   ![](../../../../_assets/docs-product/k1_muse_pi_pro/static/Lj8mbqTqzoFPeWxmsDRcyEI5nXb.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/Lj8mbqTqzoFPeWxmsDRcyEI5nXb.png)
 
 5. Time Zone
 
    Configure user time zone information. While online (i.e. Wi-Fi connected), the system can automatically synchronize the corresponding time zone, then user can search for cities to add settings.
 
-   ![](../../../../_assets/docs-product/k1_muse_pi_pro/static/P9y8bMbz2oKURNxIbMPcAB13nlc.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/P9y8bMbz2oKURNxIbMPcAB13nlc.png)
 
 6. Username & Password Account
 
    Set username and password
 
-   ![](../../../../_assets/docs-product/k1_muse_pi_pro/static/Xnq4b4GIFoFDUmxoTv8cYjDdnZb.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/Xnq4b4GIFoFDUmxoTv8cYjDdnZb.png)
 
-   ![](../../../../_assets/docs-product/k1_muse_pi_pro/static/G8R3bsqhcosIAYxrP8oc8FBGn4d.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/G8R3bsqhcosIAYxrP8oc8FBGn4d.png)
 
 7. Configuration completed
 
    When the configuration is completed, click "Start using Bianbu" thus MUSE Pi Pro will enter the desktop of Bianbu OS.
 
-   ![](../../../../_assets/docs-product/k1_muse_pi_pro/static/AjGmbBkM2o8culxW4BmcWJw1nFg.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/AjGmbBkM2o8culxW4BmcWJw1nFg.png)
 
 ## 4. Firmware Flashing & Serial Port Debugging
 
@@ -320,7 +320,7 @@ A configuration wizard will be run upon first startup that includes the followin
 
     to proceed with the firmware flashing operation
 
-![](../../../../_assets/docs-product/k1_muse_pi_pro/static/RoFhbwRnEodBcAxCeQfcpArdnLb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/RoFhbwRnEodBcAxCeQfcpArdnLb.png)
 
 ### 4.2 Serial Port Debugging
 
@@ -328,7 +328,7 @@ A configuration wizard will be run upon first startup that includes the followin
 
 The host computer is normally connected to the TX, RX and GND of the MUSE Pi via the USB to TTL device. The signal interface connection is shown below.
 
-![](../../../../_assets/docs-product/k1_muse_pi_pro/static/Q0H1bvBILoAzVwxGIudczWwLn0g.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/Q0H1bvBILoAzVwxGIudczWwLn0g.png)
 
 #### Debugging Under Windows OS
 
@@ -336,7 +336,7 @@ Let’s take the “**MobaXterm**” software tool as example.
 
 Firstly, please connect the hardware serial port correctly and confirm that there is a COM port displayed in the port list of the device manager, as shown below.
 
-![](../../../../_assets/docs-product/k1_muse_pi_pro/static/E1p9bnV5voQcKbxQrvncVFnLn3b.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/E1p9bnV5voQcKbxQrvncVFnLn3b.png)
 
 Open the “MobaXterm” software tool then select “Sessions” - “New Session” (1) in the screen appearing. In the pop-up dialog box appearing,
 
@@ -347,11 +347,11 @@ Open the “MobaXterm” software tool then select “Sessions” - “New Sessi
 
 as shown below.
 
-![](../../../../_assets/docs-product/k1_muse_pi_pro/static/FPsyb2sIMoIdMtxUFHvcysLinq9.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/FPsyb2sIMoIdMtxUFHvcysLinq9.png)
 
 Thus the print page will be entered as shown below.
 
-![](../../../../_assets/docs-product/k1_muse_pi_pro/static/OOH8bf04ZoFZ9sxt4JDc7Qown9b.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/OOH8bf04ZoFZ9sxt4JDc7Qown9b.png)
 
 ## 5. Precautions
 
@@ -371,7 +371,7 @@ The MUSE Pi Pro is designed for home, office, and industrial environments. Befor
 
 **Structure Drawing:**
 
-![](../../../../_assets/docs-product/k1_muse_pi_pro/static/AuLqbhcMOo206mxtvVfcwR6Nnje.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/AuLqbhcMOo206mxtvVfcwR6Nnje.png)
 
 ## 7. Appendix — Interface Pin Assignments
 
@@ -379,7 +379,7 @@ The MUSE Pi Pro is designed for home, office, and industrial environments. Befor
 
 The MUSE Pi Pro is equipped with one 4-lane MIPI CSI (FPC 22-pin) interface and one 2-lane MIPI CSI (FPC 15-pin) interface.
 
-![](../../../../_assets/docs-product/k1_muse_pi_pro/static/AsqcbGXvaoYKR1xx014cLMQrnmb.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/AsqcbGXvaoYKR1xx014cLMQrnmb.png)
 
 **15-Pin High-Speed Connector Pin Assignment**：
 
@@ -401,7 +401,7 @@ The MUSE Pi Pro is equipped with one 4-lane MIPI CSI (FPC 22-pin) interface and 
 | 14 | CAM_I2C1_SDA_3V3 |
 | 15 | CSI_VCC33 |
 
-![](../../../../_assets/docs-product/k1_muse_pi_pro/static/SJEJbRHcBoDjRxx4tCZcU724npc.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/SJEJbRHcBoDjRxx4tCZcU724npc.png)
 
 **22-Pin High-Speed Connector Pin Assignment**：
 
@@ -434,7 +434,7 @@ The MUSE Pi Pro is equipped with one 4-lane MIPI CSI (FPC 22-pin) interface and 
 
 The MUSE Pi Pro includes one 2-lane MIPI DSI FPC 15-pin interface.
 
-![](../../../../_assets/docs-product/k1_muse_pi_pro/static/M1jLbBDcIomrEYx2whIcbUowncN.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/M1jLbBDcIomrEYx2whIcbUowncN.png)
 
 **MIPI DSI FPC 15-Pin High-Speed Connector Pin Assignment**：
 
@@ -460,7 +460,7 @@ The MUSE Pi Pro includes one 2-lane MIPI DSI FPC 15-pin interface.
 
 The development board supports a 40-pin dual-row header. The pin assignments are as follows:
 
-![](../../../../_assets/docs-product/k1_muse_pi_pro/static/GPLWbgRYCoATDqxWtWOcDy49nTe.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/GPLWbgRYCoATDqxWtWOcDy49nTe.png)
 
 | pin | Signal Name | Signal Name | pin |
 |-----|----------|----------|-----|
@@ -491,7 +491,7 @@ The board provides UART debugging via Pin 6, 8, and 10 of the 40-pin header for 
 On the host controller side, the pin order from top to bottom is:
 GND → RX → TX
 
-![](../../../../_assets/docs-product/k1_muse_pi_pro/static/Q0H1bvBILoAzVwxGIudczWwLn0g.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/Q0H1bvBILoAzVwxGIudczWwLn0g.png)
 
 ### 7.5 JTAG Debug Interface
 
@@ -504,7 +504,7 @@ The development board reserves a Primary JTAG debug channel on the 40-pin header
 | 13    | GPIO_72_3V3     | PRI_TCK          |
 | 15    | GPIO_73_3V3     | PRI_TDO          |
 
-![](../../../../_assets/docs-product/k1_muse_pi_pro/static/pi_pro_jtag.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_pi_pro/static/pi_pro_jtag.png)
 
 ## 8. Frequently Asked Questions (FAQ)
 

@@ -68,7 +68,7 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
 Once successfully launched, the simulation environment will appear as shown below:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_gazebo.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_gazebo.jpg)
 
 On the PC, Launch **rviz** for visualization in another terminal (**Terminal 2**):
 
@@ -80,7 +80,7 @@ rviz2
 
 In rviz (as figure below): click **Add → Map**, then set the topic to **`/map`**:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_rviz.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_rviz.jpg)
 
 Once the robot simulation environment is up, pick any one of these three SLAM algorithms on the **SpacemiT board** to start mapping.
 
@@ -145,7 +145,7 @@ ros2 launch br_localization slam_cartographer_sim.launch.py
 
 After starting SLAM mapping with any of the algorithms above, open **rviz** on the PC. You will see the **initial map**:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_slam1.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_slam1.jpg)
 
 Next, open a new terminal on the PC and run the **keyboard-control node**:
 
@@ -155,11 +155,11 @@ source /opt/ros/humble/setup.bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/teleop_twist_keboard.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/teleop_twist_keboard.jpg)
 
 Use the keys ```u i o j k l m , . ```to drive the robot. You can watch the **map being built in real time** in rviz:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_slam2.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_slam2.jpg)
 
 ## Real-Vehicle Mapping
 

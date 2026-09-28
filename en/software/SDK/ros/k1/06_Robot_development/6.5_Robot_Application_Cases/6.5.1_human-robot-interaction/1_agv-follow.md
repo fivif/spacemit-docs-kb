@@ -34,7 +34,7 @@ This solution combines **environment sensing**, **motion control**, and **voice 
 
 ## System Framework and Control Flow
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/agv-follow-framework.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.5_Robot_Application_Cases/resources/agv-follow-framework.png)
 
 The figure above shows the overall framework and process control of the AGV human-following case in the ROS2 system. It is mainly composed of the following **four nodes**:
 

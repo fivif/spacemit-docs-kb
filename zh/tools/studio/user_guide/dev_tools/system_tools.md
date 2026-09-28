@@ -16,11 +16,11 @@ updated: "2026-08-24 09:53:30"
 
 1. 进入 **开发工具 → 系统预配置**
 
-   ![系统预配置入口](../../../../../_assets/docs-tool/studio/static/systool_preconfig_00.png)
+   ![系统预配置入口](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/systool_preconfig_00.png)
 
 2. 填写需要预设的配置项
 
-   ![系统预配置配置项](../../../../../_assets/docs-tool/studio/static/systool_preconfig_01.png)
+   ![系统预配置配置项](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/systool_preconfig_01.png)
 
    - **用户名 / 密码**：设置系统登录账号。
    - **主机名**：自定义设备名称，留空则自动生成。
@@ -45,11 +45,11 @@ updated: "2026-08-24 09:53:30"
 1. 确保设备已连接并在**当前设备**面板中显示
 2. 进入 **开发工具 → 端口转发**
 
-   ![端口转发入口](../../../../../_assets/docs-tool/studio/static/systool_mapping_00.png)
+   ![端口转发入口](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/systool_mapping_00.png)
 
 3. 在**新建转发**面板中填写转发规则：
 
-   ![新建转发](../../../../../_assets/docs-tool/studio/static/systool_mapping_01.png)
+   ![新建转发](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/systool_mapping_01.png)
 
    - **远程端口**：设备上要转发的端口号（如 8080）。
    - **本地端口**：映射到本机的端口号，留空则自动分配。
@@ -57,11 +57,11 @@ updated: "2026-08-24 09:53:30"
 
 4. 点击 **建立转发**
 
-   ![建立转发](../../../../../_assets/docs-tool/studio/static/systool_mapping_02.png)
+   ![建立转发](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/systool_mapping_02.png)
 
 5. 转发建立后显示在右侧**活跃转发**列表中，通过 `localhost:<本地端口>` 访问设备服务
 
-   ![活跃转发列表](../../../../../_assets/docs-tool/studio/static/systool_mapping_03.png)
+   ![活跃转发列表](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/systool_mapping_03.png)
 
 ## 串口连接
 
@@ -79,11 +79,11 @@ updated: "2026-08-24 09:53:30"
 1. 确保设备已通过串口连接到计算机
 2. 进入 **开发工具 → 串口连接**
 
-   ![串口连接入口](../../../../../_assets/docs-tool/studio/static/systool_serial_00.png)
+   ![串口连接入口](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/systool_serial_00.png)
 
 3. 配置串口参数：
 
-   ![设置串口参数](../../../../../_assets/docs-tool/studio/static/systool_serial_01.png)
+   ![设置串口参数](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/systool_serial_01.png)
 
    - **串口**：选择设备对应的串口号（如 COM3、/dev/ttyUSB0）
    - **波特率**：设置通信速率，常用值为 115200

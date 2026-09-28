@@ -18,7 +18,7 @@ K3 Audio 模块包含 6 路 I2S 音频接口、 4 路 RI2S 音频接口和 2 路
 
 系统基于 ALSA（Advanced Linux Sound Architecture）音频架构，整体框架如下：
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/AUDIO.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/AUDIO.png)
 
 ALSA音频框架可以分为以下几个层次：
 

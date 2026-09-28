@@ -16,7 +16,7 @@ updated: "2026-03-05 14:45:28"
 
 ### 功能介绍  
 
-![pwm](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/pwm.png) 
+![pwm](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/pwm.png) 
 
 内核通过 **PWM框架层接口** 使其他模块可以申请PWM控制器，并控制PWM信号的输出高低。
 如：**内核的风扇调速和背光亮度**都可以用PWM来控制。  

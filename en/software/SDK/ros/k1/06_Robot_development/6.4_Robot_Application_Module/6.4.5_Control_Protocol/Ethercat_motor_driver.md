@@ -12,7 +12,7 @@ This document explains how to control an integrated servo motor based on the Eth
 
 ## Hardware Connection
 
-![Hardware connection](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.5_Control_Protocol/images/ethercat_motor.jpg)
+![Hardware connection](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.5_Control_Protocol/images/ethercat_motor.jpg)
 As shown in the figure, connect the motor power supply. Connect one end of an Ethernet cable to the motor IN port and the other to the development board Ethernet port. A continuously illuminated power indicator confirms normal motor operation.
 
 ## Environment Description

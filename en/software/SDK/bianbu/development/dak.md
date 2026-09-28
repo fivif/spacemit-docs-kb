@@ -96,11 +96,11 @@ gpg -a --export 9F9C52A13E434AB3DC45693A42D4AEAF977345E3
 
 Click [https://developer.spacemit.com/auth/#/user/userInfo](https://developer.spacemit.com/auth/#/user/userInfo) and follow the illustrated steps to add the GPG public key:
 
-![Figure 1: GPG Public Key Import Example](../../../../../_assets/docs-bianbu/development/static/gpg_1.jpg)
+![Figure 1: GPG Public Key Import Example](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/gpg_1.jpg)
 
 Note: The pasted content should include the BEGIN and END lines at the beginning and end.
 
-![Figure 2: GPG Public Key Import Example](../../../../../_assets/docs-bianbu/development/static/gpg_2.jpg)
+![Figure 2: GPG Public Key Import Example](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/gpg_2.jpg)
 
 ## Prepare Source Package and Deb Package
 

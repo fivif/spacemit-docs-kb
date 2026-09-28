@@ -63,7 +63,7 @@ Cluster Server RV2768 为基于 RISC-V 架构的集群服务器，2U 高度 19 �
 
 ## 物理结构
 
-![](../../../../_assets/docs-product/k3_rv2768/static/components.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/components.png)
 
 | 序号 | 部件名称 | 序号 | 部件名称 |
 | :--- | :--- | :--- | :--- |
@@ -76,7 +76,7 @@ Cluster Server RV2768 为基于 RISC-V 架构的集群服务器，2U 高度 19 �
 
 ## 逻辑结构
 
-![](../../../../_assets/docs-product/k3_rv2768/static/rv2768_bd.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/rv2768_bd.png)
 
 ## 硬件描述
 
@@ -84,23 +84,23 @@ Cluster Server RV2768 为基于 RISC-V 架构的集群服务器，2U 高度 19 �
 
 **外观**
 
-![Image](../../../../_assets/docs-product/k3_rv2768/static/front.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/front.png)
 
 **指示灯和按钮说明**
 
 |标识|含义|说明|
 |---|---|---|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/pwr.png)|电源按钮|- AC 电源插上后，在待机（standby）状态，短按按键，正常开机，节点管理操作系统、交换系统和各计算节点进入工作状态；<br>- 上电后开机状态，长按 6s 可对节点管理操作系统、交换系统和各计算节点进行强制下电，进入待机状态；|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/pwr_led.png)|电源指示灯|- 熄灭：设备未上电。<br>- 黄色闪烁：BMC 管理系统正在启动，此时电源按钮处于锁定状态，不能进行操作。BMC 管理系统大约 1 分钟完成启动，同时电源指示灯转变为黄色常亮。<br>- 黄色常亮：设备待机（Standby）状态。<br>- 绿色常亮：设备正常上电，开机状态。|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/health_led.png)|健康状态指示灯|- 无异常：熄灭<br>- 异常：<br> - 红色闪烁（1Hz）：Major 告警<br>    - 红色闪烁（5Hz）：Critical 告警|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/uid_led.png)|UID指示灯|- 熄灭：服务器未被定位。<br>- 蓝色闪烁（持续 255 秒）：服务器被重点定位。<br>- 蓝色常亮：服务器被定位。|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/act_led.png)|高速网络端口状态指示灯 ACT|LINK SPEED 用于指示链接情况和链接速率：<br>- 绿灯常亮时，链路建立且为最高速率状态；<br>- 黄灯常亮时，链路建立但处于非最高速率状态；<br>- 链路未建立时，LINK SPEED 不点亮，保持熄灭状态；<br>ACTIVE 用于指示链路活跃状态：<br>- 链路无数据传输，处于熄灭状态；<br>- 链路有数据传输，处于绿色闪烁状态，越活跃闪烁频次越快；|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/spd_led.png)|高速网络端口状态指示灯 SPD|同上|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/bmc_led.png)|BMC 管理网口状态指示灯|同上|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/pwr.png)|电源按钮|- AC 电源插上后，在待机（standby）状态，短按按键，正常开机，节点管理操作系统、交换系统和各计算节点进入工作状态；<br>- 上电后开机状态，长按 6s 可对节点管理操作系统、交换系统和各计算节点进行强制下电，进入待机状态；|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/pwr_led.png)|电源指示灯|- 熄灭：设备未上电。<br>- 黄色闪烁：BMC 管理系统正在启动，此时电源按钮处于锁定状态，不能进行操作。BMC 管理系统大约 1 分钟完成启动，同时电源指示灯转变为黄色常亮。<br>- 黄色常亮：设备待机（Standby）状态。<br>- 绿色常亮：设备正常上电，开机状态。|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/health_led.png)|健康状态指示灯|- 无异常：熄灭<br>- 异常：<br> - 红色闪烁（1Hz）：Major 告警<br>    - 红色闪烁（5Hz）：Critical 告警|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/uid_led.png)|UID指示灯|- 熄灭：服务器未被定位。<br>- 蓝色闪烁（持续 255 秒）：服务器被重点定位。<br>- 蓝色常亮：服务器被定位。|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/act_led.png)|高速网络端口状态指示灯 ACT|LINK SPEED 用于指示链接情况和链接速率：<br>- 绿灯常亮时，链路建立且为最高速率状态；<br>- 黄灯常亮时，链路建立但处于非最高速率状态；<br>- 链路未建立时，LINK SPEED 不点亮，保持熄灭状态；<br>ACTIVE 用于指示链路活跃状态：<br>- 链路无数据传输，处于熄灭状态；<br>- 链路有数据传输，处于绿色闪烁状态，越活跃闪烁频次越快；|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/spd_led.png)|高速网络端口状态指示灯 SPD|同上|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/bmc_led.png)|BMC 管理网口状态指示灯|同上|
 
 **接口位置**
 
-![Image](../../../../_assets/docs-product/k3_rv2768/static/front_connectors.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/front_connectors.png)
 
 |编号|接口|编号|接口|
 |---|---|---|---|
@@ -120,7 +120,7 @@ Cluster Server RV2768 为基于 RISC-V 架构的集群服务器，2U 高度 19 �
 
 **外观和接口**
 
-![Image](../../../../_assets/docs-product/k3_rv2768/static/rear.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/rear.png)
 
 |编号|模块|编号|模块|
 |---|---|---|---|
@@ -138,7 +138,7 @@ Cluster Server RV2768 为基于 RISC-V 架构的集群服务器，2U 高度 19 �
 
 **主板**
 
-![](../../../../_assets/docs-product/k3_rv2768/static/single_board.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/single_board.png)
 
 | 序号 | 部件名称 | 序号 | 部件名称 |
 | :--- | :--- | :--- | :--- |
@@ -152,7 +152,7 @@ Cluster Server RV2768 为基于 RISC-V 架构的集群服务器，2U 高度 19 �
 
 **业务管理板**
 
-![](../../../../_assets/docs-product/k3_rv2768/static/magt_board.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/magt_board.png)
 
 | 序号 | 部件名称 | 序号 | 部件名称 |
 | :--- | :--- | :--- | :--- |
@@ -163,17 +163,17 @@ Cluster Server RV2768 为基于 RISC-V 架构的集群服务器，2U 高度 19 �
 
 **计算板**
 
-![](../../../../_assets/docs-product/k3_rv2768/static/comp_board.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/comp_board.png)
 
 - 支持 24 个计算板插入，上电状态不可热插拔计算板，注意须在服务器断电状态下操作。
 - 主板插槽为 PCIe x16 slot，接口在标准 PCIe x16 基础上进行引脚定义修改，以下表格红色字体部分为修改部分，蓝色为 PCIe slot 原标准定义。模组接口支持两个独立的单路计算节点的设计。
 - 支持不同CPU代次的计算板混插，不同CPU的计算板通过板载电子标签信息区分。
 
-![](../../../../_assets/docs-product/k3_rv2768/static/pcie.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/pcie.png)
 
 **计算板编号对应关系**
 
-![](../../../../_assets/docs-product/k3_rv2768/static/comp_board_num.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/comp_board_num.png)
 
 RV2768 内置计算板共 24 个，编号为 sub0~sub23，每个计算板 `sub*` 有 2 个计算节点，为 `sub*-0` 和 `sub*-1`，整机共 48 个计算节点，每个计算节点除内部网络外，有独立外部 10GE 以太网接口，计算节点和网口的归属关系如下，整机非满配计算板时，考虑散热风道效率，推荐以下安装位置。
 
@@ -249,23 +249,23 @@ Cluster 内置三层管理交换机，216 Gbps 交换容量；支持 48 个千�
 
 Cluster Server 内部交换系统连接如下图所示
 
-![](../../../../_assets/docs-product/k3_rv2768/static/rv2768_bd_00.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/rv2768_bd_00.png)
 
 **管理子网网络拓扑**
 BMC 连接到内部交换机的 GE 端口只保留节点管理模块对应的 10GE 端口访问权限，通过 VLAN 隔离。如下图所示。
 
 > 注：BMC不可直接访问业务网络，即不可直接访问 K3 的业务网络
 
-![](../../../../_assets/docs-product/k3_rv2768/static/rv2768_bd_01.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/rv2768_bd_01.png)
 
 业务子网网络拓扑（默认状态，支持配置）
 1. 默认状态下，节点管理模块、所有计算节点（K3 Node）、交换机的2个10G上行端口可自由互通。
-   ![](../../../../_assets/docs-product/k3_rv2768/static/rv2768_bd_02.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/rv2768_bd_02.png)
 
 2. 用户配置状态下
    支持指定几个K3 Node配置独立vlan，生成逻辑子网，其他K3 Node不可访问该逻辑子网。如下图所示：
    K3 Node 0~5划分到逻辑子网卡，K3 Node 0~5和业务管理模块之间可互通，但K3 Node 0~5和其他K3 Node之间不可互通
-   ![](../../../../_assets/docs-product/k3_rv2768/static/rv2768_bd_03.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/rv2768_bd_03.png)
 
 ### 电源模块
 
@@ -297,7 +297,7 @@ Cluster Server 采用 CRPS（Common Redundant Power Supply）标准冗余电源�
 - 配置在同一服务器的风扇模块，P/N编码必须相同。
 - 风扇模块的位置
 
-![](../../../../_assets/docs-product/k3_rv2768/static/fans.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/fans.png)
 
 ## 产品规格
 
@@ -330,8 +330,8 @@ Cluster Server 采用 CRPS（Common Redundant Power Supply）标准冗余电源�
 ### Cluster Server 集群管理系统
 
 平台前端图示如下
-![图片](../../../../_assets/docs-product/k3_rv2768/static/platform_00.png)
-![图片](../../../../_assets/docs-product/k3_rv2768/static/platform_01.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/platform_00.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/platform_01.png)
 
 核心功能模块：
 - 48 x 模组管理
@@ -349,8 +349,8 @@ Cluster Server 采用 CRPS（Common Redundant Power Supply）标准冗余电源�
 ### Cluster Flow 分布式计算平台
 
 平台前端图示如下
-![图片](../../../../_assets/docs-product/k3_rv2768/static/platform_02.png)
-![图片](../../../../_assets/docs-product/k3_rv2768/static/platform_03.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/platform_02.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/platform_03.png)
 
 核心功能模块：
 - DAG 编排引擎
@@ -366,8 +366,8 @@ Cluster Server 采用 CRPS（Common Redundant Power Supply）标准冗余电源�
 ### Cluster Agent 智能体集群平台
 
 平台前端图示如下
-![图片](../../../../_assets/docs-product/k3_rv2768/static/platform_04.png)
-![图片](../../../../_assets/docs-product/k3_rv2768/static/platform_05.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/platform_04.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/zh/k3_rv2768/static/platform_05.png)
 
 核心功能模块：
 - 3步申请一个或多个智能体

@@ -18,7 +18,7 @@ The K1 platform implements wireless communication through an external BT (Blueto
 
 The Bluetooth architecture comprises the following layers:
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/bt.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/bt.png)
 
 ### Source Code Structure
 

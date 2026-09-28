@@ -122,4 +122,4 @@ $ make
 $ ./animatedtiles
 ```
 
-![qt](../../../../../_assets/docs-bianbu/development/static/qt.png)
+![qt](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/qt.png)

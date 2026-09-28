@@ -23,7 +23,7 @@ Typical application scenarios include:
 
 ### Functionality
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/net.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/net.png)
 
 - **Application layer:** Provides application-facing network services.
 - **Protocol (TCP/IP) stack:** Implements network protocols and provides system call interfaces to the application layer.

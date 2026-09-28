@@ -238,6 +238,6 @@ if __name__ == "__main__":
 ```
 
 运行上述代码后，你将在终端看到各步骤的打印输出，如下图所示
-![alt text](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/06-image.png)
+![alt text](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/06-image.png)
 
 通过本指南，你已经掌握了使用 ONNX Runtime 进行推理的完整流程。如果遇到问题，请检查你的安装是否正确，并确保 ONNX 模型兼容 ONNX Runtime。

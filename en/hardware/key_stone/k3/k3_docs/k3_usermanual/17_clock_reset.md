@@ -29,7 +29,7 @@ K3 comes with the following clocks:
 
 The detailed clock tree structure is depicted below, highlighting how the clock signals are generated, managed, and distributed across the system to support various modules and functions.
 
-![](../../../../../../_assets/docs-chip/key_stone/k3/k3_docs/k3_usermanual/static/k3_clock_tree.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/k3_clock_tree.png)
 
 **[Clock Tree Structure in PDF](https://cdn-resource.spacemit.com/file/chip/K3/k3_clock_tree.pdf)**
 

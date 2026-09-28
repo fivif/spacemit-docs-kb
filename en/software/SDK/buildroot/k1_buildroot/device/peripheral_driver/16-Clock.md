@@ -16,7 +16,7 @@ The Clock module manages and controls system clock signals.
 
 ### Functional Description
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/CLOCK.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/CLOCK.png)
 
 To manage clocks effectively, Linux provides the Common Clock Framework (CCF) for centralized clock management. This framework offers a unified interface for device drivers, allowing them to operate without needing to know the specific hardware implementation details of the clock. The structure includes the following components:
 - **clock provider:** Corresponding to the right side of the diagram, the clock controller, which is responsible for providing various clocks required by the system.

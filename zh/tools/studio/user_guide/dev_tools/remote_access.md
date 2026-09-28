@@ -15,18 +15,18 @@ updated: "2026-07-30 11:32:01"
 ### 第 1 步：在当前电脑（电脑 A）启动代理
 
 1. 打开**开发工具**页面，找到**远程访问**类别
-   ![远程设备共享](../../../../../_assets/docs-tool/studio/static/remote_gateway.png)
+   ![远程设备共享](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/remote_gateway.png)
 
 2. 点击**远程设备共享**卡片，打开配置弹窗
-   ![远程设备共享配置界面](../../../../../_assets/docs-tool/studio/static/remote_gateway_00.png)
+   ![远程设备共享配置界面](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/remote_gateway_00.png)
 
 3. 点击**启动代理**按钮
 
 4. 等待代理状态变为**运行中**
-    ![远程设备共享配置界面](../../../../../_assets/docs-tool/studio/static/remote_gateway_01.png)
+    ![远程设备共享配置界面](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/remote_gateway_01.png)
 
    **远程设备共享**卡片状态也同步变为**运行中**
-    ![远程设备共享运行中](../../../../../_assets/docs-tool/studio/static/remote_gateway_02.png)
+    ![远程设备共享运行中](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/remote_gateway_02.png)
 
    > 代理启动后，当前电脑将作为主机端等待远程访问。
 
@@ -36,7 +36,7 @@ updated: "2026-07-30 11:32:01"
 2. 使用**相同账号**登录
 3. 点击左下角**设置**图标
 4. 找到**启用远程设备共享**选项并启用
-    ![](../../../../../_assets/docs-tool/studio/static/setting_01.png)
+    ![](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/setting_01.png)
 
 5. 启用后，即可访问主机端电脑（电脑 A）上的 Studio 和设备
 

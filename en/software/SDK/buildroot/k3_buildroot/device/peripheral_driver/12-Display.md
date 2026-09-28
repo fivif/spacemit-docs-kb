@@ -18,7 +18,7 @@ The Display module on the SpacemiT platform is built on the **DRM framework (Dir
 
 The DRM framework consists of both **user space** and **kernel space** components.
 
-![display-drm](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/display-drm.png)
+![display-drm](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/display-drm.png)
 
 #### User space: libdrm
 
@@ -576,7 +576,7 @@ The example below uses the `lcd_icnl9911c_mipi` panel:
 
 Fill in the DPU timing configuration and MIPI DSI timing configuration based on the timing information in the MIPI DSI panel specification. The pixel clock and bit clock are then calculated from these timing parameters.
 
-![display-timing](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/display-timing.png)
+![display-timing](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/display-timing.png)
 
 ##### Display Timing Parameter Description
 

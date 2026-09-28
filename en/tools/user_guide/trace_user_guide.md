@@ -32,7 +32,7 @@ System Hang Analysis:
 
 ## 3. Operation Method
 
-![Image](../../../_assets/docs-tool/user_guide/static/Trace_Operation_Method.png)
+![Image](https://cdn-resource.spacemit.com/tools/docs-tool/en/user_guide/static/Trace_Operation_Method.png)
 
 The K3 series implement trace functionality based on the  [RISC-V N-trace](https://github.com/riscv-non-isa/riscv-nexus-trace)protocol. The component topology is illustrated in the figure above.
 

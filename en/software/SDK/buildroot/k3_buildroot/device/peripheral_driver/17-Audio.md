@@ -23,7 +23,7 @@ The K3 Audio module provides:
 
 The system is based on the ALSA (Advanced Linux Sound Architecture) audio framework. The overall architecture is shown below:
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/AUDIO.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/AUDIO.png)
 
 The ALSA audio framework can be divided into the following layers:
 

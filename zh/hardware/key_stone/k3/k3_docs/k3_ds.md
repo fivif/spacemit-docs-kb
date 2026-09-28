@@ -99,7 +99,7 @@ K3 系列芯片主要应用在 AI 消费硬件如 AI 智慧家居、AI 会议办
 
 ## 1.3 架构框图
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_block_diagram.png" alt="K3 Block Diagram" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/k3_block_diagram.png" alt="K3 Block Diagram" width="800">
 
 ## 2. 规格参数
 
@@ -137,7 +137,7 @@ X100 在追求极致性能的同时，具备完善的虚拟化能力、强大的
 
 **架构框图**  
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/x100_block_diagram.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/x100_block_diagram.png" alt="" width="600">
 
 #### 2.1.2 SpacemiT® A100™ AI 核
 
@@ -174,7 +174,7 @@ SpacemiT® A100™ 是一款以 AI 为中心的 RISC-V AI处理器，通过自�
 
 **架构框图**
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/a100_block_diagram.png" alt="" width="400">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/a100_block_diagram.png" alt="" width="400">
 
 #### 2.1.3 RT24 RISC-V 核
 
@@ -189,7 +189,7 @@ RT24 作为 K3 SoC 中的系统管理核心，基于 OpenHW Group 开源的 64 �
 
 **架构框图**  
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/rt24_block_diagram.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/rt24_block_diagram.png" alt="" width="600">
 
 #### 2.1.4 调试子系统（Debug）
 
@@ -199,7 +199,7 @@ RT24 作为 K3 SoC 中的系统管理核心，基于 OpenHW Group 开源的 64 �
 **架构框图**  
 调试接口的微架构如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/debug_block_diagram.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/debug_block_diagram.png" alt="" width="600">
 
 如图所示，调试系统由以下组件构成：  
 
@@ -237,7 +237,7 @@ K3 中 X100 与 A100 核心的追踪组件完全符合 RISC-V N-Trace 协议，�
 - 扩展压缩能力，例如虚拟地址压缩，进一步提升追踪效率  
 
 **架构框图**
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/trace_block_diagram.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/trace_block_diagram.png" alt="" width="600">
 
 ### 2.2 内存与存储
 
@@ -369,7 +369,7 @@ MIPI 摄像头输入接口集成了四个 MIPI-CSI2 v1.1 控制器，每个控�
   - 虚拟通道交织（Virtual-channel Interleaving）
 
 **架构框图**
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/mipi_block_diagram.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/mipi_block_diagram.png" alt="" width="800">
 
 #### 2.3.2 GPU（图形处理单元）
 
@@ -669,7 +669,7 @@ VPU 最高运行频率可达 1 GHz，支持广泛的视频标准，包括 H.265�
   - BGR888、RGB888、ABGR1555、RGBA5551、BGR565 / RGB565  
   - XYUV_444_P1_8、XYUV_444_P1_10、YVYU_422_P1_8、VYUY_422_P1_8  
   - YUV_420_P2_8、YUV_420_P3_8
-   <img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/disp_input_addr.png" alt="" width="800">
+   <img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/disp_input_addr.png" alt="" width="800">
 - 输出格式：  
   - RGB888、RGB565、RGB666  
 - 面板与模式支持：  
@@ -921,7 +921,7 @@ K3 SoC 集成了多个 USB 接口，以支持高速连接和灵活的设备配�
 
 **模块框图**
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/usb_block_diagram.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/usb_block_diagram.png" alt="" width="800">
 
 #### 2.7.3 以太网 GMAC
 
@@ -1079,7 +1079,7 @@ I²C 总线可实现 I²C 控制器与各类外部 I²C 外设或微控制器之
 
 I²C 总线接口的架构如下图所示：  
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/i2c_block_diagram.png" alt="" width="600">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/i2c_block_diagram.png" alt="" width="600">
 
 #### 2.7.8 红外接收接口（IR-RX Interface）
 
@@ -1145,7 +1145,7 @@ eSPI 在电气特性上沿用 SPI 总线基础，但重新定义了协议层。�
 **模块框图**
 eSPI 控制器架构如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/espi_block_diagram.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/espi_block_diagram.png" alt="" width="800">
 
 ### 2.8 安全子系统
 
@@ -1245,7 +1245,7 @@ DMA 控制器通过 16 个可配置 DMA 通道，在 DMA 直通模式（Flow-Thr
 
 DMA 控制器架构如下图所示：
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/dma_block_diagram.png" alt="" width="500">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/dma_block_diagram.png" alt="" width="500">
 
 #### 2.9.2 HDMA
 
@@ -1333,7 +1333,7 @@ K3 集成了一个温度传感器（TSEN）模块，支持 7 个独立的温度�
 
 **模块框图**  
 Mailbox 架构如下图所示：
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/mailbox_block_diagram.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/mailbox_block_diagram.png" alt="" width="800">
 
 #### 2.9.8 自旋锁（Spinlock）
 
@@ -1509,28 +1509,28 @@ K3 提供以下封装选项：
 
 ### 3.2 封装外形图（POD）
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/package1.png" alt="" width="500">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/package1.png" alt="" width="500">
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/package2.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/package2.png" alt="" width="800">
 
 ### 3.3 Part Number
 
 下图给出了 K3 Part Number 的组成及字段定义。
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_partno.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/k3_partno.png" alt="" width="800">
 
 ## 4. 引脚定义（Pinout）
 
 ### 4.1 引脚分布图与说明
 
 K3 的完整引脚分布图如下所示：
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_pinmap.png" alt="" width="900">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/k3_pinmap.png" alt="" width="900">
 
 为便于描述，K3 的引脚按 四个象限（Quadrant） 进行划分。以下各小节将基于该分区方式，详细说明各引脚的功能定义。
 
 #### 4.1.1 (A~Y, 1~20)
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_pinmap_a-y_1-20.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/k3_pinmap_a-y_1-20.png" alt="" width="800">
   
 | 引脚编号 | 引脚名称 | 引脚编号 | 引脚名称 |
 | --- | --- | --- | --- |
@@ -1735,7 +1735,7 @@ K3 的完整引脚分布图如下所示：
 
 #### 4.1.2 (A~Y, 21~40)
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_pinmap_a-y_21-40.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/k3_pinmap_a-y_21-40.png" alt="" width="800">
 
 | 引脚编号 | 引脚名称 | 引脚编号 | 引脚名称 |
 | --- | --- | --- | --- |
@@ -1935,7 +1935,7 @@ K3 的完整引脚分布图如下所示：
 
 #### 4.1.3 (AA~AY, 1~20)
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_pinmap_aa-ay_1-20.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/k3_pinmap_aa-ay_1-20.png" alt="" width="800">
 
 | 引脚编号 | 引脚名称 | 引脚编号 | 引脚名称 |
 | --- | --- | --- | --- |
@@ -2142,7 +2142,7 @@ K3 的完整引脚分布图如下所示：
 
 #### 4.1.4 (AA~AY, 21~40)
 
-<img src="../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_pinmap_aa-ay_21-40.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/k3_pinmap_aa-ay_21-40.png" alt="" width="800">
 
 | 引脚编号 | 引脚名称 | 引脚编号 | 引脚名称 |
 | --- | --- | --- | --- |

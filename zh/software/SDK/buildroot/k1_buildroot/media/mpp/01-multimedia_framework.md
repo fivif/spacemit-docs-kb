@@ -14,7 +14,7 @@ updated: "2026-03-05 14:51:43"
 
 ## 框架层次图及说明
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/media/mpp/static/M5mAbw911oDOp2xFEtHc2lNnned.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/media/mpp/static/M5mAbw911oDOp2xFEtHc2lNnned.png)
 
 整个多媒体系统分为 **4 层**，从上到下依次是：
 

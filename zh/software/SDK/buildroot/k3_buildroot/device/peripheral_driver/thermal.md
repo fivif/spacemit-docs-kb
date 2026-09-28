@@ -16,7 +16,7 @@ Thermal 特指一套关于温控机制的驱动框架。Linux Thermal 框架是 
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/thermal.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/thermal.png)
 
 1. **thermal_cooling_device**：对应实施冷却措施的驱动，是温控的执行者。
 2. **thermal core**：Thermal 的核心程序，负责驱动初始化，维护 thermal_zone、governor 和 cooling device 三者的关系，并通过 sysfs 和用户空间交互。

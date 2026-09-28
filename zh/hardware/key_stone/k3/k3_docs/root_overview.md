@@ -102,4 +102,4 @@ K3 系列芯片主要应用在 AI 消费硬件如 AI 智慧家居、AI 会议办
 
 ## 框图
 
-![K3 框图](../../../../../_assets/docs-chip/key_stone/k3/k3_docs/static/k3_block_diagram.png)
+![K3 框图](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/key_stone/k3/k3_docs/static/k3_block_diagram.png)

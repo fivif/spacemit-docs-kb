@@ -26,7 +26,7 @@ sudo apt install python3-opencv
 
 更新和安装结果如下图。
 
-![alt text](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/07-image.png)
+![alt text](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/07-image.png)
 
 ## 准备模型部署代码
 
@@ -142,7 +142,7 @@ ls classification/
 ```
 
 如下图，解压后目录结构如下：
-![alt text](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/07-image-1.png)
+![alt text](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/07-image-1.png)
 
 ```
 classification/
@@ -167,7 +167,7 @@ touch model_deploy.py
 ```
 
 如下图，此例子的项目目录为 **onnx**
-![alt text](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/07-image-2.png)
+![alt text](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/07-image-2.png)
 
 ### 第 4 步：运行推理脚本
 
@@ -181,7 +181,7 @@ python3 model_deploy.py
 
 如果成功，你应该会看到类似的输出如下图：
 
-![alt text](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/07-image-3.png)
+![alt text](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/07-image-3.png)
 
 ### 第 5 步：解释结果
 

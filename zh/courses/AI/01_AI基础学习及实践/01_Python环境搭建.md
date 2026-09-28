@@ -28,10 +28,10 @@ Python 是一种解释型语言，运行 Python 代码需要 Python 解释器。
 ### 步骤 1：打开终端
 
 点击终端图标打开终端，如下图。
-![alt text](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image.png)
+![alt text](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image.png)
 
 如果终端出现了如下图的打印，输入数字 **2** 即可。
-![alt text](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-1.png)
+![alt text](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-1.png)
 
 ### 步骤 2：检查 Python 版本
 
@@ -42,7 +42,7 @@ python --version
 ```
 
 如果终端输出 Python 版本号（如 `Python 3.12.3`），说明系统已安装 Python 解释器，如图 2.3。
-![alt text](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-2.png)
+![alt text](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-2.png)
 
 ---
 
@@ -61,7 +61,7 @@ touch random_game.py
 mousepad random_game.py
 ```
 
-![alt text](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-3.png)
+![alt text](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-3.png)
 
 ### 步骤 2：编写代码
 
@@ -99,15 +99,15 @@ if __name__ == "__main__":
     main()
 ```
 
-![Random Game in Python](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-4.png)
+![Random Game in Python](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-4.png)
 
 ### 步骤 3：保存并退出
 
 保存文件（操作如下图）
-![Save](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-5.png)
+![Save](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-5.png)
 
 并关闭编辑器（操作下图）
-![Close](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-6.png)
+![Close](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-6.png)
 
 ### 步骤 4：运行 Python 程序
 
@@ -117,7 +117,7 @@ if __name__ == "__main__":
 python random_game.py
 ```
 
-![RandomGame Running](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-7.png)
+![RandomGame Running](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-7.png)
 
 > **注**：如果要运行的 Python 程序依赖系统中未安装的库，请参考 **第4节**。
 ---
@@ -136,7 +136,7 @@ Python 虚拟环境可以创建一个独立的 Python 环境，以防止不同�
 sudo apt install -y python3-venv
 ```
 
-![python3-venv](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-8.png)
+![python3-venv](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-8.png)
 
 安装成功后，执行以下命令验证：
 
@@ -145,7 +145,7 @@ python -m venv -h
 ```
 
 如果终端输出 `venv` 相关的帮助信息（如下图），说明 Python 虚拟环境安装成功。
-![virtual Env](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-9.png)
+![virtual Env](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-9.png)
 
 ### 步骤 2：创建虚拟环境
 
@@ -155,7 +155,7 @@ python -m venv -h
 python -m venv python_venv
 ```
 
-![Create new dir](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-10.png)
+![Create new dir](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-10.png)
 
 ### 步骤 3：激活虚拟环境
 
@@ -165,7 +165,7 @@ python -m venv python_venv
 source python_venv/bin/activate
 ```
 
-![venv activate](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-11.png)
+![venv activate](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-11.png)
 
 可以执行以下命令检查是否处于虚拟环境：
 
@@ -175,7 +175,7 @@ python -m site
 
 如下图，如果终端输出 `python_venv` 目录路径，则说明当前处于虚拟环境。
 
-![venv dir verification](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-12.png)
+![venv dir verification](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-12.png)
 
 ### 步骤 4：安装依赖库
 
@@ -185,7 +185,7 @@ python -m site
 python -c "import numpy"
 ```
 
-![ErrorFound](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-13.png)
+![ErrorFound](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-13.png)
 
 #### 安装 numpy 库
 
@@ -195,7 +195,7 @@ python -c "import numpy"
 pip install numpy -i https://git.spacemit.com/api/v4/projects/33/packages/pypi/simple
 ```
 
-![Install numpy](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-14.png)
+![Install numpy](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-14.png)
 
 安装完成后，可以尝试导入库验证是否安装成功：
 
@@ -203,7 +203,7 @@ pip install numpy -i https://git.spacemit.com/api/v4/projects/33/packages/pypi/s
 python -c "import numpy"
 ```
 
-![alt text](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-15.png)
+![alt text](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-15.png)
 
 如果没有报错（如上图），说明 `numpy` 安装成功。
 
@@ -215,4 +215,4 @@ python -c "import numpy"
 deactivate
 ```
 
-![deactivate venv](../../../../_assets/docs-courses/AI/01_AI基础学习及实践/images/image-16.png)
+![deactivate venv](https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/images/image-16.png)

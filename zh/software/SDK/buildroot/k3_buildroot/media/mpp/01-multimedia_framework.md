@@ -14,7 +14,7 @@ updated: "2026-04-27 21:42:16"
 
 ## 框架层次图及说明
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/media/mpp/static/K3X-SDK.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/media/mpp/static/K3X-SDK.png)
 
 整个多媒体系统分为 **4 层**，从上到下依次是：
 

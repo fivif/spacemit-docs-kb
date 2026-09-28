@@ -404,7 +404,7 @@ lerobot-record  \
 
 Built on top of a **Vision–Language Model (VLM)**, SmolVLA integrates an **Action Expert** module that allows the model to understand visual inputs (such as images or video streams) together with natural language instructions, and generate corresponding **robot action sequences**.
 
-![image](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.4_AI_Robotic_Arm/images/smolvla.png)
+![image](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.4_AI_Robotic_Arm/images/smolvla.png)
 
 ### Model Fine-tuning (x86 Workstation)
 

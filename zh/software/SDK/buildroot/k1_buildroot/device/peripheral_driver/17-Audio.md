@@ -18,7 +18,7 @@ Audio 模块包含 2 路 I2S 接口和 1 路 HDMI 音频接口。
 
 系统基于 ALSA（Advanced Linux Sound Architecture）音频架构，整体框架如下：
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/AUDIO.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k1_buildroot/device/peripheral_driver/static/AUDIO.png)
 
 ALSA音频框架可以分为以下几个层次：
 

@@ -19,7 +19,7 @@ SpacemiT AI SDK是面向进迭时空 K 系列芯片打造的 AI 应用开发套�
 - **强化学习（RL）**：面向机器人策略推理，提供 YAML 配置解析、观测组装、ONNX 推理与动作映射能力
 - **统一服务接入（gateway）**：基于 ASR/TTS/VAD/Vision/LLM/VLM 等基础能力之上封装统一的 HTTP/WS API、模型管理与前端控制台
 
-![](../../../_assets/docs-ai/static/ai-sdk-arch.png)
+![](https://cdn-resource.spacemit.com/ai/docs-ai/zh/static/ai-sdk-arch.png)
 
 
 AI SDK 的各独立组件都封装了一层通用 API 接口，用于屏蔽底层复杂业务细节，让用户专注于上层应用开发。当前 AI SDK 对外主要提供两类接入方式：

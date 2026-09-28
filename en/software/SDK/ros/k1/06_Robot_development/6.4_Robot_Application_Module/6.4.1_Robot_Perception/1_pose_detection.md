@@ -56,7 +56,7 @@ For subsequent inference tasks, set the `config_path` parameter to the correspon
 
 The model detects these keypoints as:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/keypoints_def.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/keypoints_def.jpg)
 
 Keypoint indices and names:
 
@@ -98,7 +98,7 @@ ros2 launch br_perception infer_img.launch.py \
 
 Results are saved as `pose_result.jpg` in the current directory:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/pose_result.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/pose_result.jpg)
 
 Terminal outputs detailed detection information:
 
@@ -161,7 +161,7 @@ Please visit in your browser: http://<IP>:8080
 
 Open a browser and visit the URL shown in the terminal (e.g., `http://<IP>:8080`) to view results:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/web_pose.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/web_pose.png)
 
 ### Subscribe to Results
 

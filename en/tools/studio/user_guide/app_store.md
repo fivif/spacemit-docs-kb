@@ -12,7 +12,7 @@ updated: "2026-08-24 09:53:05"
 
 App Center supports the browsing, installation, and management of applications and tools for the SpacemiT platform. It is organized into the **Online Store** and **Installed Apps** pages.
 
-![App Center](../../../../_assets/docs-tool/studio/static/app_store.png)
+![App Center](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/app_store.png)
 
 ## Online Store
 
@@ -29,7 +29,7 @@ Each app card displays the following information:
 
 Selecting an app card displays its details in the panel on the right, including:
 
-![Online Store](../../../../_assets/docs-tool/studio/static/app_store_00.png)
+![Online Store](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/app_store_00.png)
 
 - App icon, name, and current status, such as **Running**
 - Version, publisher, and package size
@@ -41,7 +41,7 @@ Selecting an app card displays its details in the panel on the right, including:
 
 The Installed Apps page lists and manages all applications currently installed on the device.
 
-![Installed Apps](../../../../_assets/docs-tool/studio/static/app_store_01.png)
+![Installed Apps](https://cdn-resource.spacemit.com/tools/docs-tool/en/studio/static/app_store_01.png)
 
 Select **Refresh** to retrieve the latest status for each app.
 

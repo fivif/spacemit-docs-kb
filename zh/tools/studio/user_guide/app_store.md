@@ -12,7 +12,7 @@ updated: "2026-08-24 09:53:24"
 
 应用中心提供适配 SpacemiT 平台的应用和工具的浏览、安装与管理功能，分为 **在线商店** 和 **已安装应用** 两个页面。
 
-![应用中心](../../../../_assets/docs-tool/studio/static/app_store.png)
+![应用中心](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/app_store.png)
 
 ## 在线商店
 
@@ -29,7 +29,7 @@ updated: "2026-08-24 09:53:24"
 
 点击应用卡片后，右侧面板显示该应用的详情，包括：
 
-![在线商店](../../../../_assets/docs-tool/studio/static/app_store_00.png)
+![在线商店](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/app_store_00.png)
 
 - 应用图标、名称、当前运行状态（如 **运行中**）
 - 版本、发布者、包大小
@@ -41,7 +41,7 @@ updated: "2026-08-24 09:53:24"
 
 已安装应用页面以列表形式管理当前设备上的所有已安装应用。
 
-![已安装应用](../../../../_assets/docs-tool/studio/static/app_store_01.png)
+![已安装应用](https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/static/app_store_01.png)
 
 点击 **⟳ 刷新** 可重新获取各应用的最新状态。
 

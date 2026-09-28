@@ -39,7 +39,7 @@ K3 设备本地同样内置 AI Lab 桌面应用，支持下载模型后在本地
 
 ### 系统架构图
 
-![系统架构图](../../../../_assets/docs-ai/solutions/static/ailab-tech.png)
+![系统架构图](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-tech.png)
 
 ### 应用技术栈
 
@@ -103,7 +103,7 @@ curl -s localhost:18790/healthz
 访问云平台，无需任何硬件准备：
 
 1. 打开 https://www.spacemit.com/ ，点击"体验中心"，选择"AI 体验"，进入SpacemiT AI Lab云平台首页
-   ![云入口](../../../../_assets/docs-ai/solutions/static/ailab-inter.png)
+   ![云入口](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-inter.png)
 
 2. 点击"立即体验"，等待系统分配云 K3 实例（< 3 秒）
 3. 实例就绪后自动跳转到模型中心页面，即可开始体验
@@ -113,7 +113,7 @@ curl -s localhost:18790/healthz
 ### 2) K3 本地应用启动
 
 在系统菜单中搜索 **ai lab** 并启动。
-   ![本地入口](../../../../_assets/docs-ai/solutions/static/ailab-start.png)
+   ![本地入口](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-start.png)
 
 ### 3) 界面概览
 
@@ -125,7 +125,7 @@ curl -s localhost:18790/healthz
 - **模型卡片网格**：展示各类 AI 模型及下载/体验状态
 - **性能数据看板**：各模型在 K3 真实硬件上的性能指标
 
-![应用主页](../../../../_assets/docs-ai/solutions/static/ailab.png)
+![应用主页](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab.png)
 
 ## 功能使用
 
@@ -135,21 +135,21 @@ curl -s localhost:18790/healthz
 
 在云平台首页查看当前可用实例数量，点击"立即体验"按钮，获取专属 K3 实例。
 
-![申请体验实例](../../../../_assets/docs-ai/solutions/static/ailab-1.png)
+![申请体验实例](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-1.png)
 
 #### 2) 实例使用时间
 
 进入模型中心后，顶部状态栏显示剩余体验时间（最长 2 小时）。时间即将耗尽时会提前提醒。
 
-![实例状态栏](../../../../_assets/docs-ai/solutions/static/ailab-2.png)
+![实例状态栏](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-2.png)
 
-![释放实例](../../../../_assets/docs-ai/solutions/static/ailab-tip.png)
+![释放实例](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-tip.png)
 
 #### 3) 释放实例
 
 - **自动释放**：2 小时到期后或关闭模型中心页面时自动回收
 
-![释放实例](../../../../_assets/docs-ai/solutions/static/ailab-free.png)
+![释放实例](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-free.png)
 
 > **隐私保护说明**：实例释放时，应用自动清除本次会话产生的所有用户数据，包括 LLM 对话历史、上传的图片、录音文件及音频临时文件，数据仅在内存中处理，**不会在本地持久化保存**。
 
@@ -165,7 +165,7 @@ curl -s localhost:18790/healthz
 - **视觉语言(VLM)模型**：图片理解与问答
 - **语音**：ASR 语音识别、TTS 语音合成、VAD 语音检测
 
-![模型分类浏览](../../../../_assets/docs-ai/solutions/static/ailab-3.png)
+![模型分类浏览](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-3.png)
 
 #### 2) 模型卡片信息
 
@@ -181,7 +181,7 @@ curl -s localhost:18790/healthz
 - 点击模型卡片上的"下载模型"按钮开始下载
 - 所有模型存储于 `~/.cache/models/`（按类别分目录）
 
-![模型下载进度](../../../../_assets/docs-ai/solutions/static/ailab-10.png)
+![模型下载进度](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-10.png)
 
 ### 视觉模型体验
 
@@ -190,7 +190,7 @@ curl -s localhost:18790/healthz
 3. 对于目标检测模型，可调整**置信度阈值**（默认 0.35）和 **IoU 阈值**（默认 0.45）
 4. 推理完成后查看标注结果（检测框 / 关键点 / 分割区域）及性能指标
 
-![视觉模型体验](../../../../_assets/docs-ai/solutions/static/ailab-4.png)
+![视觉模型体验](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-4.png)
 
 **支持的视觉任务：**
 
@@ -208,7 +208,7 @@ curl -s localhost:18790/healthz
 3. AI 流式返回回复
 4. 点击消息右侧复制按钮可复制回复内容
 
-![LLM 对话界面](../../../../_assets/docs-ai/solutions/static/ailab-5.png)
+![LLM 对话界面](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-5.png)
 
 **支持的 LLM 模型：** Qwen2.5、Qwen3、Qwen3.5 系列等
 
@@ -227,10 +227,10 @@ curl -s localhost:18790/healthz
    - 流式渲染的 Markdown 格式回答（打字机效果）
    - 性能指标：**延迟 / 首字延迟 / tokens/s**
 
-![VLM 对话界面](../../../../_assets/docs-ai/solutions/static/ailab-vlm.png)
+![VLM 对话界面](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-vlm.png)
 
 
-![VLM 对话界面](../../../../_assets/docs-ai/solutions/static/ailab-vlm-result.png)
+![VLM 对话界面](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-vlm-result.png)
 
 **支持的 VLM 模型：**
 
@@ -256,7 +256,7 @@ curl -s localhost:18790/healthz
    - **实时录音**：点击"开始录音" → 说话 → "停止录音"，自动转写
 3. 识别结果显示转写文本及处理耗时
 
-![ASR 识别结果](../../../../_assets/docs-ai/solutions/static/ailab-6.png)
+![ASR 识别结果](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-6.png)
 
 ### 语音合成（TTS）
 
@@ -265,7 +265,7 @@ curl -s localhost:18790/healthz
 3. 根据模型选择中文或英文
 4. 点击"生成音频"，等待合成完成后自动播放
 
-![TTS 合成界面](../../../../_assets/docs-ai/solutions/static/ailab-7.png)
+![TTS 合成界面](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-7.png)
 
 ### 语音活动检测（VAD）
 
@@ -273,7 +273,7 @@ curl -s localhost:18790/healthz
 2. 录音或上传音频文件
 3. 检测结果以可视化形式展示语音活动段及时间边界
 
-![VAD 检测结果](../../../../_assets/docs-ai/solutions/static/ailab-8.png)
+![VAD 检测结果](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-8.png)
 
 ### 模型性能看板
 
@@ -290,7 +290,7 @@ curl -s localhost:18790/healthz
   | FPS             | Frames Per Second | 视觉模型每秒处理的图像帧数，数值越高越好                             |
   | 量化类型        | Quantization      | 模型压缩精度，如 Q4_0、Q8_0、INT8、FP16，精度越低体积越小、速度越快  |
 
-![模型性能看板](../../../../_assets/docs-ai/solutions/static/ailab-9.png)
+![模型性能看板](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-9.png)
 
 支持模型下载到当前设备：
 
@@ -314,7 +314,7 @@ curl -s localhost:18790/healthz
 1. 查看顶部显示的访问地址
 2. 同一局域网内的其他设备浏览器访问该地址，无需安装应用
 
-![局域网分享](../../../../_assets/docs-ai/solutions/static/ailab-11.png)
+![局域网分享](https://cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/static/ailab-11.png)
 
 ## 常见问题
 

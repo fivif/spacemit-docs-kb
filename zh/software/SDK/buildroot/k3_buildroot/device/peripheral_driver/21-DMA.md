@@ -18,7 +18,7 @@ updated: "2026-08-10 09:48:13"
 
 ### 功能介绍
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/dma.JPEG)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/device/peripheral_driver/static/dma.JPEG)
 
 通过 DMA 框架和 K3 平台的 DMA 控制器驱动，实现以下传输方式：
 

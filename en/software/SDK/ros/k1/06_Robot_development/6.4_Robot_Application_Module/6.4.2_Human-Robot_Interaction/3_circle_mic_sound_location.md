@@ -16,14 +16,14 @@ This guide demonstrates how to implement sound source localization using the iFl
 **Model:** M260C Voice Interaction Module
 **Official Link:** [Product Page](https://item.m.jd.com/product/10054882134702.html?gx=RnAomTM2b2fan85Hp41wX4inMaW5_TE&gxd=RnAoy2BbaWDZyZwcrIImVA6-xKLxjrc&ad_od=share&utm_source=androidapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=CopyURL)
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/mic_hard.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/mic_hard.jpg)
 
 It outputs an angle **between 0° and 360°**.
 
 ## Hardware Connection
 
 Connect the microphone array to your system as shown below:
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/mic_connect.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/mic_connect.jpg)
 
 ## Device Configuration
 
@@ -46,7 +46,7 @@ ls /dev/wheeltec_mic -lh
 
 Expected successful output:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/ls_res1.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/ls_res1.png)
 
 ## Launching Sound Localization
 
@@ -62,7 +62,7 @@ Testing the Functionality
 
 Example terminal output:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/mic_print.png)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/mic_print.png)
 
 **Note:**
 - The default wake-up phrase is "Xiao Wei Xiao Wei". You can change it by referring to the official hardware documentation.

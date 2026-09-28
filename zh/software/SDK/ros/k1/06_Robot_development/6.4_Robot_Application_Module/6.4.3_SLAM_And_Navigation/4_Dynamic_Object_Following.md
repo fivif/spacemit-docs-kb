@@ -43,7 +43,7 @@ SpacemiT RISC-V 中提供了**四种方案**实现机器人动态跟随人像目
 ls /dev/video*
 ```
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/camera_port.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/camera_port.jpg)
 
 ### 安装 Navigation2
 
@@ -68,7 +68,7 @@ source /opt/ros/humble/setup.bash
 ros2 run rqt_image_view rqt_image_view
 ```
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/camera_image_view.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/camera_image_view.jpg)
 
 完成以上准备工作后，根据需求选择以下一种方案即可实现动态跟随人像目标。
 
@@ -116,7 +116,7 @@ ros2 launch rdk_visualization websocket_cpp.launch.py image_topic:='/result_img'
 
 还可以通过追加 port:=xxxx 参数来指定端口号，以避免端口冲突
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/camera_infer_view.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/camera_infer_view.jpg)
 
 **启动更新动态目标位置节点**
 
@@ -198,7 +198,7 @@ ros2 launch nanotrack_ros2 nanotrack.launch.py det_topic:='/inference_result_for
 
 yolo 推理节点检测到可靠的人像信息后，会自动初始化 nanotrack 模块，当 nanotrack 节点窗口出现以下连续信息打印时，即表示模块初始化成功。
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nanotrack_info.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nanotrack_info.jpg)
 
 nanotrack 模块初始化后，即可关闭 yolov6 检测推理，在终端内使用 **Ctrl+C** 关闭该节点。
 
@@ -267,7 +267,7 @@ ros2 launch bytetrack_ros2 bytetrack.launch.py result_topic:='/inference_result'
 
 bytetrack 方案会同时检测并跟踪多个目标，每个目标都有自己的id识别信息。
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/bytetrack_det.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/bytetrack_det.jpg)
 
 > **注意：** 当人像信息在相机视野内丢失，再次出现时id会发生变化。
 
@@ -357,7 +357,7 @@ yolov8pose 节点会检测人像，并将人像关节信息匹配到对应的关
 
 在相机的检测结果里，可以观察人像关节点与对应的关节点名称。
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/yolov8pose_det.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/yolov8pose_det.jpg)
 
 **启动跟随目标位置关节点解算节点**
 
@@ -417,12 +417,12 @@ ros2 launch rdk_visualization display_navigation.launch.py
 
 按照下图所示顺序，依次点击 **Add**、选择 **By topic** 中 **/visualization_marker** 话题下的 **Marker**
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rviz_marker.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rviz_marker.jpg)
 
 此时在 rivz 界面中即可实时显示检测到的人像信息，红色点即为解算出来的跟随目标位置：
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_follow_point1.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_follow_point1.jpg)
 
 点击 **2D Nav Goal** 设置任意位置导航目标点，即可开启跟随模式 navigation2。目标移动后，机器人会自动连续跟随该目标。
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_follow_point2.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_follow_point2.jpg)

@@ -26,7 +26,7 @@ updated: "2026-06-05 11:23:30"
 
 ## 系统架构
 
-![](../../../../_assets/docs-bianbu/static/systemarch.png)
+![](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/static/systemarch.png)
 
 ## 软件组件
 

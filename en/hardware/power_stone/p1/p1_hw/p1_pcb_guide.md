@@ -55,7 +55,7 @@ The reference demo board uses a **4-layer PCB**. The recommended stack-up is sho
 
 If the PCB is assembled on **one side only**, the recommended placement of external components around P1 is shown below.
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_hw/static/WE32b9k8YozaSlxdrgzcojGOn1b.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_hw/static/WE32b9k8YozaSlxdrgzcojGOn1b.png)
 
 1. **Input capacitor (Cin)**
    Place Cin (green circle) vertically aligned with the corresponding VIN pin and as close to the device as possible.
@@ -79,7 +79,7 @@ If the PCB is assembled on **one side only**, the recommended placement of exter
    - Exact size and count depend on operating current
 
    Example layout is shown below.
-   ![](../../../../../_assets/docs-chip/power_stone/p1/p1_hw/static/UYrzbDx8YoxtxFxnTZlc3OGDnDe.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_hw/static/UYrzbDx8YoxtxFxnTZlc3OGDnDe.png)
 
 3. **EPAD thermal vias**
    The exposed thermal pad (EPAD, gray box) should use a **7 × 7 via array** connected to GND planes on lower layers.
@@ -120,7 +120,7 @@ If the PCB is assembled on **one side only**, the recommended placement of exter
 
    Example routing is shown below.
 
-   ![](../../../../../_assets/docs-chip/power_stone/p1/p1_hw/static/WwTqbbkKQoiMPUxiVnPcDS6fnGg.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_hw/static/WwTqbbkKQoiMPUxiVnPcDS6fnGg.png)
 
    On the demo board, VOUT is taken from banana connectors on the top layer.
    The positive terminal of Cout does not use vias in this design.
@@ -137,7 +137,7 @@ If the PCB is assembled on **one side only**, the recommended placement of exter
 3. **Layer 3 (VIN plane)**
    Use Layer 3 as the VIN input plane, as shown below.
 
-   ![](../../../../../_assets/docs-chip/power_stone/p1/p1_hw/static/AADObjsENoDHsmxtqwOcoly7nOe.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_hw/static/AADObjsENoDHsmxtqwOcoly7nOe.png)
 
 4. **VIN branches**
    The highlighted copper shows the VIN plane and routing.
@@ -154,7 +154,7 @@ If the PCB is assembled on **one side only**, the recommended placement of exter
    Instead, form a ring-shaped copper area.
    This provides an additional return path for Cin GND vias and reduces Cin parasitic inductance.
 
-   ![](../../../../../_assets/docs-chip/power_stone/p1/p1_hw/static/QXeibbEHFoiidpxMzvbcxRBHn8t.png)
+   ![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_hw/static/QXeibbEHFoiidpxMzvbcxRBHn8t.png)
 
 ## Double-Side Assembly Layout
 
@@ -165,7 +165,7 @@ For **double-sided assembly**, Buck input capacitors (Cin) may be placed on the 
 
 Example layout is shown below.
 
-![](../../../../../_assets/docs-chip/power_stone/p1/p1_hw/static/TbUlbP5KQo7cyVxMvdLcfZhHnSh.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/en/power_stone/p1/p1_hw/static/TbUlbP5KQo7cyVxMvdLcfZhHnSh.png)
 
 VIN copper for Buck1/Buck2, Buck3/Buck4, and Buck5/Buck6 must remain separated on the bottom layer.
 Each Buck uses its own Cin, as shown by the yellow traces.

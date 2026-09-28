@@ -24,7 +24,7 @@ The following diagram shows the structure of the storage stack, with different c
 - **Green:** Linux file systems  
 - **Blue-Green:** The basic data structure BIO for Linux Storage operations  
 
-![Linux Storage Stack](../../../../../../_assets/docs-buildroot/k1_buildroot/kernel_debug/static/Linux-Storage-Stack.png)
+![Linux Storage Stack](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/kernel_debug/static/Linux-Storage-Stack.png)
 
 > Image source: Thomas-Krenn AG  
 > [Original image link](https://www.thomas-krenn.com/de/wikiDE/images/e/e8/Linux-storage-stack-diagram_v6.9.png)  

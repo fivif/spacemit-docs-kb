@@ -11,7 +11,7 @@ updated: "2026-03-17 15:20:06"
 
 ## Overall Framework
 
-![Linux Graphical Framework](../../../../../../_assets/docs-buildroot/k1_buildroot/graphics/static/linuxGraphicsFramework_en.png)
+![Linux Graphical Framework](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/graphics/static/linuxGraphicsFramework_en.png)
 
 ## Environment Setup and Dependencies
 

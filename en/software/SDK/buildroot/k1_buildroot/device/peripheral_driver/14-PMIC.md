@@ -16,7 +16,7 @@ The term 'regulator' refers to a device that controls voltage and current output
 
 ### Function
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/regulator.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/regulator.png)  
 
 1. **Regulator Consumer:** Devices powered by regulators, which consume the electricity provided by the regulators.
 2. **Regulator Framework:** Provides standard kernel interfaces to control the system's voltage/current regulators and offers mechanisms for switching, voltage, and current settings.

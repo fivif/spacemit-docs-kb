@@ -20,7 +20,7 @@ The reset system controls reset signals for internal SoC modules. It returns mod
 
 Linux provides a reset management layer called the Reset Controller Framework. It gives device drivers a unified reset interface, so they do not need to handle hardware-specific reset logic directly.
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/RESET.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/RESET.png)
 
 The Reset Controller Framework includes the following core components:
 

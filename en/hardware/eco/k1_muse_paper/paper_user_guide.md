@@ -18,7 +18,7 @@ K1 MUSE Paper 作为一款专为开发者设计的平板，我们的团队正在
 ## 产品简介  
 
 K1 MUSE Paper 是一款基于RISC-V架构和OpenHarmony操作系统的平板电脑，采用了进迭时空最新一代RISC-V芯片K1，拥有强大的AI通用计算能力与出色的能效表现。搭载了OpenHarmony操作系统，实现了多任务处理与应用切换的流畅体验，真正做到"所见即所得"，无论是工业/行业定制，还是日常办公、学习娱乐，都能够轻松应对。开源RISC-V处理器架构结合开源OpenHarmony操作系统，真正实现了移动终端设备从硬件到软件的全栈式开源开放。  
-![图片](../../../../_assets/docs-product/k1_muse_paper/static/paper.PNG)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_paper/static/paper.PNG)
 
 ## 前言
 
@@ -82,7 +82,7 @@ K1是一款高性能、超低功耗的SOC，集成了8核RISC-V CPU内核和Spac
 
 ### 2. K1 芯片框图
 
-![图片](../../../../_assets/docs-product/k1_muse_paper/static/paper_block.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_paper/static/paper_block.png)
 
 ### 3. MUSE Paper参考方案框图
 
@@ -123,7 +123,7 @@ MUSE Paper包含的功能如下：
 
 #### 3.4 关键功能标识
 
-![图片](../../../../_assets/docs-product/k1_muse_paper/static/paper_functions.png)
+![图片](https://cdn-resource.spacemit.com/eco/docs-product/en/k1_muse_paper/static/paper_functions.png)
 
 # 使用指南
 

@@ -325,7 +325,7 @@ jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --notebook-dir=~/
 
 You should see output similar to the following:
 
-![JupyterLab terminal output](../../../../../_assets/docs-bianbu/development/static/jupyter2.png)
+![JupyterLab terminal output](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/jupyter2.png)
 
 Copy and save the URL that looks like:
 
@@ -341,7 +341,7 @@ Open a new terminal and use the following command to find the board’s IP addre
 ip addr
 ```
 
-![Board IP address](../../../../../_assets/docs-bianbu/development/static/ipaddr1.png)
+![Board IP address](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/ipaddr1.png)
 
 In this example, the board IP address is `10.0.91.183`. In your environment, it may be a different address such as `192.168.x.x`.
 
@@ -361,7 +361,7 @@ http://10.0.91.183:8888/lab?token=1e41eaf84a91a47b00d1c0c2ed3a43632c3999f79d3680
 
 You should see the JupyterLab interface:
 
-![JupyterLab interface](../../../../../_assets/docs-bianbu/development/static/jupyter3.png)
+![JupyterLab interface](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/jupyter3.png)
 
 You can now:
 
@@ -375,19 +375,19 @@ For more advanced usage, refer to the official documentation:
 
 1. Open VS Code and open an empty folder, then create a new file named `demo.ipynb`.
 
-   ![Creating a Jupyter notebook in VS Code](../../../../../_assets/docs-bianbu/development/static/vscode1.png)
+   ![Creating a Jupyter notebook in VS Code](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/vscode1.png)
 
 2. Click **Select Kernel** → **Existing Jupyter Server**, and paste the previously saved JupyterLab URL.
 
-   ![Selecting an existing Jupyter server](../../../../../_assets/docs-bianbu/development/static/vscode-remote2.png)
+   ![Selecting an existing Jupyter server](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/vscode-remote2.png)
 
 3. Press **Enter**
 
-   ![Confirming the Jupyter server](../../../../../_assets/docs-bianbu/development/static/vscode-remote3.png)
+   ![Confirming the Jupyter server](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/vscode-remote3.png)
 
 4. Press **Enter** again
 
-   ![Confirming the kernel selection](../../../../../_assets/docs-bianbu/development/static/vscode-remote4.png)
+   ![Confirming the kernel selection](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/vscode-remote4.png)
 
 5. Click to select **Python 3 (ipykernel)**
 
@@ -395,7 +395,7 @@ Once configured, any newly created notebook can directly reuse this kernel witho
 
 You may run sample code to verify that everything is working correctly:
 
-![Running a notebook in VS Code](../../../../../_assets/docs-bianbu/development/static/vscode-remote5.png)
+![Running a notebook in VS Code](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/vscode-remote5.png)
 
 When new packages are installed in the virtual environment, simply restart the kernel to refresh the environment.
 
@@ -418,27 +418,27 @@ Let's take a 26-pin SpacemiT development board, SpacemiT MUSE-Pi, as an example 
 
 #### MUSE Pi
 
-![alt text](../../../../../_assets/docs-bianbu/development/static/MUSE-Pi-GPIO.png)
+![alt text](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/MUSE-Pi-GPIO.png)
 
 #### BPI-F3
 
-![alt text](../../../../../_assets/docs-bianbu/development/static/BPI-F3-GPIO.png)
+![alt text](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/BPI-F3-GPIO.png)
 
 #### MUSE BOOK
 
-![alt text](../../../../../_assets/docs-bianbu/development/static/MUSE-Book-GPIO.png)
+![alt text](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/MUSE-Book-GPIO.png)
 
 #### MUSE Card
 
-![alt text](../../../../../_assets/docs-bianbu/development/static/MUSE-Card-GPIO.png)
+![alt text](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/MUSE-Card-GPIO.png)
 
 #### MUSE Pi Pro
 
-![MUSE Pi Pro GPIO layout](../../../../../_assets/docs-bianbu/development/static/MUSE-Pi-Pro-GPIO.png)
+![MUSE Pi Pro GPIO layout](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/MUSE-Pi-Pro-GPIO.png)
 
 #### RV4B
 
-![RV4B GPIO layout](../../../../../_assets/docs-bianbu/development/static/RV4B-GPIO.png)
+![RV4B GPIO layout](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/en/development/static/RV4B-GPIO.png)
 
 Input pins can detect changes in signal level and are commonly used by gpiozero to read button states.
 

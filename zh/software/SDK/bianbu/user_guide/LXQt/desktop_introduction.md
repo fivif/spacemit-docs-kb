@@ -10,7 +10,7 @@ updated: "2026-02-04 14:24:56"
 
 Bianbu LXQt 桌面是基于 Labwc 合成器及 QT 开发的桌面环境。致力于将简洁的视觉体验与直观高效的交互逻辑融为一体，为用户提供全新的轻量桌面环境。
 
-![桌面简介头部](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/desktop-banner.jpg)
+![桌面简介头部](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/user_guide/LXQt/static/desktop-banner.jpg)
 
 ## 产品概述
 

@@ -58,7 +58,7 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
 Once launched successfully, the simulation environment will appear as shown below:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_gazebo.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_gazebo.jpg)
 
 #### Start Navigation2
 
@@ -89,25 +89,25 @@ ros2 launch br_visualization display_navigation.launch.py
 rviz2
 ```
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_rviz.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_rviz.jpg)
 
 Initially, you will only see an empty environment map, because the robot’s initial pose has not been set.
 
 In rviz2, click **2D Pose Estimate** to set the robot’s starting position and orientation:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_pose1.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_pose1.jpg)
 
 Once set, rviz will load the robot’s coordinate frames and costmap information:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_pose2.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_pose2.jpg)
 
 To Click **2D Nav Goal** in rviz to set the navigation target:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_goal1.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_goal1.jpg)
 
 You can then observe the robot navigating to the target:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_goal2.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/sim_nav2_set_goal2.jpg)
 
 ## Real-Vehicle Navigation
 
@@ -149,16 +149,16 @@ Open a new terminal **on the PC** and start RViz for visualization:
 ros2 launch br_visualization display_navigation.launch.py
 ```
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_rviz.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_rviz.jpg)
 
 The launch file is preconfigured to set the robot’s initial pose at the SLAM map origin.
 If needed, you can adjust the robot’s position and orientation in RViz by clicking **2D Pose Estimate**:
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_set_pose.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_set_pose.jpg)
 
 Click **2D Nav Goal** to specify a navigation target and monitor the progress in rviz2 on the PC.
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_set_goal.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/nav2_set_goal.jpg)
 
 ## Run SLAM and Navigation2 Together
 
@@ -170,9 +170,9 @@ Run below command on the SpacemiT board:
 ros2 launch br_navigation nav2_for_slam.launch.py
 ```
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/slam_with_nav2.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/slam_with_nav2.jpg)
 
 On the PC, use RViz to set a navigation target by clicking **2D Nav Goal**.
 The robot will navigate through the unknown environment while SLAM continuously updates the map.
 
-![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/slam_with_nav2_set_goal.jpg)
+![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/slam_with_nav2_set_goal.jpg)

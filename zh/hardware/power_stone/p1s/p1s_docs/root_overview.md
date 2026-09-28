@@ -63,4 +63,4 @@ P1S 仅需极少数量的外部元件，并提供紧凑的 QFN-60（7mm x 7mm）
 
 ## 框图
 
-![](../../../../../_assets/docs-chip/power_stone/p1s/p1s_docs/static/KsE9bPooXobhIExifMKcxA2bnXe.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1s/p1s_docs/static/KsE9bPooXobhIExifMKcxA2bnXe.png)

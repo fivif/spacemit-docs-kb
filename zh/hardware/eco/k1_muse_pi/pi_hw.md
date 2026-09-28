@@ -16,7 +16,7 @@ updated: "2026-03-31 17:53:53"
 - **K1 MUSE Pi reference description** 
 
   - **TOP view**
-<img src="../../../../_assets/docs-product/k1_muse_pi/static/pi_reftop.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/pi_reftop.png" alt="" width="800">
 
   - **BOTTOM view**
-<img src="../../../../_assets/docs-product/k1_muse_pi/static/pi_refbottom.png" alt="" width="800">
+<img src="https://cdn-resource.spacemit.com/eco/docs-product/zh/k1_muse_pi/static/pi_refbottom.png" alt="" width="800">

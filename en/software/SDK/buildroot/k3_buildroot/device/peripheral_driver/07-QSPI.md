@@ -16,7 +16,7 @@ QSPI (Quad SPI) is a serial interface bus between the SoC and peripheral devices
 
 ### Functionality
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/linux_spi.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/linux_spi.png)  
 
 The Linux SPI driver framework is divided into three parts: **SPI core**, **SPI controller driver**, and **SPI device driver**.
 **SPI core** mainly provides the following functions:

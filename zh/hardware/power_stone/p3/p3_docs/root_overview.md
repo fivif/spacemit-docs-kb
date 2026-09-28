@@ -45,12 +45,12 @@ P3 是一款高性能四相降压（Buck）电源管理芯片，具有高达 32 
 
 ## P3 四相独立输出简化电路原理图
 
-![](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3_circuit_indep.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3_circuit_indep.png)
 
 ## P3 四相并联单输出简化电路原理图
 
-![](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3_circuit_para.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3_circuit_para.png)
 
 ## P3 引脚框图（Top View）
 
-![](../../../../../_assets/docs-chip/power_stone/p3/p3_docs/static/p3_pin.png)
+![](https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p3/p3_docs/static/p3_pin.png)

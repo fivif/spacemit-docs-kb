@@ -11,7 +11,7 @@ updated: "2026-04-16 18:03:21"
 
 ## 整体框架
 
-![linux图形显示框架](../../../../../../_assets/docs-buildroot/k3_buildroot/graphics/static/linuxGraphicsFramework.png)
+![linux图形显示框架](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/zh/k3_buildroot/graphics/static/linuxGraphicsFramework.png)
 
 ## 驱动方案选择
 

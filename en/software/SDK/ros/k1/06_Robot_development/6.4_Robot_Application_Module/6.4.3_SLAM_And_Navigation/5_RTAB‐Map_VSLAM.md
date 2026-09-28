@@ -103,7 +103,7 @@ Open the file `/opt/ros/humble/share/rtabmap_demos/launch/turtlebot3/turtlebot3_
    ros2 launch nav2_bringup rviz_launch.py
    ```
 
-   ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_vslam1.jpg)
+   ![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_vslam1.jpg)
 
 4. Open the keyboard control node to control the robot's movement and perform visual mapping.
 
@@ -112,7 +112,7 @@ Open the file `/opt/ros/humble/share/rtabmap_demos/launch/turtlebot3/turtlebot3_
    ros2 run teleop_twist_keyboard teleop_twist_keyboard
    ```
 
-   ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_vslam2.jpg)
+   ![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_vslam2.jpg)
 
 ### Run nav2 Visual Navigation
 
@@ -148,8 +148,8 @@ After completing VSLAM and building a complete environmental map, follow the ste
    ros2 launch nav2_bringup rviz_launch.py
    ```
 
-   ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_nav2_1.jpg)
+   ![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_nav2_1.jpg)
 
 5. Click the `Nav2 Goal` button to send a navigation target and perform visual navigation.
 
-   ![](../../../../../../../../_assets/docs-ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_nav2_2.jpg)
+   ![](https://cdn-resource.spacemit.com/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/images/rtabmap_nav2_2.jpg)

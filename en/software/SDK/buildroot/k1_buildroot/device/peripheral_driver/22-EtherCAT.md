@@ -16,7 +16,7 @@ The IGH EtherCAT Master is a kernel module for high-performance real-time commun
 
 ### Functional Overview
 
-![](../../../../../../../_assets/docs-buildroot/k1_buildroot/device/peripheral_driver/static/EtherCAT.png)  
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k1_buildroot/device/peripheral_driver/static/EtherCAT.png)  
 
 As shown in the preceding figure, the EtherCAT Master architecture consists of four layers:
 

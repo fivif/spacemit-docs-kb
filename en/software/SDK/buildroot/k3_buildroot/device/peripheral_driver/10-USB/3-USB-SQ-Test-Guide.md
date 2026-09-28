@@ -57,7 +57,7 @@ Refer to the [USB Gadget Developer Guide](2-USB-Gadget-Developer-Guide.md) for d
 
 Connect the USB3.0 DRD port of the K3 development board, labeled `USB2_DP/USB2_DN` in the schematic, to the host with the xHCI Electrical Test Tool installed, using a USB cable and test fixture. As shown in the figure, select the device with VID/PID `0x361c/...`, choose the `TEST_PACKET` option under **Device Command**, and click **EXECUTE**. The K3 USB3.0 DRD controller then begins transmitting the test waveform.
 
-![alt text](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usb2-xett-testpacket.png)
+![alt text](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/usb2-xett-testpacket.png)
 
 ##### K3 Configuration via Linux DebugFS
 
@@ -118,7 +118,7 @@ After the Test Packet option is executed on a specific port, that port begins tr
 
 The following figure shows the test waveform on the oscilloscope:
 
-![usbhs-test-packet](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/usbhs-test-packet.png)
+![usbhs-test-packet](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/usbhs-test-packet.png)
 
 #### 1. Preparation (for USB3.0 DRD PortA only)
 

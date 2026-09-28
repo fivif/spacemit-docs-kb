@@ -37,7 +37,7 @@ The corresponding sections are:
 
 K3 USB controllers:
 
-![K3 USB Subsystem Block Diagram](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/k3-usb.png)
+![K3 USB Subsystem Block Diagram](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/k3-usb.png)
 
 - USB2.0 Host (device tree node `usb2_host`)
 - USB3.0 DRD PortA (device tree node `usb3_porta`) - flashing port
@@ -51,7 +51,7 @@ The USB3.0 PHYs for USB3.0 Port B/C/D (device tree nodes `usb3_portb_u3phy`, `us
 
 #### USB Host
 
-![](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/USB-host.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/USB-host.png)
 
 The Linux USB host-side driver framework includes three layers:
 
@@ -61,7 +61,7 @@ The Linux USB host-side driver framework includes three layers:
 
 #### USB Device
 
-![](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/USB-device.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/USB-device.png)
 
 The USB device-side driver framework can be divided into the following layers:
 
@@ -759,7 +759,7 @@ The correspondence between the K3 USB controllers and schematic pin nets is as f
 
 First, check the block diagram or interface overview page to confirm which peripheral devices or connectors each USB controller is ultimately connected to.
 
-![Diagram: DEB1 Block Diagram](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/deb1-block-diagram.png)
+![Diagram: DEB1 Block Diagram](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/deb1-block-diagram.png)
 
 By examining the block diagram clockwise, the USB interface configuration of the DEB1 is as follows:
 
@@ -806,16 +806,16 @@ After confirming how the controllers are used, check the additional control sign
 ###### 3.1 Example: K3 DEB1/Pico-ITX USB3.0 DRD Port A Controller
 
 Search for `USB20_A_DRD_USB_P` or `USB30_A_DRD` in the schematic:
-![Diagram: Port A Schematic](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/PortA原理图.png)
+![Diagram: Port A Schematic](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/PortA%E5%8E%9F%E7%90%86%E5%9B%BE.png)
 
 After identifying that the chip pins have been renamed, search for the renamed net `USB_DRD_TX1P` to find the connection page for the FUSB301.
-![Diagram: FUSB301 Connection](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/FUSB301连接图.png)
+![Diagram: FUSB301 Connection](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/FUSB301%E8%BF%9E%E6%8E%A5%E5%9B%BE.png)
 
 Focus on the following points:
 
 - The FUSB301 is connected to the I2C1 bus. These pins must be configured for the I2C function.
 - The `USB30_DRD_DIR` pin requires the corresponding pinctrl and voltage domain configuration, such as `power-source = <1800>`.
-![Diagram: Pinctrl configuration](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/Pinctrl_配置图.png)
+![Diagram: Pinctrl configuration](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/Pinctrl_%E9%85%8D%E7%BD%AE%E5%9B%BE.png)
 
 Example Linux kernel DTS configuration:
 
@@ -862,14 +862,14 @@ Example Linux kernel DTS configuration:
 ###### 3.2 Example: K3 DEB1/Pico-ITX USB2.0 Host Controller
 
 Search for `USB20_HOST_M/P` in the schematic to confirm that an FE1.1S hub is connected.
-![Diagram: FE1.1S HUB Schematic](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/FE1.1S_HUB_原理图.png)
+![Diagram: FE1.1S HUB Schematic](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/FE1.1S_HUB_%E5%8E%9F%E7%90%86%E5%9B%BE.png)
 
 Analyze the hub control logic:
 
 - VDD and RST are provided by `AUX_VCC3V3`.
 - The VBUS supply for the Type-A connector is provided by a current-limiting switch such as GS7615STDK, whose enable pin is `EC_SW_USB2_PWREN1`.
 - Search for `EC_SW_USB2_PWREN1` to identify the corresponding `GPD0` GPIO on the EC chip. After startup, the EC firmware must drive the corresponding GPIO.
-![Diagram: VBUS Control ](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/VBUS_控制图.png)
+![Diagram: VBUS Control ](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/VBUS_%E6%8E%A7%E5%88%B6%E5%9B%BE.png)
 
 If this GPIO is controlled by SoC main controller, add a `regulator-fixed` node in the DTS:
 
@@ -890,11 +890,11 @@ hub_vbus: regulator-hub-vbus-5v {
 ###### 3.3 Example: K3 DEB1/Pico-ITX USB3.0 Host PortB Controller
 
 Port B is connected to an M.2 Key B slot for a 4G module. Search for `USB20_B_USB_` in the schematic to view the relevant section.
-![图片：M.2 插槽原理图](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/M.2_插槽原理图_.png)
+![图片：M.2 插槽原理图](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/M.2_%E6%8F%92%E6%A7%BD%E5%8E%9F%E7%90%86%E5%9B%BE_.png)
 Refer to [M.2 Key B Standard](1-USB-General-Developer-Guide.md#appendix-c-common-usb-sideband-pins-in-pci-express-slots), and focus on pins such as `CPU_W_DISABLE#1`, `WWAN_Reset#_1V8`, and `Module_Turn_ON_1V8`.
 Confirm the GPIO numbers as `GPIO 18` and `GPIO 19` from the GPIO assignment in the schematic or by tracing the signals directly.
-![Diagram: GPIO Allocation](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/GPIO_分配图.png)
-![Diagram: GPIO Source](../../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/10-USB/static/GPIO源头图.png)
+![Diagram: GPIO Allocation](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/GPIO_%E5%88%86%E9%85%8D%E5%9B%BE.png)
+![Diagram: GPIO Source](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/10-USB/static/GPIO%E6%BA%90%E5%A4%B4%E5%9B%BE.png)
 
 The voltage domain for these GPIOs is 1.8 V. To ensure that the 4G module works properly at boot, the two GPIOs must be driven actively. Add an `rfkill-gpio` node to the Linux kernel DTS:
 

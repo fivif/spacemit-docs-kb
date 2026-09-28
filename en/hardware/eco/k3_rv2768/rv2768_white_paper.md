@@ -68,7 +68,7 @@ With a multi-node cluster architecture and full hardware virtualization, the ser
 
 ## Physical Structure
 
-![](../../../../_assets/docs-product/k3_rv2768/static/components.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/components.png)
 
 | No. | Component | No. | Component |
 | :--- | :--- | :--- | :--- |
@@ -81,7 +81,7 @@ With a multi-node cluster architecture and full hardware virtualization, the ser
 
 ## Logical Structure
 
-![](../../../../_assets/docs-product/k3_rv2768/static/rv2768_bd.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/rv2768_bd.png)
 
 ## Hardware
 
@@ -89,23 +89,23 @@ With a multi-node cluster architecture and full hardware virtualization, the ser
 
 **Front Panel Layout**
 
-![Image](../../../../_assets/docs-product/k3_rv2768/static/front.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/front.png)
 
 **Front Panel Indicators and Buttons**
 
 |Indicators|Name|Description|
 |---|---|---|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/pwr.png)|Power Button|- When AC power is connected and the server is in Standby mode, press briefly to power on the server. The Node Management OS, switching system, and all compute nodes enter the operating state.<br>- When the server is powered on, press and hold the button for 6 seconds to force the Node Management OS, switching system, and all compute nodes to power off and return to Standby mode.|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/pwr_led.png)|Power LED|- Off: Server is not powered. <br>- Blinking Amber: The BMC management system is starting. During this period, the Power button is locked and cannot be operated. BMC startup typically completes within approximately one minute, after which the LED changes to solid amber. <br>- Solid Amber: Server is in Standby mode. <br>- Solid Green: Server is powered on and operating normally.|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/health_led.png)|Health Status LED|Normal: Off <br>Abnormal: <br>- Blinking Red (1 Hz): Major alarm. <br>- Blinking Red (5 Hz): Critical alarm.|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/uid_led.png)|UID LED|- Off: The server is not being identified. <br>- Blinking Blue (for 255 seconds): The server is being identified. <br>- Solid Blue: The server has been identified.|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/act_led.png)|High-Speed Network Port LED (ACT)|LINK/SPEED indicates link status and link speed: <br>- Solid Green: Link established at the highest supported speed. <br>- Solid Amber: Link established below the highest supported speed. <br>- Off: No link established. <br>ACT indicates network activity: <br>- Off: No data transmission. <br>- Blinking Green: Data is being transmitted. The blink rate increases with network activity.|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/spd_led.png)|High-Speed Network Port LED (SPD)|Same as above|
-|![Image](../../../../_assets/docs-product/k3_rv2768/static/bmc_led.png)|BMC Management Port LED|Same as above|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/pwr.png)|Power Button|- When AC power is connected and the server is in Standby mode, press briefly to power on the server. The Node Management OS, switching system, and all compute nodes enter the operating state.<br>- When the server is powered on, press and hold the button for 6 seconds to force the Node Management OS, switching system, and all compute nodes to power off and return to Standby mode.|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/pwr_led.png)|Power LED|- Off: Server is not powered. <br>- Blinking Amber: The BMC management system is starting. During this period, the Power button is locked and cannot be operated. BMC startup typically completes within approximately one minute, after which the LED changes to solid amber. <br>- Solid Amber: Server is in Standby mode. <br>- Solid Green: Server is powered on and operating normally.|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/health_led.png)|Health Status LED|Normal: Off <br>Abnormal: <br>- Blinking Red (1 Hz): Major alarm. <br>- Blinking Red (5 Hz): Critical alarm.|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/uid_led.png)|UID LED|- Off: The server is not being identified. <br>- Blinking Blue (for 255 seconds): The server is being identified. <br>- Solid Blue: The server has been identified.|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/act_led.png)|High-Speed Network Port LED (ACT)|LINK/SPEED indicates link status and link speed: <br>- Solid Green: Link established at the highest supported speed. <br>- Solid Amber: Link established below the highest supported speed. <br>- Off: No link established. <br>ACT indicates network activity: <br>- Off: No data transmission. <br>- Blinking Green: Data is being transmitted. The blink rate increases with network activity.|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/spd_led.png)|High-Speed Network Port LED (SPD)|Same as above|
+|![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/bmc_led.png)|BMC Management Port LED|Same as above|
 
 **Front Panel Connectors**
 
-![Image](../../../../_assets/docs-product/k3_rv2768/static/front_connectors.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/front_connectors.png)
 
 |No.|Connector|No.|Connector|
 |---|---|---|---|
@@ -125,7 +125,7 @@ With a multi-node cluster architecture and full hardware virtualization, the ser
 
 **Rear Panel Layout and Connectors**
 
-![Image](../../../../_assets/docs-product/k3_rv2768/static/rear.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/rear.png)
 
 |No.|Module|No.|Module|
 |---|---|---|---|
@@ -143,7 +143,7 @@ With a multi-node cluster architecture and full hardware virtualization, the ser
 
 **Mainboard**
 
-![](../../../../_assets/docs-product/k3_rv2768/static/single_board.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/single_board.png)
 
 | No. | Component | No. | Component |
 | :--- | :--- | :--- | :--- |
@@ -157,7 +157,7 @@ With a multi-node cluster architecture and full hardware virtualization, the ser
 
 **Node Management Board**
 
-![](../../../../_assets/docs-product/k3_rv2768/static/magt_board.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/magt_board.png)
 
 | No. | Component | No. | Component |
 | :--- | :--- | :--- | :--- |
@@ -168,17 +168,17 @@ With a multi-node cluster architecture and full hardware virtualization, the ser
 
 **Compute Board**
 
-![](../../../../_assets/docs-product/k3_rv2768/static/comp_board.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/comp_board.png)
 
 - Supports up to 24 compute boards. Hot-swap of compute boards is not supported while the server is powered on; the server must be powered off before inserting or removing a compute board.
 - The mainboard slot is a PCIe x16 slot with custom pin assignments modified from the standard PCIe x16 definition. In the pin table below, modified pins are highlighted in red; the original standard PCIe slot definitions are shown in blue. The module interface supports two independent single-channel compute nodes.
 - Compute boards with different CPU generations can be mixed in the same chassis. Boards with different CPUs are distinguished by their on-board electronic label information.
 
-![](../../../../_assets/docs-product/k3_rv2768/static/pcie.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/pcie.png)
 
 **Compute Board Numbering**
 
-![](../../../../_assets/docs-product/k3_rv2768/static/comp_board_num.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/comp_board_num.png)
 
 The RV2768 integrates 24 compute boards, numbered `sub0` through `sub23`. Each compute board (`sub*`) contains two compute nodes, identified as `sub*-0` and `sub*-1`, for a total of 48 compute nodes. In addition to the internal network, each compute node provides an independent external 10GE Ethernet interface. The following table maps compute nodes to their external network ports and identifies recommended board locations for partially populated systems to maintain cooling airflow efficiency.
 
@@ -254,7 +254,7 @@ The Cluster Server integrates a Layer 3 management switch with 216 Gbps switchin
 
 The following figure shows the Cluster Server internal switch system connections.
 
-![](../../../../_assets/docs-product/k3_rv2768/static/rv2768_bd_00.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/rv2768_bd_00.png)
 
 **Management Subnet Topology**
 
@@ -262,17 +262,17 @@ The BMC connection to the internal switch GE port retains access only to the 10G
 
 > Note: The BMC cannot directly access the service network, including the K3 service network.
 
-![](../../../../_assets/docs-product/k3_rv2768/static/rv2768_bd_01.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/rv2768_bd_01.png)
 
 **Service Subnet Topology (Default State; Configurable)**
 
 1. In the default state, the Node Management Board, all compute nodes (K3 Nodes), and the switch's two 10G uplink ports can communicate freely with one another.
-   ![](../../../../_assets/docs-product/k3_rv2768/static/rv2768_bd_02.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/rv2768_bd_02.png)
 
 2. In the user-configured state, selected K3 Nodes can be assigned to an independent VLAN to form a logical subnet. Other K3 Nodes cannot access this logical subnet, as shown below.
 
    K3 Nodes 0 to 5 are assigned to a logical subnet. K3 Nodes 0 to 5 can communicate with the Node Management Board, but cannot communicate with other K3 Nodes.
-   ![](../../../../_assets/docs-product/k3_rv2768/static/rv2768_bd_03.png)
+   ![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/rv2768_bd_03.png)
 
 ### Power Supply Modules
 
@@ -304,7 +304,7 @@ Four 6056 fan modules are supported.
 - Fan modules installed in the same server must have the same P/N code.
 - Fan module installation locations:
 
-![](../../../../_assets/docs-product/k3_rv2768/static/fans.png)
+![](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/fans.png)
 
 ## Specifications
 
@@ -337,8 +337,8 @@ Four 6056 fan modules are supported.
 ### Cluster Server Management System
 
 Front-end illustration:
-![Image](../../../../_assets/docs-product/k3_rv2768/static/platform_00.png)
-![Image](../../../../_assets/docs-product/k3_rv2768/static/platform_01.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/platform_00.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/platform_01.png)
 
 Core functions:
 - Management of 48 compute modules
@@ -356,8 +356,8 @@ Core functions:
 ### Cluster Flow Distributed Computing Platform
 
 Front-end illustration:
-![Image](../../../../_assets/docs-product/k3_rv2768/static/platform_02.png)
-![Image](../../../../_assets/docs-product/k3_rv2768/static/platform_03.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/platform_02.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/platform_03.png)
 
 Core functions:
 - DAG orchestration engine
@@ -373,8 +373,8 @@ Core functions:
 ### Cluster Agent Intelligent Agent Cluster Platform
 
 Front-end illustration:
-![Image](../../../../_assets/docs-product/k3_rv2768/static/platform_04.png)
-![Image](../../../../_assets/docs-product/k3_rv2768/static/platform_05.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/platform_04.png)
+![Image](https://cdn-resource.spacemit.com/eco/docs-product/en/k3_rv2768/static/platform_05.png)
 
 Core functions:
 - Request one or more intelligent agents in three steps

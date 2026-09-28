@@ -18,14 +18,14 @@ updated: "2026-02-04 14:24:47"
 
    如无法打开，请确认已升级到1.0.15或更高版本。
 
-![软件和更新](../../../../../../_assets/docs-bianbu/static/swupdates.jpeg)
+![软件和更新](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/static/swupdates.jpeg)
 
 2. **配置版本订阅通道**
    - 切换至 **更新** 标签页
    - 在 **订阅** 下拉菜单中选择目标版本（如 Bianbu 2.0）
    - 点击 **关闭** 按钮, 关闭应用保存配置
 
-![订阅](../../../../../../_assets/docs-bianbu/static/subscribe.png)
+![订阅](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/static/subscribe.png)
 
 ## 升级
 
@@ -72,12 +72,12 @@ do-release-upgrade
 
 1. 确保设备联网
 2. 启动 **软件更新器** 应用
-![Updater](../../../../../../_assets/docs-bianbu/static/updater.png)
+![Updater](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/static/updater.png)
 或者，也可以通过 **设置** → **系统** → **软件更新** 启动 **软件更新器** 应用。
-![Updater](../../../../../../_assets/docs-bianbu/static/updater00.png)
+![Updater](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/static/updater00.png)
 3. 等待检查更新完成
 4. 如果检测到新版本，可点击 **升级...** 按钮
-![Update Request](../../../../../../_assets/docs-bianbu/static/updater01.png)
+![Update Request](https://cdn-resource.spacemit.com/bianbu/docs-bianbu/zh/static/updater01.png)
    > 如果不希望升级，可以点击 **确认(O)** 按钮
 5. 按向导提示完成升级流程
 6. 执行系统重启

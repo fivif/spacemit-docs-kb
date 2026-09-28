@@ -20,7 +20,7 @@ The K3 platform provides five PCIe controllers (Port A through Port E) and six i
 
 ### Functionality
 
-![](../../../../../../../_assets/docs-buildroot/k3_buildroot/device/peripheral_driver/static/linux_pcie.png)
+![](https://cdn-resource.spacemit.com/buildroot/docs-buildroot/en/k3_buildroot/device/peripheral_driver/static/linux_pcie.png)
 
 The Linux PCIe subsystem framework consists of the following three components:
 
