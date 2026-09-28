@@ -1,0 +1,334 @@
+---
+title: "常见问题解答（FAQ）"
+lang: zh
+category: "软件/SDK 与系统构建/Bianbu/Bianbu 用户指南/LXQt"
+source_page: https://www.spacemit.com/community/document/info?nodepath=software/SDK/bianbu/user_guide/LXQt/K1_FAQ.md&lang=zh
+source_file: https://cdn-resource.spacemit.com/software/SDK/bianbu/docs-bianbu/zh/user_guide/LXQt/K1_FAQ.md
+updated: "2026-07-27 15:53:24"
+---
+# 常见问题解答（FAQ）
+
+本文档汇总 MUSE Pi Pro 开发板使用过程中常见的问题及解决方法，涵盖烧录、供电及 WiFi 连接等场景。
+
+---
+
+## 硬件
+
+### Q：应该使用什么规格的电源？
+
+> **注意**
+>
+> - 电脑 USB 接口供电能力通常只有 5V / 0.5A～0.9A，可能导致启动失败或运行不稳定。
+> - 串口调试建议使用独立电源适配器供电。
+
+根据实际使用场景选择：
+
+| 使用场景      | 推荐规格     |
+| --------- | -------- |
+| 系统启动、轻量任务 | 5V / 2A  |
+| 满负荷运行、多外设 | 12V / 3A |
+
+---
+
+## 烧录
+
+### Q：开始烧录前需要检查哪些内容？
+
+开始烧录前，请确认：
+
+- 已进入烧录模式。
+- Titan 能识别开发板。
+- 下载了与开发板存储介质对应的镜像。
+- 使用支持数据传输的 USB 数据线。
+- USB 数据线连接牢固。
+
+---
+
+### Q：如何进入烧录模式？
+
+按以下步骤操作：
+
+设备未上电，处于关机状态时：
+
+1. 按住 **FDL**（固件烧录）按键不松开。
+2. 插上 Type-C 数据线，与上位机电脑连接，并供电给设备开机。
+3. 松开 **FDL** 按键。
+
+设备已插上 USB Type-C 数据线供电，并处于开机状态时：
+
+1. 按住 **FDL**（固件烧录）按键不松开。
+2. 短按 **RST**（复位）按键。
+3. 松开 **FDL** 按键。
+
+![开发板示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ4.png)
+
+---
+
+### Q：如何确认已进入烧录模式？
+
+可使用以下任一方式确认。
+
+**Titan（推荐）**
+
+打开 Titan，点击 **刷新设备** 或 **扫描设备**。
+
+若显示设备序列号或"已连接"，说明已成功进入烧录模式。
+
+![扫描设备成功](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ20.png)
+
+**Linux**
+
+执行：
+
+```bash
+lsusb
+```
+
+若看到：
+
+```text
+DFU USB download gadget
+```
+
+说明已成功进入烧录模式。
+
+![lsusb 示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ23.png)
+
+> **Windows 用户**
+>
+> Windows 没有 `lsusb` 命令，设备管理器也可能因驱动问题无法正确显示设备。
+>
+> 建议直接使用 Titan 判断设备是否识别成功。
+
+---
+
+### Q：Titan 无法识别设备怎么办？
+
+若 Titan 扫描不到设备：
+
+![扫描失败示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ21.png)
+
+请依次检查：
+
+1. 重新进入烧录模式。
+2. 更换电脑 USB 接口（建议使用主板直连 USB 接口）。
+3. 更换支持数据传输的 USB 数据线。
+4. 如仍无法识别，请联系售后客服。
+
+---
+
+### Q：如何选择正确的镜像？
+
+MUSE Pi Pro 支持两种存储介质：
+
+| 存储类型       | 使用镜像      |
+| ---------- | --------- |
+| eMMC（默认）   | eMMC 镜像   |
+| Micro SD 卡 | `.img` 镜像 |
+
+可通过以下方式确认：
+
+- 查看开发板背面标签或产品说明书。
+- 查看是否插入 SD 卡。
+- 如无法确认，优先选择 **eMMC 镜像**。
+
+下载地址：
+
+<https://www.spacemit.com/community/resources-download/Images%20Collects/K1/Bianbu>
+
+![镜像下载示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ6.png)
+
+---
+
+### Q：点击"开始烧录"后提示"设备不存在"，怎么办？
+
+**原因**
+
+USB 连接已断开，通常由于：
+
+- USB 数据线松动。
+- USB 被拔出。
+- 开发板退出烧录模式。
+
+![报错示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ29.png)
+
+**解决方法**
+
+1. 检查 USB 数据线是否连接牢固。
+2. 重新进入烧录模式。
+3. 在 Titan 中点击 **刷新设备** 或 **扫描设备**。
+4. 确认设备识别成功后立即开始烧录，并避免触碰 USB 数据线。
+
+---
+
+### Q：点击"开始烧录"后立即失败，怎么办？
+
+**原因**
+
+烧录开始后 USB 连接中断。
+
+![报错示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ31.png)
+
+**解决方法**
+
+- 检查 USB 数据线是否连接牢固。
+- 重新进入烧录模式。
+- 重新扫描设备。
+- 烧录过程中避免移动开发板或 USB 数据线。
+
+---
+
+### Q：烧录过程中提示烧写失败，怎么办？
+
+**原因**
+
+USB 接触不良。
+
+![烧写失败](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ7.png)
+
+**解决方法**
+
+重新插拔 USB 数据线，并确保两端连接牢固。
+
+---
+
+### Q：提示"烧写失败"，但没有详细错误信息，怎么办？
+
+**原因**
+
+镜像文件路径包含空格或特殊字符，例如：
+
+- 空格
+- `(`
+- `)`
+
+错误示例：
+
+```text
+D:\Program Files (x86)\images\firmware.zip
+```
+
+![错误路径](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ9.png)
+
+**解决方法**
+
+将镜像移动到不包含空格或特殊字符的目录后重新选择。
+
+正确示例：
+
+![正确路径](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ24.png)
+
+---
+
+### Q：烧录成功后，USB 不供电、MIPI 屏幕无显示或系统异常，怎么办？
+
+若烧录成功后出现以下问题：
+
+- USB 接口无供电。
+- MIPI 屏幕无显示。
+- 系统无法正常启动。
+- 部分硬件功能异常。
+
+通常是由于写号配置错误导致。
+
+错误示例：
+
+开发板实际型号为 **MUSE-Pi-Pro**，但写号选择了 **MUSE-Pi**。
+
+![错误示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ8.png)
+
+> **注意**
+>
+> 不建议随意进行写号操作。
+
+---
+
+### Q：如何恢复错误的写号配置？
+
+**步骤 1：重新进入烧录模式**
+
+参考前文"如何进入烧录模式？"
+
+**步骤 2：读号**
+
+在 Titan 中点击 **读号**。
+
+titan界面读号成功示例：
+
+![读号成功](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ26.png)
+
+串口通信界面读号成功示例：
+
+![读号成功](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ44.png)
+
+Linux 下若读号失败：
+
+![读号失败](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ27.png)
+
+通常由于 USB 权限不足。
+
+执行：
+
+```bash
+cd ~/titan工具所在路径
+sudo ./titantools_for_linux-2.2.0-Rc.AppImage --no-sandbox
+```
+
+重新启动 Titan 后再次读号。
+
+**步骤 3：写号**
+
+填写正确的：
+
+- 开发板型号。
+- 存储介质。
+
+如不确定，请联系售后客服。
+
+titan界面写号成功示例：
+
+![写号示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ40.png)
+
+串口通信界面写号成功示例：
+
+![写号示例](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ45.png)
+
+> **注意**
+>
+> 读号、写号过程中请勿插拔 USB 数据线。
+
+**步骤 4：验证恢复**
+
+确认以下功能恢复正常：
+
+- USB 接口供电正常。
+- MIPI 屏幕正常显示。
+- 系统能够正常启动。
+
+如仍无法恢复，请联系售后客服。
+
+---
+
+## WiFi
+
+### Q：使用 WiFi 前必须连接天线吗？
+
+**必须连接。**
+
+未连接天线可能导致：
+
+- 无法搜索到 WiFi。
+- WiFi 信号极弱。
+- 连接不稳定。
+- 频繁断开。
+
+天线接口位于开发板 **ANTENNA** 标识处。
+
+![天线位置](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ2.png)
+
+![天线位置](../../../../../../_assets/docs-bianbu/user_guide/LXQt/static/FAQ30.png)
+
+如暂无天线，建议优先使用有线网络连接。
+
+---
+

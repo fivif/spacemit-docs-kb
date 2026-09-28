@@ -1,0 +1,5 @@
+# 保留全部文档与图片；仅忽略临时产物
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

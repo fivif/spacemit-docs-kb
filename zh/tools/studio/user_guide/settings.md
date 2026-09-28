@@ -1,0 +1,49 @@
+---
+title: "设置"
+lang: zh
+category: "工具/SpacemiT Studio/用户指南"
+source_page: https://www.spacemit.com/community/document/info?nodepath=tools/studio/user_guide/settings.md&lang=zh
+source_file: https://cdn-resource.spacemit.com/tools/docs-tool/zh/studio/user_guide/settings.md
+updated: "2026-07-30 11:32:22"
+---
+# 设置
+
+点击 ⚙️ 图标进入设置页面，可管理 SpacemiT Studio 的外观、缓存、AI 模型及远程设备共享等配置。
+
+![](../../../../_assets/docs-tool/studio/static/setting_00.png)
+
+## 外观
+
+- **主题模式**：切换亮色 / 深色主题。
+- **语言**：切换界面语言（中文 / 英文）。
+
+## 缓存管理
+
+- **缓存目录**：点击**修改**更改默认下载与存储路径，建议设为非系统盘。
+- **镜像目录**：点击**清理**删除已下载的原始镜像文件，清理后如需使用须重新下载。
+- **解压目录**：点击**清理**删除已解压的文件，清理前请确认相关项目不再依赖该目录。
+
+## AI 设置
+
+- **添加模型**：点击 **+ 添加模型**，填写以下信息后点击**确定**：
+  ![](../../../../_assets/docs-tool/studio/static/setting_02.png)
+  - **名称**：自定义的模型显示名称。
+  - **提供方**：模型服务商（如 OpenAI、字节跳动等）。
+  - **API Key**：用于鉴权的密钥。
+  - **模型 ID**：实际调用的模型标识符（如 `gpt-4o`、`doubao-seed-1-6`）。
+  - **最大 Token**：单次请求允许的最大 Token 数，留空则使用服务商默认值。
+
+## 远程设备共享
+
+远程设备共享功能允许用户远程访问其他电脑上的 SpacemiT Studio。
+
+![远程设备共享设置](../../../../_assets/docs-tool/studio/static/setting_01.png)
+
+- **关闭（默认）**：仅访问本地设备
+- **开启**：启用后可远程访问相同账号下其他电脑上的 Studio 和已连接设备
+
+> 使用远程设备共享前，需在主机端电脑的[开发工具 -> 远程访问](dev_tools/remote_access.md)页面启动代理服务。
+
+## 关于
+
+显示 SpacemiT Studio 当前软件版本信息。

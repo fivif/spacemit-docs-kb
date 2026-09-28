@@ -1,0 +1,1622 @@
+# 进迭时空（SpacemiT）文档知识库
+
+- 文档总数：**1495** 篇（中文 805 · 英文 690）
+- 抓取时间：2026-09-23 15:51:12
+- 来源：https://www.spacemit.com/community/document （进迭时空官方文档中心）
+- 正文为官方 Markdown 源文件；图片本地化到 `_assets/`；站内跳转已改写为本地相对路径。
+- 中文 8 大类：硬件 / 软件 / AI / 云 / 工具 / 比赛 / 教程 / 技术服务。
+
+## 中文文档
+
+- **硬件**
+  - **K 系列 AI CPU 芯片**
+    - [index.md](zh/hardware/key_stone/index.md) <sub>47 字</sub>
+    - **K3**
+      - [K3](zh/hardware/key_stone/k3/index.md) <sub>79 字</sub>
+        - [产品简介](zh/hardware/key_stone/k3/k3_docs/root_overview.md) <sub>1939 字</sub>
+        - [芯片产品文档](zh/hardware/key_stone/k3/k3_docs/index.md) <sub>80 字</sub>
+        - [数据手册](zh/hardware/key_stone/k3/k3_docs/k3_ds.md) <sub>65288 字</sub>
+          - [用户手册](zh/hardware/key_stone/k3/k3_docs/k3_usermanual/index.md) <sub>1853 字</sub>
+        - [硬件设计指南](zh/hardware/key_stone/k3/k3_hw/k3_hw_design_guide.md) <sub>25960 字</sub>
+        - [硬件设计资源与指南](zh/hardware/key_stone/k3/k3_hw/index.md) <sub>117 字</sub>
+        - [硬件 AVL](zh/hardware/key_stone/k3/k3_hw/k3_hw_avl.md) <sub>205 字</sub>
+        - [硬件设计资源](zh/hardware/key_stone/k3/k3_hw/k3_hw_resources.md) <sub>1291 字</sub>
+        - [硬件方案 FAQ](zh/hardware/key_stone/k3/k3_hw/k3_hw_faq.md) <sub>5697 字</sub>
+        - [SDK 概览](zh/hardware/key_stone/k3/k3_sw/k3_sdk_user_guide.md) <sub>884 字</sub>
+        - [软件](zh/hardware/key_stone/k3/k3_sw/index.md) <sub>33 字</sub>
+    - **K1**
+        - [产品简介](zh/hardware/key_stone/k1/k1_docs/root_overview.md) <sub>1730 字</sub>
+        - [芯片产品文档](zh/hardware/key_stone/k1/k1_docs/index.md) <sub>80 字</sub>
+        - [数据手册](zh/hardware/key_stone/k1/k1_docs/k1_ds.md) <sub>101058 字</sub>
+          - [用户手册](zh/hardware/key_stone/k1/k1_docs/k1_usermanual/index.md) <sub>123 字</sub>
+        - [硬件设计指南](zh/hardware/key_stone/k1/k1_hw/k1_hw_design_guide.md) <sub>15590 字</sub>
+        - [硬件设计资源与指南](zh/hardware/key_stone/k1/k1_hw/index.md) <sub>155 字</sub>
+        - [硬件设计资源](zh/hardware/key_stone/k1/k1_hw/k1_hw_resources.md) <sub>1430 字</sub>
+        - [硬件 AVL](zh/hardware/key_stone/k1/k1_hw/k1_hw_avl.md) <sub>296 字</sub>
+        - [AVL 兼容性验证标准操作流程（SOP）](zh/hardware/key_stone/k1/k1_hw/avl_veri_sop.md) <sub>5010 字</sub>
+        - [硬件常见问题](zh/hardware/key_stone/k1/k1_hw/k1_hw_faq.md) <sub>4738 字</sub>
+      - [K1](zh/hardware/key_stone/k1/index.md) <sub>79 字</sub>
+        - [SDK 概览](zh/hardware/key_stone/k1/k1_sw/k1_sdk_user_guide.md) <sub>1135 字</sub>
+        - [软件常见问题](zh/hardware/key_stone/k1/k1_sw/k1_sw_faq.md) <sub>36518 字</sub>
+        - [软件](zh/hardware/key_stone/k1/k1_sw/index.md) <sub>56 字</sub>
+  - **P 系列电源芯片**
+    - **P3**
+      - [P3](zh/hardware/power_stone/p3/index.md) <sub>30 字</sub>
+        - [产品简介](zh/hardware/power_stone/p3/p3_docs/root_overview.md) <sub>1101 字</sub>
+        - [芯片产品文档](zh/hardware/power_stone/p3/p3_docs/index.md) <sub>49 字</sub>
+        - [数据手册](zh/hardware/power_stone/p3/p3_docs/p3_ds.md) <sub>104953 字</sub>
+    - **P1**
+        - [产品简介](zh/hardware/power_stone/p1/p1_docs/root_overview.md) <sub>992 字</sub>
+        - [芯片产品文档](zh/hardware/power_stone/p1/p1_docs/index.md) <sub>49 字</sub>
+        - [数据手册](zh/hardware/power_stone/p1/p1_docs/p1_ds.md) <sub>97478 字</sub>
+      - [P1](zh/hardware/power_stone/p1/index.md) <sub>55 字</sub>
+        - [PCB 布局布线指南](zh/hardware/power_stone/p1/p1_hw/p1_pcb_guide.md) <sub>2655 字</sub>
+        - [硬件设计指南](zh/hardware/power_stone/p1/p1_hw/index.md) <sub>36 字</sub>
+    - [index.md](zh/hardware/power_stone/index.md) <sub>64 字</sub>
+    - **P1S**
+        - [产品简介](zh/hardware/power_stone/p1s/p1s_docs/root_overview.md) <sub>897 字</sub>
+        - [芯片产品文档](zh/hardware/power_stone/p1s/p1s_docs/index.md) <sub>50 字</sub>
+        - [数据手册](zh/hardware/power_stone/p1s/p1s_docs/p1s_ds.md) <sub>78158 字</sub>
+      - [P1S](zh/hardware/power_stone/p1s/index.md) <sub>32 字</sub>
+  - **生态硬件**
+    - **K3 Pico-ITX**
+      - [简介](zh/hardware/eco/k3_pico/root_overview.md) <sub>2599 字</sub>
+      - [K3 Pico-ITX](zh/hardware/eco/k3_pico/index.md) <sub>94 字</sub>
+      - [用户使用指南](zh/hardware/eco/k3_pico/pico_user_guide.md) <sub>12982 字</sub>
+      - [硬件设计资源](zh/hardware/eco/k3_pico/pico_hw_resources.md) <sub>696 字</sub>
+    - **K3 CoM260 Kit**
+      - [简介](zh/hardware/eco/k3_com260/root_overview.md) <sub>2001 字</sub>
+      - [K3 CoM260 Kit](zh/hardware/eco/k3_com260/index.md) <sub>120 字</sub>
+      - [数据手册](zh/hardware/eco/k3_com260/com260_ds.md) <sub>32438 字</sub>
+      - [用户使用指南](zh/hardware/eco/k3_com260/com260_user_guide.md) <sub>9657 字</sub>
+      - [硬件设计资源](zh/hardware/eco/k3_com260/com260_hw_resources.md) <sub>616 字</sub>
+    - [index.md](zh/hardware/eco/index.md) <sub>420 字</sub>
+    - **K3 Shelf N10/N48**
+      - [简介](zh/hardware/eco/k3_shelf/root_overview.md) <sub>3484 字</sub>
+      - [K3 Shelf N10/N48](zh/hardware/eco/k3_shelf/index.md) <sub>37 字</sub>
+    - **Cluster Server RV2768**
+      - [简介](zh/hardware/eco/k3_rv2768/root_overview.md) <sub>1845 字</sub>
+      - [快速指南](zh/hardware/eco/k3_rv2768/rv2768_quick_guide.md) <sub>4020 字</sub>
+      - [技术白皮书](zh/hardware/eco/k3_rv2768/rv2768_white_paper.md) <sub>10680 字</sub>
+      - [Redfish 接口说明](zh/hardware/eco/k3_rv2768/rv2768_redfish.md) <sub>14987 字</sub>
+      - [index.md](zh/hardware/eco/k3_rv2768/index.md) <sub>137 字</sub>
+    - **K1 MUSE Pi Pro**
+      - [简介](zh/hardware/eco/k1_muse_pi_pro/root_overview.md) <sub>1743 字</sub>
+      - [用户使用指南](zh/hardware/eco/k1_muse_pi_pro/pi_pro_user_guide.md) <sub>11059 字</sub>
+      - [硬件设计资源](zh/hardware/eco/k1_muse_pi_pro/pi_pro_hw.md) <sub>668 字</sub>
+      - [K1 MUSE Pi Pro](zh/hardware/eco/k1_muse_pi_pro/index.md) <sub>89 字</sub>
+    - **K1 MUSE BOOK**
+      - [简介](zh/hardware/eco/k1_muse_book/root_overview.md) <sub>1398 字</sub>
+      - [用户使用指南](zh/hardware/eco/k1_muse_book/book_user_guide.md) <sub>6593 字</sub>
+      - [硬件设计资源](zh/hardware/eco/k1_muse_book/book_hw.md) <sub>412 字</sub>
+      - [K1 MUSE Book](zh/hardware/eco/k1_muse_book/index.md) <sub>84 字</sub>
+    - **K1 MUSE Paper**
+      - [简介](zh/hardware/eco/k1_muse_paper/root_overview.md) <sub>1209 字</sub>
+      - [用户使用指南](zh/hardware/eco/k1_muse_paper/paper_user_guide.md) <sub>4000 字</sub>
+      - [硬件设计资源](zh/hardware/eco/k1_muse_paper/paper_hw.md) <sub>284 字</sub>
+      - [K1 MUSE Paper](zh/hardware/eco/k1_muse_paper/index.md) <sub>87 字</sub>
+    - **K1 MUSE BOX**
+      - [简介](zh/hardware/eco/k1_muse_box/root_overview.md) <sub>1057 字</sub>
+      - [用户使用指南](zh/hardware/eco/k1_muse_box/box_user_guide.md) <sub>5128 字</sub>
+      - [K1 MUSE Box](zh/hardware/eco/k1_muse_box/index.md) <sub>61 字</sub>
+    - **K1 RISC-V 实验箱**
+      - [简介](zh/hardware/eco/k1_riscv_labkit/root_overview.md) <sub>1112 字</sub>
+      - [K1 RISC-V 实验箱](zh/hardware/eco/k1_riscv_labkit/index.md) <sub>34 字</sub>
+    - **硬件配件**
+      - [TF 卡扩展调试子板使用说明](zh/hardware/eco/hw_accessories/tf_card_debug_board.md) <sub>2057 字</sub>
+      - [硬件配件](zh/hardware/eco/hw_accessories/index.md) <sub>45 字</sub>
+    - **K1 MUSE Pi**
+      - [简介](zh/hardware/eco/k1_muse_pi/root_overview.md) <sub>1041 字</sub>
+      - [用户使用指南](zh/hardware/eco/k1_muse_pi/pi_user_guide.md) <sub>17927 字</sub>
+      - [硬件设计资源](zh/hardware/eco/k1_muse_pi/pi_hw.md) <sub>513 字</sub>
+      - [K1 MUSE Pi](zh/hardware/eco/k1_muse_pi/index.md) <sub>78 字</sub>
+    - **K1 RISC-V 集群服务器**
+      - [简介](zh/hardware/eco/k1_muse_shelf/root_overview.md) <sub>1219 字</sub>
+      - [K1 RISC-V 集群服务器](zh/hardware/eco/k1_muse_shelf/index.md) <sub>36 字</sub>
+    - **K1 MUSE Card**
+      - [简介](zh/hardware/eco/k1_muse_card/root_overview.md) <sub>995 字</sub>
+      - [用户使用指南](zh/hardware/eco/k1_muse_card/card_user_guide.md) <sub>18066 字</sub>
+      - [硬件设计资源](zh/hardware/eco/k1_muse_card/card_hw.md) <sub>125 字</sub>
+      - [K1 MUSE Card](zh/hardware/eco/k1_muse_card/index.md) <sub>84 字</sub>
+    - [支持服务](zh/hardware/eco/service.md) <sub>1963 字</sub>
+- **软件**
+  - **SDK 与系统构建**
+    - **ROS 2**
+      - [index.md](zh/software/SDK/ros/index.md) <sub>64 字</sub>
+      - [简介](zh/software/SDK/ros/root_overview.md) <sub>168 字</sub>
+        - [1. 平台概览](zh/software/SDK/ros/k3/01-%E5%B9%B3%E5%8F%B0%E6%A6%82%E8%A7%88.md) <sub>3911 字</sub>
+        - [K3](zh/software/SDK/ros/k3/index.md) <sub>192 字</sub>
+          - [2.1 上电开机](zh/software/SDK/ros/k3/02-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/2.1-%E4%B8%8A%E7%94%B5%E5%BC%80%E6%9C%BA.md) <sub>2560 字</sub>
+          - [2.2 镜像烧录](zh/software/SDK/ros/k3/02-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/2.2-%E9%95%9C%E5%83%8F%E7%83%A7%E5%BD%95.md) <sub>1711 字</sub>
+          - [2. 快速入门](zh/software/SDK/ros/k3/02-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/index.md) <sub>99 字</sub>
+          - [2.3 构建编译](zh/software/SDK/ros/k3/02-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/2.3-%E6%9E%84%E5%BB%BA%E7%BC%96%E8%AF%91.md) <sub>12230 字</sub>
+          - [2.4 示例运行](zh/software/SDK/ros/k3/02-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/2.4-%E7%A4%BA%E4%BE%8B%E8%BF%90%E8%A1%8C.md) <sub>2797 字</sub>
+          - [3.1 桌面机器人 Reachy-mini](zh/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.1-%E6%A1%8C%E9%9D%A2%E6%9C%BA%E5%99%A8%E4%BA%BAReachy-mini.md) <sub>11069 字</sub>
+          - [3.2 轮式机器人 Linksee](zh/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.2-%E8%BD%AE%E5%BC%8F%E6%9C%BA%E5%99%A8%E4%BA%BALinksee.md) <sub>51849 字</sub>
+            - [3.3.1 真机训练推理](zh/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.3-%E6%9C%BA%E6%A2%B0%E8%87%82/3.3.1-%E7%9C%9F%E6%9C%BA%E8%AE%AD%E7%BB%83%E6%8E%A8%E7%90%86.md) <sub>21661 字</sub>
+            - [3.3.2 仿真训练推理](zh/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.3-%E6%9C%BA%E6%A2%B0%E8%87%82/3.3.2-%E4%BB%BF%E7%9C%9F%E8%AE%AD%E7%BB%83%E6%8E%A8%E7%90%86.md) <sub>8806 字</sub>
+            - [3.3.3 ONNX部署指南](zh/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.3-%E6%9C%BA%E6%A2%B0%E8%87%82/3.3.3-ONNX%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97.md) <sub>21107 字</sub>
+            - [3.3 机械臂 Lerobot](zh/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.3-%E6%9C%BA%E6%A2%B0%E8%87%82/index.md) <sub>111 字</sub>
+          - [3. 参考方案](zh/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/index.md) <sub>211 字</sub>
+          - [3.4 人型机器人 Humanoid](zh/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.4-%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BAHumanoid.md) <sub>13277 字</sub>
+          - [3.5 智能视频分析 Rivision](zh/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.5-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E5%88%86%E6%9E%90Rivision.md) <sub>15185 字</sub>
+            - [4.1.1 ASR](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.1-%E8%AF%AD%E9%9F%B3/4.1.1-ASR.md) <sub>22527 字</sub>
+            - [4.1 语音](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.1-%E8%AF%AD%E9%9F%B3/index.md) <sub>1086 字</sub>
+            - [4.1.2 TTS](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.1-%E8%AF%AD%E9%9F%B3/4.1.2-TTS.md) <sub>15242 字</sub>
+            - [4.1.3 VAD](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.1-%E8%AF%AD%E9%9F%B3/4.1.3-VAD.md) <sub>13476 字</sub>
+            - [4.1.4 声纹](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.1-%E8%AF%AD%E9%9F%B3/4.1.4-%E5%A3%B0%E7%BA%B9.md) <sub>10068 字</sub>
+            - [4.2.1 目标检测](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.1-%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B.md) <sub>12082 字</sub>
+            - [4.2 视觉](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/index.md) <sub>286 字</sub>
+            - [4.2.2 实例分割](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.2-%E5%AE%9E%E4%BE%8B%E5%88%86%E5%89%B2.md) <sub>10637 字</sub>
+            - [4.2.3 人体姿态](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.3-%E4%BA%BA%E4%BD%93%E5%A7%BF%E6%80%81.md) <sub>10903 字</sub>
+            - [4.2.4 人脸检测](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.4-%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B.md) <sub>10201 字</sub>
+            - [4.2.5 手势识别](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.5-%E6%89%8B%E5%8A%BF%E8%AF%86%E5%88%AB.md) <sub>9455 字</sub>
+            - [4.2.6 图像分类](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.6-%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB.md) <sub>9103 字</sub>
+            - [4.2.7 表情与情绪识别](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.7-%E8%A1%A8%E6%83%85%E4%B8%8E%E6%83%85%E7%BB%AA%E8%AF%86%E5%88%AB.md) <sub>8160 字</sub>
+            - [4.2.8 行为识别](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.8-%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md) <sub>12154 字</sub>
+            - [4.2.9 多目标跟踪](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.9-%E5%A4%9A%E7%9B%AE%E6%A0%87%E8%B7%9F%E8%B8%AA.md) <sub>12369 字</sub>
+            - [4.2.10 人脸识别](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.10-%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB.md) <sub>10714 字</sub>
+          - [4.3 强化学习](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.3-%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0.md) <sub>13344 字</sub>
+          - [4.4 LLM](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.4-LLM.md) <sub>9031 字</sub>
+          - [4. AI与算法](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/index.md) <sub>171 字</sub>
+          - [4.5 Agent](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.5-Agent.md) <sub>14230 字</sub>
+          - [4.6 VLM](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.6-VLM.md) <sub>119 字</sub>
+          - [4.7 语音控制](zh/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.7-%E8%AF%AD%E9%9F%B3%E6%8E%A7%E5%88%B6.md) <sub>15914 字</sub>
+            - [5.1.1 目标检测](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.1-%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B.md) <sub>4186 字</sub>
+            - [5.1-机器感知](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/index.md) <sub>251 字</sub>
+            - [5.1.2 人脸检测](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.2-%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B.md) <sub>3414 字</sub>
+            - [5.1.3 人型检测](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.3-%E4%BA%BA%E5%9E%8B%E6%A3%80%E6%B5%8B.md) <sub>3989 字</sub>
+            - [5.1.4 人体姿态](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.4-%E4%BA%BA%E4%BD%93%E5%A7%BF%E6%80%81.md) <sub>3798 字</sub>
+            - [5.1.5 手势识别](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.5-%E6%89%8B%E5%8A%BF%E8%AF%86%E5%88%AB.md) <sub>3912 字</sub>
+            - [5.1.6 实例分割](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.6-%E5%AE%9E%E4%BE%8B%E5%88%86%E5%89%B2.md) <sub>5293 字</sub>
+            - [5.1.7 语义分割](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.7-%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2.md) <sub>5120 字</sub>
+            - [5.1.8 目标跟踪](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.8-%E7%9B%AE%E6%A0%87%E8%B7%9F%E8%B8%AA.md) <sub>4706 字</sub>
+            - [5.1.9 动作识别](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.9-%E5%8A%A8%E4%BD%9C%E8%AF%86%E5%88%AB.md) <sub>4991 字</sub>
+            - [5.2.3 夹爪控制](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.2-%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6/5.2.3-%E5%A4%B9%E7%88%AA%E6%8E%A7%E5%88%B6.md) <sub>6552 字</sub>
+            - [5.2.4 机械臂控制](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.2-%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6/5.2.4-%E6%9C%BA%E6%A2%B0%E8%87%82%E6%8E%A7%E5%88%B6.md) <sub>9939 字</sub>
+            - [5.2.1 底盘控制](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.2-%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6/5.2.1-%E5%BA%95%E7%9B%98%E6%8E%A7%E5%88%B6.md) <sub>7031 字</sub>
+            - [5.2-运动控制](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.2-%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6/index.md) <sub>118 字</sub>
+            - [5.2.2 云台控制](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.2-%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6/5.2.2-%E4%BA%91%E5%8F%B0%E6%8E%A7%E5%88%B6.md) <sub>11479 字</sub>
+            - [5.3.1 cartographer](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.3-%E5%AE%9A%E4%BD%8D%E5%AF%BC%E8%88%AA/5.3.1-cartographer.md) <sub>6039 字</sub>
+            - [5.3.2 slam_toolbox](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.3-%E5%AE%9A%E4%BD%8D%E5%AF%BC%E8%88%AA/5.3.2-slam_toolbox.md) <sub>4750 字</sub>
+            - [5.3-定位导航](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.3-%E5%AE%9A%E4%BD%8D%E5%AF%BC%E8%88%AA/index.md) <sub>163 字</sub>
+            - [5.3.3 rtabmap](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.3-%E5%AE%9A%E4%BD%8D%E5%AF%BC%E8%88%AA/5.3.3-rtabmap.md) <sub>5157 字</sub>
+            - [5.3.4 ORB-SLAM3](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.3-%E5%AE%9A%E4%BD%8D%E5%AF%BC%E8%88%AA/5.3.4-orbslam3.md) <sub>8136 字</sub>
+            - [5.4 nav2](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.4-%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92/5.4-nav2.md) <sub>5219 字</sub>
+            - [5.4-路径规划](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.4-%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92/index.md) <sub>31 字</sub>
+            - [5.5.1 编码](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.5-%E5%AA%92%E4%BD%93%E4%BC%A0%E8%BE%93/5.5.1-%E7%BC%96%E7%A0%81.md) <sub>3453 字</sub>
+            - [5.5.2 解码](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.5-%E5%AA%92%E4%BD%93%E4%BC%A0%E8%BE%93/5.5.2-%E8%A7%A3%E7%A0%81.md) <sub>3362 字</sub>
+            - [5.5-媒体传输](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.5-%E5%AA%92%E4%BD%93%E4%BC%A0%E8%BE%93/index.md) <sub>54 字</sub>
+          - [5. 机器人开发](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/index.md) <sub>190 字</sub>
+            - [5.6.2 IMU](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.2-IMU.md) <sub>5462 字</sub>
+            - [5.6.3 电机](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.3-%E7%94%B5%E6%9C%BA.md) <sub>7650 字</sub>
+            - [5.6.4 雷达](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.4-%E9%9B%B7%E8%BE%BE.md) <sub>6387 字</sub>
+            - [5.6.5 按键](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.5-%E6%8C%89%E9%94%AE.md) <sub>6400 字</sub>
+            - [5.6.6 电源](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.6-%E7%94%B5%E6%BA%90.md) <sub>6769 字</sub>
+            - [5.6-基础传感器](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/index.md) <sub>253 字</sub>
+            - [5.6.7 LED](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.7-LED.md) <sub>6928 字</sub>
+            - [5.6.8 IO](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.8-IO.md) <sub>5244 字</sub>
+            - [5.6.9 WiFi](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.9-WiFi.md) <sub>6060 字</sub>
+            - [5.6.11 NFC](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.11-NFC.md) <sub>8445 字</sub>
+            - [5.6.12 光感](zh/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.12-%E5%85%89%E6%84%9F.md) <sub>6582 字</sub>
+            - [6.1.1 dma](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.1-%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1/6.1.1-dma.md) <sub>3375 字</sub>
+            - [6.1-系统服务](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.1-%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1/index.md) <sub>83 字</sub>
+            - [6.1.2 shm](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.1-%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1/6.1.2-shm.md) <sub>4484 字</sub>
+            - [6.1.3 sys](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.1-%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1/6.1.3-sys.md) <sub>2552 字</sub>
+            - [6.2.1 电机](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.1-%E7%94%B5%E6%9C%BA.md) <sub>10161 字</sub>
+            - [6.2-外设与驱动](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/index.md) <sub>309 字</sub>
+            - [6.2.2 雷达](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.2-%E9%9B%B7%E8%BE%BE.md) <sub>5608 字</sub>
+            - [6.2.3 IMU](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.3-IMU.md) <sub>4667 字</sub>
+            - [6.2.4 按键](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.4-%E6%8C%89%E9%94%AE.md) <sub>4538 字</sub>
+            - [6.2.5 光感](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.5-%E5%85%89%E6%84%9F.md) <sub>5128 字</sub>
+            - [6.2.6 IO](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.6-IO.md) <sub>4590 字</sub>
+            - [6.2.7 NFC](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.7-NFC.md) <sub>5466 字</sub>
+            - [6.2.8 WiFi](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.8-WiFi.md) <sub>6285 字</sub>
+            - [6.2.9 LED](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.9-LED.md) <sub>4809 字</sub>
+            - [6.2.10 5G](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.10-5G.md) <sub>180 字</sub>
+            - [6.2.11 pm](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.11-pm.md) <sub>5667 字</sub>
+            - [6.2.12 gimbal](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.12-gimbal.md) <sub>8412 字</sub>
+            - [6.3.1 mpp](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.3-%E5%A4%9A%E5%AA%92%E4%BD%93/6.3.1-mpp.md) <sub>5370 字</sub>
+            - [6.3.3 audio](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.3-%E5%A4%9A%E5%AA%92%E4%BD%93/6.3.3-audio.md) <sub>13116 字</sub>
+            - [6.3.4 音频算法](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.3-%E5%A4%9A%E5%AA%92%E4%BD%93/6.3.4-%E9%9F%B3%E9%A2%91%E7%AE%97%E6%B3%95.md) <sub>12856 字</sub>
+            - [6.3-多媒体](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.3-%E5%A4%9A%E5%AA%92%E4%BD%93/index.md) <sub>88 字</sub>
+            - [6.4.1 实时Linux](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.4-%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F/6.4.1-%E5%AE%9E%E6%97%B6Linux.md) <sub>75 字</sub>
+            - [6.4.2 实时RTOS](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.4-%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F/6.4.2-%E5%AE%9E%E6%97%B6RTOS.md) <sub>121 字</sub>
+            - [6.4.3 异构通信](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.4-%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F/6.4.3-%E5%BC%82%E6%9E%84%E9%80%9A%E4%BF%A1.md) <sub>68 字</sub>
+            - [index.md](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.4-%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F/index.md) <sub>99 字</sub>
+            - [6.5.1 OpenCV RVV](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.5-%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/6.5.1-OpenCV-RVV.md) <sub>32351 字</sub>
+            - [6.5.2 Eigen RVV](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.5-%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/6.5.2-Eigen-RVV.md) <sub>83513 字</sub>
+            - [6.5.3 OpenBLAS RVV](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.5-%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/6.5.3-OpenBLAS-RVV.md) <sub>15900 字</sub>
+            - [6.5.4 OpenVML RVV](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.5-%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/6.5.4-OpenVML-RVV.md) <sub>13292 字</sub>
+            - [index.md](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.5-%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/index.md) <sub>165 字</sub>
+          - [6. 系统与平台](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/index.md) <sub>98 字</sub>
+            - [6.6.1 ROS2 安装](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.6-ROS2/6.6.1-ROS2-INSTALL.md) <sub>1994 字</sub>
+            - [index.md](zh/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.6-ROS2/index.md) <sub>45 字</sub>
+          - [V20260330](zh/software/SDK/ros/k3/07-%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E/7.1-V20260330.md) <sub>1390 字</sub>
+          - [V20260430](zh/software/SDK/ros/k3/07-%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E/7.2-V20260430.md) <sub>1167 字</sub>
+          - [V20260530](zh/software/SDK/ros/k3/07-%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E/7.3-V20260530.md) <sub>1555 字</sub>
+          - [7. 版本说明](zh/software/SDK/ros/k3/07-%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E/index.md) <sub>97 字</sub>
+        - [简介](zh/software/SDK/ros/k1/intro.md) <sub>3062 字</sub>
+        - [镜像](zh/software/SDK/ros/k1/image.md) <sub>432 字</sub>
+        - [K1](zh/software/SDK/ros/k1/index.md) <sub>370 字</sub>
+            - [1.1.1 MUSE Pi Pro介绍](zh/software/SDK/ros/k1/01_Quick_start/1.1_Hardware_Overview/1.1.1_MUSE_Pi_Pro.md) <sub>455 字</sub>
+            - [1.1 硬件介绍](zh/software/SDK/ros/k1/01_Quick_start/1.1_Hardware_Overview/index.md) <sub>49 字</sub>
+            - [1.2.1 MUSE Pi Pro系统烧录](zh/software/SDK/ros/k1/01_Quick_start/1.2_System_Flashing/1.2.1_MUSE_Pi_Pro.md) <sub>665 字</sub>
+            - [1.2 系统烧录](zh/software/SDK/ros/k1/01_Quick_start/1.2_System_Flashing/index.md) <sub>51 字</sub>
+          - [1.3 入门配置](zh/software/SDK/ros/k1/01_Quick_start/1.3_Environment_Setup.md) <sub>1393 字</sub>
+          - [1. 快速开始](zh/software/SDK/ros/k1/01_Quick_start/index.md) <sub>238 字</sub>
+          - [1.4 远程连接](zh/software/SDK/ros/k1/01_Quick_start/1.4_Remote_Access.md) <sub>2069 字</sub>
+          - [1.5 资源汇总](zh/software/SDK/ros/k1/01_Quick_start/1.5_Resources_Summary.md) <sub>1955 字</sub>
+          - [1.6 支持的硬件清单](zh/software/SDK/ros/k1/01_Quick_start/1.6_Supported_Hardware_List.md) <sub>4749 字</sub>
+          - [2.1 系统功能清单](zh/software/SDK/ros/k1/02_System_configuration/2.1_System_Functional_Specification.md) <sub>1647 字</sub>
+          - [2.2 开发文档明细列表](zh/software/SDK/ros/k1/02_System_configuration/2.2_Detailed_List_of_Development_Documents.md) <sub>3228 字</sub>
+          - [2.3 系统依赖安装](zh/software/SDK/ros/k1/02_System_configuration/2.3_System_Dependency_Installation.md) <sub>374 字</sub>
+          - [2. ROS2_LXQT 基础使用](zh/software/SDK/ros/k1/02_System_configuration/index.md) <sub>323 字</sub>
+          - [2.4 Python使用](zh/software/SDK/ros/k1/02_System_configuration/2.4_Python_Usage.md) <sub>6398 字</sub>
+          - [2.5 C++使用](zh/software/SDK/ros/k1/02_System_configuration/2.5_CPP_Usage.md) <sub>12128 字</sub>
+            - [2.6.1 Docker 环境设置](zh/software/SDK/ros/k1/02_System_configuration/2.6_Docker_Usage/2.6.1_Docker_setup.md) <sub>75 字</sub>
+            - [2.6.2 Node-RED 使用指南](zh/software/SDK/ros/k1/02_System_configuration/2.6_Docker_Usage/2.6.2_Node-RED_Usage.md) <sub>1818 字</sub>
+            - [2.6.3 JupyterLab 使用指南](zh/software/SDK/ros/k1/02_System_configuration/2.6_Docker_Usage/2.6.3_JupyterLab_Usage.md) <sub>2568 字</sub>
+            - [2.6.4 DemoZoo 容器使用指南](zh/software/SDK/ros/k1/02_System_configuration/2.6_Docker_Usage/2.6.4_DemoZoo_Usage.md) <sub>3278 字</sub>
+            - [2.6 Docker 资源指南](zh/software/SDK/ros/k1/02_System_configuration/2.6_Docker_Usage/index.md) <sub>215 字</sub>
+          - [2.7 开机自启](zh/software/SDK/ros/k1/02_System_configuration/2.7_Automatic_Startup.md) <sub>1302 字</sub>
+            - [3.1 图像采集与应用](zh/software/SDK/ros/k1/03_Basic_applications/3.1_Image_Capture_and_Applications/index.md) <sub>152 字</sub>
+            - [3.1.1 MIPI相机使用](zh/software/SDK/ros/k1/03_Basic_applications/3.1_Image_Capture_and_Applications/3.1.1_Using_MIPI_Camera.md) <sub>4264 字</sub>
+            - [3.1.2 USB相机使用](zh/software/SDK/ros/k1/03_Basic_applications/3.1_Image_Capture_and_Applications/3.1.2_Using_USB_Camera.md) <sub>5255 字</sub>
+            - [3.1.3 Python 使用 USB 相机](zh/software/SDK/ros/k1/03_Basic_applications/3.1_Image_Capture_and_Applications/3.1.3_USB_Camera_Python_Usage.md) <sub>1728 字</sub>
+            - [麦克风硬件调试说明](zh/software/SDK/ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/1_Mic_Hardware_Preparation.md) <sub>2005 字</sub>
+            - [3.2 语音采集与应用](zh/software/SDK/ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/index.md) <sub>208 字</sub>
+            - [扬声器硬件调试说明](zh/software/SDK/ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/2_Speaker_Hardware_Preparation.md) <sub>1337 字</sub>
+            - [3.2.1 USB 麦克风使用说明](zh/software/SDK/ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/3.2.1_USB_Microphone_Audio_Capture.md) <sub>439 字</sub>
+            - [3.2.2 环形麦克风使用说明](zh/software/SDK/ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/3.2.2_Using_Array_Microphone.md) <sub>425 字</sub>
+            - [3.3.1 引脚定义说明](zh/software/SDK/ros/k1/03_Basic_applications/3.3_Pin_Applications/3.3.1_Pin_Definitions.md) <sub>992 字</sub>
+            - [3.3.2 GPIO 应用说明](zh/software/SDK/ros/k1/03_Basic_applications/3.3_Pin_Applications/3.3.2_GPIO_Applications.md) <sub>2694 字</sub>
+            - [3.3.3 PWM 使用说明](zh/software/SDK/ros/k1/03_Basic_applications/3.3_Pin_Applications/3.3.3_Using_PWM.md) <sub>1446 字</sub>
+            - [3.3 引脚应用](zh/software/SDK/ros/k1/03_Basic_applications/3.3_Pin_Applications/index.md) <sub>219 字</sub>
+            - [3.3.4 I2C 使用说明](zh/software/SDK/ros/k1/03_Basic_applications/3.3_Pin_Applications/3.3.4_Using_I2C.md) <sub>1985 字</sub>
+            - [3.3.5 SPI 使用说明](zh/software/SDK/ros/k1/03_Basic_applications/3.3_Pin_Applications/3.3.5_Using_SPI_.md) <sub>6024 字</sub>
+            - [3.4.1 JDK 简介](zh/software/SDK/ros/k1/03_Basic_applications/3.4_Multimedia_Applications/3.4.1_Introduction_to_JDK.md) <sub>5739 字</sub>
+            - [3.4.2 JDK JDK 示例参考](zh/software/SDK/ros/k1/03_Basic_applications/3.4_Multimedia_Applications/3.4.2_JDK_Reference_Examples.md) <sub>12826 字</sub>
+            - [3.4.3 JDK API 接口说明](zh/software/SDK/ros/k1/03_Basic_applications/3.4_Multimedia_Applications/3.4.3_JDK_API_Descriptions.md) <sub>10337 字</sub>
+            - [3.4 多媒体应用](zh/software/SDK/ros/k1/03_Basic_applications/3.4_Multimedia_Applications/index.md) <sub>152 字</sub>
+          - [3. 基础应用开发](zh/software/SDK/ros/k1/03_Basic_applications/index.md) <sub>384 字</sub>
+            - [3.5.1 OpenCV RVV 使用](zh/software/SDK/ros/k1/03_Basic_applications/3.5_High_Performance_Computing_Library/3.5.1_opencv_rvv.md) <sub>33135 字</sub>
+            - [3.5.2 Eigen RVV 使用](zh/software/SDK/ros/k1/03_Basic_applications/3.5_High_Performance_Computing_Library/3.5.2_eigen-rvv.md) <sub>85130 字</sub>
+            - [3.5.3 OpenBLAS RVV 使用](zh/software/SDK/ros/k1/03_Basic_applications/3.5_High_Performance_Computing_Library/3.5.3_openblas-rvv.md) <sub>16260 字</sub>
+            - [3.5.4 OpenVML RVV 使用](zh/software/SDK/ros/k1/03_Basic_applications/3.5_High_Performance_Computing_Library/3.5.4_openVML-rvv.md) <sub>18 字</sub>
+            - [3.5 RVV优化库使用](zh/software/SDK/ros/k1/03_Basic_applications/3.5_High_Performance_Computing_Library/index.md) <sub>174 字</sub>
+            - [3.6.1 深度相机](zh/software/SDK/ros/k1/03_Basic_applications/3.6_SDK_integration/3.6.1_Depth_Camera.md) <sub>12926 字</sub>
+            - [3.6 SDK 集成](zh/software/SDK/ros/k1/03_Basic_applications/3.6_SDK_integration/index.md) <sub>44 字</sub>
+            - [3.7.1 OpenCL 图像预处理加速](zh/software/SDK/ros/k1/03_Basic_applications/3.7_Image_processing_acceleration/3.7.1_opengl_img_preproc_acc.md) <sub>5966 字</sub>
+            - [3.7 图像处理加速](zh/software/SDK/ros/k1/03_Basic_applications/3.7_Image_processing_acceleration/index.md) <sub>85 字</sub>
+            - [3.8.1 Realsense D4xx 系列深度相机使用](zh/software/SDK/ros/k1/03_Basic_applications/3.8_realsense_usage/3.8.1_realsense_D4xx.md) <sub>4599 字</sub>
+            - [3.8.2 Realsense L515 深度相机使用](zh/software/SDK/ros/k1/03_Basic_applications/3.8_realsense_usage/3.8.2_realsense_L515.md) <sub>2280 字</sub>
+            - [index.md](zh/software/SDK/ros/k1/03_Basic_applications/3.8_realsense_usage/index.md) <sub>146 字</sub>
+          - [4.1 Demo Zoo 介绍](zh/software/SDK/ros/k1/04_Model_deployment/4.1_Demo_Zoo_Overview.md) <sub>1689 字</sub>
+          - [4.2 Python 推理示例](zh/software/SDK/ros/k1/04_Model_deployment/4.2_Python_Inference_Example.md) <sub>1874 字</sub>
+          - [4.3 C++ 推理示例](zh/software/SDK/ros/k1/04_Model_deployment/4.3_CPP_Inference_Example.md) <sub>4842 字</sub>
+          - [4.4 YOLOv8 训练部署全流程](zh/software/SDK/ros/k1/04_Model_deployment/4.4_Training_and_Deployment_Pipeline.md) <sub>3689 字</sub>
+          - [4. 模型开发指南](zh/software/SDK/ros/k1/04_Model_deployment/index.md) <sub>215 字</sub>
+          - [5.0 预备知识](zh/software/SDK/ros/k1/05_AI_Feature_Experience/5.0_preliminary_knowledge.md) <sub>1344 字</sub>
+            - [5.1.1 语音活动检测](zh/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.1_Voice_Activity_Detection.md) <sub>942 字</sub>
+            - [5.1 快速开始](zh/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/index.md) <sub>343 字</sub>
+            - [5.1.2 语音转文本](zh/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.2_Speech_to_Text.md) <sub>1041 字</sub>
+            - [5.1.3 大语音模型](zh/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.3_Large_Language_Models.md) <sub>1152 字</sub>
+            - [5.1.4 语音输入大模型输出](zh/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.4_Speech_Input_LLM_Output.md) <sub>1432 字</sub>
+            - [5.1.5 文本转语音](zh/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.5_Text_to_Speech.md) <sub>2360 字</sub>
+            - [5.1.6 函数调用](zh/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.6_Function_Call.md) <sub>922 字</sub>
+            - [5.1.7 视觉语言模型](zh/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.7_Vision_Language_Model.md) <sub>1076 字</sub>
+            - [5.1.8 开放词汇检测](zh/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.8_LLMDet.md) <sub>3447 字</sub>
+            - [5.2.1 Ultralytics 使用指南](zh/software/SDK/ros/k1/05_AI_Feature_Experience/5.2_AI_Framework_Support/5.2.1_ultralytics_usage.md) <sub>2302 字</sub>
+            - [index.md](zh/software/SDK/ros/k1/05_AI_Feature_Experience/5.2_AI_Framework_Support/index.md) <sub>61 字</sub>
+          - [5. AI 算法使用指南](zh/software/SDK/ros/k1/05_AI_Feature_Experience/index.md) <sub>89 字</sub>
+            - [6.1.1 AI Robot安装](zh/software/SDK/ros/k1/06_Robot_development/6.1_OS_Preparation/6.1.1_Bianbu_Robot_Installation.md) <sub>357 字</sub>
+            - [6.1 操作系统准备](zh/software/SDK/ros/k1/06_Robot_development/6.1_OS_Preparation/index.md) <sub>105 字</sub>
+            - [6.1.2 ROS2安装](zh/software/SDK/ros/k1/06_Robot_development/6.1_OS_Preparation/6.1.2_ROS2_Installation.md) <sub>8595 字</sub>
+              - [USB 相机节点](zh/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/1_USB_Camera_Node.md) <sub>4415 字</sub>
+              - [6.2.1 相机系统](zh/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/index.md) <sub>88 字</sub>
+              - [ROS2 MIPI Camera 节点 API](zh/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/2_ROS_Camera_Coding.md) <sub>4263 字</sub>
+              - [消息接口说明](zh/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/1_Message_Interface_Description.md) <sub>4072 字</sub>
+              - [音频采集节点](zh/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/2_Audio_Acquisition_Node.md) <sub>2819 字</sub>
+              - [6.2.2 人机交互](zh/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/index.md) <sub>139 字</sub>
+              - [VAD 节点](zh/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/3_VAD_Node.md) <sub>2372 字</sub>
+              - [ASR 节点](zh/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/4_ASR_Node.md) <sub>2629 字</sub>
+            - [6.2 ROS2 API 速查](zh/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/index.md) <sub>194 字</sub>
+              - [6.2.3 机器感知](zh/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.3_Robot_Perception/index.md) <sub>10 字</sub>
+              - [激光雷达使用](zh/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.4_Sensor_System/1_Using_LiDAR.md) <sub>706 字</sub>
+              - [CMP10A IMU 使用](zh/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.4_Sensor_System/2_CMP10A_IMU.md) <sub>1059 字</sub>
+              - [6.2.4 传感系统](zh/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.4_Sensor_System/index.md) <sub>68 字</sub>
+              - [YOLO](zh/software/SDK/ros/k1/06_Robot_development/6.3_Visual_DNN_Library/6.3.1_Object_Detection/6.3.1.1_YOLO.md) <sub>6551 字</sub>
+              - [6.3.1 目标检测](zh/software/SDK/ros/k1/06_Robot_development/6.3_Visual_DNN_Library/6.3.1_Object_Detection/index.md) <sub>34 字</sub>
+              - [mobilenetv2](zh/software/SDK/ros/k1/06_Robot_development/6.3_Visual_DNN_Library/6.3.2_Image_Classification/6.3.2.1_mobilenetv2.md) <sub>5122 字</sub>
+              - [6.3.2 图像分类](zh/software/SDK/ros/k1/06_Robot_development/6.3_Visual_DNN_Library/6.3.2_Image_Classification/index.md) <sub>48 字</sub>
+              - [UNet](zh/software/SDK/ros/k1/06_Robot_development/6.3_Visual_DNN_Library/6.3.3_Image_Segmentation/6.3.3.1_unet.md) <sub>6052 字</sub>
+              - [6.3.3 图像分割](zh/software/SDK/ros/k1/06_Robot_development/6.3_Visual_DNN_Library/6.3.3_Image_Segmentation/index.md) <sub>34 字</sub>
+            - [6.3 视觉 DNN 算法库 (ROS2)](zh/software/SDK/ros/k1/06_Robot_development/6.3_Visual_DNN_Library/index.md) <sub>159 字</sub>
+              - [人体姿态检测](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/1_pose_detection.md) <sub>7051 字</sub>
+              - [index.md](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/index.md) <sub>176 字</sub>
+              - [YOLO-World 物体检测](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/2_yoloworld_detection.md) <sub>6306 字</sub>
+              - [小车人体跟随](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/3_Robot_Human_Following.md) <sub>5167 字</sub>
+              - [OCR 光学字符识别](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/4_OCR.md) <sub>2852 字</sub>
+              - [YOLOE 物体检测](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/5_YOLOE_Detection.md) <sub>5474 字</sub>
+              - [语音转文字（ASR）](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/1_Speech_to_Text.md) <sub>2857 字</sub>
+              - [文字转语音（TTS）](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/Text_To_Speech.md) <sub>5197 字</sub>
+              - [LLM 模型聊天](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/2_LLM_Applications.md) <sub>4699 字</sub>
+              - [index.md](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/index.md) <sub>148 字</sub>
+              - [声源定位](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/3_circle_mic_sound_location.md) <sub>2060 字</sub>
+              - [SLAM 建图](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/1_SLAM_Mapping.md) <sub>4830 字</sub>
+              - [navigation2导航](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/2_Navigation2.md) <sub>4179 字</sub>
+              - [VSLAM（SVO 系列）](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/3_VSLAM.md) <sub>4388 字</sub>
+              - [index.md](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/index.md) <sub>179 字</sub>
+              - [动态跟随目标](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/4_Dynamic_Object_Following.md) <sub>10483 字</sub>
+              - [基于RTAB‐Map的VSLAM](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/5_RTAB%E2%80%90Map_VSLAM.md) <sub>3465 字</sub>
+            - [6.4 机器人应用模块 (ROS2)](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/index.md) <sub>17 字</sub>
+              - [LeRobot 使用指南](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.4_AI_Robotic_Arm/1_lerobot.md) <sub>10011 字</sub>
+              - [index.md](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.4_AI_Robotic_Arm/index.md) <sub>39 字</sub>
+              - [基于 Ethercat 控制电机](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.5_Control_Protocol/Ethercat_motor_driver.md) <sub>5970 字</sub>
+              - [index.md](zh/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.5_Control_Protocol/index.md) <sub>53 字</sub>
+              - [index.md](zh/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.1_human-robot-interaction/index.md) <sub>68 字</sub>
+              - [小车跟随及语音交互](zh/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.1_human-robot-interaction/1_agv-follow.md) <sub>5735 字</sub>
+              - [机械臂智慧零售](zh/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.1_human-robot-interaction/2_smart-retail.md) <sub>3713 字</sub>
+              - [小车建图导航](zh/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.2_environmental-perception/1_slam%26navigation.md) <sub>4952 字</sub>
+              - [index.md](zh/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.2_environmental-perception/index.md) <sub>27 字</sub>
+              - [AI聊天机器人](zh/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.3_large-language-model/1_ai-chat.md) <sub>1870 字</sub>
+              - [index.md](zh/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.3_large-language-model/index.md) <sub>35 字</sub>
+              - [轮趣科技ROS差速小车适配](zh/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.4_WHEELTEC-robot-adaptation/1_adaptation-for-WHEELTEC-robot.md) <sub>4642 字</sub>
+              - [index.md](zh/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.4_WHEELTEC-robot-adaptation/index.md) <sub>71 字</sub>
+            - [6.5 机器人应用案例](zh/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/index.md) <sub>90 字</sub>
+            - [6.6.1 Isaac Sim 仿真建图](zh/software/SDK/ros/k1/06_Robot_development/6.6_Robot_Simulation_Development/6.6.1_Isaac_ROS_VSLAM.md) <sub>6056 字</sub>
+            - [6.6.2 Isaac Sim 仿真导航](zh/software/SDK/ros/k1/06_Robot_development/6.6_Robot_Simulation_Development/6.6.2_Isaac_ROS_Navigation.md) <sub>4579 字</sub>
+            - [index.md](zh/software/SDK/ros/k1/06_Robot_development/6.6_Robot_Simulation_Development/index.md) <sub>108 字</sub>
+            - [6.7.1 windows下的ros2-rviz2可视化](zh/software/SDK/ros/k1/06_Robot_development/6.7_ROS2_Development_Tool_Usage/6.7.1_Windows_ros2_rviz2.md) <sub>1123 字</sub>
+            - [6.7 ROS2开发工具](zh/software/SDK/ros/k1/06_Robot_development/6.7_ROS2_Development_Tool_Usage/index.md) <sub>73 字</sub>
+          - [6. 机器人应用开发](zh/software/SDK/ros/k1/06_Robot_development/index.md) <sub>307 字</sub>
+          - [7.2 perf + FlameGraph 使用教程](zh/software/SDK/ros/k1/07_Advanced_development/7.2_perf.md) <sub>3486 字</sub>
+          - [7.1 模型量化开发](zh/software/SDK/ros/k1/07_Advanced_development/7.1_Model_Quantization.md) <sub>3509 字</sub>
+          - [7.3 Netdata 使用教程](zh/software/SDK/ros/k1/07_Advanced_development/7.3_netdata.md) <sub>1933 字</sub>
+          - [7. 进阶开发](zh/software/SDK/ros/k1/07_Advanced_development/index.md) <sub>124 字</sub>
+        - [FAQ](zh/software/SDK/ros/k1/faqs.md) <sub>886 字</sub>
+        - [附录](zh/software/SDK/ros/k1/Appendix.md) <sub>5 字</sub>
+    - **Bianbu**
+      - [index.md](zh/software/SDK/bianbu/index.md) <sub>185 字</sub>
+      - [简介](zh/software/SDK/bianbu/root_overview.md) <sub>2249 字</sub>
+      - [镜像](zh/software/SDK/bianbu/image.md) <sub>523 字</sub>
+        - [Bianbu V2.2 更新说明](zh/software/SDK/bianbu/release_notes/bianbu_2.2.md) <sub>1569 字</sub>
+        - [Bianbu V2.3 更新说明](zh/software/SDK/bianbu/release_notes/bianbu_2.3.md) <sub>1168 字</sub>
+        - [Bianbu V4.0 更新说明(仅支持K3)](zh/software/SDK/bianbu/release_notes/bianbu_4.0.md) <sub>2206 字</sub>
+        - [更新说明](zh/software/SDK/bianbu/release_notes/index.md) <sub>158 字</sub>
+          - [Bianbu V1.0 更新说明](zh/software/SDK/bianbu/release_notes/history/bianbu_1.0.md) <sub>2416 字</sub>
+          - [Bianbu V2.0 更新说明](zh/software/SDK/bianbu/release_notes/history/bianbu_2.0.md) <sub>1855 字</sub>
+          - [Bianbu V2.1 更新说明](zh/software/SDK/bianbu/release_notes/history/bianbu_2.1.md) <sub>1618 字</sub>
+          - [Bianbu V3.0 更新说明](zh/software/SDK/bianbu/release_notes/history/bianbu_3.0.md) <sub>1471 字</sub>
+          - [历史版本](zh/software/SDK/bianbu/release_notes/history/index.md) <sub>165 字</sub>
+          - [GNOME](zh/software/SDK/bianbu/user_guide/GNOME/index.md) <sub>86 字</sub>
+          - [联网](zh/software/SDK/bianbu/user_guide/GNOME/connection.md) <sub>667 字</sub>
+          - [软件包管理](zh/software/SDK/bianbu/user_guide/GNOME/package_management.md) <sub>530 字</sub>
+          - [系统升级](zh/software/SDK/bianbu/user_guide/GNOME/upgrade.md) <sub>1280 字</sub>
+          - [简介](zh/software/SDK/bianbu/user_guide/LXQt/desktop_introduction.md) <sub>1185 字</sub>
+          - [首次启动与会话](zh/software/SDK/bianbu/user_guide/LXQt/initial_setup_and_sessions.md) <sub>2778 字</sub>
+          - [LXQt](zh/software/SDK/bianbu/user_guide/LXQt/index.md) <sub>326 字</sub>
+          - [应用及软件管理](zh/software/SDK/bianbu/user_guide/LXQt/software_management.md) <sub>4349 字</sub>
+          - [MUSE Pi / MUSE Pi Pro 拓展 I/O 定义](zh/software/SDK/bianbu/user_guide/LXQt/MUSEPi_and_MUSEPiPro_expansion_IO_pinout.md) <sub>388 字</sub>
+          - [远程桌面操作指南](zh/software/SDK/bianbu/user_guide/LXQt/K1_Remote_Connect.md) <sub>14212 字</sub>
+          - [常见问题解答](zh/software/SDK/bianbu/user_guide/LXQt/K1_FAQ.md) <sub>3791 字</sub>
+          - [MIPI 相机使用及常见问题](zh/software/SDK/bianbu/user_guide/LXQt/Camera_FAQ.md) <sub>6629 字</sub>
+        - [用户指南](zh/software/SDK/bianbu/user_guide/index.md) <sub>78 字</sub>
+        - [内核编译](zh/software/SDK/bianbu/development/kernel_compile.md) <sub>6162 字</sub>
+        - [Qt 使用指南](zh/software/SDK/bianbu/development/qt.md) <sub>1618 字</sub>
+        - [Javascript 使用指南](zh/software/SDK/bianbu/development/javascript.md) <sub>7453 字</sub>
+        - [Python 使用指南](zh/software/SDK/bianbu/development/python.md) <sub>11547 字</sub>
+        - [Docker 使用指南](zh/software/SDK/bianbu/development/docker.md) <sub>1231 字</sub>
+        - [开发指南](zh/software/SDK/bianbu/development/index.md) <sub>386 字</sub>
+        - [集成开发环境](zh/software/SDK/bianbu/development/ide.md) <sub>1780 字</sub>
+        - [Coredump](zh/software/SDK/bianbu/development/coredump.md) <sub>1979 字</sub>
+        - [Perf 使用注意事项](zh/software/SDK/bianbu/development/perf.md) <sub>6554 字</sub>
+        - [AMD 显卡使用指南](zh/software/SDK/bianbu/development/amd.md) <sub>1846 字</sub>
+        - [read-only-rootfs-config 使用说明](zh/software/SDK/bianbu/development/system-restore.md) <sub>2065 字</sub>
+        - [包托管服务](zh/software/SDK/bianbu/development/dak.md) <sub>3720 字</sub>
+        - [K3 NOR第二启动介质配置指南](zh/software/SDK/bianbu/development/second_boot_device_guide.md) <sub>1772 字</sub>
+        - [RT-Linux 使用指南](zh/software/SDK/bianbu/development/rt-linux_guide.md) <sub>3525 字</sub>
+        - [ESOS 开发指南](zh/software/SDK/bianbu/development/esos-dev-guide.md) <sub>6473 字</sub>
+        - [Bianbu 1.0 ROOTFS 制作](zh/software/SDK/bianbu/system_integration/bianbu_1.0_rootfs_create.md) <sub>6911 字</sub>
+        - [Bianbu 2.0 ROOTFS 制作](zh/software/SDK/bianbu/system_integration/bianbu_2.0_rootfs_create.md) <sub>5936 字</sub>
+        - [Bianbu 2.1/2.2 ROOTFS 制作](zh/software/SDK/bianbu/system_integration/bianbu_2.1_rootfs_create.md) <sub>7480 字</sub>
+        - [Bianbu 3.0 ROOTFS 制作](zh/software/SDK/bianbu/system_integration/bianbu_3.0_rootfs_create.md) <sub>6625 字</sub>
+        - [单应用 ROOTFS 制作](zh/software/SDK/bianbu/system_integration/single_app_rootfs_create.md) <sub>3076 字</sub>
+        - [系统集成](zh/software/SDK/bianbu/system_integration/index.md) <sub>465 字</sub>
+        - [固件制作](zh/software/SDK/bianbu/system_integration/image.md) <sub>4789 字</sub>
+        - [UEFI 固件与系统镜像制作指南](zh/software/SDK/bianbu/system_integration/uefi_image.md) <sub>16562 字</sub>
+        - [Bianbu 4.0 ROOTFS 制作](zh/software/SDK/bianbu/system_integration/bianbu_4.0_rootfs_create.md) <sub>5566 字</sub>
+        - [Bianbu 4.0 UEFI 镜像制作](zh/software/SDK/bianbu/system_integration/bianbu_4.0_uefi_image_create.md) <sub>7482 字</sub>
+        - [ISO 镜像制作指南](zh/software/SDK/bianbu/system_integration/iso_image.md) <sub>6211 字</sub>
+      - [常见问题](zh/software/SDK/bianbu/faqs.md) <sub>1363 字</sub>
+    - **OpenWrt**
+      - [index.md](zh/software/SDK/openwrt/index.md) <sub>168 字</sub>
+      - [简介](zh/software/SDK/openwrt/root_overview.md) <sub>860 字</sub>
+      - [下载和编译](zh/software/SDK/openwrt/openwrt_quickstart.md) <sub>4445 字</sub>
+      - [设备管理](zh/software/SDK/openwrt/openwrt_device_management.md) <sub>3374 字</sub>
+      - [方案管理](zh/software/SDK/openwrt/openwrt_solution_management.md) <sub>4509 字</sub>
+      - [支持的硬件设备](zh/software/SDK/openwrt/support_devices.md) <sub>97 字</sub>
+    - **Buildroot**
+      - [index.md](zh/software/SDK/buildroot/index.md) <sub>122 字</sub>
+      - [简介](zh/software/SDK/buildroot/root_overview.md) <sub>142 字</sub>
+        - [简介](zh/software/SDK/buildroot/k1_buildroot/intro.md) <sub>780 字</sub>
+        - [K1 Buildroot](zh/software/SDK/buildroot/k1_buildroot/index.md) <sub>231 字</sub>
+        - [镜像](zh/software/SDK/buildroot/k1_buildroot/image.md) <sub>255 字</sub>
+        - [源码](zh/software/SDK/buildroot/k1_buildroot/source.md) <sub>7933 字</sub>
+          - [Buildroot 2.2 更新说明](zh/software/SDK/buildroot/k1_buildroot/release_notes/bl-v2.2.y.md) <sub>2654 字</sub>
+            - [Buildroot 1.0 更新说明](zh/software/SDK/buildroot/k1_buildroot/release_notes/history/bl-v1.0.y.md) <sub>3045 字</sub>
+            - [历史版本](zh/software/SDK/buildroot/k1_buildroot/release_notes/history/index.md) <sub>141 字</sub>
+            - [Buildroot 2.0 更新说明](zh/software/SDK/buildroot/k1_buildroot/release_notes/history/bl-v2.0.y.md) <sub>1902 字</sub>
+            - [Buildroot 2.1 更新说明](zh/software/SDK/buildroot/k1_buildroot/release_notes/history/bl-v2.1.y.md) <sub>321 字</sub>
+          - [更新说明](zh/software/SDK/buildroot/k1_buildroot/release_notes/index.md) <sub>96 字</sub>
+          - [设备管理](zh/software/SDK/buildroot/k1_buildroot/device/device_management.md) <sub>5905 字</sub>
+          - [方案管理](zh/software/SDK/buildroot/k1_buildroot/device/solution_management.md) <sub>2837 字</sub>
+          - [启动](zh/software/SDK/buildroot/k1_buildroot/device/boot.md) <sub>72512 字</sub>
+          - [设备开发](zh/software/SDK/buildroot/k1_buildroot/device/index.md) <sub>169 字</sub>
+            - [WDT](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/23-WDT.md) <sub>2179 字</sub>
+            - [Display](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/12-Display.md) <sub>32687 字</sub>
+            - [GPADC](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/gpadc.md) <sub>1872 字</sub>
+            - [DDR](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/ddr.md) <sub>9840 字</sub>
+            - [Audio](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/17-Audio.md) <sub>9596 字</sub>
+            - [SPI](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/SPI.md) <sub>2614 字</sub>
+            - [QSPI](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/07-QSPI.md) <sub>4244 字</sub>
+            - [Clock](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/16-Clock.md) <sub>11212 字</sub>
+            - [RTC](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/rtc.md) <sub>1668 字</sub>
+            - [WIFI](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/WIFI.md) <sub>6733 字</sub>
+            - [PMIC](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/14-PMIC.md) <sub>7674 字</sub>
+            - [CAN](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/15-CAN.md) <sub>5345 字</sub>
+            - [SDHC](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/08-SDHC.md) <sub>5680 字</sub>
+            - [UART](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/05-UART.md) <sub>2417 字</sub>
+            - [V2D](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/13-V2D.md) <sub>3916 字</sub>
+            - [PINCTRL](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/01-PINCTRL.md) <sub>11500 字</sub>
+            - [CPUFREQ](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/15-Cpufreq.md) <sub>2781 字</sub>
+            - [I2C](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/06-I2C.md) <sub>5655 字</sub>
+            - [EtherCAT](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/22-EtherCAT.md) <sub>7786 字</sub>
+            - [DMA](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/21-DMA.md) <sub>2995 字</sub>
+            - [GMAC](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/09-GMAC.md) <sub>12247 字</sub>
+            - [CRYPTO](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/18-CRYPTO.md) <sub>2440 字</sub>
+            - [PWM](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/03-PWM.md) <sub>2179 字</sub>
+            - [GPIO](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/02-GPIO.md) <sub>4086 字</sub>
+            - [Thermal](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/thermal.md) <sub>3455 字</sub>
+            - [IR-RX](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/04-IR-RX.md) <sub>1394 字</sub>
+            - [BT](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/BT.md) <sub>9569 字</sub>
+            - [PCIe](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/11-PCIe.md) <sub>5589 字</sub>
+            - [外设驱动](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/index.md) <sub>1197 字</sub>
+              - [USB 通用开发指南](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/10-USB/1-USB-General-Developer-Guide.md) <sub>39348 字</sub>
+              - [USB Gadget 开发指南](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/10-USB/2-USB-Gadget-Developer-Guide.md) <sub>24965 字</sub>
+              - [USB 信号质量测试指南](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/10-USB/3-USB-SQ-Test-Guide.md) <sub>15573 字</sub>
+              - [USB](zh/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/10-USB/index.md) <sub>290 字</sub>
+          - [Standby](zh/software/SDK/buildroot/k1_buildroot/device/standby.md) <sub>2959 字</sub>
+          - [产线测试工具](zh/software/SDK/buildroot/k1_buildroot/device/plt.md) <sub>3491 字</sub>
+          - [Camera 开发指南](zh/software/SDK/buildroot/k1_buildroot/camera/camera_development_guide.md) <sub>49141 字</sub>
+          - [ISP API 开发指南](zh/software/SDK/buildroot/k1_buildroot/camera/isp_api_development_guide.md) <sub>47512 字</sub>
+          - [ISP PQ 工具用户指南](zh/software/SDK/buildroot/k1_buildroot/camera/isp_pq_tools_user_guide.md) <sub>71044 字</sub>
+          - [相机开发](zh/software/SDK/buildroot/k1_buildroot/camera/index.md) <sub>144 字</sub>
+            - [多媒体框架](zh/software/SDK/buildroot/k1_buildroot/media/mpp/01-multimedia_framework.md) <sub>2548 字</sub>
+            - [多媒体开发指南](zh/software/SDK/buildroot/k1_buildroot/media/mpp/index.md) <sub>355 字</sub>
+            - [MPP](zh/software/SDK/buildroot/k1_buildroot/media/mpp/02-MPP.md) <sub>38389 字</sub>
+            - [VPU](zh/software/SDK/buildroot/k1_buildroot/media/mpp/03-VPU.md) <sub>17869 字</sub>
+            - [JPU](zh/software/SDK/buildroot/k1_buildroot/media/mpp/04-JPU.md) <sub>5471 字</sub>
+            - [CPP & ISP & MIPI-CSI](zh/software/SDK/buildroot/k1_buildroot/media/mpp/05-CPP_ISP_MIPI-CSI.md) <sub>5959 字</sub>
+          - [Gstreamer 用户使用指南](zh/software/SDK/buildroot/k1_buildroot/media/gstreamer_user_guide.md) <sub>31338 字</sub>
+          - [多媒体](zh/software/SDK/buildroot/k1_buildroot/media/index.md) <sub>81 字</sub>
+          - [K1 平台 AMD 显卡适配指南](zh/software/SDK/buildroot/k1_buildroot/graphics/AMD_graphics_card_adaptation_reference.md) <sub>6609 字</sub>
+          - [图形驱动框架](zh/software/SDK/buildroot/k1_buildroot/graphics/graphics_driver_framework.md) <sub>3508 字</sub>
+          - [图形编程指南](zh/software/SDK/buildroot/k1_buildroot/graphics/graphics_programming_guide.md) <sub>6044 字</sub>
+          - [OpenCL 编程指南](zh/software/SDK/buildroot/k1_buildroot/graphics/openCL_programming_guide.md) <sub>10662 字</sub>
+          - [SpacemiT 屏幕调试文档](zh/software/SDK/buildroot/k1_buildroot/graphics/panel_porting_guide.md) <sub>21421 字</sub>
+          - [图形编程](zh/software/SDK/buildroot/k1_buildroot/graphics/index.md) <sub>235 字</sub>
+          - [Linux 文件系统排查指南](zh/software/SDK/buildroot/k1_buildroot/kernel_debug/file_system_guide.md) <sub>23966 字</sub>
+          - [Linux DMA-BUF 调试指南](zh/software/SDK/buildroot/k1_buildroot/kernel_debug/dma_buf_debug_guide.md) <sub>3062 字</sub>
+          - [Linux 内存调试指南](zh/software/SDK/buildroot/k1_buildroot/kernel_debug/memory_debug_guide.md) <sub>11059 字</sub>
+          - [Linux 内存预留指南](zh/software/SDK/buildroot/k1_buildroot/kernel_debug/memory_reservation_guide.md) <sub>4479 字</sub>
+          - [系统排查](zh/software/SDK/buildroot/k1_buildroot/kernel_debug/index.md) <sub>166 字</sub>
+        - [常见问题](zh/software/SDK/buildroot/k1_buildroot/faqs.md) <sub>1000 字</sub>
+        - [简介](zh/software/SDK/buildroot/k3_buildroot/intro.md) <sub>704 字</sub>
+        - [K3 Buildroot](zh/software/SDK/buildroot/k3_buildroot/index.md) <sub>255 字</sub>
+        - [镜像](zh/software/SDK/buildroot/k3_buildroot/image.md) <sub>276 字</sub>
+        - [源码](zh/software/SDK/buildroot/k3_buildroot/source.md) <sub>8661 字</sub>
+          - [Buildroot 1.0 更新说明](zh/software/SDK/buildroot/k3_buildroot/release_notes/bl-v1.0.y.md) <sub>2125 字</sub>
+          - [更新说明](zh/software/SDK/buildroot/k3_buildroot/release_notes/index.md) <sub>66 字</sub>
+          - [ESOS 开发指南](zh/software/SDK/buildroot/k3_buildroot/esos/esos_dev_guide.md) <sub>1633 字</sub>
+            - [I2C](zh/software/SDK/buildroot/k3_buildroot/esos/esos_driver/i2c.md) <sub>3478 字</sub>
+            - [SPI](zh/software/SDK/buildroot/k3_buildroot/esos/esos_driver/spi.md) <sub>3187 字</sub>
+            - [PINCTRL](zh/software/SDK/buildroot/k3_buildroot/esos/esos_driver/pinctrl.md) <sub>2595 字</sub>
+            - [PWM](zh/software/SDK/buildroot/k3_buildroot/esos/esos_driver/pwm.md) <sub>2196 字</sub>
+            - [RUART](zh/software/SDK/buildroot/k3_buildroot/esos/esos_driver/ruart.md) <sub>5826 字</sub>
+            - [RTIMER](zh/software/SDK/buildroot/k3_buildroot/esos/esos_driver/rtimer.md) <sub>3614 字</sub>
+            - [RPMsg](zh/software/SDK/buildroot/k3_buildroot/esos/esos_driver/rpmsg.md) <sub>6357 字</sub>
+            - [RGMAC](zh/software/SDK/buildroot/k3_buildroot/esos/esos_driver/rgmac.md) <sub>6236 字</sub>
+            - [RCAN](zh/software/SDK/buildroot/k3_buildroot/esos/esos_driver/rcan.md) <sub>6580 字</sub>
+            - [DMA](zh/software/SDK/buildroot/k3_buildroot/esos/esos_driver/dma.md) <sub>4086 字</sub>
+            - [GPIO](zh/software/SDK/buildroot/k3_buildroot/esos/esos_driver/gpio.md) <sub>3721 字</sub>
+            - [ESOS 驱动](zh/software/SDK/buildroot/k3_buildroot/esos/esos_driver/index.md) <sub>191 字</sub>
+          - [ESOS电源管理](zh/software/SDK/buildroot/k3_buildroot/esos/esos_power.md) <sub>9 字</sub>
+          - [ESOS 异构通讯](zh/software/SDK/buildroot/k3_buildroot/esos/esos_comm.md) <sub>9 字</sub>
+          - [ESOS 开发](zh/software/SDK/buildroot/k3_buildroot/esos/index.md) <sub>119 字</sub>
+          - [设备管理](zh/software/SDK/buildroot/k3_buildroot/device/device_management.md) <sub>8971 字</sub>
+          - [方案管理](zh/software/SDK/buildroot/k3_buildroot/device/solution_management.md) <sub>4603 字</sub>
+          - [启动](zh/software/SDK/buildroot/k3_buildroot/device/boot.md) <sub>59307 字</sub>
+          - [安全启动](zh/software/SDK/buildroot/k3_buildroot/device/secureboot.md) <sub>23800 字</sub>
+            - [Reset](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/Reset.md) <sub>10037 字</sub>
+            - [WDT](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/23-WDT.md) <sub>4785 字</sub>
+            - [Display](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/12-Display.md) <sub>23655 字</sub>
+            - [DDR](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/ddr.md) <sub>7226 字</sub>
+            - [Audio](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/17-Audio.md) <sub>18271 字</sub>
+            - [SPI](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/SPI.md) <sub>2675 字</sub>
+            - [Timer](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/Timer.md) <sub>3371 字</sub>
+            - [Clock](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/16-Clock.md) <sub>16459 字</sub>
+            - [QSPI](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/07-QSPI.md) <sub>4591 字</sub>
+            - [WIFI](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/WIFI.md) <sub>10863 字</sub>
+            - [PMIC](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/14-PMIC.md) <sub>10289 字</sub>
+            - [CAN](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/15-CAN.md) <sub>10110 字</sub>
+            - [SDHC](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/08-SDHC.md) <sub>13520 字</sub>
+            - [UART](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/05-UART.md) <sub>9508 字</sub>
+            - [V2D](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/13-V2D.md) <sub>3794 字</sub>
+            - [PINCTRL](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/01-PINCTRL.md) <sub>11292 字</sub>
+            - [CPUFREQ](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/15-Cpufreq.md) <sub>4720 字</sub>
+            - [I2C](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/06-I2C.md) <sub>7591 字</sub>
+            - [DMA](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/21-DMA.md) <sub>3892 字</sub>
+            - [EtherCAT](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/22-EtherCAT.md) <sub>9538 字</sub>
+            - [RTC](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/24-RTC.md) <sub>5268 字</sub>
+            - [GMAC](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/09-GMAC.md) <sub>17864 字</sub>
+            - [PWM](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/03-PWM.md) <sub>5550 字</sub>
+            - [GPIO](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/02-GPIO.md) <sub>8938 字</sub>
+            - [Thermal](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/thermal.md) <sub>4093 字</sub>
+            - [UFS](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/ufs.md) <sub>14750 字</sub>
+            - [IR-RX](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/04-IR-RX.md) <sub>7978 字</sub>
+            - [BT](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/BT.md) <sub>12882 字</sub>
+            - [PCIe](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/11-PCIe.md) <sub>14700 字</sub>
+            - [外设驱动](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/index.md) <sub>1209 字</sub>
+              - [USB 通用开发指南](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/10-USB/1-USB-General-Developer-Guide.md) <sub>44976 字</sub>
+              - [USB Gadget 开发指南](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/10-USB/2-USB-Gadget-Developer-Guide.md) <sub>24538 字</sub>
+              - [USB 信号质量测试指南](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/10-USB/3-USB-SQ-Test-Guide.md) <sub>15753 字</sub>
+              - [USB](zh/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/10-USB/index.md) <sub>290 字</sub>
+          - [设备开发](zh/software/SDK/buildroot/k3_buildroot/device/index.md) <sub>225 字</sub>
+          - [Standby](zh/software/SDK/buildroot/k3_buildroot/device/standby.md) <sub>7122 字</sub>
+          - [产线测试工具](zh/software/SDK/buildroot/k3_buildroot/device/plt.md) <sub>2470 字</sub>
+          - [产线写号](zh/software/SDK/buildroot/k3_buildroot/device/tlv.md) <sub>6067 字</sub>
+          - [HMP 异构多处理](zh/software/SDK/buildroot/k3_buildroot/device/hmp.md) <sub>4639 字</sub>
+            - [多媒体开发指南](zh/software/SDK/buildroot/k3_buildroot/media/mpp/index.md) <sub>322 字</sub>
+            - [多媒体框架](zh/software/SDK/buildroot/k3_buildroot/media/mpp/01-multimedia_framework.md) <sub>2252 字</sub>
+            - [MPP](zh/software/SDK/buildroot/k3_buildroot/media/mpp/02-MPP.md) <sub>38256 字</sub>
+            - [VPU](zh/software/SDK/buildroot/k3_buildroot/media/mpp/03-VPU.md) <sub>18864 字</sub>
+            - [MIPI-CSI](zh/software/SDK/buildroot/k3_buildroot/media/mpp/05-MIPI-CSI.md) <sub>6760 字</sub>
+          - [FFmpeg 用户使用指南](zh/software/SDK/buildroot/k3_buildroot/media/ffmpeg_user_guide.md) <sub>6125 字</sub>
+          - [Gstreamer 用户使用指南](zh/software/SDK/buildroot/k3_buildroot/media/gstreamer_user_guide.md) <sub>20820 字</sub>
+          - [多媒体](zh/software/SDK/buildroot/k3_buildroot/media/index.md) <sub>118 字</sub>
+          - [图形驱动框架](zh/software/SDK/buildroot/k3_buildroot/graphics/graphics_driver_framework.md) <sub>9732 字</sub>
+          - [图形编程指南](zh/software/SDK/buildroot/k3_buildroot/graphics/graphics_programming_guide.md) <sub>6280 字</sub>
+          - [OpenCL 编程指南](zh/software/SDK/buildroot/k3_buildroot/graphics/openCL_programming_guide.md) <sub>10646 字</sub>
+          - [SpacemiT 屏幕调试文档](zh/software/SDK/buildroot/k3_buildroot/graphics/panel_porting_guide.md) <sub>15487 字</sub>
+          - [图形编程](zh/software/SDK/buildroot/k3_buildroot/graphics/index.md) <sub>235 字</sub>
+          - [K3 GMAC DPDK 用户使用指南](zh/software/SDK/buildroot/k3_buildroot/dpdk/k3_GMAC_DPDK_user_guide.md) <sub>7369 字</sub>
+          - [DPDK开发](zh/software/SDK/buildroot/k3_buildroot/dpdk/index.md) <sub>63 字</sub>
+          - [Linux 文件系统排查指南](zh/software/SDK/buildroot/k3_buildroot/kernel_debug/file_system_guide.md) <sub>88 字</sub>
+          - [Linux DMA-BUF 调试指南](zh/software/SDK/buildroot/k3_buildroot/kernel_debug/dma_buf_debug_guide.md) <sub>96 字</sub>
+          - [Linux 内存调试指南](zh/software/SDK/buildroot/k3_buildroot/kernel_debug/memory_debug_guide.md) <sub>85 字</sub>
+          - [Linux 内存预留指南](zh/software/SDK/buildroot/k3_buildroot/kernel_debug/memory_reservation_guide.md) <sub>91 字</sub>
+          - [系统排查](zh/software/SDK/buildroot/k3_buildroot/kernel_debug/index.md) <sub>166 字</sub>
+        - [常见问题](zh/software/SDK/buildroot/k3_buildroot/faqs.md) <sub>968 字</sub>
+      - [工具](zh/software/SDK/buildroot/tools.md) <sub>189 字</sub>
+    - **OpenHarmony**
+      - [index.md](zh/software/SDK/openharmony/index.md) <sub>528 字</sub>
+      - [简介](zh/software/SDK/openharmony/root_overview.md) <sub>626 字</sub>
+        - [1. K1_OH5.0简介](zh/software/SDK/openharmony/k1_oh5.0/1_K1_OH5.0_intro.md) <sub>5039 字</sub>
+        - [K1 OH5.0（即将废弃）](zh/software/SDK/openharmony/k1_oh5.0/index.md) <sub>850 字</sub>
+        - [2. K1_OH5.0下载编译烧录说明](zh/software/SDK/openharmony/k1_oh5.0/2_K1_OH5.0_build_flash.md) <sub>17161 字</sub>
+        - [3. K1_OH5.0方案添加移植说明](zh/software/SDK/openharmony/k1_oh5.0/3_K1_OH5.0_porting.md) <sub>12935 字</sub>
+        - [4. K1_OH5.0系统定制说明](zh/software/SDK/openharmony/k1_oh5.0/4_K1_OH5.0_customization.md) <sub>55653 字</sub>
+        - [5. K1_OH5.0系统调试说明](zh/software/SDK/openharmony/k1_oh5.0/5_K1_OH5.0_debugging.md) <sub>23388 字</sub>
+        - [6. K1_OH5.0应用开发说明](zh/software/SDK/openharmony/k1_oh5.0/6_K1_OH5.0_app_dev.md) <sub>37368 字</sub>
+        - [7. K1_OH5.0AI构建开发说明](zh/software/SDK/openharmony/k1_oh5.0/7_K1_OH5.0_ai_build.md) <sub>7426 字</sub>
+        - [8. K1_OH5.0驱动开发说明](zh/software/SDK/openharmony/k1_oh5.0/8_K1_OH5.0_driver_dev.md) <sub>7867 字</sub>
+        - [9. K1_OH5.0方案OTA使用说明](zh/software/SDK/openharmony/k1_oh5.0/9_K1_OH5.0_ota.md) <sub>17441 字</sub>
+        - [10. K1_OH5.0三方包移植说明](zh/software/SDK/openharmony/k1_oh5.0/10_K1_OH5.0_third_party.md) <sub>10053 字</sub>
+        - [11. K1_OH5.0工程测试应用使用说明](zh/software/SDK/openharmony/k1_oh5.0/11_K1_OH5.0_test_apps.md) <sub>3725 字</sub>
+        - [12. K1_OH5.0 MIPI摄像头适配说明](zh/software/SDK/openharmony/k1_oh5.0/12_K1_OH5.0_mipi_sensor.md) <sub>20436 字</sub>
+        - [1. K1_OH6.1简介](zh/software/SDK/openharmony/k1_oh6.1/1_K1_OH6.1_intro.md) <sub>2611 字</sub>
+        - [2. K1_OH6.1_Release下载编译烧录说明](zh/software/SDK/openharmony/k1_oh6.1/2_K1_OH6.1_Release_build_flash.md) <sub>14537 字</sub>
+        - [3. K1_OH6.1_LTS下载编译烧录说明](zh/software/SDK/openharmony/k1_oh6.1/3_K1_OH6.1_LTS_build_flash.md) <sub>14945 字</sub>
+        - [K1 OH6.1](zh/software/SDK/openharmony/k1_oh6.1/index.md) <sub>636 字</sub>
+        - [4. K1_OH6.1方案添加移植说明](zh/software/SDK/openharmony/k1_oh6.1/4_K1_OH6.1_porting.md) <sub>13138 字</sub>
+        - [5. K1_OH6.1系统定制说明](zh/software/SDK/openharmony/k1_oh6.1/5_K1_OH6.1_customization.md) <sub>55490 字</sub>
+        - [6. K1_OH6.1系统调试说明](zh/software/SDK/openharmony/k1_oh6.1/6_K1_OH6.1_debugging.md) <sub>23692 字</sub>
+        - [7. K1_OH6.1 OTA使用说明](zh/software/SDK/openharmony/k1_oh6.1/7_K1_OH6.1_ota.md) <sub>17439 字</sub>
+        - [1. K3_OH6.1简介](zh/software/SDK/openharmony/k3_oh6.1/1_K3_OH6.1_intro.md) <sub>2079 字</sub>
+        - [2. K3_OH6.1_Release下载编译烧录说明](zh/software/SDK/openharmony/k3_oh6.1/2_K3_OH6.1_Release_build_flash.md) <sub>18103 字</sub>
+        - [3. K3_OH6.1_LTS下载编译烧录说明](zh/software/SDK/openharmony/k3_oh6.1/3_K3_OH6.1_LTS_build_flash.md) <sub>18398 字</sub>
+        - [K3 OH6.1](zh/software/SDK/openharmony/k3_oh6.1/index.md) <sub>339 字</sub>
+        - [4. K3_OH6.1方案添加移植说明](zh/software/SDK/openharmony/k3_oh6.1/4_K3_OH6.1_porting.md) <sub>12701 字</sub>
+        - [5. K3_OH6.1系统定制说明](zh/software/SDK/openharmony/k3_oh6.1/5_K3_OH6.1_customization.md) <sub>55490 字</sub>
+        - [6. K3_OH6.1系统调试说明](zh/software/SDK/openharmony/k3_oh6.1/6_K3_OH6.1_debugging.md) <sub>23692 字</sub>
+        - [7. K3_OH6.1 OTA使用说明](zh/software/SDK/openharmony/k3_oh6.1/7_K3_OH6.1_ota.md) <sub>17439 字</sub>
+        - [1. AI检测识别应用说明](zh/software/SDK/openharmony/ai_application/1_OH_AI_yolo.md) <sub>8240 字</sub>
+        - [2. AI聊天应用说明](zh/software/SDK/openharmony/ai_application/2_OH_AI_llmchat.md) <sub>8613 字</sub>
+        - [3. RVV应用说明](zh/software/SDK/openharmony/ai_application/3_OH_AI_rvvdemo.md) <sub>10176 字</sub>
+        - [4. TTS应用说明](zh/software/SDK/openharmony/ai_application/4_OH_AI_ttsdemo.md) <sub>6306 字</sub>
+        - [AI应用专题](zh/software/SDK/openharmony/ai_application/index.md) <sub>545 字</sub>
+        - [5. ASR应用说明](zh/software/SDK/openharmony/ai_application/5_OH_AI_asrdemo.md) <sub>5613 字</sub>
+        - [6. OpenCV应用说明](zh/software/SDK/openharmony/ai_application/6_OH_AI_opencvdemo.md) <sub>6067 字</sub>
+        - [7. VLM视觉问答应用说明](zh/software/SDK/openharmony/ai_application/7_OH_AI_vlmdemo.md) <sub>9831 字</sub>
+        - [1.K1 OH平台功耗调试参考](zh/software/SDK/openharmony/power_debug/1_K1_OH_power_debug.md) <sub>13019 字</sub>
+        - [功耗优化专题](zh/software/SDK/openharmony/power_debug/index.md) <sub>345 字</sub>
+        - [1. 浏览器开发环境搭建](zh/software/SDK/openharmony/web/1_oh61_web.md) <sub>314 字</sub>
+        - [浏览器专题](zh/software/SDK/openharmony/web/index.md) <sub>334 字</sub>
+        - [1. Camera调试](zh/software/SDK/openharmony/skills/1_camera_skill.md) <sub>368 字</sub>
+        - [Skill](zh/software/SDK/openharmony/skills/index.md) <sub>333 字</sub>
+    - **生态系统**
+      - [index.md](zh/software/SDK/docs-ecosys/index.md) <sub>401 字</sub>
+      - [简介](zh/software/SDK/docs-ecosys/root_overview.md) <sub>616 字</sub>
+        - [1. Ubuntu烧录启动指南](zh/software/SDK/docs-ecosys/ubuntu/1_ubuntu_flashing.md) <sub>103 字</sub>
+        - [Ubuntu](zh/software/SDK/docs-ecosys/ubuntu/index.md) <sub>336 字</sub>
+        - [1. openKylin烧录启动指南](zh/software/SDK/docs-ecosys/openkylin/1_openkylin_flashing.md) <sub>414 字</sub>
+        - [openKylin](zh/software/SDK/docs-ecosys/openkylin/index.md) <sub>348 字</sub>
+        - [1. openEuler烧录启动指南](zh/software/SDK/docs-ecosys/openeuler/1_openeuler_flashing.md) <sub>106 字</sub>
+        - [openEuler](zh/software/SDK/docs-ecosys/openeuler/index.md) <sub>348 字</sub>
+- **AI**
+  - [index.md](zh/ai/index.md) <sub>149 字</sub>
+  - **简介**
+    - [进迭时空 RISC-V AI 计算平台](zh/ai/intro/root_overview.md) <sub>1913 字</sub>
+    - [简介](zh/ai/intro/index.md) <sub>39 字</sub>
+  - **解决方案**
+    - [AI Robot解决方案汇总](zh/ai/solutions/airobot_solution_list.md) <sub>276 字</sub>
+    - [解决方案](zh/ai/solutions/index.md) <sub>94 字</sub>
+    - **AI Computer解决方案汇总**
+      - [AI NAS](zh/ai/solutions/aicomputer_solution/ainas.md) <sub>19779 字</sub>
+      - [AI Computer解决方案汇总](zh/ai/solutions/aicomputer_solution/index.md) <sub>2092 字</sub>
+      - [知了(Zenow)](zh/ai/solutions/aicomputer_solution/zenow.md) <sub>4452 字</sub>
+      - [与会(Yumeet)](zh/ai/solutions/aicomputer_solution/yumeet.md) <sub>5053 字</sub>
+      - [File2MD](zh/ai/solutions/aicomputer_solution/file2md.md) <sub>4569 字</sub>
+      - [见智(Seewise)](zh/ai/solutions/aicomputer_solution/seewise.md) <sub>4165 字</sub>
+      - [点将(Agentforce)](zh/ai/solutions/aicomputer_solution/agentforce.md) <sub>5816 字</sub>
+      - [Claude Code](zh/ai/solutions/aicomputer_solution/claude.md) <sub>3366 字</sub>
+      - [SpacemiT AI Lab](zh/ai/solutions/aicomputer_solution/ailab.md) <sub>7176 字</sub>
+      - [OpenClaw](zh/ai/solutions/aicomputer_solution/openclaw.md) <sub>2297 字</sub>
+      - [Hermes](zh/ai/solutions/aicomputer_solution/hermes.md) <sub>3725 字</sub>
+      - [DeepSeek Harness](zh/ai/solutions/aicomputer_solution/ds_harness.md) <sub>1428 字</sub>
+      - [多路视频分析(YOLO Demo)](zh/ai/solutions/aicomputer_solution/multi_stream_vision.md) <sub>7832 字</sub>
+      - [多路语音识别(Multi-Stream ASR)](zh/ai/solutions/aicomputer_solution/multi_stream_asr.md) <sub>10564 字</sub>
+  - **应用软件栈**
+    - [AI SDK](zh/ai/application_tools/ai-sdk.md) <sub>15522 字</sub>
+    - [LLM SDK](zh/ai/application_tools/llmsdk.md) <sub>12494 字</sub>
+    - [应用软件栈](zh/ai/application_tools/index.md) <sub>1145 字</sub>
+    - [Speech SDK](zh/ai/application_tools/speechsdk.md) <sub>9311 字</sub>
+    - [LangChain](zh/ai/application_tools/langchain.md) <sub>811 字</sub>
+    - [Ollama](zh/ai/application_tools/ollama.md) <sub>1535 字</sub>
+    - [localAI](zh/ai/application_tools/localai.md) <sub>3489 字</sub>
+    - [openwebUI](zh/ai/application_tools/openwebui.md) <sub>1080 字</sub>
+    - [LlamaIndex](zh/ai/application_tools/llamaindex.md) <sub>1230 字</sub>
+  - **计算软件栈**
+    - [AI 计算软件栈概述](zh/ai/compute_stack/ai_compute_stack.md) <sub>624 字</sub>
+    - **AI 计算软件栈列表**
+      - [SpacemiT-ONNXRuntime](zh/ai/compute_stack/ai_compute_stack/onnxruntime.md) <sub>8720 字</sub>
+      - [ONNXRuntime EP 加速算子](zh/ai/compute_stack/ai_compute_stack/onnxruntime_ep_ops.md) <sub>15090 字</sub>
+      - [AI 计算软件栈列表](zh/ai/compute_stack/ai_compute_stack/index.md) <sub>263 字</sub>
+      - [ONNXRuntime EP FAQ](zh/ai/compute_stack/ai_compute_stack/onnxruntime_ep_faq.md) <sub>304 字</sub>
+      - [xslim](zh/ai/compute_stack/ai_compute_stack/xslim.md) <sub>5279 字</sub>
+      - [llama.cpp](zh/ai/compute_stack/ai_compute_stack/llama.cpp.md) <sub>9745 字</sub>
+      - [vLLM](zh/ai/compute_stack/ai_compute_stack/vllm.md) <sub>27 字</sub>
+      - [Triton](zh/ai/compute_stack/ai_compute_stack/triton.md) <sub>6425 字</sub>
+      - [快速入门指南](zh/ai/compute_stack/ai_compute_stack/quick_start.md) <sub>1646 字</sub>
+      - [ModelZoo](zh/ai/compute_stack/ai_compute_stack/modelzoo.md) <sub>16770 字</sub>
+    - [计算机视觉库](zh/ai/compute_stack/cv_library.md) <sub>6003 字</sub>
+    - [计算软件栈](zh/ai/compute_stack/index.md) <sub>127 字</sub>
+    - [其他数学库](zh/ai/compute_stack/math_library.md) <sub>7627 字</sub>
+  - **计算架构**
+    - [设计理念](zh/ai/architecture/concept.md) <sub>3241 字</sub>
+    - [Matrix 扩展指令集](zh/ai/architecture/instruction.md) <sub>964 字</sub>
+    - [SpacemiT AI 矩阵扩展指令集](zh/ai/architecture/ime_extension.md) <sub>53045 字</sub>
+    - [计算架构](zh/ai/architecture/index.md) <sub>92 字</sub>
+- **云**
+  - **使用手册**
+    - [进迭云平台使用指南](zh/cloud/userguide/cloud_user_guide.md) <sub>14240 字</sub>
+    - [index.md](zh/cloud/userguide/index.md) <sub>38 字</sub>
+- **工具**
+  - **使用手册**
+    - [工具使用手册](zh/tools/user_guide/index.md) <sub>159 字</sub>
+    - [交叉编译工具链使用手册](zh/tools/user_guide/cross_compiler_user_guide.md) <sub>1895 字</sub>
+    - [刷机工具使用手册](zh/tools/user_guide/flasher_user_guide.md) <sub>11463 字</sub>
+    - [JTAG 调试工具使用手册](zh/tools/user_guide/jtag_debug_user_guide.md) <sub>2701 字</sub>
+    - [Trace 使用手册](zh/tools/user_guide/trace_user_guide.md) <sub>37118 字</sub>
+  - [index.md](zh/tools/index.md) <sub>67 字</sub>
+  - **SpacemiT Studio**
+    - [产品概述](zh/tools/studio/overview.md) <sub>777 字</sub>
+    - [SpacemiT Studio](zh/tools/studio/index.md) <sub>219 字</sub>
+    - [快速入门](zh/tools/studio/quick_start.md) <sub>3084 字</sub>
+    - **用户指南**
+      - [设备管理](zh/tools/studio/user_guide/devices.md) <sub>1562 字</sub>
+      - [终端面板](zh/tools/studio/user_guide/terminal.md) <sub>996 字</sub>
+        - [烧录工具](zh/tools/studio/user_guide/dev_tools/flash.md) <sub>4666 字</sub>
+        - [系统工具](zh/tools/studio/user_guide/dev_tools/system_tools.md) <sub>1621 字</sub>
+        - [远程设备共享](zh/tools/studio/user_guide/dev_tools/remote_access.md) <sub>847 字</sub>
+        - [开发工具](zh/tools/studio/user_guide/dev_tools/index.md) <sub>245 字</sub>
+      - [用户指南](zh/tools/studio/user_guide/index.md) <sub>164 字</sub>
+      - [案例](zh/tools/studio/user_guide/cases.md) <sub>595 字</sub>
+      - [云上开发](zh/tools/studio/user_guide/cloud.md) <sub>75 字</sub>
+      - [应用中心](zh/tools/studio/user_guide/app_store.md) <sub>768 字</sub>
+      - [SpacemiT AI 助手](zh/tools/studio/user_guide/ai.md) <sub>1059 字</sub>
+      - [设置](zh/tools/studio/user_guide/settings.md) <sub>836 字</sub>
+    - [常见问题](zh/tools/studio/faq.md) <sub>2417 字</sub>
+- **比赛**
+  - [index.md](zh/competition/index.md) <sub>25 字</sub>
+  - **高校竞赛教程**
+    - **Bianbu 使用文档及案例集**
+      - [Bianbu 使用文档及案例集](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/index.md) <sub>542 字</sub>
+      - [1. K1 MUSE Pi Pro 教学资料](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/01_Muse_Pi_Pro%E6%95%99%E5%AD%A6%E8%B5%84%E6%96%99.md) <sub>9135 字</sub>
+      - [2. ROS2 使用说明](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/02_ROS2%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md) <sub>8459 字</sub>
+      - [3. gpiozero 使用说明](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/03_gpiozero%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md) <sub>3551 字</sub>
+      - [4. 外设模块参考说明](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/04_%E5%A4%96%E8%AE%BE%E6%A8%A1%E5%9D%97%E5%8F%82%E8%80%83%E8%AF%B4%E6%98%8E.md) <sub>8096 字</sub>
+      - [5. SpacemiT AI SDK](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/05_SpacemiT%20AI%20SDK.md) <sub>8821 字</sub>
+      - [6. AI基础模块参考说明](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/06_AI%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97%E5%8F%82%E8%80%83%E8%AF%B4%E6%98%8E.md) <sub>6949 字</sub>
+      - [7. 综合应用案例目录](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/07_%E7%BB%BC%E5%90%88%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B%E7%9B%AE%E5%BD%95.md) <sub>3249 字</sub>
+      - [8. 案例1—AI聊天机器人](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/08_%E6%A1%88%E4%BE%8B1%E2%80%94AI%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA.md) <sub>1363 字</sub>
+      - [9. 案例2—人脸识别应用](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/09_%E6%A1%88%E4%BE%8B2%E2%80%94%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E5%BA%94%E7%94%A8.md) <sub>832 字</sub>
+      - [10. 案例3—语音控制电机](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/10_%E6%A1%88%E4%BE%8B3%E2%80%94%E8%AF%AD%E9%9F%B3%E6%8E%A7%E5%88%B6%E7%94%B5%E6%9C%BA.md) <sub>937 字</sub>
+      - [11. 案例4—数字识别系统](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/11_%E6%A1%88%E4%BE%8B4%E2%80%94%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F.md) <sub>1109 字</sub>
+      - [12. 案例5—IMU惯导模块使用](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/12_%E6%A1%88%E4%BE%8B5%E2%80%94IMU%E6%83%AF%E5%AF%BC%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8.md) <sub>1072 字</sub>
+      - [13. 案例6—驱动开发和使用](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/13_%E6%A1%88%E4%BE%8B6%E2%80%94%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%92%8C%E4%BD%BF%E7%94%A8.md) <sub>11329 字</sub>
+      - [14. 案例7—基于EtherCAT控制电机](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/14_%E6%A1%88%E4%BE%8B7%E2%80%94%E5%9F%BA%E4%BA%8EEtherCAT%E6%8E%A7%E5%88%B6%E7%94%B5%E6%9C%BA.md) <sub>6549 字</sub>
+      - [15. 常见问题解答](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/01_Bianbu_%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/15_%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94.md) <sub>6255 字</sub>
+    - **AI 大模型开发文档及案例集**
+      - [1. 基于 K1 AI CPU 大模型部署落地](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/02_AI_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/01_%E5%9F%BA%E4%BA%8EK1_AI_CPU%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2%E8%90%BD%E5%9C%B0.md) <sub>773 字</sub>
+      - [AI 大模型开发文档及案例集](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/02_AI_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/index.md) <sub>127 字</sub>
+      - [2. 进迭云平台使用指南](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/02_AI_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/02_Bianbu_Cloud%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md) <sub>77 字</sub>
+      - [3. 大模型部署指南](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/02_AI_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/03_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97.md) <sub>3420 字</sub>
+    - **OpenHarmony 文档及案例集**
+      - [简介](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/03_OpenHarmony_%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/%E7%AE%80%E4%BB%8B.md) <sub>550 字</sub>
+      - [OpenHarmony 文档及案例集](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/03_OpenHarmony_%E6%96%87%E6%A1%A3%E5%8F%8A%E6%A1%88%E4%BE%8B%E9%9B%86/index.md) <sub>30 字</sub>
+    - [竞赛教程](zh/competition/%E7%AB%9E%E8%B5%9B%E6%95%99%E7%A8%8B/index.md) <sub>149 字</sub>
+- **教程**
+  - [index.md](zh/courses/index.md) <sub>77 字</sub>
+  - **RISC-V**
+    - [RISC-V 教程](zh/courses/RISC-V/index.md) <sub>101 字</sub>
+    - **RISC-V 架构基础及快速入门**
+      - [RISC-V 架构基础及快速入门](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/index.md) <sub>726 字</sub>
+      - [1. RISC-V 体系结构介绍](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/01_RISC-V%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D.md) <sub>5853 字</sub>
+      - [2. 实验环境搭建](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/02_%E5%AE%9E%E9%AA%8C%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md) <sub>1558 字</sub>
+      - [3. 基础指令概要](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/03_%E5%9F%BA%E7%A1%80%E6%8C%87%E4%BB%A4%E6%A6%82%E8%A6%81.md) <sub>3209 字</sub>
+      - [4. 基础指令-算数运算指令](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/04_%E5%9F%BA%E7%A1%80%E6%8C%87%E4%BB%A4-%E7%AE%97%E6%95%B0%E8%BF%90%E7%AE%97%E6%8C%87%E4%BB%A4.md) <sub>23506 字</sub>
+      - [5. 基础指令-加载存和储指令](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/05_%E5%9F%BA%E7%A1%80%E6%8C%87%E4%BB%A4-%E5%8A%A0%E8%BD%BD%E5%AD%98%E5%92%8C%E5%82%A8%E6%8C%87%E4%BB%A4.md) <sub>11543 字</sub>
+      - [6. 基础指令-条件跳转指令](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/06_%E5%9F%BA%E7%A1%80%E6%8C%87%E4%BB%A4-%E6%9D%A1%E4%BB%B6%E8%B7%B3%E8%BD%AC%E6%8C%87%E4%BB%A4.md) <sub>3980 字</sub>
+      - [7. 基础指令-跳转指令](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/07_%E5%9F%BA%E7%A1%80%E6%8C%87%E4%BB%A4-%E8%B7%B3%E8%BD%AC%E6%8C%87%E4%BB%A4.md) <sub>2524 字</sub>
+      - [8. 伪指令介绍](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/08_%E4%BC%AA%E6%8C%87%E4%BB%A4%E4%BB%8B%E7%BB%8D.md) <sub>3568 字</sub>
+      - [9. 扩展指令集](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/09_%E6%89%A9%E5%B1%95%E6%8C%87%E4%BB%A4%E9%9B%86.md) <sub>11659 字</sub>
+      - [10. 指令编码方式](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/10_%E6%8C%87%E4%BB%A4%E7%BC%96%E7%A0%81%E6%96%B9%E5%BC%8F.md) <sub>3263 字</sub>
+      - [11. 特殊指令-ECALL指令](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/11_%E7%89%B9%E6%AE%8A%E6%8C%87%E4%BB%A4-ECALL%E6%8C%87%E4%BB%A4.md) <sub>3334 字</sub>
+      - [12. 特殊指令-EBREAK指令](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/12_%E7%89%B9%E6%AE%8A%E6%8C%87%E4%BB%A4-EBREAK%E6%8C%87%E4%BB%A4.md) <sub>3299 字</sub>
+      - [13. 特殊指令-CSR操作指令](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/13_%E7%89%B9%E6%AE%8A%E6%8C%87%E4%BB%A4-CSR%E6%93%8D%E4%BD%9C%E6%8C%87%E4%BB%A4.md) <sub>3402 字</sub>
+      - [14. 寄存器-通用寄存器](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/14_%E5%AF%84%E5%AD%98%E5%99%A8-%E9%80%9A%E7%94%A8%E5%AF%84%E5%AD%98%E5%99%A8.md) <sub>2335 字</sub>
+      - [15. 寄存器-常用CSR寄存器](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/15_%E5%AF%84%E5%AD%98%E5%99%A8-%E5%B8%B8%E7%94%A8CSR%E5%AF%84%E5%AD%98%E5%99%A8.md) <sub>2687 字</sub>
+      - [16. 函数调用规范](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/16_%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E8%A7%84%E8%8C%83.md) <sub>1960 字</sub>
+      - [17. 嵌入式汇编](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/17_%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%B1%87%E7%BC%96.md) <sub>4366 字</sub>
+      - [18. 异常](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/18_%E5%BC%82%E5%B8%B8%E5%92%8C%E4%B8%AD%E6%96%AD-%E5%BC%82%E5%B8%B8.md) <sub>8989 字</sub>
+      - [19. 中断](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/19_%E5%BC%82%E5%B8%B8%E5%92%8C%E4%B8%AD%E6%96%AD-%E4%B8%AD%E6%96%AD.md) <sub>11771 字</sub>
+      - [20. RISC-V 与 ARM 架构在编程模型上的差异](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/20_RISC-V%E4%B8%8EARM%E6%9E%B6%E6%9E%84%E5%9C%A8%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%9E%8B%E4%B8%8A%E7%9A%84%E5%B7%AE%E5%BC%82.md) <sub>1949 字</sub>
+      - [21. 工具链](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/22_%E5%B7%A5%E5%85%B7%E9%93%BE.md) <sub>5571 字</sub>
+      - [22. 调试](zh/courses/RISC-V/01_RISC-V%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/23_%E8%B0%83%E8%AF%95.md) <sub>5803 字</sub>
+    - **RISC-V 扩展指令介绍及实践**
+      - [1. Vector 优化简介](zh/courses/RISC-V/02_RISC-V%E6%89%A9%E5%B1%95%E6%8C%87%E4%BB%A4%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%AE%9E%E8%B7%B5/01_Vector%E4%BC%98%E5%8C%96%E7%AE%80%E4%BB%8B.md) <sub>4490 字</sub>
+      - [RISC-V 扩展指令介绍及实践](zh/courses/RISC-V/02_RISC-V%E6%89%A9%E5%B1%95%E6%8C%87%E4%BB%A4%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%AE%9E%E8%B7%B5/index.md) <sub>330 字</sub>
+      - [2. RISC-V Vector 拓展特点](zh/courses/RISC-V/02_RISC-V%E6%89%A9%E5%B1%95%E6%8C%87%E4%BB%A4%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%AE%9E%E8%B7%B5/02_RISC-V-Vector%E6%8B%93%E5%B1%95%E7%89%B9%E7%82%B9.md) <sub>3463 字</sub>
+      - [3. RISC-V Vector 指令功能讲解](zh/courses/RISC-V/02_RISC-V%E6%89%A9%E5%B1%95%E6%8C%87%E4%BB%A4%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%AE%9E%E8%B7%B5/03_RISC-V-Vector%E6%8C%87%E4%BB%A4%E5%8A%9F%E8%83%BD%E8%AE%B2%E8%A7%A3.md) <sub>2843 字</sub>
+      - [4. AI 指令介绍](zh/courses/RISC-V/02_RISC-V%E6%89%A9%E5%B1%95%E6%8C%87%E4%BB%A4%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%AE%9E%E8%B7%B5/04_AI%E6%8C%87%E4%BB%A4%E4%BB%8B%E7%BB%8D.md) <sub>6010 字</sub>
+      - [5. 访存层级及流水线](zh/courses/RISC-V/02_RISC-V%E6%89%A9%E5%B1%95%E6%8C%87%E4%BB%A4%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%AE%9E%E8%B7%B5/05_%E8%AE%BF%E5%AD%98%E5%B1%82%E7%BA%A7%E5%8F%8A%E6%B5%81%E6%B0%B4%E7%BA%BF.md) <sub>4701 字</sub>
+      - [6. 一维向量优化案例](zh/courses/RISC-V/02_RISC-V%E6%89%A9%E5%B1%95%E6%8C%87%E4%BB%A4%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%AE%9E%E8%B7%B5/06_%E4%B8%80%E7%BB%B4%E5%90%91%E9%87%8F%E4%BC%98%E5%8C%96%E6%A1%88%E4%BE%8B.md) <sub>6406 字</sub>
+      - [7. 二维向量优化案例](zh/courses/RISC-V/02_RISC-V%E6%89%A9%E5%B1%95%E6%8C%87%E4%BB%A4%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%AE%9E%E8%B7%B5/07_%E4%BA%8C%E7%BB%B4%E5%90%91%E9%87%8F%E4%BC%98%E5%8C%96%E6%A1%88%E4%BE%8B.md) <sub>7913 字</sub>
+      - [8. 矩阵乘法优化介绍案例](zh/courses/RISC-V/02_RISC-V%E6%89%A9%E5%B1%95%E6%8C%87%E4%BB%A4%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%AE%9E%E8%B7%B5/08_%E7%9F%A9%E9%98%B5%E4%B9%98%E6%B3%95%E4%BC%98%E5%8C%96%E4%BB%8B%E7%BB%8D%E6%A1%88%E4%BE%8B.md) <sub>3567 字</sub>
+      - [9. 卷积优化介绍及案例](zh/courses/RISC-V/02_RISC-V%E6%89%A9%E5%B1%95%E6%8C%87%E4%BB%A4%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%AE%9E%E8%B7%B5/09_%E5%8D%B7%E7%A7%AF%E4%BC%98%E5%8C%96%E4%BB%8B%E7%BB%8D%E5%8F%8A%E6%A1%88%E4%BE%8B.md) <sub>3067 字</sub>
+  - **Linux**
+    - **Linux 驱动开发学习**
+      - [1. Linux 驱动开发环境介绍及搭建](zh/courses/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/00_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%BB%8B%E7%BB%8D%E5%8F%8A%E6%90%AD%E5%BB%BA.md) <sub>2954 字</sub>
+      - [Linux 驱动开发学习](zh/courses/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/index.md) <sub>474 字</sub>
+      - [2. Linux LED驱动开发及实验](zh/courses/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/01_Linux_LED%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%8F%8A%E5%AE%9E%E9%AA%8C.md) <sub>6364 字</sub>
+      - [3. Pinctl 及 gpio 使用介绍及实践](zh/courses/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/02_Pinctl_gpio%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%AE%9E%E8%B7%B5.md) <sub>9284 字</sub>
+      - [4. Linux input 子系统介绍及实践](zh/courses/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/03_Linux_input%E5%AD%90%E7%B3%BB%E7%BB%9F%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%AE%9E%E8%B7%B5.md) <sub>8296 字</sub>
+      - [5. Linux 中断介绍及实践](zh/courses/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/04_Linux%E4%B8%AD%E6%96%AD%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%AE%9E%E8%B7%B5.md) <sub>9316 字</sub>
+      - [6. Linux PWM驱动开发实践](zh/courses/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/05_Linux_PWM%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5.md) <sub>7352 字</sub>
+      - [7. Linux I2C设备驱动开发实践](zh/courses/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/06_Linux_I2C%E8%AE%BE%E5%A4%87%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5.md) <sub>19172 字</sub>
+      - [8. Linux UART设备驱动开发实践](zh/courses/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/07_Linux_UART%E8%AE%BE%E5%A4%87%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5.md) <sub>10460 字</sub>
+      - [9. Linux SPI驱动开发及实践](zh/courses/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/08_Linux_SPI%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%8F%8A%E5%AE%9E%E8%B7%B5.md) <sub>16986 字</sub>
+      - [10. Python IO使用介绍及实践](zh/courses/Linux/01_Linux_%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/09_Python_IO%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%AE%9E%E8%B7%B5.md) <sub>4459 字</sub>
+    - **Linux 应用开发学习**
+      - [1. 开发环境搭建](zh/courses/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/01_%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md) <sub>8503 字</sub>
+      - [Linux 应用开发学习](zh/courses/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/index.md) <sub>384 字</sub>
+      - [2. Shell 脚本基础](zh/courses/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/02_Shell%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80.md) <sub>20739 字</sub>
+      - [3. C 语言基础](zh/courses/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/03_C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80.md) <sub>19690 字</sub>
+      - [4. C++ 语言基础](zh/courses/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/04_C%2B%2B%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80.md) <sub>35666 字</sub>
+      - [5. 系统调用与库函数](zh/courses/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/05_%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8%E4%B8%8E%E5%BA%93%E5%87%BD%E6%95%B0.md) <sub>5425 字</sub>
+      - [6. 存储管理](zh/courses/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/06_%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86.md) <sub>5149 字</sub>
+      - [7. 文件 IO 基础](zh/courses/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/07_%E6%96%87%E4%BB%B6IO%E5%9F%BA%E7%A1%80.md) <sub>10607 字</sub>
+      - [8. 进程基础](zh/courses/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/08_%E8%BF%9B%E7%A8%8B%E5%9F%BA%E7%A1%80.md) <sub>12056 字</sub>
+      - [9. 进程间通信](zh/courses/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/09_%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1.md) <sub>16471 字</sub>
+      - [10. 线程基础](zh/courses/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/10_%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80.md) <sub>7830 字</sub>
+      - [11. 线程同步](zh/courses/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/11_%E7%BA%BF%E7%A8%8B%E5%90%8C%E6%AD%A5.md) <sub>12668 字</sub>
+      - [12. 网络编程基础](zh/courses/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/12_%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80.md) <sub>12481 字</sub>
+      - [13. 多线程网络通信](zh/courses/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/13_%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1.md) <sub>19000 字</sub>
+      - [14. DEB 包管理与使用](zh/courses/Linux/02_Linux_%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/14_DEB%E5%8C%85%E7%AE%A1%E7%90%86%E4%B8%8E%E4%BD%BF%E7%94%A8.md) <sub>8603 字</sub>
+    - [Linux 教程](zh/courses/Linux/index.md) <sub>86 字</sub>
+  - **AI**
+    - **AI 基础学习及实践**
+      - [1. Python 环境搭建](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/01_Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md) <sub>3772 字</sub>
+      - [AI基础学习及实践](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/index.md) <sub>792 字</sub>
+      - [2. C++ 环境搭建](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/02_C%2B%2B%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md) <sub>3743 字</sub>
+      - [3. 集成开发环境（IDE）](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/03_%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83.md) <sub>12789 字</sub>
+      - [4. 进迭时空 AI 框架介绍](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/04_%E8%BF%9B%E8%BF%AD%E6%97%B6%E7%A9%BAAI%E6%A1%86%E6%9E%B6%E4%BB%8B%E7%BB%8D.md) <sub>1902 字</sub>
+      - [5. ONNX Runtime 安装](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/05_onnxruntime%E5%AE%89%E8%A3%85.md) <sub>1243 字</sub>
+      - [6. ONNX Runtime 基本用法介绍](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/06_onnxruntime%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95%E4%BB%8B%E7%BB%8D.md) <sub>4922 字</sub>
+      - [7. ONNX 模型部署指南](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/07_onnxruntime%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2.md) <sub>3720 字</sub>
+      - [8. 进迭时空 Model zoo](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/08_model_zoo%E4%BB%8B%E7%BB%8D.md) <sub>2446 字</sub>
+      - [9. ONNX Runtime 故障排查](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/09_onnxruntime%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5.md) <sub>1434 字</sub>
+      - [10. ONNX Runtime 性能分析概述](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/10_onnxruntime%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90.md) <sub>3417 字</sub>
+      - [11. 模型转换概述](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/11_%E6%A8%A1%E5%9E%8B%E8%BD%AC%E6%8D%A2.md) <sub>2540 字</sub>
+      - [12. 模型量化](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/12_%E6%A8%A1%E5%9E%8B%E9%87%8F%E5%8C%96.md) <sub>3908 字</sub>
+      - [13. 计算机视觉介绍](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/13_%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E7%AE%80%E4%BB%8B.md) <sub>3095 字</sub>
+      - [14. 卷积神经网络简介](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/14_%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%AE%80%E4%BB%8B.md) <sub>6236 字</sub>
+      - [15. 目标检测简介和实例](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/15_%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E5%AE%9E%E4%BE%8B.md) <sub>4127 字</sub>
+      - [16. 人脸识别简介和实例](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/16_%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E5%AE%9E%E4%BE%8B.md) <sub>3707 字</sub>
+      - [17. 姿态识别简介和实例](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/17_%E5%A7%BF%E6%80%81%E8%AF%86%E5%88%AB%E5%AE%9E%E4%BE%8B.md) <sub>3273 字</sub>
+      - [18. 计算机视觉实验](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/18_%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E5%AE%9E%E9%AA%8C.md) <sub>6278 字</sub>
+      - [19. 循环神经网络简介](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/19_%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%AE%80%E4%BB%8B.md) <sub>2650 字</sub>
+      - [20. Ollama 使用指南](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/20_ollama%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md) <sub>1041 字</sub>
+      - [21. Transformer 简介](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/21_Transformer%E7%AE%80%E4%BB%8B.md) <sub>5840 字</sub>
+      - [22. 大语言模型简介](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/22_%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%AE%80%E4%BB%8B.md) <sub>4861 字</sub>
+      - [23. ASR实例](zh/courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/23_ASR%E5%AE%9E%E4%BE%8B.md) <sub>2963 字</sub>
+    - **AI 综合应用案例**
+      - [1. AI 聊天机器人](zh/courses/AI/02_AI%E7%BB%BC%E5%90%88%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B/01_AI%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA.md) <sub>4194 字</sub>
+      - [AI 综合应用案例](zh/courses/AI/02_AI%E7%BB%BC%E5%90%88%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B/index.md) <sub>115 字</sub>
+      - [2. 人脸识别应用](zh/courses/AI/02_AI%E7%BB%BC%E5%90%88%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B/02_%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E5%BA%94%E7%94%A8.md) <sub>4445 字</sub>
+      - [3. 语音控制电机](zh/courses/AI/02_AI%E7%BB%BC%E5%90%88%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B/03_%E8%AF%AD%E9%9F%B3%E6%8E%A7%E5%88%B6%E7%94%B5%E6%9C%BA.md) <sub>4088 字</sub>
+      - [4. 数字识别系统](zh/courses/AI/02_AI%E7%BB%BC%E5%90%88%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B/04_%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F.md) <sub>7001 字</sub>
+    - [AI 教程](zh/courses/AI/index.md) <sub>71 字</sub>
+- **技术服务**
+  - **使用手册**
+    - [index.md](zh/service/userguide/index.md) <sub>51 字</sub>
+    - [进迭时空客户项目管理服务平台](zh/service/userguide/partner_project_hub.md) <sub>1852 字</sub>
+
+## English Docs
+
+- **Hardware**
+  - **K Series AI CPU Chips**
+    - [index.md](en/hardware/key_stone/index.md) <sub>66 字</sub>
+    - **K3**
+      - [K3 Series](en/hardware/key_stone/k3/index.md) <sub>123 字</sub>
+        - [Product Brief](en/hardware/key_stone/k3/k3_docs/root_overview.md) <sub>3390 字</sub>
+        - [Chip Product Documentation](en/hardware/key_stone/k3/k3_docs/index.md) <sub>117 字</sub>
+        - [Datasheet](en/hardware/key_stone/k3/k3_docs/k3_ds.md) <sub>92413 字</sub>
+          - [Preface](en/hardware/key_stone/k3/k3_docs/k3_usermanual/00_preface.md) <sub>779 字</sub>
+          - [1. Overview](en/hardware/key_stone/k3/k3_docs/k3_usermanual/01_overview.md) <sub>2375 字</sub>
+          - [User Manual](en/hardware/key_stone/k3/k3_docs/k3_usermanual/index.md) <sub>780 字</sub>
+          - [2. Package](en/hardware/key_stone/k3/k3_docs/k3_usermanual/02_package.md) <sub>740 字</sub>
+          - [3. Pinout](en/hardware/key_stone/k3/k3_docs/k3_usermanual/03_pinout.md) <sub>85247 字</sub>
+          - [4. Electrical Characteristics](en/hardware/key_stone/k3/k3_docs/k3_usermanual/04_electrical.md) <sub>6513 字</sub>
+          - [5. Boot Modes](en/hardware/key_stone/k3/k3_docs/k3_usermanual/05_boot_modes.md) <sub>1658 字</sub>
+          - [6. Address Mapping](en/hardware/key_stone/k3/k3_docs/k3_usermanual/06_address_map.md) <sub>10723 字</sub>
+          - [7. Interrupt Assignments](en/hardware/key_stone/k3/k3_docs/k3_usermanual/07_interrupts.md) <sub>12970 字</sub>
+          - [8. CPU Subsystem](en/hardware/key_stone/k3/k3_docs/k3_usermanual/08_cpu.md) <sub>6452 字</sub>
+          - [9. Memory & Storage](en/hardware/key_stone/k3/k3_docs/k3_usermanual/09_memory_storage.md) <sub>167755 字</sub>
+          - [10. Image Subsystem](en/hardware/key_stone/k3/k3_docs/k3_usermanual/10_image.md) <sub>75692 字</sub>
+          - [11. Video Subsystem](en/hardware/key_stone/k3/k3_docs/k3_usermanual/11_video.md) <sub>6946 字</sub>
+          - [12. Display Subsystem](en/hardware/key_stone/k3/k3_docs/k3_usermanual/12_display.md) <sub>61745 字</sub>
+          - [13. Audio Subsystem](en/hardware/key_stone/k3/k3_docs/k3_usermanual/13_audio.md) <sub>23460 字</sub>
+            - [14.1 PCIe 3.0 (IOMMU)](en/hardware/key_stone/k3/k3_docs/k3_usermanual/14_connectivity/pcie.md) <sub>4663 字</sub>
+            - [14.2 USB](en/hardware/key_stone/k3/k3_docs/k3_usermanual/14_connectivity/usb.md) <sub>17077 字</sub>
+            - [14.3 Ethernet GMAC](en/hardware/key_stone/k3/k3_docs/k3_usermanual/14_connectivity/ethernet_gmac.md) <sub>6688 字</sub>
+            - [14.4 CAN-FD Interface](en/hardware/key_stone/k3/k3_docs/k3_usermanual/14_connectivity/can_fd.md) <sub>4027 字</sub>
+            - [14.5 SPI Interface](en/hardware/key_stone/k3/k3_docs/k3_usermanual/14_connectivity/spi.md) <sub>41356 字</sub>
+            - [14.6 UART Interface](en/hardware/key_stone/k3/k3_docs/k3_usermanual/14_connectivity/uart.md) <sub>55119 字</sub>
+            - [14.7 I2C Bus Interface](en/hardware/key_stone/k3/k3_docs/k3_usermanual/14_connectivity/i2c.md) <sub>68100 字</sub>
+            - [14.8 IR-RX Interface](en/hardware/key_stone/k3/k3_docs/k3_usermanual/14_connectivity/ir_rx.md) <sub>4694 字</sub>
+            - [14.9 eSPI](en/hardware/key_stone/k3/k3_docs/k3_usermanual/14_connectivity/espi.md) <sub>48354 字</sub>
+            - [14. Connectivity Subsystem](en/hardware/key_stone/k3/k3_docs/k3_usermanual/14_connectivity/index.md) <sub>343 字</sub>
+          - [15. Security Subsystem](en/hardware/key_stone/k3/k3_docs/k3_usermanual/15_security.md) <sub>26726 字</sub>
+            - [DMA](en/hardware/key_stone/k3/k3_docs/k3_usermanual/16_peripherals/dma.md) <sub>54472 字</sub>
+            - [HDMA](en/hardware/key_stone/k3/k3_docs/k3_usermanual/16_peripherals/hdma.md) <sub>40266 字</sub>
+            - [Timer & Watchdog](en/hardware/key_stone/k3/k3_docs/k3_usermanual/16_peripherals/timer_watchdog.md) <sub>15348 字</sub>
+            - [T-Sensor](en/hardware/key_stone/k3/k3_docs/k3_usermanual/16_peripherals/tsensor.md) <sub>585 字</sub>
+            - [PWM](en/hardware/key_stone/k3/k3_docs/k3_usermanual/16_peripherals/pwm.md) <sub>2887 字</sub>
+            - [Mailbox](en/hardware/key_stone/k3/k3_docs/k3_usermanual/16_peripherals/mailbox.md) <sub>38773 字</sub>
+            - [Spinlock](en/hardware/key_stone/k3/k3_docs/k3_usermanual/16_peripherals/spinlock.md) <sub>6125 字</sub>
+            - [GPIO](en/hardware/key_stone/k3/k3_docs/k3_usermanual/16_peripherals/gpio.md) <sub>13065 字</sub>
+            - [Time-Out Monitor](en/hardware/key_stone/k3/k3_docs/k3_usermanual/16_peripherals/timeout_monitor.md) <sub>504 字</sub>
+            - [Power Management & Lower Power Mode Control](en/hardware/key_stone/k3/k3_docs/k3_usermanual/16_peripherals/power_management.md) <sub>13099 字</sub>
+            - [JTAG](en/hardware/key_stone/k3/k3_docs/k3_usermanual/16_peripherals/jtag.md) <sub>1273 字</sub>
+            - [16. System Peripherals](en/hardware/key_stone/k3/k3_docs/k3_usermanual/16_peripherals/index.md) <sub>388 字</sub>
+          - [17. Clock & Reset](en/hardware/key_stone/k3/k3_docs/k3_usermanual/17_clock_reset.md) <sub>120622 字</sub>
+        - [Hardware Design Guide](en/hardware/key_stone/k3/k3_hw/k3_hw_design_guide.md) <sub>42939 字</sub>
+        - [Hardware Design Resources & Guide](en/hardware/key_stone/k3/k3_hw/index.md) <sub>177 字</sub>
+        - [Hardware AVL](en/hardware/key_stone/k3/k3_hw/k3_hw_avl.md) <sub>363 字</sub>
+        - [Hardware Design Resources](en/hardware/key_stone/k3/k3_hw/k3_hw_resources.md) <sub>1905 字</sub>
+        - [Hardware FAQ](en/hardware/key_stone/k3/k3_hw/k3_hw_faq.md) <sub>12131 字</sub>
+        - [SDK Overview](en/hardware/key_stone/k3/k3_sw/k3_sdk_user_guide.md) <sub>2281 字</sub>
+        - [Software](en/hardware/key_stone/k3/k3_sw/index.md) <sub>45 字</sub>
+    - **K1**
+        - [Product Brief](en/hardware/key_stone/k1/k1_docs/root_overview.md) <sub>3311 字</sub>
+        - [Chip Product Documentation](en/hardware/key_stone/k1/k1_docs/index.md) <sub>117 字</sub>
+        - [Datasheet](en/hardware/key_stone/k1/k1_docs/k1_ds.md) <sub>137499 字</sub>
+          - [Preface](en/hardware/key_stone/k1/k1_docs/k1_usermanual/00_preface.md) <sub>1461 字</sub>
+          - [1. Overview](en/hardware/key_stone/k1/k1_docs/k1_usermanual/1.Overview.md) <sub>4388 字</sub>
+          - [2. Package](en/hardware/key_stone/k1/k1_docs/k1_usermanual/2.Package.md) <sub>827 字</sub>
+          - [User Manual](en/hardware/key_stone/k1/k1_docs/k1_usermanual/index.md) <sub>833 字</sub>
+          - [3. Pinout](en/hardware/key_stone/k1/k1_docs/k1_usermanual/3.Pinout.md) <sub>58527 字</sub>
+          - [4. Electrical Characteristics](en/hardware/key_stone/k1/k1_docs/k1_usermanual/4.Electrical_Characteristics.md) <sub>6047 字</sub>
+          - [5. Boot Modes](en/hardware/key_stone/k1/k1_docs/k1_usermanual/5.Boot_Modes.md) <sub>1764 字</sub>
+          - [6. Address Mapping](en/hardware/key_stone/k1/k1_docs/k1_usermanual/6.Address_Mapping.md) <sub>6852 字</sub>
+          - [7. Interrupt Assignments](en/hardware/key_stone/k1/k1_docs/k1_usermanual/7.Interrupt_Assignments.md) <sub>6260 字</sub>
+          - [8. CPU System](en/hardware/key_stone/k1/k1_docs/k1_usermanual/8.CPU_System.md) <sub>47963 字</sub>
+          - [9. Top System](en/hardware/key_stone/k1/k1_docs/k1_usermanual/9.Top_System.md) <sub>220635 字</sub>
+          - [10. Memory & Storage](en/hardware/key_stone/k1/k1_docs/k1_usermanual/10.Memory_%26_Storage.md) <sub>102440 字</sub>
+          - [11. Video & Graphics](en/hardware/key_stone/k1/k1_docs/k1_usermanual/11.Video_%26_Graphics.md) <sub>28261 字</sub>
+          - [12. Display Subsystem](en/hardware/key_stone/k1/k1_docs/k1_usermanual/12.Display_Subsystem.md) <sub>145390 字</sub>
+          - [13. Video Capture Subsystem](en/hardware/key_stone/k1/k1_docs/k1_usermanual/13.Video_Capture_Subsystem.md) <sub>2420 字</sub>
+          - [14. RCPU Subsystem](en/hardware/key_stone/k1/k1_docs/k1_usermanual/14.RCPU_Subsystem.md) <sub>23693 字</sub>
+          - [15. High-Speed Interface System](en/hardware/key_stone/k1/k1_docs/k1_usermanual/15.High-Speed_Interface_System.md) <sub>139607 字</sub>
+          - [16. Low-Speed Interface System](en/hardware/key_stone/k1/k1_docs/k1_usermanual/16.Low-Speed_Interface_System.md) <sub>202398 字</sub>
+        - [Hardware Design Guide](en/hardware/key_stone/k1/k1_hw/k1_hw_design_guide.md) <sub>26141 字</sub>
+        - [Hardware Design Resources & Guide](en/hardware/key_stone/k1/k1_hw/index.md) <sub>228 字</sub>
+        - [Hardware Design Resources](en/hardware/key_stone/k1/k1_hw/k1_hw_resources.md) <sub>2032 字</sub>
+        - [Hardware AVL](en/hardware/key_stone/k1/k1_hw/k1_hw_avl.md) <sub>475 字</sub>
+        - [AVL Compatibility Verification SOP](en/hardware/key_stone/k1/k1_hw/avl_veri_sop.md) <sub>9617 字</sub>
+        - [Hardware FAQ](en/hardware/key_stone/k1/k1_hw/k1_hw_faq.md) <sub>10700 字</sub>
+      - [K1 Series](en/hardware/key_stone/k1/index.md) <sub>123 字</sub>
+        - [SDK Overview](en/hardware/key_stone/k1/k1_sw/k1_sdk_user_guide.md) <sub>2313 字</sub>
+        - [Software FAQ](en/hardware/key_stone/k1/k1_sw/k1_sw_faq.md) <sub>54251 字</sub>
+        - [Software](en/hardware/key_stone/k1/k1_sw/index.md) <sub>73 字</sub>
+  - **P Series Power Chips**
+    - **P3**
+      - [P3](en/hardware/power_stone/p3/index.md) <sub>48 字</sub>
+        - [Brief](en/hardware/power_stone/p3/p3_docs/root_overview.md) <sub>2302 字</sub>
+        - [Chip Product Documentation](en/hardware/power_stone/p3/p3_docs/index.md) <sub>73 字</sub>
+        - [Datasheet](en/hardware/power_stone/p3/p3_docs/p3_ds.md) <sub>167601 字</sub>
+    - **P1**
+        - [Brief](en/hardware/power_stone/p1/p1_docs/root_overview.md) <sub>2090 字</sub>
+        - [Chip Product Documentation](en/hardware/power_stone/p1/p1_docs/index.md) <sub>73 字</sub>
+        - [Datasheet](en/hardware/power_stone/p1/p1_docs/p1_ds.md) <sub>152611 字</sub>
+      - [P1](en/hardware/power_stone/p1/index.md) <sub>86 字</sub>
+        - [PCB Layout Guidelines](en/hardware/power_stone/p1/p1_hw/p1_pcb_guide.md) <sub>5105 字</sub>
+        - [Hardware Design Guide](en/hardware/power_stone/p1/p1_hw/index.md) <sub>59 字</sub>
+    - [index.md](en/hardware/power_stone/index.md) <sub>74 字</sub>
+    - **P1S**
+        - [P1S Brief](en/hardware/power_stone/p1s/p1s_docs/root_overview.md) <sub>2128 字</sub>
+        - [Chip Product Documentation](en/hardware/power_stone/p1s/p1s_docs/index.md) <sub>80 字</sub>
+        - [P1S Datasheet](en/hardware/power_stone/p1s/p1s_docs/p1s_ds.md) <sub>188996 字</sub>
+      - [P1S](en/hardware/power_stone/p1s/index.md) <sub>50 字</sub>
+  - **Ecosystem Hardware**
+    - **K3 Pico-ITX**
+      - [Brief](en/hardware/eco/k3_pico/root_overview.md) <sub>4552 字</sub>
+      - [K3 Pico-ITX](en/hardware/eco/k3_pico/index.md) <sub>117 字</sub>
+      - [User Guide](en/hardware/eco/k3_pico/pico_user_guide.md) <sub>20894 字</sub>
+      - [Hardware Design Resources](en/hardware/eco/k3_pico/pico_hw_resources.md) <sub>897 字</sub>
+    - **K3 CoM260 Kit**
+      - [Brief](en/hardware/eco/k3_com260/root_overview.md) <sub>3564 字</sub>
+      - [K3 CoM260 Kit](en/hardware/eco/k3_com260/index.md) <sub>148 字</sub>
+      - [Datasheet](en/hardware/eco/k3_com260/com260_ds.md) <sub>35478 字</sub>
+      - [User Guide](en/hardware/eco/k3_com260/com260_user_guide.md) <sub>15854 字</sub>
+      - [Hardware Design Resources](en/hardware/eco/k3_com260/com260_hw_resources.md) <sub>892 字</sub>
+    - [index.md](en/hardware/eco/index.md) <sub>446 字</sub>
+    - **K3 Shelf N10/N48**
+      - [Brief](en/hardware/eco/k3_shelf/root_overview.md) <sub>6004 字</sub>
+      - [K3 Shelf N10/N48](en/hardware/eco/k3_shelf/index.md) <sub>40 字</sub>
+    - **Cluster Server RV2768**
+      - [Brief](en/hardware/eco/k3_rv2768/root_overview.md) <sub>3435 字</sub>
+      - [Quick Guide](en/hardware/eco/k3_rv2768/rv2768_quick_guide.md) <sub>8299 字</sub>
+      - [Technical White Paper](en/hardware/eco/k3_rv2768/rv2768_white_paper.md) <sub>20322 字</sub>
+      - [Redfish API Reference](en/hardware/eco/k3_rv2768/rv2768_redfish.md) <sub>17698 字</sub>
+      - [index.md](en/hardware/eco/k3_rv2768/index.md) <sub>168 字</sub>
+    - **K1 MUSE Pi Pro**
+      - [Overview](en/hardware/eco/k1_muse_pi_pro/root_overview.md) <sub>2639 字</sub>
+      - [User Guide](en/hardware/eco/k1_muse_pi_pro/pi_pro_user_guide.md) <sub>17499 字</sub>
+      - [Hardware Design Resources](en/hardware/eco/k1_muse_pi_pro/pi_pro_hw.md) <sub>744 字</sub>
+      - [K1 MUSE Pi Pro](en/hardware/eco/k1_muse_pi_pro/index.md) <sub>115 字</sub>
+    - **K1 MUSE BOOK**
+      - [Overview](en/hardware/eco/k1_muse_book/root_overview.md) <sub>2658 字</sub>
+      - [User Guide](en/hardware/eco/k1_muse_book/book_user_guide.md) <sub>13718 字</sub>
+      - [Hardware Design Resources](en/hardware/eco/k1_muse_book/book_hw.md) <sub>491 字</sub>
+      - [K1 MUSE Book](en/hardware/eco/k1_muse_book/index.md) <sub>110 字</sub>
+    - **K1 MUSE Paper**
+      - [Overview](en/hardware/eco/k1_muse_paper/root_overview.md) <sub>2346 字</sub>
+      - [User Guide](en/hardware/eco/k1_muse_paper/paper_user_guide.md) <sub>4230 字</sub>
+      - [Hardware Design Resources](en/hardware/eco/k1_muse_paper/paper_hw.md) <sub>364 字</sub>
+      - [K1 MUSE Paper](en/hardware/eco/k1_muse_paper/index.md) <sub>113 字</sub>
+    - **K1 MUSE BOX**
+      - [Overview](en/hardware/eco/k1_muse_box/root_overview.md) <sub>1706 字</sub>
+      - [User Guide](en/hardware/eco/k1_muse_box/box_user_guide.md) <sub>5152 字</sub>
+      - [K1 MUSE Box](en/hardware/eco/k1_muse_box/index.md) <sub>70 字</sub>
+    - **K1 RISC-V Lab Kit**
+      - [Overview](en/hardware/eco/k1_riscv_labkit/root_overview.md) <sub>1887 字</sub>
+      - [K1 RISC-V Lab Kit](en/hardware/eco/k1_riscv_labkit/index.md) <sub>43 字</sub>
+    - **Hardware Accessories**
+      - [TF Card Debug Expansion Board User Guide](en/hardware/eco/hw_accessories/tf_card_debug_board.md) <sub>3024 字</sub>
+      - [Hardware Accessories](en/hardware/eco/hw_accessories/index.md) <sub>81 字</sub>
+    - **K1 MUSE Pi**
+      - [Overview](en/hardware/eco/k1_muse_pi/root_overview.md) <sub>1804 字</sub>
+      - [User Guide](en/hardware/eco/k1_muse_pi/pi_user_guide.md) <sub>24510 字</sub>
+      - [Hardware Design Resources](en/hardware/eco/k1_muse_pi/pi_hw.md) <sub>590 字</sub>
+      - [K1 MUSE Pi](en/hardware/eco/k1_muse_pi/index.md) <sub>104 字</sub>
+    - **K1 MUSE Shelf**
+      - [Overview](en/hardware/eco/k1_muse_shelf/root_overview.md) <sub>2400 字</sub>
+      - [K1 MUSE Shelf](en/hardware/eco/k1_muse_shelf/index.md) <sub>40 字</sub>
+    - **K1 MUSE Card**
+      - [Overview](en/hardware/eco/k1_muse_card/root_overview.md) <sub>1590 字</sub>
+      - [User Guide](en/hardware/eco/k1_muse_card/card_user_guide.md) <sub>13171 字</sub>
+      - [Hardware Design Resources](en/hardware/eco/k1_muse_card/card_hw.md) <sub>204 字</sub>
+      - [K1 MUSE Card](en/hardware/eco/k1_muse_card/index.md) <sub>110 字</sub>
+    - [Support & Services](en/hardware/eco/service.md) <sub>5454 字</sub>
+- **Software**
+  - **SDK**
+    - **ROS 2**
+      - [index.md](en/software/SDK/ros/index.md) <sub>74 字</sub>
+      - [Introduction](en/software/SDK/ros/root_overview.md) <sub>422 字</sub>
+        - [Introduction](en/software/SDK/ros/k1/intro.md) <sub>7871 字</sub>
+        - [K1](en/software/SDK/ros/k1/index.md) <sub>486 字</sub>
+        - [Images](en/software/SDK/ros/k1/image.md) <sub>661 字</sub>
+            - [1.1.1 MUSE Pi Pro](en/software/SDK/ros/k1/01_Quick_start/1.1_Hardware_Overview/1.1.1_MUSE_Pi_Pro.md) <sub>550 字</sub>
+            - [1.1 Hardware Overview](en/software/SDK/ros/k1/01_Quick_start/1.1_Hardware_Overview/index.md) <sub>51 字</sub>
+            - [1.2.1 MUSE Pi Pro Firmware Flashing](en/software/SDK/ros/k1/01_Quick_start/1.2_System_Flashing/1.2.1_MUSE_Pi_Pro.md) <sub>1224 字</sub>
+            - [1.2 System Flashing](en/software/SDK/ros/k1/01_Quick_start/1.2_System_Flashing/index.md) <sub>73 字</sub>
+          - [1.3 Environment Setup](en/software/SDK/ros/k1/01_Quick_start/1.3_Environment_Setup.md) <sub>2613 字</sub>
+          - [1. Quick Start](en/software/SDK/ros/k1/01_Quick_start/index.md) <sub>312 字</sub>
+          - [1.4 Remote Access](en/software/SDK/ros/k1/01_Quick_start/1.4_Remote_Access.md) <sub>3189 字</sub>
+          - [1.5 Resources Summary](en/software/SDK/ros/k1/01_Quick_start/1.5_Resources_Summary.md) <sub>2105 字</sub>
+          - [1.6 Supported Hardware List](en/software/SDK/ros/k1/01_Quick_start/1.6_Supported_Hardware_List.md) <sub>3211 字</sub>
+          - [2.1 System Feature Overview](en/software/SDK/ros/k1/02_System_configuration/2.1_System_Functional_Specification.md) <sub>3419 字</sub>
+          - [2.2 Development Documentation Index](en/software/SDK/ros/k1/02_System_configuration/2.2_Detailed_List_of_Development_Documents.md) <sub>3423 字</sub>
+          - [2.3 System Dependency Installation](en/software/SDK/ros/k1/02_System_configuration/2.3_System_Dependency_Installation.md) <sub>687 字</sub>
+          - [2. ROS2_LXQT Basic Usage](en/software/SDK/ros/k1/02_System_configuration/index.md) <sub>412 字</sub>
+          - [2.4 Python Usage](en/software/SDK/ros/k1/02_System_configuration/2.4_Python_Usage.md) <sub>9634 字</sub>
+          - [2.5 C++ Usage](en/software/SDK/ros/k1/02_System_configuration/2.5_CPP_Usage.md) <sub>16912 字</sub>
+            - [2.6.1 Docker Environment Setup](en/software/SDK/ros/k1/02_System_configuration/2.6_Docker_Usage/2.6.1_Docker_setup.md) <sub>104 字</sub>
+            - [2.6.2 Node-RED Usage Guide](en/software/SDK/ros/k1/02_System_configuration/2.6_Docker_Usage/2.6.2_Node-RED_Usage.md) <sub>3032 字</sub>
+            - [2.6.3 JupyterLab Usage Guide](en/software/SDK/ros/k1/02_System_configuration/2.6_Docker_Usage/2.6.3_JupyterLab_Usage.md) <sub>3576 字</sub>
+            - [2.6.4 DemoZoo Container Usage Guide](en/software/SDK/ros/k1/02_System_configuration/2.6_Docker_Usage/2.6.4_DemoZoo_Usage.md) <sub>4558 字</sub>
+            - [2.6 Docker Usage](en/software/SDK/ros/k1/02_System_configuration/2.6_Docker_Usage/index.md) <sub>238 字</sub>
+          - [2.7 Automatic Startup on Boot](en/software/SDK/ros/k1/02_System_configuration/2.7_Automatic_Startup.md) <sub>2175 字</sub>
+            - [3.1 Image Capture and Applications](en/software/SDK/ros/k1/03_Basic_applications/3.1_Image_Capture_and_Applications/index.md) <sub>201 字</sub>
+            - [3.1.1 MIPI camera usage](en/software/SDK/ros/k1/03_Basic_applications/3.1_Image_Capture_and_Applications/3.1.1_Using_MIPI_Camera.md) <sub>5207 字</sub>
+            - [3.1.2 USB camera usage](en/software/SDK/ros/k1/03_Basic_applications/3.1_Image_Capture_and_Applications/3.1.2_Using_USB_Camera.md) <sub>6444 字</sub>
+            - [3.1.3 Using a USB Camera with Python](en/software/SDK/ros/k1/03_Basic_applications/3.1_Image_Capture_and_Applications/3.1.3_USB_Camera_Python_Usage.md) <sub>2516 字</sub>
+            - [Microphone Hardware Setup and Debugging](en/software/SDK/ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/3.2.1_Mic_Hardware_Preparation.md) <sub>3543 字</sub>
+            - [3.2 Audio Capture and Applications](en/software/SDK/ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/index.md) <sub>310 字</sub>
+            - [Speaker Hardware Setup and Debugging](en/software/SDK/ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/3.2.2_Speaker_Hardware_Preparation.md) <sub>2449 字</sub>
+            - [Audio Capture with USB Microphone](en/software/SDK/ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/3.2.3_USB_Microphone_Audio_Capture.md) <sub>864 字</sub>
+            - [Array Microphone Usage Guide](en/software/SDK/ros/k1/03_Basic_applications/3.2_Audio_Capture_and_Applications/3.2.4_Using_Array_Microphone.md) <sub>835 字</sub>
+            - [3.3.1 Pin Definition Description](en/software/SDK/ros/k1/03_Basic_applications/3.3_Pin_Applications/3.3.1_Pin_Definitions.md) <sub>1324 字</sub>
+            - [3.3.2 GPIO Usage Instructions](en/software/SDK/ros/k1/03_Basic_applications/3.3_Pin_Applications/3.3.2_GPIO_Applications.md) <sub>3730 字</sub>
+            - [3.3.3 PWM Usage Instructions](en/software/SDK/ros/k1/03_Basic_applications/3.3_Pin_Applications/3.3.3_Using_PWM.md) <sub>2475 字</sub>
+            - [3.3 Pin Applications](en/software/SDK/ros/k1/03_Basic_applications/3.3_Pin_Applications/index.md) <sub>272 字</sub>
+            - [3.3.4 I2C Usage Instructions](en/software/SDK/ros/k1/03_Basic_applications/3.3_Pin_Applications/3.3.4_Using_I2C.md) <sub>3019 字</sub>
+            - [3.3.5 SPI Usage Instructions](en/software/SDK/ros/k1/03_Basic_applications/3.3_Pin_Applications/3.3.5_Using_SPI_.md) <sub>7224 字</sub>
+            - [3.4.1 JDK Introduction](en/software/SDK/ros/k1/03_Basic_applications/3.4_Multimedia_Applications/3.4.1_Introduction_to_JDK.md) <sub>6869 字</sub>
+            - [3.4.2 JDK Reference Examples](en/software/SDK/ros/k1/03_Basic_applications/3.4_Multimedia_Applications/3.4.2_JDK_Reference_Examples.md) <sub>14539 字</sub>
+            - [3.4.3 JDK API Guide (with Python Bindings)](en/software/SDK/ros/k1/03_Basic_applications/3.4_Multimedia_Applications/3.4.3_JDK_API_Descriptions.md) <sub>13117 字</sub>
+            - [3.4 Multimedia Applications](en/software/SDK/ros/k1/03_Basic_applications/3.4_Multimedia_Applications/index.md) <sub>210 字</sub>
+          - [3. Basic Application Development](en/software/SDK/ros/k1/03_Basic_applications/index.md) <sub>561 字</sub>
+            - [3.5.1 OpenCV Usage on RVV](en/software/SDK/ros/k1/03_Basic_applications/3.5_High_Performance_Computing_Library/3.5.1_opencv_rvv.md) <sub>34436 字</sub>
+            - [3.5.2 Eigen Usage on RVV](en/software/SDK/ros/k1/03_Basic_applications/3.5_High_Performance_Computing_Library/3.5.2_eigen-rvv.md) <sub>63810 字</sub>
+            - [3.5.3  OpenBLAS RVV Usage](en/software/SDK/ros/k1/03_Basic_applications/3.5_High_Performance_Computing_Library/3.5.3_openblas-rvv.md) <sub>18458 字</sub>
+            - [3.5.4 OpenVML RVV Usage](en/software/SDK/ros/k1/03_Basic_applications/3.5_High_Performance_Computing_Library/3.5.4_openVML-rvv.md) <sub>24 字</sub>
+            - [3.5 High-Performance Computing Library Usage](en/software/SDK/ros/k1/03_Basic_applications/3.5_High_Performance_Computing_Library/index.md) <sub>216 字</sub>
+            - [3.6.1 Depth Camera Usage Guide](en/software/SDK/ros/k1/03_Basic_applications/3.6_SDK_integration/3.6.1_Depth_Camera.md) <sub>14211 字</sub>
+            - [3.6 SDK SDK Integration](en/software/SDK/ros/k1/03_Basic_applications/3.6_SDK_integration/index.md) <sub>70 字</sub>
+            - [3.7.1 OpenCL Image Preprocessing Acceleration](en/software/SDK/ros/k1/03_Basic_applications/3.7_Image_processing_acceleration/3.7.1_opengl_img_preproc_acc.md) <sub>7410 字</sub>
+            - [3.7 Image Processing Acceleration](en/software/SDK/ros/k1/03_Basic_applications/3.7_Image_processing_acceleration/index.md) <sub>108 字</sub>
+          - [4.1 Demo Zoo Overview](en/software/SDK/ros/k1/04_Model_deployment/4.1_Demo_Zoo_Overview.md) <sub>2487 字</sub>
+          - [4.2 Python Inference Example](en/software/SDK/ros/k1/04_Model_deployment/4.2_Python_Inference_Example.md) <sub>2525 字</sub>
+          - [4.3 C++ Inference Example](en/software/SDK/ros/k1/04_Model_deployment/4.3_CPP_Inference_Example.md) <sub>5557 字</sub>
+          - [4.4 YOLOv8 Training and Deployment Pipeline](en/software/SDK/ros/k1/04_Model_deployment/4.4_Training_and_Deployment_Pipeline.md) <sub>5667 字</sub>
+          - [4. Model Development Guide](en/software/SDK/ros/k1/04_Model_deployment/index.md) <sub>316 字</sub>
+          - [5.0 Preliminary Knowledge](en/software/SDK/ros/k1/05_AI_Feature_Experience/5.0_preliminary_knowledge.md) <sub>2717 字</sub>
+            - [5.1.1 Voice Activity Detection (VAD)](en/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.1_Voice_Activity_Detection.md) <sub>1440 字</sub>
+            - [5.1 Quick Start](en/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/index.md) <sub>452 字</sub>
+            - [5.1.2 Speech to Text (ASR)](en/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.2_Speech_to_Text.md) <sub>2030 字</sub>
+            - [5.1.3 Large Language Models (LLM)](en/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.3_Large_Language_Models.md) <sub>2197 字</sub>
+            - [5.1.4 Speech Input LLM Output](en/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.4_Speech_Input_LLM_Output.md) <sub>2392 字</sub>
+            - [5.1.5 Text to Speech (TTS)](en/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.5_Text_to_Speech.md) <sub>3335 字</sub>
+            - [5.1.6 Function Calling](en/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.6_Function_Call.md) <sub>1538 字</sub>
+            - [5.1.7 Vision Language Model (VLM)](en/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.7_Vision_Language_Model.md) <sub>1746 字</sub>
+            - [5.1.8 LLMDet](en/software/SDK/ros/k1/05_AI_Feature_Experience/5.1_quickly_start/5.1.8_LLMDet.md) <sub>4754 字</sub>
+            - [5.2.1 Ultralytics Usage Guide](en/software/SDK/ros/k1/05_AI_Feature_Experience/5.2_AI_Framework_Support/5.2.1_ultralytics_usage.md) <sub>3418 字</sub>
+            - [5.2 AI Framwork Support](en/software/SDK/ros/k1/05_AI_Feature_Experience/5.2_AI_Framework_Support/index.md) <sub>78 字</sub>
+          - [5. AI Algorithm Usage Guide](en/software/SDK/ros/k1/05_AI_Feature_Experience/index.md) <sub>182 字</sub>
+            - [6.1.1 Bianbu Robot Installation](en/software/SDK/ros/k1/06_Robot_development/6.1_OS_Preparation/6.1.1_Bianbu_Robot_Installation.md) <sub>714 字</sub>
+            - [6.1 OS Preparation](en/software/SDK/ros/k1/06_Robot_development/6.1_OS_Preparation/index.md) <sub>136 字</sub>
+            - [6.1.2 ROS2 Installation](en/software/SDK/ros/k1/06_Robot_development/6.1_OS_Preparation/6.1.2_ROS2_Installation.md) <sub>11287 字</sub>
+              - [USB Camera Node](en/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/1_USB_Camera_Node.md) <sub>7944 字</sub>
+              - [6.2.1 Camera System](en/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/index.md) <sub>104 字</sub>
+              - [ROS2 MIPI Camera Node API](en/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.1_Camera_System/2_ROS_Camera_Coding.md) <sub>6034 字</sub>
+              - [Message Interface Specifications](en/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/1_Message_Interface_Description.md) <sub>5192 字</sub>
+              - [Audio Capture Node](en/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/2_Audio_Acquisition_Node.md) <sub>4575 字</sub>
+              - [6.2.2 Human-Robot Interaction](en/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/index.md) <sub>195 字</sub>
+              - [VAD Node](en/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/3_VAD_Node.md) <sub>3244 字</sub>
+              - [ASR Node](en/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.2_Human-Robot_Interaction/4_ASR_Node.md) <sub>3467 字</sub>
+            - [6.2 ROS2 API](en/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/index.md) <sub>237 字</sub>
+              - [6.2.3 Robot Perception](en/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.3_Robot_Perception/index.md) <sub>21 字</sub>
+              - [Lidar Usage](en/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.4_Sensor_System/1_Using_LiDAR.md) <sub>1017 字</sub>
+              - [CMP10A IMU usage](en/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.4_Sensor_System/2_CMP10A_IMU.md) <sub>1498 字</sub>
+              - [6.2.4 Sensor System](en/software/SDK/ros/k1/06_Robot_development/6.2_ROS2_API/6.2.4_Sensor_System/index.md) <sub>83 字</sub>
+              - [6.3.1 Object Detection](en/software/SDK/ros/k1/06_Robot_development/6.3_Visual_DNN_Library/6.3.1_Object_Detection/index.md) <sub>45 字</sub>
+              - [YOLO](en/software/SDK/ros/k1/06_Robot_development/6.3_Visual_DNN_Library/6.3.1_Object_Detection/6.3.1.1_YOLO.md) <sub>8292 字</sub>
+              - [mobilenetv2](en/software/SDK/ros/k1/06_Robot_development/6.3_Visual_DNN_Library/6.3.2_Image_Classification/6.3.2.1_mobilenetv2.md) <sub>6593 字</sub>
+              - [6.3.2 Image Classification](en/software/SDK/ros/k1/06_Robot_development/6.3_Visual_DNN_Library/6.3.2_Image_Classification/index.md) <sub>63 字</sub>
+              - [UNet](en/software/SDK/ros/k1/06_Robot_development/6.3_Visual_DNN_Library/6.3.3_Image_Segmentation/6.3.3.1_unet.md) <sub>7354 字</sub>
+              - [6.3.3 Image Segmentation](en/software/SDK/ros/k1/06_Robot_development/6.3_Visual_DNN_Library/6.3.3_Image_Segmentation/index.md) <sub>47 字</sub>
+            - [6.3 Visual DNN Library](en/software/SDK/ros/k1/06_Robot_development/6.3_Visual_DNN_Library/index.md) <sub>215 字</sub>
+              - [Human Pose Detection](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/1_pose_detection.md) <sub>8514 字</sub>
+              - [6.4.1 Robot Perception](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/index.md) <sub>263 字</sub>
+              - [YOLO-World Object Detection](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/2_yoloworld_detection.md) <sub>7877 字</sub>
+              - [Mobile Robot Human Following](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/3_Robot_Human_Following.md) <sub>6015 字</sub>
+              - [OCR (Optical Character Recognition)](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/4_OCR.md) <sub>3675 字</sub>
+              - [YOLOE Object Detection](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/5_YOLOE_Detection.md) <sub>7074 字</sub>
+              - [Automatic Speech Recognition (ASR)](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/1_Speech_to_Text.md) <sub>4149 字</sub>
+              - [LLM Chat Module](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/2_LLM_Applications.md) <sub>5785 字</sub>
+              - [Sound Localization](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/3_circle_mic_sound_location.md) <sub>3130 字</sub>
+              - [6.4.2 Human-Robot Interaction](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/index.md) <sub>215 字</sub>
+              - [Text-to-Speech (TTS)](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/Text_To_Speech.md) <sub>6862 字</sub>
+              - [SLAM](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/1_SLAM_Mapping.md) <sub>7067 字</sub>
+              - [Navigation2](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/2_Navigation2.md) <sub>5878 字</sub>
+              - [VSLAM (SVO Series)](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/3_VSLAM.md) <sub>5321 字</sub>
+              - [6.4.3 Map Building and Navigation](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/index.md) <sub>219 字</sub>
+              - [Dynamic Object Following](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/4_Dynamic_Object_Following.md) <sub>16219 字</sub>
+              - [VSLAM Based on RTAB-Map](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.3_SLAM_And_Navigation/5_RTAB%E2%80%90Map_VSLAM.md) <sub>4611 字</sub>
+            - [6.4 Robot Algorithm Library](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/index.md) <sub>334 字</sub>
+              - [LeRobot User Guide](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.4_AI_Robotic_Arm/1_lerobot.md) <sub>14694 字</sub>
+              - [6.4.4 AI Robotic Arm](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.4_AI_Robotic_Arm/index.md) <sub>51 字</sub>
+              - [Control Motor Based on EtherCAT](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.5_Control_Protocol/Ethercat_motor_driver.md) <sub>8372 字</sub>
+              - [6.4.5 Control Protocols](en/software/SDK/ros/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.5_Control_Protocol/index.md) <sub>77 字</sub>
+              - [Human-Robot Interaction](en/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.1_human-robot-interaction/index.md) <sub>113 字</sub>
+              - [Human-Following AGV](en/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.1_human-robot-interaction/1_agv-follow.md) <sub>5892 字</sub>
+              - [Smart Retail with Robotic Arm](en/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.1_human-robot-interaction/2_smart-retail.md) <sub>5916 字</sub>
+              - [AGV Mapping and Navigation](en/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.2_environmental-perception/1_slam%26navigation.md) <sub>6932 字</sub>
+              - [Environmental Perception](en/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.2_environmental-perception/index.md) <sub>63 字</sub>
+              - [AI Chatbot](en/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.3_large-language-model/1_ai-chat.md) <sub>2984 字</sub>
+              - [Large Languange Model](en/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.3_large-language-model/index.md) <sub>51 字</sub>
+              - [Wheeltec ROS Differential Drive Robot Adaptation](en/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.4_WHEELTEC-robot-adaptation/1_adaptation-for-WHEELTEC-robot.md) <sub>6869 字</sub>
+              - [Wheeltec ROS Differential Drive Robot Adaptation](en/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/6.5.4_WHEELTEC-robot-adaptation/index.md) <sub>131 字</sub>
+            - [6.5 Robot Application Cases](en/software/SDK/ros/k1/06_Robot_development/6.5_Robot_Application_Cases/index.md) <sub>517 字</sub>
+            - [6.6.1 Isaac Sim Simulation Mapping](en/software/SDK/ros/k1/06_Robot_development/6.6_Robot_Simulation_Development/6.6.1_Isaac_ROS_VSLAM.md) <sub>8329 字</sub>
+            - [6.6.2 Isaac Sim Simulation Navigation](en/software/SDK/ros/k1/06_Robot_development/6.6_Robot_Simulation_Development/6.6.2_Isaac_ROS_Navigation.md) <sub>5925 字</sub>
+            - [6.6 Robot Simulation Development](en/software/SDK/ros/k1/06_Robot_development/6.6_Robot_Simulation_Development/index.md) <sub>156 字</sub>
+            - [6.7.1 ROS 2 RViz2 Visualization on Windows](en/software/SDK/ros/k1/06_Robot_development/6.7_ROS2_Development_Tool_Usage/6.7.1_Windows_ros2_rviz2.md) <sub>2149 字</sub>
+            - [6.7 ROS2 Common ROS2 Functions Guide](en/software/SDK/ros/k1/06_Robot_development/6.7_ROS2_Development_Tool_Usage/index.md) <sub>96 字</sub>
+          - [6. Robot Application Development](en/software/SDK/ros/k1/06_Robot_development/index.md) <sub>487 字</sub>
+          - [7.1 Model Quantization Development](en/software/SDK/ros/k1/07_Advanced_development/7.1_Model_Quantization.md) <sub>4684 字</sub>
+          - [7.2 perf + FlameGraph Tutorial](en/software/SDK/ros/k1/07_Advanced_development/7.2_perf.md) <sub>5580 字</sub>
+          - [7.3 Netdata Tutorial](en/software/SDK/ros/k1/07_Advanced_development/7.3_netdata.md) <sub>3582 字</sub>
+          - [7. Advanced Development](en/software/SDK/ros/k1/07_Advanced_development/index.md) <sub>191 字</sub>
+        - [FAQ](en/software/SDK/ros/k1/faqs.md) <sub>1645 字</sub>
+        - [Appendix](en/software/SDK/ros/k1/Appendix.md) <sub>12 字</sub>
+        - [1. Platform Overview](en/software/SDK/ros/k3/01-%E5%B9%B3%E5%8F%B0%E6%A6%82%E8%A7%88.md) <sub>7495 字</sub>
+        - [K3](en/software/SDK/ros/k3/index.md) <sub>265 字</sub>
+          - [2.1 Power-On and Boot](en/software/SDK/ros/k3/02-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/2.1-%E4%B8%8A%E7%94%B5%E5%BC%80%E6%9C%BA.md) <sub>5369 字</sub>
+          - [2.2 Flashing](en/software/SDK/ros/k3/02-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/2.2-%E9%95%9C%E5%83%8F%E7%83%A7%E5%BD%95.md) <sub>3044 字</sub>
+          - [2. Quick Start](en/software/SDK/ros/k3/02-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/index.md) <sub>149 字</sub>
+          - [2.3 Building and Compilation](en/software/SDK/ros/k3/02-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/2.3-%E6%9E%84%E5%BB%BA%E7%BC%96%E8%AF%91.md) <sub>20603 字</sub>
+          - [2.4 Running Examples](en/software/SDK/ros/k3/02-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/2.4-%E7%A4%BA%E4%BE%8B%E8%BF%90%E8%A1%8C.md) <sub>3739 字</sub>
+          - [3.1 Reachy Mini Desktop Robot](en/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.1-%E6%A1%8C%E9%9D%A2%E6%9C%BA%E5%99%A8%E4%BA%BAReachy-mini.md) <sub>19003 字</sub>
+          - [3.2 Linksee Wheeled Robot](en/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.2-%E8%BD%AE%E5%BC%8F%E6%9C%BA%E5%99%A8%E4%BA%BALinksee.md) <sub>79892 字</sub>
+            - [3.3.1 Real-World Training and Inference](en/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.3-%E6%9C%BA%E6%A2%B0%E8%87%82/3.3.1-%E7%9C%9F%E6%9C%BA%E8%AE%AD%E7%BB%83%E6%8E%A8%E7%90%86.md) <sub>32021 字</sub>
+            - [3.3.2 Simulation Training and Inference](en/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.3-%E6%9C%BA%E6%A2%B0%E8%87%82/3.3.2-%E4%BB%BF%E7%9C%9F%E8%AE%AD%E7%BB%83%E6%8E%A8%E7%90%86.md) <sub>14170 字</sub>
+            - [3.3 Robotic Arm (LeRobot)](en/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.3-%E6%9C%BA%E6%A2%B0%E8%87%82/index.md) <sub>179 字</sub>
+            - [3.3.3 ONNX Deployment Guide](en/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.3-%E6%9C%BA%E6%A2%B0%E8%87%82/3.3.3-ONNX%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97.md) <sub>29456 字</sub>
+          - [3. Reference Solutions](en/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/index.md) <sub>262 字</sub>
+          - [3.4 Humanoid Robot](en/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.4-%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BAHumanoid.md) <sub>20637 字</sub>
+          - [3.5 RiVision - Edge AI Video Analytics](en/software/SDK/ros/k3/03-%E5%8F%82%E8%80%83%E6%96%B9%E6%A1%88/3.5-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E5%88%86%E6%9E%90Rivision.md) <sub>22212 字</sub>
+            - [4.1.1 ASR](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.1-%E8%AF%AD%E9%9F%B3/4.1.1-ASR.md) <sub>33084 字</sub>
+            - [4.1 Speech](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.1-%E8%AF%AD%E9%9F%B3/index.md) <sub>2185 字</sub>
+            - [4.1.2 TTS](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.1-%E8%AF%AD%E9%9F%B3/4.1.2-TTS.md) <sub>22422 字</sub>
+            - [4.1.3 VAD](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.1-%E8%AF%AD%E9%9F%B3/4.1.3-VAD.md) <sub>19498 字</sub>
+            - [4.1.4 Voiceprint](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.1-%E8%AF%AD%E9%9F%B3/4.1.4-%E5%A3%B0%E7%BA%B9.md) <sub>16727 字</sub>
+            - [4.2.1 Object Detection](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.1-%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B.md) <sub>17422 字</sub>
+            - [4.2 Vision](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/index.md) <sub>439 字</sub>
+            - [4.2.2 Instance Segmentation](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.2-%E5%AE%9E%E4%BE%8B%E5%88%86%E5%89%B2.md) <sub>15461 字</sub>
+            - [4.2.3 Human Pose Estimation](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.3-%E4%BA%BA%E4%BD%93%E5%A7%BF%E6%80%81.md) <sub>15803 字</sub>
+            - [4.2.4 Face Detection](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.4-%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B.md) <sub>14923 字</sub>
+            - [4.2.5 Gesture Recognition](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.5-%E6%89%8B%E5%8A%BF%E8%AF%86%E5%88%AB.md) <sub>13790 字</sub>
+            - [4.2.6 Image Classification](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.6-%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB.md) <sub>13359 字</sub>
+            - [4.2.7 Facial Expression and Emotion Recognition](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.7-%E8%A1%A8%E6%83%85%E4%B8%8E%E6%83%85%E7%BB%AA%E8%AF%86%E5%88%AB.md) <sub>12621 字</sub>
+            - [4.2.8 Action Recognition](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.8-%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md) <sub>17531 字</sub>
+            - [4.2.9 Multi-Object Tracking](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.9-%E5%A4%9A%E7%9B%AE%E6%A0%87%E8%B7%9F%E8%B8%AA.md) <sub>17809 字</sub>
+            - [4.2.10 Face Recognition](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.2-%E8%A7%86%E8%A7%89/4.2.10-%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB.md) <sub>15482 字</sub>
+          - [4.3 Reinforcement Learning](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.3-%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0.md) <sub>20301 字</sub>
+          - [4.4 LLM](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.4-LLM.md) <sub>14952 字</sub>
+          - [4. AI and Algorithms](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/index.md) <sub>214 字</sub>
+          - [4.5 Agent](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.5-Agent.md) <sub>22615 字</sub>
+          - [4.6 VLM](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.6-VLM.md) <sub>170 字</sub>
+          - [4.7 Voice Control](en/software/SDK/ros/k3/04-AI%E4%B8%8E%E7%AE%97%E6%B3%95/4.7-%E8%AF%AD%E9%9F%B3%E6%8E%A7%E5%88%B6.md) <sub>26070 字</sub>
+            - [5.1.1 Object Detection](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.1-%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B.md) <sub>6524 字</sub>
+            - [5.1 Machine Perception](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/index.md) <sub>371 字</sub>
+            - [5.1.2 Face Detection](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.2-%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B.md) <sub>5681 字</sub>
+            - [5.1.3 Person Detection](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.3-%E4%BA%BA%E5%9E%8B%E6%A3%80%E6%B5%8B.md) <sub>6271 字</sub>
+            - [5.1.4 Body Pose Estimation](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.4-%E4%BA%BA%E4%BD%93%E5%A7%BF%E6%80%81.md) <sub>6095 字</sub>
+            - [5.1.5 Gesture Recognition](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.5-%E6%89%8B%E5%8A%BF%E8%AF%86%E5%88%AB.md) <sub>6603 字</sub>
+            - [5.1.6 Instance Segmentation](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.6-%E5%AE%9E%E4%BE%8B%E5%88%86%E5%89%B2.md) <sub>7895 字</sub>
+            - [5.1.7 Semantic Segmentation](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.7-%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2.md) <sub>7881 字</sub>
+            - [5.1.8 Object Tracking](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.8-%E7%9B%AE%E6%A0%87%E8%B7%9F%E8%B8%AA.md) <sub>7670 字</sub>
+            - [5.1.9 Action Recognition](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.1-%E6%9C%BA%E5%99%A8%E6%84%9F%E7%9F%A5/5.1.9-%E5%8A%A8%E4%BD%9C%E8%AF%86%E5%88%AB.md) <sub>7644 字</sub>
+            - [5.2.1 Chassis Control](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.2-%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6/5.2.1-%E5%BA%95%E7%9B%98%E6%8E%A7%E5%88%B6.md) <sub>11472 字</sub>
+            - [5.2 Motion Control](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.2-%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6/index.md) <sub>166 字</sub>
+            - [5.2.2 Gimbal Control](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.2-%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6/5.2.2-%E4%BA%91%E5%8F%B0%E6%8E%A7%E5%88%B6.md) <sub>17168 字</sub>
+            - [5.2.3 Gripper Control](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.2-%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6/5.2.3-%E5%A4%B9%E7%88%AA%E6%8E%A7%E5%88%B6.md) <sub>12232 字</sub>
+            - [5.2.4 Robot Arm Control](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.2-%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6/5.2.4-%E6%9C%BA%E6%A2%B0%E8%87%82%E6%8E%A7%E5%88%B6.md) <sub>15194 字</sub>
+            - [5.3.1 Cartographer](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.3-%E5%AE%9A%E4%BD%8D%E5%AF%BC%E8%88%AA/5.3.1-cartographer.md) <sub>10329 字</sub>
+            - [5.3.2 slam_toolbox](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.3-%E5%AE%9A%E4%BD%8D%E5%AF%BC%E8%88%AA/5.3.2-slam_toolbox.md) <sub>7807 字</sub>
+            - [5.3 Localization and Navigation](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.3-%E5%AE%9A%E4%BD%8D%E5%AF%BC%E8%88%AA/index.md) <sub>184 字</sub>
+            - [5.3.3 rtabmap](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.3-%E5%AE%9A%E4%BD%8D%E5%AF%BC%E8%88%AA/5.3.3-rtabmap.md) <sub>8682 字</sub>
+            - [5.3.4 ORB-SLAM3](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.3-%E5%AE%9A%E4%BD%8D%E5%AF%BC%E8%88%AA/5.3.4-orbslam3.md) <sub>12719 字</sub>
+            - [5.4 nav2](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.4-%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92/5.4-nav2.md) <sub>8720 字</sub>
+            - [5.4 Path Planning](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.4-%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92/index.md) <sub>39 字</sub>
+            - [5.5.1 Encoding](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.5-%E5%AA%92%E4%BD%93%E4%BC%A0%E8%BE%93/5.5.1-%E7%BC%96%E7%A0%81.md) <sub>5615 字</sub>
+            - [5.5.2 Decoding](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.5-%E5%AA%92%E4%BD%93%E4%BC%A0%E8%BE%93/5.5.2-%E8%A7%A3%E7%A0%81.md) <sub>5506 字</sub>
+            - [5.5 Media Transmission](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.5-%E5%AA%92%E4%BD%93%E4%BC%A0%E8%BE%93/index.md) <sub>79 字</sub>
+          - [5. Robot Development](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/index.md) <sub>266 字</sub>
+            - [5.6.2 IMU](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.2-IMU.md) <sub>9442 字</sub>
+            - [5.6.3 Motor](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.3-%E7%94%B5%E6%9C%BA.md) <sub>11610 字</sub>
+            - [5.6.4 Lidar](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.4-%E9%9B%B7%E8%BE%BE.md) <sub>11099 字</sub>
+            - [5.6.5 Button](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.5-%E6%8C%89%E9%94%AE.md) <sub>10769 字</sub>
+            - [5.6.6 Power](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.6-%E7%94%B5%E6%BA%90.md) <sub>11236 字</sub>
+            - [5.6 Basic Sensors](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/index.md) <sub>282 字</sub>
+            - [5.6.7 LED](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.7-LED.md) <sub>10408 字</sub>
+            - [5.6.8 IO](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.8-IO.md) <sub>8264 字</sub>
+            - [5.6.9 WiFi](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.9-WiFi.md) <sub>9660 字</sub>
+            - [5.6.11 NFC](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.11-NFC.md) <sub>13880 字</sub>
+            - [5.6.12 Light Sensor](en/software/SDK/ros/k3/05-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E5%8F%91/5.6-%E5%9F%BA%E7%A1%80%E4%BC%A0%E6%84%9F%E5%99%A8/5.6.12-%E5%85%89%E6%84%9F.md) <sub>11230 字</sub>
+            - [6.1.1 dma](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.1-%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1/6.1.1-dma.md) <sub>6479 字</sub>
+            - [6.1 System Services](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.1-%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1/index.md) <sub>93 字</sub>
+            - [6.1.2 shm](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.1-%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1/6.1.2-shm.md) <sub>7623 字</sub>
+            - [6.1.3 sys](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.1-%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1/6.1.3-sys.md) <sub>4629 字</sub>
+            - [6.2.1 Motor](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.1-%E7%94%B5%E6%9C%BA.md) <sub>16346 字</sub>
+            - [6.2 Peripherals and Drivers](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/index.md) <sub>341 字</sub>
+            - [6.2.2 Lidar](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.2-%E9%9B%B7%E8%BE%BE.md) <sub>9675 字</sub>
+            - [6.2.3 IMU](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.3-IMU.md) <sub>8771 字</sub>
+            - [6.2.4 Key](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.4-%E6%8C%89%E9%94%AE.md) <sub>7846 字</sub>
+            - [6.2.5 Light Sensor](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.5-%E5%85%89%E6%84%9F.md) <sub>8675 字</sub>
+            - [6.2.6 IO](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.6-IO.md) <sub>7452 字</sub>
+            - [6.2.7 NFC](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.7-NFC.md) <sub>8930 字</sub>
+            - [6.2.8 WiFi](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.8-WiFi.md) <sub>9767 字</sub>
+            - [6.2.9 LED](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.9-LED.md) <sub>7346 字</sub>
+            - [6.2.10 5G](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.10-5G.md) <sub>376 字</sub>
+            - [6.2.11 PM](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.11-pm.md) <sub>8871 字</sub>
+            - [6.2.12 Gimbal](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.2-%E5%A4%96%E8%AE%BE%E4%B8%8E%E9%A9%B1%E5%8A%A8/6.2.12-gimbal.md) <sub>12902 字</sub>
+            - [6.3.1 MPP](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.3-%E5%A4%9A%E5%AA%92%E4%BD%93/6.3.1-mpp.md) <sub>8628 字</sub>
+            - [6.3.3 Audio](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.3-%E5%A4%9A%E5%AA%92%E4%BD%93/6.3.3-audio.md) <sub>19208 字</sub>
+            - [6.3.4 Audio Algorithm](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.3-%E5%A4%9A%E5%AA%92%E4%BD%93/6.3.4-%E9%9F%B3%E9%A2%91%E7%AE%97%E6%B3%95.md) <sub>19546 字</sub>
+            - [Multimedia Overview](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.3-%E5%A4%9A%E5%AA%92%E4%BD%93/index.md) <sub>105 字</sub>
+            - [6.4.1 Real-Time Linux](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.4-%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F/6.4.1-%E5%AE%9E%E6%97%B6Linux.md) <sub>95 字</sub>
+            - [6.4.2 Real-Time RTOS](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.4-%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F/6.4.2-%E5%AE%9E%E6%97%B6RTOS.md) <sub>179 字</sub>
+            - [6.4.3 Heterogeneous Communication](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.4-%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F/6.4.3-%E5%BC%82%E6%9E%84%E9%80%9A%E4%BF%A1.md) <sub>110 字</sub>
+            - [6.4 Real-Time System](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.4-%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F/index.md) <sub>146 字</sub>
+            - [6.5.1 OpenCV RVV](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.5-%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/6.5.1-OpenCV-RVV.md) <sub>33523 字</sub>
+            - [6.5.2 Eigen RVV](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.5-%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/6.5.2-Eigen-RVV.md) <sub>87186 字</sub>
+            - [6.5.3 OpenBLAS RVV](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.5-%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/6.5.3-OpenBLAS-RVV.md) <sub>17963 字</sub>
+            - [6.5.4 OpenVML RVV](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.5-%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/6.5.4-OpenVML-RVV.md) <sub>14402 字</sub>
+            - [6.5 High-Performance Computing Library](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.5-%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/index.md) <sub>192 字</sub>
+          - [6. System and Platform](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/index.md) <sub>267 字</sub>
+            - [6.6.1 ROS2 Installation](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.6-ROS2/6.6.1-ROS2-INSTALL.md) <sub>2879 字</sub>
+            - [6.6 ROS2](en/software/SDK/ros/k3/06-%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%B9%B3%E5%8F%B0/6.6-ROS2/index.md) <sub>55 字</sub>
+          - [V20260330](en/software/SDK/ros/k3/07-%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E/7.1-V20260330.md) <sub>3305 字</sub>
+          - [V20260430](en/software/SDK/ros/k3/07-%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E/7.2-V20260430.md) <sub>3005 字</sub>
+          - [V20260530](en/software/SDK/ros/k3/07-%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E/7.3-V20260530.md) <sub>3819 字</sub>
+          - [7. Release Notes](en/software/SDK/ros/k3/07-%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E/index.md) <sub>105 字</sub>
+    - **Bianbu**
+      - [index.md](en/software/SDK/bianbu/index.md) <sub>242 字</sub>
+      - [Introduction](en/software/SDK/bianbu/root_overview.md) <sub>3730 字</sub>
+      - [Images](en/software/SDK/bianbu/image.md) <sub>775 字</sub>
+        - [Bianbu V2.2 Release Notes](en/software/SDK/bianbu/release_notes/bianbu_2.2.md) <sub>2542 字</sub>
+        - [Bianbu V2.3 Release Notes](en/software/SDK/bianbu/release_notes/bianbu_2.3.md) <sub>1980 字</sub>
+        - [Bianbu V4.0 Release Notes (K3 only)](en/software/SDK/bianbu/release_notes/bianbu_4.0.md) <sub>3987 字</sub>
+        - [Release Notes](en/software/SDK/bianbu/release_notes/index.md) <sub>233 字</sub>
+          - [Bianbu V1.0 Release Notes](en/software/SDK/bianbu/release_notes/history/bianbu_1.0.md) <sub>4035 字</sub>
+          - [Bianbu V2.0 Release Notes](en/software/SDK/bianbu/release_notes/history/bianbu_2.0.md) <sub>2833 字</sub>
+          - [Bianbu V2.1 Release Notes](en/software/SDK/bianbu/release_notes/history/bianbu_2.1.md) <sub>2523 字</sub>
+          - [Bianbu V3.0 Release Notes](en/software/SDK/bianbu/release_notes/history/bianbu_3.0.md) <sub>2137 字</sub>
+          - [Release History](en/software/SDK/bianbu/release_notes/history/index.md) <sub>354 字</sub>
+          - [GNOME](en/software/SDK/bianbu/user_guide/GNOME/index.md) <sub>134 字</sub>
+          - [Network Connection](en/software/SDK/bianbu/user_guide/GNOME/connection.md) <sub>1318 字</sub>
+          - [Package Management](en/software/SDK/bianbu/user_guide/GNOME/package_management.md) <sub>880 字</sub>
+          - [System Upgrade](en/software/SDK/bianbu/user_guide/GNOME/upgrade.md) <sub>2397 字</sub>
+          - [Introduction](en/software/SDK/bianbu/user_guide/LXQt/desktop_introduction.md) <sub>2670 字</sub>
+          - [Initial Setup and Sessions](en/software/SDK/bianbu/user_guide/LXQt/initial_setup_and_sessions.md) <sub>4726 字</sub>
+          - [LXQt](en/software/SDK/bianbu/user_guide/LXQt/index.md) <sub>577 字</sub>
+          - [Application and Software Management](en/software/SDK/bianbu/user_guide/LXQt/software_management.md) <sub>5466 字</sub>
+          - [MUSE Pi / MUSE Pi Pro Expansion I/O Definitions](en/software/SDK/bianbu/user_guide/LXQt/MUSEPi_and_MUSEPiPro_expansion_IO_pinout.md) <sub>780 字</sub>
+          - [Remote Desktop Access Guide](en/software/SDK/bianbu/user_guide/LXQt/K1_Remote_Connect.md) <sub>19679 字</sub>
+          - [FAQ](en/software/SDK/bianbu/user_guide/LXQt/K1_FAQ.md) <sub>7172 字</sub>
+          - [MIPI Camera Usage and FAQ](en/software/SDK/bianbu/user_guide/LXQt/Camera_FAQ.md) <sub>12301 字</sub>
+        - [Bianbu User Guide](en/software/SDK/bianbu/user_guide/index.md) <sub>106 字</sub>
+        - [Kernel Compile](en/software/SDK/bianbu/development/kernel_compile.md) <sub>8509 字</sub>
+        - [Qt User Guide](en/software/SDK/bianbu/development/qt.md) <sub>2055 字</sub>
+        - [Javascript User Guide](en/software/SDK/bianbu/development/javascript.md) <sub>8744 字</sub>
+        - [Python User Guide](en/software/SDK/bianbu/development/python.md) <sub>18184 字</sub>
+        - [Docker User Guide](en/software/SDK/bianbu/development/docker.md) <sub>1769 字</sub>
+        - [Development Guide](en/software/SDK/bianbu/development/index.md) <sub>543 字</sub>
+        - [IDE](en/software/SDK/bianbu/development/ide.md) <sub>2515 字</sub>
+        - [Coredump](en/software/SDK/bianbu/development/coredump.md) <sub>3538 字</sub>
+        - [Perf Usage Note](en/software/SDK/bianbu/development/perf.md) <sub>8572 字</sub>
+        - [AMD Graphics Card Usage Guide](en/software/SDK/bianbu/development/amd.md) <sub>2862 字</sub>
+        - [read-only-rootfs-config Usage Instructions](en/software/SDK/bianbu/development/system-restore.md) <sub>3699 字</sub>
+        - [Package Hosting Service](en/software/SDK/bianbu/development/dak.md) <sub>5971 字</sub>
+        - [K3 NOR Second Boot Device Configuration Guide](en/software/SDK/bianbu/development/second_boot_device_guide.md) <sub>3189 字</sub>
+        - [RT-Linux User Guide](en/software/SDK/bianbu/development/rt-linux_guide.md) <sub>5997 字</sub>
+        - [ESOS Development Guide](en/software/SDK/bianbu/development/esos-dev-guide.md) <sub>11039 字</sub>
+        - [Bianbu 1.0 ROOTFS Creation](en/software/SDK/bianbu/system_integration/bianbu_1.0_rootfs_create.md) <sub>8006 字</sub>
+        - [Bianbu 2.0 ROOTFS Creation](en/software/SDK/bianbu/system_integration/bianbu_2.0_rootfs_create.md) <sub>7164 字</sub>
+        - [Bianbu 2.1/2.2 ROOTFS Creation](en/software/SDK/bianbu/system_integration/bianbu_2.1_rootfs_create.md) <sub>8891 字</sub>
+        - [Bianbu 3.0 ROOTFS Creation](en/software/SDK/bianbu/system_integration/bianbu_3.0_rootfs_create.md) <sub>7945 字</sub>
+        - [Single Application ROOTFS Creation](en/software/SDK/bianbu/system_integration/single_app_rootfs_create.md) <sub>4334 字</sub>
+        - [System Integration](en/software/SDK/bianbu/system_integration/index.md) <sub>666 字</sub>
+        - [Image Creation Guide](en/software/SDK/bianbu/system_integration/image.md) <sub>5660 字</sub>
+        - [UEFI Firmware and System Image Creation Guide](en/software/SDK/bianbu/system_integration/uefi_image.md) <sub>21002 字</sub>
+        - [Bianbu 4.0 ROOTFS Creation](en/software/SDK/bianbu/system_integration/bianbu_4.0_rootfs_create.md) <sub>7086 字</sub>
+        - [Bianbu 4.0 UEFI Image Creation](en/software/SDK/bianbu/system_integration/bianbu_4.0_uefi_image_create.md) <sub>9261 字</sub>
+        - [ISO Image Creation Guide](en/software/SDK/bianbu/system_integration/iso_image.md) <sub>7573 字</sub>
+      - [FAQ](en/software/SDK/bianbu/faqs.md) <sub>2386 字</sub>
+    - **OpenWrt**
+      - [index.md](en/software/SDK/openwrt/index.md) <sub>222 字</sub>
+      - [Introduction](en/software/SDK/openwrt/root_overview.md) <sub>1299 字</sub>
+      - [Download and Build](en/software/SDK/openwrt/openwrt_quickstart.md) <sub>6086 字</sub>
+      - [Device Management](en/software/SDK/openwrt/openwrt_device_management.md) <sub>5040 字</sub>
+      - [Solution Management](en/software/SDK/openwrt/openwrt_solution_management.md) <sub>7144 字</sub>
+      - [Support Devices](en/software/SDK/openwrt/support_devices.md) <sub>134 字</sub>
+    - **Buildroot**
+      - [index.md](en/software/SDK/buildroot/index.md) <sub>135 字</sub>
+      - [Introduction](en/software/SDK/buildroot/root_overview.md) <sub>328 字</sub>
+        - [Introduction](en/software/SDK/buildroot/k1_buildroot/intro.md) <sub>1053 字</sub>
+        - [K1 Buildroot](en/software/SDK/buildroot/k1_buildroot/index.md) <sub>333 字</sub>
+        - [Images](en/software/SDK/buildroot/k1_buildroot/image.md) <sub>396 字</sub>
+        - [Source Code](en/software/SDK/buildroot/k1_buildroot/source.md) <sub>11005 字</sub>
+          - [Buildroot v2.2 Release Notes](en/software/SDK/buildroot/k1_buildroot/release_notes/bl-v2.2.y.md) <sub>5177 字</sub>
+            - [Buildroot v1.0 Release Notes](en/software/SDK/buildroot/k1_buildroot/release_notes/history/bl-v1.0.y.md) <sub>5424 字</sub>
+            - [Release History](en/software/SDK/buildroot/k1_buildroot/release_notes/history/index.md) <sub>329 字</sub>
+            - [Buildroot v2.0 Release Notes](en/software/SDK/buildroot/k1_buildroot/release_notes/history/bl-v2.0.y.md) <sub>3065 字</sub>
+            - [Buildroot v2.1 Release Notes](en/software/SDK/buildroot/k1_buildroot/release_notes/history/bl-v2.1.y.md) <sub>686 字</sub>
+          - [Release Notes](en/software/SDK/buildroot/k1_buildroot/release_notes/index.md) <sub>268 字</sub>
+          - [Device Management](en/software/SDK/buildroot/k1_buildroot/device/device_management.md) <sub>7176 字</sub>
+          - [Solution Management](en/software/SDK/buildroot/k1_buildroot/device/solution_management.md) <sub>3791 字</sub>
+          - [Boot Development Guide](en/software/SDK/buildroot/k1_buildroot/device/boot.md) <sub>95234 字</sub>
+          - [Device Development](en/software/SDK/buildroot/k1_buildroot/device/index.md) <sub>264 字</sub>
+            - [WDT](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/23-WDT.md) <sub>3838 字</sub>
+            - [Display](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/12-Display.md) <sub>38617 字</sub>
+            - [DDR](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/ddr.md) <sub>13160 字</sub>
+            - [GPADC](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/gpadc.md) <sub>3144 字</sub>
+            - [Audio](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/17-Audio.md) <sub>12900 字</sub>
+            - [SPI](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/SPI.md) <sub>4442 字</sub>
+            - [Clock](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/16-Clock.md) <sub>14501 字</sub>
+            - [QSPI](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/07-QSPI.md) <sub>6432 字</sub>
+            - [WIFI](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/WIFI.md) <sub>9751 字</sub>
+            - [RTC](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/rtc.md) <sub>2443 字</sub>
+            - [PMIC](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/14-PMIC.md) <sub>8840 字</sub>
+            - [CAN](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/15-CAN.md) <sub>7778 字</sub>
+            - [SDHC](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/08-SDHC.md) <sub>7999 字</sub>
+            - [UART](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/05-UART.md) <sub>3808 字</sub>
+            - [PINCTRL](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/01-PINCTRL.md) <sub>15210 字</sub>
+            - [V2D](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/13-V2D.md) <sub>6085 字</sub>
+            - [CPUFREQ](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/15-Cpufreq.md) <sub>4375 字</sub>
+            - [I2C](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/06-I2C.md) <sub>8872 字</sub>
+            - [DMA](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/21-DMA.md) <sub>5246 字</sub>
+            - [EtherCAT](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/22-EtherCAT.md) <sub>12130 字</sub>
+            - [GMAC](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/09-GMAC.md) <sub>17603 字</sub>
+            - [CRYPTO](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/18-CRYPTO.md) <sub>3722 字</sub>
+            - [PWM](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/03-PWM.md) <sub>3691 字</sub>
+            - [Thermal](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/thermal.md) <sub>4584 字</sub>
+            - [GPIO](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/02-GPIO.md) <sub>5790 字</sub>
+            - [BT](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/BT.md) <sub>12922 字</sub>
+            - [IR-RX](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/04-IR-RX.md) <sub>2285 字</sub>
+            - [PCIe](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/11-PCIe.md) <sub>7472 字</sub>
+            - [Peripheral Drivers](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/index.md) <sub>2452 字</sub>
+              - [USB General Developer Guide](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/10-USB/1-USB-General-Developer-Guide.md) <sub>30801 字</sub>
+              - [USB Gadget Developer Guide](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/10-USB/2-USB-Gadget-Developer-Guide.md) <sub>44250 字</sub>
+              - [USB SQ Test Guide](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/10-USB/3-USB-SQ-Test-Guide.md) <sub>23361 字</sub>
+              - [USB](en/software/SDK/buildroot/k1_buildroot/device/peripheral_driver/10-USB/index.md) <sub>473 字</sub>
+          - [Standby](en/software/SDK/buildroot/k1_buildroot/device/standby.md) <sub>3418 字</sub>
+          - [Product Line Tool](en/software/SDK/buildroot/k1_buildroot/device/plt.md) <sub>4074 字</sub>
+          - [Camera Development Guide](en/software/SDK/buildroot/k1_buildroot/camera/camera_development_guide.md) <sub>60574 字</sub>
+          - [ISP API Development Guide](en/software/SDK/buildroot/k1_buildroot/camera/isp_api_development_guide.md) <sub>74097 字</sub>
+          - [ISP PQ Tools User Guide](en/software/SDK/buildroot/k1_buildroot/camera/isp_pq_tools_user_guide.md) <sub>133307 字</sub>
+          - [Camera Development](en/software/SDK/buildroot/k1_buildroot/camera/index.md) <sub>223 字</sub>
+            - [Multimedia Development Guide](en/software/SDK/buildroot/k1_buildroot/media/mpp/index.md) <sub>799 字</sub>
+            - [Multimedia Framework](en/software/SDK/buildroot/k1_buildroot/media/mpp/01-multimedia_framework.md) <sub>5370 字</sub>
+            - [MPP](en/software/SDK/buildroot/k1_buildroot/media/mpp/02-MPP.md) <sub>46883 字</sub>
+            - [VPU](en/software/SDK/buildroot/k1_buildroot/media/mpp/03-VPU.md) <sub>20539 字</sub>
+            - [JPU](en/software/SDK/buildroot/k1_buildroot/media/mpp/04-JPU.md) <sub>6436 字</sub>
+            - [CPP & ISP & MIPI-CSI](en/software/SDK/buildroot/k1_buildroot/media/mpp/05-CPP_ISP_MIPI-CSI.md) <sub>8795 字</sub>
+          - [Gstreamer User Guide](en/software/SDK/buildroot/k1_buildroot/media/gstreamer_user_guide.md) <sub>37523 字</sub>
+          - [Multimedia](en/software/SDK/buildroot/k1_buildroot/media/index.md) <sub>136 字</sub>
+          - [Adapting AMD Graphics Cards on the K1 Platform](en/software/SDK/buildroot/k1_buildroot/graphics/AMD_graphics_card_adaptation_reference.md) <sub>10441 字</sub>
+          - [Graphics Driver Framework](en/software/SDK/buildroot/k1_buildroot/graphics/graphics_driver_framework.md) <sub>4572 字</sub>
+          - [Graphics Programming Guide](en/software/SDK/buildroot/k1_buildroot/graphics/graphics_programming_guide.md) <sub>10335 字</sub>
+          - [OpenCL Programming Guide](en/software/SDK/buildroot/k1_buildroot/graphics/openCL_programming_guide.md) <sub>16804 字</sub>
+          - [SpacemiT Display Panel Driver Use Cases](en/software/SDK/buildroot/k1_buildroot/graphics/panel_porting_guide.md) <sub>25809 字</sub>
+          - [Graphics Development](en/software/SDK/buildroot/k1_buildroot/graphics/index.md) <sub>359 字</sub>
+          - [Linux File System Troubleshooting Guide](en/software/SDK/buildroot/k1_buildroot/kernel_debug/file_system_guide.md) <sub>38031 字</sub>
+          - [Linux DMA-BUF Debugging Guide](en/software/SDK/buildroot/k1_buildroot/kernel_debug/dma_buf_debug_guide.md) <sub>5054 字</sub>
+          - [Linux Memory Debug Guide](en/software/SDK/buildroot/k1_buildroot/kernel_debug/memory_debug_guide.md) <sub>16410 字</sub>
+          - [Linux Memory Reservation Guide](en/software/SDK/buildroot/k1_buildroot/kernel_debug/memory_reservation_guide.md) <sub>6383 字</sub>
+          - [Kernel Debug](en/software/SDK/buildroot/k1_buildroot/kernel_debug/index.md) <sub>231 字</sub>
+        - [FAQ](en/software/SDK/buildroot/k1_buildroot/faqs.md) <sub>1420 字</sub>
+        - [Introduction](en/software/SDK/buildroot/k3_buildroot/intro.md) <sub>977 字</sub>
+        - [K3 Buildroot](en/software/SDK/buildroot/k3_buildroot/index.md) <sub>344 字</sub>
+        - [Images](en/software/SDK/buildroot/k3_buildroot/image.md) <sub>417 字</sub>
+        - [Source Code](en/software/SDK/buildroot/k3_buildroot/source.md) <sub>11551 字</sub>
+          - [Buildroot 1.0 Release Notes](en/software/SDK/buildroot/k3_buildroot/release_notes/bl-v1.0.y.md) <sub>2368 字</sub>
+          - [Release Notes](en/software/SDK/buildroot/k3_buildroot/release_notes/index.md) <sub>136 字</sub>
+          - [ESOS Development Guides](en/software/SDK/buildroot/k3_buildroot/esos/esos_dev_guide.md) <sub>2280 字</sub>
+            - [I2C](en/software/SDK/buildroot/k3_buildroot/esos/esos_driver/i2c.md) <sub>6734 字</sub>
+            - [SPI](en/software/SDK/buildroot/k3_buildroot/esos/esos_driver/spi.md) <sub>5112 字</sub>
+            - [PWM](en/software/SDK/buildroot/k3_buildroot/esos/esos_driver/pwm.md) <sub>3500 字</sub>
+            - [PINCTRL](en/software/SDK/buildroot/k3_buildroot/esos/esos_driver/pinctrl.md) <sub>4101 字</sub>
+            - [RUART](en/software/SDK/buildroot/k3_buildroot/esos/esos_driver/ruart.md) <sub>8371 字</sub>
+            - [RPMsg](en/software/SDK/buildroot/k3_buildroot/esos/esos_driver/rpmsg.md) <sub>8955 字</sub>
+            - [RTIMER](en/software/SDK/buildroot/k3_buildroot/esos/esos_driver/rtimer.md) <sub>5604 字</sub>
+            - [RGMAC](en/software/SDK/buildroot/k3_buildroot/esos/esos_driver/rgmac.md) <sub>9816 字</sub>
+            - [RCAN](en/software/SDK/buildroot/k3_buildroot/esos/esos_driver/rcan.md) <sub>9316 字</sub>
+            - [DMA](en/software/SDK/buildroot/k3_buildroot/esos/esos_driver/dma.md) <sub>7279 字</sub>
+            - [GPIO](en/software/SDK/buildroot/k3_buildroot/esos/esos_driver/gpio.md) <sub>6231 字</sub>
+            - [ESOS Drivers](en/software/SDK/buildroot/k3_buildroot/esos/esos_driver/index.md) <sub>196 字</sub>
+          - [ESOS Power Management](en/software/SDK/buildroot/k3_buildroot/esos/esos_power.md) <sub>20 字</sub>
+          - [ESOS Heterogeneous Communication](en/software/SDK/buildroot/k3_buildroot/esos/esos_comm.md) <sub>31 字</sub>
+          - [ESOS Development](en/software/SDK/buildroot/k3_buildroot/esos/index.md) <sub>185 字</sub>
+          - [Device Management](en/software/SDK/buildroot/k3_buildroot/device/device_management.md) <sub>11080 字</sub>
+          - [Solution Management](en/software/SDK/buildroot/k3_buildroot/device/solution_management.md) <sub>6799 字</sub>
+          - [Boot Development Guide](en/software/SDK/buildroot/k3_buildroot/device/boot.md) <sub>80489 字</sub>
+          - [Secure Boot Development Guide](en/software/SDK/buildroot/k3_buildroot/device/secureboot.md) <sub>40389 字</sub>
+            - [Reset](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/Reset.md) <sub>13815 字</sub>
+            - [WDT](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/23-WDT.md) <sub>7727 字</sub>
+            - [Display](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/12-Display.md) <sub>28781 字</sub>
+            - [DDR](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/ddr.md) <sub>12805 字</sub>
+            - [Audio](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/17-Audio.md) <sub>25080 字</sub>
+            - [SPI](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/SPI.md) <sub>4318 字</sub>
+            - [Timer](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/Timer.md) <sub>4973 字</sub>
+            - [Clock](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/16-Clock.md) <sub>22433 字</sub>
+            - [QSPI](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/07-QSPI.md) <sub>6657 字</sub>
+            - [WIFI](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/WIFI.md) <sub>16221 字</sub>
+            - [PMIC](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/14-PMIC.md) <sub>13882 字</sub>
+            - [SDHC](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/08-SDHC.md) <sub>20313 字</sub>
+            - [CAN](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/15-CAN.md) <sub>14396 字</sub>
+            - [UART](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/05-UART.md) <sub>15074 字</sub>
+            - [V2D](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/13-V2D.md) <sub>5881 字</sub>
+            - [PINCTRL](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/01-PINCTRL.md) <sub>17171 字</sub>
+            - [CPUFREQ](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/15-Cpufreq.md) <sub>6677 字</sub>
+            - [I2C](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/06-I2C.md) <sub>10177 字</sub>
+            - [DMA](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/21-DMA.md) <sub>6209 字</sub>
+            - [EtherCAT](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/22-EtherCAT.md) <sub>13648 字</sub>
+            - [GMAC](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/09-GMAC.md) <sub>25204 字</sub>
+            - [RTC](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/24-RTC.md) <sub>8405 字</sub>
+            - [PWM](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/03-PWM.md) <sub>10245 字</sub>
+            - [Thermal](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/thermal.md) <sub>5734 字</sub>
+            - [GPIO](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/02-GPIO.md) <sub>14478 字</sub>
+            - [UFS](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/ufs.md) <sub>23200 字</sub>
+            - [IR-RX](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/04-IR-RX.md) <sub>12063 字</sub>
+            - [BT](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/BT.md) <sub>17408 字</sub>
+            - [PCIe](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/11-PCIe.md) <sub>20949 字</sub>
+            - [Peripheral Drivers](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/index.md) <sub>2307 字</sub>
+              - [USB General Developer Guide](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/10-USB/1-USB-General-Developer-Guide.md) <sub>70100 字</sub>
+              - [USB Gadget Developer Guide](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/10-USB/2-USB-Gadget-Developer-Guide.md) <sub>41192 字</sub>
+              - [USB SQ Test Guide](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/10-USB/3-USB-SQ-Test-Guide.md) <sub>21391 字</sub>
+              - [USB](en/software/SDK/buildroot/k3_buildroot/device/peripheral_driver/10-USB/index.md) <sub>498 字</sub>
+          - [Device Development](en/software/SDK/buildroot/k3_buildroot/device/index.md) <sub>406 字</sub>
+          - [Standby](en/software/SDK/buildroot/k3_buildroot/device/standby.md) <sub>11405 字</sub>
+          - [Product Line Tool](en/software/SDK/buildroot/k3_buildroot/device/plt.md) <sub>3140 字</sub>
+          - [Production Programming Guide](en/software/SDK/buildroot/k3_buildroot/device/tlv.md) <sub>8702 字</sub>
+          - [HMP (Heterogeneous Multi-Processing) User Guide](en/software/SDK/buildroot/k3_buildroot/device/hmp.md) <sub>8943 字</sub>
+            - [Multimedia Framework](en/software/SDK/buildroot/k3_buildroot/media/mpp/01-multimedia_framework.md) <sub>4590 字</sub>
+            - [Multimedia Developer Guide](en/software/SDK/buildroot/k3_buildroot/media/mpp/index.md) <sub>676 字</sub>
+            - [MPP](en/software/SDK/buildroot/k3_buildroot/media/mpp/02-MPP.md) <sub>47107 字</sub>
+            - [VPU](en/software/SDK/buildroot/k3_buildroot/media/mpp/03-VPU.md) <sub>22057 字</sub>
+            - [MIPI-CSI](en/software/SDK/buildroot/k3_buildroot/media/mpp/05-MIPI-CSI.md) <sub>9888 字</sub>
+          - [FFmpeg Usage Guide](en/software/SDK/buildroot/k3_buildroot/media/ffmpeg_user_guide.md) <sub>9590 字</sub>
+          - [Gstreamer Usage Guide](en/software/SDK/buildroot/k3_buildroot/media/gstreamer_user_guide.md) <sub>26336 字</sub>
+          - [Multimedia](en/software/SDK/buildroot/k3_buildroot/media/index.md) <sub>166 字</sub>
+          - [Graphics Driver Framework](en/software/SDK/buildroot/k3_buildroot/graphics/graphics_driver_framework.md) <sub>12246 字</sub>
+          - [Graphic Programming Guide](en/software/SDK/buildroot/k3_buildroot/graphics/graphics_programming_guide.md) <sub>10731 字</sub>
+          - [OpenCL Programming Guide](en/software/SDK/buildroot/k3_buildroot/graphics/openCL_programming_guide.md) <sub>16801 字</sub>
+          - [SpacemiT Panel Porting Guide](en/software/SDK/buildroot/k3_buildroot/graphics/panel_porting_guide.md) <sub>15 字</sub>
+          - [Graphics Development](en/software/SDK/buildroot/k3_buildroot/graphics/index.md) <sub>355 字</sub>
+          - [K3 GMAC DPDK User Guide](en/software/SDK/buildroot/k3_buildroot/dpdk/k3_GMAC_DPDK_user_guide.md) <sub>11548 字</sub>
+          - [DPDK Development](en/software/SDK/buildroot/k3_buildroot/dpdk/index.md) <sub>88 字</sub>
+          - [Linux File System Troubleshooting Guide](en/software/SDK/buildroot/k3_buildroot/kernel_debug/file_system_guide.md) <sub>144 字</sub>
+          - [Linux DMA-BUF Debugging Guide](en/software/SDK/buildroot/k3_buildroot/kernel_debug/dma_buf_debug_guide.md) <sub>128 字</sub>
+          - [Linux Memory Debugging Guide](en/software/SDK/buildroot/k3_buildroot/kernel_debug/memory_debug_guide.md) <sub>125 字</sub>
+          - [Linux Memory Reservation Guide](en/software/SDK/buildroot/k3_buildroot/kernel_debug/memory_reservation_guide.md) <sub>135 字</sub>
+          - [Kernel Debug](en/software/SDK/buildroot/k3_buildroot/kernel_debug/index.md) <sub>235 字</sub>
+        - [FAQ](en/software/SDK/buildroot/k3_buildroot/faqs.md) <sub>1410 字</sub>
+      - [Tools](en/software/SDK/buildroot/tools.md) <sub>248 字</sub>
+    - **OpenHarmony**
+      - [index.md](en/software/SDK/openharmony/index.md) <sub>45 字</sub>
+      - [Introduction](en/software/SDK/openharmony/root_overview.md) <sub>257 字</sub>
+    - **Eco-System**
+      - [index.md](en/software/SDK/docs-ecosys/index.md) <sub>40 字</sub>
+      - [Overview](en/software/SDK/docs-ecosys/root_overview.md) <sub>9 字</sub>
+- **AI**
+  - [index.md](en/ai/index.md) <sub>212 字</sub>
+  - **Introduction**
+    - [SpacemiT RISC-V AI Computing Platform](en/ai/intro/root_overview.md) <sub>2949 字</sub>
+    - [Introduction](en/ai/intro/index.md) <sub>66 字</sub>
+  - **Solution**
+    - [AI Robot Solution Overview](en/ai/solutions/airobot_solution_list.md) <sub>848 字</sub>
+    - [Solution](en/ai/solutions/index.md) <sub>120 字</sub>
+    - **AI Computer Solution Overview**
+      - [AI NAS](en/ai/solutions/aicomputer_solution/ainas.md) <sub>29880 字</sub>
+      - [AI Computer Solution Overview](en/ai/solutions/aicomputer_solution/index.md) <sub>3462 字</sub>
+      - [Zenow](en/ai/solutions/aicomputer_solution/zenow.md) <sub>8649 字</sub>
+      - [Yumeet](en/ai/solutions/aicomputer_solution/yumeet.md) <sub>8668 字</sub>
+      - [File2MD](en/ai/solutions/aicomputer_solution/file2md.md) <sub>9307 字</sub>
+      - [Seewise](en/ai/solutions/aicomputer_solution/seewise.md) <sub>7293 字</sub>
+      - [Agentforce](en/ai/solutions/aicomputer_solution/agentforce.md) <sub>9952 字</sub>
+      - [Claude Code](en/ai/solutions/aicomputer_solution/claude.md) <sub>4943 字</sub>
+      - [SpacemiT AI Lab](en/ai/solutions/aicomputer_solution/ailab.md) <sub>13430 字</sub>
+      - [OpenClaw](en/ai/solutions/aicomputer_solution/openclaw.md) <sub>3087 字</sub>
+      - [Hermes](en/ai/solutions/aicomputer_solution/hermes.md) <sub>4988 字</sub>
+      - [DeepSeek Harness](en/ai/solutions/aicomputer_solution/ds_harness.md) <sub>2375 字</sub>
+      - [Multi-Stream Video Analysis (YOLO Demo)](en/ai/solutions/aicomputer_solution/multi_stream_vision.md) <sub>13549 字</sub>
+      - [Multi-Stream ASR](en/ai/solutions/aicomputer_solution/multi_stream_asr.md) <sub>19642 字</sub>
+  - **Application Software Stack**
+    - [AI SDK](en/ai/application_tools/ai-sdk.md) <sub>22305 字</sub>
+    - [LLM SDK](en/ai/application_tools/llmsdk.md) <sub>16857 字</sub>
+    - [Application Software Stack](en/ai/application_tools/index.md) <sub>2096 字</sub>
+    - [Speech SDK](en/ai/application_tools/speechsdk.md) <sub>14363 字</sub>
+    - [LangChain](en/ai/application_tools/langchain.md) <sub>994 字</sub>
+    - [Ollama](en/ai/application_tools/ollama.md) <sub>1827 字</sub>
+    - [LocalAI](en/ai/application_tools/localai.md) <sub>4523 字</sub>
+    - [OpenWebUI](en/ai/application_tools/openwebui.md) <sub>1682 字</sub>
+    - [LlamaIndex](en/ai/application_tools/llamaindex.md) <sub>1178 字</sub>
+  - **Compute Software Stack**
+    - [AI Compute Software Stack Overview](en/ai/compute_stack/ai_compute_stack.md) <sub>1188 字</sub>
+    - **AI Compute Stack List**
+      - [SpacemiT-ONNXRuntime](en/ai/compute_stack/ai_compute_stack/onnxruntime.md) <sub>11905 字</sub>
+      - [ONNX Runtime EP Accelerated Operators](en/ai/compute_stack/ai_compute_stack/onnxruntime_ep_ops.md) <sub>16223 字</sub>
+      - [AI Compute Software Stack List](en/ai/compute_stack/ai_compute_stack/index.md) <sub>297 字</sub>
+      - [ONNXRuntime EP FAQ](en/ai/compute_stack/ai_compute_stack/onnxruntime_ep_faq.md) <sub>665 字</sub>
+      - [xslim](en/ai/compute_stack/ai_compute_stack/xslim.md) <sub>7202 字</sub>
+      - [llama.cpp](en/ai/compute_stack/ai_compute_stack/llama.cpp.md) <sub>14523 字</sub>
+      - [vLLM](en/ai/compute_stack/ai_compute_stack/vllm.md) <sub>46 字</sub>
+      - [Triton](en/ai/compute_stack/ai_compute_stack/triton.md) <sub>9392 字</sub>
+      - [Quick Start Guide](en/ai/compute_stack/ai_compute_stack/quick_start.md) <sub>2369 字</sub>
+      - [ModelZoo](en/ai/compute_stack/ai_compute_stack/modelzoo.md) <sub>17969 字</sub>
+    - [Computer Vision Libraries](en/ai/compute_stack/cv_library.md) <sub>10203 字</sub>
+    - [Compute Software Stack](en/ai/compute_stack/index.md) <sub>218 字</sub>
+    - [Other Mathematical Libraries](en/ai/compute_stack/math_library.md) <sub>13686 字</sub>
+  - **Compute Architecture**
+    - [Design Philosophy](en/ai/architecture/concept.md) <sub>4539 字</sub>
+    - [Matrix Extension Instruction Set](en/ai/architecture/instruction.md) <sub>1780 字</sub>
+    - [SpacemiT AI Matrix Extension Instruction Set](en/ai/architecture/ime_extension.md) <sub>75824 字</sub>
+    - [Compute Architecture](en/ai/architecture/index.md) <sub>159 字</sub>
+- **Cloud**
+  - **User Guide**
+    - [SpacemiT Cloud User Guide](en/cloud/userguide/cloud_user_guide.md) <sub>22257 字</sub>
+    - [index.md](en/cloud/userguide/index.md) <sub>59 字</sub>
+- **Tools**
+  - **User Guide**
+    - [Tool User Guides](en/tools/user_guide/index.md) <sub>224 字</sub>
+    - [Cross-Compilation Toolchain User Guide](en/tools/user_guide/cross_compiler_user_guide.md) <sub>3024 字</sub>
+    - [Flashing Tool User Manual](en/tools/user_guide/flasher_user_guide.md) <sub>13279 字</sub>
+    - [JTAG Debugging Tool User Guide](en/tools/user_guide/jtag_debug_user_guide.md) <sub>3721 字</sub>
+    - [Trace User Guide](en/tools/user_guide/trace_user_guide.md) <sub>42696 字</sub>
+  - [index.md](en/tools/index.md) <sub>78 字</sub>
+  - **SpacemiT Studio**
+    - [Overview](en/tools/studio/overview.md) <sub>2150 字</sub>
+    - [SpacemiT Studio](en/tools/studio/index.md) <sub>448 字</sub>
+    - [Quick Start](en/tools/studio/quick_start.md) <sub>5748 字</sub>
+    - **User Guide**
+      - [Device Management](en/tools/studio/user_guide/devices.md) <sub>3192 字</sub>
+      - [Terminal](en/tools/studio/user_guide/terminal.md) <sub>2238 字</sub>
+        - [Flash Tools](en/tools/studio/user_guide/dev_tools/flash.md) <sub>8395 字</sub>
+        - [System Tools](en/tools/studio/user_guide/dev_tools/system_tools.md) <sub>3253 字</sub>
+        - [Remote Device Sharing](en/tools/studio/user_guide/dev_tools/remote_access.md) <sub>1635 字</sub>
+        - [Development Tools](en/tools/studio/user_guide/dev_tools/index.md) <sub>525 字</sub>
+      - [User Guide](en/tools/studio/user_guide/index.md) <sub>241 字</sub>
+      - [Development Cases](en/tools/studio/user_guide/cases.md) <sub>1207 字</sub>
+      - [Cloud Development](en/tools/studio/user_guide/cloud.md) <sub>213 字</sub>
+      - [App Center](en/tools/studio/user_guide/app_store.md) <sub>1649 字</sub>
+      - [SpacemiT AI Assistant](en/tools/studio/user_guide/ai.md) <sub>2702 字</sub>
+      - [Settings](en/tools/studio/user_guide/settings.md) <sub>1735 字</sub>
+    - [FAQ](en/tools/studio/faq.md) <sub>6317 字</sub>
+
+## 配套文件
+
+- `_meta/manifest.json`：每篇文档的标题、来源、更新时间、字数、章节、sha256
+- `_meta/searchindex.jsonl`：标题 + 章节级轻量索引（一行一篇，可直接喂检索）
+- `_meta/stats.json`：抓取统计与失败清单
+- `_tools/crawl_spacemit_docs.py`：抓取/更新脚本，可重复执行
+
+重跑更新：`python _tools/crawl_spacemit_docs.py --out . --langs zh,en`

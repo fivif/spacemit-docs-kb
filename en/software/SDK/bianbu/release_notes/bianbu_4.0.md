@@ -1,0 +1,168 @@
+---
+title: "Bianbu V4.0 Release Notes"
+lang: en
+category: "Software/SDK/Bianbu/Release Notes"
+source_page: https://www.spacemit.com/community/document/info?nodepath=software/SDK/bianbu/release_notes/bianbu_4.0.md&lang=en
+source_file: https://cdn-resource.spacemit.com/software/SDK/bianbu/docs-bianbu/en/release_notes/bianbu_4.0.md
+updated: "2026-09-17 09:59:11"
+---
+# Bianbu V4.0 Release Notes
+
+Built from the Ubuntu 26.04 source base.
+
+Bianbu 4.0 repository:
+
+```
+Types: deb
+URIs: https://archive.spacemit.com/bianbu4/
+Suites: resolute resolute-security resolute-updates resolute-backports resolute-porting resolute-customization
+Components: main universe restricted multiverse
+Signed-By: /usr/share/keyrings/bianbu-archive-keyring.gpg
+```
+
+- Using this repository enables installation of packages released in subsequent V4.0.x versions, such as V4.0.1.
+- To download source packages, change `Types: deb` to `Types: deb deb-src`.
+
+## V4.0.7 Release Notes
+
+**Release Date:** 2026-09-16
+
+The corresponding **BSP version:** [V1.0.8](../../buildroot/k3_buildroot/release_notes/bl-v1.0.y.md)
+
+### LXQt Desktop
+
+- Fixed transient spikes in CPU usage displayed by GNOME System Monitor (gnome-system-monitor).
+
+### Bianbu Core Components
+
+- Fixed an issue where UEFI firmware OTA updates booted abnormally.
+- Fixed an issue where the system could not boot normally after the UEFI firmware ran `update-grub`.
+- Fixed an issue where `adbd` disconnected unexpectedly after a bus reset.
+
+## V4.0.6 Release Notes
+
+**Release Date:** 2026-08-26
+
+The corresponding **BSP version:** [V1.0.7](../../buildroot/k3_buildroot/release_notes/bl-v1.0.y.md)
+
+### LXQt Desktop
+
+- Fixed an issue where quickly clicking the snapshot shutter button caused window maximization.
+- Fixed an issue where the backlight plugin would freeze when brightness control was unavailable.
+- Fixed issues in lxqt-session including reset failure, unreasonable delete button behavior, and abnormal scrolling behavior.
+- Fixed an issue where the network applet window could not be dragged after removing the title bar.
+- Updated Chinese translations for Ethernet and Wi-Fi settings.
+
+### Core Components
+
+- Fixed black screen issue after wlroots suspend.
+- Fixed an issue where the Ethernet connection list occasionally displayed duplicate wired network connections.
+
+## V4.0.4 Release Notes
+
+**Release Date:** 2026-07-23
+
+The corresponding **BSP version:** [v1.0.5](../../buildroot/k3_buildroot/release_notes/bl-v1.0.y.md)
+
+### LXQt Desktop
+
+- Added session settings.
+- Fixed an issue in multi-display configurations where status bar pop-ups were displayed in incorrect positions.
+
+### Core Components
+
+- Fixed an issue where mpv video playback would stall after the system resumed from suspend.
+- Fixed reliability issues occurring after repeated suspend/resume cycles in some modules.
+- Fixed an issue where LXQt displayed a black screen after repeated suspend/resume cycles.
+- Fixed an issue where System Monitor exited unexpectedly after selecting a CPU color.
+- Fixed a Type-C compatibility issue that prevented the K3 Pico board from booting.
+- Fixed a black screen issue during K3 Pico OTA updates.
+
+## V4.0.1 Release Notes
+
+**Release Date:** 2026-05-29
+
+The corresponding **BSP version:** [v1.0.2](../../buildroot/k3_buildroot/release_notes/bl-v1.0.y.md)
+
+### LXQt Desktop
+
+- Added appearance settings.
+- Added desktop workspace switching.
+- Boot screen now supports lower-resolution displays.
+
+### Core Components
+
+**Applications**
+
+- Package repository upgraded to the official Ubuntu 26.04 source.
+
+**Boot**
+
+- Fixed an issue where `reboot fastboot` could not flash firmware.
+
+**Display**
+
+- wlroots: fixed an intermittent issue where the desktop background was lost after suspend/resume.
+
+## V4.0.0 Release Notes
+
+**Release Date:** 2026-04-30
+
+**Note:** Bianbu 4.0 images support K3 only.
+
+The corresponding **BSP version:** [v1.0.0](../../buildroot/k3_buildroot/release_notes/bl-v1.0.y.md)
+
+### LXQt Desktop
+
+- The in-house `bianbu-control-center` adds new modules for Language & Region, Desktop Settings, Notification Settings, Software Updates, and About.
+- Status bar notifications default to Do Not Disturb mode.
+- snapshot, VLC media player, Zed, and GNOME System Monitor are installed by default. cheese is no longer included in the default installation.
+
+### Core Components and Applications in Bianbu V4.0
+
+**Applications**
+
+- Chromium 143
+- LibreOffice
+- VSCodium
+- mpv
+- fcitx5
+- snapshot
+- VLC media player
+- Zed
+- GNOME System Monitor
+
+**Application Frameworks**
+
+- Qt 5.15.8
+- Qt 6.10.2
+- GTK 3.24.51
+- GTK 4.21.6
+
+**Multimedia Frameworks**
+
+- FFmpeg 8.0 (with hardware accelerated)
+- GStreamer 1.28.0 (with hardware accelerated)
+- PipeWire 1.6.0
+
+**AI Inference Frameworks**
+
+- spacemit-onnxruntime
+- llama.cpp-tools-spacemit
+
+**Runtimes**
+
+- Python 3.14.3
+- OpenJDK
+- Node.js
+
+**Libraries**
+
+- OpenCV 4.14.0
+- OpenSSL 3.5.3
+- MPP, SpacemiT's multimedia processing platform, with C APIs and sample programs
+- Mesa 3D 24.01
+
+**Toolchain**
+
+- GCC 15

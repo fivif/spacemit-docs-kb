@@ -1,0 +1,47 @@
+---
+title: "简介"
+lang: zh
+category: "软件/SDK 与系统构建/Buildroot/K3 Buildroot"
+source_page: https://www.spacemit.com/community/document/info?nodepath=software/SDK/buildroot/k3_buildroot/intro.md&lang=zh
+source_file: https://cdn-resource.spacemit.com/software/SDK/buildroot/docs-buildroot/zh/k3_buildroot/intro.md
+updated: "2026-04-30 11:47:33"
+---
+# 简介
+
+基于Buildroot构建的 Linux SDK，适配 SpacemiT K 系列芯片。包含监管程序接口（OpenSBI）、引导加载程序（U-Boot/UEFI）、Linux 内核、根文件系统（包含各种中间件和库）以及示例等。其目标是为客户提供处理器 Linux 支持，并且可以开发驱动或应用。
+
+## 系统架构
+
+![](../../../../../_assets/docs-buildroot/k3_buildroot/static/bianbu-linux-arch.png)
+
+## 主要组件
+
+SDK包含的组件如下：
+
+- OpenSBI
+- U-Boot
+- Linux Kernel
+- Buildroot
+- esos: Real-Time Operating System
+- img-gpu-powervr: GPU DDK
+- mesa3d
+- k3x-vpu-firmware: Video Process Unit firmware
+- k3x-vpu-test: Video Process Unit test program
+- k3x-cam: CSI Unit test progrom
+- mpp: Media Process Platform
+- FFmpeg (with Hardware Accelerated)
+- GStreamer (with Hardware Accelerated)
+- v2d-test: 2D Unit test program
+- factorytest: factory test app
+
+更多组件正在适配中。
+
+## 快速指南
+
+- [镜像](image.md)
+- [源码](source.md)
+- [工具](../tools.md)
+
+## 更新说明
+
+- [更新说明](release_notes/index.md)

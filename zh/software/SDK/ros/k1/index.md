@@ -1,0 +1,21 @@
+---
+title: "K1"
+lang: zh
+category: "软件/SDK 与系统构建/ROS 2/K1"
+source_page: https://www.spacemit.com/community/document/info?nodepath=software/SDK/ros/k1/index.md&lang=zh
+source_file: https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k1/index.md
+updated: "2026-05-15 13:56:16"
+---
+# K1
+
+- [简介](intro.md)
+- [镜像](image.md)
+- [1. 快速开始](01_Quick_start/index.md)
+- [2. ROS2_LXQT 基础使用](02_System_configuration/index.md)
+- [3. 基础应用开发](03_Basic_applications/index.md)
+- [4. 模型开发指南](04_Model_deployment/index.md)
+- [5. AI 算法使用指南](05_AI_Feature_Experience/index.md)
+- [6. 机器人应用开发](06_Robot_development/index.md)
+- [7. 进阶开发](07_Advanced_development/index.md)
+- [FAQ](faqs.md)
+- [附录](Appendix.md)

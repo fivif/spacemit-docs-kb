@@ -1,0 +1,34 @@
+---
+title: "AI 基础学习及实践"
+lang: zh
+category: "教程/AI/AI 基础学习及实践"
+source_page: https://www.spacemit.com/community/document/info?nodepath=courses/AI/01_AI%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%AE%9E%E8%B7%B5/index.md&lang=zh
+source_file: https://cdn-resource.spacemit.com/courses/docs-courses/zh/AI/01_AI基础学习及实践/index.md
+updated: "2026-08-18 17:26:35"
+---
+
+# AI 基础学习及实践
+
+1. [1. Python 环境搭建](01_Python环境搭建.md)
+2. [2. C++ 环境搭建](02_C  环境搭建.md)
+3. [3. 集成开发环境（IDE）](03_集成开发环境.md)
+4. [4. 进迭时空 AI 框架介绍](04_进迭时空AI框架介绍.md)
+5. [5. ONNX Runtime 安装](05_onnxruntime安装.md)
+6. [6. ONNX Runtime 基本用法介绍](06_onnxruntime基本用法介绍.md)
+7. [7. ONNX 模型部署指南](07_onnxruntime模型部署.md)
+8. [8. 进迭时空 Model zoo](08_model_zoo介绍.md)
+9. [9. ONNX Runtime 故障排查](09_onnxruntime故障排查.md)
+10. [10. ONNX Runtime 性能分析概述](10_onnxruntime性能分析.md)
+11. [11. 模型转换概述](11_模型转换.md)
+12. [12. 模型量化](12_模型量化.md)
+13. [13. 计算机视觉介绍](13_计算机视觉简介.md)
+14. [14. 卷积神经网络简介](14_卷积神经网络简介.md)
+15. [15. 目标检测简介和实例](15_目标检测实例.md)
+16. [16. 人脸识别简介和实例](16_人脸识别实例.md)
+17. [17. 姿态识别简介和实例](17_姿态识别实例.md)
+18. [18. 计算机视觉实验](18_计算机视觉实验.md)
+19. [19. 循环神经网络简介](19_循环神经网络简介.md)
+20. [20. Ollama 使用指南](20_ollama使用指南.md)
+21. [21. Transformer 简介](21_Transformer简介.md)
+22. [22. 大语言模型简介](22_大语言模型简介.md)
+23. [23. ASR实例](23_ASR实例.md)

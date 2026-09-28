@@ -1,0 +1,74 @@
+---
+title: "P1 简介"
+lang: zh
+category: "硬件/P 系列电源芯片/P1/芯片产品文档"
+source_page: https://www.spacemit.com/community/document/info?nodepath=hardware/power_stone/p1/p1_docs/root_overview.md&lang=zh
+source_file: https://cdn-resource.spacemit.com/hardware/docs-chip/zh/power_stone/p1/p1_docs/root_overview.md
+updated: "2026-05-15 10:15:23"
+---
+
+# P1 简介
+
+点击下载 **[P1 简介（PDF）](https://cdn-resource.spacemit.com/file/chip/P1/P1_brief_zh.pdf)**
+
+## 概述
+
+P1 是一款高性能多通道电源管理芯片（PMIC），旨在为复杂计算系统提供定制化电源解决方案，满足客户差异化、高要求的电源需求。
+
+主要应用于虚拟现实/增强现实设备、无人机、智能机器人、工业设备等领域。
+
+- **高度集成的电源解决方案**
+  6 个恒定导通时间控制模式（COT）降压转换器，12 个低压差稳压器（LDO），一个 I²C 接口，以及多次可编程非易失性存储器（MTP），为各种移动设备和嵌入式系统提供高度灵活的电源管理功能。
+
+- **全面稳定的保护机制**
+  全面的保护功能包括欠压锁定（UVLO）、过压保护（OVP）、过电流保护（OCP）和热关断等。
+
+- **工业级标准**
+  在 -40 °C ~ 85 °C 的环境温度下仍能稳定可靠工作，满足工业应用的苛刻环境需求。
+
+- **紧凑的封装**
+  P1 仅需极少数量的外部元件，并提供紧凑的 QFN-60（7 mm × 7 mm）封装。
+
+## 特性
+
+- 输入电压
+  - 2.6 V ~ 5.5 V
+
+- 6 个高效降压转换器
+  - Buck1/2: 0.5 V ~ 3.4 V, 4 A, 支持双相操作
+  - Buck3/4: 0.5 V ~ 3.4 V, 2.5 A, 支持双相操作
+  - Buck5/6: 0.5 V ~ 3.4 V, 2.5 A
+  - 所有降压转换器可选择的输出电压范围：
+    - 0.5 V ~ 1.35 V, 5 mV/step
+    - 1.375 V ~ 3.4 V, 25 mV/step
+
+- 专用引脚用于选择不同 DDR 颗粒的 VDDQ 电压
+
+- 12 个可编程的 LDO 稳压器
+  - 11 个低噪声 LDO，1 个常开 LDO
+  - 输出电压：0.5 V ~ 3.4 V, 25 mV/step
+  - 输出电流：0.3 A/0.5 A
+
+- 1 个负载开关，最大输出电流 1 A
+
+- I²C 通信接口
+
+- 输出电压和启动/关闭顺序可由 MTP 预设
+
+- 带有看门狗定时器的系统监视器
+
+- 2 µA 超低功耗 RTC，带警报功能
+
+- 纽扣电池/超级电容充电器
+
+- 12 位 ADC，具有 8 个通道和可配置的警报阈值
+
+- 6 个多功能复用 GPIO
+
+- 芯片结温：-40 °C ~ 125 °C
+
+- 封装：QFN-60，7 mm × 7 mm，0.4 mm 间距
+
+## 框图
+
+![](../../../../../_assets/docs-chip/power_stone/p1/p1_docs/static/CVgqbZypMo36kHx5vpEcOhPAnMg.png)

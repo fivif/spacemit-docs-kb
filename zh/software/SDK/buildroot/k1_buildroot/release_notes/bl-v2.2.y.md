@@ -1,0 +1,178 @@
+---
+title: "Buildroot 2.2 更新说明"
+lang: zh
+category: "软件/SDK 与系统构建/Buildroot/K1 Buildroot/更新说明"
+source_page: https://www.spacemit.com/community/document/info?nodepath=software/SDK/buildroot/k1_buildroot/release_notes/bl-v2.2.y.md&lang=zh
+source_file: https://cdn-resource.spacemit.com/software/SDK/buildroot/docs-buildroot/zh/k1_buildroot/release_notes/bl-v2.2.y.md
+updated: "2026-08-20 18:54:31"
+---
+# Buildroot 2.2 更新说明
+
+## v2.2.11 更新说明
+
+发布日期：2026-8-20
+
+### 主要更新
+
+- 新增 FUSB301 Type-C 端口控制器支持
+- 新增 Realtek 8821cs WiFi 芯片支持
+- 新增 MIPI LCD icnl9951c 屏幕支持
+- 优化 GPU 启用 SUPPORT_DMA_TRANSFER 功能
+- 优化 LPDDR4 IO 参数以改善信号质量
+- 调整 LPDDR4/4x 频率点从 1600/3200 MTPS 替换为 1066/2133 MTPS
+- 调整 PMU 相关寄存器访问限制为仅 M 模式
+
+## v2.2.10 更新说明
+
+发布日期：2026-6-5
+
+### 主要更新
+
+- 新增 EMAC UIO 用户态网卡驱动支持
+- 新增 llama.cpp 推理引擎集成
+- 新增 RISC-V 用户态 zicbom 扩展支持
+- 修复 OpenSBI zero-size 地址溢出范围校验缺失
+- 新增 sc285sl sensor 1920x1080@90fps 4lane 模式支持
+- 更新gcc编译工具链
+- 修复 sc285sl sensor 画面闪烁问题
+- 修复 VPU 在 Linux 上 ffplay 偶发 streamon failed 的问题
+- 更新onnxruntime版本
+
+## v2.2.9 更新说明
+
+发布日期：2026-1-28
+
+### 主要更新
+
+- 新增 LPDDR3 支持，支持最高 1600MT/s
+- 新增 DDR 容量支持：768MB、1.5GB、3GB
+- 新增面板支持
+   - MIPI LCD jd9366tc
+   - MIPI DSI OLED co5300（支持 video 和 command 模式）
+   - MIPI LCD jd9366tcyh1095
+   - MIPI LCD icnl9951r
+- 新增 GigaDevice SPI NAND flash 支持
+- 更新 rtl8852bs 驱动
+- 新增 ES7243 Audio Codec 支持
+- 修复 aic8800 挂起期间设备忙的问题
+- 更新 impg-gpu-powervr、mesa3d、glmark2 仓库
+- 更新 k1x camera 仓库
+- 更新 k1x vpu 和 mpp 等多媒体相关库
+
+## v2.2.7 更新说明
+
+发布日期：2025-8-13
+
+对比 2.2.6，2.2.7 修复了若干问题，并提供了全新的内核分支 k1-bl-v2.2.y（基于 6.6.63），包含了每一笔修改。
+
+### 主要更新
+
+- 支持 AMD 显卡
+- 支持 声卡仅播放配置
+- 支持 ime 扩展，供用户程序使用
+- 修复 rtl8852bs 异常使用 mutex_unlock问题
+
+### 构建更新
+
+- 已将编译依赖打包到容器中，默认在容器中构建，如需仍在宿主机上构建，请配置环境变量 `export DIRECT_BUILD=1`。（注意切换容器中构建和宿主机构建时需要清理output目录）
+- 新增一组命令，方便同时开发多个方案，具体可执行 `make help` 查看。
+
+## v2.2.6 更新说明
+
+发布日期：2025-7-17
+
+对比 2.2.4，2.2.6 修复了若干问题，并提供了全新的内核分支 k1-bl-v2.2.y（基于 6.6.63），包含了每一笔修改。
+
+### 主要更新
+
+- 支持 小内存方案
+- 支持 spi nand 启动方案
+- 支持 MUSE-Pi-Pro 板级 led 模式为心跳模式
+- 支持 remoteproc VIRTIO_F_ACCESS_PLATFORM 功能
+- 修复 display 休眠唤醒老化卡死问题
+- 修复 emac 最大执行抖动延时
+- 修复 i2s 系统时钟分频器参数以降低 sysclk 抖动
+- 修复 camera 多个传感器无法同时通电的问题
+- 修复 husb239 部分适配器无法协商 12v 的问题
+- 修复 rtl8852bs rg_interface 锁未初始化的警告、休眠唤醒过程中 oops 问题
+
+## v2.2.4 更新说明
+
+发布日期：2025-6-25
+
+对比 2.2.2，2.2.4 修复了若干问题，并提供了全新的内核分支 k1-bl-v2.2.y（基于 6.6.63），包含了每一笔修改。
+
+### 主要更新
+
+- 支持 mmc 根据 cpufreq 调整 tx delaycode 以提高数据传输稳定性
+- 支持 RTL8211F 网卡的 WOL 唤醒功能
+- 支持 es8316/es8375 codec
+- 支持 i2s dsp_a/b 格式
+- 支持 MOTORCOMM PHY 驱动
+- 修复 uart cts 状态变化快无法产生中断问题
+- 修复 i2c 概率传输失败导致的重传问题
+- 修复 rtl8852bs 全局越界/slab 内存越界访问导致的系统 panic 问题
+- 修复 gpu IO 空间配置长度
+- 修复部分场景 MAC 地址随机的问题
+
+## v2.2.2 更新说明
+
+发布日期：2025-5-23
+
+对比 2.2.1，2.2.2 修复了若干问题，并提供了全新的内核分支 k1-bl-v2.2.y（基于 6.6.63），包含了每一笔修改。
+
+### 主要更新
+
+- 修复远程访问时远程登录界面崩溃的问题
+
+## v2.2.1 更新说明
+
+发布日期：2025-5-15
+
+对比 2.2，2.2.1 修复了若干问题，并提供了全新的内核分支 k1-bl-v2.2.y（基于 6.6.63），包含了每一笔修改。
+
+### 主要更新
+
+- 支持 Realtek 网络 phy 状态检测功能
+- 支持 drm yuv444 格式支持
+- 支持 通过共享 dmabuf 支持标准 v4l2
+- 支持 spi 高频时钟相位校准支持
+- 修复 v2d dmabuf 内存大于 4G 导致的越界问题
+- 修复 uart 部分场景波特率设置失败问题
+- 修复 chromium 在  bianbu cloud 平台崩溃问题
+- 修复 rtl8852bs wifi iperf 场景跑飞问题
+- 修复 aic8800 wifi 下载固件过程中数据传输异常问题
+
+## v2.2 更新说明
+
+发布日期：2025-4-23
+
+对比 2.2rc4，2.2 修复了若干问题，并提供了全新的内核分支 k1-bl-v2.2.y（基于 6.6.63），包含了每一笔修改。
+
+### 主要更新
+
+- 支持打印 esos 版本功能
+- 支持 HIDRAW 功能
+- 修复 usb 异步休眠唤醒时 hub 初始化时序异常问题
+- 修复部分 U盘识别兼容性问题
+- 修复 spi0/spi1 dma 传输异常问题
+
+## v2.2rc4 更新说明
+
+发布日期：2025-4-11
+
+对比 2.1，2.2rc4 修复了若干问题，并提供了全新的内核分支 k1-bl-v2.2.y（基于 6.6.63），包含了每一笔修改。
+
+### 主要更新
+
+- 支持 gpu dvfs 功能
+- 支持 RTL8125 和 RTL8168 模组
+- 支持 USB 网络共享设备功能
+- 支持配置 usb2.0 控制器 ddr 传输优先级
+- 修复 dtb 数据异常的问题
+- 修复 uart 驱动丢帧问题
+- 修复系统重启场景低概率显示异常问题
+- 修复部分场景 HDMI 频繁热插拔导致的显示异常问题
+- 修复休眠唤醒低概率 emac 异常和最后一个 cpu 进休眠异常问题
+- 修复 sdio 切换时钟过程中兼容性问题
+

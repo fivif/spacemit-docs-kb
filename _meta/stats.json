@@ -1,0 +1,215 @@
+{
+ "crawled_at": "2026-09-23 15:51:12",
+ "elapsed_sec": 831.5,
+ "out_dir": "C:\\Users\\zhuxuanjia\\Desktop\\知识库\\进迭时空知识库",
+ "docs_total": 1495,
+ "docs_by_lang": {
+  "zh": 805,
+  "en": 690
+ },
+ "assets_total": 4419,
+ "assets_files": 2792,
+ "http": {
+  "bytes": 3389614542,
+  "requests": 5917,
+  "retries": 587,
+  "fallbacks": 14
+ },
+ "failures": {
+  "docs": {
+   "courses/Linux/02_Linux_应用开发学习/code/readme.md": "empty body"
+  },
+  "images": {
+   "https://cdn-resource.spacemit.com/ai/docs-ai/en/static/llamaindex-demo.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/ai/docs-ai/zh/static/llamaindex-demo.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/14_connectivity/static/ir_rx.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/i2c_scl.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_fetch.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_mipi.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_rotat.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_v2d.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_v2dx00.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/hardware/eco/docs-product/en/k3_com260/static/TF-Card.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh5.0/static/ThS7bUHUZocepLxeJHPcO6pEnfl.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/ThS7bUHUZocepLxeJHPcO6pEnfl.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musebook_uart.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/bootchart.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musepaper_uart_card.jpeg": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musepaper_hdc.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musecard_hdc.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musepipro_hdc.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musebook_hdc.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musebook_hdc.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musepipro_uart.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/ThS7bUHUZocepLxeJHPcO6pEnfl.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musepaper_hdc.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musepi_hdc.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musepaper_uart_card.jpeg": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musepipro_hdc.png": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musepipro_uart.png": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/oh_stack.jpeg": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musepi_hdc.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/bootchart.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musecard_hdc.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musebook_uart.png": "HTTPError: HTTP Error 404: Not Found",
+   "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/oh_stack.jpeg": "HTTPError: HTTP Error 404: Not Found",
+   "https:/cdn-resource.spacemit.com/ai/docs-ai/en/solutions/aicomputer_solution/~/.cache/assets/inswapper/t1.jpg": "HTTPError: HTTP Error 404: Not Found",
+   "https:/cdn-resource.spacemit.com/ai/docs-ai/zh/solutions/aicomputer_solution/~/.cache/assets/inswapper/t1.jpg": "HTTPError: HTTP Error 404: Not Found",
+   "https:/cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k3/04-AI与算法/4.2-视觉/~/.cache/assets/image/003_face0.png": "HTTPError: HTTP Error 404: Not Found",
+   "https:/cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k3/04-AI与算法/4.2-视觉/~/.cache/assets/image/005_kitten.jpg": "HTTPError: HTTP Error 404: Not Found",
+   "https:/cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k3/04-AI与算法/4.2-视觉/~/.cache/assets/image/006_test.jpg": "HTTPError: HTTP Error 404: Not Found",
+   "https:/cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k3/04-AI与算法/4.2-视觉/~/.cache/assets/image/007_gesture.jpg": "HTTPError: HTTP Error 404: Not Found",
+   "https:/cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k3/04-AI与算法/4.2-视觉/~/.cache/assets/image/003_face0.png": "URLError: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
+   "https:/cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k3/04-AI与算法/4.2-视觉/~/.cache/assets/image/005_kitten.jpg": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+   "https:/cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k3/04-AI与算法/4.2-视觉/~/.cache/assets/image/006_test.jpg": "HTTPError: HTTP Error 404: Not Found",
+   "https:/cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k3/04-AI与算法/4.2-视觉/~/.cache/assets/image/007_gesture.jpg": "HTTPError: HTTP Error 404: Not Found"
+  },
+  "unresolved_refs": {
+   "software/SDK/buildroot/k3_buildroot/graphics/panel_porting_guide.md": [
+    "static/diaplay-kms.jpg"
+   ],
+   "software/SDK/openharmony/k1_oh5.0/4_K1_OH5.0_customization.md": [
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh5.0/static/ThS7bUHUZocepLxeJHPcO6pEnfl.png"
+   ],
+   "software/SDK/openharmony/k1_oh6.1/5_K1_OH6.1_customization.md": [
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/ThS7bUHUZocepLxeJHPcO6pEnfl.png"
+   ],
+   "software/SDK/openharmony/k1_oh6.1/6_K1_OH6.1_debugging.md": [
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/bootchart.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musebook_hdc.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musebook_uart.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musecard_hdc.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musepaper_hdc.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musepaper_uart_card.jpeg",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musepi_hdc.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musepipro_hdc.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/musepipro_uart.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k1_oh6.1/static/oh_stack.jpeg"
+   ],
+   "software/SDK/openharmony/k3_oh6.1/5_K3_OH6.1_customization.md": [
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/ThS7bUHUZocepLxeJHPcO6pEnfl.png"
+   ],
+   "software/SDK/openharmony/k3_oh6.1/6_K3_OH6.1_debugging.md": [
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/bootchart.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musebook_hdc.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musebook_uart.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musecard_hdc.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musepaper_hdc.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musepaper_uart_card.jpeg",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musepi_hdc.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musepipro_hdc.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/musepipro_uart.png",
+    "https://cdn-resource.spacemit.com/software/SDK/openharmony/docs-openharmony/zh/k3_oh6.1/static/oh_stack.jpeg"
+   ],
+   "ai/application_tools/llamaindex.md": [
+    "https://cdn-resource.spacemit.com/ai/docs-ai/en/static/llamaindex-demo.png"
+   ],
+   "courses/RISC-V/02_RISC-V扩展指令介绍及实践/08_矩阵乘法优化介绍案例.md": [
+    "images/chap_08/未命名绘图-elen8.jpg"
+   ],
+   "courses/Linux/02_Linux_应用开发学习/01_开发环境搭建.md": [
+    "https://cdn-resource.spacemit.com/courses/docs-courses/zh/Linux/02_Linux_应用开发学习/images/1-2.3.1-gcc-g++-version.jpg"
+   ],
+   "courses/Linux/02_Linux_应用开发学习/04_C++语言基础.md": [
+    "images/4-4-1-1-if-else.png",
+    "images/4-4-1-2-switch.png",
+    "images/4-4-2-1-for.png",
+    "images/4-4-2-2-nested-for.png",
+    "images/4-4-2-3-while.png",
+    "images/4-4-2-4-do-while.png",
+    "images/4-4-3-jump.png",
+    "images/4-5-2-1-class.png",
+    "images/4-5-2-2-run.png",
+    "images/4-5-3-1-static_polymorphism.png",
+    "images/4-5-3-2-dynamic_polymorphism.png",
+    "images/4-6-1-1-lambda.png",
+    "images/4-6-1-2-capture-list.png",
+    "images/4-6-1-3-auto-lambda.png",
+    "images/4-6-2-1-unique-pointer.png",
+    "images/4-6-2-2-shared-pointer.png",
+    "images/4-6-2-3-weak-pointer.png",
+    "images/4-6-3-1-auto.png",
+    "images/4-6-4-1-nullptr.png",
+    "images/4-6-5-1-constexpr.png",
+    "images/4-6-6-1-foreach.png",
+    "images/4-6-7-1-thread.png",
+    "images/4-7-1-1-vector.png",
+    "images/4-7-1-10-map-example.png",
+    "images/4-7-1-11-unordered-set.png",
+    "images/4-7-1-12-unordered-set-example.png",
+    "images/4-7-1-13-unordered-map.png",
+    "images/4-7-1-14-unordered-map-example.png",
+    "images/4-7-1-2-vector-example.png",
+    "images/4-7-1-3-deque.png",
+    "images/4-7-1-4-deque-example.png",
+    "images/4-7-1-5-list.png",
+    "images/4-7-1-6-list-example.png",
+    "images/4-7-1-7-set.png",
+    "images/4-7-1-8-set-example.png",
+    "images/4-7-1-9-map.png",
+    "images/4-8-1-1-basic-exception.png",
+    "images/4-8-2-1-exception.png",
+    "images/4-8-2-2-exception.png",
+    "images/4-8-3-1-multiple-exception.png",
+    "images/4-8-4-1-exception-propagation.png",
+    "images/4-8-4-2-exception-propagation-example.png",
+    "images/4-8-5-1-custom-exception-example.png"
+   ],
+   "courses/AI/01_AI基础学习及实践/02_C++环境搭建.md": [
+    "./images/image-1.png",
+    "./images/image-10.png",
+    "./images/image-11.png",
+    "./images/image-12.png",
+    "./images/image-13.png",
+    "./images/image-2.png",
+    "./images/image-3.png",
+    "./images/image-4.png",
+    "./images/image-5.png",
+    "./images/image-6.png",
+    "./images/image-7.png",
+    "./images/image-8.png",
+    "./images/image-9.png",
+    "./images/image.png"
+   ],
+   "hardware/key_stone/k3/k3_docs/k3_usermanual/10_image.md": [
+    "https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_fetch.png",
+    "https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_mipi.png",
+    "https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_rotat.png",
+    "https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_v2d.png",
+    "https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/static/k3_v2dx00.png"
+   ],
+   "hardware/key_stone/k3/k3_docs/k3_usermanual/14_connectivity/i2c.md": [
+    "https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/static/i2c_scl.png"
+   ],
+   "hardware/key_stone/k3/k3_docs/k3_usermanual/14_connectivity/ir_rx.md": [
+    "https://cdn-resource.spacemit.com/hardware/docs-chip/en/key_stone/k3/k3_docs/k3_usermanual/14_connectivity/static/ir_rx.png"
+   ],
+   "hardware/eco/k3_com260/com260_user_guide.md": [
+    "https://cdn-resource.spacemit.com/hardware/eco/docs-product/en/k3_com260/static/TF-Card.png"
+   ],
+   "software/SDK/buildroot/k1_buildroot/kernel_debug/dma_buf_debug_guide.md": [
+    "https://cdn-resource.spacemit.com/software/SDK/buildroot/docs-buildroot/en/k1_buildroot/kernel_debug/<static/dma_buf_interaction_en.png>"
+   ]
+  }
+ },
+ "image_lang_fixed": {
+  "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr2.png": "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr2.png",
+  "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe2.png": "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe2.png",
+  "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr4.png": "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr4.png",
+  "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/tts2.png": "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/tts2.png",
+  "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe1.png": "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe1.png",
+  "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr1.png": "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr1.png",
+  "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/tts1.png": "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/tts1.png",
+  "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr3.png": "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/ocr3.png",
+  "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe3.png": "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe3.png",
+  "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe5.png": "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe5.png",
+  "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/tts3.png": "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.2_Human-Robot_Interaction/images/tts3.png",
+  "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/en/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe4.png": "https://cdn-resource.spacemit.com/software/SDK/ros/docs-ros/zh/k1/06_Robot_development/6.4_Robot_Application_Module/6.4.1_Robot_Perception/images/yoloe4.png"
+ },
+ "refetch": {
+  "recovered": 60,
+  "still_missing": 43,
+  "md_files_updated": 1,
+  "refs_replaced": 1
+ }
+}
